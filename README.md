@@ -5,7 +5,7 @@
 
 ## 当前结论
 
-建议把项目建成一个公开 GitHub 仓库，采用 **Git 中的结构化数据作为唯一事实源 + GitHub Actions 准实时同步 + React/Vite 静态网站 + GitHub Pages 发布** 的方案。正式站沿用已验证的方案 E 原型，避免为 Astro 重写交互与视觉实现。
+项目已经建成公开 GitHub 仓库，采用 **Git 中的结构化数据作为唯一事实源 + GitHub Actions 准实时同步 + React/Vite 静态网站 + GitHub Pages 发布** 的方案。正式站沿用已验证的方案 E 原型。
 
 它包含三个彼此分开的层次：
 
@@ -40,12 +40,15 @@
 - [横纵分析研究报告](reports/GitHub-Star-Vault-横纵分析报告.md)：完整研究叙事、竞品比较和未来推演。
 - [方案 E 可交互原型](app/README.md)：以“开发者杂志”为长期视觉方向，覆盖首页、项目库、新收藏收件箱、学习工作台、仓库详情、关于页和完整检索交互。
 - [视觉验收记录](app/design-qa.md)：方案 E 参考稿与当前实现的同尺寸对照和验收结论。
+- [上线运行与两周观察](docs/06-operations-and-observation.md)：线上入口、运行方式、指标口径和 2026-09-19 复盘计划。
 - [五个视觉方向](design-directions/README.md)：工业索引台、开源年鉴、瑞士技术目录、开源实验手册和开发者杂志，共十张 GPT 生成的首页与项目库概念图。
 - `output/pdf/GitHub-Star-Vault-横纵分析报告.pdf`：研究报告的 PDF 版。
 
 ## 当前推荐设计
 
 正式网站位于 `app/`。它以方案 E“开发者杂志”为视觉基线，读取同步脚本生成的完整公开 Stars 目录，并将 GitHub 事实、人工策展与派生状态分开展示。
+
+线上地址：<https://jiapeiyang.github.io/github-star-vault/>
 
 ```bash
 python3 scripts/verify_data.py
@@ -60,9 +63,9 @@ npm run dev
 
 **GitHub Star Vault 是一个以 GitHub Stars 为入口、以个人判断为核心、以学习行动为结果的版本化开源项目知识库。**
 
-## 建议先做什么
+## 第一版验证范围
 
-第一版只验证五件事：
+第一版已经完成下面五条主链路，接下来通过两周真实使用验证整理习惯：
 
 1. 一次性导入全部公开 Stars，历史库存进入 `imported`。
 2. 后续新增 Star 进入 `inbox`，取消 Star 退出默认视图。
@@ -70,7 +73,7 @@ npm run dev
 4. 网站能搜索个人备注，并按分类、类型、语言、学习阶段筛选。
 5. 新收藏 7 天内整理率能够从数据中算出来。
 
-完成这五件事后，再根据真实使用决定是否加入 AI 分类、语义搜索、浏览器扩展或后台管理。
+两周观察结束后，再根据真实使用决定是否加入 AI 分类、语义搜索、浏览器扩展或后台管理。
 
 ## 当前实施状态
 
@@ -78,7 +81,8 @@ npm run dev
 - 已导入当前 284 条公开 Stars，并建立 6 条正式策展内容。
 - 已完成 README 索引、前端目录生成和方案 E 真实数据接入。
 - 已完成 Python、前端领域函数、静态打包和 GitHub Pages 子路径验证。
-- GitHub Actions 和 Pages 工作流已经写入，远程执行结果见仓库 Actions。
+- GitHub Actions 已完成 push、手动新增 Star、取消 Star 三类远程运行验收，GitHub Pages 已公开发布。
+- 两周观察已启动，跟踪见 [Issue #1](https://github.com/jiapeiyang/github-star-vault/issues/1)。
 
 ## 我们没有防什么
 
@@ -91,7 +95,7 @@ npm run dev
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-04T19:27:45Z` · 当前公开 Stars：**284** · 已人工整理：**6**
+> 最近成功检查：`2026-09-04T19:33:51Z` · 当前公开 Stars：**284** · 已人工整理：**6**
 
 ### 学习阶段
 
@@ -123,10 +127,10 @@ npm run dev
 
 ### 待分类（278）
 
-- [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) — AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 \| Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenp…
+- [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) — AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 \| Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenpl…
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 - [yzfly/awesome-skills-zh](https://github.com/yzfly/awesome-skills-zh) — 🚀 精选 Claude Skills、Agent Skills、LLM Skills 及 AI 智能体开发资源列表（中文）。A curated list of awesome Claude / Agent / LLM Skills.
-- [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) — Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit
+- [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) — Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&amp;Toolkit
 - [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
 - [deusyu/translate-book](https://github.com/deusyu/translate-book) — Agent skill for Codex, Claude Code, and OpenClaw that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents.
 - [datawhalechina/Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub) — AI Agent 学习路线与资料库收集
@@ -159,7 +163,7 @@ npm run dev
 - [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — 📄 Configuration files that enhance Cursor AI editor experience with custom rules and behaviors
 - [leookun/cursor-byok](https://github.com/leookun/cursor-byok) — cursor-byok is a local implementation of Cursor's backend
 - [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) — Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + S…
-- [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) — Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command.
+- [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) — Extract any website’s design system into tokens in seconds: logo, colors, typography, borders &amp; more. One command.
 - [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) — Prompt as Code \| GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中
 - [tailscale/tailscale](https://github.com/tailscale/tailscale) — The easiest, most secure way to use WireGuard and 2FA.
 - [deepcoldy/botmux](https://github.com/deepcoldy/botmux) — Bridge Feishu/Lark to AI coding CLIs — Claude Code, Codex, Gemini, OpenCode… every DM, group or topic spawns its own live-streaming CLI session
@@ -169,7 +173,7 @@ npm run dev
 - [geeklee/srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) — 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。
 - [YouMind-OpenLab/awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) — 🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model…
 - [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — The design language that makes your AI harness better at design.
-- [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) — Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专…
+- [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) — Professional Antigravity Account Manager &amp; Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专…
 - [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) — The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude…
 - [SMNETSTUDIO/WeChat-AI](https://github.com/SMNETSTUDIO/WeChat-AI) — WeChat AI - 自托管微信角色扮演对话服务
 - [xxlllq/system_architect](https://github.com/xxlllq/system_architect) — :100: 2026年系统架构设计师（软考高级）备考资料。
@@ -179,7 +183,7 @@ npm run dev
 - [DingTalk-Real-AI/dingtalk-workspace-cli](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli) — DingTalk Workspace is an officially open-sourced cross-platform CLI tool from DingTalk. It unifies DingTalk’s full suite of product capabilities into…
 - [block/buzz](https://github.com/block/buzz) — A hive mind communication platform
 - [binaricat/Netcatty](https://github.com/binaricat/Netcatty) — SSH workspace, SFTP, and terminals in one
-- [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) — 1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The…
+- [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) — 1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group &amp; equipment data, and step-by-step instructions in 6 languages. The…
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
 - [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api) — Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。
 - [rosemarycox5334-debug/PA_Agent](https://github.com/rosemarycox5334-debug/PA_Agent) — 暂无 GitHub 描述。
@@ -206,9 +210,9 @@ npm run dev
 - [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — Official, Anthropic-managed directory of high quality Claude Code Plugins.
 - [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational a…
 - [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decis…
-- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。\| AI-era Berkshire: a value investing research framework built for Clau…
+- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。\| AI-era Berkshire: a value investing research framework built for Claud…
 - [voocel/ainovel-cli](https://github.com/voocel/ainovel-cli) — ✨多agent实现全自动AI小说生成
-- [obra/superpowers](https://github.com/obra/superpowers) — An agentic skills framework & software development methodology that works.
+- [obra/superpowers](https://github.com/obra/superpowers) — An agentic skills framework &amp; software development methodology that works.
 - [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on dema…
 - [Waishnav/devspace](https://github.com/Waishnav/devspace) — Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — Production-grade engineering skills for AI coding agents.
@@ -258,13 +262,13 @@ npm run dev
 - [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync) — Synchronize Codex session provider metadata across rollout files and SQLite state.
 - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
 - [opendatalab/MinerU](https://github.com/opendatalab/MinerU) — Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.
-- [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works wi…
-- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) — A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini…
+- [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — Graphs that teach &gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works wi…
+- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) — A unified AI model hub for aggregation &amp; distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini…
 - [zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders) — AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influe…
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
 - [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) — 🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orche…
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) — Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemi…
-- [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) — 数字生命卡兹克开源的 AI Skills 合集 \| Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents
+- [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) — 数字生命卡兹克开源的 AI Skills 合集 \| Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer &amp; more — Claude Code, Codex &amp; 40+ agents
 - [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) — GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a…
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — The agent that grows with you
 - [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) — ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.
@@ -298,7 +302,7 @@ npm run dev
 - [youngwind/blog](https://github.com/youngwind/blog) — 梁少峰的个人博客
 - [fouber/blog](https://github.com/fouber/blog) — 没事写写文章，喜欢的话请点star，想订阅点watch，千万别fork！
 - [ustbhuangyi/vue-analysis](https://github.com/ustbhuangyi/vue-analysis) — :thumbsup: Vue.js 源码分析
-- [jawil/blog](https://github.com/jawil/blog) — Too young, too simple. Sometimes, naive & stupid 🐌
+- [jawil/blog](https://github.com/jawil/blog) — Too young, too simple. Sometimes, naive &amp; stupid 🐌
 - [Advanced-Frontend/Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question) — 我是依扬（木易杨），公众号「高级前端进阶」作者，每天搞定一道前端大厂面试题，祝大家天天进步，一年后会看到不一样的自己。
 - [stephentian/33-js-concepts](https://github.com/stephentian/33-js-concepts) — :scroll: 每个 JavaScript 工程师都应懂的33个概念 @leonardomso
 - [lihongxun945/myblog](https://github.com/lihongxun945/myblog) — 言川的博客-前端工程师的笔记
@@ -309,7 +313,7 @@ npm run dev
 - [phobal/ivideo](https://github.com/phobal/ivideo) — 一个可以观看国内主流视频平台所有视频的客户端（Mac、Windows、Linux） A client that can watch video of domestic(China) mainstream video platform
 - [chenshenhai/koa2-note](https://github.com/chenshenhai/koa2-note) — 《Koa2进阶学习笔记》已完结🎄🎄🎄
 - [ProtoTeam/blog](https://github.com/ProtoTeam/blog) — 蚂蚁数据体验技术团队的文章仓库
-- [sudheerj/reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions) — List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!
+- [sudheerj/reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions) — List of top 500 ReactJS Interview Questions &amp; Answers....Coding exercise questions are coming soon!!
 - [icepy/Front-End-Develop-Guide](https://github.com/icepy/Front-End-Develop-Guide) — 💰 Awesome The Front End Develop Guide：这份指南汇集了前端开发所使用语言的主流学习资源，并以开发者的视角进行整理编排而成。
 - [webpack-china/awesome-webpack-cn](https://github.com/webpack-china/awesome-webpack-cn) — [印记中文](https://docschina.org/) - webpack 优秀中文文章
 - [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) — :trollface:Git的奇技淫巧
@@ -384,15 +388,15 @@ npm run dev
 - [SortableJS/Sortable](https://github.com/SortableJS/Sortable) — Reorderable drag-and-drop lists for modern browsers and touch devices. No jQuery or framework required.
 - [SortableJS/Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) — Vue drag-and-drop component based on Sortable.js
 - [sagalbot/vue-sortable](https://github.com/sagalbot/vue-sortable) — A lightweight directive for reorderable drag-and-drop lists using RubaXa/Sortable
-- [yeasy/docker_practice](https://github.com/yeasy/docker_practice) — 最新Docker容器技术，从真实案例中学习最佳实践！\| Learn and understand Docker&Container technologies, with real DevOps practice!
+- [yeasy/docker_practice](https://github.com/yeasy/docker_practice) — 最新Docker容器技术，从真实案例中学习最佳实践！\| Learn and understand Docker&amp;Container technologies, with real DevOps practice!
 - [hilongjw/vue-progressbar](https://github.com/hilongjw/vue-progressbar) — A lightweight progress bar for vue
-- [eggjs/egg](https://github.com/eggjs/egg) — 🥚🥚🥚🥚 Born to build better enterprise frameworks and apps with Node.js & Koa. https://307.run/eggcode
+- [eggjs/egg](https://github.com/eggjs/egg) — 🥚🥚🥚🥚 Born to build better enterprise frameworks and apps with Node.js &amp; Koa. https://307.run/eggcode
 - [koajs/jwt](https://github.com/koajs/jwt) — Koa middleware for validating JSON Web Tokens
 - [zemirco/json2csv](https://github.com/zemirco/json2csv) — Convert json to csv with column titles
 - [dominhhai/koa-log4js](https://github.com/dominhhai/koa-log4js) — log4js-node supports Koa-middleware
 - [STRML/node-xlsx-writestream](https://github.com/STRML/node-xlsx-writestream) — Simple XLSX writer for Node.js.
 - [functionscope/Node-Excel-Export](https://github.com/functionscope/Node-Excel-Export) — A simple node.js module for exporting data set to Excel xlsx file.
-- [mgcrea/node-xlsx](https://github.com/mgcrea/node-xlsx) — NodeJS excel file parser & builder
+- [mgcrea/node-xlsx](https://github.com/mgcrea/node-xlsx) — NodeJS excel file parser &amp; builder
 - [ustbhuangyi/better-scroll](https://github.com/ustbhuangyi/better-scroll) — :scroll: inspired by iscroll, and it supports more features and has a better scroll perfermance
 - [sequelize/sequelize](https://github.com/sequelize/sequelize) — Feature-rich ORM for modern Node.js and TypeScript, it supports PostgreSQL (with JSON and JSONB support), MySQL, MariaDB, SQLite, MS SQL Server, Snow…
 - [request/request](https://github.com/request/request) — 🏊🏾 Simplified HTTP request client.
@@ -400,6 +404,6 @@ npm run dev
 - [ElemeFE/node-interview](https://github.com/ElemeFE/node-interview) — How to pass the Node.js interview of ElemeFE.
 - [koajs/koa](https://github.com/koajs/koa) — Expressive middleware for node.js using ES2017 async functions
 - [xwartz/wechat-app-demo](https://github.com/xwartz/wechat-app-demo) — 📱微信小程序 demo
-- [lessfish/underscore-analysis](https://github.com/lessfish/underscore-analysis) — underscore-1.8.3.js 源码解读 & 系列文章（完）
+- [lessfish/underscore-analysis](https://github.com/lessfish/underscore-analysis) — underscore-1.8.3.js 源码解读 &amp; 系列文章（完）
 
 <!-- STAR_VAULT:CATALOG:END -->

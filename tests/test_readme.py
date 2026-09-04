@@ -25,7 +25,10 @@ class ReadmeTests(unittest.TestCase):
             replace_generated_section(f"{START}\nwithout end", f"{START}\nnew\n{END}")
 
     def test_markdown_text_is_single_line_and_escaped(self):
-        self.assertEqual("a \\| b", clean_text("a\n| b"))
+        self.assertEqual("a \\| &lt;b&gt; &amp; c", clean_text("a\n| <b> & c"))
+
+    def test_truncates_before_html_escaping(self):
+        self.assertEqual("a" * 148 + "&lt;…", clean_text("a" * 148 + "<&x", limit=150))
 
 
 if __name__ == "__main__":

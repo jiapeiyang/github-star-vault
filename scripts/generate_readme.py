@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import html
 import re
 from pathlib import Path
 
@@ -13,8 +14,9 @@ END = "<!-- STAR_VAULT:CATALOG:END -->"
 
 
 def clean_text(value: str, limit: int = 150) -> str:
-    text = re.sub(r"\s+", " ", value).strip().replace("|", "\\|")
-    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+    text = re.sub(r"\s+", " ", value).strip()
+    text = text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+    return html.escape(text, quote=False).replace("|", "\\|")
 
 
 def render(catalog: dict) -> str:

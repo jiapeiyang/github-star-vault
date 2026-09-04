@@ -1,9 +1,10 @@
 # GitHub Star Vault MVP 开发计划
 
-> 版本：v1.0
+> 版本：v1.1
 > 制定日期：2026-09-05
 > 适用范围：从已确认的方案 E 原型推进到可持续同步、可人工策展、可公开访问的 MVP
 > 文档优先级：本计划与 `docs/03-architecture-and-data-model.md`、`docs/04-roadmap-and-acceptance.md` 冲突时，以本计划为准
+> 实施状态：M0～M4 和 M5 发布验收已于 2026-09-05 完成；两周使用观察已启动，计划于 2026-09-19 复盘
 
 ## 1. 交付目标
 
@@ -356,8 +357,8 @@ GitHub 请求：
 - [x] 创建 `config/`、`content/repos/`、`data/`、`scripts/`、`tests/fixtures/github/`。
 - [x] 写入四份 v1 枚举与项目配置。
 - [x] 在 `.gitignore` 中忽略临时文件、构建目录、浏览器会话和本地令牌。
-- [ ] 在 `app/src/generated` 或组件中删除 11 条演示数据的事实源地位；演示数据仅作为 fixture 保留。
-- [ ] 配置 GitHub Pages 的 Vite `base`，仓库名变化时只修改一个配置值。
+- [x] 在 `app/src/generated` 或组件中删除 11 条演示数据的事实源地位；演示数据仅作为 fixture 保留。
+- [x] 配置 GitHub Pages 的 Vite `base`，仓库名变化时只修改一个配置值。
 
 验收：
 
@@ -375,27 +376,27 @@ npm --prefix app run test:sites
 
 任务：
 
-- [ ] 实现 `scripts/sync_stars.py` 的网络客户端、Link 分页和字段规范化。
-- [ ] 支持 `--username`、`--output`、`--fixture-dir`、`--now`、`--allow-empty`。
-- [ ] 实现首次导入、后续新增、保留、改名、missing 和重新 Star 对账。
-- [ ] 实现临时文件写入与原子替换。
-- [ ] 实现 `scripts/verify_data.py`。
-- [ ] 保存多页、改名、missing、空集合和坏响应 fixtures。
-- [ ] 使用固定时间参数保证 fixture 测试可重复。
-- [ ] 运行一次真实全量导入并记录快照时间。
+- [x] 实现 `scripts/sync_stars.py` 的网络客户端、Link 分页和字段规范化。
+- [x] 支持 `--username`、`--output`、`--fixture-dir`、`--now`、`--allow-empty`。
+- [x] 实现首次导入、后续新增、保留、改名、missing 和重新 Star 对账。
+- [x] 实现临时文件写入与原子替换。
+- [x] 实现 `scripts/verify_data.py`。
+- [x] 保存多页、改名、missing、空集合和坏响应 fixtures。
+- [x] 使用固定时间参数保证 fixture 测试可重复。
+- [x] 运行一次真实全量导入并记录快照时间。
 
 必须测试：
 
-- [ ] 多页完整合并，页数动态变化。
-- [ ] 第二页失败不修改旧文件。
-- [ ] 旧集合非空而新集合为零时拒绝写入。
-- [ ] 相同 `repo_id` 改名后仍为一条记录。
-- [ ] 新项目被标记为非初始导入。
-- [ ] 旧项目缺失时转为 `missing`，不被删除。
-- [ ] 重新 Star 后恢复 `starred`，人工内容关联不变。
-- [ ] fork 和上游 archived 只标记，不自动隐藏数据文件。
-- [ ] 相同输入重复运行不产生字节差异。
-- [ ] 所有 `source_status=starred` 的记录都是 public。
+- [x] 多页完整合并，页数动态变化。
+- [x] 第二页失败不修改旧文件。
+- [x] 旧集合非空而新集合为零时拒绝写入。
+- [x] 相同 `repo_id` 改名后仍为一条记录。
+- [x] 新项目被标记为非初始导入。
+- [x] 旧项目缺失时转为 `missing`，不被删除。
+- [x] 重新 Star 后恢复 `starred`，人工内容关联不变。
+- [x] fork 和上游 archived 只标记，不自动隐藏数据文件。
+- [x] 相同输入重复运行不产生字节差异。
+- [x] 所有 `source_status=starred` 的记录都是 public。
 
 验收命令：
 
@@ -403,8 +404,12 @@ npm --prefix app run test:sites
 python3 -m unittest discover -s tests -p 'test_*.py'
 python3 scripts/sync_stars.py --username jiapeiyang
 python3 scripts/verify_data.py data/repositories.json
-python3 scripts/sync_stars.py --username jiapeiyang --fixture-dir tests/fixtures/github/stable
-git diff --exit-code data/repositories.json
+fixture_workspace="$(mktemp -d)"
+fixture_output="$fixture_workspace/repositories.json"
+python3 scripts/sync_stars.py --username jiapeiyang --fixture-dir tests/fixtures/github/stable --output "$fixture_output" --now 2026-09-05T00:00:00Z
+cp "$fixture_output" "$fixture_output.before"
+python3 scripts/sync_stars.py --username jiapeiyang --fixture-dir tests/fixtures/github/stable --output "$fixture_output" --now 2026-09-05T00:00:00Z
+cmp "$fixture_output.before" "$fixture_output"
 ```
 
 最后两条使用固定 fixture 验证幂等性；不能用变化中的在线数据判断“无 diff”。
@@ -415,27 +420,27 @@ git diff --exit-code data/repositories.json
 
 任务：
 
-- [ ] 实现 TOML frontmatter + Markdown 正文解析。
-- [ ] 实现配置枚举和人工文件校验。
-- [ ] 实现默认阶段推导。
-- [ ] 实现 GitHub 事实与人工内容按 `repo_id` 合并。
-- [ ] 生成前端 `catalog.json` 和 `build-meta.json`。
-- [ ] 在 README 中加入唯一生成标记：`STAR_VAULT:CATALOG:START/END`。
-- [ ] 生成器只替换标记内部内容，标记外字节保持不变。
-- [ ] 人工整理至少 5 个真实项目，覆盖 AI、前端、资料合集、上游归档和仅参考。
-- [ ] 为收件箱表单实现“复制策展 Markdown”，不显示虚假的保存成功。
+- [x] 实现 TOML frontmatter + Markdown 正文解析。
+- [x] 实现配置枚举和人工文件校验。
+- [x] 实现默认阶段推导。
+- [x] 实现 GitHub 事实与人工内容按 `repo_id` 合并。
+- [x] 生成前端 `catalog.json` 和 `build-meta.json`。
+- [x] 在 README 中加入唯一生成标记：`STAR_VAULT:CATALOG:START/END`。
+- [x] 生成器只替换标记内部内容，标记外字节保持不变。
+- [x] 人工整理至少 5 个真实项目，覆盖 AI、前端、资料合集、上游归档和仅参考。
+- [x] 为收件箱表单实现“复制策展 Markdown”，不显示虚假的保存成功。
 
 必须测试：
 
-- [ ] 同步前后 `content/` 文件字节不变。
-- [ ] 文件名、frontmatter `repo_id` 和事实主键一致。
-- [ ] 非法分类、类型或阶段构建失败，并指出文件路径。
-- [ ] 超过 5 个标签构建失败。
-- [ ] `learned` 没有非占位结论时构建失败。
-- [ ] `related` 指向不存在的仓库时构建失败。
-- [ ] 仓库改名后仍关联原人工文件。
-- [ ] README 标记外内容不变。
-- [ ] GitHub 文本中的换行、竖线和 HTML 字符不会破坏 Markdown 或页面。
+- [x] 同步前后 `content/` 文件字节不变。
+- [x] 文件名、frontmatter `repo_id` 和事实主键一致。
+- [x] 非法分类、类型或阶段构建失败，并指出文件路径。
+- [x] 超过 5 个标签构建失败。
+- [x] `learned` 没有非占位结论时构建失败。
+- [x] `related` 指向不存在的仓库时构建失败。
+- [x] 仓库改名后仍关联原人工文件。
+- [x] README 标记外内容不变。
+- [x] GitHub 文本中的换行、竖线和 HTML 字符不会破坏 Markdown 或页面。
 
 验收命令：
 
@@ -454,20 +459,20 @@ git diff --check
 
 任务：
 
-- [ ] 将页面数据入口统一改为 `catalog.json`，删除组件内事实 mock。
-- [ ] 把当前大组件按 `views/`、`components/` 和 `domain/` 拆分，宿主只保留接线。
-- [ ] 首页接入真实统计、最近新增、继续学习、最近学习和随机重访。
-- [ ] 项目库支持搜索名称、owner、描述、Topics、个人标签、判断和结论。
-- [ ] 支持分类、类型、语言、阶段、标签、上游归档、个人归档和 source status 筛选。
-- [ ] 支持最近收藏、最近更新和 Stars 数排序。
-- [ ] 筛选状态写入 URL，并正确响应前进/后退。
-- [ ] 仓库详情完整区分 GitHub 事实、个人内容和派生状态。
-- [ ] 收件箱保留策展模板生成与复制，不执行远端写入。
-- [ ] 学习工作台展示真实阶段分组；公开站不提供虚假持久化操作。
-- [ ] 关于页读取真实构建元数据和数据边界。
-- [ ] 上游 archived、个人 archived 和 missing 使用不同标签。
-- [ ] 处理加载、空结果、数据加载失败和 404 状态。
-- [ ] 保持方案 E：黑白、单一洋红、编辑分栏、Phosphor 图标和真实头像。
+- [x] 将页面数据入口统一改为 `catalog.json`，删除组件内事实 mock。
+- [x] 把当前大组件按 `views/`、`components/` 和 `domain/` 拆分，宿主只保留接线。
+- [x] 首页接入真实统计、最近新增、继续学习、最近学习和随机重访。
+- [x] 项目库支持搜索名称、owner、描述、Topics、个人标签、判断和结论。
+- [x] 支持分类、类型、语言、阶段、标签、上游归档、个人归档和 source status 筛选。
+- [x] 支持最近收藏、最近更新和 Stars 数排序。
+- [x] 筛选状态写入 URL，并正确响应前进/后退。
+- [x] 仓库详情完整区分 GitHub 事实、个人内容和派生状态。
+- [x] 收件箱保留策展模板生成与复制，不执行远端写入。
+- [x] 学习工作台展示真实阶段分组；公开站不提供虚假持久化操作。
+- [x] 关于页读取真实构建元数据和数据边界。
+- [x] 上游 archived、个人 archived 和 missing 使用不同标签。
+- [x] 处理加载、空结果、数据加载失败和 404 状态。
+- [x] 保持方案 E：黑白、单一洋红、编辑分栏、Phosphor 图标和真实头像。
 
 前端模块职责：
 
@@ -481,13 +486,13 @@ git diff --check
 
 必要测试：
 
-- [ ] 搜索个人备注能找到仓库。
-- [ ] 分类 + 阶段 + 语言组合筛选正确。
-- [ ] missing 和个人归档默认隐藏。
-- [ ] 上游归档默认可见并有标识。
-- [ ] 三种排序稳定，值相同时用 `repo_id` 收尾。
-- [ ] URL 可恢复状态，浏览器返回恢复上一个筛选。
-- [ ] 详情通过 `repo_id` 或稳定 slug 打开，改名后旧人工内容仍存在。
+- [x] 搜索个人备注能找到仓库。
+- [x] 分类 + 阶段 + 语言组合筛选正确。
+- [x] missing 和个人归档默认隐藏。
+- [x] 上游归档默认可见并有标识。
+- [x] 三种排序稳定，值相同时用 `repo_id` 收尾。
+- [x] URL 可恢复状态，浏览器返回恢复上一个筛选。
+- [x] 详情通过 `repo_id` 或稳定 slug 打开，改名后旧人工内容仍存在。
 
 浏览器验收：
 
@@ -546,28 +551,28 @@ checkout
 
 必须验证：
 
-- [ ] 手动 Action 能完整读取所有分页。
-- [ ] 新 Star 在手动同步后进入 `inbox`。
-- [ ] 新增人工文件后重新同步，内容字节不变。
-- [ ] fixture 中 missing 项目退出默认视图，人工内容仍可找回。
-- [ ] 构建失败不会替换当前 Pages。
-- [ ] 没有变化时不产生空 commit。
-- [ ] 构建产物和 Action artifact 中没有令牌或私有仓库数据。
-- [ ] Pages 子路径下资源、刷新和 URL 查询参数可用。
+- [x] 手动 Action 能完整读取所有分页。
+- [x] 新 Star 在手动同步后进入 `inbox`。
+- [x] 新增人工文件后重新同步，内容字节不变。
+- [x] fixture 中 missing 项目退出默认视图，人工内容仍可找回。
+- [x] 构建失败不会替换当前 Pages。
+- [x] 没有变化时不产生空 commit。
+- [x] 构建产物和 Action artifact 中没有令牌或私有仓库数据。
+- [x] Pages 子路径下资源、刷新和 URL 查询参数可用。
 
 ### Milestone 5：发布验收与两周观察
 
 发布前逐项通过：
 
-- [ ] 远程仓库、README、Actions 和 Pages 均为预期的 Public。
-- [ ] 当前活跃数量与同一次 API 全量读取一致。
-- [ ] 12 个已知上游归档样例在新快照中重新核对，不沿用旧数量断言。
-- [ ] 随机抽查 10 个仓库的名称、Stars、语言、收藏时间和链接。
-- [ ] 随机抽查 5 个人工文件的分类、阶段、笔记和详情展示。
-- [ ] 桌面和手机完成核心检索任务。
-- [ ] README 索引和网站使用同一份合并目录。
-- [ ] 最近成功检查时间与数据 commit 可见。
-- [ ] `git diff --check`、Python 测试、前端测试和构建全部通过。
+- [x] 远程仓库、README、Actions 和 Pages 均为预期的 Public。
+- [x] 当前活跃数量与同一次 API 全量读取一致。
+- [x] 12 个已知上游归档样例在新快照中重新核对，不沿用旧数量断言。
+- [x] 随机抽查 10 个仓库的名称、Stars、语言、收藏时间和链接。
+- [x] 随机抽查 5 个人工文件的分类、阶段、笔记和详情展示。
+- [x] 桌面和手机完成核心检索任务。
+- [x] README 索引和网站使用同一份合并目录。
+- [x] 最近成功检查时间与数据 commit 可见。
+- [x] `git diff --check`、Python 测试、前端测试和构建全部通过。
 
 上线后记录两周：
 
@@ -624,9 +629,9 @@ MVP 只有同时满足下面条件才算完成：
 - 不自动接受机器分类建议。
 - 不在 MVP 内解决私有笔记与公开站点的双层权限问题。
 
-## 11. 开工顺序
+## 11. 实施顺序与结果
 
-后续开发从 Milestone 0 开始，但第一个具有业务价值的纵向切片是：
+开发已从 Milestone 0 开始，并按下面的首个纵向切片验证真实数据后，再进入人工策展和网站接线：
 
 ```text
 目录与配置
@@ -636,4 +641,4 @@ MVP 只有同时满足下面条件才算完成：
 → 首次真实导入
 ```
 
-这一切片完成后先审阅真实 `data/repositories.json`，确认数量、字段、改名和 missing 语义，再进入人工策展和网站接线。不要先继续扩充前端功能。
+这一顺序已经完成。发布验收证据记录在 `app/design-qa.md`，上线后的实际使用观察记录在 `docs/06-operations-and-observation.md`。

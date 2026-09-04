@@ -13,6 +13,9 @@ final result: passed
 - 首页并排比较：`/Users/yangjiapei/Desktop/AI/github-star-vault/app/qa/production-compare-home.png`
 - 项目库并排比较：`/Users/yangjiapei/Desktop/AI/github-star-vault/app/qa/production-compare-library.png`
 - 六个移动页面：`/Users/yangjiapei/Desktop/AI/github-star-vault/app/qa/production-mobile-views.png`
+- 线上首页移动端：`/Users/yangjiapei/Desktop/AI/github-star-vault/app/qa/live-home-mobile.png`
+- 线上组合检索移动端：`/Users/yangjiapei/Desktop/AI/github-star-vault/app/qa/live-search-mobile.png`
+- 线上 missing 历史筛选移动端：`/Users/yangjiapei/Desktop/AI/github-star-vault/app/qa/live-missing-mobile.png`
 
 **规格与状态**
 
@@ -57,6 +60,17 @@ final result: passed
 - 收件箱支持主分类、资源类型、一句话价值、下一步与最多 5 个标签，并生成可复制的正式 TOML + Markdown 文件。
 - 项目详情使用稳定 `repo_id`，GitHub 事实与个人内容分区显示。
 - Python 测试、前端领域测试、生产构建和 Pages 子路径构建均通过。
+
+**线上发布验收**
+
+- 公开仓库：<https://github.com/jiapeiyang/github-star-vault>
+- GitHub Pages：<https://jiapeiyang.github.io/github-star-vault/>
+- 初始发布：[Actions #33910776488](https://github.com/jiapeiyang/github-star-vault/actions/runs/33910776488)，成功。
+- Actions 版本升级发布：[Actions #33910902906](https://github.com/jiapeiyang/github-star-vault/actions/runs/33910902906)，成功。
+- 临时新增 Star 验收：[Actions #33911124798](https://github.com/jiapeiyang/github-star-vault/actions/runs/33911124798)，成功；新项目进入 `inbox`。
+- 取消 Star 验收：[Actions #33911274874](https://github.com/jiapeiyang/github-star-vault/actions/runs/33911274874)，成功；记录转为 `missing`，默认隐藏且历史筛选可找回。
+- 线上移动截图验证首页、组合检索和 missing 历史筛选；Pages 仓库子路径、真实 JSON、资源加载和 URL 查询参数可用。
+- 2026-09-05 使用同一份三页 API 响应核对 active 284；随机核对 10 个仓库字段、12 个上游 archived 和 6 份人工内容，全部一致。
 
 **Findings**
 
