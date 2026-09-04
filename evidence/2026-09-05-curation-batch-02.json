@@ -1,0 +1,7208 @@
+{
+  "recorded_at": "2026-09-04T20:33:23.559392+00:00",
+  "scope": "执行开始时剩余的 248 个未分类公开 Stars",
+  "method": "逐项依据 GitHub 描述、Topics 及必要的 README/文章目录归类；未运行上游代码",
+  "active_count": 284,
+  "repositories": [
+    {
+      "repo_id": 1283138527,
+      "full_name": "threerocks/hand-drawn-styles",
+      "description": "Claude Code skill：把内容套进内置手绘画风配方,产出可直接复制的生图提示词。内置儿童涂色/极简线条/蜡笔童涂/吉卜力/小豆人涂鸦 5 种已验证画风。",
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/threerocks/hand-drawn-styles",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "手绘",
+        "提示词",
+        "Agent Skills"
+      ],
+      "note": "将内容转为多种手绘风格的图像生成提示词。"
+    },
+    {
+      "repo_id": 1339161831,
+      "full_name": "yanliudesign/mono-color-skill",
+      "description": "One-ink editorial print image skill — warm paper, halftone photography, active negative space, and restrained typography.",
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "claude-skill",
+        "editorial-design",
+        "generative-art",
+        "halftone",
+        "image-generation",
+        "monochrome",
+        "poster-design",
+        "prompt-engineering",
+        "risograph",
+        "zine"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/yanliudesign/mono-color-skill",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "单色设计",
+        "海报",
+        "Agent Skills"
+      ],
+      "note": "按单色印刷与半调风格生成编辑图像。"
+    },
+    {
+      "repo_id": 1183325896,
+      "full_name": "emilkowalski/skills",
+      "description": "Skills for Designers and Engineers.",
+      "topics": [],
+      "language": "Markdown",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/emilkowalski/skills",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/emilkowalski/skills/blob/main/README.md",
+          "kind": "README",
+          "sha256": "85a3c4c5386450092939eaf34184a0e35ad22cbb83c070ee7951b7ee60b81d28"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "collection",
+      "tags": [
+        "交互动效",
+        "UI设计",
+        "Agent Skills"
+      ],
+      "note": "为界面设计与动效实现提供智能体技能集合。"
+    },
+    {
+      "repo_id": 1148744000,
+      "full_name": "MengTo/Skills",
+      "description": "Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents",
+      "topics": [],
+      "language": "HTML",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/MengTo/Skills",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/MengTo/Skills/blob/main/README.md",
+          "kind": "README",
+          "sha256": "7b022986d7441ad404b33ba08b7c3d957daf5b8164cf475785708db2f04b6c08"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "collection",
+      "tags": [
+        "网页设计",
+        "交互原型",
+        "Agent Skills"
+      ],
+      "note": "面向设计师与开发者的界面、游戏和创作工作流技能合集。"
+    },
+    {
+      "repo_id": 36836475,
+      "full_name": "tmux/tmux",
+      "description": "tmux source code",
+      "topics": [],
+      "language": "C",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/tmux/tmux",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "终端",
+        "会话管理",
+        "多窗口"
+      ],
+      "note": "在终端中管理多个窗口、面板和可恢复会话。"
+    },
+    {
+      "repo_id": 1301135370,
+      "full_name": "0xsline/OpenChatCut",
+      "description": "Open-source, local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotion rendering.",
+      "topics": [
+        "agent-skills",
+        "agentic-ai",
+        "ai-agent",
+        "ai-video-editor",
+        "capcut",
+        "chatcut",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "electron",
+        "ffmpeg",
+        "local-first",
+        "mcp",
+        "open-source",
+        "openchatcut",
+        "remotion",
+        "text-based-video-editing",
+        "timeline-editor",
+        "video-editing",
+        "video-editor"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/0xsline/OpenChatCut",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "视频剪辑",
+        "时间线",
+        "本地工具"
+      ],
+      "note": "结合对话操作、多轨时间线与智能体能力的视频编辑器。"
+    },
+    {
+      "repo_id": 1330468709,
+      "full_name": "boyang-hu/website-rebuild-skill",
+      "description": "复刻网站的 Agent Skill：抓只读镜像、从压缩代码逐行还原、自动比对验收。An agent skill that mirrors a website, rebuilds it from the minified code, and verifies the result with automated diffs.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "codex",
+        "reverse-engineering",
+        "wayback-machine",
+        "web-archiving"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/boyang-hu/website-rebuild-skill",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "app",
+      "tags": [
+        "网站复刻",
+        "页面还原",
+        "自动验收"
+      ],
+      "note": "抓取网站只读镜像并辅助还原页面代码及比对结果。"
+    },
+    {
+      "repo_id": 1266797999,
+      "full_name": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "template",
+      "tags": [
+        "工程规范",
+        "简化实现",
+        "编码助手"
+      ],
+      "note": "通过工程约定引导编码智能体采用更克制的实现方式。"
+    },
+    {
+      "repo_id": 1350587124,
+      "full_name": "Sac-Y/MiniMax-H3-Cloud",
+      "description": null,
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Sac-Y/MiniMax-H3-Cloud",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/Sac-Y/MiniMax-H3-Cloud/blob/main/README.md",
+          "kind": "README",
+          "sha256": "33c3d592fb83979cff05925f679d821a5269e2e2953932d6ed15b0ba9e3f6ae6"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "视频生成",
+        "云端GPU",
+        "Codex"
+      ],
+      "note": "在 Codex 中编排云端 GPU 和 MiniMax H3 视频生成流程。"
+    },
+    {
+      "repo_id": 1176129893,
+      "full_name": "tanweai/pua",
+      "description": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement.",
+      "topics": [
+        "agency",
+        "agent",
+        "pip",
+        "pua"
+      ],
+      "language": "Shell",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/tanweai/pua",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/tanweai/pua/blob/main/README.md",
+          "kind": "README",
+          "sha256": "584c9f7122ba7c51d7f34a195ef5713fb67815976f61d7953cea16c940cf8a40"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "编码助手",
+        "调试方法",
+        "提示词"
+      ],
+      "note": "通过行为提示和调试方法引导编码智能体持续处理任务。"
+    },
+    {
+      "repo_id": 1204804583,
+      "full_name": "OpenMOSS/MOSS-VL",
+      "description": "An open-weight 11B model series for long-form and real-time video understanding",
+      "topics": [
+        "llms",
+        "long-video-understanding",
+        "multimodal-ai",
+        "real-time-ai",
+        "streaming-video",
+        "video-understanding",
+        "video-understanding-vlm",
+        "vision",
+        "vision-language",
+        "vision-language-model",
+        "vision-language-models",
+        "vision-llm",
+        "vlm"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/OpenMOSS/MOSS-VL",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "research",
+      "tags": [
+        "多模态",
+        "视频理解",
+        "开放权重"
+      ],
+      "note": "面向长视频与实时视频理解的开放权重模型及研究资源。"
+    },
+    {
+      "repo_id": 1128267392,
+      "full_name": "chatfire-AI/huobao-drama",
+      "description": "🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered End-to-End Short Drama Generator \"One Sentence to Complete Drama: Fully Automated from Script to Final Video\"",
+      "topics": [],
+      "language": "Vue",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/chatfire-AI/huobao-drama",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "短剧",
+        "脚本生成",
+        "视频创作"
+      ],
+      "note": "将剧本、分镜与视频生成串联为短剧创作流程。"
+    },
+    {
+      "repo_id": 1183888342,
+      "full_name": "stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "topics": [
+        "ade",
+        "agent-ide",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "cursor-agent",
+        "devtools",
+        "ghostty",
+        "ide",
+        "mobile-app",
+        "opencode",
+        "orchestration",
+        "parallel-agents",
+        "pi",
+        "terminal",
+        "worktrees",
+        "yc-backed"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/stablyai/orca",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "多智能体",
+        "终端",
+        "任务编排"
+      ],
+      "note": "管理多个并行编码智能体及其工作区的开发环境。"
+    },
+    {
+      "repo_id": 1137711311,
+      "full_name": "Hmbown/Codewhale",
+      "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.",
+      "topics": [
+        "agent-orchestration",
+        "ai-agent",
+        "cli",
+        "coding-agent",
+        "local-first",
+        "mcp",
+        "multi-agent",
+        "multi-model",
+        "open-source",
+        "rust",
+        "tui"
+      ],
+      "language": "Rust",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Hmbown/Codewhale",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "终端",
+        "编码助手",
+        "多模型"
+      ],
+      "note": "在终端中运行支持多模型与工具调用的编码智能体。"
+    },
+    {
+      "repo_id": 934527631,
+      "full_name": "ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+      "description": "面向长篇小说创作的 AI Native 开源系统，用 Agent、世界观、写法引擎、RAG 和整本生产工作流，帮助新手从一句灵感走到完整小说。AI-native engine for end-to-end novel creation — from idea to full chapters, with structured planning, worldbuilding, and agent-driven workflows.",
+      "topics": [
+        "agent-workflow",
+        "ai",
+        "creative-writing",
+        "long-form-fiction",
+        "narrative-engine",
+        "novel-writing",
+        "rag",
+        "story-generation",
+        "worldbuilding",
+        "writing-assistant"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "小说",
+        "世界观",
+        "创作流程"
+      ],
+      "note": "围绕世界观、章节规划和智能体流程辅助长篇小说创作。"
+    },
+    {
+      "repo_id": 1140843380,
+      "full_name": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "资料调研",
+        "社交媒体",
+        "近期动态"
+      ],
+      "note": "检索多个社区和媒体平台的近期内容并汇总为调研材料。"
+    },
+    {
+      "repo_id": 858262444,
+      "full_name": "PatrickJS/awesome-cursorrules",
+      "description": "📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "cursor",
+        "cursor-ai-editor",
+        "cursorrules"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/PatrickJS/awesome-cursorrules",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "Cursor",
+        "编码规则",
+        "配置参考"
+      ],
+      "note": "收集用于定制 Cursor 编码行为的规则文件。"
+    },
+    {
+      "repo_id": 1208450620,
+      "full_name": "leookun/cursor-byok",
+      "description": "cursor-byok is a local implementation of Cursor's backend",
+      "topics": [
+        "cursor",
+        "cursor-cli"
+      ],
+      "language": "Rust",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/leookun/cursor-byok",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "Cursor",
+        "模型接入",
+        "本地服务"
+      ],
+      "note": "提供 Cursor 后端的本地实现与模型接入能力。"
+    },
+    {
+      "repo_id": 1237819660,
+      "full_name": "zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "topics": [],
+      "language": "PowerShell",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/zhaoxuya520/reverse-skill",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "infra-security",
+      "resource_type": "app",
+      "tags": [
+        "逆向分析",
+        "安全研究",
+        "工具编排"
+      ],
+      "note": "面向逆向分析和授权安全研究的智能体技能与工具路由集合。"
+    },
+    {
+      "repo_id": 1101924225,
+      "full_name": "dembrandt/dembrandt",
+      "description": "Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command.",
+      "topics": [
+        "brand-audits",
+        "css",
+        "design-engineering",
+        "design-md",
+        "design-ops",
+        "design-systems",
+        "design-to-code",
+        "design-tokens",
+        "developer-experience",
+        "dx",
+        "frontend",
+        "mcp",
+        "nodejs",
+        "open-source",
+        "playwright",
+        "productivity",
+        "reverse-engineering",
+        "tailwind-css",
+        "token-drift",
+        "ui-audit"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/dembrandt/dembrandt",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "设计系统",
+        "设计令牌",
+        "网页分析"
+      ],
+      "note": "从网站提取配色、字体、标志与设计令牌。"
+    },
+    {
+      "repo_id": 1220744720,
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "topics": [
+        "agents",
+        "ai-image-generation",
+        "chatgpt",
+        "dsh-plugin",
+        "gpt-image-2",
+        "image-prompts",
+        "prompt-as-code",
+        "prompt-engineering",
+        "skills",
+        "workflow-automation"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "collection",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "视觉模板"
+      ],
+      "note": "整理 GPT Image 的提示词案例、创作模板与相关技能。"
+    },
+    {
+      "repo_id": 1179074781,
+      "full_name": "deepcoldy/botmux",
+      "description": "Bridge Feishu/Lark to AI coding CLIs — Claude Code, Codex, Gemini, OpenCode… every DM, group or topic spawns its own live-streaming CLI session",
+      "topics": [
+        "claude",
+        "claude-code",
+        "codex",
+        "feishu",
+        "gemini",
+        "lark",
+        "opencode"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/deepcoldy/botmux",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "飞书",
+        "编码助手",
+        "会话桥接"
+      ],
+      "note": "将飞书或 Lark 会话连接到编码助手的命令行会话。"
+    },
+    {
+      "repo_id": 1297316519,
+      "full_name": "MDX-Tom/gpt-5.6-instruct",
+      "description": "A Codex jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex 破甲提示词与测试包。",
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "research",
+      "tags": [
+        "提示词",
+        "模型评估",
+        "行为研究"
+      ],
+      "note": "用于研究编码模型指令行为的提示词与测试材料。"
+    },
+    {
+      "repo_id": 1053118194,
+      "full_name": "bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "topics": [
+        "agent",
+        "agent-memory",
+        "ai-agent",
+        "book",
+        "coding-agent",
+        "context-engineering",
+        "large-language-models",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "multimodal",
+        "rag",
+        "reinforcement-learning"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/bojieli/ai-agent-book",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "learning",
+      "tags": [
+        "Agent",
+        "工程实践",
+        "技术书籍"
+      ],
+      "note": "讲解智能体设计原理、上下文管理与工程实践的书籍和代码。"
+    },
+    {
+      "repo_id": 1207091162,
+      "full_name": "yizhiyanhua-ai/fireworks-tech-graph",
+      "description": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
+      "topics": [
+        "agent-workflows",
+        "ai",
+        "claude-code",
+        "developer-tools",
+        "diagrams",
+        "svg"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "技术图解",
+        "UML",
+        "SVG"
+      ],
+      "note": "从自然语言生成架构、流程与 UML 技术图解。"
+    },
+    {
+      "repo_id": 1314048518,
+      "full_name": "geeklee/srt-whiteboard-animation",
+      "description": "将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。",
+      "topics": [
+        "ai-skill",
+        "hand-drawn",
+        "opencv",
+        "python",
+        "srt",
+        "subtitle",
+        "whiteboard-animation"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/geeklee/srt-whiteboard-animation",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "字幕",
+        "白板动画",
+        "手绘"
+      ],
+      "note": "把 SRT 字幕转换为带手写效果的白板动画。"
+    },
+    {
+      "repo_id": 1212562200,
+      "full_name": "YouMind-OpenLab/awesome-gpt-image-2",
+      "description": "🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source.",
+      "topics": [
+        "ai-image-generation",
+        "ai-prompts",
+        "awesome",
+        "awesome-list",
+        "commercial-illustration",
+        "duct-tape",
+        "gpt",
+        "gpt-image",
+        "gpt-image-2",
+        "image-generation",
+        "multilingual",
+        "openai",
+        "openai-image",
+        "prompt-engineering",
+        "prompts",
+        "text-rendering"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "collection",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "案例库"
+      ],
+      "note": "收集带预览的 GPT Image 图像生成提示词案例。"
+    },
+    {
+      "repo_id": 1097346685,
+      "full_name": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/pbakaus/impeccable",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/pbakaus/impeccable/blob/main/README.md",
+          "kind": "README",
+          "sha256": "658c27b9326f4d1ce8d71b4b4b13614d10b5eaf7c85777065fc390b875e988ab"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "设计评审",
+        "UI设计",
+        "前端质量"
+      ],
+      "note": "为编码智能体提供前端设计指导、检查与迭代命令。"
+    },
+    {
+      "repo_id": 1104535633,
+      "full_name": "lbjlaq/Antigravity-Manager",
+      "description": "Professional Antigravity Account Manager & Switcher. One-click seamless account switching for Antigravity Tools. Built with Tauri v2 + React (Rust).专业的 Antigravity 账号管理与切换工具。为 Antigravity 提供一键无缝账号切换功能。",
+      "topics": [
+        "account-manager",
+        "antigravity"
+      ],
+      "language": "Rust",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/lbjlaq/Antigravity-Manager",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "Antigravity",
+        "账号管理",
+        "桌面工具"
+      ],
+      "note": "管理和切换 Antigravity 账号的桌面工具。"
+    },
+    {
+      "repo_id": 1212503250,
+      "full_name": "citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "browser",
+        "browser-automation",
+        "claude-code",
+        "codex",
+        "hermes-agent",
+        "skills",
+        "skills-sh"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/citrolabs/ego-lite",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "浏览器自动化",
+        "会话共享",
+        "Agent"
+      ],
+      "note": "让智能体通过浏览器执行操作并复用浏览会话。"
+    },
+    {
+      "repo_id": 1329629252,
+      "full_name": "SMNETSTUDIO/WeChat-AI",
+      "description": "WeChat AI - 自托管微信角色扮演对话服务",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "微信",
+        "对话",
+        "角色扮演"
+      ],
+      "note": "自托管的微信 AI 角色扮演与对话服务。"
+    },
+    {
+      "repo_id": 161886347,
+      "full_name": "xxlllq/system_architect",
+      "description": ":100: 2026年系统架构设计师（软考高级）备考资料。",
+      "topics": [
+        "examination",
+        "ruankao"
+      ],
+      "language": "HTML",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/xxlllq/system_architect",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "系统架构",
+        "软考",
+        "备考资料"
+      ],
+      "note": "整理系统架构设计师考试的学习与备考资料。"
+    },
+    {
+      "repo_id": 1190072018,
+      "full_name": "james-6-23/codex2api",
+      "description": "Codex2API 是一个基于 Go + Gin + React/Vite 的 Codex 反向代理与管理后台项目",
+      "topics": [
+        "2api",
+        "codex"
+      ],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/james-6-23/codex2api",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "模型网关",
+        "Codex",
+        "API接入"
+      ],
+      "note": "将 Codex 接入统一 API 并提供管理后台的代理服务。"
+    },
+    {
+      "repo_id": 881723326,
+      "full_name": "Ebullioscopic/Atoll",
+      "description": "Dynamic Island for macOS",
+      "topics": [
+        "dynamicisland",
+        "hacktoberfest",
+        "macbook",
+        "macos"
+      ],
+      "language": "Swift",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Ebullioscopic/Atoll",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "macOS",
+        "桌面增强",
+        "灵动岛"
+      ],
+      "note": "在 macOS 上提供灵动岛式状态与交互界面。"
+    },
+    {
+      "repo_id": 1145374818,
+      "full_name": "thaw-app/Thaw",
+      "description": "The only app that owns your whole menu bar, in and out.",
+      "topics": [
+        "macos",
+        "macos-app",
+        "menu-bar",
+        "menu-bar-manager",
+        "menubar-app",
+        "swift",
+        "swiftui",
+        "utility"
+      ],
+      "language": "Swift",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/thaw-app/Thaw",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "macOS",
+        "菜单栏",
+        "桌面增强"
+      ],
+      "note": "管理和组织 macOS 菜单栏项目。"
+    },
+    {
+      "repo_id": 1187709537,
+      "full_name": "DingTalk-Real-AI/dingtalk-workspace-cli",
+      "description": "DingTalk Workspace is an officially open-sourced cross-platform CLI tool from DingTalk. It unifies DingTalk’s full suite of product capabilities into a single package, is designed for both human users and AI agent scenarios.",
+      "topics": [],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "钉钉",
+        "命令行",
+        "办公自动化"
+      ],
+      "note": "通过统一命令行调用钉钉工作空间能力。"
+    },
+    {
+      "repo_id": 1174789082,
+      "full_name": "block/buzz",
+      "description": "A hive mind communication platform",
+      "topics": [],
+      "language": "Rust",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/block/buzz",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/block/buzz/blob/main/README.md",
+          "kind": "README",
+          "sha256": "84ba68fdb2a6afab1fa2b163ce4013d47fd45e498a057441f6a74c0bfda509a7"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "团队协作",
+        "Agent",
+        "自托管"
+      ],
+      "note": "让人和智能体共同处理消息、代码与工作流的自托管协作空间。"
+    },
+    {
+      "repo_id": 1111357457,
+      "full_name": "binaricat/Netcatty",
+      "description": "SSH workspace, SFTP, and terminals in one",
+      "topics": [
+        "electron",
+        "electron-app",
+        "radix-ui",
+        "react",
+        "sftp-client",
+        "ssh",
+        "ssh-client",
+        "terminal",
+        "terminal-emulator",
+        "xterm"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/binaricat/Netcatty",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "SSH",
+        "SFTP",
+        "终端"
+      ],
+      "note": "整合 SSH 连接、SFTP 文件传输与终端的工作区。"
+    },
+    {
+      "repo_id": 1197515131,
+      "full_name": "VoltAgent/awesome-design-md",
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "topics": [
+        "awesome-list",
+        "design-md",
+        "design-system",
+        "design-tokens",
+        "figma",
+        "google-stitch",
+        "landing-page",
+        "vibe-coding",
+        "vibe-design",
+        "vibecoding"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/VoltAgent/awesome-design-md",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "collection",
+      "tags": [
+        "设计系统",
+        "设计规范",
+        "品牌参考"
+      ],
+      "note": "汇集品牌设计系统分析和可供编码助手使用的 DESIGN.md。"
+    },
+    {
+      "repo_id": 1118601518,
+      "full_name": "Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "topics": [
+        "2api",
+        "antigravity2api",
+        "cc2api",
+        "claude",
+        "claude-code",
+        "codex",
+        "crs",
+        "crs2",
+        "gemini"
+      ],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Wei-Shaw/sub2api",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "模型网关",
+        "订阅接入",
+        "多模型"
+      ],
+      "note": "将多个 AI 服务统一接入的开源中转与管理平台。"
+    },
+    {
+      "repo_id": 1243011353,
+      "full_name": "rosemarycox5334-debug/PA_Agent",
+      "description": null,
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/rosemarycox5334-debug/PA_Agent",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/rosemarycox5334-debug/PA_Agent/blob/main/README.md",
+          "kind": "README",
+          "sha256": "745f20934515ec322f208dbf4ecba3e117d16be444bca72cf187e42850b47f7a"
+        }
+      ],
+      "category": "business-domain",
+      "resource_type": "app",
+      "tags": [
+        "行情分析",
+        "K线",
+        "辅助决策"
+      ],
+      "note": "读取结构化 K 线并用大模型辅助价格行为分析的桌面工具。"
+    },
+    {
+      "repo_id": 1211139949,
+      "full_name": "tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "topics": [
+        "agent-skills",
+        "architecture-as-code",
+        "architecture-diagram",
+        "claude-skill",
+        "code-visualization",
+        "codex",
+        "coding-agents",
+        "data-flow-diagram",
+        "deepseek-harness",
+        "developer-tools",
+        "diagram-as-code",
+        "diagrams",
+        "diagrams-as-code",
+        "dsh-plugin",
+        "mermaid-alternative",
+        "opencode",
+        "sequence-diagram",
+        "software-architecture",
+        "system-design",
+        "text-to-diagram"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/tt-a1i/archify",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "架构图",
+        "流程图",
+        "交互图解"
+      ],
+      "note": "生成可交互、可导出的架构、流程与数据流图解。"
+    },
+    {
+      "repo_id": 1012625755,
+      "full_name": "git-ai-project/git-ai",
+      "description": "A Git extension for tracking the AI-generated code in your repos",
+      "topics": [
+        "ai",
+        "ai-blame",
+        "coding-agents"
+      ],
+      "language": "Rust",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/git-ai-project/git-ai",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "Git",
+        "代码来源",
+        "AI代码"
+      ],
+      "note": "以 Git 扩展记录代码中的 AI 生成来源。"
+    },
+    {
+      "repo_id": 1264811161,
+      "full_name": "chuspeeism/dashi-ppt-skill",
+      "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "ai-ppt",
+        "claude",
+        "claude-code",
+        "dashial",
+        "html-presentation",
+        "ppt",
+        "pptx",
+        "presentation",
+        "presentation-generator",
+        "skill",
+        "slide-generator",
+        "slides"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/chuspeeism/dashi-ppt-skill",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "演示文稿",
+        "HTML",
+        "PPTX"
+      ],
+      "note": "生成可在浏览器编辑并导出的多主题演示文稿。"
+    },
+    {
+      "repo_id": 708312415,
+      "full_name": "yonggekkk/sing-box-yg",
+      "description": "Sing-box精装桶五合一协议VPS专用脚本：三大独家功能！自签/acme双证书切换、Argo固定临时双隧道（可共存）、Psiphon赛风VPN（30个国家）分流功能、本地IP订阅生成",
+      "topics": [
+        "acme",
+        "alpine",
+        "anytls",
+        "argo",
+        "clash-meta",
+        "cloudflared",
+        "hostuno",
+        "hysteria2",
+        "oblivion",
+        "openclash",
+        "psiphon",
+        "serv00",
+        "shadowrocket",
+        "sing-box",
+        "tuic",
+        "v2ray",
+        "v2rayn",
+        "warp",
+        "xray"
+      ],
+      "language": "Shell",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/yonggekkk/sing-box-yg",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "infra-security",
+      "resource_type": "app",
+      "tags": [
+        "sing-box",
+        "网络代理",
+        "VPS"
+      ],
+      "note": "用于部署和配置 sing-box 网络代理的 VPS 脚本集合。"
+    },
+    {
+      "repo_id": 1097695258,
+      "full_name": "steipete/CodexBar",
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "topics": [
+        "ai",
+        "claude-code",
+        "codex",
+        "swift"
+      ],
+      "language": "Swift",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/steipete/CodexBar",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "Codex",
+        "Claude Code",
+        "用量监控"
+      ],
+      "note": "在桌面菜单栏查看编码助手服务的用量信息。"
+    },
+    {
+      "repo_id": 890668799,
+      "full_name": "modelcontextprotocol/servers",
+      "description": "Model Context Protocol Servers",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "collection",
+      "tags": [
+        "MCP",
+        "工具调用",
+        "服务端示例"
+      ],
+      "note": "收集 Model Context Protocol 的服务端实现与示例。"
+    },
+    {
+      "repo_id": 1251775733,
+      "full_name": "helloianneo/ian-xiaohei-illustrations",
+      "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
+      "topics": [
+        "ai-agent",
+        "chinese",
+        "codex-skill",
+        "handdrawn",
+        "illustration",
+        "image-generation",
+        "xiaohei"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "插画",
+        "中文配图",
+        "Agent Skills"
+      ],
+      "note": "生成中文文章使用的手绘风格正文插画。"
+    },
+    {
+      "repo_id": 941043461,
+      "full_name": "itgoyo/TelegramGroup",
+      "description": "2026最新悄咪咪收集的10000+个Telegram群合集、tg导航、电报导航、telegram导航，附全网最有趣好用的机器人BOT🤖【tg10000.com】",
+      "topics": [
+        "telegram",
+        "telegram-api",
+        "telegram-bot",
+        "telegram-bot-api",
+        "telegram-bots",
+        "telegram-channel",
+        "telegramchannels",
+        "telegramgroups"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/itgoyo/TelegramGroup",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "Telegram",
+        "资源导航",
+        "机器人"
+      ],
+      "note": "汇集 Telegram 群组、频道与机器人资源入口。"
+    },
+    {
+      "repo_id": 1063641074,
+      "full_name": "a2ui-project/a2ui",
+      "description": null,
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/a2ui-project/a2ui",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/a2ui-project/a2ui/blob/main/README.md",
+          "kind": "README",
+          "sha256": "cc9d9e4889650eff107c7882395bda1564957367ffb5436a6c6633510e9c5007"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "library",
+      "tags": [
+        "生成式UI",
+        "组件协议",
+        "Agent"
+      ],
+      "note": "用声明式数据描述智能体生成的界面，并由客户端组件渲染。"
+    },
+    {
+      "repo_id": 1163112839,
+      "full_name": "LearnPrompt/ai-news-radar",
+      "description": "24h AI/tech news radar with GitHub Actions, live web UI, and Scout Skill for AI sources.",
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/LearnPrompt/ai-news-radar",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "AI资讯",
+        "新闻聚合",
+        "定时任务"
+      ],
+      "note": "采集和展示近期 AI 与技术新闻的雷达工具。"
+    },
+    {
+      "repo_id": 1212241202,
+      "full_name": "wbh604/UZI-Skill",
+      "description": "冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 让我们欢迎，股海贼王！66位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 ",
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/wbh604/UZI-Skill",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "business-domain",
+      "resource_type": "app",
+      "tags": [
+        "投资研究",
+        "股票",
+        "分析框架"
+      ],
+      "note": "以多维分析规则和投资研究方法组织股票研究的技能集合。"
+    },
+    {
+      "repo_id": 1035029907,
+      "full_name": "earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/earendil-works/pi",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "library",
+      "tags": [
+        "Agent框架",
+        "模型接口",
+        "工具调用"
+      ],
+      "note": "提供统一模型接口、智能体循环和终端组件的工具包。"
+    },
+    {
+      "repo_id": 1180745961,
+      "full_name": "JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-tools",
+        "automation",
+        "boilerplate",
+        "claude",
+        "claude-code",
+        "clone",
+        "developer-tools",
+        "nextjs",
+        "react",
+        "reverse-engineering",
+        "shadcn-ui",
+        "skills",
+        "tailwindcss",
+        "template",
+        "typescript",
+        "web-scraping",
+        "website-clone"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "template",
+      "tags": [
+        "网站复刻",
+        "页面实现",
+        "脚手架"
+      ],
+      "note": "供编码智能体还原网站界面的项目模板。"
+    },
+    {
+      "repo_id": 1164005541,
+      "full_name": "foryourhealth111-pixel/Vibe-Skills",
+      "description": "Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −29.6% tokens on SkillsBench with DeepSeekV4Flash-VE.",
+      "topics": [
+        "agent-framework",
+        "agent-skills",
+        "agentic-coding",
+        "ai-agents",
+        "ai-scientist",
+        "ai-skills",
+        "ai-workflow",
+        "automation",
+        "claude-code",
+        "codex",
+        "context-engineering",
+        "developer-tools",
+        "dsh-plugin",
+        "llm",
+        "multi-agent",
+        "prompt-engineering",
+        "skills",
+        "vibe-coding",
+        "vibecoding",
+        "workflow-automation"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "技能路由",
+        "工作流",
+        "编码助手"
+      ],
+      "note": "为智能体选择技能并编排执行流程的工具集合。"
+    },
+    {
+      "repo_id": 1277836173,
+      "full_name": "dama-cyber/Casting-Workflow",
+      "description": null,
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/dama-cyber/Casting-Workflow",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/dama-cyber/Casting-Workflow/blob/main/README.md",
+          "kind": "README",
+          "sha256": "886c42331bef01494e9eb2257cc684746e8c5bca9eb3944aa9e2596eaddac414"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "小说",
+        "创作流程",
+        "文本处理"
+      ],
+      "note": "将创意、人设、大纲、仿写与质量检查串联的小说写作流程。"
+    },
+    {
+      "repo_id": 1086122599,
+      "full_name": "xiamuceer-j/MuMuAINovel",
+      "description": "一款基于 AI 的智能小说创作助手，帮助你轻松创作精彩故事",
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/xiamuceer-j/MuMuAINovel",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "小说",
+        "写作助手",
+        "故事生成"
+      ],
+      "note": "辅助小说规划与写作的 AI 创作工具。"
+    },
+    {
+      "repo_id": 1127793756,
+      "full_name": "fengshao1227/ccg-workflow",
+      "description": "多模型协作工作流引擎 — /ccg:go 一个命令，AI 自动分析意图、选择策略、编排 Codex + Gemini + Claude 协作执行",
+      "topics": [
+        "agent-teams",
+        "ai",
+        "ccg",
+        "claude-code",
+        "cli",
+        "codex",
+        "gemini",
+        "llm",
+        "no-de",
+        "nodejs",
+        "opsxspec",
+        "prompt",
+        "workflow"
+      ],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/fengshao1227/ccg-workflow",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "多模型",
+        "任务编排",
+        "编码助手"
+      ],
+      "note": "分析开发任务并编排多个编码模型协作执行。"
+    },
+    {
+      "repo_id": 1205523418,
+      "full_name": "QLHazyCoder/FlowPilot",
+      "description": "Chrome扩展：支持GPT（Codex） / kiro / Grok自动注册、相关反代项目（CPA/Sub）回调上传",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/QLHazyCoder/FlowPilot",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "浏览器扩展",
+        "账号流程",
+        "自动化"
+      ],
+      "note": "提供 AI 服务账号流程自动化及回调对接的浏览器扩展。"
+    },
+    {
+      "repo_id": 1243496690,
+      "full_name": "FoundZiGu/GuJumpgate",
+      "description": null,
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": true,
+      "sources": [
+        {
+          "url": "https://github.com/FoundZiGu/GuJumpgate",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/FoundZiGu/GuJumpgate/blob/main/README.md",
+          "kind": "README",
+          "sha256": "b9c9ed45bede585b267cd8be12c96a9fab125ca3ea9c997d987013d373f80941"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "research",
+      "tags": [
+        "浏览器扩展",
+        "历史资料",
+        "停止维护"
+      ],
+      "note": "曾用于账号及相关流程自动化的浏览器扩展，现已停止维护并作为历史代码保留。"
+    },
+    {
+      "repo_id": 1087192965,
+      "full_name": "shanraisshan/claude-code-best-practice",
+      "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "topics": [
+        "agentic-ai",
+        "agentic-coding",
+        "agentic-engineering",
+        "agentic-workflow",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "best-practices",
+        "boris",
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "claude-code-agents",
+        "claude-code-best-practices",
+        "claude-code-commands",
+        "claude-code-skills",
+        "context-engineering",
+        "pakistan",
+        "pakistani-developer",
+        "vibe-coding"
+      ],
+      "language": "HTML",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/shanraisshan/claude-code-best-practice",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "learning",
+      "tags": [
+        "Claude Code",
+        "工程流程",
+        "实践指南"
+      ],
+      "note": "整理 Claude Code 从基础使用到工程化协作的实践方法。"
+    },
+    {
+      "repo_id": 1100776768,
+      "full_name": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "topics": [
+        "claude-code",
+        "mcp",
+        "skills"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "Claude Code",
+        "插件目录",
+        "Agent Skills"
+      ],
+      "note": "Anthropic 维护的 Claude Code 官方插件目录。"
+    },
+    {
+      "repo_id": 1130564872,
+      "full_name": "koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "topics": [
+        "agent",
+        "ai",
+        "dashboard",
+        "geopolitics",
+        "mcp",
+        "mcp-server",
+        "monitoring",
+        "news",
+        "opensource",
+        "osint",
+        "palantir",
+        "situation"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/koala73/worldmonitor",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "business-domain",
+      "resource_type": "app",
+      "tags": [
+        "新闻聚合",
+        "地缘信息",
+        "态势监测"
+      ],
+      "note": "聚合全球新闻、地缘事件与基础设施信息的监测工作台。"
+    },
+    {
+      "repo_id": 1131513930,
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "business-domain",
+      "resource_type": "app",
+      "tags": [
+        "股票",
+        "行情数据",
+        "辅助分析"
+      ],
+      "note": "结合多市场行情、新闻和大模型生成股票分析看板。"
+    },
+    {
+      "repo_id": 1203777920,
+      "full_name": "xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "anthropic",
+        "berkshire-hathaway",
+        "charlie-munger",
+        "china-stock",
+        "claude",
+        "claude-code",
+        "financial-analysis",
+        "fintech",
+        "fundamental-analysis",
+        "investment",
+        "investment-research",
+        "llm",
+        "mcp",
+        "portfolio-management",
+        "stock-analysis",
+        "stock-market",
+        "value-investing",
+        "warren-buffett"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/xbtlin/ai-berkshire",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "business-domain",
+      "resource_type": "template",
+      "tags": [
+        "价值投资",
+        "投资研究",
+        "多智能体"
+      ],
+      "note": "把价值投资方法整理为面向编码助手的研究工作流。"
+    },
+    {
+      "repo_id": 1175231820,
+      "full_name": "voocel/ainovel-cli",
+      "description": "✨多agent实现全自动AI小说生成",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "go",
+        "llm",
+        "novel",
+        "openai"
+      ],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/voocel/ainovel-cli",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "小说",
+        "命令行",
+        "多智能体"
+      ],
+      "note": "通过多个智能体协作完成小说生成的命令行工具。"
+    },
+    {
+      "repo_id": 1073224795,
+      "full_name": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "language": "Shell",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/obra/superpowers",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "library",
+      "tags": [
+        "Agent Skills",
+        "软件开发",
+        "工作流"
+      ],
+      "note": "为智能体开发任务提供技能框架与软件工程流程。"
+    },
+    {
+      "repo_id": 1113573066,
+      "full_name": "hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "topics": [
+        "ai-agent",
+        "aippt",
+        "office",
+        "powerpoint",
+        "powerpoint-generation",
+        "ppt",
+        "pptx",
+        "presentation",
+        "slide",
+        "slides"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/hugohe3/ppt-master",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "PowerPoint",
+        "文档转演示",
+        "演示文稿"
+      ],
+      "note": "将文档或主题转换为可编辑的 PowerPoint 演示文稿。"
+    },
+    {
+      "repo_id": 1269395331,
+      "full_name": "Waishnav/devspace",
+      "description": "Minimal Coding Agent Harness on MCP for ChatGPT, Claude, Hermes, Grok Bot, OpenClaw",
+      "topics": [
+        "agent-orchestration",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "dyanmic-workflow",
+        "pi-coding-agent"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Waishnav/devspace",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "MCP",
+        "编码助手",
+        "运行环境"
+      ],
+      "note": "为多个编码助手提供基于 MCP 的轻量运行环境。"
+    },
+    {
+      "repo_id": 1158722119,
+      "full_name": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/addyosmani/agent-skills",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "工程实践",
+        "编码助手",
+        "Agent Skills"
+      ],
+      "note": "面向编码智能体的工程技能与工作流集合。"
+    },
+    {
+      "repo_id": 865326415,
+      "full_name": "serafimcloud/21st",
+      "description": "npm for design engineers: largest marketplace of shadcn/ui-based React Tailwind components, blocks and hooks",
+      "topics": [
+        "nextjs",
+        "react",
+        "shadcn",
+        "shadcn-ui",
+        "tailwindcss",
+        "ui",
+        "ui-components",
+        "ui-library"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/serafimcloud/21st",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "React",
+        "组件库",
+        "UI资源"
+      ],
+      "note": "汇集基于 shadcn/ui 与 Tailwind 的界面组件、模块和 Hooks。"
+    },
+    {
+      "repo_id": 1106996539,
+      "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+      "topics": [
+        "ai-skills",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "codex",
+        "command-line",
+        "copilot",
+        "cursor-ai",
+        "html5",
+        "kiro",
+        "landing-page",
+        "mobile-ui",
+        "qoder",
+        "react",
+        "tailwindcss",
+        "trae",
+        "ui-design",
+        "uikit",
+        "windsurf-ai"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "UI设计",
+        "UX",
+        "Agent Skills"
+      ],
+      "note": "为多平台界面设计提供设计规则和智能体技能。"
+    },
+    {
+      "repo_id": 1112540808,
+      "full_name": "vercel-labs/agent-skills",
+      "description": "Vercel's official collection of agent skills",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/vercel-labs/agent-skills",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "Vercel",
+        "前端工程",
+        "Agent Skills"
+      ],
+      "note": "Vercel 发布的智能体技能集合。"
+    },
+    {
+      "repo_id": 1135179558,
+      "full_name": "alvinunreal/oh-my-opencode-slim",
+      "description": "Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks",
+      "topics": [
+        "agentic-ai",
+        "antigravity",
+        "cerebras",
+        "herdr-plugin",
+        "oh-my-opencode",
+        "opencode",
+        "orchestration"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/alvinunreal/oh-my-opencode-slim",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "OpenCode",
+        "多智能体",
+        "任务编排"
+      ],
+      "note": "面向 OpenCode 的精简多智能体配置与编排工具。"
+    },
+    {
+      "repo_id": 1108837393,
+      "full_name": "code-yeongyu/oh-my-openagent",
+      "description": "OmO: Drop your tokens. Ultrawork. Done.",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-skills",
+        "codex",
+        "cursor",
+        "gemini",
+        "ide",
+        "openai",
+        "opencode",
+        "orchestration",
+        "tui",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/code-yeongyu/oh-my-openagent",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/README.md",
+          "kind": "README",
+          "sha256": "5f44c922e7b66d1eecc5cb1fceec5908e9a0da2b6ee6c0cdde29db7abe338a64"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "编码助手",
+        "多智能体",
+        "运行框架"
+      ],
+      "note": "为 OpenCode 等编码环境提供智能体编排和开发工作流。"
+    },
+    {
+      "repo_id": 1086756757,
+      "full_name": "nimbalyst/nimbalyst",
+      "description": "Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run multiple coding agents in parallel, edit their work visually in markdown, mockups, and diagrams, and track tasks. Free, MIT-licensed desktop app for macOS, Windows, Linux, with mobile companion for iOS and Android.",
+      "topics": [
+        "agentic-ai",
+        "agentic-ide",
+        "ai-agents",
+        "ai-coding-assistant",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "developer-tools",
+        "electron",
+        "ide",
+        "kanban",
+        "markdown-editor",
+        "mcp",
+        "multi-agent-systems",
+        "opencode",
+        "worktree-manager",
+        "wysiwyg-editor"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/nimbalyst/nimbalyst",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "可视化编辑",
+        "多智能体",
+        "工作区"
+      ],
+      "note": "结合智能体任务管理、Markdown、原型与图解编辑的桌面工作区。"
+    },
+    {
+      "repo_id": 306829688,
+      "full_name": "nocobase/nocobase",
+      "description": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating everything from scratch, AI works on top of production-proven infrastructure and a WYSIWYG no-code interface, so you get both speed and reliability.",
+      "topics": [
+        "admin-dashboard",
+        "ai-agent",
+        "ai-agents",
+        "ai-assistant",
+        "ai-tools",
+        "crm",
+        "crud",
+        "dsh-plugin",
+        "erp",
+        "internal-tool",
+        "internal-tools",
+        "low-code",
+        "lowcode",
+        "no-code",
+        "nocode",
+        "project-management",
+        "salesforce",
+        "self-hosted",
+        "workflows"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/nocobase/nocobase",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "business-domain",
+      "resource_type": "app",
+      "tags": [
+        "无代码",
+        "业务系统",
+        "内部工具"
+      ],
+      "note": "通过无代码界面与插件能力构建业务系统的平台。"
+    },
+    {
+      "repo_id": 1075372545,
+      "full_name": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "topics": [],
+      "language": "Shell",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "collection",
+      "tags": [
+        "智能体角色",
+        "提示词",
+        "协作"
+      ],
+      "note": "收集按专业职责划分的智能体角色与工作流程定义。"
+    },
+    {
+      "repo_id": 806879762,
+      "full_name": "nolly-studio/cult-ui",
+      "description": "Components crafted for Design Engineers. Styled using Tailwind CSS, fully compatible with Shadcn, and easy to integrate—just copy and paste. MIT 🤌",
+      "topics": [
+        "components",
+        "design-engineering",
+        "framer-motion",
+        "nextjs",
+        "react",
+        "shadcn-ui",
+        "tailwindcss",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/nolly-studio/cult-ui",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "library",
+      "tags": [
+        "React",
+        "UI组件",
+        "动效"
+      ],
+      "note": "提供可复制集成的 Tailwind 与 shadcn 兼容界面组件。"
+    },
+    {
+      "repo_id": 1126473386,
+      "full_name": "jarrodwatts/claude-hud",
+      "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "topics": [
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cli",
+        "plugin",
+        "statusline",
+        "typescript"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/jarrodwatts/claude-hud",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "Claude Code",
+        "状态栏",
+        "上下文监控"
+      ],
+      "note": "在 Claude Code 中显示上下文、工具与任务执行状态。"
+    },
+    {
+      "repo_id": 1219042200,
+      "full_name": "op7418/guizang-ppt-skill",
+      "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "topics": [
+        "ai-agent",
+        "claude-code",
+        "codex",
+        "html-deck",
+        "image-generation",
+        "ppt",
+        "presentation",
+        "skill",
+        "skills",
+        "swiss-design",
+        "web-ppt"
+      ],
+      "language": "HTML",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/op7418/guizang-ppt-skill",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "幻灯片",
+        "演示设计"
+      ],
+      "note": "以智能体技能生成编辑风格的 HTML 幻灯片。"
+    },
+    {
+      "repo_id": 1142423471,
+      "full_name": "mindfold-ai/Trellis",
+      "description": "The best agent harness.",
+      "topics": [
+        "agentic-coding",
+        "ai-workflow",
+        "claudecode",
+        "codex",
+        "harness"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/mindfold-ai/Trellis",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/mindfold-ai/Trellis/blob/main/README.md",
+          "kind": "README",
+          "sha256": "7b03ee0029255e80efe94ebad11886142c0d327f6c731ff77504706f9353b3f2"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "library",
+      "tags": [
+        "规格驱动",
+        "项目记忆",
+        "编码助手"
+      ],
+      "note": "将规格、任务和工作记录保存在仓库中的智能体工程框架。"
+    },
+    {
+      "repo_id": 1134543109,
+      "full_name": "vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/vercel-labs/skills",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/vercel-labs/skills/blob/main/README.md",
+          "kind": "README",
+          "sha256": "0009a0d2fe1ebe225aafede3e719a0acf8b4bd2249bc4c94f95fc935b0c0d5b0"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "Agent Skills",
+        "包管理",
+        "命令行"
+      ],
+      "note": "发现、安装和使用跨智能体平台技能的命令行工具。"
+    },
+    {
+      "repo_id": 1146413571,
+      "full_name": "epiral/bb-browser",
+      "description": "Your browser is the API. CLI + MCP server for AI agents to control Chrome with your login state.",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/epiral/bb-browser",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "浏览器自动化",
+        "MCP",
+        "Chrome"
+      ],
+      "note": "通过命令行和 MCP 让智能体控制已有登录状态的 Chrome。"
+    },
+    {
+      "repo_id": 1137212306,
+      "full_name": "op7418/Humanizer-zh",
+      "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/op7418/Humanizer-zh",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "中文写作",
+        "文本润色",
+        "Agent Skills"
+      ],
+      "note": "面向中文文本的 AI 写作痕迹检查与润色技能。"
+    },
+    {
+      "repo_id": 1136666433,
+      "full_name": "blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "topics": [
+        "agent-skills",
+        "ai-writing",
+        "claude-code",
+        "codex",
+        "cursor",
+        "prompt-engineering",
+        "writing-tools"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/blader/humanizer",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "写作",
+        "文本润色",
+        "Agent Skills"
+      ],
+      "note": "识别并改写文本中常见 AI 写作模式的技能。"
+    },
+    {
+      "repo_id": 1143767804,
+      "full_name": "zarazhangrui/frontend-slides",
+      "description": "Create beautiful slides on the web using a coding agent's frontend skills",
+      "topics": [
+        "ai-slides",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "claude-skill",
+        "generative-ui",
+        "html",
+        "presentation",
+        "slides",
+        "vibe-coding"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/zarazhangrui/frontend-slides",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "网页幻灯片",
+        "演示文稿",
+        "前端"
+      ],
+      "note": "利用编码助手生成浏览器中展示的幻灯片。"
+    },
+    {
+      "repo_id": 479451389,
+      "full_name": "subframe7536/maple-font",
+      "description": "Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项",
+      "topics": [
+        "coding-font",
+        "font",
+        "ligatures",
+        "monospace",
+        "monospace-font",
+        "opentype",
+        "programming-font",
+        "programming-ligatures",
+        "typeface",
+        "typography",
+        "variable-font"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/subframe7536/maple-font",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "collection",
+      "tags": [
+        "等宽字体",
+        "排版",
+        "编程字体"
+      ],
+      "note": "提供带连字、终端图标及定制选项的等宽字体资源。"
+    },
+    {
+      "repo_id": 106867604,
+      "full_name": "cloudflare/cloudflared",
+      "description": "Cloudflare Tunnel client",
+      "topics": [
+        "cloudflare",
+        "cloudflare-tunnel",
+        "reverse-proxy",
+        "zero-trust-network-access"
+      ],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/cloudflare/cloudflared",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "infra-security",
+      "resource_type": "app",
+      "tags": [
+        "Cloudflare",
+        "隧道",
+        "反向代理"
+      ],
+      "note": "通过 Cloudflare Tunnel 连接本地服务与外部访问入口。"
+    },
+    {
+      "repo_id": 1055481168,
+      "full_name": "fawney19/Aether",
+      "description": null,
+      "topics": [],
+      "language": "Rust",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/fawney19/Aether",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/fawney19/Aether/blob/main/README.md",
+          "kind": "README",
+          "sha256": "b39106843b235d8399a8148f7a91903cfb2447b00055d5c92e0fa6c28e293958"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "API网关",
+        "多模型",
+        "自托管"
+      ],
+      "note": "统一接入模型服务并提供租户、配额和监控管理的 AI 网关。"
+    },
+    {
+      "repo_id": 1179264259,
+      "full_name": "garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/garrytan/gstack",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "Claude Code",
+        "工程流程",
+        "角色协作"
+      ],
+      "note": "收集覆盖产品、设计、开发和验收角色的编码助手工具。"
+    },
+    {
+      "repo_id": 1246625636,
+      "full_name": "open-gsd/gsd-core",
+      "description": "Git. Ship. Done - Core",
+      "topics": [
+        "claude-code",
+        "context-engineering",
+        "meta-prompting",
+        "spec-driven-development"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/open-gsd/gsd-core",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/open-gsd/gsd-core/blob/next/README.md",
+          "kind": "README",
+          "sha256": "66fe062ee3705af835b09ffa8da112fd14bc8a6025f0d4fb22b4291d353268a9"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "library",
+      "tags": [
+        "规格驱动",
+        "上下文工程",
+        "开发流程"
+      ],
+      "note": "组织智能体上下文和规格驱动开发任务的框架。"
+    },
+    {
+      "repo_id": 1162099055,
+      "full_name": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "topics": [
+        "agent",
+        "ai",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding",
+        "design",
+        "frontend",
+        "lowcode",
+        "nocode",
+        "skill",
+        "skills",
+        "vibecoding"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "前端设计",
+        "视觉规范",
+        "Agent Skills"
+      ],
+      "note": "为编码助手提供前端设计、布局与视觉质量指导。"
+    },
+    {
+      "repo_id": 1163979872,
+      "full_name": "qingchencloud/cftunnel",
+      "description": "全协议内网穿透 CLI — Cloud 模式免费 HTTP/WS 穿透 + Relay 模式自建中继 TCP/UDP 全协议 | Cloudflare Tunnel + frp 双引擎",
+      "topics": [
+        "ai-coding",
+        "ai-friendly",
+        "cli",
+        "cloudflare",
+        "cloudflare-tunnel",
+        "cross-platform",
+        "devtools",
+        "frp",
+        "frpc",
+        "frps",
+        "golang",
+        "homelab",
+        "intranet-penetration",
+        "nat-traversal",
+        "port-forwarding",
+        "reverse-proxy",
+        "self-hosted",
+        "tcp-tunnel",
+        "tunnel",
+        "udp-tunnel"
+      ],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/qingchencloud/cftunnel",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "infra-security",
+      "resource_type": "app",
+      "tags": [
+        "内网穿透",
+        "Cloudflare",
+        "frp"
+      ],
+      "note": "结合 Cloudflare Tunnel 与 frp 提供内网穿透的命令行工具。"
+    },
+    {
+      "repo_id": 1133707766,
+      "full_name": "multica-ai/multica",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "topics": [],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/multica-ai/multica",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/multica-ai/multica/blob/main/README.md",
+          "kind": "README",
+          "sha256": "106fbaf3886e73631abcbffd357185a12bb1bf7590b6da344bf1dd2d3f4ce1d0"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "任务管理",
+        "团队协作",
+        "编码助手"
+      ],
+      "note": "通过统一工作区分配、跟踪和审阅编码智能体任务。"
+    },
+    {
+      "repo_id": 1223170290,
+      "full_name": "nexu-io/open-design",
+      "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+      "topics": [
+        "agent-skills",
+        "ai-design",
+        "byok",
+        "claude-code-for-design",
+        "claude-design",
+        "codex-design",
+        "coding-agents",
+        "cursor-design",
+        "deepseek",
+        "deepseek-harness",
+        "design-systems",
+        "desktop-app",
+        "dsh",
+        "dsh-plugin",
+        "figma-alternative",
+        "hermes-agent",
+        "local-first",
+        "prototyping",
+        "ui-generator",
+        "vibe-coding"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/nexu-io/open-design",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "原型设计",
+        "演示文稿",
+        "本地创作"
+      ],
+      "note": "在本地使用编码智能体生成原型、幻灯片和视觉内容的桌面工具。"
+    },
+    {
+      "repo_id": 663900193,
+      "full_name": "sxyazi/yazi",
+      "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "topics": [
+        "android",
+        "asyncio",
+        "cli",
+        "command-line",
+        "concurrency",
+        "cross-platform",
+        "developer-tools",
+        "file-explorer",
+        "file-manager",
+        "filesystem",
+        "linux",
+        "macos",
+        "neovim",
+        "productivity",
+        "rust",
+        "terminal",
+        "tui",
+        "vim",
+        "windows"
+      ],
+      "language": "Rust",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/sxyazi/yazi",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "终端",
+        "文件管理",
+        "命令行"
+      ],
+      "note": "在终端中浏览和管理文件的工具。"
+    },
+    {
+      "repo_id": 1201730379,
+      "full_name": "alchaincyf/nuwa-skill",
+      "description": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/alchaincyf/nuwa-skill",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/alchaincyf/nuwa-skill/blob/main/README.md",
+          "kind": "README",
+          "sha256": "51533665c9e43ed3f1a3b831bb29acccc4b259cf540669c06f0c2a2ba350e5df"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "知识提炼",
+        "思维模型",
+        "Agent Skills"
+      ],
+      "note": "从公开人物资料提炼思维模型与表达方式的智能体技能。"
+    },
+    {
+      "repo_id": 1215145625,
+      "full_name": "alchaincyf/huashu-design",
+      "description": "Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic",
+      "topics": [],
+      "language": "HTML",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/alchaincyf/huashu-design",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "交互原型",
+        "演示文稿"
+      ],
+      "note": "以 HTML 制作原型、演示、动画与可视化内容的设计技能。"
+    },
+    {
+      "repo_id": 1051566067,
+      "full_name": "router-for-me/Cli-Proxy-API-Management-Center",
+      "description": "This is a WebUI interface based on CLI-Proxy-API, designed to simplify configuration modifications and runtime status monitoring.",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/router-for-me/Cli-Proxy-API-Management-Center",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "模型代理",
+        "管理界面",
+        "配置管理"
+      ],
+      "note": "为 CLIProxyAPI 提供配置编辑和运行状态管理界面。"
+    },
+    {
+      "repo_id": 1135492298,
+      "full_name": "jlcodes99/cockpit-tools",
+      "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
+      "topics": [
+        "account-manager",
+        "ai",
+        "antigravity",
+        "codebuddy",
+        "codex",
+        "cursor",
+        "github-copilot",
+        "kiro",
+        "windsurf"
+      ],
+      "language": "Rust",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/jlcodes99/cockpit-tools",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "账号管理",
+        "配额监控",
+        "编码工具"
+      ],
+      "note": "统一管理多个 AI 编码工具的账号、配额和实例。"
+    },
+    {
+      "repo_id": 1262434101,
+      "full_name": "Regert888/gpt-auto-register",
+      "description": null,
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Regert888/gpt-auto-register",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/Regert888/gpt-auto-register/blob/main/README.md",
+          "kind": "README",
+          "sha256": "aed8070f7dcc4285c852f46c72d58ce0a1847c80ebad31c0733112be31e63367"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "账号流程",
+        "自动化",
+        "管理界面"
+      ],
+      "note": "提供 AI 服务账号注册流程和结果管理的自动化工具。"
+    },
+    {
+      "repo_id": 1222110548,
+      "full_name": "DanOps-1/Gpt-Agreement-Payment",
+      "description": "ChatGPT Plus/Team/Pro 订阅协议端到端重放工具集 · hCaptcha 视觉求解器 · 反欺诈机制实证研究 / End-to-end protocol replay toolkit for ChatGPT Plus/Team/Pro subscription with from-scratch hCaptcha solver and empirical anti-fraud research",
+      "topics": [
+        "adversarial-ml",
+        "anti-fraud",
+        "bug-bounty",
+        "captcha-solver",
+        "chatgpt",
+        "ctf-tools",
+        "hcaptcha-solver",
+        "mitmproxy",
+        "playwright",
+        "protocol-replay",
+        "stripe",
+        "vlm"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/DanOps-1/Gpt-Agreement-Payment",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "infra-security",
+      "resource_type": "research",
+      "tags": [
+        "协议分析",
+        "反欺诈",
+        "安全研究"
+      ],
+      "note": "围绕订阅协议、验证码与反欺诈机制的研究工具集。"
+    },
+    {
+      "repo_id": 1112002090,
+      "full_name": "jlcodes99/vscode-antigravity-cockpit",
+      "description": "VS Code extension for monitoring Google Antigravity AI quotas. Features Webview dashboard, QuickPick mode, and quota grouping.",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/jlcodes99/vscode-antigravity-cockpit",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "VS Code",
+        "Antigravity",
+        "配额监控"
+      ],
+      "note": "在 VS Code 中查看 Antigravity 配额与分组状态。"
+    },
+    {
+      "repo_id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "topics": [],
+      "language": "Shell",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/mattpocock/skills",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/mattpocock/skills/blob/main/README.md",
+          "kind": "README",
+          "sha256": "4079d981bc2ac0a52aaf2c76d1c1476f4297937a8ff3a2e2322b6b730dc2d4f6"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "工程实践",
+        "编码助手",
+        "Agent Skills"
+      ],
+      "note": "按具体工程任务组织的可组合智能体技能集合。"
+    },
+    {
+      "repo_id": 1092047360,
+      "full_name": "luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "topics": [
+        "claude-code",
+        "guide",
+        "tutorial"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/luongnv89/claude-howto",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "learning",
+      "tags": [
+        "Claude Code",
+        "入门指南",
+        "示例"
+      ],
+      "note": "通过可视化说明和示例学习 Claude Code 的使用与扩展。"
+    },
+    {
+      "repo_id": 1214290850,
+      "full_name": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+      "description": "GPT-Image-2 API and Prompts",
+      "topics": [
+        "ai-art",
+        "api",
+        "awesome-list",
+        "awesome-lists",
+        "chatgpt",
+        "creative-tools",
+        "generative-ai",
+        "gpt-image-2",
+        "gpt-image-2-api",
+        "gpt-image-2-prompts",
+        "gptimage2",
+        "image-generation",
+        "image-models",
+        "image-prompt",
+        "image-to-image",
+        "openai",
+        "prompt-collection",
+        "prompt-engineering",
+        "text-to-image",
+        "visual-ai"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "collection",
+      "tags": [
+        "图像生成",
+        "API资料",
+        "提示词"
+      ],
+      "note": "汇集 GPT Image 相关 API 资料和图像生成提示词。"
+    },
+    {
+      "repo_id": 1073224021,
+      "full_name": "EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "topics": [
+        "compound",
+        "engineering"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/EveryInc/compound-engineering-plugin",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "工程流程",
+        "编码助手",
+        "插件"
+      ],
+      "note": "为编码助手提供规划、执行与知识积累流程的插件。"
+    },
+    {
+      "repo_id": 1231170332,
+      "full_name": "TokenRhythm/opensquilla",
+      "description": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "deep-learning",
+        "foundation-models",
+        "llm",
+        "mcp",
+        "memory",
+        "openclaw",
+        "python",
+        "skills"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/TokenRhythm/opensquilla",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "Agent",
+        "上下文管理",
+        "工具调用"
+      ],
+      "note": "围绕智能体任务执行与上下文利用构建的开源助手。"
+    },
+    {
+      "repo_id": 1006496207,
+      "full_name": "SuperClaude-Org/SuperClaude_Framework",
+      "description": "A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.",
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "library",
+      "tags": [
+        "Claude Code",
+        "角色配置",
+        "工程方法"
+      ],
+      "note": "通过命令、角色和开发方法扩展 Claude Code 的配置框架。"
+    },
+    {
+      "repo_id": 1025856648,
+      "full_name": "wshobson/agents",
+      "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravity",
+      "topics": [
+        "agent-skills",
+        "agentic-ai",
+        "agents",
+        "ai-agents",
+        "anthropic",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "claude-code-plugins",
+        "claude-skills",
+        "codex",
+        "copilot",
+        "cursor",
+        "cursor-rules",
+        "developer-tools",
+        "mcp",
+        "multi-agent",
+        "opencode",
+        "prompt-engineering",
+        "subagents"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/wshobson/agents",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "插件市场",
+        "编码助手",
+        "Agent Skills"
+      ],
+      "note": "为多种编码环境提供智能体插件与技能资源。"
+    },
+    {
+      "repo_id": 1148052330,
+      "full_name": "Yeachan-Heo/oh-my-codex",
+      "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/Yeachan-Heo/oh-my-codex/blob/main/README.md",
+          "kind": "README",
+          "sha256": "cb3a2532d758aa3747351cdc9303c76e1a47a9fe23c0a0e441e1b0e9f971941c"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "Codex",
+        "多智能体",
+        "工作流"
+      ],
+      "note": "为 Codex 增加团队协作、状态显示与工作流能力。"
+    },
+    {
+      "repo_id": 965615190,
+      "full_name": "bmad-code-org/BMAD-METHOD",
+      "description": "Breakthrough Method for Agile Ai Driven Development",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/bmad-code-org/BMAD-METHOD/blob/main/README.md",
+          "kind": "README",
+          "sha256": "1c02b778907bd9727c0bab2ea614d5a701cd8af172731610f12365d9a99c97c1"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "library",
+      "tags": [
+        "敏捷开发",
+        "需求分析",
+        "工程流程"
+      ],
+      "note": "组织 AI 辅助软件开发中的需求、设计与交付流程。"
+    },
+    {
+      "repo_id": 1185965712,
+      "full_name": "Dailin521/codex-provider-sync",
+      "description": "Synchronize Codex session provider metadata across rollout files and SQLite state.",
+      "topics": [
+        "avalonia",
+        "codex-cli",
+        "codex-desktop",
+        "dotnet",
+        "macos",
+        "model-provider",
+        "nodejs",
+        "openai-codex",
+        "provider-switcher",
+        "session-management",
+        "sqlite",
+        "windows",
+        "winforms"
+      ],
+      "language": "C#",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Dailin521/codex-provider-sync",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "Codex",
+        "会话管理",
+        "模型配置"
+      ],
+      "note": "同步 Codex 会话文件与本地状态中的模型提供方信息。"
+    },
+    {
+      "repo_id": 1201173969,
+      "full_name": "JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "topics": [
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude",
+        "claude-code",
+        "llm",
+        "meme",
+        "prompt-engineering",
+        "skill",
+        "tokens"
+      ],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "提示词",
+        "表达精简",
+        "Agent Skills"
+      ],
+      "note": "通过简短表达约定控制编码助手的输出风格。"
+    },
+    {
+      "repo_id": 765083837,
+      "full_name": "opendatalab/MinerU",
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "topics": [
+        "ai4science",
+        "document-analysis",
+        "docx",
+        "extract-data",
+        "layout-analysis",
+        "ocr",
+        "parser",
+        "pdf",
+        "pdf-converter",
+        "pdf-extractor-llm",
+        "pdf-extractor-pretrain",
+        "pdf-extractor-rag",
+        "pdf-parser",
+        "pptx",
+        "python",
+        "xlsx"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/opendatalab/MinerU",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "app",
+      "tags": [
+        "文档解析",
+        "OCR",
+        "数据提取"
+      ],
+      "note": "把 PDF 与办公文档解析为 Markdown 或结构化 JSON。"
+    },
+    {
+      "repo_id": 1182081931,
+      "full_name": "Egonex-AI/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "topics": [
+        "antigravity-skills",
+        "business-knowledge",
+        "claude-code",
+        "claude-skills",
+        "codebase-analysis",
+        "codex",
+        "codex-skills",
+        "developer-tools-ai-agent",
+        "gemini-cli-skills",
+        "karpathy-llm-wiki",
+        "knowledge-base",
+        "knowledge-graph",
+        "memory",
+        "opencode-skills",
+        "pi-agent",
+        "understandcode",
+        "vibe-coding"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Egonex-AI/Understand-Anything",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "代码理解",
+        "知识图谱",
+        "仓库分析"
+      ],
+      "note": "把代码仓库转换为可浏览和检索的交互知识图谱。"
+    },
+    {
+      "repo_id": 717197250,
+      "full_name": "QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "topics": [
+        "ai-gateway",
+        "claude",
+        "deepseek",
+        "gemini",
+        "newapi",
+        "openai",
+        "rerank"
+      ],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/QuantumNous/new-api",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "模型网关",
+        "格式转换",
+        "模型管理"
+      ],
+      "note": "统一聚合模型接口并转换常见 API 格式。"
+    },
+    {
+      "repo_id": 1181795380,
+      "full_name": "zarazhangrui/follow-builders",
+      "description": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/zarazhangrui/follow-builders",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "AI资讯",
+        "访谈",
+        "内容摘要"
+      ],
+      "note": "汇总 AI 构建者的社交动态与播客内容。"
+    },
+    {
+      "repo_id": 1165277268,
+      "full_name": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "信息检索",
+        "工具调用",
+        "多平台"
+      ],
+      "note": "为智能体提供跨网站和社交平台的内容读取与搜索能力。"
+    },
+    {
+      "repo_id": 1174369519,
+      "full_name": "jnMetaCode/agency-agents-zh",
+      "description": "🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。",
+      "topics": [
+        "agency-orchestrator",
+        "agent-definitions",
+        "ai-agents",
+        "ai-roles",
+        "chinese",
+        "claude",
+        "claude-code",
+        "copilot-agent",
+        "cursor-rules",
+        "deepseek",
+        "hermes-agent",
+        "llm",
+        "multi-agent",
+        "no-code",
+        "prompt-engineering",
+        "qwen",
+        "system-prompt",
+        "workbuddy",
+        "workflow"
+      ],
+      "language": "Shell",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/jnMetaCode/agency-agents-zh",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "collection",
+      "tags": [
+        "中文角色",
+        "智能体协作",
+        "提示词"
+      ],
+      "note": "收集中文专业角色、技能与多智能体编排定义。"
+    },
+    {
+      "repo_id": 1012087571,
+      "full_name": "router-for-me/CLIProxyAPI",
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude model through API",
+      "topics": [
+        "antigravity",
+        "claude-code",
+        "cluade",
+        "codex",
+        "gemini",
+        "openai"
+      ],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/router-for-me/CLIProxyAPI",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "模型代理",
+        "API兼容",
+        "CLI接入"
+      ],
+      "note": "将多个模型命令行或客户端服务包装为兼容 API。"
+    },
+    {
+      "repo_id": 1202599845,
+      "full_name": "KKKKhazix/khazix-skills",
+      "description": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "codex",
+        "developer-tools",
+        "llm",
+        "skills",
+        "vibe-coding"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/KKKKhazix/khazix-skills",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "collection",
+      "tags": [
+        "Agent Skills",
+        "研究方法",
+        "知识管理"
+      ],
+      "note": "汇集研究、整理与表达等任务的智能体技能。"
+    },
+    {
+      "repo_id": 1031059905,
+      "full_name": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/abhigyanpatwari/GitNexus",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "代码理解",
+        "知识图谱",
+        "Graph RAG"
+      ],
+      "note": "把代码仓库转换为交互知识图谱并支持检索问答。"
+    },
+    {
+      "repo_id": 1024554267,
+      "full_name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research",
+        "openai"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
+          "kind": "README",
+          "sha256": "1d733df90c2836c1b9cd8d7307d2d222023456b7b55b5036c2fbb54fd8bcfdf4"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "app",
+      "tags": [
+        "通用智能体",
+        "长期记忆",
+        "技能学习"
+      ],
+      "note": "结合工具调用、记忆与技能积累的通用智能体。"
+    },
+    {
+      "repo_id": 1216954187,
+      "full_name": "ConardLi/garden-skills",
+      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "topics": [
+        "agent",
+        "claude",
+        "gpt-image-2",
+        "rag",
+        "skills",
+        "web-design"
+      ],
+      "language": "CSS",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ConardLi/garden-skills",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "collection",
+      "tags": [
+        "网页设计",
+        "图像生成",
+        "Agent Skills"
+      ],
+      "note": "收集网页设计、图像创作和知识检索等技能。"
+    },
+    {
+      "repo_id": 1010681419,
+      "full_name": "shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+      "topics": [
+        "agent",
+        "agent-development",
+        "ai-agent",
+        "claude",
+        "claude-code",
+        "educational",
+        "llm",
+        "python",
+        "teaching",
+        "tutorial"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/shareAI-lab/learn-claude-code",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "ai-agent",
+      "resource_type": "learning",
+      "tags": [
+        "Agent原理",
+        "教学示例",
+        "编码助手"
+      ],
+      "note": "通过逐步构建小型编码助手学习智能体运行机制。"
+    },
+    {
+      "repo_id": 1136590548,
+      "full_name": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/affaan-m/ECC",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "library",
+      "tags": [
+        "编码助手",
+        "技能管理",
+        "工程流程"
+      ],
+      "note": "为多种编码工具组织技能、记忆与工程工作流。"
+    },
+    {
+      "repo_id": 204777333,
+      "full_name": "sudhakar3697/awesome-electron-alternatives",
+      "description": "A curated list of awesome Electron alternatives.",
+      "topics": [
+        "awesome-list",
+        "cross-platform-desktop-app-dev",
+        "electron",
+        "electron-alternatives",
+        "pwa"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/sudhakar3697/awesome-electron-alternatives",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "桌面开发",
+        "跨平台",
+        "技术选型"
+      ],
+      "note": "收集 Electron 替代方案及跨平台桌面开发资源。"
+    },
+    {
+      "repo_id": 718741813,
+      "full_name": "abi/screenshot-to-code",
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/abi/screenshot-to-code",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "app",
+      "tags": [
+        "截图转代码",
+        "UI实现",
+        "原型还原"
+      ],
+      "note": "将界面截图转换为 HTML 或前端框架代码。"
+    },
+    {
+      "repo_id": 541245403,
+      "full_name": "PlayCover/keymaps",
+      "description": "A collection of community made keymaps for PlayCover.",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/PlayCover/keymaps",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "PlayCover",
+        "键位映射",
+        "配置资源"
+      ],
+      "note": "收集 PlayCover 社区提供的键位映射配置。"
+    },
+    {
+      "repo_id": 472374655,
+      "full_name": "BetaSu/fe-hunter",
+      "description": "每天一道题，3个月后，你就是面试小能手，答题还能赚钱哦",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/BetaSu/fe-hunter",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端面试",
+        "练习题",
+        "知识复习"
+      ],
+      "note": "通过每日问题学习与复习前端面试知识。"
+    },
+    {
+      "repo_id": 352276219,
+      "full_name": "ineo6/hosts",
+      "description": "GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。",
+      "topics": [
+        "github",
+        "hosts",
+        "hosts-file"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ineo6/hosts",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "infra-security",
+      "resource_type": "collection",
+      "tags": [
+        "hosts",
+        "DNS",
+        "网络访问"
+      ],
+      "note": "维护用于 GitHub 访问的 hosts 配置资料。"
+    },
+    {
+      "repo_id": 63539055,
+      "full_name": "jaywcjlove/awesome-mac",
+      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "topics": [
+        "app",
+        "apple",
+        "application",
+        "apps",
+        "awesome",
+        "awesome-list",
+        "awesome-lists",
+        "awesome-mac",
+        "desktop-app",
+        "desktop-application",
+        "desktop-apps",
+        "list",
+        "mac",
+        "mac-osx",
+        "macos",
+        "macos-app",
+        "macos-apps",
+        "macosx",
+        "software"
+      ],
+      "language": "Swift",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/jaywcjlove/awesome-mac",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "macOS",
+        "软件目录",
+        "效率工具"
+      ],
+      "note": "按用途分类整理 macOS 软件和工具资源。"
+    },
+    {
+      "repo_id": 139662221,
+      "full_name": "a597873885/webfunny_monitor",
+      "description": "【免费社区版】【企业版】Webfunny是一款集全链路监控和埋点系统于一体的大数据分析系统，我们致力于解决线上的疑难杂症和精细化分析业务数据；监控系统面向技术、埋点系统面向业务，两者配合使用，相得益彰。",
+      "topics": [
+        "apm",
+        "burying-point",
+        "free",
+        "free-monitor",
+        "front-end-monitor",
+        "frontend-monitoring",
+        "js-monitor",
+        "monitoring",
+        "monitoring-tool",
+        "qian-duan",
+        "topology",
+        "track",
+        "web-monitor"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/a597873885/webfunny_monitor",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "app",
+      "tags": [
+        "前端监控",
+        "埋点",
+        "性能分析"
+      ],
+      "note": "提供前端异常、性能与业务埋点分析的监控系统。"
+    },
+    {
+      "repo_id": 123883497,
+      "full_name": "chinanf-boy/didact-explain",
+      "description": "🇨🇳翻译: 「 Didact 」 DIY React  ❤ 更新 ✔",
+      "topics": [
+        "didact",
+        "explain",
+        "react",
+        "zh"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/chinanf-boy/didact-explain",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "React",
+        "实现原理",
+        "源码阅读"
+      ],
+      "note": "以中文解释 Didact 教学项目中的 React 实现机制。"
+    },
+    {
+      "repo_id": 85077558,
+      "full_name": "nilbuild/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "topics": [
+        "angular-roadmap",
+        "backend-roadmap",
+        "blockchain-roadmap",
+        "computer-science",
+        "dba-roadmap",
+        "developer-roadmap",
+        "devops-roadmap",
+        "frontend-roadmap",
+        "go-roadmap",
+        "java-roadmap",
+        "javascript-roadmap",
+        "nodejs-roadmap",
+        "python-roadmap",
+        "qa-roadmap",
+        "react-roadmap",
+        "roadmap",
+        "software-architect-roadmap",
+        "vue-roadmap"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/nilbuild/developer-roadmap",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "collection",
+      "tags": [
+        "学习路线",
+        "职业发展",
+        "技术地图"
+      ],
+      "note": "汇集多种开发岗位的学习路线和技术知识地图。"
+    },
+    {
+      "repo_id": 126577260,
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "topics": [
+        "algorithm",
+        "algorithms",
+        "computer-science",
+        "data-structures",
+        "interview",
+        "interview-preparation",
+        "javascript",
+        "javascript-algorithms"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/trekhleb/javascript-algorithms",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "算法",
+        "数据结构",
+        "示例代码"
+      ],
+      "note": "通过 JavaScript 示例和解释学习算法与数据结构。"
+    },
+    {
+      "repo_id": 146239863,
+      "full_name": "awesome-vpn/awesome-vpn",
+      "description": "Free proxy node aggregator. Daily updated vmess/vless/trojan/ss. 免费 代理节点 翻墙 梯子 科学上网 机场订阅 网络加速 VPN 免翻墙每日更新 一键导入",
+      "topics": [
+        "clash",
+        "clashvergerev",
+        "fanqiang",
+        "free",
+        "geopolitics",
+        "gfw",
+        "mihomo",
+        "shadowsocks",
+        "sing-box",
+        "singbox",
+        "ss",
+        "trojan",
+        "v2ray",
+        "v2rayn",
+        "vless",
+        "vmess",
+        "xray"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/awesome-vpn/awesome-vpn",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "infra-security",
+      "resource_type": "collection",
+      "tags": [
+        "网络代理",
+        "节点目录",
+        "VPN"
+      ],
+      "note": "汇集网络代理节点和订阅资源的目录。"
+    },
+    {
+      "repo_id": 73999402,
+      "full_name": "HerbertKarajan/Fe-Interview-questions",
+      "description": "目前最全的前端开发面试题及答案",
+      "topics": [
+        "css",
+        "html5",
+        "javascript",
+        "jquery",
+        "web",
+        "web-application"
+      ],
+      "language": "PHP",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/HerbertKarajan/Fe-Interview-questions",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端面试",
+        "题库",
+        "知识复习"
+      ],
+      "note": "整理前端开发面试问题及答案。"
+    },
+    {
+      "repo_id": 134211662,
+      "full_name": "BingKui/javascript-zh",
+      "description": "Airbnb 出品，目前非常流行的 JavaScript 代码规范（中文版）。其内对各种 js 范式的写法进行了详细的规定与说明，按照此规范写出的代码将会更加合理。",
+      "topics": [
+        "ecmascript",
+        "eslint",
+        "javascript",
+        "style-guide",
+        "styleguide"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/BingKui/javascript-zh",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "编码规范",
+        "代码风格",
+        "工程实践"
+      ],
+      "note": "Airbnb JavaScript 代码风格指南的中文说明。"
+    },
+    {
+      "repo_id": 137582912,
+      "full_name": "ljianshu/Blog",
+      "description": "关注基础知识，打造优质前端博客，公众号[前端工匠]的作者",
+      "topics": [
+        "ajax",
+        "css",
+        "javascript",
+        "vue"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ljianshu/Blog",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端基础",
+        "技术博客",
+        "知识复习"
+      ],
+      "note": "围绕前端基础知识和框架使用的技术博客。"
+    },
+    {
+      "repo_id": 81963142,
+      "full_name": "poetries/FE-Interview-Questions",
+      "description": "关注公众号「前端进阶之旅」，一起学习。前端面试常考问题整理，按模块知识点分类 Front-end-Developer-Questions by Modules and knowledge ",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/poetries/FE-Interview-Questions",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端面试",
+        "题库",
+        "知识地图"
+      ],
+      "note": "按模块整理前端面试常见问题与知识点。"
+    },
+    {
+      "repo_id": 47445046,
+      "full_name": "youngwind/blog",
+      "description": "梁少峰的个人博客",
+      "topics": [
+        "blog",
+        "react",
+        "vue",
+        "webpack"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/youngwind/blog",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "技术博客",
+        "React",
+        "Vue"
+      ],
+      "note": "记录前端框架与工程实践的个人技术博客。"
+    },
+    {
+      "repo_id": 19141383,
+      "full_name": "fouber/blog",
+      "description": "没事写写文章，喜欢的话请点star，想订阅点watch，千万别fork！",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/fouber/blog",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/fouber/blog/blob/master/README.md",
+          "kind": "README",
+          "sha256": "4c8bb8213127a77ee48af9b1deefc84234e3147ff209aea465b1279b19a25772"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端工程化",
+        "性能优化",
+        "部署"
+      ],
+      "note": "围绕前端工程体系、模块化和部署实践的技术文章。"
+    },
+    {
+      "repo_id": 101625394,
+      "full_name": "ustbhuangyi/vue-analysis",
+      "description": ":thumbsup: Vue.js 源码分析",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ustbhuangyi/vue-analysis",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "Vue",
+        "源码阅读",
+        "框架原理"
+      ],
+      "note": "分析 Vue 源码及其核心实现机制。"
+    },
+    {
+      "repo_id": 82329147,
+      "full_name": "jawil/blog",
+      "description": "Too young, too simple. Sometimes, naive & stupid 🐌",
+      "topics": [
+        "blog",
+        "css",
+        "difficulty",
+        "es6",
+        "github",
+        "javascript",
+        "js",
+        "nodejs",
+        "notes",
+        "study"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/jawil/blog",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "技术博客",
+        "前端基础",
+        "Node.js"
+      ],
+      "note": "整理前端语言、样式与 Node.js 等学习笔记。"
+    },
+    {
+      "repo_id": 166535974,
+      "full_name": "Advanced-Frontend/Daily-Interview-Question",
+      "description": "我是依扬（木易杨），公众号「高级前端进阶」作者，每天搞定一道前端大厂面试题，祝大家天天进步，一年后会看到不一样的自己。",
+      "topics": [
+        "css",
+        "interview",
+        "javascript",
+        "react",
+        "vue"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Advanced-Frontend/Daily-Interview-Question",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端面试",
+        "每日练习",
+        "知识复习"
+      ],
+      "note": "通过每日面试问题整理前端进阶知识。"
+    },
+    {
+      "repo_id": 153208883,
+      "full_name": "stephentian/33-js-concepts",
+      "description": ":scroll: 每个 JavaScript 工程师都应懂的33个概念 @leonardomso",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/stephentian/33-js-concepts",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "语言基础",
+        "核心概念",
+        "学习指南"
+      ],
+      "note": "介绍 JavaScript 工程师应掌握的核心概念。"
+    },
+    {
+      "repo_id": 139383414,
+      "full_name": "lihongxun945/myblog",
+      "description": "言川的博客-前端工程师的笔记",
+      "topics": [
+        "blog",
+        "frontend",
+        "react",
+        "vue",
+        "webpack",
+        "yan-chuan"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/lihongxun945/myblog",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "技术博客",
+        "前端工程",
+        "框架实践"
+      ],
+      "note": "记录前端框架、构建工具与工程实践的博客。"
+    },
+    {
+      "repo_id": 128706827,
+      "full_name": "lihongxun945/diving-into-webpack",
+      "description": "webpack 源码解析系列",
+      "topics": [
+        "diving-into-webpack",
+        "source",
+        "webpack"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/lihongxun945/diving-into-webpack",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "webpack",
+        "源码阅读",
+        "构建工具"
+      ],
+      "note": "按系列讲解 webpack 的源码与构建机制。"
+    },
+    {
+      "repo_id": 17655907,
+      "full_name": "fex-team/interview-questions",
+      "description": "FEX 面试问题",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/fex-team/interview-questions",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端面试",
+        "题库",
+        "知识复习"
+      ],
+      "note": "FEX 团队整理的开发面试问题。"
+    },
+    {
+      "repo_id": 121125679,
+      "full_name": "LeetCode-OpenSource/vscode-leetcode",
+      "description": "Solve LeetCode problems in VS Code",
+      "topics": [
+        "algorithm",
+        "datastructure",
+        "interview",
+        "leetcode",
+        "vscode"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/LeetCode-OpenSource/vscode-leetcode",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "VS Code",
+        "LeetCode",
+        "刷题工具"
+      ],
+      "note": "在 VS Code 中浏览和练习 LeetCode 题目。"
+    },
+    {
+      "repo_id": 58509963,
+      "full_name": "xcatliu/typescript-tutorial",
+      "description": "TypeScript 入门教程",
+      "topics": [
+        "javascript",
+        "tutorial",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/xcatliu/typescript-tutorial",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "类型系统",
+        "入门教程",
+        "语言基础"
+      ],
+      "note": "面向初学者的 TypeScript 语言教程。"
+    },
+    {
+      "repo_id": 129860458,
+      "full_name": "phobal/ivideo",
+      "description": "一个可以观看国内主流视频平台所有视频的客户端（Mac、Windows、Linux） A client that can watch video of domestic(China) mainstream video platform",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": true,
+      "sources": [
+        {
+          "url": "https://github.com/phobal/ivideo",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "视频播放",
+        "桌面客户端",
+        "跨平台"
+      ],
+      "note": "聚合视频平台观看入口的桌面客户端项目。"
+    },
+    {
+      "repo_id": 82682940,
+      "full_name": "chenshenhai/koa2-note",
+      "description": "《Koa2进阶学习笔记》已完结🎄🎄🎄",
+      "topics": [
+        "course-notes",
+        "koa",
+        "koa2",
+        "koa2-course",
+        "koajs",
+        "nodejs"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/chenshenhai/koa2-note",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "learning",
+      "tags": [
+        "Koa",
+        "Node.js",
+        "后端入门"
+      ],
+      "note": "通过示例学习 Koa 2 后端开发。"
+    },
+    {
+      "repo_id": 124361555,
+      "full_name": "ProtoTeam/blog",
+      "description": "蚂蚁数据体验技术团队的文章仓库",
+      "topics": [
+        "alibaba",
+        "antfin",
+        "aritcle",
+        "blog",
+        "prototeam",
+        "weblog"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ProtoTeam/blog",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/ProtoTeam/blog/blob/master/README.md",
+          "kind": "README",
+          "sha256": "52c8fff00e7e6f6eae6765517a486480904f1538bf7a1e108dd1cafbb2399d3b"
+        },
+        {
+          "url": "https://github.com/ProtoTeam/blog/issues/15",
+          "kind": "article title"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "技术博客",
+        "数据可视化",
+        "工程实践"
+      ],
+      "note": "团队前端、数据可视化与客户端工程实践文章。"
+    },
+    {
+      "repo_id": 135614069,
+      "full_name": "sudheerj/reactjs-interview-questions",
+      "description": "List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!",
+      "topics": [
+        "interview-preparation",
+        "interview-questions",
+        "javascript",
+        "javascript-applications",
+        "javascript-framework",
+        "javascript-interview-questions",
+        "react",
+        "react-interview-questions",
+        "react-native",
+        "react-router",
+        "react16",
+        "reactjs",
+        "redux"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/sudheerj/reactjs-interview-questions",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "React",
+        "前端面试",
+        "题库"
+      ],
+      "note": "收集 React 面试问题、答案与相关练习。"
+    },
+    {
+      "repo_id": 41167393,
+      "full_name": "icepy/Front-End-Develop-Guide",
+      "description": "💰 Awesome The Front End Develop Guide：这份指南汇集了前端开发所使用语言的主流学习资源，并以开发者的视角进行整理编排而成。",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": true,
+      "sources": [
+        {
+          "url": "https://github.com/icepy/Front-End-Develop-Guide",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "前端学习",
+        "资源导航",
+        "工程实践"
+      ],
+      "note": "按开发者视角汇集前端语言与工具学习资源。"
+    },
+    {
+      "repo_id": 78076226,
+      "full_name": "webpack-china/awesome-webpack-cn",
+      "description": "[印记中文](https://docschina.org/) - webpack 优秀中文文章",
+      "topics": [
+        "angular",
+        "react",
+        "vue",
+        "webpack",
+        "webpack2",
+        "webpack3"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/webpack-china/awesome-webpack-cn",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "webpack",
+        "中文资料",
+        "构建工具"
+      ],
+      "note": "收集 webpack 相关中文文章与学习资料。"
+    },
+    {
+      "repo_id": 63418718,
+      "full_name": "521xueweihan/git-tips",
+      "description": ":trollface:Git的奇技淫巧",
+      "topics": [
+        "cheatsheet",
+        "git",
+        "github"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/521xueweihan/git-tips",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "learning",
+      "tags": [
+        "Git",
+        "命令技巧",
+        "版本控制"
+      ],
+      "note": "整理 Git 常见操作和实用命令技巧。"
+    },
+    {
+      "repo_id": 65395768,
+      "full_name": "DMQ/mvvm",
+      "description": "剖析vue实现原理，自己动手实现mvvm",
+      "topics": [
+        "mvvm",
+        "vue"
+      ],
+      "language": "CSS",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/DMQ/mvvm",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "research",
+      "tags": [
+        "MVVM",
+        "响应式",
+        "框架原理"
+      ],
+      "note": "通过简化实现演示 Vue 风格的 MVVM 数据绑定机制。"
+    },
+    {
+      "repo_id": 62879525,
+      "full_name": "Louiszhai/tool",
+      "description": "开发效率提升：Mac生产力工具链推荐",
+      "topics": [
+        "mac",
+        "tool"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Louiszhai/tool",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "macOS",
+        "效率工具",
+        "工具链"
+      ],
+      "note": "整理用于提升开发效率的 Mac 工具链。"
+    },
+    {
+      "repo_id": 58032138,
+      "full_name": "yjhjstz/deep-into-node",
+      "description": "In-depth understanding of Node.js: Core Ideas and Source Code Analysis",
+      "topics": [
+        "libuv",
+        "nodejs",
+        "v8"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/yjhjstz/deep-into-node",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "learning",
+      "tags": [
+        "Node.js",
+        "V8",
+        "源码阅读"
+      ],
+      "note": "深入分析 Node.js 的核心思想与源码实现。"
+    },
+    {
+      "repo_id": 173675448,
+      "full_name": "EtherDream/jsproxy",
+      "description": "An online proxy based on ServiceWorker",
+      "topics": [],
+      "language": "Shell",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/EtherDream/jsproxy",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "infra-security",
+      "resource_type": "app",
+      "tags": [
+        "ServiceWorker",
+        "网络代理",
+        "浏览器"
+      ],
+      "note": "基于 ServiceWorker 实现的浏览器在线代理。"
+    },
+    {
+      "repo_id": 152870372,
+      "full_name": "ruanyf/weekly",
+      "description": "科技爱好者周刊，每周五发布",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ruanyf/weekly",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "collection",
+      "tags": [
+        "技术周刊",
+        "阅读资料",
+        "技术趋势"
+      ],
+      "note": "持续汇集科技文章、工具和观点的周刊。"
+    },
+    {
+      "repo_id": 169529567,
+      "full_name": "zhaoolee/ChromeAppHeroes",
+      "description": "🌈谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~  ChromePluginHeroes, Write a Chinese manual for the excellent Chrome plugin, let the Chrome plugin heroes benefit the human~ 公众号「0加1」同步更新",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/zhaoolee/ChromeAppHeroes",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "collection",
+      "tags": [
+        "Chrome扩展",
+        "工具指南",
+        "效率工具"
+      ],
+      "note": "为常用 Chrome 扩展整理中文说明与使用场景。"
+    },
+    {
+      "repo_id": 127407957,
+      "full_name": "azl397985856/leetcode",
+      "description": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)",
+      "topics": [
+        "algo",
+        "algorithm",
+        "algorithms",
+        "algorithms-datastructures",
+        "computer-science",
+        "cpp",
+        "data-structures",
+        "interview",
+        "java",
+        "javascript",
+        "leetcode",
+        "leetcode-solutions",
+        "python",
+        "tree"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/azl397985856/leetcode",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "LeetCode",
+        "算法",
+        "题解"
+      ],
+      "note": "按题目记录算法思路和 LeetCode 解题过程。"
+    },
+    {
+      "repo_id": 128624453,
+      "full_name": "NervJS/taro",
+      "description": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。",
+      "topics": [
+        "javascript",
+        "jquery",
+        "nerv",
+        "nervjs",
+        "react",
+        "react-native",
+        "reactjs",
+        "taro",
+        "typescript",
+        "vue",
+        "vue3",
+        "wechat",
+        "wechat-mini-program",
+        "weixin",
+        "wxapp"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/NervJS/taro",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "library",
+      "tags": [
+        "跨端",
+        "小程序",
+        "React"
+      ],
+      "note": "使用统一前端开发方式构建小程序和多端应用的框架。"
+    },
+    {
+      "repo_id": 181200364,
+      "full_name": "jaywcjlove/github-rank",
+      "description": "🕷️Github China/Global User Ranking, Global Warehouse Star Ranking (Github Action is automatically updated daily).",
+      "topics": [
+        "git",
+        "github",
+        "github-api",
+        "github-pages",
+        "github-rank",
+        "github-star",
+        "ranking",
+        "segmentfault"
+      ],
+      "language": "EJS",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/jaywcjlove/github-rank",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "GitHub",
+        "排行榜",
+        "数据汇总"
+      ],
+      "note": "通过 GitHub 数据生成用户和仓库排行。"
+    },
+    {
+      "repo_id": 54978788,
+      "full_name": "jaywcjlove/FED",
+      "description": "✪ 这是一个很酷炫的前端网站搜集器，导航网  http://jaywcjlove.github.io/FED",
+      "topics": [
+        "fed"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/jaywcjlove/FED",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "前端导航",
+        "资源目录",
+        "网站收集"
+      ],
+      "note": "收集前端相关网站与学习入口。"
+    },
+    {
+      "repo_id": 13431235,
+      "full_name": "soulmachine/leetcode",
+      "description": "LeetCode题解，151道题完整版。",
+      "topics": [],
+      "language": "TeX",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/soulmachine/leetcode",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "LeetCode",
+        "算法",
+        "题解"
+      ],
+      "note": "以文档形式整理 LeetCode 题目解答。"
+    },
+    {
+      "repo_id": 150058902,
+      "full_name": "wangzheng0822/algo",
+      "description": "数据结构和算法必知必会的50个代码实现",
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/wangzheng0822/algo",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "数据结构",
+        "算法",
+        "示例代码"
+      ],
+      "note": "通过代码示例学习常见数据结构与算法。"
+    },
+    {
+      "repo_id": 56392153,
+      "full_name": "hk029/leetbook",
+      "description": "LeetCode题解开源书《LeetBook》",
+      "topics": [],
+      "language": "Batchfile",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/hk029/leetbook",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "LeetCode",
+        "算法",
+        "电子书"
+      ],
+      "note": "以开源书形式整理 LeetCode 解题方法。"
+    },
+    {
+      "repo_id": 78425501,
+      "full_name": "javaswing/NeteaseCloudWebApp",
+      "description": "This is a vue for NeteaseCloud projects!",
+      "topics": [
+        "axios",
+        "material-design",
+        "muse-ui",
+        "netease-music",
+        "vue",
+        "webapps"
+      ],
+      "language": "Vue",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/javaswing/NeteaseCloudWebApp",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "research",
+      "tags": [
+        "音乐应用",
+        "项目示例"
+      ],
+      "note": "以音乐 Web 应用演示 Vue 与配套工具的使用。"
+    },
+    {
+      "repo_id": 84811466,
+      "full_name": "mqyqingfeng/Blog",
+      "description": "冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。",
+      "topics": [
+        "advanced",
+        "blog",
+        "javascript"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/mqyqingfeng/Blog",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "语言基础",
+        "React",
+        "技术博客"
+      ],
+      "note": "围绕 JavaScript、ES6 和 React 的系列技术文章。"
+    },
+    {
+      "repo_id": 104079562,
+      "full_name": "trazyn/ieaseMusic",
+      "description": "网易云音乐第三方",
+      "topics": [
+        "electron",
+        "electron-app",
+        "highquality-music",
+        "jss",
+        "mobx",
+        "music",
+        "music-player",
+        "netease-cloud-music",
+        "netease-cloudmusic",
+        "netease-music",
+        "player",
+        "react",
+        "unblocker",
+        "wang-yi"
+      ],
+      "language": "JavaScript",
+      "github_archived": true,
+      "sources": [
+        {
+          "url": "https://github.com/trazyn/ieaseMusic",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "app",
+      "tags": [
+        "音乐播放",
+        "Electron",
+        "桌面客户端"
+      ],
+      "note": "网易云音乐的第三方桌面客户端项目。"
+    },
+    {
+      "repo_id": 42352603,
+      "full_name": "jimuyouyou/node-interview-questions",
+      "description": "Node.js面试题，侧重后端应用与对Node核心的理解",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/jimuyouyou/node-interview-questions",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "learning",
+      "tags": [
+        "Node.js",
+        "后端面试",
+        "运行时"
+      ],
+      "note": "侧重后端应用与 Node.js 核心机制的面试题。"
+    },
+    {
+      "repo_id": 58836534,
+      "full_name": "algorithm-visualizer/algorithm-visualizer",
+      "description": ":fireworks:Interactive Online Platform that Visualizes Algorithms from Code",
+      "topics": [
+        "algorithm",
+        "animation",
+        "data-structure",
+        "visualization"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/algorithm-visualizer/algorithm-visualizer",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "app",
+      "tags": [
+        "算法",
+        "交互演示",
+        "数据结构"
+      ],
+      "note": "通过交互动画展示代码中的算法执行过程。"
+    },
+    {
+      "repo_id": 118610450,
+      "full_name": "stone0090/alibaba-interview",
+      "description": "阿里巴巴面试资源汇总",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/stone0090/alibaba-interview",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "collection",
+      "tags": [
+        "技术面试",
+        "求职",
+        "资源合集"
+      ],
+      "note": "汇集阿里巴巴相关技术面试学习资源。"
+    },
+    {
+      "repo_id": 6256729,
+      "full_name": "JacksonTian/fks",
+      "description": "前端技能汇总 Frontend Knowledge Structure",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/JacksonTian/fks",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "前端知识",
+        "技能地图",
+        "学习路线"
+      ],
+      "note": "以知识结构汇总前端开发所需技能。"
+    },
+    {
+      "repo_id": 63568049,
+      "full_name": "DDFE/DDFE-blog",
+      "description": ":clap: welcome to DDFE's blog",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/DDFE/DDFE-blog",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/DDFE/DDFE-blog/blob/master/README.md",
+          "kind": "README",
+          "sha256": "9cba4a7faa1e50abd49c193d9992ba0c42058f9c00c50cd470343e21feb57470"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "Vue",
+        "前端工程",
+        "团队博客"
+      ],
+      "note": "分享 Vue 原理、组件库和前端工程实践的团队文章。"
+    },
+    {
+      "repo_id": 89577951,
+      "full_name": "answershuto/learnVue",
+      "description": ":octocat:Vue.js 源码解析",
+      "topics": [
+        "diff",
+        "dom",
+        "dom-nexttick",
+        "vue",
+        "vue-router",
+        "vue-template",
+        "vuex"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/answershuto/learnVue",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "Vue",
+        "源码阅读",
+        "框架原理"
+      ],
+      "note": "整理 Vue 源码和核心机制的学习笔记。"
+    },
+    {
+      "repo_id": 72754314,
+      "full_name": "chyingp/nodejs-learning-guide",
+      "description": "Nodejs学习笔记以及经验总结，公众号\"程序猿小卡\"",
+      "topics": [
+        "crypto",
+        "express",
+        "nodejs"
+      ],
+      "language": "Ruby",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/chyingp/nodejs-learning-guide",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "learning",
+      "tags": [
+        "Node.js",
+        "后端开发",
+        "学习笔记"
+      ],
+      "note": "记录 Node.js 使用经验与模块学习示例。"
+    },
+    {
+      "repo_id": 178124673,
+      "full_name": "ygs-code/vue",
+      "description": "vue源码逐行注释分析+40多m的vue源码程序流程图思维导图(vue source code line by line annotation analysis +40 + m vue source code process flow chart mind map)",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ygs-code/vue",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "Vue",
+        "源码注释",
+        "流程图"
+      ],
+      "note": "结合逐行注释和流程图分析 Vue 源码。"
+    },
+    {
+      "repo_id": 181807583,
+      "full_name": "haizlin/fe-interview",
+      "description": "前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……",
+      "topics": [
+        "css",
+        "fe-interview",
+        "front-end",
+        "frontend",
+        "frontend-interview",
+        "html",
+        "interview",
+        "interview-questions",
+        "javascript",
+        "js",
+        "node",
+        "nodejs",
+        "react",
+        "resume",
+        "vue"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/haizlin/fe-interview",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端面试",
+        "每日练习",
+        "题库"
+      ],
+      "note": "按日组织前端面试问题与知识练习。"
+    },
+    {
+      "repo_id": 19453715,
+      "full_name": "nonstriater/Learn-Algorithms",
+      "description": "算法学习笔记",
+      "topics": [
+        "algorithm"
+      ],
+      "language": "C",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/nonstriater/Learn-Algorithms",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "算法",
+        "数据结构",
+        "学习笔记"
+      ],
+      "note": "整理算法和数据结构学习笔记。"
+    },
+    {
+      "repo_id": 196664359,
+      "full_name": "xiaolai/regular-investing-in-box",
+      "description": "定投改变命运 —— 让时间陪你慢慢变富 https://onregularinvesting.com",
+      "topics": [],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/xiaolai/regular-investing-in-box",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "business-domain",
+      "resource_type": "learning",
+      "tags": [
+        "投资学习",
+        "定投",
+        "长期投资"
+      ],
+      "note": "介绍定投理念与长期投资方法的公开读物。"
+    },
+    {
+      "repo_id": 203130239,
+      "full_name": "ruanyf/free-books",
+      "description": "互联网上的免费书籍",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ruanyf/free-books",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "collection",
+      "tags": [
+        "免费书籍",
+        "阅读资源",
+        "资料目录"
+      ],
+      "note": "收集互联网上可访问的免费书籍资源。"
+    },
+    {
+      "repo_id": 40422990,
+      "full_name": "lessfish/leetcode",
+      "description": ":pencil2: LeetCode solutions with JavaScript",
+      "topics": [
+        "javascript",
+        "leetcode",
+        "leetcode-solutions"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/lessfish/leetcode",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "LeetCode",
+        "算法",
+        "题解"
+      ],
+      "note": "使用 JavaScript 编写的 LeetCode 题解集合。"
+    },
+    {
+      "repo_id": 177272363,
+      "full_name": "ConardLi/awesome-coding-js",
+      "description": "Algorithms and data structures implemented in JavaScript, with detailed explanations and tutorials",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ConardLi/awesome-coding-js",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "算法",
+        "数据结构",
+        "示例代码"
+      ],
+      "note": "以 JavaScript 示例和讲解学习算法与数据结构。"
+    },
+    {
+      "repo_id": 196552074,
+      "full_name": "azl397985856/fe-interview",
+      "description": "宇宙最强的前端面试指南 (https://lucifer.ren/fe-interview)",
+      "topics": [
+        "algorithm",
+        "fe",
+        "frontend",
+        "interview",
+        "javascript",
+        "qian-duan"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/azl397985856/fe-interview",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端面试",
+        "知识复习",
+        "求职"
+      ],
+      "note": "整理前端岗位面试知识与复习指南。"
+    },
+    {
+      "repo_id": 207837082,
+      "full_name": "perkfly/reverse-interview-zh",
+      "description": "技术面试最后反问面试官的话",
+      "topics": [
+        "interview",
+        "interview-questions",
+        "reverse-interview"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/perkfly/reverse-interview-zh",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "技术面试",
+        "反向面试",
+        "职业选择"
+      ],
+      "note": "整理求职时向面试官了解团队和岗位的问题。"
+    },
+    {
+      "repo_id": 237403566,
+      "full_name": "biaochenxuying/awesome-books",
+      "description": "技术类精华书单推荐，包括 前端、后端、数据结构与算法、计算机基础、设计模式、数据库等书籍。",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/biaochenxuying/awesome-books",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "collection",
+      "tags": [
+        "技术书单",
+        "计算机基础",
+        "学习资源"
+      ],
+      "note": "按技术领域推荐前后端、算法与计算机基础书籍。"
+    },
+    {
+      "repo_id": 90796663,
+      "full_name": "puppeteer/puppeteer",
+      "description": "JavaScript API for Chrome and Firefox",
+      "topics": [
+        "automation",
+        "chrome",
+        "chromium",
+        "developer-tools",
+        "firefox",
+        "headless-chrome",
+        "node-module",
+        "testing",
+        "web"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/puppeteer/puppeteer",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "library",
+      "tags": [
+        "浏览器自动化",
+        "测试",
+        "爬取"
+      ],
+      "note": "通过程序控制 Chrome 和 Firefox 执行浏览器任务。"
+    },
+    {
+      "repo_id": 54346799,
+      "full_name": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "topics": [
+        "api",
+        "apis",
+        "dataset",
+        "development",
+        "free",
+        "list",
+        "lists",
+        "open-source",
+        "public",
+        "public-api",
+        "public-apis",
+        "resources",
+        "software"
+      ],
+      "language": "Python",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/public-apis/public-apis",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "collection",
+      "tags": [
+        "API目录",
+        "公共接口",
+        "开发资源"
+      ],
+      "note": "汇集可供应用开发参考的公开 API 服务。"
+    },
+    {
+      "repo_id": 307106512,
+      "full_name": "FrontEndGitHub/FrontEndGitHub",
+      "description": ":octocat:GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、数据结构与算法、开发工具、求职面试等）",
+      "topics": [
+        "frontend",
+        "frontend-map",
+        "javascript",
+        "react",
+        "vue"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/FrontEndGitHub/FrontEndGitHub",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "前端资源",
+        "学习路线",
+        "工程工具"
+      ],
+      "note": "汇总前端学习、开发工具和求职相关资源。"
+    },
+    {
+      "repo_id": 244779423,
+      "full_name": "SocialSisterYi/bilibili-API-collect",
+      "description": null,
+      "topics": [],
+      "language": null,
+      "github_archived": true,
+      "sources": [
+        {
+          "url": "https://github.com/SocialSisterYi/bilibili-API-collect",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/SocialSisterYi/bilibili-API-collect/blob/deprecated/README.md",
+          "kind": "README",
+          "sha256": "fcb7f130e5fd2753060789390e862862b905095e343027ffe7703b0f992e8da3"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "collection",
+      "tags": [
+        "API资料",
+        "历史资料",
+        "停止维护"
+      ],
+      "note": "原哔哩哔哩 API 文档收集项目，当前仓库已关停并删除相关文档与源码。"
+    },
+    {
+      "repo_id": 354498261,
+      "full_name": "biaochenxuying/preferential-courses",
+      "description": "以最优惠的方式购买极客时间课程，涵盖了后端、架构、前端、移动、人工智能、大数据、产品、运营、运维、测试等",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/biaochenxuying/preferential-courses",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "collection",
+      "tags": [
+        "技术课程",
+        "学习资源",
+        "课程目录"
+      ],
+      "note": "汇集技术课程介绍和优惠购买信息。"
+    },
+    {
+      "repo_id": 63938423,
+      "full_name": "shfshanyue/blog",
+      "description": "在这里写一些工作中遇到的前端，后端以及运维的问题",
+      "topics": [
+        "canvas",
+        "css",
+        "grid",
+        "javascript",
+        "python",
+        "tmux",
+        "vim"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/shfshanyue/blog",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "工程实践",
+        "全栈",
+        "技术博客"
+      ],
+      "note": "记录前端、后端及运维工作中的问题与解决思路。"
+    },
+    {
+      "repo_id": 172234286,
+      "full_name": "ruochuan12/blog",
+      "description": "若川的博客—撰写了学习源码整体架构系列几十篇。组织了源码共读活动，每周一起学习200行左右的源码，加我微信 ruochuan02 参与。",
+      "topics": [
+        "axios",
+        "koa",
+        "lodash",
+        "redux",
+        "sentry",
+        "underscore",
+        "vue",
+        "vuex"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ruochuan12/blog",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "源码阅读",
+        "前端工程",
+        "技术博客"
+      ],
+      "note": "围绕常用前端库和框架开展源码阅读的技术文章。"
+    },
+    {
+      "repo_id": 218952250,
+      "full_name": "shfshanyue/Daily-Question",
+      "description": "互联网大厂内推及大厂面经整理，并且每天一道面试题推送。每天五分钟，半年大厂中",
+      "topics": [
+        "devops",
+        "fe-interview",
+        "frontend-interview",
+        "interview",
+        "interview-questions",
+        "js",
+        "linux",
+        "microservice"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/shfshanyue/Daily-Question",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端面试",
+        "每日练习",
+        "工程知识"
+      ],
+      "note": "整理面试经验及前端、网络和工程相关问答。"
+    },
+    {
+      "repo_id": 337237194,
+      "full_name": "mechaniac/Map-of-Javascript",
+      "description": "Javascript on one sheet. (and one for algorithms)",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/mechaniac/Map-of-Javascript",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "知识地图",
+        "语言基础",
+        "算法"
+      ],
+      "note": "以单页地图形式呈现 JavaScript 与算法知识。"
+    },
+    {
+      "repo_id": 3402537,
+      "full_name": "h5bp/Front-end-Developer-Interview-Questions",
+      "description": "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.",
+      "topics": [
+        "css-questions",
+        "front-end",
+        "html-questions",
+        "interview-questions",
+        "interview-test",
+        "js-questions"
+      ],
+      "language": "Nunjucks",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/h5bp/Front-end-Developer-Interview-Questions",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端面试",
+        "题库",
+        "知识复习"
+      ],
+      "note": "供面试与自测使用的前端开发问题清单。"
+    },
+    {
+      "repo_id": 61715431,
+      "full_name": "Binaryify/NeteaseCloudMusicApi",
+      "description": "网易云音乐 Node.js API service",
+      "topics": [
+        "api",
+        "apis",
+        "cloudmusic",
+        "javascript",
+        "neteasecloud",
+        "nodejs"
+      ],
+      "language": null,
+      "github_archived": true,
+      "sources": [
+        {
+          "url": "https://github.com/Binaryify/NeteaseCloudMusicApi",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "app",
+      "tags": [
+        "Node.js",
+        "音乐接口",
+        "API服务"
+      ],
+      "note": "为网易云音乐相关功能提供 Node.js API 服务的项目。"
+    },
+    {
+      "repo_id": 61137153,
+      "full_name": "evanw/esbuild",
+      "description": "An extremely fast bundler for the web",
+      "topics": [
+        "bundler",
+        "commonjs",
+        "compiler",
+        "css",
+        "esm",
+        "javascript",
+        "jsx",
+        "minifier",
+        "react",
+        "tsx",
+        "typescript"
+      ],
+      "language": "Go",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/evanw/esbuild",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "app",
+      "tags": [
+        "打包工具",
+        "编译",
+        "构建优化"
+      ],
+      "note": "用于 Web 项目的代码打包、转换与压缩工具。"
+    },
+    {
+      "repo_id": 358508682,
+      "full_name": "juicecube/mshared",
+      "description": "前端状态管理方案，支持微前端通信；适用于（乾坤）",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/juicecube/mshared",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "library",
+      "tags": [
+        "状态管理",
+        "微前端",
+        "应用通信"
+      ],
+      "note": "支持微前端间通信的前端状态管理方案。"
+    },
+    {
+      "repo_id": 37066088,
+      "full_name": "jorangreef/sudo-prompt",
+      "description": "Run a command using sudo, prompting the user with an OS dialog if necessary.",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": true,
+      "sources": [
+        {
+          "url": "https://github.com/jorangreef/sudo-prompt",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "library",
+      "tags": [
+        "进程调用",
+        "权限提示",
+        "桌面开发"
+      ],
+      "note": "调用需要提升权限的命令，并在必要时显示系统授权对话框。"
+    },
+    {
+      "repo_id": 120278854,
+      "full_name": "yygmind/blog",
+      "description": "我是木易杨，公众号「高级前端进阶」作者，跟着我每周重点攻克一个前端面试重难点。接下来让我带你走进高级前端的世界，在进阶的路上，共勉！",
+      "topics": [
+        "advance",
+        "blog",
+        "css",
+        "html",
+        "javascript",
+        "react",
+        "vue"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/yygmind/blog",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端进阶",
+        "面试复习",
+        "技术博客"
+      ],
+      "note": "通过系列文章讲解前端进阶与面试重点。"
+    },
+    {
+      "repo_id": 85541218,
+      "full_name": "ascoders/weekly",
+      "description": "前端精读周刊。帮你理解最前沿、实用的技术。",
+      "topics": [
+        "awesome",
+        "frontend",
+        "weekly"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ascoders/weekly",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "技术周刊",
+        "前端工程",
+        "深度阅读"
+      ],
+      "note": "围绕前端技术与工程实践进行精读的周刊。"
+    },
+    {
+      "repo_id": 58520024,
+      "full_name": "FrankFang/best-chinese-front-end-blogs",
+      "description": "收集优质的中文前端博客",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/FrankFang/best-chinese-front-end-blogs",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "中文博客",
+        "学习资源",
+        "前端导航"
+      ],
+      "note": "收集中文前端技术博客。"
+    },
+    {
+      "repo_id": 72103891,
+      "full_name": "ruanyf/jstraining",
+      "description": "全栈工程师培训材料",
+      "topics": [],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ruanyf/jstraining",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "全栈",
+        "培训材料",
+        "工程入门"
+      ],
+      "note": "面向全栈工程师的培训资料与实践内容。"
+    },
+    {
+      "repo_id": 140561004,
+      "full_name": "kawhiGuo/kawhiGuo.github.io",
+      "description": "个人博客",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/kawhiGuo/kawhiGuo.github.io",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/kawhiGuo/kawhiGuo.github.io/blob/master/README.md",
+          "kind": "README",
+          "sha256": "9ec70bec02956a6c7451afdac29bf495ba87926da92e9e579265ddeaab5f442e"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "前端学习",
+        "技术笔记",
+        "个人博客"
+      ],
+      "note": "记录前端知识、工具练习与技术阅读的个人学习博客。"
+    },
+    {
+      "repo_id": 45512989,
+      "full_name": "xitu/gold-miner",
+      "description": "🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台：",
+      "topics": [
+        "ai",
+        "android",
+        "frontend",
+        "ios",
+        "javascript",
+        "react",
+        "swift",
+        "tensorflow",
+        "translation",
+        "tutorials"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/xitu/gold-miner",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "collection",
+      "tags": [
+        "技术翻译",
+        "中文资料",
+        "跨领域"
+      ],
+      "note": "将多领域英文技术文章译为中文的社区项目。"
+    },
+    {
+      "repo_id": 72188885,
+      "full_name": "Brooooooklyn/learning-rxjs",
+      "description": "Learning RxJS step by step",
+      "topics": [
+        "learning-rxjs",
+        "rxjs",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Brooooooklyn/learning-rxjs",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "RxJS",
+        "响应式编程",
+        "入门教程"
+      ],
+      "note": "通过逐步示例学习 RxJS 与响应式编程。"
+    },
+    {
+      "repo_id": 22046023,
+      "full_name": "facebookarchive/flux",
+      "description": "Application Architecture for Building User Interfaces",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": true,
+      "sources": [
+        {
+          "url": "https://github.com/facebookarchive/flux",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "library",
+      "tags": [
+        "Flux",
+        "状态管理",
+        "架构模式"
+      ],
+      "note": "用于组织用户界面数据流的 Flux 架构实现。"
+    },
+    {
+      "repo_id": 29785166,
+      "full_name": "voronianski/flux-comparison",
+      "description": ":pencil: Practical comparison of different Flux solutions",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/voronianski/flux-comparison",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "research",
+      "tags": [
+        "Flux",
+        "状态管理",
+        "方案比较"
+      ],
+      "note": "通过实践示例比较不同 Flux 状态管理方案。"
+    },
+    {
+      "repo_id": 41526025,
+      "full_name": "mzlogin/chinese-copywriting-guidelines",
+      "description": "Chinese Copywriting Guidelines：中文文案排版指北（简体中文版）",
+      "topics": [],
+      "language": "CoffeeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/mzlogin/chinese-copywriting-guidelines",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "design-content",
+      "resource_type": "learning",
+      "tags": [
+        "中文排版",
+        "写作规范",
+        "文案"
+      ],
+      "note": "整理中文文案中的标点、空格与排版规范。"
+    },
+    {
+      "repo_id": 137583435,
+      "full_name": "adam-golab/react-developer-roadmap",
+      "description": "Roadmap to becoming a React developer",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/adam-golab/react-developer-roadmap",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "collection",
+      "tags": [
+        "React",
+        "学习路线",
+        "知识地图"
+      ],
+      "note": "整理成为 React 开发者所需学习的技术路线。"
+    },
+    {
+      "repo_id": 35998691,
+      "full_name": "electron-userland/electron-builder",
+      "description": "A complete solution to package and build a ready for distribution Electron app with “auto update” support out of the box",
+      "topics": [
+        "appx",
+        "auto-update",
+        "builder",
+        "contributions-welcome",
+        "deb",
+        "distribution-electron",
+        "dmg",
+        "electron",
+        "electron-builder",
+        "electron-updater",
+        "help-wanted",
+        "linux",
+        "macos",
+        "msi",
+        "muon",
+        "nsis",
+        "pkg",
+        "rpm",
+        "snap",
+        "squirrel"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/electron-userland/electron-builder",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "app",
+      "tags": [
+        "Electron",
+        "应用打包",
+        "自动更新"
+      ],
+      "note": "打包和分发 Electron 桌面应用并支持自动更新。"
+    },
+    {
+      "repo_id": 29375063,
+      "full_name": "decaffeinate/decaffeinate",
+      "description": "Goodbye CoffeeScript, hello JavaScript!",
+      "topics": [
+        "coffeescript",
+        "conversion",
+        "decaffeinate"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/decaffeinate/decaffeinate",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "代码迁移",
+        "CoffeeScript",
+        "转换工具"
+      ],
+      "note": "将 CoffeeScript 源码转换为 JavaScript。"
+    },
+    {
+      "repo_id": 74791366,
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "topics": [
+        "best-practices",
+        "clean-architecture",
+        "clean-code",
+        "composition",
+        "inheritance",
+        "javascript",
+        "principles"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "learning",
+      "tags": [
+        "代码质量",
+        "编码规范",
+        "工程实践"
+      ],
+      "note": "用 JavaScript 示例解释整洁代码原则。"
+    },
+    {
+      "repo_id": 125791597,
+      "full_name": "InterviewMap/CS-Interview-Knowledge-Map",
+      "description": "Build the best interview map. The current content includes JS, network, browser related, performance optimization, security, framework, Git, data structure, algorithm, etc.",
+      "topics": [
+        "algorithms",
+        "blog",
+        "interview",
+        "javascript",
+        "react",
+        "vue"
+      ],
+      "language": null,
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/InterviewMap/CS-Interview-Knowledge-Map",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "collection",
+      "tags": [
+        "面试知识",
+        "计算机基础",
+        "知识地图"
+      ],
+      "note": "汇集语言、浏览器、网络和算法等面试知识。"
+    },
+    {
+      "repo_id": 50502690,
+      "full_name": "sequelize/sequelize-typescript",
+      "description": "Decorators and some other features for sequelize",
+      "topics": [
+        "annotations",
+        "decorators",
+        "orm",
+        "sequelize",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/sequelize/sequelize-typescript",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "ORM",
+        "Sequelize",
+        "装饰器"
+      ],
+      "note": "为 Sequelize 增加 TypeScript 装饰器与类型化模型能力。"
+    },
+    {
+      "repo_id": 90786593,
+      "full_name": "microsoft/TypeScript-Vue-Starter",
+      "description": "A starter template for TypeScript and Vue with a detailed README describing how to use the two together.",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": true,
+      "sources": [
+        {
+          "url": "https://github.com/microsoft/TypeScript-Vue-Starter",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "template",
+      "tags": [
+        "Vue",
+        "类型系统",
+        "脚手架"
+      ],
+      "note": "演示 Vue 与 TypeScript 结合使用的项目模板。"
+    },
+    {
+      "repo_id": 112285264,
+      "full_name": "oe/mac-env",
+      "description": "[WIP] make your brand new Mac ready for work by one script",
+      "topics": [],
+      "language": "Shell",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/oe/mac-env",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "app",
+      "tags": [
+        "macOS",
+        "开发环境",
+        "初始化"
+      ],
+      "note": "通过脚本准备 Mac 开发环境。"
+    },
+    {
+      "repo_id": 16229580,
+      "full_name": "livoras/blog",
+      "description": "Too young, too simple. Sometimes, naive.",
+      "topics": [],
+      "language": "Ruby",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/livoras/blog",
+          "kind": "repository metadata"
+        },
+        {
+          "url": "https://github.com/livoras/blog/blob/home/README.md",
+          "kind": "README",
+          "sha256": "4200f042e0ee5d6fd0c90f506e358eb5161504a90dd58363345b59156dc439b2"
+        },
+        {
+          "url": "https://github.com/livoras/blog/issues/25",
+          "kind": "article title"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "技术博客",
+        "框架原理",
+        "前端工程"
+      ],
+      "note": "以仓库文章和讨论记录前端技术与工程学习内容。"
+    },
+    {
+      "repo_id": 112507086,
+      "full_name": "Chalarangelo/30-seconds-of-code",
+      "description": "Coding articles to level up your development skills",
+      "topics": [
+        "astro",
+        "awesome-list",
+        "css",
+        "education",
+        "es6-javascript",
+        "git",
+        "html",
+        "javascript",
+        "learn-to-code",
+        "learning-resources",
+        "nodejs",
+        "programming",
+        "snippets"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/Chalarangelo/30-seconds-of-code",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "cs-engineering",
+      "resource_type": "collection",
+      "tags": [
+        "代码片段",
+        "编程学习",
+        "工程技巧"
+      ],
+      "note": "通过短篇文章和代码片段讲解开发知识。"
+    },
+    {
+      "repo_id": 115748714,
+      "full_name": "wotermelon/toJump",
+      "description": "nodejs版本玩微信跳一跳小游戏",
+      "topics": [
+        "javascript",
+        "nodejs",
+        "socket-io"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/wotermelon/toJump",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "research",
+      "tags": [
+        "小游戏",
+        "自动化",
+        "Node.js"
+      ],
+      "note": "用 Node.js 演示微信跳一跳小游戏的自动化操作。"
+    },
+    {
+      "repo_id": 15308499,
+      "full_name": "SortableJS/Sortable",
+      "description": "Reorderable drag-and-drop lists for modern browsers and touch devices. No jQuery or framework required.",
+      "topics": [
+        "drag",
+        "drag-and-drop",
+        "drag-drop",
+        "draggable",
+        "droppable",
+        "reordering",
+        "sort",
+        "sortable",
+        "touch",
+        "ui"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/SortableJS/Sortable",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "library",
+      "tags": [
+        "拖拽",
+        "列表排序",
+        "UI交互"
+      ],
+      "note": "为网页和触屏界面提供拖拽排序能力。"
+    },
+    {
+      "repo_id": 62104779,
+      "full_name": "SortableJS/Vue.Draggable",
+      "description": "Vue drag-and-drop component based on Sortable.js",
+      "topics": [
+        "component",
+        "drag-and-drop",
+        "vue"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/SortableJS/Vue.Draggable",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "library",
+      "tags": [
+        "Vue",
+        "拖拽",
+        "UI组件"
+      ],
+      "note": "基于 Sortable.js 的 Vue 拖拽组件。"
+    },
+    {
+      "repo_id": 55619351,
+      "full_name": "sagalbot/vue-sortable",
+      "description": "A lightweight directive for reorderable drag-and-drop lists using RubaXa/Sortable",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/sagalbot/vue-sortable",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "library",
+      "tags": [
+        "Vue",
+        "拖拽",
+        "列表排序"
+      ],
+      "note": "通过 Vue 指令为列表接入 Sortable 拖拽排序。"
+    },
+    {
+      "repo_id": 50559652,
+      "full_name": "hilongjw/vue-progressbar",
+      "description": "A lightweight progress bar for vue",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/hilongjw/vue-progressbar",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "library",
+      "tags": [
+        "Vue",
+        "进度条",
+        "UI组件"
+      ],
+      "note": "为 Vue 应用提供轻量进度条组件。"
+    },
+    {
+      "repo_id": 61421257,
+      "full_name": "eggjs/egg",
+      "description": "🥚🥚🥚🥚 Born to build better enterprise frameworks and apps with Node.js & Koa. https://307.run/eggcode",
+      "topics": [
+        "egg",
+        "eggjs",
+        "enterprise",
+        "framework",
+        "koa",
+        "koa-middleware",
+        "koa2",
+        "node-framework",
+        "nodejs"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/eggjs/egg",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "Node.js",
+        "服务端框架",
+        "Koa"
+      ],
+      "note": "用于构建企业级 Node.js 服务端应用的框架。"
+    },
+    {
+      "repo_id": 16346957,
+      "full_name": "koajs/jwt",
+      "description": "Koa middleware for validating JSON Web Tokens",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/koajs/jwt",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "Koa",
+        "JWT",
+        "认证"
+      ],
+      "note": "在 Koa 请求处理中验证 JSON Web Token 的中间件。"
+    },
+    {
+      "repo_id": 4297695,
+      "full_name": "zemirco/json2csv",
+      "description": "Convert json to csv with column titles",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/zemirco/json2csv",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "JSON",
+        "CSV",
+        "数据转换"
+      ],
+      "note": "把 JSON 数据转换为带列标题的 CSV。"
+    },
+    {
+      "repo_id": 56642714,
+      "full_name": "dominhhai/koa-log4js",
+      "description": "log4js-node supports Koa-middleware",
+      "topics": [
+        "koa",
+        "koa-log4js",
+        "koa-middleware",
+        "log4js-node",
+        "logger-middleware"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/dominhhai/koa-log4js",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "Koa",
+        "日志",
+        "中间件"
+      ],
+      "note": "将 log4js 日志能力接入 Koa 请求流程。"
+    },
+    {
+      "repo_id": 14741526,
+      "full_name": "STRML/node-xlsx-writestream",
+      "description": "Simple XLSX writer for Node.js.",
+      "topics": [],
+      "language": "CoffeeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/STRML/node-xlsx-writestream",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "Excel",
+        "流式写入",
+        "数据导出"
+      ],
+      "note": "在 Node.js 中以流式方式写入 XLSX 文件。"
+    },
+    {
+      "repo_id": 9207396,
+      "full_name": "functionscope/Node-Excel-Export",
+      "description": "A simple node.js module for exporting data set to Excel xlsx file.",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/functionscope/Node-Excel-Export",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "Excel",
+        "数据导出",
+        "报表"
+      ],
+      "note": "把数据集导出为 Excel 文件的 Node.js 模块。"
+    },
+    {
+      "repo_id": 8467117,
+      "full_name": "mgcrea/node-xlsx",
+      "description": "NodeJS excel file parser & builder",
+      "topics": [],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/mgcrea/node-xlsx",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "Excel",
+        "表格解析",
+        "数据导出"
+      ],
+      "note": "在 Node.js 中解析和生成 Excel 文件。"
+    },
+    {
+      "repo_id": 48212104,
+      "full_name": "ustbhuangyi/better-scroll",
+      "description": ":scroll: inspired by iscroll, and it supports more features and has a better scroll perfermance",
+      "topics": [
+        "better-performance",
+        "ios",
+        "iscroll",
+        "mobile-web",
+        "more-features",
+        "vue"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ustbhuangyi/better-scroll",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "library",
+      "tags": [
+        "移动Web",
+        "滚动",
+        "交互组件"
+      ],
+      "note": "为移动网页提供滚动与相关交互能力。"
+    },
+    {
+      "repo_id": 790359,
+      "full_name": "sequelize/sequelize",
+      "description": "Feature-rich ORM for modern Node.js and TypeScript, it supports PostgreSQL (with JSON and JSONB support), MySQL, MariaDB, SQLite, MS SQL Server, Snowflake, Oracle DB, DB2 and DB2 for IBM i.",
+      "topics": [
+        "db2-ibm-i",
+        "feature-rich",
+        "javascript",
+        "mariadb",
+        "microsoft-sql-server",
+        "mssql",
+        "mssql-server",
+        "mysql",
+        "nodejs",
+        "oracle-db",
+        "orm",
+        "postgresql",
+        "sequelize",
+        "snowflakedb",
+        "sql",
+        "sqlite",
+        "transactions",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/sequelize/sequelize",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "ORM",
+        "数据库",
+        "SQL"
+      ],
+      "note": "通过模型与查询接口访问多种 SQL 数据库。"
+    },
+    {
+      "repo_id": 1283503,
+      "full_name": "request/request",
+      "description": "🏊🏾 Simplified HTTP request client.",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/request/request",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "HTTP",
+        "网络请求",
+        "客户端"
+      ],
+      "note": "用于发送 HTTP 请求的 Node.js 客户端库。"
+    },
+    {
+      "repo_id": 44008404,
+      "full_name": "i5ting/vsc",
+      "description": "Visual Studio Code Guide[Simple Chinese][简体中文]",
+      "topics": [],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/i5ting/vsc",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "devtools-automation",
+      "resource_type": "learning",
+      "tags": [
+        "VS Code",
+        "编辑器",
+        "中文指南"
+      ],
+      "note": "介绍 Visual Studio Code 的中文使用指南。"
+    },
+    {
+      "repo_id": 79780572,
+      "full_name": "ElemeFE/node-interview",
+      "description": "How to pass the Node.js interview of ElemeFE.",
+      "topics": [
+        "interview",
+        "nodejs"
+      ],
+      "language": "HTML",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/ElemeFE/node-interview",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "learning",
+      "tags": [
+        "Node.js",
+        "后端面试",
+        "知识复习"
+      ],
+      "note": "整理 Node.js 岗位面试相关问题与知识。"
+    },
+    {
+      "repo_id": 11551538,
+      "full_name": "koajs/koa",
+      "description": "Expressive middleware for node.js using ES2017 async functions",
+      "topics": [
+        "koa"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/koajs/koa",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "backend-data",
+      "resource_type": "library",
+      "tags": [
+        "Node.js",
+        "Web服务",
+        "中间件"
+      ],
+      "note": "以中间件组合方式构建 Node.js Web 服务的框架。"
+    },
+    {
+      "repo_id": 68908781,
+      "full_name": "xwartz/wechat-app-demo",
+      "description": "📱微信小程序 demo",
+      "topics": [
+        "wechat",
+        "wechat-app"
+      ],
+      "language": "JavaScript",
+      "github_archived": true,
+      "sources": [
+        {
+          "url": "https://github.com/xwartz/wechat-app-demo",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "research",
+      "tags": [
+        "微信小程序",
+        "项目示例",
+        "客户端"
+      ],
+      "note": "用于学习微信小程序结构与功能的示例项目。"
+    },
+    {
+      "repo_id": 55888708,
+      "full_name": "lessfish/underscore-analysis",
+      "description": "underscore-1.8.3.js 源码解读 & 系列文章（完）",
+      "topics": [
+        "javascript",
+        "underscore"
+      ],
+      "language": "JavaScript",
+      "github_archived": false,
+      "sources": [
+        {
+          "url": "https://github.com/lessfish/underscore-analysis",
+          "kind": "repository metadata"
+        }
+      ],
+      "category": "web-client",
+      "resource_type": "learning",
+      "tags": [
+        "Underscore",
+        "源码阅读",
+        "工具库"
+      ],
+      "note": "按系列分析 Underscore 工具库源码。"
+    }
+  ]
+}
