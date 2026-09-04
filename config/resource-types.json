@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "items": [
+    { "id": "app", "label": "应用或工具" },
+    { "id": "library", "label": "库或框架" },
+    { "id": "template", "label": "模板或脚手架" },
+    { "id": "learning", "label": "教程、书籍或课程" },
+    { "id": "collection", "label": "资料合集或数据集" },
+    { "id": "research", "label": "研究、示例或实验" },
+    { "id": "unclassified", "label": "待判断" }
+  ]
+}

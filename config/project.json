@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "github_username": "jiapeiyang",
+  "repository_name": "github-star-vault",
+  "site_title": "Star Vault",
+  "site_language": "zh-CN",
+  "api_version": "2022-11-28",
+  "sync_interval_hours": 6,
+  "public_notes": true,
+  "pages_base": "/github-star-vault/"
+}

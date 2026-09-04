@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "items": [
+    { "id": "ai-agent", "label": "AI 与 Agent" },
+    { "id": "web-client", "label": "Web、前端与跨端" },
+    { "id": "backend-data", "label": "后端与数据" },
+    { "id": "infra-security", "label": "基础设施、网络与安全" },
+    { "id": "devtools-automation", "label": "开发者工具与自动化" },
+    { "id": "design-content", "label": "设计、图像与内容创作" },
+    { "id": "cs-engineering", "label": "计算机基础与工程实践" },
+    { "id": "business-domain", "label": "商业与行业应用" },
+    { "id": "unclassified", "label": "待分类" }
+  ]
+}

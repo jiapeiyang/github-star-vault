@@ -1,0 +1,80 @@
+name: Sync and publish Star Vault
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 0,6,12,18 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync public Stars
+        if: github.event_name != 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/sync_stars.py --username jiapeiyang
+
+      - name: Verify data and content
+        run: |
+          python3 -m unittest discover -s tests -p 'test_*.py'
+          python3 scripts/verify_data.py
+          python3 scripts/generate_readme.py
+
+      - name: Commit generated source data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/repositories.json README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: sync GitHub Stars"
+            git push
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: Test and build site
+        working-directory: app
+        env:
+          GITHUB_PAGES: "true"
+        run: |
+          npm ci
+          npm test
+          npm run build
+          npm run test:sites
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/dist/client
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

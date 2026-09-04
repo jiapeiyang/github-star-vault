@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.tmp
+*.temp
+app/node_modules/
+app/dist/
+app/.playwright-cli/
+app/public/data/*.json
+!app/public/data/.gitkeep

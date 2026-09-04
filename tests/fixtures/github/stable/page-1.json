@@ -1,0 +1,48 @@
+[
+  {
+    "starred_at": "2026-09-05T08:00:00Z",
+    "repo": {
+      "id": 101,
+      "node_id": "R_fixture_101",
+      "full_name": "example/alpha",
+      "html_url": "https://github.com/example/alpha",
+      "description": "Alpha repository",
+      "homepage": "https://example.com/alpha",
+      "language": "Python",
+      "topics": ["agent", "example"],
+      "license": { "spdx_id": "MIT" },
+      "stargazers_count": 100,
+      "forks_count": 10,
+      "open_issues_count": 2,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "pushed_at": "2026-09-04T08:00:00Z",
+      "updated_at": "2026-09-04T08:00:00Z",
+      "owner": { "login": "example", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4" }
+    }
+  },
+  {
+    "starred_at": "2026-09-04T08:00:00Z",
+    "repo": {
+      "id": 102,
+      "node_id": "R_fixture_102",
+      "full_name": "example/beta",
+      "html_url": "https://github.com/example/beta",
+      "description": null,
+      "homepage": null,
+      "language": null,
+      "topics": [],
+      "license": null,
+      "stargazers_count": 20,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "fork": false,
+      "archived": true,
+      "visibility": "public",
+      "pushed_at": null,
+      "updated_at": "2026-09-03T08:00:00Z",
+      "owner": { "login": "example", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4" }
+    }
+  }
+]

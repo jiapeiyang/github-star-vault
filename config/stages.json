@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "items": [
+    { "id": "imported", "label": "历史待整理" },
+    { "id": "inbox", "label": "新收藏" },
+    { "id": "queued", "label": "待学习" },
+    { "id": "learning", "label": "学习中" },
+    { "id": "learned", "label": "已学习" },
+    { "id": "reference", "label": "仅参考" },
+    { "id": "archived", "label": "已归档" }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "starred_at": "2021-07-01T05:59:07Z",
+    "repo": {
+      "id": 103,
+      "node_id": "R_fixture_103",
+      "full_name": "example/gamma",
+      "html_url": "https://github.com/example/gamma",
+      "description": "Gamma collection",
+      "homepage": null,
+      "language": "JavaScript",
+      "topics": ["collection"],
+      "license": { "spdx_id": "Apache-2.0" },
+      "stargazers_count": 300,
+      "forks_count": 30,
+      "open_issues_count": 3,
+      "fork": false,
+      "archived": false,
+      "visibility": "public",
+      "pushed_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "owner": { "login": "example", "avatar_url": "https://avatars.githubusercontent.com/u/1?v=4" }
+    }
+  }
+]
