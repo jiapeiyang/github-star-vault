@@ -11,3 +11,6 @@ app/dist/
 app/.playwright-cli/
 app/public/data/*.json
 !app/public/data/.gitkeep
+
+# Local browser sessions, downloaded QA files and isolated fixture catalogs
+app/output/playwright/

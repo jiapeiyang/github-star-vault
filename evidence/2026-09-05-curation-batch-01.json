@@ -1,0 +1,528 @@
+{
+  "purpose": "仅用于分类草案的上游证据；不代表个人学习记录",
+  "repositories": [
+    {
+      "id": 1325096132,
+      "full_name": "eternityspring/shuohao-skills",
+      "description": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenplays, storyboards. Runs in Claude Code & codex.",
+      "topics": [],
+      "html_url": "https://github.com/eternityspring/shuohao-skills",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.820994+00:00"
+    },
+    {
+      "id": 1142983825,
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "topics": [],
+      "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.821251+00:00"
+    },
+    {
+      "id": 1119232564,
+      "full_name": "yzfly/awesome-skills-zh",
+      "description": "🚀 精选 Claude Skills、Agent Skills、LLM Skills 及 AI 智能体开发资源列表（中文）。A curated list of awesome Claude / Agent / LLM Skills.",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "anthropic",
+        "awesome",
+        "awesome-list",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "llm",
+        "skills"
+      ],
+      "html_url": "https://github.com/yzfly/awesome-skills-zh",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.821382+00:00"
+    },
+    {
+      "id": 1120540348,
+      "full_name": "libukai/awesome-agent-skills",
+      "description": "Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具 ｜The Ultimate Guide to Agent Skills: QuickStart, Resources, Features&Toolkit",
+      "topics": [
+        "agent",
+        "awsome-list",
+        "claudecode",
+        "openclaw",
+        "skills"
+      ],
+      "html_url": "https://github.com/libukai/awesome-agent-skills",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.821502+00:00"
+    },
+    {
+      "id": 1226123343,
+      "full_name": "virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "book-to-skill",
+        "context-engineering",
+        "document-processing",
+        "edtech",
+        "knowledge-base",
+        "knowledge-management",
+        "llm",
+        "pdf-to-markdown",
+        "rag",
+        "self-study",
+        "study-tools"
+      ],
+      "html_url": "https://github.com/virgiliojr94/book-to-skill",
+      "default_branch": "master",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.822109+00:00"
+    },
+    {
+      "id": 1182353280,
+      "full_name": "deusyu/translate-book",
+      "description": "Agent skill for Codex, Claude Code, and OpenClaw that translates entire books (PDF/DOCX/EPUB) into any language using parallel subagents.",
+      "topics": [],
+      "html_url": "https://github.com/deusyu/translate-book",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.822214+00:00"
+    },
+    {
+      "id": 1241257629,
+      "full_name": "datawhalechina/Agent-Learning-Hub",
+      "description": "AI Agent 学习路线与资料库收集",
+      "topics": [],
+      "html_url": "https://github.com/datawhalechina/Agent-Learning-Hub",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.822671+00:00"
+    },
+    {
+      "id": 1052050442,
+      "full_name": "datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "topics": [
+        "agent",
+        "llm",
+        "rag",
+        "tutorial"
+      ],
+      "html_url": "https://github.com/datawhalechina/hello-agents",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.822754+00:00"
+    },
+    {
+      "id": 1212163658,
+      "full_name": "kangarooking/cangjie-skill",
+      "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（Distill high-value content from books, long-form videos, podcasts, and more into executable Agent Skills）",
+      "topics": [
+        "agent-workflows",
+        "ai-skills",
+        "automation",
+        "book-to-skill",
+        "knowledge-distillation",
+        "prompt-engineering",
+        "skill-generator",
+        "templates"
+      ],
+      "html_url": "https://github.com/kangarooking/cangjie-skill",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.822889+00:00"
+    },
+    {
+      "id": 1266884317,
+      "full_name": "kunchenguid/firstmate",
+      "description": "Talk to one agent. Ship with a crew.",
+      "topics": [],
+      "html_url": "https://github.com/kunchenguid/firstmate",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.822975+00:00",
+      "readme_url": "https://github.com/kunchenguid/firstmate/blob/main/README.md"
+    },
+    {
+      "id": 1135791677,
+      "full_name": "lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "topics": [
+        "ai-agent",
+        "automation",
+        "autonomous-agent",
+        "browser-automation",
+        "claude",
+        "computer-control",
+        "desktop-automation",
+        "gemini",
+        "lightweight",
+        "llm-agent",
+        "memory-system",
+        "python",
+        "self-evolving",
+        "skill-tree",
+        "task-automation"
+      ],
+      "html_url": "https://github.com/lsdefine/GenericAgent",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.823247+00:00"
+    },
+    {
+      "id": 1062356571,
+      "full_name": "tw93/Mole",
+      "description": "🐹 Clean, uninstall, analyze, optimize, and monitor your Mac. Free open-source CLI, plus a native Mac app.",
+      "topics": [
+        "analyzer",
+        "appcleaner",
+        "clean",
+        "cleaner",
+        "cleanmymac",
+        "command-line",
+        "daisydisk",
+        "istat",
+        "mac",
+        "macos",
+        "macos-app",
+        "native",
+        "optimize",
+        "pearcleaner",
+        "sensei",
+        "shell",
+        "swift",
+        "swiftui",
+        "uninstall"
+      ],
+      "html_url": "https://github.com/tw93/Mole",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.823333+00:00"
+    },
+    {
+      "id": 1305545535,
+      "full_name": "HalfAI1102/anthropic-art",
+      "description": "Generate full-background Anthropic-style editorial illustrations with verified palette and hand-drawn visual rules.",
+      "topics": [],
+      "html_url": "https://github.com/HalfAI1102/anthropic-art",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.823472+00:00"
+    },
+    {
+      "id": 1312807575,
+      "full_name": "miuuyy/codex-chatgpt-web",
+      "description": "Use ChatGPT Web (including Pro) as a native model in the Codex app — with context, tools, streaming and images beyond Codex usage limits.",
+      "topics": [
+        "chatgpt",
+        "chatgpt-pro",
+        "codex",
+        "free-ai",
+        "mcp",
+        "openai",
+        "playwright",
+        "quickstart",
+        "responses-api",
+        "typescript"
+      ],
+      "html_url": "https://github.com/miuuyy/codex-chatgpt-web",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.823936+00:00"
+    },
+    {
+      "id": 1166119443,
+      "full_name": "get-bb/bb",
+      "description": "The agent IDE that builds itself",
+      "topics": [
+        "ade",
+        "agent-ide",
+        "claude-code",
+        "codex",
+        "devtools",
+        "ide"
+      ],
+      "html_url": "https://github.com/get-bb/bb",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.824100+00:00",
+      "readme_url": "https://github.com/get-bb/bb/blob/main/README.md"
+    },
+    {
+      "id": 99401299,
+      "full_name": "ai/nanoid",
+      "description": "A tiny (118 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
+      "topics": [],
+      "html_url": "https://github.com/ai/nanoid",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.824413+00:00"
+    },
+    {
+      "id": 115110181,
+      "full_name": "swc-project/swc",
+      "description": "Rust-based platform for the Web",
+      "topics": [
+        "babel",
+        "compiler",
+        "ecmascript",
+        "ecmascript-parser",
+        "javascript",
+        "parser",
+        "rust",
+        "swc",
+        "typescript",
+        "typescript-compiler",
+        "typescript-parser"
+      ],
+      "html_url": "https://github.com/swc-project/swc",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.824557+00:00"
+    },
+    {
+      "id": 77912349,
+      "full_name": "qianguyihao/Web",
+      "description": "千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。",
+      "topics": [
+        "css",
+        "front-end",
+        "html",
+        "javascript"
+      ],
+      "html_url": "https://github.com/qianguyihao/Web",
+      "default_branch": "master",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.824764+00:00"
+    },
+    {
+      "id": 232981344,
+      "full_name": "BetaSu/big-react",
+      "description": "跟着我，从0实现React18",
+      "topics": [
+        "react",
+        "reactjs"
+      ],
+      "html_url": "https://github.com/BetaSu/big-react",
+      "default_branch": "master",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.824978+00:00"
+    },
+    {
+      "id": 130884470,
+      "full_name": "solidjs/solid",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "topics": [
+        "declarative",
+        "fine-grained",
+        "javascript",
+        "jsx",
+        "performance",
+        "proxies",
+        "reactive",
+        "solid"
+      ],
+      "html_url": "https://github.com/solidjs/solid",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.825087+00:00"
+    },
+    {
+      "id": 74293321,
+      "full_name": "sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "topics": [
+        "compiler",
+        "template",
+        "ui"
+      ],
+      "html_url": "https://github.com/sveltejs/svelte",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.825212+00:00",
+      "readme_url": "https://github.com/sveltejs/svelte/blob/main/README.md"
+    },
+    {
+      "id": 196664765,
+      "full_name": "pwstrick/daily",
+      "description": "一份搜集的前端面试题目清单、面试相关以及各类学习的资料（不局限于前端）",
+      "topics": [],
+      "html_url": "https://github.com/pwstrick/daily",
+      "default_branch": "master",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.825421+00:00"
+    },
+    {
+      "id": 35810174,
+      "full_name": "electron-react-boilerplate/electron-react-boilerplate",
+      "description": "A Foundation for Scalable Cross-Platform Apps",
+      "topics": [
+        "babel",
+        "boilerplate",
+        "electron",
+        "eslint",
+        "javascript",
+        "react",
+        "typescript",
+        "webpack"
+      ],
+      "html_url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.825546+00:00"
+    },
+    {
+      "id": 268195786,
+      "full_name": "BetaSu/just-react",
+      "description": "「React技术揭秘」  一本自顶向下的React源码分析书",
+      "topics": [
+        "fiber",
+        "hooks",
+        "react",
+        "reactjs",
+        "source-code"
+      ],
+      "html_url": "https://github.com/BetaSu/just-react",
+      "default_branch": "master",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.825640+00:00"
+    },
+    {
+      "id": 132750724,
+      "full_name": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "topics": [
+        "awesome-list",
+        "free",
+        "programming",
+        "tutorial-code",
+        "tutorial-exercises",
+        "tutorials"
+      ],
+      "html_url": "https://github.com/codecrafters-io/build-your-own-x",
+      "default_branch": "master",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.825698+00:00"
+    },
+    {
+      "id": 494305627,
+      "full_name": "hwdsl2/wireguard-install",
+      "description": "WireGuard VPN server installer for Ubuntu, Debian, AlmaLinux, Rocky Linux, CentOS, Fedora, openSUSE and Raspberry Pi OS. Includes interactive setup and client management.",
+      "topics": [
+        "bash",
+        "centos",
+        "debian",
+        "encryption",
+        "installer",
+        "ipv6",
+        "linux",
+        "network",
+        "peer-to-peer",
+        "privacy",
+        "qr-code",
+        "raspberry-pi",
+        "security",
+        "self-hosted",
+        "ubuntu",
+        "vpn",
+        "vpn-client",
+        "vpn-server",
+        "wireguard",
+        "wireguard-server"
+      ],
+      "html_url": "https://github.com/hwdsl2/wireguard-install",
+      "default_branch": "master",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.825818+00:00"
+    },
+    {
+      "id": 237523442,
+      "full_name": "tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "topics": [
+        "2fa",
+        "oauth",
+        "sso",
+        "tailscale",
+        "vpn",
+        "wireguard"
+      ],
+      "html_url": "https://github.com/tailscale/tailscale",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.825923+00:00"
+    },
+    {
+      "id": 770153867,
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "topics": [
+        "ai-video-generator",
+        "content-creation",
+        "ffmpeg",
+        "instagram-reels",
+        "llm",
+        "python",
+        "short-video",
+        "subtitles",
+        "text-to-speech",
+        "tiktok",
+        "video-automation",
+        "video-workflow",
+        "workflow-automation",
+        "youtube-shorts"
+      ],
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.826017+00:00"
+    },
+    {
+      "id": 1184892122,
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+      "topics": [
+        "dataset",
+        "exercise-database",
+        "exercises",
+        "fitness",
+        "fitness-app",
+        "gym",
+        "json",
+        "logpress",
+        "react-native",
+        "workout"
+      ],
+      "html_url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "default_branch": "main",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.826370+00:00"
+    },
+    {
+      "id": 23689830,
+      "full_name": "yeasy/docker_practice",
+      "description": "最新Docker容器技术，从真实案例中学习最佳实践！| Learn and understand Docker&Container technologies, with real DevOps practice!",
+      "topics": [
+        "book",
+        "cloud-computing",
+        "container",
+        "devops",
+        "docker",
+        "kubernetes",
+        "linux",
+        "mesos",
+        "spark",
+        "swarm",
+        "virtualization"
+      ],
+      "html_url": "https://github.com/yeasy/docker_practice",
+      "default_branch": "master",
+      "archived": false,
+      "verified_at": "2026-09-04T20:10:40.826444+00:00"
+    }
+  ]
+}
