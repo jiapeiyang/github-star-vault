@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import { Header } from "./components/Header.jsx";
 import { loadCatalog } from "./domain/catalog.js";
-import { defaultRoute, routeFromUrl, urlForRoute } from "./domain/routing.js";
+import { defaultRoute } from "./domain/routing.js";
+import { getInboxState } from "./domain/inbox.js";
+import { useNavigation } from "./hooks/useNavigation.js";
+import { CurationView } from "./views/CurationView.jsx";
 import { AboutView } from "./views/AboutView.jsx";
 import { DetailView } from "./views/DetailView.jsx";
 import { HomeView } from "./views/HomeView.jsx";
@@ -11,10 +14,10 @@ import { LibraryView } from "./views/LibraryView.jsx";
 import { NotFoundView } from "./views/NotFoundView.jsx";
 
 export function App() {
-  const [route, setRoute] = useState(() => routeFromUrl(window.location.href));
   const [catalog, setCatalog] = useState(null);
   const [loadError, setLoadError] = useState("");
   const [loadAttempt, setLoadAttempt] = useState(0);
+  const { route, updateRoute, onDirtyChange } = useNavigation((next) => catalog && next.view === "inbox" ? getInboxState(catalog.repositories, next).route : next);
 
   useEffect(() => {
     let active = true;
@@ -24,10 +27,11 @@ export function App() {
   }, [loadAttempt]);
 
   useEffect(() => {
-    const restore = () => setRoute(routeFromUrl(window.location.href));
-    window.addEventListener("popstate", restore);
-    return () => window.removeEventListener("popstate", restore);
-  }, []);
+    if (catalog && route.view === "inbox") {
+      const normalized = getInboxState(catalog.repositories, route).route;
+      if (JSON.stringify(normalized) !== JSON.stringify(route)) updateRoute(normalized, "replace");
+    }
+  }, [catalog, route, updateRoute]);
 
   useEffect(() => {
     const focusSearch = (event) => {
@@ -40,20 +44,12 @@ export function App() {
     return () => window.removeEventListener("keydown", focusSearch);
   }, []);
 
-  const updateRoute = (patch, mode = "push") => {
-    setRoute((current) => {
-      const next = { ...current, ...patch };
-      window.history[mode === "replace" ? "replaceState" : "pushState"]({}, "", urlForRoute(next, window.location.href));
-      return next;
-    });
-    if (patch.view) window.scrollTo({ top: 0, behavior: "auto" });
-  };
-
   const navigate = (view, patch = {}) => updateRoute({ view, ...patch });
   const openRepo = (repoOrId) => {
     const repoId = typeof repoOrId === "object" ? repoOrId.repoId : repoOrId;
     navigate("detail", { repo: String(repoId) });
   };
+  const openCuration = (repo) => navigate("curation", { repo: String(repo.repoId) });
   const openLibrary = (patch = {}) => navigate("library", { ...defaultRoute, view: "library", ...patch });
 
   const repositories = catalog?.repositories || [];
@@ -63,9 +59,10 @@ export function App() {
   let content = null;
   if (catalog) {
     if (route.view === "home") content = <HomeView catalog={catalog} onOpenRepo={openRepo} onOpenLibrary={openLibrary} onNavigate={navigate} />;
-    else if (route.view === "inbox") content = <InboxView catalog={catalog} selectedRepoId={route.repo} onSelectRepo={(repo) => updateRoute({ repo: String(repo.repoId) })} onOpenRepo={openRepo} />;
-    else if (route.view === "learning") content = <LearningView catalog={catalog} onOpenRepo={openRepo} onOpenLibrary={openLibrary} onOpenCuration={(repo) => navigate("inbox", { repo: String(repo.repoId) })} />;
-    else if (route.view === "detail") content = selectedRepo ? <DetailView repo={selectedRepo} repositories={repositories} onBack={() => navigate("library")} onOpenRepo={openRepo} /> : <NotFoundView onBack={() => navigate("library")} />;
+    else if (route.view === "inbox") content = <InboxView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} onDirtyChange={onDirtyChange} />;
+    else if (route.view === "learning") content = <LearningView catalog={catalog} onOpenRepo={openRepo} onOpenLibrary={openLibrary} onOpenCuration={openCuration} />;
+    else if (route.view === "detail") content = selectedRepo ? <DetailView repo={selectedRepo} repositories={repositories} onBack={() => navigate("library")} onOpenRepo={openRepo} onOpenCuration={openCuration} /> : <NotFoundView onBack={() => navigate("library")} />;
+    else if (route.view === "curation") content = selectedRepo ? <CurationView repo={selectedRepo} catalog={catalog} onOpenRepo={openRepo} onDirtyChange={onDirtyChange} /> : <NotFoundView onBack={() => navigate("library")} />;
     else if (route.view === "about") content = <AboutView catalog={catalog} />;
     else content = <LibraryView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} />;
   }

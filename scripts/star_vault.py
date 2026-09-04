@@ -434,7 +434,11 @@ def load_curations(
         for target in re.findall(r"\[[^\]]+\]\(([^)]+)\)", body):
             if not target.startswith(("http://", "https://", "#")):
                 raise ValidationError(f"{path}: 非法 Markdown 链接 {target!r}")
-        result[repo_id] = {**metadata, "body": body, "takeaway": takeaway}
+        supported = {"repo_id", "category", "resource_type", "stage", "tags", "note", "related", "updated_by_user_at"}
+        unsupported = sorted(set(metadata) - supported)
+        if "updated_by_user_at" in metadata and not isinstance(metadata["updated_by_user_at"], str):
+            unsupported.append("updated_by_user_at（非字符串）")
+        result[repo_id] = {**metadata, "body": body, "takeaway": takeaway, "_unsupported_fields": unsupported}
     return result
 
 
@@ -469,10 +473,12 @@ def make_catalog(
             takeaway = _first_takeaway(curation.get("takeaway", ""))
             body = curation["body"]
             curated_at = curation.get("updated_by_user_at")
+            if curated_at is not None:
+                curated_at = str(curated_at)
             related = curation.get("related", [])
             content_links = [
                 {"label": label, "url": url}
-                for label, url in re.findall(r"\[([^\]]+)\]\((https?://[^)]+)\)", body)
+                for label, url in re.findall(r"(?<!!)\[([^\]]+)\]\((https?://[^)]+)\)", body)
             ]
         else:
             stage = "imported" if fact["discovered_in_initial_import"] else "inbox"
@@ -519,6 +525,11 @@ def make_catalog(
             "note": note,
             "takeaway": takeaway,
             "contentMarkdown": body,
+            "curation": {
+                "note": curation["note"],
+                "updatedByUserAt": str(curated_at) if curated_at is not None else None,
+                "unsupportedFields": curation["_unsupported_fields"],
+            } if curation else None,
             "curatedAt": curated_at,
             "relatedRepoIds": related,
             "contentLinks": content_links,

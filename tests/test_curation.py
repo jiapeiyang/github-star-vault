@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from star_vault import ValidationError, load_curations, load_fixture_pages, reconcile_snapshot
+from star_vault import ValidationError, load_curations, load_fixture_pages, reconcile_snapshot, make_catalog, stable_json
 
 
 def curation(repo_id: int, *, stage: str = "learned", tags: str = '["Agent", "规范"]', takeaway: str = "形成了一条可复用结论。") -> str:
@@ -79,6 +79,17 @@ class CurationTests(unittest.TestCase):
             path.write_text(text, encoding="utf-8")
             with self.assertRaisesRegex(ValidationError, "不存在的 repo_id"):
                 load_curations(Path(directory), self.snapshot(), ROOT / "config")
+
+    def test_catalog_blocks_unknown_metadata_without_publishing_its_value(self):
+        text = curation(101).replace('updated_by_user_at = "2026-09-05"', 'updated_by_user_at = 2026-09-05\ncustom_field = "not-for-catalog"')
+        with tempfile.TemporaryDirectory() as directory:
+            (Path(directory) / "101.md").write_text(text)
+            loaded = load_curations(Path(directory), self.snapshot(), ROOT / "config")
+            catalog = make_catalog(self.snapshot(), loaded, ROOT / "config")
+            item = next(r for r in catalog["repositories"] if r["repoId"] == 101)
+            self.assertIn("custom_field", item["curation"]["unsupportedFields"])
+            self.assertIn("updated_by_user_at（非字符串）", item["curation"]["unsupportedFields"])
+            self.assertNotIn("not-for-catalog", stable_json(catalog))
 
 
 if __name__ == "__main__":

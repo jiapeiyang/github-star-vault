@@ -11,9 +11,12 @@ export const defaultRoute = {
   sort: "starred",
   layout: "list",
   repo: "",
+  queue: "",
+  queuePage: "1",
+  queueQuery: "",
 };
 
-const views = new Set(["home", "library", "inbox", "learning", "detail", "about"]);
+const views = new Set(["home", "library", "inbox", "learning", "detail", "about", "curation"]);
 
 export function routeFromUrl(href) {
   const params = new URL(href).searchParams;

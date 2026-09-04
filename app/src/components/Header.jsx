@@ -17,7 +17,7 @@ export function Header({ view, inboxCount, onNavigate, query, onQueryChange, onS
     <header className="magazine-header">
       <button className="wordmark" type="button" onClick={() => navigate("home")} aria-label="返回 Star Vault 首页"><span>STAR VAULT</span><Asterisk weight="bold" aria-hidden="true" /></button>
       <nav className={menuOpen ? "header-nav is-open" : "header-nav"} aria-label="主导航">
-        {items.map(([id, label]) => <button className={view === id || (id === "library" && view === "detail") ? "is-current" : ""} type="button" onClick={() => navigate(id)} key={id}>{label}</button>)}
+        {items.map(([id, label]) => <button className={view === id || (id === "library" && ["detail", "curation"].includes(view)) ? "is-current" : ""} type="button" onClick={() => navigate(id)} key={id}>{label}</button>)}
       </nav>
       <form className="masthead-search" onSubmit={onSearch}>
         <MagnifyingGlass size={20} aria-hidden="true" /><label className="sr-only" htmlFor="masthead-query">搜索项目</label>
