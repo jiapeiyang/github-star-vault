@@ -1,6 +1,8 @@
 # Star Vault v1.1 验收记录
 
-日期：2026-09-05。当前状态：本地功能与视觉检查通过，等待本版线上发布核对。
+日期：2026-09-05。当前状态：本地与线上功能验收通过。
+
+final result: passed
 
 本地验证：Python 17 项、Node 19 项、Sites 4 项通过，Pages 子路径生产构建通过。
 
@@ -51,4 +53,10 @@ Sites 兼容配置和打包流程保留；正式托管继续采用开发计划�
 
 ## 发布验收
 
-待最终提交后补入 Actions 与线上数据 commit 核对证据，不预填成功结果。
+- 功能提交：`139f320`；首次发布提交：`981bed56b138d45a47d12cd614deb569af41f8f8`。
+- [Actions #33915443138](https://github.com/jiapeiyang/github-star-vault/actions/runs/33915443138) 成功，build 27 秒、deploy 7 秒。
+- 线上 build-meta 的 dataCommit 与上述发布提交一致；active 284、total 285、正式策展 6。
+- 公开编辑页真实下载的文件由生产 Python 解析器再次读取，全部字段及正文与原文件一致。
+- 线上详情显示完整实践记录；收件箱第三页定位正确；Pages 仓库子路径和新编辑路由均可使用；控制台无脚本错误。
+- [线上编辑页截图](qa/v1.1/online-editor.png)。
+- 后续仅追加验收文档的提交不改变上述功能代码；最终构建对应 HEAD 由本次交付回复与 Actions 记录核对。
