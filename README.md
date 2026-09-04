@@ -91,12 +91,12 @@ npm run dev
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-04T19:26:01Z` · 当前公开 Stars：**285** · 已人工整理：**6**
+> 最近成功检查：`2026-09-04T19:27:45Z` · 当前公开 Stars：**284** · 已人工整理：**6**
 
 ### 学习阶段
 
 - 历史待整理：278
-- 新收藏：1
+- 新收藏：0
 - 待学习：1
 - 学习中：1
 - 已学习：1
@@ -121,9 +121,8 @@ npm run dev
 
 - [krahets/hello-algo](https://github.com/krahets/hello-algo) — 需要回顾算法概念时，从图解和可运行代码快速进入。
 
-### 待分类（279）
+### 待分类（278）
 
-- [octocat/Hello-World](https://github.com/octocat/Hello-World) — My first repository on GitHub!
 - [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) — AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 \| Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenp…
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 - [yzfly/awesome-skills-zh](https://github.com/yzfly/awesome-skills-zh) — 🚀 精选 Claude Skills、Agent Skills、LLM Skills 及 AI 智能体开发资源列表（中文）。A curated list of awesome Claude / Agent / LLM Skills.
