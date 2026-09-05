@@ -101,12 +101,12 @@ npm run dev
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-04T19:33:51Z` · 当前公开 Stars：**284** · 已人工整理：**284**
+> 最近成功检查：`2026-09-05T04:23:28Z` · 当前公开 Stars：**285** · 已人工整理：**284**
 
 ### 学习阶段
 
 - 历史待整理：278
-- 新收藏：0
+- 新收藏：1
 - 待学习：1
 - 学习中：1
 - 已学习：1
@@ -125,7 +125,7 @@ npm run dev
 - [OpenMOSS/MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) — 面向长视频与实时视频理解的开放权重模型及研究资源。
 - [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — 检索多个社区和媒体平台的近期内容并汇总为调研材料。
 - [anthropics/skills](https://github.com/anthropics/skills) — 用于对照 Agent Skills 的目录结构、能力边界与写作规范。
-- [MDX-Tom/gpt-5.6-instruct](https://github.com/MDX-Tom/gpt-5.6-instruct) — 用于研究编码模型指令行为的提示词与测试材料。
+- [MDX-Tom/gpt-instruct](https://github.com/MDX-Tom/gpt-instruct) — 用于研究编码模型指令行为的提示词与测试材料。
 - [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — 讲解智能体设计原理、上下文管理与工程实践的书籍和代码。
 - [SMNETSTUDIO/WeChat-AI](https://github.com/SMNETSTUDIO/WeChat-AI) — 自托管的微信 AI 角色扮演与对话服务。
 - [james-6-23/codex2api](https://github.com/james-6-23/codex2api) — 将 Codex 接入统一 API 并提供管理后台的代理服务。
@@ -420,5 +420,9 @@ npm run dev
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — 把价值投资方法整理为面向编码助手的研究工作流。
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 通过无代码界面与插件能力构建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
+
+### 待分类（1）
+
+- [tiann/hapi](https://github.com/tiann/hapi) — App for Codex / Claude Code / Pi / OpenCode / Kimi Code / Grok Build, vibe coding anytime, anywhere
 
 <!-- STAR_VAULT:CATALOG:END -->
