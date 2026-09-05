@@ -101,12 +101,12 @@ npm run dev
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-05T10:31:50Z` · 当前公开 Stars：**285** · 已人工整理：**284**
+> 最近成功检查：`2026-09-05T15:10:58Z` · 当前公开 Stars：**286** · 已人工整理：**284**
 
 ### 学习阶段
 
 - 历史待整理：278
-- 新收藏：1
+- 新收藏：2
 - 待学习：1
 - 学习中：1
 - 已学习：1
@@ -421,8 +421,9 @@ npm run dev
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 通过无代码界面与插件能力构建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（1）
+### 待分类（2）
 
+- [humanlayer/skills](https://github.com/humanlayer/skills) — 暂无 GitHub 描述。
 - [tiann/hapi](https://github.com/tiann/hapi) — App for Codex / Claude Code / Pi / OpenCode / Kimi Code / Grok Build, vibe coding anytime, anywhere
 
 <!-- STAR_VAULT:CATALOG:END -->
