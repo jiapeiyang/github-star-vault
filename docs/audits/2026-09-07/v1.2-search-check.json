@@ -1,0 +1,92 @@
+{
+  "node": "v24.14.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "records": 288,
+  "guides": 287,
+  "runsPerQuery": 20,
+  "method": "Node function timing on local catalog; excludes browser rendering and network",
+  "results": [
+    {
+      "q": "局域网 文件传输",
+      "expected": "localsend/localsend",
+      "found": true,
+      "count": 1,
+      "medianMs": 1.066,
+      "p95Ms": 1.27
+    },
+    {
+      "q": "磁盘 清理",
+      "expected": "tw93/Mole",
+      "found": true,
+      "count": 2,
+      "medianMs": 1.092,
+      "p95Ms": 1.217
+    },
+    {
+      "q": "终端 分屏",
+      "expected": "tmux/tmux",
+      "found": true,
+      "count": 3,
+      "medianMs": 1.056,
+      "p95Ms": 1.164
+    },
+    {
+      "q": "印刷 海报",
+      "expected": "yanliudesign/mono-color-skill",
+      "found": true,
+      "count": 1,
+      "medianMs": 1.005,
+      "p95Ms": 1.14
+    },
+    {
+      "q": "图书 翻译",
+      "expected": "deusyu/translate-book",
+      "found": true,
+      "count": 1,
+      "medianMs": 0.96,
+      "p95Ms": 1.095
+    },
+    {
+      "q": "文档 OCR",
+      "expected": "opendatalab/MinerU",
+      "found": true,
+      "count": 2,
+      "medianMs": 1.45,
+      "p95Ms": 1.589
+    },
+    {
+      "q": "Vue 响应式",
+      "expected": "vueuse/vueuse",
+      "found": true,
+      "count": 11,
+      "medianMs": 1.104,
+      "p95Ms": 1.185
+    },
+    {
+      "q": "Node 事件循环",
+      "expected": "yjhjstz/deep-into-node",
+      "found": true,
+      "count": 4,
+      "medianMs": 1.306,
+      "p95Ms": 1.345
+    },
+    {
+      "q": "字体 连字",
+      "expected": "subframe7536/maple-font",
+      "found": true,
+      "count": 1,
+      "medianMs": 1.143,
+      "p95Ms": 1.242
+    },
+    {
+      "q": "终端 文件管理器",
+      "expected": "sxyazi/yazi",
+      "found": true,
+      "count": 1,
+      "medianMs": 1.036,
+      "p95Ms": 1.102
+    }
+  ],
+  "inputCorrection": "Initial Source Map case expected mozilla/source-map, which is absent from the frozen collection. Replaced with a verified saved repository; this was a test input error, not a search failure."
+}

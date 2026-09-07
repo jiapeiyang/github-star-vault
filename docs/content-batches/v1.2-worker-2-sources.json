@@ -1,0 +1,935 @@
+[
+  {
+    "repo_id": 1146413571,
+    "name": "epiral/bb-browser",
+    "url": "https://github.com/epiral/bb-browser/blob/main/README.md",
+    "sha": "3706f8137508f4c20a153dddbc2becf799c66fcb",
+    "bytes": 7396,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1137212306,
+    "name": "op7418/Humanizer-zh",
+    "url": "https://github.com/op7418/Humanizer-zh/blob/main/README.md",
+    "sha": "318f7ba6381029309babf1df328b77a7a07bdaf5",
+    "bytes": 7799,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1136666433,
+    "name": "blader/humanizer",
+    "url": "https://github.com/blader/humanizer/blob/main/README.md",
+    "sha": "6ffe91a6ddcdaae4667f4a2195ff5f389593e935",
+    "bytes": 16147,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1143767804,
+    "name": "zarazhangrui/frontend-slides",
+    "url": "https://github.com/zarazhangrui/frontend-slides/blob/main/README.md",
+    "sha": "bd4bd929069d569e7dfbe3e8d6be77431bb50e43",
+    "bytes": 35554,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 479451389,
+    "name": "subframe7536/maple-font",
+    "url": "https://github.com/subframe7536/maple-font/blob/v7/README.md",
+    "sha": "a2205bc592b386d0320f2b1b529d22c3679eb36e",
+    "bytes": 30691,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 106867604,
+    "name": "cloudflare/cloudflared",
+    "url": "https://github.com/cloudflare/cloudflared/blob/master/README.md",
+    "sha": "74d00eea51896dea9d489cb0c6bdd96ef68bee86",
+    "bytes": 5760,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1055481168,
+    "name": "fawney19/Aether",
+    "url": "https://github.com/fawney19/Aether/blob/main/README.md",
+    "sha": "d595398422a7c15da8e8a0e2ccfbf13b13092652",
+    "bytes": 17886,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1179264259,
+    "name": "garrytan/gstack",
+    "url": "https://github.com/garrytan/gstack/blob/main/README.md",
+    "sha": "31f4137060b84b36dd4204d6a49c3d4009b14ada",
+    "bytes": 59245,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1246625636,
+    "name": "open-gsd/gsd-core",
+    "url": "https://github.com/open-gsd/gsd-core/blob/next/README.md",
+    "sha": "82770333164cd599dfa2f1ee44cc66997913cc40",
+    "bytes": 5922,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1116260703,
+    "name": "gsd-build/get-shit-done",
+    "url": "https://github.com/gsd-build/get-shit-done/blob/main/README.md",
+    "sha": "6232a8c42bbdcd0ad5f290c41806c2728c68d194",
+    "bytes": 329,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1162099055,
+    "name": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md",
+    "sha": "5577b99d193716cb26467b0b0f1cfc506deb26a8",
+    "bytes": 16319,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1163979872,
+    "name": "qingchencloud/cftunnel",
+    "url": "https://github.com/qingchencloud/cftunnel/blob/main/README.md",
+    "sha": "227edc5fb282d250e4ceaabcca983056d5bbc74e",
+    "bytes": 13790,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1133707766,
+    "name": "multica-ai/multica",
+    "url": "https://github.com/multica-ai/multica/blob/main/README.md",
+    "sha": "4dbb6e0e3ecab1ed97e986bb217914cbfbc0d02f",
+    "bytes": 14224,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1223170290,
+    "name": "nexu-io/open-design",
+    "url": "https://github.com/nexu-io/open-design/blob/main/README.md",
+    "sha": "d9b11d89e20b50fbfcfb4fe5fcc6b1b9aad9f8ba",
+    "bytes": 58746,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1201730379,
+    "name": "alchaincyf/nuwa-skill",
+    "url": "https://github.com/alchaincyf/nuwa-skill/blob/main/README.md",
+    "sha": "4928a666b42aa08d384270b31c27399103b7e46e",
+    "bytes": 17610,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1215145625,
+    "name": "alchaincyf/huashu-design",
+    "url": "https://github.com/alchaincyf/huashu-design/blob/master/README.md",
+    "sha": "4b79e8757052ea617c15f14c2991e78f719d013c",
+    "bytes": 19726,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1051566067,
+    "name": "router-for-me/Cli-Proxy-API-Management-Center",
+    "url": "https://github.com/router-for-me/Cli-Proxy-API-Management-Center/blob/main/README.md",
+    "sha": "2f8dfccdad55823783e2f2840ae7d702b08c5d72",
+    "bytes": 7386,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1135492298,
+    "name": "jlcodes99/cockpit-tools",
+    "url": "https://github.com/jlcodes99/cockpit-tools/blob/main/README.md",
+    "sha": "c5cc9a75532cf52c82710f8eae69961026a1696e",
+    "bytes": 26008,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1262434101,
+    "name": "Regert888/gpt-auto-register",
+    "url": "https://github.com/Regert888/gpt-auto-register/blob/main/README.md",
+    "sha": "c5da62fb14f334d4520bb1da7f21a704725ad6ba",
+    "bytes": 15576,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1222110548,
+    "name": "DanOps-1/Gpt-Agreement-Payment",
+    "url": "https://github.com/DanOps-1/Gpt-Agreement-Payment/blob/main/README.md",
+    "sha": "2ab00ba0ffc0df4558b6175d0a88226b14049b03",
+    "bytes": 18547,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1112002090,
+    "name": "jlcodes99/vscode-antigravity-cockpit",
+    "url": "https://github.com/jlcodes99/vscode-antigravity-cockpit/blob/main/README.md",
+    "sha": "b1d63b68e963267c65b75b7ca375be71c238ba13",
+    "bytes": 8545,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1148788086,
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills/blob/main/README.md",
+    "sha": "ff9b797a342d3a64b52f9f5a83d9fc4ce28709dc",
+    "bytes": 15587,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1092047360,
+    "name": "luongnv89/claude-howto",
+    "url": "https://github.com/luongnv89/claude-howto/blob/main/README.md",
+    "sha": "999a98e09b187f7fae5da5e0222a8b3d0cd17786",
+    "bytes": 29540,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1214290850,
+    "name": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+    "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/README.md",
+    "sha": "8ebb964e3fceb751cb0de4de2a33c6e9b4d36acf",
+    "bytes": 1121931,
+    "path": "README.md",
+    "verified_blob_sha": "8ebb964e3fceb751cb0de4de2a33c6e9b4d36acf",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1073224021,
+    "name": "EveryInc/compound-engineering-plugin",
+    "url": "https://github.com/EveryInc/compound-engineering-plugin/blob/main/README.md",
+    "sha": "126c489dac1db88e2b104bce2aa4e9c970e17e8a",
+    "bytes": 22156,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1231170332,
+    "name": "TokenRhythm/opensquilla",
+    "url": "https://github.com/TokenRhythm/opensquilla/blob/main/README.md",
+    "sha": "e450d816731554bd1a1e1cdc7dca0f217be1a672",
+    "bytes": 35998,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1006496207,
+    "name": "SuperClaude-Org/SuperClaude_Framework",
+    "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework/blob/master/README.md",
+    "sha": "85f357dd8c17cfb8e2ba8ca3417aa673d9c9cc8d",
+    "bytes": 19554,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1025856648,
+    "name": "wshobson/agents",
+    "url": "https://github.com/wshobson/agents/blob/main/README.md",
+    "sha": "ad23a0c942ec9422ea087f14afb206c06e2c2e5e",
+    "bytes": 9934,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1148052330,
+    "name": "Yeachan-Heo/oh-my-codex",
+    "url": "https://github.com/Yeachan-Heo/oh-my-codex/blob/main/README.md",
+    "sha": "eaa293d8567dcfe1564afb2708b23d2c756a760c",
+    "bytes": 32928,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 965615190,
+    "name": "bmad-code-org/BMAD-METHOD",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/blob/main/README.md",
+    "sha": "d8f1d23e26b974d62b1f83348a8adb6d8cf96c4d",
+    "bytes": 6801,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1185965712,
+    "name": "Dailin521/codex-provider-sync",
+    "url": "https://github.com/Dailin521/codex-provider-sync/blob/main/README.md",
+    "sha": "7e78d4cb5a8af2b6f379ac9148d473d274958887",
+    "bytes": 8040,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1201173969,
+    "name": "JuliusBrussee/caveman",
+    "url": "https://github.com/JuliusBrussee/caveman/blob/main/README.md",
+    "sha": "ad4722fe28ddc5106941c4d633c4311dde8fa60a",
+    "bytes": 25811,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 765083837,
+    "name": "opendatalab/MinerU",
+    "url": "https://github.com/opendatalab/MinerU/blob/master/README.md",
+    "sha": "d056e5ca21a9f45504cbdecf74e6d25c3bb750b8",
+    "bytes": 40453,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1182081931,
+    "name": "Egonex-AI/Understand-Anything",
+    "url": "https://github.com/Egonex-AI/Understand-Anything/blob/main/README.md",
+    "sha": "066f7888b619fc142c3f025536b6e25cad94c24e",
+    "bytes": 19786,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 717197250,
+    "name": "QuantumNous/new-api",
+    "url": "https://github.com/QuantumNous/new-api/blob/main/README.md",
+    "sha": "06924e547f45dc543f69b14b3cae4abf1e477e5c",
+    "bytes": 22058,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1181795380,
+    "name": "zarazhangrui/follow-builders",
+    "url": "https://github.com/zarazhangrui/follow-builders/blob/main/README.md",
+    "sha": "553608b060f69fa24c130d03e7156d5fcd4626b7",
+    "bytes": 5853,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1165277268,
+    "name": "Panniantong/Agent-Reach",
+    "url": "https://github.com/Panniantong/Agent-Reach/blob/main/README.md",
+    "sha": "311bbe1828068c93731f81365f9f79228d40d7fc",
+    "bytes": 22651,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1174369519,
+    "name": "jnMetaCode/agency-agents-zh",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh/blob/main/README.md",
+    "sha": "413293a41b9e995a80af1dcfa7de7bf85d4a7c42",
+    "bytes": 66319,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1012087571,
+    "name": "router-for-me/CLIProxyAPI",
+    "url": "https://github.com/router-for-me/CLIProxyAPI/blob/main/README.md",
+    "sha": "d4ecdef6f99991eda8fa6cae09578a5603b95aec",
+    "bytes": 27968,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1202599845,
+    "name": "KKKKhazix/khazix-skills",
+    "url": "https://github.com/KKKKhazix/khazix-skills/blob/main/README.md",
+    "sha": "284a59852fc4a8a1b8703e5567fff4e238edc694",
+    "bytes": 15263,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1031059905,
+    "name": "abhigyanpatwari/GitNexus",
+    "url": "https://github.com/abhigyanpatwari/GitNexus/blob/main/README.md",
+    "sha": "f2714bf89b032f9fa5f48c7acd7f0d5005fdb4b1",
+    "bytes": 111032,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1024554267,
+    "name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
+    "sha": "c05112266746ff99a3326a62c38c33fbc08ecd23",
+    "bytes": 17688,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1216954187,
+    "name": "ConardLi/garden-skills",
+    "url": "https://github.com/ConardLi/garden-skills/blob/main/README.md",
+    "sha": "12746356543404694ea6f72389b79ce3dee3962f",
+    "bytes": 34851,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1010681419,
+    "name": "shareAI-lab/learn-claude-code",
+    "url": "https://github.com/shareAI-lab/learn-claude-code/blob/main/README.md",
+    "sha": "cd068f31eb579f5ab7c4288f134358135408ec5a",
+    "bytes": 25596,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 1136590548,
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/blob/main/README.md",
+    "sha": "00d3a8ca7e6a9d602085fe9f9eebaa37e23513af",
+    "bytes": 118549,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 204777333,
+    "name": "sudhakar3697/awesome-electron-alternatives",
+    "url": "https://github.com/sudhakar3697/awesome-electron-alternatives/blob/main/README.md",
+    "sha": "a272e30a0f2c4df02c3bd04f9754fe79f85861bf",
+    "bytes": 95869,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 718741813,
+    "name": "abi/screenshot-to-code",
+    "url": "https://github.com/abi/screenshot-to-code/blob/main/README.md",
+    "sha": "735c5780a7998f767664b8fd6ed99d53f875223a",
+    "bytes": 7484,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 541245403,
+    "name": "PlayCover/keymaps",
+    "url": "https://github.com/PlayCover/keymaps/blob/master/README.md",
+    "sha": "fa649246d65707183dfbc1c39893435246ff156e",
+    "bytes": 1653,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "repo_id": 541245403,
+        "url": "https://docs.playcover.io/keymapping/import_export_keymaps",
+        "bytes": 15489,
+        "sha256": "143320801f84c778180a409088949d62f7ddc5e997a696651deb2c20b806677f"
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 115110181,
+    "name": "swc-project/swc",
+    "url": "https://github.com/swc-project/swc/blob/main/README.md",
+    "sha": "297707cd429f35313276c295c02c1064ce23a802",
+    "bytes": 4113,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "repo_id": 115110181,
+        "url": "https://swc.rs/docs/usage/cli",
+        "bytes": 143569,
+        "sha256": "bc09f2b4ae0ac3ea4e64eaa99b06d650280d9e344ae34a1dfd776162ca9b5809"
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 472374655,
+    "name": "BetaSu/fe-hunter",
+    "url": "https://github.com/BetaSu/fe-hunter/blob/master/README.md",
+    "sha": "5e1c8f7d4455da9b9c5fef277a6e98aed44b98ec",
+    "bytes": 1217,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "url": "https://api.github.com/repos/BetaSu/fe-hunter/issues?state=closed&per_page=3",
+        "bytes": 9980,
+        "sha256": "b9e342a7711067af13b7292764e704c91da2a31b70bbafb5f691081341d0f33e",
+        "kind": "directory or issue index",
+        "read_scope": "仅核查目录或返回的问题记录"
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 352276219,
+    "name": "ineo6/hosts",
+    "url": "https://github.com/ineo6/hosts/blob/master/README.md",
+    "sha": "0e299293b0490181c11981a465ee99e5b36ffcb1",
+    "bytes": 5534,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 77912349,
+    "name": "qianguyihao/Web",
+    "url": "https://github.com/qianguyihao/Web/blob/master/README.md",
+    "sha": "6c9194a2b877c5807913011e9a46c5ea819174c7",
+    "bytes": 2030,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "url": "https://api.github.com/repos/qianguyihao/Web/contents",
+        "bytes": 17243,
+        "sha256": "53b3575435b548ff1073a0028617e8e9202906c5d21ef4063da7d4290d594b5c",
+        "kind": "directory or issue index",
+        "read_scope": "仅核查目录或返回的问题记录"
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 232981344,
+    "name": "BetaSu/big-react",
+    "url": "https://github.com/BetaSu/big-react/blob/master/README.md",
+    "sha": "c4e7ba5863e4d3238108fed1cca91891de78545c",
+    "bytes": 15134,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "path": "package.json",
+        "url": "https://github.com/BetaSu/big-react/blob/master/package.json",
+        "sha": "dfa04f93d6aa5eb20911fdc2bc2380cefa115403",
+        "bytes": 1573
+      },
+      {
+        "url": "https://api.github.com/repos/BetaSu/big-react/contents",
+        "bytes": 12335,
+        "sha256": "0ec23d7c8fc4542158b9c2ef0565e189a793572fbe123d11289b19b72176cf8c",
+        "kind": "directory or issue index",
+        "read_scope": "仅核查目录或返回的问题记录"
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 130884470,
+    "name": "solidjs/solid",
+    "url": "https://github.com/solidjs/solid/blob/main/README.md",
+    "sha": "df3be7fe50e0638f2bf3443c16bf2c2d53481c87",
+    "bytes": 14297,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 74293321,
+    "name": "sveltejs/svelte",
+    "url": "https://github.com/sveltejs/svelte/blob/main/README.md",
+    "sha": "7ea71647521ae850fd0933665f94760806ac5b29",
+    "bytes": 1730,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "repo_id": 74293321,
+        "url": "https://svelte.dev/docs/svelte/overview",
+        "bytes": 84641,
+        "sha256": "d51497eaa77e4576949d9ac766c58be7fe90087310484cb5467bcdc4da287451"
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 196664765,
+    "name": "pwstrick/daily",
+    "url": "https://github.com/pwstrick/daily/blob/master/README.md",
+    "sha": "9c313bb91e91838af098d06582d9512cadb34456",
+    "bytes": 7999,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "path": "interview/network.md",
+        "url": "https://github.com/pwstrick/daily/blob/master/interview/network.md",
+        "sha": "6b5d9893e78b5fa9ba17fb4d5e47fe5b9f450106",
+        "bytes": 6472
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 268195786,
+    "name": "BetaSu/just-react",
+    "url": "https://github.com/BetaSu/just-react/blob/master/README.md",
+    "sha": "5bd5213e678533646d11a7c559390558f6ab2484",
+    "bytes": 482,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "path": "docs/index.md",
+        "url": "https://github.com/BetaSu/just-react/blob/master/docs/index.md",
+        "sha": "dcda5e16e299b3a8d206a2ab022b57d16d4e4eb5",
+        "bytes": 3021
+      },
+      {
+        "url": "https://api.github.com/repos/BetaSu/just-react/contents",
+        "bytes": 8764,
+        "sha256": "e008280fa2a9033a2125626ba3190e3beba0e272bb050b2671471cea47ed2486",
+        "kind": "directory or issue index",
+        "read_scope": "仅核查目录或返回的问题记录"
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 139662221,
+    "name": "a597873885/webfunny_monitor",
+    "url": "https://github.com/a597873885/webfunny_monitor/blob/main/README.md",
+    "sha": "4f04879a7f6a35c03bf0530936b4b64371606fb4",
+    "bytes": 7256,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 123883497,
+    "name": "chinanf-boy/didact-explain",
+    "url": "https://github.com/chinanf-boy/didact-explain/blob/master/readme.md",
+    "sha": "b6a7b80cc331692f830e0e8410639333e7bb317a",
+    "bytes": 8617,
+    "path": "readme.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 85077558,
+    "name": "nilbuild/developer-roadmap",
+    "url": "https://github.com/nilbuild/developer-roadmap/blob/master/readme.md",
+    "sha": "3964b576fffbdb6a68569e1c8fc66baf15251660",
+    "bytes": 9693,
+    "path": "readme.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 132750724,
+    "name": "codecrafters-io/build-your-own-x",
+    "url": "https://github.com/codecrafters-io/build-your-own-x/blob/master/README.md",
+    "sha": "9a553c729b29bc69296d7092fc1c314c2c811bad",
+    "bytes": 46683,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 126577260,
+    "name": "trekhleb/javascript-algorithms",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/README.md",
+    "sha": "0eef20119a77bd3c9f533908409be8b4d57fd409",
+    "bytes": 25792,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 146239863,
+    "name": "awesome-vpn/awesome-vpn",
+    "url": "https://github.com/awesome-vpn/awesome-vpn/blob/master/README.md",
+    "sha": "0c34caf4faace811b64770cffad5dd11bbdd7af9",
+    "bytes": 9278,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 62892221,
+    "name": "react-love/react-latest-framework",
+    "url": "https://github.com/react-love/react-latest-framework/blob/master/README.md",
+    "sha": "7f8d246441d7786b4aaaa9d23b978929cb582478",
+    "bytes": 2456,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 73999402,
+    "name": "HerbertKarajan/Fe-Interview-questions",
+    "url": "https://github.com/HerbertKarajan/Fe-Interview-questions/blob/master/README.md",
+    "sha": "256deff0695d588ec7528dcb9fa6f7b47b8b3d56",
+    "bytes": 10347,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "path": "readme/1.md",
+        "url": "https://github.com/HerbertKarajan/Fe-Interview-questions/blob/master/readme/1.md",
+        "sha": "768f118196ab40fe41304ef5249f09c6a57bb794",
+        "bytes": 3275
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 134211662,
+    "name": "BingKui/javascript-zh",
+    "url": "https://github.com/BingKui/javascript-zh/blob/master/README.md",
+    "sha": "0a9b5f723678d3df0ab14525a354831d2f2ae670",
+    "bytes": 107277,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 137582912,
+    "name": "ljianshu/Blog",
+    "url": "https://github.com/ljianshu/Blog/blob/master/README.md",
+    "sha": "52ab883783669f4d2ace2214a5eadde1e7b00a58",
+    "bytes": 6826,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "url": "https://github.com/ljianshu/Blog/issues/23",
+        "title": "深入理解浏览器的缓存机制",
+        "updated_at": "2025-07-02T08:28:27Z",
+        "body_bytes": 19734
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 81963142,
+    "name": "poetries/FE-Interview-Questions",
+    "url": "https://github.com/poetries/FE-Interview-Questions/blob/master/README.md",
+    "sha": "1ce0e12c25d5627ef178265cb8473895dd8ba9ed",
+    "bytes": 2018,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 47445046,
+    "name": "youngwind/blog",
+    "url": "https://github.com/youngwind/blog/blob/master/README.md",
+    "sha": "1463bf89ade85932642ecbd1560602367d679db7",
+    "bytes": 11830,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "url": "https://github.com/youngwind/blog/issues/113",
+        "title": "浏览器缓存、CacheStorage、Web Worker 与 Service Worker",
+        "updated_at": "2021-05-25T15:54:35Z",
+        "body_bytes": 13569
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 19141383,
+    "name": "fouber/blog",
+    "url": "https://github.com/fouber/blog/blob/master/README.md",
+    "sha": "3a56578c88936d4a5b0aa95d2c10de1e4dff202a",
+    "bytes": 5049,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "url": "https://github.com/fouber/blog/issues/6",
+        "title": "大公司里怎样开发和部署前端代码？",
+        "updated_at": "2025-11-30T07:04:56Z",
+        "body_bytes": 10625
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 101625394,
+    "name": "ustbhuangyi/vue-analysis",
+    "url": "https://github.com/ustbhuangyi/vue-analysis/blob/master/README.md",
+    "sha": "eb5aba03df7a7c542ce26c93be5bc9476c2699d9",
+    "bytes": 2594,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 82329147,
+    "name": "jawil/blog",
+    "url": "https://github.com/jawil/blog/blob/master/README.md",
+    "sha": "9b11bcb5b239a6349c3f2ea34ae0d4344ecd55ac",
+    "bytes": 4417,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "url": "https://github.com/jawil/blog/issues/18",
+        "title": "Node.js的__dirname，__filename，process.cwd()，./的一些坑",
+        "updated_at": "2020-08-02T16:23:28Z",
+        "body_bytes": 7708
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 166535974,
+    "name": "Advanced-Frontend/Daily-Interview-Question",
+    "url": "https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/README.md",
+    "sha": "c8ce9123f1a76e40ddf5da05f79d2b5c825f161c",
+    "bytes": 8522,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 153208883,
+    "name": "stephentian/33-js-concepts",
+    "url": "https://github.com/stephentian/33-js-concepts/blob/master/README.md",
+    "sha": "186c2e21bedb5ceef77b2d0596a1753370ac2712",
+    "bytes": 39725,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 139383414,
+    "name": "lihongxun945/myblog",
+    "url": "https://github.com/lihongxun945/myblog/blob/master/README.md",
+    "sha": "b636a72eaa57384563398691aaf572e7b96ac2e6",
+    "bytes": 8241,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "url": "https://github.com/lihongxun945/myblog/issues/52",
+        "title": "42行代码实现Vue3响应式",
+        "updated_at": "2023-12-20T06:40:32Z",
+        "body_bytes": 7548
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 128706827,
+    "name": "lihongxun945/diving-into-webpack",
+    "url": "https://github.com/lihongxun945/diving-into-webpack/blob/master/README.md",
+    "sha": "54c9d475bf58fe573e0d6cc8054e60ae74336acc",
+    "bytes": 1150,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "path": "3-style-loader-and-css-loader.md",
+        "url": "https://github.com/lihongxun945/diving-into-webpack/blob/master/3-style-loader-and-css-loader.md",
+        "sha": "486c830d76a238e2d752465cc7b431c53b1d3326",
+        "bytes": 24169
+      },
+      {
+        "url": "https://api.github.com/repos/lihongxun945/diving-into-webpack/contents",
+        "bytes": 8943,
+        "sha256": "bf0cb6fab40dcc52f04c293becff93d7839ec79a5af33fe9a42e45c1248f7375",
+        "kind": "directory or issue index",
+        "read_scope": "仅核查目录或返回的问题记录"
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 17655907,
+    "name": "fex-team/interview-questions",
+    "url": "https://github.com/fex-team/interview-questions/blob/master/README.md",
+    "sha": "ab378b515679e09fffdf0cc41a2c9a7360143474",
+    "bytes": 5856,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 121125679,
+    "name": "LeetCode-OpenSource/vscode-leetcode",
+    "url": "https://github.com/LeetCode-OpenSource/vscode-leetcode/blob/master/README.md",
+    "sha": "623e95f2016421c505a38a20300074028c456d97",
+    "bytes": 12214,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 129860458,
+    "name": "phobal/ivideo",
+    "url": "https://github.com/phobal/ivideo/blob/master/README.md",
+    "sha": "e486e25b3eaa518bfbca714a843fd74d3f8af88d",
+    "bytes": 1919,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 82682940,
+    "name": "chenshenhai/koa2-note",
+    "url": "https://github.com/chenshenhai/koa2-note/blob/master/README.md",
+    "sha": "427a42ab3d238e1983bac639148ebca571cb0de3",
+    "bytes": 6200,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "path": "note/start/quick.md",
+        "url": "https://github.com/chenshenhai/koa2-note/blob/master/note/start/quick.md",
+        "sha": "2be070dfa3a12d856ee1950116f1781780e2db3b",
+        "bytes": 1354
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 124361555,
+    "name": "ProtoTeam/blog",
+    "url": "https://github.com/ProtoTeam/blog/blob/master/README.md",
+    "sha": "0c19b81eeeea94840a0243a03fa5e5a3b499ba4b",
+    "bytes": 485,
+    "path": "README.md",
+    "additional_sources": [
+      {
+        "path": "003.跨页面通信的各种姿势.md",
+        "url": "https://github.com/ProtoTeam/blog/blob/master/003.%E8%B7%A8%E9%A1%B5%E9%9D%A2%E9%80%9A%E4%BF%A1%E7%9A%84%E5%90%84%E7%A7%8D%E5%A7%BF%E5%8A%BF.md",
+        "sha": "fe2ab27059699e55a7532ba8dc685b260f2d4dbb",
+        "bytes": 6604
+      },
+      {
+        "url": "https://api.github.com/repos/ProtoTeam/blog/contents",
+        "bytes": 59863,
+        "sha256": "deb4da3f0386cc9517ede93a7a31c3a1a17da23af18f342d2da82d50e10bc06e",
+        "kind": "directory or issue index",
+        "read_scope": "仅核查目录或返回的问题记录"
+      }
+    ],
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 135614069,
+    "name": "sudheerj/reactjs-interview-questions",
+    "url": "https://github.com/sudheerj/reactjs-interview-questions/blob/master/README.md",
+    "sha": "7b538b2fce53b8e37928fccd507fb6054bec674c",
+    "bytes": 584521,
+    "path": "README.md",
+    "verified_blob_sha": "7b538b2fce53b8e37928fccd507fb6054bec674c",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 41167393,
+    "name": "icepy/Front-End-Develop-Guide",
+    "url": "https://github.com/icepy/Front-End-Develop-Guide/blob/master/README.md",
+    "sha": "f1b483eda54c0d892a3472475b5a43507a85feac",
+    "bytes": 15205,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 78076226,
+    "name": "webpack-china/awesome-webpack-cn",
+    "url": "https://github.com/webpack-china/awesome-webpack-cn/blob/master/README.md",
+    "sha": "6ee3d7882601a93c7311b18c3e820104a4b45d19",
+    "bytes": 21994,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  },
+  {
+    "repo_id": 63418718,
+    "name": "521xueweihan/git-tips",
+    "url": "https://github.com/521xueweihan/git-tips/blob/master/README.md",
+    "sha": "e85b7d34d9746647b20f10fa73f7b3be03cc7d62",
+    "bytes": 21017,
+    "path": "README.md",
+    "read_scope": "README 的用途、安装、使用和相关章节；大合集仅查与解读例子有关的条目，未逐项实测"
+  }
+]

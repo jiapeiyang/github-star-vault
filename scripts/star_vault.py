@@ -359,201 +359,123 @@ def parse_curation_file(path: Path) -> tuple[dict[str, Any], str]:
     return metadata, "\n".join(lines[closing + 1 :]).strip() + "\n"
 
 
-def extract_section(markdown: str, heading: str) -> str:
-    pattern = re.compile(rf"^##\s+{re.escape(heading)}\s*$", re.MULTILINE)
-    match = pattern.search(markdown)
-    if not match:
-        return ""
-    start = match.end()
-    next_heading = re.search(r"^##\s+", markdown[start:], re.MULTILINE)
-    end = start + next_heading.start() if next_heading else len(markdown)
-    return markdown[start:end].strip()
+GUIDE_SECTIONS = ("它是什么", "适合什么场景", "如何开始", "一个使用示例", "注意事项与相关项目", "资料来源")
 
 
-def _meaningful_takeaway(section: str) -> bool:
-    text = re.sub(r"<!--.*?-->", "", section, flags=re.DOTALL)
-    text = re.sub(r"^[\s>*#-]+", "", text, flags=re.MULTILINE).strip()
-    if not text:
-        return False
-    normalized = re.sub(r"[。.!！\s]", "", text).lower()
-    return normalized not in {"待学习", "待补充", "todo", "tbd", "待实际使用后补充"}
+def web_url(value: Any) -> str | None:
+    if not isinstance(value, str):
+        return None
+    if re.search(r"[\x00-\x20\x7f]", value):
+        return None
+    try:
+        parsed = urllib.parse.urlsplit(value)
+    except ValueError:
+        return None
+    return value if parsed.scheme in {"https", "http"} and parsed.netloc else None
 
 
-def load_curations(
-    content_dir: Path,
-    snapshot: dict[str, Any],
-    config_dir: Path,
-) -> dict[int, dict[str, Any]]:
+def content_date(value: Any, field: str) -> str | None:
+    if value is None:
+        return None
+    if not isinstance(value, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+        raise ValidationError(f"{field}: 必须为 YYYY-MM-DD 字符串")
+    try:
+        datetime.strptime(value, "%Y-%m-%d")
+    except ValueError as exc:
+        raise ValidationError(f"{field}: 日期无效") from exc
+    return value
+
+
+def load_curations(content_dir: Path, snapshot: dict[str, Any], config_dir: Path) -> dict[int, dict[str, Any]]:
     repository_by_id = {repo["repo_id"]: repo for repo in snapshot["repositories"]}
     category_ids = {item["id"] for item in load_enum_config("categories", config_dir)}
     resource_ids = {item["id"] for item in load_enum_config("resource-types", config_dir)}
-    stage_ids = {item["id"] for item in load_enum_config("stages", config_dir)}
-    result: dict[int, dict[str, Any]] = {}
+    supported = {"repo_id", "category", "resource_type", "tags", "summary", "related", "content_updated_at", "reviewed_at", "sources", "personal_archived"}
+    result = {}
     for path in sorted(content_dir.glob("*.md")):
         metadata, body = parse_curation_file(path)
+        if {"stage", "note", "takeaway", "updated_by_user_at"} & metadata.keys():
+            raise ValidationError(f"{path}: 包含已移除的旧内容字段，请完成资料迁移")
+        if re.search(r"^##[ \t]+(?:学习结论|实践记录|学习笔记)[ \t]*$", body, re.M):
+            raise ValidationError(f"{path}: 包含已移除的个人记录章节")
         repo_id = metadata.get("repo_id")
-        if not isinstance(repo_id, int) or repo_id <= 0:
-            raise ValidationError(f"{path}: repo_id 必须是正整数")
-        if path.stem != str(repo_id):
-            raise ValidationError(f"{path}: 文件名必须与 repo_id={repo_id} 一致")
-        if repo_id in result:
-            raise ValidationError(f"{path}: repo_id={repo_id} 重复")
-        if repo_id not in repository_by_id:
-            raise ValidationError(f"{path}: repo_id={repo_id} 不存在于事实数据")
-        category = metadata.get("category")
-        resource_type = metadata.get("resource_type")
-        stage = metadata.get("stage")
-        if category not in category_ids:
-            raise ValidationError(f"{path}: 非法 category {category!r}")
-        if resource_type not in resource_ids:
-            raise ValidationError(f"{path}: 非法 resource_type {resource_type!r}")
-        if stage not in stage_ids:
-            raise ValidationError(f"{path}: 非法 stage {stage!r}")
-        note = metadata.get("note")
-        if not isinstance(note, str) or not note.strip():
-            raise ValidationError(f"{path}: note 必须是非空字符串")
+        if type(repo_id) is not int or repo_id <= 0 or path.stem != str(repo_id):
+            raise ValidationError(f"{path}: 文件名必须与正整数 repo_id 一致")
+        if repo_id in result or repo_id not in repository_by_id:
+            raise ValidationError(f"{path}: repo_id 重复或不存在于事实数据")
+        if metadata.get("category") not in category_ids or metadata.get("resource_type") not in resource_ids:
+            raise ValidationError(f"{path}: 非法 category 或 resource_type")
+        if not isinstance(metadata.get("summary"), str) or not metadata["summary"].strip():
+            raise ValidationError(f"{path}: summary 必须是非空字符串")
         tags = metadata.get("tags", [])
-        if not isinstance(tags, list) or not all(isinstance(tag, str) and tag.strip() for tag in tags):
+        if not isinstance(tags, list) or not all(isinstance(t, str) and t.strip() for t in tags):
             raise ValidationError(f"{path}: tags 必须是非空字符串数组")
-        if len(tags) > 5:
-            raise ValidationError(f"{path}: tags 最多 5 个")
-        if len(set(tags)) != len(tags):
-            raise ValidationError(f"{path}: tags 不能重复")
+        if len(tags) > 5 or len(set(t.casefold().strip() for t in tags)) != len(tags):
+            raise ValidationError(f"{path}: tags 最多 5 个且不能重复")
         language = repository_by_id[repo_id].get("language")
-        if language and any(tag.casefold() == language.casefold() for tag in tags):
-            raise ValidationError(f"{path}: tags 不应重复语言字段 {language}")
+        if language and any(t.casefold() == language.casefold() for t in tags):
+            raise ValidationError(f"{path}: tags 不应重复语言字段")
         related = metadata.get("related", [])
-        if not isinstance(related, list) or not all(isinstance(value, int) for value in related):
-            raise ValidationError(f"{path}: related 必须是 repo_id 数组")
-        missing_related = [value for value in related if value not in repository_by_id]
-        if missing_related:
-            raise ValidationError(f"{path}: related 包含不存在的 repo_id {missing_related}")
-        takeaway = extract_section(body, "学习结论")
-        if stage == "learned" and not _meaningful_takeaway(takeaway):
-            raise ValidationError(f"{path}: stage=learned 时必须包含有效学习结论")
+        if not isinstance(related, list) or not all(type(v) is int and v in repository_by_id for v in related):
+            raise ValidationError(f"{path}: related 必须是存在的 repo_id 数组")
+        if type(metadata.get("personal_archived", False)) is not bool:
+            raise ValidationError(f"{path}: personal_archived 必须为布尔值")
+        content_date(metadata.get("content_updated_at"), str(path))
+        reviewed = content_date(metadata.get("reviewed_at"), str(path))
+        sources = metadata.get("sources", [])
+        if not isinstance(sources, list) or not all(web_url(url) for url in sources):
+            raise ValidationError(f"{path}: sources 仅支持完整 HTTP/HTTPS URL")
         for target in re.findall(r"\[[^\]]+\]\(([^)]+)\)", body):
-            if not target.startswith(("http://", "https://", "#")):
-                raise ValidationError(f"{path}: 非法 Markdown 链接 {target!r}")
-        supported = {"repo_id", "category", "resource_type", "stage", "tags", "note", "related", "updated_by_user_at"}
-        unsupported = sorted(set(metadata) - supported)
-        if "updated_by_user_at" in metadata and not isinstance(metadata["updated_by_user_at"], str):
-            unsupported.append("updated_by_user_at（非字符串）")
-        result[repo_id] = {**metadata, "body": body, "takeaway": takeaway, "_unsupported_fields": unsupported}
+            if not (target.startswith("#") or web_url(target)):
+                raise ValidationError(f"{path}: 非法 Markdown 链接")
+        if reviewed:
+            if not sources or any(not re.search(rf"^## {re.escape(h)}\s*$", body, re.M) for h in GUIDE_SECTIONS):
+                raise ValidationError(f"{path}: 核查后的解读须包含来源及全部必需章节")
+        result[repo_id] = {**metadata, "body": body, "_unsupported_fields": sorted(set(metadata) - supported)}
     return result
 
 
-def _first_takeaway(section: str) -> str:
-    for line in section.splitlines():
-        clean = line.strip().lstrip("-*>").strip()
-        if clean and not clean.startswith("<!--"):
-            return clean
-    return ""
-
-
-def make_catalog(
-    snapshot: dict[str, Any],
-    curations: dict[int, dict[str, Any]],
-    config_dir: Path,
-) -> dict[str, Any]:
+def make_catalog(snapshot: dict[str, Any], curations: dict[int, dict[str, Any]], config_dir: Path) -> dict[str, Any]:
     categories = load_enum_config("categories", config_dir)
     resources = load_enum_config("resource-types", config_dir)
-    stages = load_enum_config("stages", config_dir)
     category_labels = {item["id"]: item["label"] for item in categories}
     resource_labels = {item["id"]: item["label"] for item in resources}
-    stage_labels = {item["id"]: item["label"] for item in stages}
-    repositories: list[dict[str, Any]] = []
+    repositories = []
     for fact in snapshot["repositories"]:
-        curation = curations.get(fact["repo_id"])
-        if curation:
-            stage = curation["stage"]
-            category = curation["category"]
-            resource_type = curation["resource_type"]
-            note = curation["note"].strip()
-            tags = curation.get("tags", [])
-            takeaway = _first_takeaway(curation.get("takeaway", ""))
-            body = curation["body"]
-            curated_at = curation.get("updated_by_user_at")
-            if curated_at is not None:
-                curated_at = str(curated_at)
-            related = curation.get("related", [])
-            content_links = [
-                {"label": label, "url": url}
-                for label, url in re.findall(r"(?<!!)\[([^\]]+)\]\((https?://[^)]+)\)", body)
-            ]
-        else:
-            stage = "imported" if fact["discovered_in_initial_import"] else "inbox"
-            category = "unclassified"
-            resource_type = "unclassified"
-            note = ""
-            tags = []
-            takeaway = ""
-            body = ""
-            curated_at = None
-            related = []
-            content_links = []
+        c = curations.get(fact["repo_id"], {})
+        category = c.get("category", "unclassified")
+        resource_type = c.get("resource_type", "unclassified")
+        body = c.get("body", "")
         description = fact.get("description") or "暂无 GitHub 描述。"
         repositories.append({
-            "id": fact["repo_id"],
-            "repoId": fact["repo_id"],
-            "name": fact["full_name"],
-            "owner": fact["owner"],
-            "avatar": fact.get("owner_avatar_url"),
-            "url": fact["url"],
-            "homepage": fact.get("homepage"),
-            "description": description,
-            "editorialSummary": note or description,
-            "language": fact.get("language") or "未标注",
-            "topics": fact.get("topics", []),
-            "license": fact.get("license_spdx") or "未声明",
-            "stars": fact.get("stargazers_count", 0),
-            "forks": fact.get("forks_count", 0),
-            "issues": fact.get("open_issues_count", 0),
-            "fork": fact.get("fork", False),
-            "archived": fact.get("github_archived", False),
-            "sourceStatus": fact["source_status"],
-            "starredAt": fact["starred_at"],
-            "pushedAt": fact.get("pushed_at") or fact["updated_at"],
-            "lastSyncedAt": snapshot["sync"]["checked_at"],
-            "category": category,
-            "categoryLabel": category_labels[category],
-            "resourceTypeId": resource_type,
-            "resourceType": resource_labels[resource_type],
-            "stage": stage,
-            "stageLabel": stage_labels[stage],
-            "personalArchived": stage == "archived",
-            "tags": tags,
-            "note": note,
-            "takeaway": takeaway,
-            "contentMarkdown": body,
-            "curation": {
-                "note": curation["note"],
-                "updatedByUserAt": str(curated_at) if curated_at is not None else None,
-                "unsupportedFields": curation["_unsupported_fields"],
-            } if curation else None,
-            "curatedAt": curated_at,
-            "relatedRepoIds": related,
-            "contentLinks": content_links,
+            "repoId": fact["repo_id"], "name": fact["full_name"], "owner": fact["owner"],
+            "avatar": web_url(fact.get("owner_avatar_url")), "url": fact["url"], "homepage": web_url(fact.get("homepage")),
+            "description": description, "summary": c.get("summary", ""),
+            "language": fact.get("language") or "未标注", "topics": fact.get("topics", []),
+            "license": fact.get("license_spdx") or "未声明", "stars": fact.get("stargazers_count", 0),
+            "forks": fact.get("forks_count", 0), "archived": fact.get("github_archived", False),
+            "sourceStatus": fact["source_status"], "starredAt": fact["starred_at"],
+            "pushedAt": fact.get("pushed_at") or fact["updated_at"], "lastSyncedAt": snapshot["sync"]["checked_at"],
+            "initialImport": fact["discovered_in_initial_import"], "firstSeenAt": fact["first_seen_at"],
+            "category": category, "categoryLabel": category_labels[category],
+            "resourceTypeId": resource_type, "resourceType": resource_labels[resource_type],
+            "personalArchived": c.get("personal_archived", False), "tags": c.get("tags", []),
+            "contentMarkdown": body, "contentUpdatedAt": c.get("content_updated_at"),
+            "reviewedAt": c.get("reviewed_at"), "sources": c.get("sources", []),
+            "hasGuide": bool(c.get("reviewed_at")), "relatedRepoIds": c.get("related", []),
+            "curation": {"unsupportedFields": c["_unsupported_fields"]} if c else None,
             "suggestion": None,
         })
-    active = [repo for repo in repositories if repo["sourceStatus"] == "starred"]
+    active = [r for r in repositories if r["sourceStatus"] == "starred"]
     return {
-        "schemaVersion": 1,
-        "githubUsername": snapshot["github_username"],
-        "checkedAt": snapshot["sync"]["checked_at"],
-        "categories": categories,
-        "resourceTypes": resources,
-        "stages": stages,
-        "stats": {
-            "active": len(active),
-            "total": len(repositories),
-            "curated": sum(repo["category"] != "unclassified" for repo in active),
-            "inbox": sum(repo["stage"] == "inbox" for repo in active),
-            "imported": sum(repo["stage"] == "imported" for repo in active),
-            "learning": sum(repo["stage"] == "learning" for repo in active),
-            "learned": sum(repo["stage"] == "learned" for repo in active),
-            "githubArchived": sum(repo["archived"] for repo in active),
-            "missing": sum(repo["sourceStatus"] == "missing" for repo in repositories),
-        },
+        "schemaVersion": 2, "githubUsername": snapshot["github_username"], "checkedAt": snapshot["sync"]["checked_at"],
+        "categories": categories, "resourceTypes": resources,
+        "stats": {"active": len(active), "total": len(repositories),
+                  "curated": sum(r["category"] != "unclassified" for r in active),
+                  "guides": sum(r["hasGuide"] for r in active),
+                  "new": sum(not r["initialImport"] for r in active),
+                  "githubArchived": sum(r["archived"] for r in active),
+                  "missing": sum(r["sourceStatus"] == "missing" for r in repositories)},
         "repositories": repositories,
     }
 

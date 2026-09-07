@@ -1,9 +1,9 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { getInboxState, recentLearned } from "../src/domain/inbox.js";
+import { getInboxState } from "../src/domain/inbox.js";
 import { defaultRoute, routeFromUrl, urlForRoute } from "../src/domain/routing.js";
 
-const repos = Array.from({ length: 65 }, (_, i) => ({ repoId: i + 1, name: `example/repo-${i + 1}`, stage: "imported", sourceStatus: "starred", starredAt: "2026-09-01T00:00:00Z", tags: [], topics: [] }));
+const repos = Array.from({ length: 65 }, (_, i) => ({ repoId: i + 1, name: `example/repo-${i + 1}`, category: "unclassified", sourceStatus: "starred", starredAt: "2026-09-01T00:00:00Z", tags: [], topics: [] }));
 const route = { ...defaultRoute, view: "inbox" };
 
 test("65 entries expose three pages and selected id locates the correct page", () => {
@@ -29,11 +29,5 @@ test("switch, search, invalid pages and missing selections resolve consistently"
   const empty = getInboxState(repos, { ...route, queueQuery: "unknown", repo: "45" });
   assert.equal(empty.selected, undefined);
   assert.equal(empty.route.repo, "");
-  assert.equal(getInboxState(repos, { ...route, queue: "inbox" }).total, 0);
-});
-
-test("recent learning sorts personal record dates with stable ids", () => {
-  const items = [{ repoId: 3, stage: "learned", curatedAt: "2026-09-04" }, { repoId: 2, stage: "learned", curatedAt: "2026-09-05" }, { repoId: 1, stage: "learned", curatedAt: "2026-09-05" }];
-  assert.deepEqual(recentLearned(items).map((r) => r.repoId), [1, 2, 3]);
-  assert.equal(items[0].repoId, 3);
+  assert.equal(getInboxState(repos, { ...route, queue: "all" }).total, 65);
 });

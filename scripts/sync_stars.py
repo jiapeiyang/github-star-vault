@@ -24,12 +24,16 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="同步公开 GitHub Stars")
     parser.add_argument("--username", default=config["github_username"])
     parser.add_argument("--output", type=Path, default=ROOT / "data" / "repositories.json")
+    parser.add_argument("--previous", type=Path, help="用指定的既有快照保留首次收录等历史信息")
     parser.add_argument("--fixture-dir", type=Path)
     parser.add_argument("--now")
     parser.add_argument("--allow-empty", action="store_true")
     args = parser.parse_args()
 
-    previous = read_json(args.output) if args.output.exists() else None
+    previous_path = args.previous or args.output
+    if args.previous and not previous_path.exists():
+        parser.error("--previous 指定的既有快照不存在")
+    previous = read_json(previous_path) if previous_path.exists() else None
     checked_at = utc_now(args.now)
     fetched = load_fixture_pages(args.fixture_dir) if args.fixture_dir else fetch_star_pages(
         args.username,

@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-09-07T08:48:56.849405+00:00",
+  "branch": "codex/star-vault-v1.2",
+  "python_tests": 22,
+  "frontend_tests": 24,
+  "sites_tests": 4,
+  "data_validation": "passed",
+  "pages_build": "passed",
+  "diff_whitespace": "passed",
+  "scope": {
+    "current_stars": 287,
+    "historical_records": 288,
+    "classified": 287,
+    "guides": 287,
+    "complete_use_or_navigation": 284,
+    "limited": 3,
+    "pending": 0
+  },
+  "browser": {
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "mobile_document_width": 390,
+    "mobile_code_container_width": 356,
+    "mobile_code_scroll_width": 474,
+    "history_default_count": 288,
+    "history_current_only_count": 287,
+    "history_2021_count": 83,
+    "restored_scroll_y": 1253,
+    "exact_code_copy": "verified",
+    "legacy_sections_export_block": "verified",
+    "console_errors_or_warnings": 0,
+    "native_confirm_cancel": "not_reliably_verifiable_with_available_browser_tool"
+  },
+  "cleanup": {
+    "viewport_reset": true,
+    "temporary_browser_tabs_remaining": 0,
+    "dev_session_stopped": true,
+    "preview_session_stopped": true,
+    "ports_released": [
+      4178,
+      4179
+    ]
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "deployed": false
+  },
+  "user_existing_file_preserved": "app/qa/production-learning.png"
+}

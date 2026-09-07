@@ -11,6 +11,7 @@ export function assetUrl(path) {
 export function formatDate(value, options = {}) {
   if (!value) return "暂无";
   return new Intl.DateTimeFormat("zh-CN", {
+    timeZone: "Asia/Shanghai",
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
@@ -19,7 +20,7 @@ export function formatDate(value, options = {}) {
 }
 
 export function validateCatalog(catalog) {
-  if (!catalog || catalog.schemaVersion !== 1 || !Array.isArray(catalog.repositories)) {
+  if (!catalog || catalog.schemaVersion !== 2 || !Array.isArray(catalog.repositories)) {
     throw new Error("目录数据格式不受支持");
   }
   const ids = new Set();

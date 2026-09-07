@@ -1,0 +1,142 @@
+[
+  {
+    "repo_id": 1184901356,
+    "name": "humanlayer/skills",
+    "url": "https://github.com/humanlayer/skills/blob/main/README.md",
+    "sha": "09de722cc34687354845241da1f702409ae6e1a3",
+    "bytes": 1564
+  },
+  {
+    "repo_id": 1122242121,
+    "name": "tiann/hapi",
+    "url": "https://github.com/tiann/hapi/blob/main/README.md",
+    "sha": "3efac8d31d93e97fd89864b82407b60a29d6db7d",
+    "bytes": 2672
+  },
+  {
+    "repo_id": 1325096132,
+    "name": "eternityspring/shuohao-skills",
+    "url": "https://github.com/eternityspring/shuohao-skills/blob/main/README.md",
+    "sha": "d214ef56c6ea76d15316ab508ff07411ed12e83e",
+    "bytes": 9448
+  },
+  {
+    "repo_id": 1142983825,
+    "name": "multica-ai/andrej-karpathy-skills",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills/blob/main/README.md",
+    "sha": "7cf07a786532bebe01c65179c8e2c3a98cc0a09b",
+    "bytes": 6198
+  },
+  {
+    "repo_id": 1119232564,
+    "name": "yzfly/awesome-skills-zh",
+    "url": "https://github.com/yzfly/awesome-skills-zh/blob/main/README.md",
+    "sha": "085cf69709efad97b97ec2a3d8a1146de495c5e2",
+    "bytes": 67342
+  },
+  {
+    "repo_id": 1120540348,
+    "name": "libukai/awesome-agent-skills",
+    "url": "https://github.com/libukai/awesome-agent-skills/blob/main/README.md",
+    "sha": "549ff976b78e92b6220cd2ff537a8321263c81c5",
+    "bytes": 20557
+  },
+  {
+    "repo_id": 1226123343,
+    "name": "virgiliojr94/book-to-skill",
+    "url": "https://github.com/virgiliojr94/book-to-skill/blob/master/README.md",
+    "sha": "21725824d3f9161f61b7e4f60e01925854bc32f3",
+    "bytes": 14295
+  },
+  {
+    "repo_id": 1182353280,
+    "name": "deusyu/translate-book",
+    "url": "https://github.com/deusyu/translate-book/blob/main/README.md",
+    "sha": "2a2632be43ddce5b3c16aed5532b0b1660f4c1c3",
+    "bytes": 19184
+  },
+  {
+    "repo_id": 1241257629,
+    "name": "datawhalechina/Agent-Learning-Hub",
+    "url": "https://github.com/datawhalechina/Agent-Learning-Hub/blob/main/README.md",
+    "sha": "987ea54da4b5f33b4af4859c919c2c3385a3cd27",
+    "bytes": 31021
+  },
+  {
+    "repo_id": 1052050442,
+    "name": "datawhalechina/hello-agents",
+    "url": "https://github.com/datawhalechina/hello-agents/blob/main/README.md",
+    "sha": "1df6b3f27c5f675bcabd5ba330e31c380f007e53",
+    "bytes": 20119
+  },
+  {
+    "repo_id": 1212163658,
+    "name": "kangarooking/cangjie-skill",
+    "url": "https://github.com/kangarooking/cangjie-skill/blob/main/README.md",
+    "sha": "7752770dab032c94b9d69d1dccecd8515eee1847",
+    "bytes": 20775
+  },
+  {
+    "repo_id": 1266884317,
+    "name": "kunchenguid/firstmate",
+    "url": "https://github.com/kunchenguid/firstmate/blob/main/README.md",
+    "sha": "40441e999bc5044164c63556f81b270e5a668538",
+    "bytes": 18689
+  },
+  {
+    "repo_id": 1135791677,
+    "name": "lsdefine/GenericAgent",
+    "url": "https://github.com/lsdefine/GenericAgent/blob/main/README.md",
+    "sha": "afb47923b537fd328e704a2562230f95aabfe2a6",
+    "bytes": 38969
+  },
+  {
+    "repo_id": 1062356571,
+    "name": "tw93/Mole",
+    "url": "https://github.com/tw93/Mole/blob/main/README.md",
+    "sha": "ccc1e63e5dd55f65801ba3e823c0728e12f54229",
+    "bytes": 19087
+  },
+  {
+    "repo_id": 1305545535,
+    "name": "HalfAI1102/anthropic-art",
+    "url": "https://github.com/HalfAI1102/anthropic-art/blob/main/README.md",
+    "sha": "bac235cf9204af5daff1ae8558a80e3d01f380d0",
+    "bytes": 4376
+  },
+  {
+    "repo_id": 1312807575,
+    "name": "miuuyy/codex-chatgpt-web",
+    "url": "https://github.com/miuuyy/codex-chatgpt-web/blob/main/README.md",
+    "sha": "0fcb85d950cb97c506c14dcfd3dbc1ff62ab63ea",
+    "bytes": 13822
+  },
+  {
+    "repo_id": 1166119443,
+    "name": "get-bb/bb",
+    "url": "https://github.com/get-bb/bb/blob/main/README.md",
+    "sha": "437e5bee7c3ee42d4dff84cfd0abb28d6fbc4e72",
+    "bytes": 10645
+  },
+  {
+    "repo_id": 1283138527,
+    "name": "threerocks/hand-drawn-styles",
+    "url": "https://github.com/threerocks/hand-drawn-styles/blob/main/README.md",
+    "sha": "fb082bcede5b07c1fd8570fefa9d9060a7312481",
+    "bytes": 12496
+  },
+  {
+    "repo_id": 1339161831,
+    "name": "yanliudesign/mono-color-skill",
+    "url": "https://github.com/yanliudesign/mono-color-skill/blob/main/README.md",
+    "sha": "da66467275ed8e9d987a9f5e5570dbd7e494ed15",
+    "bytes": 19226
+  },
+  {
+    "repo_id": 1183325896,
+    "name": "emilkowalski/skills",
+    "url": "https://github.com/emilkowalski/skills/blob/main/README.md",
+    "sha": "6a12aa2f798144d7931511ae5ae16cfb85fb1933",
+    "bytes": 3970
+  }
+]

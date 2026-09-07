@@ -1,117 +1,57 @@
 # GitHub Star Vault
 
-> 讨论基线：2026-09-04
-> 目标：把 GitHub Stars 从容易吃灰的收藏列表，变成可持续同步、可整理、可检索、能推动学习的个人开源项目知识库。
+回顾历史收藏，按用途找回项目，并理解仓库的使用方式与示例。
 
-## 当前结论
+## 当前版本
 
-项目已经建成公开 GitHub 仓库，采用 **Git 中的结构化数据作为唯一事实源 + GitHub Actions 准实时同步 + React/Vite 静态网站 + GitHub Pages 发布** 的方案。正式站沿用已验证的方案 E 原型。
+v1.2A、v1.2B 与冻结范围的 v1.2C 已在本地实现和验收：删除学习系统，加入仓库解读、收藏回顾与检索改进。通过现有 GitHub Pages 流水线发布；部署状态见 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml)。
 
-它包含三个彼此分开的层次：
+- 自动同步公开 Stars，以 repo_id 处理更名、退出公开列表和重新 Star。
+- 项目库支持多词检索、领域/类型/语言/标签/年份/日期组合筛选、命中片段及单项清除。
+- 收藏回顾按北京时间的年/月浏览已收录记录；详情返回能恢复浏览上下文。
+- 仓库解读包含用途、使用路径、示例、限制与资料来源，提供目录和代码复制。
+- 学习阶段、学习笔记与完成统计已从当前源内容、页面、导出和目录结构中移除。
+- 已整理全部 287 个当前收藏：284 篇用途、使用或资料导航解读，3 篇资料受限的现状说明；所有运行示例均注明未执行。
 
-1. **GitHub 事实层**：定时读取公开 Stars，保存仓库元数据与 `starred_at`。
-2. **个人策展层**：手工维护主分类、资源类型、学习阶段、一句话价值与学习结论；自动同步不能覆盖这些内容。
-3. **展示层**：README 提供可读目录，网站提供搜索、筛选、详情和学习入口。
+## 数据职责
 
-“实时更新”在 MVP 中定义为：**每 6 小时自动同步一次，并支持手动立即触发**。GitHub 没有适合监听“某用户给其他仓库加 Star”的个人 webhook，因此秒级更新需要浏览器扩展或额外服务，当前没有足够收益。
+- `data/repositories.json`：GitHub 事实，仅同步脚本写入。
+- `content/repos/<repo_id>.md`：人工维护分类、摘要、仓库解读及来源；不包含用户学习阶段。
+- `app/public/data/*.json`：构建产物，不手改、不提交。当前 catalog 使用 schemaVersion 2。
 
-## 为什么值得单独做
+网站不新增账号、数据库、在线编辑或后台自动分类服务。资料维护表单只生成文件，导出成功不代表已提交或发布。
 
-2026-09-04 21:00:30（Asia/Shanghai）的公开 API 快照显示：
+## 开发与校验
 
-- 公开 Stars：**283** 个。
-- 2026 年新增：**149** 个，占 52.7%。
-- 2021 年新增：**83** 个，占 29.3%。
-- 上游已归档仓库：**12** 个；fork：**2** 个。
-- 97 个没有 GitHub Topics，41 个没有主语言，8 个没有描述。
-- 主要语言为 JavaScript 76、TypeScript 53、Python 46；近期收藏明显集中在 Claude Code、Codex、Agent、Skills、MCP。
-
-这批数据既有较早的前端和工程学习资料，也有 2026 年快速增加的 AI 工程项目。只按语言或 GitHub Topics 分类会把“技术实现”与“学习目的”混在一起，也无法处理没有 Topics 的约三分之一仓库。
-
-## 文档导航
-
-- [v1.1 开发计划：整理与阅读闭环](DEVELOPMENT_PLAN_V1.1.md)：下一版的完整笔记阅读、队列分页、策展文件编辑与下载、首批分类草案及验收顺序。
-- [策展操作指南](docs/07-curation-guide.md)：新建与修改笔记、下载文件、校验和提交发布。
-- [剩余 248 个分类结果](docs/curation-batch-02.md)：全量补齐八个领域的分类、类型、标签和用途说明。
-- [首批 30 个分类结果](docs/curation-batch-01.md)：已归纳并正式导入的分类、标签、用途说明及上游依据。
-- [v1.1 验收记录](app/design-qa-v1.1.md)：新增功能的浏览器、数据保留与视觉验证证据。
-- [MVP 详细开发计划](DEVELOPMENT_PLAN.md)：已冻结的技术决策、目录职责、数据契约、同步失败语义、开发批次与逐阶段验收标准。
-- [需求与产品方案](docs/01-requirements-and-prd.md)：目标用户、使用流程、分类、学习状态、页面和范围。
-- [调研与方案比较](docs/02-research-and-options.md)：GitHub 原生能力、现有产品、技术方案对比与判断。
-- [技术架构与数据模型](docs/03-architecture-and-data-model.md)：目录、同步、合并规则、Schema、工作流与安全边界。
-- [路线图与验收标准](docs/04-roadmap-and-acceptance.md)：MVP 顺序、完成标准、验证方式和风险分级。
-- [待确认决策](docs/05-open-questions-and-decisions.md)：需要一起确定的产品偏好及建议默认值。
-- [当前 Stars 实证快照](evidence/2026-09-04-stars-profile.md)：采样方法、数据分布与限制。
-- [横纵分析研究报告](reports/GitHub-Star-Vault-横纵分析报告.md)：完整研究叙事、竞品比较和未来推演。
-- [方案 E 可交互原型](app/README.md)：以“开发者杂志”为长期视觉方向，覆盖首页、项目库、新收藏收件箱、学习工作台、仓库详情、关于页和完整检索交互。
-- [视觉验收记录](app/design-qa.md)：方案 E 参考稿与当前实现的同尺寸对照和验收结论。
-- [上线运行与两周观察](docs/06-operations-and-observation.md)：线上入口、运行方式、指标口径和 2026-09-19 复盘计划。
-- [五个视觉方向](design-directions/README.md)：工业索引台、开源年鉴、瑞士技术目录、开源实验手册和开发者杂志，共十张 GPT 生成的首页与项目库概念图。
-- `output/pdf/GitHub-Star-Vault-横纵分析报告.pdf`：研究报告的 PDF 版。
-
-## 当前推荐设计
-
-正式网站位于 `app/`。它以方案 E“开发者杂志”为视觉基线，读取同步脚本生成的完整公开 Stars 目录，并将 GitHub 事实、人工策展与派生状态分开展示。
-
-线上地址：<https://jiapeiyang.github.io/github-star-vault/>
-
-```bash
+```shell
 python3 scripts/verify_data.py
-cd app
-npm ci
-npm run dev
+npm --prefix app run dev
 ```
 
-当前事实快照包含 284 条公开 Stars，其中 284 条均已建立正式策展文件。首次导入的未整理项目进入 `imported`；自动建议在 MVP 中关闭。
+```shell
+python3 -m unittest discover -s tests
+npm --prefix app test
+npm --prefix app run test:sites
+GITHUB_PAGES=true npm --prefix app run build
+```
 
-## 一句话产品定义
+## 文档
 
-**GitHub Star Vault 是一个以 GitHub Stars 为入口、以个人判断为核心、以学习行动为结果的版本化开源项目知识库。**
+- [v1.2 计划与阶段状态](DEVELOPMENT_PLAN_V1.2.md)
+- [仓库资料维护指南](docs/07-curation-guide.md)
+- [v1.2 交付与验证](docs/09-v1.2-delivery.md)
+- [冻结内容范围](docs/content-batches/v1.2-scope.json)
+- [全量内容验收与受限条目](docs/content-batches/v1.2-acceptance.md)
+- [项目评估与旧版验证证据](docs/08-project-review-and-iteration-plan.md)
+- [自动同步与运行观察](docs/06-operations-and-observation.md)
 
-## 第一版验证范围
-
-第一版已经完成下面五条主链路，接下来通过两周真实使用验证整理习惯：
-
-1. 一次性导入全部公开 Stars，历史库存进入 `imported`。
-2. 后续新增 Star 进入 `inbox`，取消 Star 退出默认视图。
-3. 手工内容与 GitHub 元数据分文件保存，同步后不丢失。
-4. 网站能搜索个人备注，并按分类、类型、语言、学习阶段筛选。
-5. 新收藏 7 天内整理率能够从数据中算出来。
-
-两周观察结束后，再根据真实使用决定是否加入 AI 分类、语义搜索、浏览器扩展或后台管理。
-
-## 当前实施状态
-
-- v1.1 已增加完整 Markdown 笔记、收件箱分页与搜索、策展文件编辑下载，以及未导出修改的离开提醒。
-- 已完成公开 Stars 动态分页、全量对账、原子写入和事实校验。
-- 已导入当前 284 条公开 Stars，并建立 284 条正式策展内容，当前待分类为 0。
-- 已完成 README 索引、前端目录生成和方案 E 真实数据接入。
-- 已完成 Python、前端领域函数、静态打包和 GitHub Pages 子路径验证。
-- GitHub Actions 已完成 push、手动新增 Star、取消 Star 三类远程运行验收，GitHub Pages 已公开发布。
-- 两周观察已启动，跟踪见 [Issue #1](https://github.com/jiapeiyang/github-star-vault/issues/1)。
-
-## 我们没有防什么
-
-- 不追求秒级 Star 同步；6 小时窗口内更新即可。
-- 不处理私有仓库的公开展示；MVP 只同步公开 Stars。
-- 不为偶发的两个同步任务同时运行增加锁或重试；一次同步失败不会损坏人工内容，下次或手动同步可以补齐。
-- 不让 AI 自动改写人工分类和笔记；第一版可以完全不依赖 AI。
-- 不做多用户、登录、评论、在线编辑后台、向量数据库和复杂复习算法。
+公开站点：[GitHub Pages](https://jiapeiyang.github.io/github-star-vault/)。具体发布版本以成功的 Actions 部署记录为准。
 
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-04T19:33:51Z` · 当前公开 Stars：**284** · 已人工整理：**284**
+> 最近成功检查：`2026-09-07T07:31:49Z` · 当前公开 Stars：**287** · 已分类：**287**
 
-### 学习阶段
-
-- 历史待整理：278
-- 新收藏：0
-- 待学习：1
-- 学习中：1
-- 已学习：1
-- 仅参考：3
-- 已归档：0
 
 ### AI 与 Agent（31）
 
@@ -122,71 +62,71 @@ npm run dev
 - [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) — 从零构建智能体的原理与实践教程。
 - [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) — 将图书、长视频和播客内容转为 Skills。
 - [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) — 围绕电脑操作和任务自动化构建智能体与技能树。
-- [OpenMOSS/MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) — 面向长视频与实时视频理解的开放权重模型及研究资源。
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — 检索多个社区和媒体平台的近期内容并汇总为调研材料。
-- [anthropics/skills](https://github.com/anthropics/skills) — 用于对照 Agent Skills 的目录结构、能力边界与写作规范。
-- [MDX-Tom/gpt-5.6-instruct](https://github.com/MDX-Tom/gpt-5.6-instruct) — 用于研究编码模型指令行为的提示词与测试材料。
-- [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — 讲解智能体设计原理、上下文管理与工程实践的书籍和代码。
-- [SMNETSTUDIO/WeChat-AI](https://github.com/SMNETSTUDIO/WeChat-AI) — 自托管的微信 AI 角色扮演与对话服务。
-- [james-6-23/codex2api](https://github.com/james-6-23/codex2api) — 将 Codex 接入统一 API 并提供管理后台的代理服务。
-- [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api) — 将多个 AI 服务统一接入的开源中转与管理平台。
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) — 收集 Model Context Protocol 的服务端实现与示例。
-- [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) — 采集和展示近期 AI 与技术新闻的雷达工具。
-- [earendil-works/pi](https://github.com/earendil-works/pi) — 提供统一模型接口、智能体循环和终端组件的工具包。
-- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — 收集按专业职责划分的智能体角色与工作流程定义。
-- [fawney19/Aether](https://github.com/fawney19/Aether) — 统一接入模型服务并提供租户、配额和监控管理的 AI 网关。
-- [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) — 从公开人物资料提炼思维模型与表达方式的智能体技能。
-- [router-for-me/Cli-Proxy-API-Management-Center](https://github.com/router-for-me/Cli-Proxy-API-Management-Center) — 为 CLIProxyAPI 提供配置编辑和运行状态管理界面。
-- [TokenRhythm/opensquilla](https://github.com/TokenRhythm/opensquilla) — 围绕智能体任务执行与上下文利用构建的开源助手。
-- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) — 统一聚合模型接口并转换常见 API 格式。
-- [zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders) — 汇总 AI 构建者的社交动态与播客内容。
-- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — 为智能体提供跨网站和社交平台的内容读取与搜索能力。
-- [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) — 收集中文专业角色、技能与多智能体编排定义。
-- [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) — 将多个模型命令行或客户端服务包装为兼容 API。
-- [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) — 汇集研究、整理与表达等任务的智能体技能。
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — 结合工具调用、记忆与技能积累的通用智能体。
-- [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — 通过逐步构建小型编码助手学习智能体运行机制。
+- [OpenMOSS/MOSS-VL](https://github.com/OpenMOSS/MOSS-VL) — 面向连续视频流和长视频理解的开放权重视觉语言模型系列，含实时、指令与基础版本。
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — 聚合近 30 天跨平台公开讨论、互动信号与链接，生成可追溯主题简报的技能。
+- [anthropics/skills](https://github.com/anthropics/skills) — Anthropic 的 Agent Skills 示例、模板和文档处理能力参考。
+- [MDX-Tom/gpt-instruct](https://github.com/MDX-Tom/gpt-instruct) — 围绕模型指令版本、隔离评测、工件证据和回滚组织的 Codex 提示词实验仓库。
+- [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — 围绕模型、上下文与工具讲解 Agent 原理，并提供分章节实验的开源书籍。
+- [SMNETSTUDIO/WeChat-AI](https://github.com/SMNETSTUDIO/WeChat-AI) — 通过腾讯 iLink 连接微信、用 Redis 保存会话与角色配置的自托管对话服务。
+- [james-6-23/codex2api](https://github.com/james-6-23/codex2api) — 提供兼容模型接口、账号状态调度和使用观测的 Codex 接入网关。
+- [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api) — 集中管理上游模型账号、API Key、用量与路由的 AI 网关平台。
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) — 用于展示 MCP SDK 与工具、资源和提示能力的参考服务器实现集合。
+- [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) — 聚合近 24 小时 AI 信源、合并事件并提供精选与多种点评风格的资讯雷达。
+- [earendil-works/pi](https://github.com/earendil-works/pi) — 由终端编码代理、工具调用运行时和多提供商模型 API 组成的可扩展 Agent 工程。
+- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — 按工程、设计、营销和产品等职责组织角色提示、流程与交付标准的代理定义集合。
+- [fawney19/Aether](https://github.com/fawney19/Aether) — 自托管 AI API 网关，统一接入模型服务并管理租户、配额、路由与运行情况。
+- [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) — 从公开资料提炼人物或主题的思维框架，生成可复用的视角技能。
+- [router-for-me/Cli-Proxy-API-Management-Center](https://github.com/router-for-me/Cli-Proxy-API-Management-Center) — 通过管理 API 操作 CLIProxyAPI 的配置、凭据、配额和日志的单文件 Web 界面。
+- [TokenRhythm/opensquilla](https://github.com/TokenRhythm/opensquilla) — 共享 CLI、Web 与聊天入口的代理运行时，并以本地路由器选择模型。
+- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) — 集中管理模型渠道、调用令牌、权限与费用统计的自托管 API 网关。
+- [zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders) — 从集中更新的公开资料源获取 AI 从业者动态，并按偏好整理摘要。
+- [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — 为代理选择、检查和配置网页、视频、代码及社区内容读取工具。
+- [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) — 按部门组织中文代理角色与工作流程，并补充中国市场的专项角色。
+- [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) — 将多个模型与 CLI 认证来源接到兼容 API 客户端的代理服务。
+- [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) — 集合目标定义、资讯查询、磁盘分析、研究与写作等日常代理技能。
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — 支持终端和消息渠道的代理运行时，包含工具、会话检索、技能与定时任务。
+- [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — 通过独立 Python 章节演示工具循环、权限、上下文和多任务代理运行机制。
 
 ### Web、前端与跨端（75）
 
-- [boyang-hu/website-rebuild-skill](https://github.com/boyang-hu/website-rebuild-skill) — 抓取网站只读镜像并辅助还原页面代码及比对结果。
-- [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) — 用声明式数据描述智能体生成的界面，并由客户端组件渲染。
-- [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) — 供编码智能体还原网站界面的项目模板。
-- [serafimcloud/21st](https://github.com/serafimcloud/21st) — 汇集基于 shadcn/ui 与 Tailwind 的界面组件、模块和 Hooks。
-- [nolly-studio/cult-ui](https://github.com/nolly-studio/cult-ui) — 提供可复制集成的 Tailwind 与 shadcn 兼容界面组件。
-- [sudhakar3697/awesome-electron-alternatives](https://github.com/sudhakar3697/awesome-electron-alternatives) — 收集 Electron 替代方案及跨平台桌面开发资源。
-- [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) — 将界面截图转换为 HTML 或前端框架代码。
+- [boyang-hu/website-rebuild-skill](https://github.com/boyang-hu/website-rebuild-skill) — 以源站快照、代码溯源和多层比对为依据，把网页重建成可运行工程的 Agent Skill。
+- [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) — 用声明式 JSON 描述可更新界面，再由客户端可信组件渲染的 Agent UI 标准与实现。
+- [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) — 以模板仓库和 clone-website 技能把参考网址重建为 Next.js 项目的起点。
+- [serafimcloud/21st](https://github.com/serafimcloud/21st) — 可浏览演示、发布与安装 React UI 源码组件的社区 registry 平台。
+- [nolly-studio/cult-ui](https://github.com/nolly-studio/cult-ui) — 提供可复制的 React 界面组件，并链接 AI 应用模式和模板的 UI 资源项目。
+- [sudhakar3697/awesome-electron-alternatives](https://github.com/sudhakar3697/awesome-electron-alternatives) — 按语言和技术路线收集 Electron 之外的桌面应用开发选项。
+- [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) — 用截图、设计稿或录屏生成前端代码，并在预览中继续迭代。
 - [ai/nanoid](https://github.com/ai/nanoid) — 生成紧凑的 URL 友好字符串 ID。
-- [swc-project/swc](https://github.com/swc-project/swc) — 面向 Web 工程的编译与解析工具链。
-- [BetaSu/fe-hunter](https://github.com/BetaSu/fe-hunter) — 通过每日问题学习与复习前端面试知识。
-- [qianguyihao/Web](https://github.com/qianguyihao/Web) — 前端入门到进阶的图文知识库。
-- [BetaSu/big-react](https://github.com/BetaSu/big-react) — 通过从零实现 React 学习框架机制。
-- [solidjs/solid](https://github.com/solidjs/solid) — 用于构建声明式用户界面的响应式库。
-- [sveltejs/svelte](https://github.com/sveltejs/svelte) — 把声明式组件编译为更新 DOM 的 JavaScript。
-- [pwstrick/daily](https://github.com/pwstrick/daily) — 以前端为主的面试题与学习资料集合。
+- [swc-project/swc](https://github.com/swc-project/swc) — 以 Rust 实现 JavaScript 与 TypeScript 解析和转换的编译工具链。
+- [BetaSu/fe-hunter](https://github.com/BetaSu/fe-hunter) — 以 GitHub Issues 组织前端问题、社区回答和已整理题目的资料库。
+- [qianguyihao/Web](https://github.com/qianguyihao/Web) — 按主题整理 HTML、CSS、JavaScript、框架与工程化的中文前端知识库。
+- [BetaSu/big-react](https://github.com/BetaSu/big-react) — 按 Git 标签逐步实现 React 18 核心机制的教学工程。
+- [solidjs/solid](https://github.com/solidjs/solid) — 使用细粒度响应式与编译模板直接更新 DOM 的声明式 UI 库。
+- [sveltejs/svelte](https://github.com/sveltejs/svelte) — 把声明式组件编译成针对 DOM 更新的 JavaScript 的前端框架。
+- [pwstrick/daily](https://github.com/pwstrick/daily) — 按技术领域整理面试问题，并链接到逐题讨论、文章与算法资料。
 - [electron-react-boilerplate/electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) — 基于 Electron 与 React 的跨平台应用脚手架。
-- [BetaSu/just-react](https://github.com/BetaSu/just-react) — 以自顶向下方式讲解 React 源码。
-- [a597873885/webfunny_monitor](https://github.com/a597873885/webfunny_monitor) — 提供前端异常、性能与业务埋点分析的监控系统。
-- [chinanf-boy/didact-explain](https://github.com/chinanf-boy/didact-explain) — 以中文解释 Didact 教学项目中的 React 实现机制。
-- [react-love/react-latest-framework](https://github.com/react-love/react-latest-framework) — 用于回看早期 React 客户端框架的组织方式，并验证上游归档项目仍能被检索。
-- [HerbertKarajan/Fe-Interview-questions](https://github.com/HerbertKarajan/Fe-Interview-questions) — 整理前端开发面试问题及答案。
-- [BingKui/javascript-zh](https://github.com/BingKui/javascript-zh) — Airbnb JavaScript 代码风格指南的中文说明。
-- [ljianshu/Blog](https://github.com/ljianshu/Blog) — 围绕前端基础知识和框架使用的技术博客。
-- [poetries/FE-Interview-Questions](https://github.com/poetries/FE-Interview-Questions) — 按模块整理前端面试常见问题与知识点。
-- [youngwind/blog](https://github.com/youngwind/blog) — 记录前端框架与工程实践的个人技术博客。
-- [fouber/blog](https://github.com/fouber/blog) — 围绕前端工程体系、模块化和部署实践的技术文章。
-- [ustbhuangyi/vue-analysis](https://github.com/ustbhuangyi/vue-analysis) — 分析 Vue 源码及其核心实现机制。
-- [jawil/blog](https://github.com/jawil/blog) — 整理前端语言、样式与 Node.js 等学习笔记。
-- [Advanced-Frontend/Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question) — 通过每日面试问题整理前端进阶知识。
-- [stephentian/33-js-concepts](https://github.com/stephentian/33-js-concepts) — 介绍 JavaScript 工程师应掌握的核心概念。
-- [lihongxun945/myblog](https://github.com/lihongxun945/myblog) — 记录前端框架、构建工具与工程实践的博客。
-- [lihongxun945/diving-into-webpack](https://github.com/lihongxun945/diving-into-webpack) — 按系列讲解 webpack 的源码与构建机制。
-- [fex-team/interview-questions](https://github.com/fex-team/interview-questions) — FEX 团队整理的开发面试问题。
+- [BetaSu/just-react](https://github.com/BetaSu/just-react) — 以理念、架构和源码分层解释 React 更新流程的中文教程。
+- [a597873885/webfunny_monitor](https://github.com/a597873885/webfunny_monitor) — 提供前端错误、性能、用户行为与后端链路分析的监控产品入口。
+- [chinanf-boy/didact-explain](https://github.com/chinanf-boy/didact-explain) — 以中文翻译和代码演进解释如何制作精简 React 式渲染器。
+- [react-love/react-latest-framework](https://github.com/react-love/react-latest-framework) — 基于 React 16.8.6 与 Webpack 4 的历史客户端应用脚手架。
+- [HerbertKarajan/Fe-Interview-questions](https://github.com/HerbertKarajan/Fe-Interview-questions) — 按小篇章和主题资源整理前端面试、框架与基础知识的历史资料库。
+- [BingKui/javascript-zh](https://github.com/BingKui/javascript-zh) — Airbnb JavaScript 风格指南的中文版本，按语法主题解释规则与取舍。
+- [ljianshu/Blog](https://github.com/ljianshu/Blog) — 按浏览器、JavaScript、框架和构建原理组织的中文技术博客索引。
+- [poetries/FE-Interview-Questions](https://github.com/poetries/FE-Interview-Questions) — 按前端基础、框架、网络和工程主题归档面试问答与手写题。
+- [youngwind/blog](https://github.com/youngwind/blog) — 以年度目录回顾 Vue、Webpack、浏览器和 Node 原理探索的个人博客。
+- [fouber/blog](https://github.com/fouber/blog) — 围绕静态资源、构建、部署和性能讨论前端工程化的文章集合。
+- [ustbhuangyi/vue-analysis](https://github.com/ustbhuangyi/vue-analysis) — 按数据驱动、组件、响应式、编译和生态解释 Vue 2 源码的电子书。
+- [jawil/blog](https://github.com/jawil/blog) — 按时间索引 JavaScript、Node、CSS 与浏览器问题探究的个人博客。
+- [Advanced-Frontend/Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question) — 用连续编号问题和讨论解析整理前端算法、异步、布局与语言机制。
+- [stephentian/33-js-concepts](https://github.com/stephentian/33-js-concepts) — 围绕 33 个 JavaScript 概念组织中文文章与视频的导航清单。
+- [lihongxun945/myblog](https://github.com/lihongxun945/myblog) — 以 Issues 记录 Vue、React、构建工具与 JavaScript 原理的技术博客。
+- [lihongxun945/diving-into-webpack](https://github.com/lihongxun945/diving-into-webpack) — 通过 Loader、产物与编译流程解释 Webpack 工作原理的 2018 年系列。
+- [fex-team/interview-questions](https://github.com/fex-team/interview-questions) — FEX 团队公开的面试方法、项目追问与前端能力讨论资料。
 - [xcatliu/typescript-tutorial](https://github.com/xcatliu/typescript-tutorial) — 面向初学者的 TypeScript 语言教程。
-- [ProtoTeam/blog](https://github.com/ProtoTeam/blog) — 团队前端、数据可视化与客户端工程实践文章。
-- [sudheerj/reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions) — 收集 React 面试问题、答案与相关练习。
-- [icepy/Front-End-Develop-Guide](https://github.com/icepy/Front-End-Develop-Guide) — 按开发者视角汇集前端语言与工具学习资源。
-- [webpack-china/awesome-webpack-cn](https://github.com/webpack-china/awesome-webpack-cn) — 收集 webpack 相关中文文章与学习资料。
+- [ProtoTeam/blog](https://github.com/ProtoTeam/blog) — 汇集前端工程、TypeScript、通信和数据可视化文章的团队博客。
+- [sudheerj/reactjs-interview-questions](https://github.com/sudheerj/reactjs-interview-questions) — 以英文问答整理 React 概念、组件、状态与相关生态的资料库。
+- [icepy/Front-End-Develop-Guide](https://github.com/icepy/Front-End-Develop-Guide) — 按语言基础和衍生方向收集前端开发文档、书籍与社区资源。
+- [webpack-china/awesome-webpack-cn](https://github.com/webpack-china/awesome-webpack-cn) — 按 Webpack 版本与主题整理中文文章、教程和相关工具。
 - [DMQ/mvvm](https://github.com/DMQ/mvvm) — 通过简化实现演示 Vue 风格的 MVVM 数据绑定机制。
 - [NervJS/taro](https://github.com/NervJS/taro) — 使用统一前端开发方式构建小程序和多端应用的框架。
 - [jaywcjlove/FED](https://github.com/jaywcjlove/FED) — 收集前端相关网站与学习入口。
@@ -203,7 +143,7 @@ npm run dev
 - [shfshanyue/Daily-Question](https://github.com/shfshanyue/Daily-Question) — 整理面试经验及前端、网络和工程相关问答。
 - [mechaniac/Map-of-Javascript](https://github.com/mechaniac/Map-of-Javascript) — 以单页地图形式呈现 JavaScript 与算法知识。
 - [h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) — 供面试与自测使用的前端开发问题清单。
-- [vueuse/vueuse](https://github.com/vueuse/vueuse) — 组合式 API 设计紧凑，适合观察可复用 Hook 的命名和边界。
+- [vueuse/vueuse](https://github.com/vueuse/vueuse) — 将浏览器能力与 Vue 响应式状态组合起来的 Composition API 工具库。
 - [evanw/esbuild](https://github.com/evanw/esbuild) — 用于 Web 项目的代码打包、转换与压缩工具。
 - [juicecube/mshared](https://github.com/juicecube/mshared) — 支持微前端间通信的前端状态管理方案。
 - [yygmind/blog](https://github.com/yygmind/blog) — 通过系列文章讲解前端进阶与面试重点。
@@ -227,14 +167,14 @@ npm run dev
 
 ### 后端与数据（20）
 
-- [opendatalab/MinerU](https://github.com/opendatalab/MinerU) — 把 PDF 与办公文档解析为 Markdown 或结构化 JSON。
-- [chenshenhai/koa2-note](https://github.com/chenshenhai/koa2-note) — 通过示例学习 Koa 2 后端开发。
+- [opendatalab/MinerU](https://github.com/opendatalab/MinerU) — 将 PDF、图片和 Office 文档解析为有阅读顺序的 Markdown 与 JSON。
+- [chenshenhai/koa2-note](https://github.com/chenshenhai/koa2-note) — 覆盖 Koa 2 中间件、路由、请求数据、会话与项目组织的中文电子书。
 - [yjhjstz/deep-into-node](https://github.com/yjhjstz/deep-into-node) — 深入分析 Node.js 的核心思想与源码实现。
 - [jimuyouyou/node-interview-questions](https://github.com/jimuyouyou/node-interview-questions) — 侧重后端应用与 Node.js 核心机制的面试题。
 - [chyingp/nodejs-learning-guide](https://github.com/chyingp/nodejs-learning-guide) — 记录 Node.js 使用经验与模块学习示例。
 - [public-apis/public-apis](https://github.com/public-apis/public-apis) — 汇集可供应用开发参考的公开 API 服务。
-- [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) — 原哔哩哔哩 API 文档收集项目，当前仓库已关停并删除相关文档与源码。
-- [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) — 为网易云音乐相关功能提供 Node.js API 服务的项目。
+- [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) — 历史上的哔哩哔哩接口资料库；当前上游已永久关停并移除文档与源码。
+- [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) — 历史网易云音乐 Node.js 接口项目；当前上游明确停止维护，使用文档已不可从 README 获取。
 - [sequelize/sequelize-typescript](https://github.com/sequelize/sequelize-typescript) — 为 Sequelize 增加 TypeScript 装饰器与类型化模型能力。
 - [eggjs/egg](https://github.com/eggjs/egg) — 用于构建企业级 Node.js 服务端应用的框架。
 - [koajs/jwt](https://github.com/koajs/jwt) — 在 Koa 请求处理中验证 JSON Web Token 的中间件。
@@ -250,92 +190,95 @@ npm run dev
 
 ### 基础设施、网络与安全（11）
 
-- [hwdsl2/wireguard-install](https://github.com/hwdsl2/wireguard-install) — 部署 WireGuard 服务并管理客户端的脚本。
-- [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) — 面向逆向分析和授权安全研究的智能体技能与工具路由集合。
-- [tailscale/tailscale](https://github.com/tailscale/tailscale) — 基于 WireGuard 的组网工具。
-- [yonggekkk/sing-box-yg](https://github.com/yonggekkk/sing-box-yg) — 用于部署和配置 sing-box 网络代理的 VPS 脚本集合。
-- [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) — 通过 Cloudflare Tunnel 连接本地服务与外部访问入口。
-- [qingchencloud/cftunnel](https://github.com/qingchencloud/cftunnel) — 结合 Cloudflare Tunnel 与 frp 提供内网穿透的命令行工具。
-- [DanOps-1/Gpt-Agreement-Payment](https://github.com/DanOps-1/Gpt-Agreement-Payment) — 围绕订阅协议、验证码与反欺诈机制的研究工具集。
-- [ineo6/hosts](https://github.com/ineo6/hosts) — 维护用于 GitHub 访问的 hosts 配置资料。
-- [awesome-vpn/awesome-vpn](https://github.com/awesome-vpn/awesome-vpn) — 汇集网络代理节点和订阅资源的目录。
+- [hwdsl2/wireguard-install](https://github.com/hwdsl2/wireguard-install) — 在 Linux 服务器自动部署 WireGuard 并生成客户端配置的安装与管理脚本。
+- [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) — 根据 APK、二进制、JavaScript 等对象选择分析方法与工具的安全研究技能路由包。
+- [tailscale/tailscale](https://github.com/tailscale/tailscale) — 以 WireGuard 连接设备并结合身份、DNS 与访问规则管理私有网络的软件。
+- [yonggekkk/sing-box-yg](https://github.com/yonggekkk/sing-box-yg) — 面向 VPS 与特定托管平台管理 sing-box 多协议配置及本地订阅的脚本合集。
+- [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) — 连接本地或私有源站与 Cloudflare 网络的 Tunnel 命令行客户端。
+- [qingchencloud/cftunnel](https://github.com/qingchencloud/cftunnel) — 统一管理 Cloudflare Web 隧道和基于 frp 的自建 TCP/UDP 中继。
+- [DanOps-1/Gpt-Agreement-Payment](https://github.com/DanOps-1/Gpt-Agreement-Payment) — 研究订阅支付、授权回调和认证状态衔接的协议重放项目。
+- [ineo6/hosts](https://github.com/ineo6/hosts) — 提供 GitHub 域名映射与本地探测服务，辅助排查特定网络下的访问问题。
+- [awesome-vpn/awesome-vpn](https://github.com/awesome-vpn/awesome-vpn) — 整理多种客户端格式的公开代理订阅与候选节点列表。
 - [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) — 基于 ServiceWorker 实现的浏览器在线代理。
 - [yeasy/docker_practice](https://github.com/yeasy/docker_practice) — Docker 与容器技术的实践学习资料。
 
-### 开发者工具与自动化（74）
+### 开发者工具与自动化（77）
 
+- [localsend/localsend](https://github.com/localsend/localsend) — 通过局域网在电脑与手机间传送文件和文字，无需聊天软件账号。
+- [humanlayer/skills](https://github.com/humanlayer/skills) — HumanLayer 提供的编码规则、React 类型与智能体工作流 Skills 集合。
+- [tiann/hapi](https://github.com/tiann/hapi) — 通过 Web、PWA 等入口远程查看与控制工作机上的编码智能体会话。
 - [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — 用 CLAUDE.md 提供编码智能体行为约定。
 - [kunchenguid/firstmate](https://github.com/kunchenguid/firstmate) — 以指令、Skills 和工具目录组织编码智能体团队；上游定义为 agent distro。
 - [tw93/Mole](https://github.com/tw93/Mole) — 用于 Mac 清理、卸载、分析和监控。
 - [miuuyy/codex-chatgpt-web](https://github.com/miuuyy/codex-chatgpt-web) — 将 ChatGPT Web 接入 Codex 的桥接工具。
 - [get-bb/bb](https://github.com/get-bb/bb) — 提供桌面、Web、CLI 和 HTTP API 入口的智能体 IDE。
-- [tmux/tmux](https://github.com/tmux/tmux) — 在终端中管理多个窗口、面板和可恢复会话。
-- [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — 通过工程约定引导编码智能体采用更克制的实现方式。
-- [tanweai/pua](https://github.com/tanweai/pua) — 通过行为提示和调试方法引导编码智能体持续处理任务。
-- [herdrdev/herdr](https://github.com/herdrdev/herdr) — 观察多 Agent 终端工作区如何组织上下文、任务和协作。
-- [stablyai/orca](https://github.com/stablyai/orca) — 管理多个并行编码智能体及其工作区的开发环境。
-- [Hmbown/Codewhale](https://github.com/Hmbown/Codewhale) — 在终端中运行支持多模型与工具调用的编码智能体。
-- [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — 收集用于定制 Cursor 编码行为的规则文件。
-- [leookun/cursor-byok](https://github.com/leookun/cursor-byok) — 提供 Cursor 后端的本地实现与模型接入能力。
-- [deepcoldy/botmux](https://github.com/deepcoldy/botmux) — 将飞书或 Lark 会话连接到编码助手的命令行会话。
-- [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) — 管理和切换 Antigravity 账号的桌面工具。
-- [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) — 让智能体通过浏览器执行操作并复用浏览会话。
-- [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) — 在 macOS 上提供灵动岛式状态与交互界面。
-- [thaw-app/Thaw](https://github.com/thaw-app/Thaw) — 管理和组织 macOS 菜单栏项目。
-- [DingTalk-Real-AI/dingtalk-workspace-cli](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli) — 通过统一命令行调用钉钉工作空间能力。
-- [block/buzz](https://github.com/block/buzz) — 让人和智能体共同处理消息、代码与工作流的自托管协作空间。
-- [binaricat/Netcatty](https://github.com/binaricat/Netcatty) — 整合 SSH 连接、SFTP 文件传输与终端的工作区。
-- [git-ai-project/git-ai](https://github.com/git-ai-project/git-ai) — 以 Git 扩展记录代码中的 AI 生成来源。
-- [steipete/CodexBar](https://github.com/steipete/CodexBar) — 在桌面菜单栏查看编码助手服务的用量信息。
-- [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) — 汇集 Telegram 群组、频道与机器人资源入口。
-- [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) — 为智能体选择技能并编排执行流程的工具集合。
-- [fengshao1227/ccg-workflow](https://github.com/fengshao1227/ccg-workflow) — 分析开发任务并编排多个编码模型协作执行。
-- [QLHazyCoder/FlowPilot](https://github.com/QLHazyCoder/FlowPilot) — 提供 AI 服务账号流程自动化及回调对接的浏览器扩展。
-- [FoundZiGu/GuJumpgate](https://github.com/FoundZiGu/GuJumpgate) — 曾用于账号及相关流程自动化的浏览器扩展，现已停止维护并作为历史代码保留。
-- [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) — 整理 Claude Code 从基础使用到工程化协作的实践方法。
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — Anthropic 维护的 Claude Code 官方插件目录。
-- [obra/superpowers](https://github.com/obra/superpowers) — 为智能体开发任务提供技能框架与软件工程流程。
-- [Waishnav/devspace](https://github.com/Waishnav/devspace) — 为多个编码助手提供基于 MCP 的轻量运行环境。
-- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — 面向编码智能体的工程技能与工作流集合。
-- [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) — Vercel 发布的智能体技能集合。
-- [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) — 面向 OpenCode 的精简多智能体配置与编排工具。
-- [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — 为 OpenCode 等编码环境提供智能体编排和开发工作流。
-- [nimbalyst/nimbalyst](https://github.com/nimbalyst/nimbalyst) — 结合智能体任务管理、Markdown、原型与图解编辑的桌面工作区。
-- [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) — 在 Claude Code 中显示上下文、工具与任务执行状态。
-- [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) — 将规格、任务和工作记录保存在仓库中的智能体工程框架。
-- [vercel-labs/skills](https://github.com/vercel-labs/skills) — 发现、安装和使用跨智能体平台技能的命令行工具。
-- [epiral/bb-browser](https://github.com/epiral/bb-browser) — 通过命令行和 MCP 让智能体控制已有登录状态的 Chrome。
-- [garrytan/gstack](https://github.com/garrytan/gstack) — 收集覆盖产品、设计、开发和验收角色的编码助手工具。
-- [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) — 组织智能体上下文和规格驱动开发任务的框架。
-- [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) — 作为 Claude Code 规格驱动流程的上游归档样例，仅在对比同类方案时查阅。
-- [multica-ai/multica](https://github.com/multica-ai/multica) — 通过统一工作区分配、跟踪和审阅编码智能体任务。
+- [tmux/tmux](https://github.com/tmux/tmux) — 在一个终端中管理多个持久会话、窗口与分屏，支持断开后重新连接。
+- [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — 通过需求、现有代码和平台能力的选择顺序，约束编码代理减少不必要实现。
+- [tanweai/pua](https://github.com/tanweai/pua) — 通过排障清单、主动调查和多种提示策略，约束编码代理遇错后继续寻找证据。
+- [herdrdev/herdr](https://github.com/herdrdev/herdr) — 在后台持有终端会话并显示编码代理状态的终端工作空间，支持分屏、CLI 与远程接入。
+- [stablyai/orca](https://github.com/stablyai/orca) — 把多种编码代理、隔离 worktree、终端和浏览器集中到同一桌面工作区。
+- [Hmbown/Codewhale](https://github.com/Hmbown/Codewhale) — 基于 Rust 的终端编码代理，可连接不同模型并执行读取、修改与验证任务。
+- [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — 按技术栈分类的 Cursor 项目规则合集，可选择并调整为仓库自己的编码约定。
+- [leookun/cursor-byok](https://github.com/leookun/cursor-byok) — 在本机连接 Cursor 与自有模型 API 的网关，提供模型配置、转发和连接测试。
+- [deepcoldy/botmux](https://github.com/deepcoldy/botmux) — 把飞书消息接到本机编码 CLI，并以流式卡片和 Web 终端回传会话的桥接工具。
+- [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) — 结合账号状态、模型映射和 OpenAI/Anthropic 协议转换的本地 AI 管理与中转应用。
+- [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) — 让用户与代理在独立 Spaces 中并行操作，并复用浏览器登录态的 macOS 浏览器。
+- [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) — 把 MacBook 刘海区域变成媒体、系统状态、计时器和快捷工具入口的应用。
+- [thaw-app/Thaw](https://github.com/thaw-app/Thaw) — 在 macOS 中隐藏、查找和按场景切换菜单栏项目的开源管理工具。
+- [DingTalk-Real-AI/dingtalk-workspace-cli](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli) — 用结构化 CLI 操作钉钉文档、日历、多维表和通讯录，并提供代理技能与请求预览。
+- [block/buzz](https://github.com/block/buzz) — 以自托管 Nostr relay 和签名事件组织人与代理共同协作的工作空间。
+- [binaricat/Netcatty](https://github.com/binaricat/Netcatty) — 整合 SSH 分屏、双栏 SFTP、主机管理和 AI 运维助手的跨平台桌面客户端。
+- [git-ai-project/git-ai](https://github.com/git-ai-project/git-ai) — 将代码行关联到生成它的代理、模型和提示上下文的 Git 归因扩展。
+- [steipete/CodexBar](https://github.com/steipete/CodexBar) — 在 macOS 菜单栏集中显示编码服务配额、重置时间、余额与状态的工具。
+- [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) — 按话题汇总 Telegram 频道、群组、机器人与外部导航入口的资源清单。
+- [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) — 先拆解任务与验收目标，再从本地技能库挑选相关方法并记录执行结果的编排方案。
+- [fengshao1227/ccg-workflow](https://github.com/fengshao1227/ccg-workflow) — 以 Claude Code 为主控，通过外部 CLI 桥接多模型分析、实现与审查的工作流引擎。
+- [QLHazyCoder/FlowPilot](https://github.com/QLHazyCoder/FlowPilot) — 将账号注册、验证、OAuth 和交付状态组织到 Chrome 侧边栏的流程自动化扩展。
+- [FoundZiGu/GuJumpgate](https://github.com/FoundZiGu/GuJumpgate) — 已经停止维护的账号与支付流程浏览器扩展，现仅保留历史实现和开发记录。
+- [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) — 按概念、实现和工作流整理 Claude Code agents、skills、hooks 与配置的参考资料库。
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — Claude Code 官方插件目录，包含 Anthropic 维护的插件和经收录的第三方插件。
+- [obra/superpowers](https://github.com/obra/superpowers) — 以可组合技能组织需求澄清、计划、实现、测试和审查的软件开发方法体系。
+- [Waishnav/devspace](https://github.com/Waishnav/devspace) — 通过自托管 MCP 与受控隧道，让聊天客户端访问选定本地项目文件和命令的工具。
+- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — 覆盖需求、计划、实现、验证、审查与性能的工程技能和参考清单合集。
+- [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) — 包含 React 性能、网页界面、文案和 Vercel 项目优化等专项规则的 Agent Skills 合集。
+- [alvinunreal/oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) — 在 OpenCode 中按职责调度多个模型代理，并统一后台任务与预设配置的插件。
+- [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — 提供多角色编排、任务持续推进和工具集成，并向多种代理宿主演进的插件体系。
+- [nimbalyst/nimbalyst](https://github.com/nimbalyst/nimbalyst) — 让用户与编码代理共同编辑文档、图表、原型和代码，并管理会话与 worktree 的桌面工作区。
+- [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) — 在 Claude Code 原生状态栏显示上下文、工具、代理与任务活动的插件。
+- [mindfold-ai/Trellis](https://github.com/mindfold-ai/Trellis) — 将工程规范、任务 PRD、执行上下文和会话记录保存在仓库中的多宿主开发框架。
+- [vercel-labs/skills](https://github.com/vercel-labs/skills) — 为多种编码代理发现、选择、安装与临时使用 Agent Skills 的命令行工具。
+- [epiral/bb-browser](https://github.com/epiral/bb-browser) — 通过真实浏览器登录会话，将网站操作与查询提供为 CLI 或 MCP 接口。
+- [garrytan/gstack](https://github.com/garrytan/gstack) — 以角色化技能串联产品讨论、方案评审、代码审查、浏览器验证与发布流程。
+- [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) — 以讨论、规划、执行、验证和交付阶段管理编码代理的上下文与实现工作。
+- [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) — GSD 的历史仓库入口，当前开发已迁至 open-gsd/gsd-core。
+- [multica-ai/multica](https://github.com/multica-ai/multica) — 把编码代理、问题单、运行日志和人工评审集中在同一工作空间。
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) — 在终端中浏览和管理文件的工具。
-- [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools) — 统一管理多个 AI 编码工具的账号、配额和实例。
-- [Regert888/gpt-auto-register](https://github.com/Regert888/gpt-auto-register) — 提供 AI 服务账号注册流程和结果管理的自动化工具。
-- [jlcodes99/vscode-antigravity-cockpit](https://github.com/jlcodes99/vscode-antigravity-cockpit) — 在 VS Code 中查看 Antigravity 配额与分组状态。
-- [mattpocock/skills](https://github.com/mattpocock/skills) — 按具体工程任务组织的可组合智能体技能集合。
-- [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) — 通过可视化说明和示例学习 Claude Code 的使用与扩展。
-- [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) — 为编码助手提供规划、执行与知识积累流程的插件。
-- [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) — 通过命令、角色和开发方法扩展 Claude Code 的配置框架。
-- [wshobson/agents](https://github.com/wshobson/agents) — 为多种编码环境提供智能体插件与技能资源。
-- [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) — 为 Codex 增加团队协作、状态显示与工作流能力。
-- [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) — 组织 AI 辅助软件开发中的需求、设计与交付流程。
-- [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync) — 同步 Codex 会话文件与本地状态中的模型提供方信息。
-- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — 通过简短表达约定控制编码助手的输出风格。
-- [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — 把代码仓库转换为可浏览和检索的交互知识图谱。
-- [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) — 把代码仓库转换为交互知识图谱并支持检索问答。
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) — 为多种编码工具组织技能、记忆与工程工作流。
-- [PlayCover/keymaps](https://github.com/PlayCover/keymaps) — 收集 PlayCover 社区提供的键位映射配置。
+- [jlcodes99/cockpit-tools](https://github.com/jlcodes99/cockpit-tools) — 跨平台管理多个 AI IDE 账号、配额和独立应用实例的桌面工具。
+- [Regert888/gpt-auto-register](https://github.com/Regert888/gpt-auto-register) — 研究账号注册协议状态机与邮箱验证码接入的 Python 项目，附本地管理界面。
+- [jlcodes99/vscode-antigravity-cockpit](https://github.com/jlcodes99/vscode-antigravity-cockpit) — 在 VS Code 风格编辑器内展示 Antigravity 配额、重置时间与阈值提醒。
+- [mattpocock/skills](https://github.com/mattpocock/skills) — 一组可组合的工程技能，覆盖需求追问、领域术语、任务规划与评审。
+- [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) — 按功能模块整理 Claude Code 的命令、技能、Hooks、MCP 与代理配置教程。
+- [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) — 围绕构思、计划、实现、审查和知识归纳组织工程工作的代理插件。
+- [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) — 为 Claude Code 安装结构化命令、角色模式与可选 MCP 集成的配置框架。
+- [wshobson/agents](https://github.com/wshobson/agents) — 按领域拆分插件、代理、技能和命令的可组合市场。
+- [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) — 为 Codex CLI 增加提示、规划、团队协作和验证工作流的运行层。
+- [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) — 用按任务规模调整的技能流程，连接需求澄清、方案设计与验证交付。
+- [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync) — 对齐 Codex 会话与 SQLite 的 Provider 元数据，恢复切换供应商后的历史可见性。
+- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — 用技能压缩代理说明文字，并可选以本地代理压缩发送给模型的输入。
+- [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — 结合语法解析与代理归纳，将代码结构和业务关系变成交互知识图。
+- [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) — 将代码索引为调用与依赖图，并通过 MCP 向代理提供结构化上下文。
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) — 为多种编码宿主提供规划、测试、审查、Hooks 与会话管理能力的工程工具集。
+- [PlayCover/keymaps](https://github.com/PlayCover/keymaps) — 按应用收集 PlayCover 的社区键鼠映射配置文件。
 - [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) — 按用途分类整理 macOS 软件和工具资源。
-- [LeetCode-OpenSource/vscode-leetcode](https://github.com/LeetCode-OpenSource/vscode-leetcode) — 在 VS Code 中浏览和练习 LeetCode 题目。
-- [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) — 整理 Git 常见操作和实用命令技巧。
+- [LeetCode-OpenSource/vscode-leetcode](https://github.com/LeetCode-OpenSource/vscode-leetcode) — 在 VS Code 中浏览、编辑、测试和提交 LeetCode 题目的扩展。
+- [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) — 以中文任务标题索引常用 Git 命令与历史管理技巧。
 - [Louiszhai/tool](https://github.com/Louiszhai/tool) — 整理用于提升开发效率的 Mac 工具链。
 - [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) — 为常用 Chrome 扩展整理中文说明与使用场景。
 - [jaywcjlove/github-rank](https://github.com/jaywcjlove/github-rank) — 通过 GitHub 数据生成用户和仓库排行。
 - [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) — 通过程序控制 Chrome 和 Firefox 执行浏览器任务。
 - [jorangreef/sudo-prompt](https://github.com/jorangreef/sudo-prompt) — 调用需要提升权限的命令，并在必要时显示系统授权对话框。
 - [decaffeinate/decaffeinate](https://github.com/decaffeinate/decaffeinate) — 将 CoffeeScript 源码转换为 JavaScript。
-- [oe/mac-env](https://github.com/oe/mac-env) — 通过脚本准备 Mac 开发环境。
+- [oe/mac-env](https://github.com/oe/mac-env) — 早期 Mac 开发环境脚本，当前安装入口与 README 不一致，保留为历史参考。
 - [wotermelon/toJump](https://github.com/wotermelon/toJump) — 用 Node.js 演示微信跳一跳小游戏的自动化操作。
 - [i5ting/vsc](https://github.com/i5ting/vsc) — 介绍 Visual Studio Code 的中文使用指南。
 
@@ -347,48 +290,48 @@ npm run dev
 - [threerocks/hand-drawn-styles](https://github.com/threerocks/hand-drawn-styles) — 将内容转为多种手绘风格的图像生成提示词。
 - [yanliudesign/mono-color-skill](https://github.com/yanliudesign/mono-color-skill) — 按单色印刷与半调风格生成编辑图像。
 - [emilkowalski/skills](https://github.com/emilkowalski/skills) — 为界面设计与动效实现提供智能体技能集合。
-- [MengTo/Skills](https://github.com/MengTo/Skills) — 面向设计师与开发者的界面、游戏和创作工作流技能合集。
-- [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut) — 结合对话操作、多轨时间线与智能体能力的视频编辑器。
-- [Sac-Y/MiniMax-H3-Cloud](https://github.com/Sac-Y/MiniMax-H3-Cloud) — 在 Codex 中编排云端 GPU 和 MiniMax H3 视频生成流程。
-- [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) — 将剧本、分镜与视频生成串联为短剧创作流程。
-- [ExplosiveCoderflome/AI-Novel-Writing-Assistant](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant) — 围绕世界观、章节规划和智能体流程辅助长篇小说创作。
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — 根据主题生成短视频的 AI 工作流工具。
-- [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) — 从网站提取配色、字体、标志与设计令牌。
-- [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) — 整理 GPT Image 的提示词案例、创作模板与相关技能。
-- [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) — 从自然语言生成架构、流程与 UML 技术图解。
-- [geeklee/srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) — 把 SRT 字幕转换为带手写效果的白板动画。
-- [YouMind-OpenLab/awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) — 收集带预览的 GPT Image 图像生成提示词案例。
-- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — 为编码智能体提供前端设计指导、检查与迭代命令。
-- [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — 汇集品牌设计系统分析和可供编码助手使用的 DESIGN.md。
-- [tt-a1i/archify](https://github.com/tt-a1i/archify) — 生成可交互、可导出的架构、流程与数据流图解。
-- [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) — 生成可在浏览器编辑并导出的多主题演示文稿。
-- [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) — 生成中文文章使用的手绘风格正文插画。
-- [dama-cyber/Casting-Workflow](https://github.com/dama-cyber/Casting-Workflow) — 将创意、人设、大纲、仿写与质量检查串联的小说写作流程。
-- [xiamuceer-j/MuMuAINovel](https://github.com/xiamuceer-j/MuMuAINovel) — 辅助小说规划与写作的 AI 创作工具。
-- [voocel/ainovel-cli](https://github.com/voocel/ainovel-cli) — 通过多个智能体协作完成小说生成的命令行工具。
-- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) — 将文档或主题转换为可编辑的 PowerPoint 演示文稿。
-- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — 为多平台界面设计提供设计规则和智能体技能。
-- [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) — 以智能体技能生成编辑风格的 HTML 幻灯片。
-- [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) — 面向中文文本的 AI 写作痕迹检查与润色技能。
-- [blader/humanizer](https://github.com/blader/humanizer) — 识别并改写文本中常见 AI 写作模式的技能。
-- [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) — 利用编码助手生成浏览器中展示的幻灯片。
-- [subframe7536/maple-font](https://github.com/subframe7536/maple-font) — 提供带连字、终端图标及定制选项的等宽字体资源。
-- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — 为编码助手提供前端设计、布局与视觉质量指导。
-- [nexu-io/open-design](https://github.com/nexu-io/open-design) — 在本地使用编码智能体生成原型、幻灯片和视觉内容的桌面工具。
-- [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) — 以 HTML 制作原型、演示、动画与可视化内容的设计技能。
-- [EvoLinkAI/awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) — 汇集 GPT Image 相关 API 资料和图像生成提示词。
-- [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) — 收集网页设计、图像创作和知识检索等技能。
-- [phobal/ivideo](https://github.com/phobal/ivideo) — 聚合视频平台观看入口的桌面客户端项目。
+- [MengTo/Skills](https://github.com/MengTo/Skills) — 面向网页、游戏和设计参考转化的 Agent Skills 合集，以流程文件复用创作方法。
+- [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut) — 把对话式代理、可编辑多轨时间线和 MCP 接在一起的本地视频编辑器。
+- [Sac-Y/MiniMax-H3-Cloud](https://github.com/Sac-Y/MiniMax-H3-Cloud) — 在 Codex 中编排云端 GPU、ComfyUI 和 MiniMax H3 工作流，生成并下载视频。
+- [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) — 以剧本、角色、场景和分镜为中心，组织 AI 短剧生成与整集导出的全栈应用。
+- [ExplosiveCoderflome/AI-Novel-Writing-Assistant](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant) — 围绕整本小说规划、章节生成、审核修复和状态回灌组织的可视化创作工作台。
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — 从主题或自定义脚本组织素材、配音、字幕与剪辑，批量生成短视频的工具。
+- [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) — 通过浏览器读取网页计算样式，提取设计 token、组件与设计漂移比较资料。
+- [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) — 将 GPT Image 2 案例整理成风格图库、结构化提示模板与可安装技能的资源库。
+- [yizhiyanhua-ai/fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) — 把系统描述整理成有几何校验的 SVG、PNG、离线交互图与语义动画的技能。
+- [geeklee/srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) — 按字幕叙事顺序组织分镜、区域标注和笔迹绘制，生成白板手绘视频的技能。
+- [YouMind-OpenLab/awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) — 按用途展示社区 GPT Image 2 提示词、结果图片与原始来源的多语言图库。
+- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — 提供设计初始化、评审、精修和浏览器迭代流程的前端设计技能与检测工具。
+- [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — 从公开网站整理设计模式、token 与规则的 DESIGN.md 参考文档合集。
+- [tt-a1i/archify](https://github.com/tt-a1i/archify) — 将代码或系统描述转成类型化图模型，再确定性渲染交互式 HTML/SVG 系统图。
+- [chuspeeism/dashi-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) — 从文档生成带页面控制台的 HTML 演示，并导出可编辑 PPTX、PDF 与离线包的技能。
+- [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) — 从中文文章提炼认知重点，以小黑人物和物理隐喻生成白底手绘正文配图的技能。
+- [dama-cyber/Casting-Workflow](https://github.com/dama-cyber/Casting-Workflow) — 通过分类语料、提示词与分阶段脚本组织小说构思和文本处理的创作流程。
+- [xiamuceer-j/MuMuAINovel](https://github.com/xiamuceer-j/MuMuAINovel) — 管理小说项目、大纲、角色、世界观与章节编辑的 AI 创作 Web 应用。
+- [voocel/ainovel-cli](https://github.com/voocel/ainovel-cli) — 用确定性引擎调度规划、写作和编辑代理，并以文件检查点推进长篇小说的 CLI。
+- [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) — 把文档与参考材料生成 PowerPoint 原生可编辑对象，并支持模板复用的演示文稿工作流。
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — 依据产品类型检索风格、配色、字体与交互规则，并组织 UI 实现的设计技能。
+- [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) — 以电子杂志或瑞士网格风格生成单文件 HTML 演示，并提供演讲者模式与配图流程的技能。
+- [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) — 把常见 AI 文风检查规则翻译并适配为中文写作润色技能。
+- [blader/humanizer](https://github.com/blader/humanizer) — 用可移植的 Markdown 规则改写机械文风，同时约束事实与作者语气保持一致。
+- [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) — 通过先选视觉方向的技能流程，创建单文件 HTML 演示或转换现有 PPT。
+- [subframe7536/maple-font](https://github.com/subframe7536/maple-font) — 面向代码编辑与终端的等宽字体，提供连字、Nerd Font 图标和中日韩字形版本。
+- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — 以排版、布局、动效和密度规则指导代理制作前端，并提供参考图与改版技能。
+- [nexu-io/open-design](https://github.com/nexu-io/open-design) — 将本地编码代理、设计系统、生成文件和实时预览整合为桌面设计工作台。
+- [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) — 以先选方向、再迭代的流程生成 HTML 原型、幻灯片、动画和可视化交付物。
+- [EvoLinkAI/awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) — 按电商、海报、人物和 UI 等用途整理带出处与示例图的生图提示词。
+- [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) — 将网页设计、可录制演示、生图、文章编排和资料检索拆成独立技能。
+- [phobal/ivideo](https://github.com/phobal/ivideo) — 基于 Electron、React 和 Redux 的历史多站点视频播放器原型。
 - [trazyn/ieaseMusic](https://github.com/trazyn/ieaseMusic) — 网易云音乐的第三方桌面客户端项目。
 - [mzlogin/chinese-copywriting-guidelines](https://github.com/mzlogin/chinese-copywriting-guidelines) — 整理中文文案中的标点、空格与排版规范。
 
 ### 计算机基础与工程实践（25）
 
-- [xxlllq/system_architect](https://github.com/xxlllq/system_architect) — 整理系统架构设计师考试的学习与备考资料。
-- [krahets/hello-algo](https://github.com/krahets/hello-algo) — 需要回顾算法概念时，从图解和可运行代码快速进入。
-- [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) — 汇集多种开发岗位的学习路线和技术知识地图。
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — 通过自行实现技术组件学习原理的教程索引。
-- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) — 通过 JavaScript 示例和解释学习算法与数据结构。
+- [xxlllq/system_architect](https://github.com/xxlllq/system_architect) — 按年份汇总系统架构设计师考试资料、真题解析、论文参考与报名入口的资源仓库。
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) — 结合动画图解与多语言源码解释数据结构和算法。
+- [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) — 提供 roadmap.sh 技术路线与主题资源入口的社区路线图仓库。
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — 按技术类型与语言收集从零实现软件系统的教程入口。
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) — 带独立说明与测试的 JavaScript 数据结构和算法示例集合。
 - [ruanyf/weekly](https://github.com/ruanyf/weekly) — 持续汇集科技文章、工具和观点的周刊。
 - [azl397985856/leetcode](https://github.com/azl397985856/leetcode) — 按题目记录算法思路和 LeetCode 解题过程。
 - [soulmachine/leetcode](https://github.com/soulmachine/leetcode) — 以文档形式整理 LeetCode 题目解答。
@@ -412,13 +355,13 @@ npm run dev
 
 ### 商业与行业应用（8）
 
-- [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) — 提供健身动作、器械与肌群信息的结构化数据集。
-- [rosemarycox5334-debug/PA_Agent](https://github.com/rosemarycox5334-debug/PA_Agent) — 读取结构化 K 线并用大模型辅助价格行为分析的桌面工具。
-- [wbh604/UZI-Skill](https://github.com/wbh604/UZI-Skill) — 以多维分析规则和投资研究方法组织股票研究的技能集合。
-- [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — 聚合全球新闻、地缘事件与基础设施信息的监测工作台。
-- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — 结合多市场行情、新闻和大模型生成股票分析看板。
-- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — 把价值投资方法整理为面向编码助手的研究工作流。
-- [nocobase/nocobase](https://github.com/nocobase/nocobase) — 通过无代码界面与插件能力构建业务系统的平台。
+- [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) — 包含动作分类、器械、目标肌群、多语言步骤及配套媒体的健身动作数据集。
+- [rosemarycox5334-debug/PA_Agent](https://github.com/rosemarycox5334-debug/PA_Agent) — 读取结构化 K 线并分阶段生成价格行为诊断与决策参考的桌面分析工具。
+- [wbh604/UZI-Skill](https://github.com/wbh604/UZI-Skill) — 把公开行情和财务资料组织成多维个股分析、估值及角色视角报告的技能。
+- [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — 将新闻、地图、基础设施与市场信号集中展示的全球态势仪表盘。
+- [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — 聚合自选股行情、新闻和模型分析，生成可回看报告并支持定时推送的应用。
+- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — 将价值投资的商业、财务、风险与长期判断组织成多种研究技能和公开报告的框架。
+- [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
 <!-- STAR_VAULT:CATALOG:END -->

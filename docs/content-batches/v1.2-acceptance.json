@@ -1,0 +1,3508 @@
+{
+  "date": "2026-09-07",
+  "scope_count": 287,
+  "complete": 284,
+  "limited": 3,
+  "pending": 0,
+  "readme_blobs_verified": 287,
+  "preserved_metadata_rows": 284,
+  "preservation_differences": 0,
+  "catalog_bytes": 1024044,
+  "catalog_gzip_bytes": 285753,
+  "catalog_stats": {
+    "active": 287,
+    "total": 288,
+    "curated": 287,
+    "guides": 287,
+    "new": 3,
+    "githubArchived": 12,
+    "missing": 1
+  },
+  "items": [
+    {
+      "repo_id": 578822531,
+      "name": "localsend/localsend",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "bc82d894900745268d5caece310393e000d65a91883522431c344f5c3688053e",
+      "sources": [
+        "https://github.com/localsend/localsend/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1184901356,
+      "name": "humanlayer/skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f66f5b0966ff40b97cb982ae4171399f69042e6b63d59a51e6f58a705278f653",
+      "sources": [
+        "https://github.com/humanlayer/skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1122242121,
+      "name": "tiann/hapi",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d3f4bbed4723247278994d4d1005af966bb603cd468c2afe968ab917bac7a06a",
+      "sources": [
+        "https://github.com/tiann/hapi/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1325096132,
+      "name": "eternityspring/shuohao-skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "8d60c8cf0bc78b680d70da2ce2283a2720428f93b604fcc1e9574bd3ea86a928",
+      "sources": [
+        "https://github.com/eternityspring/shuohao-skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1142983825,
+      "name": "multica-ai/andrej-karpathy-skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f4257d0c1f476b417bf94a1caef694a9cec06ef56aa47db25219d0a161fe687e",
+      "sources": [
+        "https://github.com/multica-ai/andrej-karpathy-skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1119232564,
+      "name": "yzfly/awesome-skills-zh",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "65cf7b6f30352afb34e886a963822b505472eb23cdeda395537412d95cc593e6",
+      "sources": [
+        "https://github.com/yzfly/awesome-skills-zh/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1120540348,
+      "name": "libukai/awesome-agent-skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "fe4cac9bda862f509c3802fc35d0163bf71e51a1afe0290247d1e7c5cab30a41",
+      "sources": [
+        "https://github.com/libukai/awesome-agent-skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1226123343,
+      "name": "virgiliojr94/book-to-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "1613b0993bd0e448f582986065c097cb582a3eee2e6594c02907366b518511cd",
+      "sources": [
+        "https://github.com/virgiliojr94/book-to-skill/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1182353280,
+      "name": "deusyu/translate-book",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6179c02e7999e31d6300a54b143292365f1b6cddd41611e0d66a50bdfd7300a4",
+      "sources": [
+        "https://github.com/deusyu/translate-book/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1241257629,
+      "name": "datawhalechina/Agent-Learning-Hub",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "31a25f1439ad0fa26cc27d8395cd45310823fd53dffe631260d9f287dec2fa23",
+      "sources": [
+        "https://github.com/datawhalechina/Agent-Learning-Hub/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1052050442,
+      "name": "datawhalechina/hello-agents",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "acf9739b53a89ce5163f650ec10d6917c58d6ec76271610c11db46c56d2ddfe3",
+      "sources": [
+        "https://github.com/datawhalechina/hello-agents/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1212163658,
+      "name": "kangarooking/cangjie-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6f0d9f8738fa542485f3acccca328d145a2b4256300d6e480b0d5e77223232c2",
+      "sources": [
+        "https://github.com/kangarooking/cangjie-skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1266884317,
+      "name": "kunchenguid/firstmate",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "7b88c9786379b7d1ff64a378f653a49681670b786814b1dd11e20258ab8dcc5d",
+      "sources": [
+        "https://github.com/kunchenguid/firstmate/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1135791677,
+      "name": "lsdefine/GenericAgent",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "1781ed44c603bb6c6bb887532f30332815d67eb649289b4eb8507a0c98975fe4",
+      "sources": [
+        "https://github.com/lsdefine/GenericAgent/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1062356571,
+      "name": "tw93/Mole",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "9995a98dd372a61b9cb25fdfaafcff3abf1b4a16ddcbbecee2f14aacc9e56489",
+      "sources": [
+        "https://github.com/tw93/Mole/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1305545535,
+      "name": "HalfAI1102/anthropic-art",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "74a6806c978720c27aa99b70728bfca1b955356d66bf7bde290d0f8421f81e16",
+      "sources": [
+        "https://github.com/HalfAI1102/anthropic-art/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1312807575,
+      "name": "miuuyy/codex-chatgpt-web",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ffab671ef5fb994d7539b2e819c3d8ac53d63308daa190a7bdb025608d4e9052",
+      "sources": [
+        "https://github.com/miuuyy/codex-chatgpt-web/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1166119443,
+      "name": "get-bb/bb",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "42b4e75072113996e0a0e0dd0818433e2223a0963daab5d05bcf37fbc3271864",
+      "sources": [
+        "https://github.com/get-bb/bb/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1283138527,
+      "name": "threerocks/hand-drawn-styles",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a471b01a786c80d048f4200c8b1838bae057856f424e57aa5a64aa2c822225a6",
+      "sources": [
+        "https://github.com/threerocks/hand-drawn-styles/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1339161831,
+      "name": "yanliudesign/mono-color-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "9fa71c970edd741b8981dbe42ef4ae459a63d9cdab14085f9fe99a84ae5e95d6",
+      "sources": [
+        "https://github.com/yanliudesign/mono-color-skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1183325896,
+      "name": "emilkowalski/skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "71f15042441246a56c9b6a15d2e016d25a5b3b04acdd0885a3be48c4a7440046",
+      "sources": [
+        "https://github.com/emilkowalski/skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1148744000,
+      "name": "MengTo/Skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f32f0b288d6580f0c67badecb42ff1113aacc0f94750074a24423777c7d75904",
+      "sources": [
+        "https://github.com/MengTo/Skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 36836475,
+      "name": "tmux/tmux",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "62ffca6e7cfeffbdf92e1563538b1eca6d040d91e9f369702649bc720f4f00ec",
+      "sources": [
+        "https://github.com/tmux/tmux/blob/master/.github/README.md",
+        "https://github.com/tmux/tmux/blob/master/tmux.1"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1301135370,
+      "name": "0xsline/OpenChatCut",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "4cdfb11b2a8861bd23e637bae4ac2b443ecd3692c1af690f95c6bc3de8060637",
+      "sources": [
+        "https://github.com/0xsline/OpenChatCut/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1330468709,
+      "name": "boyang-hu/website-rebuild-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "05e4d8cd66bc551505f71f95c64c2b5017259ed4cee6baa2cc4175d14d7d0f6c",
+      "sources": [
+        "https://github.com/boyang-hu/website-rebuild-skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1266797999,
+      "name": "DietrichGebert/ponytail",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "18ae54a26a94eb4478a93df34777a0f9e32bcdbf0f0e0be47d87da78585b521b",
+      "sources": [
+        "https://github.com/DietrichGebert/ponytail/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1350587124,
+      "name": "Sac-Y/MiniMax-H3-Cloud",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e58f0cb844559a2e7e75773e52d1a3ffe639331f9fc42dcd7cc51c0650febf63",
+      "sources": [
+        "https://github.com/Sac-Y/MiniMax-H3-Cloud/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 494305627,
+      "name": "hwdsl2/wireguard-install",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "faf0f091676ba1b560d3b7afa95c60c382b1d43fed591ee1295ad55172fada65",
+      "sources": [
+        "https://github.com/hwdsl2/wireguard-install/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1176129893,
+      "name": "tanweai/pua",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "fcda28a17beafb4ac073d114ab13dfb7ec5ddb52792b95a946af2e0df6008628",
+      "sources": [
+        "https://github.com/tanweai/pua/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1204804583,
+      "name": "OpenMOSS/MOSS-VL",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "4c121f57643a4dde3c1d803b1b5ab98355e90cbbdf914de59f2d3a67aec756b5",
+      "sources": [
+        "https://github.com/OpenMOSS/MOSS-VL/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1128267392,
+      "name": "chatfire-AI/huobao-drama",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d4f931625243e4e3ae5dd3dd64d6ee61a73f2e9f7c40a918a26b97e6c7945a5b",
+      "sources": [
+        "https://github.com/chatfire-AI/huobao-drama/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1193909050,
+      "name": "herdrdev/herdr",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ec3d67bfa6c313bec55558cf90360e47715c2c4f06420ff7b83805338814a1db",
+      "sources": [
+        "https://github.com/herdrdev/herdr/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1183888342,
+      "name": "stablyai/orca",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "b118921a96e7d74cc561d529a78717934293b0af1a0219895834a69056f7c1aa",
+      "sources": [
+        "https://github.com/stablyai/orca/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1137711311,
+      "name": "Hmbown/Codewhale",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "3f516bcec7f3040a965504f88997780b43bbdf5ae4c2e1ecefb94c2140261bc7",
+      "sources": [
+        "https://github.com/Hmbown/Codewhale/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 934527631,
+      "name": "ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "80dd517686ccaf0845e35480b8909508730f795adf8265adcf3bf044b719c8bf",
+      "sources": [
+        "https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1140843380,
+      "name": "mvanhorn/last30days-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "2504758801ef511aff79a22b00287cc23647763c2afdb1de9a2fa372bcad99f3",
+      "sources": [
+        "https://github.com/mvanhorn/last30days-skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 770153867,
+      "name": "harry0703/MoneyPrinterTurbo",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "82d47cf33d380f16c81f2e46e15e1e70b16d9b718c95b9114a38138c49838c7f",
+      "sources": [
+        "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1061953414,
+      "name": "anthropics/skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "cee11f7554409f4f5d1c5e1ae22de489aaab96beff6306270aafe24b0dce7097",
+      "sources": [
+        "https://github.com/anthropics/skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 858262444,
+      "name": "PatrickJS/awesome-cursorrules",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a9aee0303bd73f7031873b174728d9ca88ea360baa1d228cc84f10b1c26beea7",
+      "sources": [
+        "https://github.com/PatrickJS/awesome-cursorrules/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1208450620,
+      "name": "leookun/cursor-byok",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "00bb111c71d8e59ecd89240f6f7c293e8363529e72e2a47399846caa7c43c8b7",
+      "sources": [
+        "https://github.com/leookun/cursor-byok/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1237819660,
+      "name": "zhaoxuya520/reverse-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ad294ec9c874a5a027a3237fe34f500ab13642da7224911e12a351aba1df49ea",
+      "sources": [
+        "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1101924225,
+      "name": "dembrandt/dembrandt",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d2020b66c0e17f28f56860613e6df0e092a38a88fdad64bf8cb7a432cffb7553",
+      "sources": [
+        "https://github.com/dembrandt/dembrandt/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1220744720,
+      "name": "freestylefly/awesome-gpt-image-2",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "21dafec7aab49f1ada0aa25c4dd0111d2b8e2e20d6a1b0ca3c0f75d637bd66ac",
+      "sources": [
+        "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 237523442,
+      "name": "tailscale/tailscale",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "c74b4ea78a56375f84abd131a7378e0b7c1cfdb5e0b95919ec382f94bd38aab7",
+      "sources": [
+        "https://github.com/tailscale/tailscale/blob/main/README.md",
+        "https://tailscale.com/kb/1017/install"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1179074781,
+      "name": "deepcoldy/botmux",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "78ff35154739340ab5806f9f83cc7f5831677174811b4af2c5049c3c1bd226a0",
+      "sources": [
+        "https://github.com/deepcoldy/botmux/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1297316519,
+      "name": "MDX-Tom/gpt-instruct",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "34c5f6fa15809fece0dc070aef213cf1c3a4b8bc5446a74933f963c9eac52730",
+      "sources": [
+        "https://github.com/MDX-Tom/gpt-instruct/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1053118194,
+      "name": "bojieli/ai-agent-book",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f5a035e099b683b56c07426143f9af42c5c5db300c8ffdad26590cd65685f2e5",
+      "sources": [
+        "https://github.com/bojieli/ai-agent-book/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1207091162,
+      "name": "yizhiyanhua-ai/fireworks-tech-graph",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "0dfe8e4abbeb8430ee2c92ffa25292f772a851bcc935b42566b5c6308755d6db",
+      "sources": [
+        "https://github.com/yizhiyanhua-ai/fireworks-tech-graph/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1314048518,
+      "name": "geeklee/srt-whiteboard-animation",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "c73626c4c8fbaac128b9d63331daaa681e6cc80ef7fd7c0b167446d13d47f83c",
+      "sources": [
+        "https://github.com/geeklee/srt-whiteboard-animation/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1212562200,
+      "name": "YouMind-OpenLab/awesome-gpt-image-2",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "9b590ca65e6d212d73400e61cc7cb7211a2bb16c612f4c0e064ac04d5ef99137",
+      "sources": [
+        "https://github.com/YouMind-OpenLab/awesome-gpt-image-2/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1097346685,
+      "name": "pbakaus/impeccable",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f8d13872d6fa78da74e3fb13af4619a309ae5fe6b06ba46535c16f98b57fac87",
+      "sources": [
+        "https://github.com/pbakaus/impeccable/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1104535633,
+      "name": "lbjlaq/Antigravity-Manager",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "dd97f92d840614dc3b6815ec25784c4497e2a8b0136c8c5d7249faa426650ef9",
+      "sources": [
+        "https://github.com/lbjlaq/Antigravity-Manager/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1212503250,
+      "name": "citrolabs/ego-lite",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "fc3386c4c305eaaf42c9952700e3a50c73f1c81c1aa817ccdff27e3deef8ee10",
+      "sources": [
+        "https://github.com/citrolabs/ego-lite/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1329629252,
+      "name": "SMNETSTUDIO/WeChat-AI",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "2531efb0206af2e502ed248eb7f3e57972e27ad48aa7a3f21de7fc8badfdaa56",
+      "sources": [
+        "https://github.com/SMNETSTUDIO/WeChat-AI/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 161886347,
+      "name": "xxlllq/system_architect",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f4c4eaa0c1acb54d5904bdcf293fd0d4aa1fbdeffa1d637229b3c916c0e49855",
+      "sources": [
+        "https://github.com/xxlllq/system_architect/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1190072018,
+      "name": "james-6-23/codex2api",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "9576522c89ee25502f38e7b3c2c4a7c1ee414728719250e8a639d9b57fdcffd9",
+      "sources": [
+        "https://github.com/james-6-23/codex2api/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 881723326,
+      "name": "Ebullioscopic/Atoll",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "602e809ed1bc25bf6734703a72338e6e1eeeec4471233116bf7270d535fb5812",
+      "sources": [
+        "https://github.com/Ebullioscopic/Atoll/blob/dev/ReadMe.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1145374818,
+      "name": "thaw-app/Thaw",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e0bd767ecd4eba0613a1011ff36a263e579b55544f359ab492bc7f0db09ffe40",
+      "sources": [
+        "https://github.com/thaw-app/Thaw/blob/development/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1187709537,
+      "name": "DingTalk-Real-AI/dingtalk-workspace-cli",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d6ab9f82f5ddfd6e25f7b210b6cdce3b417f8f2c501928f60fdef624fa4161f8",
+      "sources": [
+        "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1174789082,
+      "name": "block/buzz",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "bf5a0bd8e4e542d66ef4012b218367439b181e97cc8afea120c424ceaec74799",
+      "sources": [
+        "https://github.com/block/buzz/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1111357457,
+      "name": "binaricat/Netcatty",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "1039cdd3e2bb9d09eda89e76c64326228d0c4a7ce4c31b2f4acbe71e9c483827",
+      "sources": [
+        "https://github.com/binaricat/Netcatty/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1184892122,
+      "name": "hasaneyldrm/exercises-dataset",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "38328fcbdef2b0f8c3d0b0a6458192f8c65182e8c93b6406519d3889dd9c1307",
+      "sources": [
+        "https://github.com/hasaneyldrm/exercises-dataset/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1197515131,
+      "name": "VoltAgent/awesome-design-md",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "dcb985eb6d85984b9183275c15d598c0814d41a23c507464fe4a0dc37b08c43c",
+      "sources": [
+        "https://github.com/VoltAgent/awesome-design-md/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1118601518,
+      "name": "Wei-Shaw/sub2api",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "60f24228bc31fde62243dc88e5b1f4633bfce7b8522ea20a4ec4eec33fe1266b",
+      "sources": [
+        "https://github.com/Wei-Shaw/sub2api/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1243011353,
+      "name": "rosemarycox5334-debug/PA_Agent",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "549c880ca66af8c87144650ebb354e8dee4fd9b88c3ba57b0f2e36719fbefc7f",
+      "sources": [
+        "https://github.com/rosemarycox5334-debug/PA_Agent/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1211139949,
+      "name": "tt-a1i/archify",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f48635d7cb1398e5ff4cb7a93acc2c2e7133f5d050116e811102e4f085dc956c",
+      "sources": [
+        "https://github.com/tt-a1i/archify/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1012625755,
+      "name": "git-ai-project/git-ai",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6b3810cb001aedf828849bb2377703c87259be13b934293f3d7603ef33821bd1",
+      "sources": [
+        "https://github.com/git-ai-project/git-ai/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1264811161,
+      "name": "chuspeeism/dashi-ppt-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "179b5c823aae2de3895bc9a645ea01701621ef058b138a8feb33b68d86c714a1",
+      "sources": [
+        "https://github.com/chuspeeism/dashi-ppt-skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 708312415,
+      "name": "yonggekkk/sing-box-yg",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d3a5262fd1f863f489122093e0bda0c87b1d211868bc273426f540f9ff632cda",
+      "sources": [
+        "https://github.com/yonggekkk/sing-box-yg/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1097695258,
+      "name": "steipete/CodexBar",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ffef4099be385b36c989e2724044b57b2f598913312ba276eb20b00f9da82687",
+      "sources": [
+        "https://github.com/steipete/CodexBar/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 890668799,
+      "name": "modelcontextprotocol/servers",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "5af4006a5adac29c1da94cb27dfa4acb546930b93870d03cb2d3127375c712ad",
+      "sources": [
+        "https://github.com/modelcontextprotocol/servers/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1251775733,
+      "name": "helloianneo/ian-xiaohei-illustrations",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6fe9c55acc5e8f4f512c12f07c0f4c402f1c40256ae6bd12e782bd25bd3ccfb1",
+      "sources": [
+        "https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 941043461,
+      "name": "itgoyo/TelegramGroup",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "60dca3dabd80bcb08b64cac30d8637612224665cad5eb4d2ac1b78c747c6fc86",
+      "sources": [
+        "https://github.com/itgoyo/TelegramGroup/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1063641074,
+      "name": "a2ui-project/a2ui",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e35e365307a0a69d986b77920d12b5b9c4ecded48cba4444e1a9b40df719570f",
+      "sources": [
+        "https://github.com/a2ui-project/a2ui/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1163112839,
+      "name": "LearnPrompt/ai-news-radar",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d2517964208399057c714dd2ed2eb30bc8d30c28f126d6c0ee2e376917f58b74",
+      "sources": [
+        "https://github.com/LearnPrompt/ai-news-radar/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1212241202,
+      "name": "wbh604/UZI-Skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ecba76ef34ec96b2c4fb7f4cb682a71d1abcd5920275c6b748c0f4e6f95d6d48",
+      "sources": [
+        "https://github.com/wbh604/UZI-Skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1035029907,
+      "name": "earendil-works/pi",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "460abe806eeb7dce716eb8beed8e5577cbbf63c01407c7f4e47c219585d9f867",
+      "sources": [
+        "https://github.com/earendil-works/pi/blob/main/README.md",
+        "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1180745961,
+      "name": "JCodesMore/ai-website-cloner-template",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ed4fe0f6bd7857c05d6308f4f83be6a58780adbe6533fcd07dbac1005d061795",
+      "sources": [
+        "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1164005541,
+      "name": "foryourhealth111-pixel/Vibe-Skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "9a735870db2f8b660bd9b61422de3c837583f34adbba5663d24a91cb31479be5",
+      "sources": [
+        "https://github.com/foryourhealth111-pixel/Vibe-Skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1277836173,
+      "name": "dama-cyber/Casting-Workflow",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "bdeb4e6f3878f90603dfaec4ae642d0ba1db26db6590db6b133935955ee93d46",
+      "sources": [
+        "https://github.com/dama-cyber/Casting-Workflow/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1086122599,
+      "name": "xiamuceer-j/MuMuAINovel",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "201390c2f7fe798e5f244a54cf207fab6f9e7baf5d734294a4db6b91b7ff94dd",
+      "sources": [
+        "https://github.com/xiamuceer-j/MuMuAINovel/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1127793756,
+      "name": "fengshao1227/ccg-workflow",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "fec522266a9a7e5b823c96a4ceb73ddfe82aefe93ee437d5d559eb5d20f7d17a",
+      "sources": [
+        "https://github.com/fengshao1227/ccg-workflow/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1205523418,
+      "name": "QLHazyCoder/FlowPilot",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "32c7f6549774cdc3638c6365002510336b504408153fd7f04402002be942c482",
+      "sources": [
+        "https://github.com/QLHazyCoder/FlowPilot/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1243496690,
+      "name": "FoundZiGu/GuJumpgate",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "94b2d79a74f48841789419216470669d2103c2503918fb45e9ac246667167a3b",
+      "sources": [
+        "https://github.com/FoundZiGu/GuJumpgate/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1087192965,
+      "name": "shanraisshan/claude-code-best-practice",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a6b589e9b4540afd65b579cee65a579ddaab1a39b5784241bf9253bd37087b71",
+      "sources": [
+        "https://github.com/shanraisshan/claude-code-best-practice/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1100776768,
+      "name": "anthropics/claude-plugins-official",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "aef00ab97741770b14881aea833b474d73f3cf6124a0b711ae7d42ec5275168e",
+      "sources": [
+        "https://github.com/anthropics/claude-plugins-official/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1130564872,
+      "name": "koala73/worldmonitor",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6e271a1b363e6322e16b9bffc86c762eb24c3ff7b61975aaeb1eb479688fcb03",
+      "sources": [
+        "https://github.com/koala73/worldmonitor/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1131513930,
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "076e6e7fbc3e61d5aba2206666c7b5e1c997c2a281e5178cff1b09f32f0eb9d5",
+      "sources": [
+        "https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1203777920,
+      "name": "xbtlin/ai-berkshire",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "20ba205aa0c5d4e536f8c5cfcbcb1f040bd0c8841884da9c7d02a7e5aab1023d",
+      "sources": [
+        "https://github.com/xbtlin/ai-berkshire/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1175231820,
+      "name": "voocel/ainovel-cli",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "dcee515769b6acc2e3125ee244a2bfe376191fbc68b7f15dce10b2519c5bdfa5",
+      "sources": [
+        "https://github.com/voocel/ainovel-cli/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1073224795,
+      "name": "obra/superpowers",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "b87389353baba6914c812a66593bddf68ca1984e48dc9eb7a8561d9f1561bb20",
+      "sources": [
+        "https://github.com/obra/superpowers/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1113573066,
+      "name": "hugohe3/ppt-master",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "136872cafe3bc9a94acdab1848acc158389ac501e0b3469ce1b5578658e06c6f",
+      "sources": [
+        "https://github.com/hugohe3/ppt-master/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1269395331,
+      "name": "Waishnav/devspace",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "8989b3ff958c9e6a87f6fef236bba4d0b90189c8e3649edc318a8be2fda054e6",
+      "sources": [
+        "https://github.com/Waishnav/devspace/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1158722119,
+      "name": "addyosmani/agent-skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "2fb7c7182cedfa5edfdbe850da6628be13224f676110f334318dbe6aa19948da",
+      "sources": [
+        "https://github.com/addyosmani/agent-skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 865326415,
+      "name": "serafimcloud/21st",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "943f1a0725e13065966631f4f10176ccdb78f14cc19605967d97818b9f6ab992",
+      "sources": [
+        "https://github.com/serafimcloud/21st/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1106996539,
+      "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "127e9195e7cc591009776e1fa14ee9a4537a6823782f49e8dc2b8d7bb9eb7bed",
+      "sources": [
+        "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1112540808,
+      "name": "vercel-labs/agent-skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "fba568876fc8b5ce85d12f7cc61e3ad304eb703c45c9b6af1b742ec871213333",
+      "sources": [
+        "https://github.com/vercel-labs/agent-skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1135179558,
+      "name": "alvinunreal/oh-my-opencode-slim",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "cfffea146f5d13107e4b1abf9ff02874bec529dccad6aab1489ff229c78b0bba",
+      "sources": [
+        "https://github.com/alvinunreal/oh-my-opencode-slim/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1108837393,
+      "name": "code-yeongyu/oh-my-openagent",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "9643de7ca1c4bbf24b3796c772dd937e93a3701fe5f074f1cb8b88c0cefdbab7",
+      "sources": [
+        "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1086756757,
+      "name": "nimbalyst/nimbalyst",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "7f6c8e7b1d69c72cc55d44d9e628812e3a8b55a9fb45fa34e364eb1b26e79370",
+      "sources": [
+        "https://github.com/nimbalyst/nimbalyst/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 306829688,
+      "name": "nocobase/nocobase",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "02312c6a903167fe5db159c9254cef7b4411f368769264c53f483bf85fd80fd3",
+      "sources": [
+        "https://github.com/nocobase/nocobase/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1075372545,
+      "name": "msitarzewski/agency-agents",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "7c463464a539a864c58ce17fbebbb75a194dbb0ca9508d4cc6c8e3e9606927ac",
+      "sources": [
+        "https://github.com/msitarzewski/agency-agents/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 806879762,
+      "name": "nolly-studio/cult-ui",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "04249439ead58ce92354d7aecc501407cd1cbb3133c769e7f396b42b203b7497",
+      "sources": [
+        "https://github.com/nolly-studio/cult-ui/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1126473386,
+      "name": "jarrodwatts/claude-hud",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "04f4f24f4361182056dfc49ae80157ccb855dbc854ef46b82698a77a9f271909",
+      "sources": [
+        "https://github.com/jarrodwatts/claude-hud/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1219042200,
+      "name": "op7418/guizang-ppt-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ba529c16e9f488c0630f437c5f11399420a00a488ccace00d3e3932473e03294",
+      "sources": [
+        "https://github.com/op7418/guizang-ppt-skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1142423471,
+      "name": "mindfold-ai/Trellis",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "558162cca837c852567d25ff2dc4383e6f3e92b6e165b4eb5f125f8228cf25fa",
+      "sources": [
+        "https://github.com/mindfold-ai/Trellis/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1134543109,
+      "name": "vercel-labs/skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "72b11413f414edeb796037f559ebaf7ab3924147286b076bb1345b72efd67218",
+      "sources": [
+        "https://github.com/vercel-labs/skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1146413571,
+      "name": "epiral/bb-browser",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "b99336670f4aa0e719947a7ab6fe20c6bf25239007c907d8b8c6433b173e87f9",
+      "sources": [
+        "https://github.com/epiral/bb-browser/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1137212306,
+      "name": "op7418/Humanizer-zh",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "342555a6a9dda2d2f2a7474f42bfa0f7d21d7160bfa14ca2139a203db4169386",
+      "sources": [
+        "https://github.com/op7418/Humanizer-zh/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1136666433,
+      "name": "blader/humanizer",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "5a0583cf8535c4b9bca7ce718b542c0a289178ac71f5417c78fa83822017d2d1",
+      "sources": [
+        "https://github.com/blader/humanizer/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1143767804,
+      "name": "zarazhangrui/frontend-slides",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d98a5cf6280a6a02207a5e6116c86c84f858d8461497481f0409fceb8189d7a1",
+      "sources": [
+        "https://github.com/zarazhangrui/frontend-slides/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 479451389,
+      "name": "subframe7536/maple-font",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "de9de02e0e7ef0de34a9b1dce4b82c09df6dbaa95728bcb725f65b525fb2634f",
+      "sources": [
+        "https://github.com/subframe7536/maple-font/blob/v7/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 106867604,
+      "name": "cloudflare/cloudflared",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "405f572ca3e2cbc6d7e7a297ae15b0c6b462eaf08fb6f48cf5523ed1972bb4bc",
+      "sources": [
+        "https://github.com/cloudflare/cloudflared/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1055481168,
+      "name": "fawney19/Aether",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "91a0d95f70f087db1786e36b4d15ad7bedfe2b4d178ca2486f82a6b8e3443943",
+      "sources": [
+        "https://github.com/fawney19/Aether/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1179264259,
+      "name": "garrytan/gstack",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "cbb26ed3f95165c708ebc9994a3f6644db90140671c1a14d5aa3b15b07f73164",
+      "sources": [
+        "https://github.com/garrytan/gstack/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1246625636,
+      "name": "open-gsd/gsd-core",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f0672fbf3b8290498f6ff355e677795e8821fa3ba33a5fa597fe1ea49099c9bb",
+      "sources": [
+        "https://github.com/open-gsd/gsd-core/blob/next/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1116260703,
+      "name": "gsd-build/get-shit-done",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f25b3635e6a9593e3894e082b2727bf7ccf7f0bdd1b4664d66ab913c0a629635",
+      "sources": [
+        "https://github.com/gsd-build/get-shit-done/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1162099055,
+      "name": "Leonxlnx/taste-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "53705901dd64936f311c68ff626e18c6ed1d859da01ed647c53a0c9ec7c3cb56",
+      "sources": [
+        "https://github.com/Leonxlnx/taste-skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1163979872,
+      "name": "qingchencloud/cftunnel",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6f8cb1275ca7644d85100a47b11d5efc3f1cf971ed070ca2b3502913c0fa83f5",
+      "sources": [
+        "https://github.com/qingchencloud/cftunnel/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1133707766,
+      "name": "multica-ai/multica",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "0bec322371aa888b5aa20d7912cf7d31e1e0837dbc8e8d1d18bd17e0b6763346",
+      "sources": [
+        "https://github.com/multica-ai/multica/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1223170290,
+      "name": "nexu-io/open-design",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "60e41719e0c807f2936a133ca6cfb1bc6ee5eee95b3fe87d36a90b307f4ee21e",
+      "sources": [
+        "https://github.com/nexu-io/open-design/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 663900193,
+      "name": "sxyazi/yazi",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "0e6b540d57214e28de0369ce3fd58e52d4b212c4e42e56927caa505754a0ca90",
+      "sources": [
+        "https://github.com/sxyazi/yazi/blob/main/README.md",
+        "https://yazi-rs.github.io/docs/installation",
+        "https://yazi-rs.github.io/docs/quick-start"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1201730379,
+      "name": "alchaincyf/nuwa-skill",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6d02eb38fc392d23fa47389697a44607d81e1d769c87bb25c09bb1bc3a78ef3f",
+      "sources": [
+        "https://github.com/alchaincyf/nuwa-skill/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1215145625,
+      "name": "alchaincyf/huashu-design",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "eb7ca827487428a55b90b045784388a9c2c4f78319cf0adef63d158de8d44bff",
+      "sources": [
+        "https://github.com/alchaincyf/huashu-design/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1051566067,
+      "name": "router-for-me/Cli-Proxy-API-Management-Center",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "aca2dac29235b3f4b4177210c27a5fcb215bed9c96ae33dfbabc62fdd5f96875",
+      "sources": [
+        "https://github.com/router-for-me/Cli-Proxy-API-Management-Center/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1135492298,
+      "name": "jlcodes99/cockpit-tools",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "784a8fa621a26657aae4e3b3f59ba02579558f78ef6e5c11acb7679ff0a219bc",
+      "sources": [
+        "https://github.com/jlcodes99/cockpit-tools/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1262434101,
+      "name": "Regert888/gpt-auto-register",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "5b71e568a2a7db09bb671a9597407c27c260c6696035083e9a9a0903e6235ec1",
+      "sources": [
+        "https://github.com/Regert888/gpt-auto-register/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1222110548,
+      "name": "DanOps-1/Gpt-Agreement-Payment",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "23afc817e610ec129c7cf3c8f535badc6873a96bbfac957934ad4fabb89bbc11",
+      "sources": [
+        "https://github.com/DanOps-1/Gpt-Agreement-Payment/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1112002090,
+      "name": "jlcodes99/vscode-antigravity-cockpit",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "9a90fa1507dfe2a60f1b4ce120fbf0b85ceacd762cd3be7e40c78e1896755847",
+      "sources": [
+        "https://github.com/jlcodes99/vscode-antigravity-cockpit/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1148788086,
+      "name": "mattpocock/skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "2b3fb55daeaa60903e754668b66fa67c86da6a88dfaef60d7726bbae06ee00c2",
+      "sources": [
+        "https://github.com/mattpocock/skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1092047360,
+      "name": "luongnv89/claude-howto",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "54aaace68379de3e508e5553c1d768321d7b453825e0fa8f7a186ce83456b0c0",
+      "sources": [
+        "https://github.com/luongnv89/claude-howto/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1214290850,
+      "name": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "39ff3d4756370374d6990df86fa4a3ad11028ec690dbe2839d5bed78afcfc04d",
+      "sources": [
+        "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1073224021,
+      "name": "EveryInc/compound-engineering-plugin",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ccd9fffb805dc661e6859ddf56fb261a7fcc73bb5b7db104a734a4cd40f2cc05",
+      "sources": [
+        "https://github.com/EveryInc/compound-engineering-plugin/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1231170332,
+      "name": "TokenRhythm/opensquilla",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "0ce03eaddc0a46299abb49fed33ff168dd4ca53cfcc889dfd3589475ff6a1858",
+      "sources": [
+        "https://github.com/TokenRhythm/opensquilla/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1006496207,
+      "name": "SuperClaude-Org/SuperClaude_Framework",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a9ae77346009567a6aa978df0c29804d5d46e80c7083b8ae0f692aad8707fc93",
+      "sources": [
+        "https://github.com/SuperClaude-Org/SuperClaude_Framework/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1025856648,
+      "name": "wshobson/agents",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "23d13051e06d2adee743bbb2c984b07c08076d6b7f9fa0e8708cb056fd669cc6",
+      "sources": [
+        "https://github.com/wshobson/agents/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1148052330,
+      "name": "Yeachan-Heo/oh-my-codex",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "022dbbecc06a7f8630f4429124fa44ddc336f1ad80bd1466effc75c156ba761e",
+      "sources": [
+        "https://github.com/Yeachan-Heo/oh-my-codex/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 965615190,
+      "name": "bmad-code-org/BMAD-METHOD",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "0fb2131a8319a7bf4d3fc8248400b67fcb3d1673b50b033c44638e95f3bf4b9c",
+      "sources": [
+        "https://github.com/bmad-code-org/BMAD-METHOD/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1185965712,
+      "name": "Dailin521/codex-provider-sync",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "b44c5be7cfe3c1e66eeb6c7201dd1d3b1fe5fb1fce25d7b2ed7797fd7e201dea",
+      "sources": [
+        "https://github.com/Dailin521/codex-provider-sync/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1201173969,
+      "name": "JuliusBrussee/caveman",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "79da81c31e0b832c3c16afd185614c8ac50249e7034edbec5b4bf01d3363fe31",
+      "sources": [
+        "https://github.com/JuliusBrussee/caveman/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 765083837,
+      "name": "opendatalab/MinerU",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "1d76b95018eea8c1a81094772bfd0c9f6f2c1d381112020e1b6d31d4276a1df4",
+      "sources": [
+        "https://github.com/opendatalab/MinerU/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1182081931,
+      "name": "Egonex-AI/Understand-Anything",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d6368e616e36e1325d5289906dd3266c2af5bad9a411ada77dcce45c1a8a0782",
+      "sources": [
+        "https://github.com/Egonex-AI/Understand-Anything/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 717197250,
+      "name": "QuantumNous/new-api",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "17720b633e9dcd1a852feb5d5a33a8fce8366fe52988b5930fa5423ff5a032ce",
+      "sources": [
+        "https://github.com/QuantumNous/new-api/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1181795380,
+      "name": "zarazhangrui/follow-builders",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "50a779df33f324547c81b5eb5e2566949a6799b9cf1ec7d53ab74452bd183146",
+      "sources": [
+        "https://github.com/zarazhangrui/follow-builders/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1165277268,
+      "name": "Panniantong/Agent-Reach",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "3d8d4c85899bcb172965af2670ba035d8db8fbbc507351f00331ece80f00e4db",
+      "sources": [
+        "https://github.com/Panniantong/Agent-Reach/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1174369519,
+      "name": "jnMetaCode/agency-agents-zh",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a3eb5072908510f03ff9557bc1dcfcfb523b90c173db83e96be725f26ac74129",
+      "sources": [
+        "https://github.com/jnMetaCode/agency-agents-zh/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1012087571,
+      "name": "router-for-me/CLIProxyAPI",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "5cf9e1e979da5b0049f64f14840deb666add9af142f9472527af84d7ddb35a0e",
+      "sources": [
+        "https://github.com/router-for-me/CLIProxyAPI/blob/main/README.md",
+        "https://github.com/router-for-me/Cli-Proxy-API-Management-Center/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1202599845,
+      "name": "KKKKhazix/khazix-skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "adec5b866fb210df3fc797d131a6f31ca86069ee6e5dbfd254148d4a6617415f",
+      "sources": [
+        "https://github.com/KKKKhazix/khazix-skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1031059905,
+      "name": "abhigyanpatwari/GitNexus",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "20b9a508388033f2042dbacfe98777f018ea2bf7834407490e252bcd289fe705",
+      "sources": [
+        "https://github.com/abhigyanpatwari/GitNexus/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1024554267,
+      "name": "NousResearch/hermes-agent",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "b6a55a8f42c86729f6af08e206bd1eb4c23ece0686c3f71e60a58ce2a9466096",
+      "sources": [
+        "https://github.com/NousResearch/hermes-agent/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1216954187,
+      "name": "ConardLi/garden-skills",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a2c4882e5a59461b59ed9bcf4fc185bcd7fe079953776c0f2ca908ce8112f58b",
+      "sources": [
+        "https://github.com/ConardLi/garden-skills/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1010681419,
+      "name": "shareAI-lab/learn-claude-code",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d7cdcb7ab3ca67a6e42107dd2742fb55422c6273d3513d5127b80241fa435660",
+      "sources": [
+        "https://github.com/shareAI-lab/learn-claude-code/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1136590548,
+      "name": "affaan-m/ECC",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "efe73eb071b2e50b1f4cf0ac33fb5d362bb0ebb49d97e335800bb59011bcf819",
+      "sources": [
+        "https://github.com/affaan-m/ECC/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 204777333,
+      "name": "sudhakar3697/awesome-electron-alternatives",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "71e44b4d227487fa526b6d4d5744160dc9a63788f2a10c956ef4244bfe47c9b7",
+      "sources": [
+        "https://github.com/sudhakar3697/awesome-electron-alternatives/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 718741813,
+      "name": "abi/screenshot-to-code",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "0e3254cbba7054a0e14fefa3de80c806da204d9a18dae93b2de5c1e5bb4b76e3",
+      "sources": [
+        "https://github.com/abi/screenshot-to-code/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 99401299,
+      "name": "ai/nanoid",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "89f8f46451ee37cf479ca83f6a4cdbdc80151598bc1bdf6557fd8a32f7eb4671",
+      "sources": [
+        "https://github.com/ai/nanoid/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 561730219,
+      "name": "krahets/hello-algo",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "dd6250ad2bef114369438cfc43af0db7d585d21112075a62e0e7269f53077957",
+      "sources": [
+        "https://github.com/krahets/hello-algo/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 541245403,
+      "name": "PlayCover/keymaps",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6bddfb3c8bf617a6e9d98730aad969b645240c1588bb1eee29c88c176da34db1",
+      "sources": [
+        "https://github.com/PlayCover/keymaps/blob/master/README.md",
+        "https://docs.playcover.io/keymapping/import_export_keymaps"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 115110181,
+      "name": "swc-project/swc",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "06ded428e720d263428af471f1b281095dc7fc3d007263b25f99067c527aa50f",
+      "sources": [
+        "https://github.com/swc-project/swc/blob/main/README.md",
+        "https://swc.rs/docs/usage/cli"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 472374655,
+      "name": "BetaSu/fe-hunter",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a05cf5181fe9e41c8943b902cba25a66502847e63fccab7cf8d18ce976ec9b13",
+      "sources": [
+        "https://github.com/BetaSu/fe-hunter/blob/master/README.md",
+        "https://github.com/BetaSu/fe-hunter/issues/68"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 352276219,
+      "name": "ineo6/hosts",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "84a0003673ceb96dac4e8f2e749595edc16860f708822ca3356be5539e432b11",
+      "sources": [
+        "https://github.com/ineo6/hosts/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 63539055,
+      "name": "jaywcjlove/awesome-mac",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "1e2f04614ec718b74729b1667ecafaf07022b0ec0945f61f22aa89df21b74826",
+      "sources": [
+        "https://github.com/jaywcjlove/awesome-mac/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 77912349,
+      "name": "qianguyihao/Web",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "fd45badfc4f2269112533e2959ddc7cb88d659ab71fbe356621d9a3605613bc1",
+      "sources": [
+        "https://github.com/qianguyihao/Web/blob/master/README.md",
+        "https://github.com/qianguyihao/Web/tree/master/06-JavaScript%E5%9F%BA%E7%A1%80%EF%BC%9A%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 232981344,
+      "name": "BetaSu/big-react",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "59fd276161f6e2af5815d8b62b5f39469f75856ed42c6a9867eb26c27b1e6e5c",
+      "sources": [
+        "https://github.com/BetaSu/big-react/blob/master/README.md",
+        "https://github.com/BetaSu/big-react/blob/master/package.json"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 130884470,
+      "name": "solidjs/solid",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "cb1aaaf1471958348dbd6f0bcc887d0e2edad3a5a4c6dcc74ef6f8d6fdc1373d",
+      "sources": [
+        "https://github.com/solidjs/solid/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 74293321,
+      "name": "sveltejs/svelte",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "98a363f7c45aecef7999357737996ece33bcf6345f792b6406d0f39c9793336b",
+      "sources": [
+        "https://github.com/sveltejs/svelte/blob/main/README.md",
+        "https://svelte.dev/docs/svelte/overview"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 196664765,
+      "name": "pwstrick/daily",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "bee2090ee41697943620924b8e1635a5c0d686bda128e506bf3e49d32abd0db9",
+      "sources": [
+        "https://github.com/pwstrick/daily/blob/master/README.md",
+        "https://github.com/pwstrick/daily/blob/master/interview/network.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 35810174,
+      "name": "electron-react-boilerplate/electron-react-boilerplate",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "fadf1694d353a05764a3242e279a4614fccc70d3a93ab183a07e2c8e04df7e3b",
+      "sources": [
+        "https://github.com/electron-react-boilerplate/electron-react-boilerplate/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 268195786,
+      "name": "BetaSu/just-react",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "2f1991887d49d66fffcedd256dd3f97cc1f3a3e5652c3977876dce2d9b09354e",
+      "sources": [
+        "https://github.com/BetaSu/just-react/blob/master/README.md",
+        "https://github.com/BetaSu/just-react/blob/master/docs/index.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 139662221,
+      "name": "a597873885/webfunny_monitor",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "940de17d16fd16edd6eab169c78c6d52a0316dcbba1d5d56fd7a060f601c4c51",
+      "sources": [
+        "https://github.com/a597873885/webfunny_monitor/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 123883497,
+      "name": "chinanf-boy/didact-explain",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e5aad214645c97233953672e9f9b7abc5d2e7584a3c461b1e2a0d94d0ba42323",
+      "sources": [
+        "https://github.com/chinanf-boy/didact-explain/blob/master/readme.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 85077558,
+      "name": "nilbuild/developer-roadmap",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6d977e22657491e5574b8750800841d1b32307f4688a40ab201e25626f0fec81",
+      "sources": [
+        "https://github.com/nilbuild/developer-roadmap/blob/master/readme.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 132750724,
+      "name": "codecrafters-io/build-your-own-x",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "8cd80af25128b86a7d0509af25c1cc86c5c27867e0ead4ad76601a1dd26f03b7",
+      "sources": [
+        "https://github.com/codecrafters-io/build-your-own-x/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 126577260,
+      "name": "trekhleb/javascript-algorithms",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d0b0fad44a2ffaa28968f1f723511413c18b70d09f207fb01bbab3b4c9ab74db",
+      "sources": [
+        "https://github.com/trekhleb/javascript-algorithms/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 146239863,
+      "name": "awesome-vpn/awesome-vpn",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "0b9bb05b4e8d2f5c7d41a2a61397a58bc0563314cd02957b4ebec7f5ed775578",
+      "sources": [
+        "https://github.com/awesome-vpn/awesome-vpn/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 62892221,
+      "name": "react-love/react-latest-framework",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "78f33919bd2a3d0f39355387d19b05dfb5e7f76d87a2ca5b9c57472df344cf23",
+      "sources": [
+        "https://github.com/react-love/react-latest-framework/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 73999402,
+      "name": "HerbertKarajan/Fe-Interview-questions",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "37e05f5f949a0c4ec22d02f439d7320229087100dcd9b9c29b88ad1d7209a993",
+      "sources": [
+        "https://github.com/HerbertKarajan/Fe-Interview-questions/blob/master/README.md",
+        "https://github.com/HerbertKarajan/Fe-Interview-questions/blob/master/readme/1.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 134211662,
+      "name": "BingKui/javascript-zh",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "697cf6bc1d33cb38f4af1be336b2ce532705bc441b85ede9998945b64ad74b0c",
+      "sources": [
+        "https://github.com/BingKui/javascript-zh/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 137582912,
+      "name": "ljianshu/Blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f61da91bd97a95b6cbf22e2cdf52de66cc41be3955d49277f614ce09856bbfe2",
+      "sources": [
+        "https://github.com/ljianshu/Blog/blob/master/README.md",
+        "https://github.com/ljianshu/Blog/issues/23"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 81963142,
+      "name": "poetries/FE-Interview-Questions",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "36be8d7afcf989c627433f8814d35544e512117dae78f8c1888527fc41b58ee0",
+      "sources": [
+        "https://github.com/poetries/FE-Interview-Questions/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 47445046,
+      "name": "youngwind/blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e3c33766618257dec9d360fae6eb14b45ed041385e8d43de7b413eac314785ec",
+      "sources": [
+        "https://github.com/youngwind/blog/blob/master/README.md",
+        "https://github.com/youngwind/blog/issues/113"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 19141383,
+      "name": "fouber/blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "1b3b85bb759f74418cf30e53499ac185f8379ab84711ed1d7f52ca0a4bbe864b",
+      "sources": [
+        "https://github.com/fouber/blog/blob/master/README.md",
+        "https://github.com/fouber/blog/issues/6"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 101625394,
+      "name": "ustbhuangyi/vue-analysis",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "2eed107557ea3404b61cb6d9c9889c9f9b5689e78fe6d03f990d43304ac9b098",
+      "sources": [
+        "https://github.com/ustbhuangyi/vue-analysis/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 82329147,
+      "name": "jawil/blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "8d35f80f1f9be5115bc8069abc25f052f36f7e80818f090fc2233926b5f92a12",
+      "sources": [
+        "https://github.com/jawil/blog/blob/master/README.md",
+        "https://github.com/jawil/blog/issues/18"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 166535974,
+      "name": "Advanced-Frontend/Daily-Interview-Question",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "3b70cde1ae6cf2e649a07aff9947de07c3df983e6f03fc9fea5641627f3d01ba",
+      "sources": [
+        "https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 153208883,
+      "name": "stephentian/33-js-concepts",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "fc97161847f3bfdd9d5b1af2454a1b09151f56f78ae15e4acaa3f395d08caddc",
+      "sources": [
+        "https://github.com/stephentian/33-js-concepts/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 139383414,
+      "name": "lihongxun945/myblog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "632bbe5ec03b555539f3ff186dad35f133b197d553ac1bd2d1677ee3dc5d12e2",
+      "sources": [
+        "https://github.com/lihongxun945/myblog/blob/master/README.md",
+        "https://github.com/lihongxun945/myblog/issues/52"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 128706827,
+      "name": "lihongxun945/diving-into-webpack",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "5fc5f06fd9ec9c327c73a5ed344addeaa6494f927092f75257ce02f0c4554672",
+      "sources": [
+        "https://github.com/lihongxun945/diving-into-webpack/blob/master/README.md",
+        "https://github.com/lihongxun945/diving-into-webpack/blob/master/3-style-loader-and-css-loader.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 17655907,
+      "name": "fex-team/interview-questions",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "bcb4c656e4d0a2f51b1ed5103d840235f01a344baf72f675114e9d1e9a34696d",
+      "sources": [
+        "https://github.com/fex-team/interview-questions/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 121125679,
+      "name": "LeetCode-OpenSource/vscode-leetcode",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "7e6a8c32aaa8b8e25f4848aa65e6f6b3484d40e46272573e5f2e061e63b00756",
+      "sources": [
+        "https://github.com/LeetCode-OpenSource/vscode-leetcode/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 58509963,
+      "name": "xcatliu/typescript-tutorial",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "8436090307ab915a91f2c0ef625e20a76789fc1c42fb71b9f76ee75fe80aa8f9",
+      "sources": [
+        "https://github.com/xcatliu/typescript-tutorial/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 129860458,
+      "name": "phobal/ivideo",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "5ddb74f1c5c24cf822d313d3703f4562d56b9e52c968236820eb723feb52dd9a",
+      "sources": [
+        "https://github.com/phobal/ivideo/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 82682940,
+      "name": "chenshenhai/koa2-note",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "5368d445f0967709e89e286c941502dafc2ffbb50e80d444ccdf0691f7f02488",
+      "sources": [
+        "https://github.com/chenshenhai/koa2-note/blob/master/README.md",
+        "https://github.com/chenshenhai/koa2-note/blob/master/note/start/quick.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 124361555,
+      "name": "ProtoTeam/blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "c1a09332d341245ef1eed1c6baec472631c7adeaa0915e1e90e4c83ba925d1f7",
+      "sources": [
+        "https://github.com/ProtoTeam/blog/blob/master/README.md",
+        "https://github.com/ProtoTeam/blog/blob/master/003.%E8%B7%A8%E9%A1%B5%E9%9D%A2%E9%80%9A%E4%BF%A1%E7%9A%84%E5%90%84%E7%A7%8D%E5%A7%BF%E5%8A%BF.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 135614069,
+      "name": "sudheerj/reactjs-interview-questions",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "19d34ef6bef5e5c318c9b36c679fea3f2370b5048c77b20493cde5836806c8b0",
+      "sources": [
+        "https://github.com/sudheerj/reactjs-interview-questions/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 41167393,
+      "name": "icepy/Front-End-Develop-Guide",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "125dfce1a7bd57da0a2c9a07676d98885b1e12b47c65b17bec315b6b060e18c2",
+      "sources": [
+        "https://github.com/icepy/Front-End-Develop-Guide/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 78076226,
+      "name": "webpack-china/awesome-webpack-cn",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "54a6ff12812935e63368f4cd704db4c46d579c0ab478d6b8299f1fa6e675b685",
+      "sources": [
+        "https://github.com/webpack-china/awesome-webpack-cn/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 63418718,
+      "name": "521xueweihan/git-tips",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "65922a7c6bdd488a52907fb6323a9a4e832acd77b362b9a79c47b04d3a23fda2",
+      "sources": [
+        "https://github.com/521xueweihan/git-tips/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 65395768,
+      "name": "DMQ/mvvm",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e0e660d569a5e93269141990f74ab6eb1c48a0decf7c75dd3ce4d4df6e29f637",
+      "sources": [
+        "https://github.com/DMQ/mvvm/blob/master/readme.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 62879525,
+      "name": "Louiszhai/tool",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "c8f190b7cbf1cc4df3f3e32e996986935c7a50278482014a07ac5252467687b6",
+      "sources": [
+        "https://github.com/Louiszhai/tool/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 58032138,
+      "name": "yjhjstz/deep-into-node",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "8e3a7191317be6174fcf3b23dd16ce2b4e0d7092a7d29ef86bfd68465fb089d5",
+      "sources": [
+        "https://github.com/yjhjstz/deep-into-node/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 173675448,
+      "name": "EtherDream/jsproxy",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "81b6283ae87a14a189d16fdcc00fb1730b8f9db876014e21e5fc3658e68f4e3d",
+      "sources": [
+        "https://github.com/EtherDream/jsproxy/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 152870372,
+      "name": "ruanyf/weekly",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "574ad73f56ca3afaa711e999a34cddc8fedd133ec011fbca7576b9052e09649e",
+      "sources": [
+        "https://github.com/ruanyf/weekly/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 169529567,
+      "name": "zhaoolee/ChromeAppHeroes",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "fa2cfa8fc7663b409a5ab3455b35a3718fd3c208afb141750c926e38a64051cc",
+      "sources": [
+        "https://github.com/zhaoolee/ChromeAppHeroes/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 127407957,
+      "name": "azl397985856/leetcode",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a11efbd9822472de2dc384fb9e10d8b10db6cdae86b6d564b6b7d199c84e77d0",
+      "sources": [
+        "https://github.com/azl397985856/leetcode/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 128624453,
+      "name": "NervJS/taro",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d64e6a820b2db0d255033c9cb956c416cc73879e615309901d2903bbb033a6c0",
+      "sources": [
+        "https://github.com/NervJS/taro/blob/main/README.md",
+        "https://docs.taro.zone/docs/guide"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 181200364,
+      "name": "jaywcjlove/github-rank",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "539dd89cd58776cef8de1ead68e5f7c845fc3c476bbfa7d5659c0abf142fa63b",
+      "sources": [
+        "https://github.com/jaywcjlove/github-rank/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 54978788,
+      "name": "jaywcjlove/FED",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "bbc6640d969b81969f9696483d322fcb52435eca49f97940b8e3d5e0360431cb",
+      "sources": [
+        "https://github.com/jaywcjlove/FED/blob/gh-pages/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 13431235,
+      "name": "soulmachine/leetcode",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "572cedb09c3aa66a3764b69302f2ee9df5ae9d50ee65b500951a7e1397eb3112",
+      "sources": [
+        "https://github.com/soulmachine/leetcode/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 150058902,
+      "name": "wangzheng0822/algo",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "c859a854bf668380742d7ac7a1dcf70041243444ebf802c0ced5816d83459f16",
+      "sources": [
+        "https://github.com/wangzheng0822/algo/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 56392153,
+      "name": "hk029/leetbook",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "303e0bff5d20f53e82d690baa31eeab368f195cfc87f0049608db7201d442925",
+      "sources": [
+        "https://github.com/hk029/leetbook/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 78425501,
+      "name": "javaswing/NeteaseCloudWebApp",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f01efc9cfaf045c8bd142a3efce531eb3897a55b90b6296525640b5fe8c59548",
+      "sources": [
+        "https://github.com/javaswing/NeteaseCloudWebApp/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 84811466,
+      "name": "mqyqingfeng/Blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ba42966d1262343fa4e33ce902a3b733789d7300f3568dfc3247884574dd4853",
+      "sources": [
+        "https://github.com/mqyqingfeng/Blog/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 104079562,
+      "name": "trazyn/ieaseMusic",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "384dc7804681a17a3a2f99bb9170e25c38744238aa5898845d0a27d0a296d114",
+      "sources": [
+        "https://github.com/trazyn/ieaseMusic/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 42352603,
+      "name": "jimuyouyou/node-interview-questions",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a57128cf3568c7c4fbb1e7df93131a14e60c81b1eeeaf319e1230d341f2f1160",
+      "sources": [
+        "https://github.com/jimuyouyou/node-interview-questions/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 58836534,
+      "name": "algorithm-visualizer/algorithm-visualizer",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "aeb8809e9798bc1c5c94c969bc899ea06bd6282db30d2614eb8a97904ae23392",
+      "sources": [
+        "https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 118610450,
+      "name": "stone0090/alibaba-interview",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "78d291cfa31c1b9a4734df23cdaa7e0948882af1bfd1a9e8f317df8f6fd9609f",
+      "sources": [
+        "https://github.com/stone0090/alibaba-interview/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 6256729,
+      "name": "JacksonTian/fks",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "af199bb9c57683070214ffd1fefbebb7c3aa64360e48541c6d9e51c5d49b0f44",
+      "sources": [
+        "https://github.com/JacksonTian/fks/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 63568049,
+      "name": "DDFE/DDFE-blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "c5bcb33d38755b228dbc26564e4b34b3f9f572396a10d1514334b4f5f4c45fc9",
+      "sources": [
+        "https://github.com/DDFE/DDFE-blog/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 89577951,
+      "name": "answershuto/learnVue",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "7905c19f545f0d46757b15d08bd43368a31316f28c124d93f41e239ee2f8671b",
+      "sources": [
+        "https://github.com/answershuto/learnVue/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 72754314,
+      "name": "chyingp/nodejs-learning-guide",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "18c3ec077ddf84c4795b4b9c9791dd21cac31d078963a0fc29ee46b4fe087813",
+      "sources": [
+        "https://github.com/chyingp/nodejs-learning-guide/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 178124673,
+      "name": "ygs-code/vue",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "38682ab6d52ed223f7cc1d72d976047fd2b928b91b90caf68efbca75ef4f4389",
+      "sources": [
+        "https://github.com/ygs-code/vue/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 181807583,
+      "name": "haizlin/fe-interview",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a91ef6bd923754e900a94912a80ba5a2ae1fc1d12e7530e283ed13138eb143e5",
+      "sources": [
+        "https://github.com/haizlin/fe-interview/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 19453715,
+      "name": "nonstriater/Learn-Algorithms",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "c3384157b11362c6a205cbce2adccd80e539cf19dae477d6307c273c1456dd91",
+      "sources": [
+        "https://github.com/nonstriater/Learn-Algorithms/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 196664359,
+      "name": "xiaolai/regular-investing-in-box",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "2f6ccc0bd6b274b03f544f825bf6d13bc4f7c936cc6983168430009c0caa3b7f",
+      "sources": [
+        "https://github.com/xiaolai/regular-investing-in-box/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 203130239,
+      "name": "ruanyf/free-books",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "3d51dc6fa8ad4208a409170b1e65209743b2f3e30737c821c5e532e31f442d8a",
+      "sources": [
+        "https://github.com/ruanyf/free-books/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 40422990,
+      "name": "lessfish/leetcode",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "be77422f48dab23fa59e10e9d9082ea8de60158950c93704e24a9353827252bb",
+      "sources": [
+        "https://github.com/lessfish/leetcode/blob/master/readme.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 177272363,
+      "name": "ConardLi/awesome-coding-js",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e51e210e885900f9fcb962fb99371f47708a2579d04b90c30a11a243aefcc6e2",
+      "sources": [
+        "https://github.com/ConardLi/awesome-coding-js/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 196552074,
+      "name": "azl397985856/fe-interview",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a20b6feb5a6f2bd725b0621c9b32028e71ec88275c8c630229a6c29c62b55736",
+      "sources": [
+        "https://github.com/azl397985856/fe-interview/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 207837082,
+      "name": "perkfly/reverse-interview-zh",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "addf02798422029aad33d39ca7e1460b1c175c64838e8b371c52570cd02ae45e",
+      "sources": [
+        "https://github.com/perkfly/reverse-interview-zh/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 237403566,
+      "name": "biaochenxuying/awesome-books",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "14389ae0638eaebb1f2a5cc3829a5abdcbeecf158aa71e580e7d241571cf14ff",
+      "sources": [
+        "https://github.com/biaochenxuying/awesome-books/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 90796663,
+      "name": "puppeteer/puppeteer",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "5f66b089e5af5f439036ce9119d3c6f10ce079cd5cef72db4bcfa035276279ed",
+      "sources": [
+        "https://github.com/puppeteer/puppeteer/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 54346799,
+      "name": "public-apis/public-apis",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "92b1b0fb410cb893d68fda5dc3b995e5b4f7d8c473821dd619c3e2cd3879209f",
+      "sources": [
+        "https://github.com/public-apis/public-apis/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 307106512,
+      "name": "FrontEndGitHub/FrontEndGitHub",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "697909391a68c7024ab84a4ae7c4dfe30ad2018ef02793164bb8bcfb0592f8d8",
+      "sources": [
+        "https://github.com/FrontEndGitHub/FrontEndGitHub/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 244779423,
+      "name": "SocialSisterYi/bilibili-API-collect",
+      "result": "limited",
+      "reason": "当前上游仅保留关停公告，原文档与源码已移除。",
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "08961531e6b5d8a102ad7c975cc42e48db314699011a5f0ef5e19f3a1e8bfc43",
+      "sources": [
+        "https://github.com/SocialSisterYi/bilibili-API-collect/blob/deprecated/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 354498261,
+      "name": "biaochenxuying/preferential-courses",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "42fa5533649db83265c7425327ef9d87e0e1fb422b870b227944718ade73aec0",
+      "sources": [
+        "https://github.com/biaochenxuying/preferential-courses/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 63938423,
+      "name": "shfshanyue/blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "746b7eb88c2e3163824257bae039bef8e49fd4f87d04da1083bf4fe1af13ffd6",
+      "sources": [
+        "https://github.com/shfshanyue/blog/blob/master/Readme.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 172234286,
+      "name": "ruochuan12/blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "8ffa8198060b3b4cdf41562a4766c12ba47f06a7fc5cd87eea5e4bdf5d15bd97",
+      "sources": [
+        "https://github.com/ruochuan12/blog/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 218952250,
+      "name": "shfshanyue/Daily-Question",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "04d9d0f06e4f61153d78420801611749f48d20f1707cabe62bdc104cfd47c061",
+      "sources": [
+        "https://github.com/shfshanyue/Daily-Question/blob/next/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 337237194,
+      "name": "mechaniac/Map-of-Javascript",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "c8afb3160ffb36806d8bf154016c5d13a712204d2f1e39a3a2d3307097a92e0b",
+      "sources": [
+        "https://github.com/mechaniac/Map-of-Javascript/blob/main/README.md",
+        "https://github.com/mechaniac/Map-of-Javascript/blob/main/Javascript_01.jpg"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 3402537,
+      "name": "h5bp/Front-end-Developer-Interview-Questions",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "be10fc340da71aa73ce0bed56420fad880f40253087dd0fff135a0561f1018d4",
+      "sources": [
+        "https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 61715431,
+      "name": "Binaryify/NeteaseCloudMusicApi",
+      "result": "limited",
+      "reason": "上游停止维护，当前 README 无安装和接口契约。",
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "051bd88cd42954330e6c482aef0575d31aae2140dad6870a33d2606ca729b728",
+      "sources": [
+        "https://github.com/Binaryify/NeteaseCloudMusicApi/blob/master/README.MD"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 227978903,
+      "name": "vueuse/vueuse",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6b92afcdb55d3c6e945f375fb0b26a78dd47e9d2cdec8b8cbc59adeb55cdae5c",
+      "sources": [
+        "https://github.com/vueuse/vueuse/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 61137153,
+      "name": "evanw/esbuild",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e15d80181330880bb2afa90aec2d2b44d1330d4aa6182d0f6748bb4a13493f7d",
+      "sources": [
+        "https://github.com/evanw/esbuild/blob/main/README.md",
+        "https://esbuild.github.io/getting-started/"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 358508682,
+      "name": "juicecube/mshared",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "fd8d904b694f9e30a97db88ea4dd905de61a42805fc7ad2240a828ccebab2a4a",
+      "sources": [
+        "https://github.com/juicecube/mshared/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 37066088,
+      "name": "jorangreef/sudo-prompt",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "57cea07b1b68075853aee417d4a771a0dfae5c2e3a66ce0395b6ddd4b38c5d0f",
+      "sources": [
+        "https://github.com/jorangreef/sudo-prompt/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 120278854,
+      "name": "yygmind/blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "38ebeddb31121bda9668077ec084f351fd6a5d89a929a9b8f645d3db8c0d1b36",
+      "sources": [
+        "https://github.com/yygmind/blog/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 85541218,
+      "name": "ascoders/weekly",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "c173af4f1d27e6bfc441a8b7d80e77b35cbf8cbe42949acde1d2d0be3d62f48b",
+      "sources": [
+        "https://github.com/ascoders/weekly/blob/master/readme.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 58520024,
+      "name": "FrankFang/best-chinese-front-end-blogs",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "22ed84d3c2cd09477a665807812816bbdd3e1271295f153c4b5785a8311d6bc3",
+      "sources": [
+        "https://github.com/FrankFang/best-chinese-front-end-blogs/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 72103891,
+      "name": "ruanyf/jstraining",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ee1e967e57d82c55c96b48657740ecf0492062093ffbda683b803450caaab21d",
+      "sources": [
+        "https://github.com/ruanyf/jstraining/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 140561004,
+      "name": "kawhiGuo/kawhiGuo.github.io",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6891fe08614e33df8e64b826b62741785b02bcbba0145dbd564dfad443978efd",
+      "sources": [
+        "https://github.com/kawhiGuo/kawhiGuo.github.io/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 45512989,
+      "name": "xitu/gold-miner",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "44bf18897e4fe89203994710f86a48d64ff326e6c30b0b6934a2e617f00e8826",
+      "sources": [
+        "https://github.com/xitu/gold-miner/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 72188885,
+      "name": "Brooooooklyn/learning-rxjs",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "f1cfc06b2610f1b2f21a83242adbfbd10c221e238ccbf2e092f8cdf65f74eca6",
+      "sources": [
+        "https://github.com/Brooooooklyn/learning-rxjs/blob/master/README.md",
+        "https://github.com/Brooooooklyn/learning-rxjs/blob/master/package.json"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 22046023,
+      "name": "facebookarchive/flux",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "ad8e5f3c47bcd184849fb4a19bf9261a51fc892979549a17bd4f93806eba57b8",
+      "sources": [
+        "https://github.com/facebookarchive/flux/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 29785166,
+      "name": "voronianski/flux-comparison",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "522d6c6fdf2e0d6526a70242fadb45035644bdcc8dcd0f73e2f24385c6e08257",
+      "sources": [
+        "https://github.com/voronianski/flux-comparison/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 41526025,
+      "name": "mzlogin/chinese-copywriting-guidelines",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6c90d0569338221fee2c7ac47ea184890122ad4437a5e83b7cad78d5a1b84def",
+      "sources": [
+        "https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 137583435,
+      "name": "adam-golab/react-developer-roadmap",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "1c849c568f86bc63a8c5f1d87e0670f4a0ff0cacdcd2fa1582f123b69124bddb",
+      "sources": [
+        "https://github.com/adam-golab/react-developer-roadmap/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 35998691,
+      "name": "electron-userland/electron-builder",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "9b565fdae671fbe21694115ab79070a36ff6acd27808d6f406e47801adb800ce",
+      "sources": [
+        "https://github.com/electron-userland/electron-builder/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 29375063,
+      "name": "decaffeinate/decaffeinate",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "909036bd62a9759f74120dd1655c9ae61d82d992a3e1dd920a0e27e8f27a8c2e",
+      "sources": [
+        "https://github.com/decaffeinate/decaffeinate/blob/main/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 74791366,
+      "name": "ryanmcdermott/clean-code-javascript",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "1162bbc17380d2d15dc935d4de73903852e4ebbe199d362d9b805f42929315e3",
+      "sources": [
+        "https://github.com/ryanmcdermott/clean-code-javascript/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 125791597,
+      "name": "InterviewMap/CS-Interview-Knowledge-Map",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "8e6d9cd35a7b5d911d468dff9ca670b8c9ea92cbf57aacc02bf4e25f1761aca8",
+      "sources": [
+        "https://github.com/InterviewMap/CS-Interview-Knowledge-Map/blob/master/README.md",
+        "https://github.com/InterviewMap/CS-Interview-Knowledge-Map"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 50502690,
+      "name": "sequelize/sequelize-typescript",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "0a982392d4374a6e854cbb7983c6ba649b1f8debd08077f5ad771f45e2330e05",
+      "sources": [
+        "https://github.com/sequelize/sequelize-typescript/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 90786593,
+      "name": "microsoft/TypeScript-Vue-Starter",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "34850e7bb1bea128a63e83e50e60ecb9f50e6228719a7c60ccc4816fbcb1a554",
+      "sources": [
+        "https://github.com/microsoft/TypeScript-Vue-Starter/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 112285264,
+      "name": "oe/mac-env",
+      "result": "limited",
+      "reason": "README 安装入口缺失，源码执行链不足以支持一键配置说明。",
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "904c849236e622adc8be5477eaa4e02d7b36c778471dd4f6ec67764fea692a05",
+      "sources": [
+        "https://github.com/oe/mac-env/blob/master/readme.md",
+        "https://github.com/oe/mac-env/blob/master/src/index.sh",
+        "https://github.com/oe/mac-env/tree/master/src/deps"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 16229580,
+      "name": "livoras/blog",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "6b2d9b49232a077f07daa1ae51dc91cfe7e9d9f7875dd9b14fe8571a0b4aec27",
+      "sources": [
+        "https://github.com/livoras/blog/blob/home/README.md",
+        "https://github.com/livoras/blog/issues/13",
+        "https://github.com/livoras/blog/issues/25"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 112507086,
+      "name": "Chalarangelo/30-seconds-of-code",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "13e2c68dd8b59b147e86255ce8e62886a76056acf1e3da31f9d9d9c422d545ea",
+      "sources": [
+        "https://github.com/Chalarangelo/30-seconds-of-code/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 115748714,
+      "name": "wotermelon/toJump",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "420bb58c3168201cf5099190828a504e78d8fd07d632d5840338155d50da0299",
+      "sources": [
+        "https://github.com/wotermelon/toJump/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 15308499,
+      "name": "SortableJS/Sortable",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "93cd2ee5fb969c3b5b46738a1733e3193681c494cb2a8a0bb43468c92246ddf2",
+      "sources": [
+        "https://github.com/SortableJS/Sortable/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 62104779,
+      "name": "SortableJS/Vue.Draggable",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e846442c11debe53ae494ed686194f2fc459b93071c4da731e4abc599c120508",
+      "sources": [
+        "https://github.com/SortableJS/Vue.Draggable/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 55619351,
+      "name": "sagalbot/vue-sortable",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "8e202b1a23a230e29bdd899023ac3f7683daf14ac934e5c39cbeb272721e2f9f",
+      "sources": [
+        "https://github.com/sagalbot/vue-sortable/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 23689830,
+      "name": "yeasy/docker_practice",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "7a9d1e225fd957a037ddbd97a66a5c13394dee86c730e6e5225d34d725c740f7",
+      "sources": [
+        "https://github.com/yeasy/docker_practice/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 50559652,
+      "name": "hilongjw/vue-progressbar",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "338b1223002af8bae9e893ee59d88762228e68f126fd9f2b70e589f34355d441",
+      "sources": [
+        "https://github.com/hilongjw/vue-progressbar/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 61421257,
+      "name": "eggjs/egg",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "38df334ed2f5ea1e05d0d1a7c2a3f813a10d14d0bfffa8f7ea50341e9980d486",
+      "sources": [
+        "https://github.com/eggjs/egg/blob/next/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 16346957,
+      "name": "koajs/jwt",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "beb4c1cf90d87f4416d564d02d21599b810dcdb0cae3f85d4d6dab921462ee91",
+      "sources": [
+        "https://github.com/koajs/jwt/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 4297695,
+      "name": "zemirco/json2csv",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "7dd574ffc5e89226e44e12de370493541826c901614cc97233572746665983c9",
+      "sources": [
+        "https://github.com/zemirco/json2csv/blob/master/README.md",
+        "https://github.com/juanjoDiaz/json2csv/blob/main/README.md",
+        "https://github.com/juanjoDiaz/json2csv/blob/main/packages/plainjs/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 56642714,
+      "name": "dominhhai/koa-log4js",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e0948dca160d5f01ccae8105020bf609ae74f2b14ec8318535644dbad166a0d4",
+      "sources": [
+        "https://github.com/dominhhai/koa-log4js/blob/v2.x/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 14741526,
+      "name": "STRML/node-xlsx-writestream",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "c84bea6df84944564cbb5d2105d263a6070e667fc1ebd7846d1732956c555b69",
+      "sources": [
+        "https://github.com/STRML/node-xlsx-writestream/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 9207396,
+      "name": "functionscope/Node-Excel-Export",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "e67beedf0a15cb293cc7b5d4764b50741dc078dcca978a5cfbf3109e30a8b7e9",
+      "sources": [
+        "https://github.com/functionscope/Node-Excel-Export/blob/master/Readme.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 8467117,
+      "name": "mgcrea/node-xlsx",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d029506b6af83822c1f291013fe6174b4c2247f51363685b30b42185d614dbd0",
+      "sources": [
+        "https://github.com/mgcrea/node-xlsx/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 48212104,
+      "name": "ustbhuangyi/better-scroll",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "d6a020bb553fff3f01508c420a7c6686ce5b5c8c98e5a72f885910bfdb0b202a",
+      "sources": [
+        "https://github.com/ustbhuangyi/better-scroll/blob/dev/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 790359,
+      "name": "sequelize/sequelize",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "06f392a08c9e137000d3fccf40ed84866450341e8943e1d6239bd718a6a32f18",
+      "sources": [
+        "https://github.com/sequelize/sequelize/blob/main/README.md",
+        "https://github.com/sequelize/website/blob/main/versioned_docs/version-6.x.x/getting-started.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 1283503,
+      "name": "request/request",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "7fbcc071ed77ced93ba63d660a0242bb726de41e58b612a0d39e8eb983fb0897",
+      "sources": [
+        "https://github.com/request/request/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 44008404,
+      "name": "i5ting/vsc",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "21e12315081937c0dd6ec938d0a7860f725c354e8a0ec073079e0d28aa70bb1b",
+      "sources": [
+        "https://github.com/i5ting/vsc/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 79780572,
+      "name": "ElemeFE/node-interview",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "3238fb6e7b25c4be4e3e6e3b7a9583521eb6c3ef1e277349d9fc1c08963880a5",
+      "sources": [
+        "https://github.com/ElemeFE/node-interview/blob/master/README.md",
+        "https://github.com/ElemeFE/node-interview/blob/master/sections/zh-cn/README.md",
+        "https://github.com/ElemeFE/node-interview/blob/master/sections/zh-cn/event-async.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 11551538,
+      "name": "koajs/koa",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "a931ac4a3fc2d91c811104cf0a758c884436c49ad649d78efba380b79c3c0bcc",
+      "sources": [
+        "https://github.com/koajs/koa/blob/master/Readme.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 68908781,
+      "name": "xwartz/wechat-app-demo",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "8b1d1d1a44e01cd82aea2268df86d802a5efee8c0b7bf9b007c9cdf5ae3f3636",
+      "sources": [
+        "https://github.com/xwartz/wechat-app-demo/blob/master/README.md",
+        "https://github.com/xwartz/wechat-app-demo/blob/master/app.json",
+        "https://github.com/xwartz/wechat-app-demo/blob/master/page/API/storage/storage.js",
+        "https://github.com/xwartz/wechat-app-demo/blob/master/fix.md"
+      ],
+      "example_execution": "not_executed"
+    },
+    {
+      "repo_id": 55888708,
+      "name": "lessfish/underscore-analysis",
+      "result": "complete",
+      "reason": null,
+      "reviewed_at": "2026-09-07",
+      "content_sha256": "9a5a76f5ac40f50e294229700076e45911f0433db04d0d23a6969b10304a6599",
+      "sources": [
+        "https://github.com/lessfish/underscore-analysis/blob/master/README.md"
+      ],
+      "example_execution": "not_executed"
+    }
+  ],
+  "coverage_note": "Complete includes source-grounded use, reading, and navigation guides; GSD old repository is a migration guide, not a verified old-version runtime manual. Three limited records only explain current source gaps."
+}

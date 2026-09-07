@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { formatCount, validateCatalog } from "../src/domain/catalog.js";
 
 test("validates unique catalog ids", () => {
-  const catalog = { schemaVersion: 1, repositories: [{ repoId: 1 }, { repoId: 2 }] };
+  const catalog = { schemaVersion: 2, repositories: [{ repoId: 1 }, { repoId: 2 }] };
   assert.equal(validateCatalog(catalog), catalog);
   assert.throws(() => validateCatalog({ ...catalog, repositories: [{ repoId: 1 }, { repoId: 1 }] }), /repoId/);
 });

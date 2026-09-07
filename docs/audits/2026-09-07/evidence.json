@@ -1,0 +1,93 @@
+{
+  "reviewDate": "2026-09-07",
+  "localCommit": "a31488b",
+  "remoteMainAtCheck": "5c6f1e4d58c21a10460ba37c899e3e71ad131a42",
+  "remoteAheadBy": 9,
+  "remoteChangedFiles": [
+    "README.md",
+    "data/repositories.json"
+  ],
+  "catalogUrl": "https://jiapeiyang.github.io/github-star-vault/data/catalog.json",
+  "catalogCheckedAt": "2026-09-07T04:36:21Z",
+  "catalogSHA256": "743cd5da8bdb79bf53ef1c630e9772aa049c005420e906c9f5cb3950d2b6d727",
+  "catalogBytes": 633335,
+  "stats": {
+    "active": 287,
+    "total": 288,
+    "curated": 284,
+    "inbox": 3,
+    "imported": 278,
+    "learning": 1,
+    "learned": 1,
+    "githubArchived": 12,
+    "missing": 1
+  },
+  "stages": {
+    "inbox": 3,
+    "imported": 278,
+    "learning": 1,
+    "queued": 1,
+    "reference": 3,
+    "learned": 1
+  },
+  "uniqueTags": 491,
+  "singleUseTags": 364,
+  "reposWithRelated": 2,
+  "inbox": [
+    "localsend/localsend",
+    "humanlayer/skills",
+    "tiann/hapi"
+  ],
+  "latestRunId": 34083714084,
+  "latestFiveRuns": "success",
+  "observationIssue": {
+    "url": "https://github.com/jiapeiyang/github-star-vault/issues/1",
+    "state": "OPEN",
+    "commentsAtCheck": 0
+  },
+  "localTests": {
+    "python": 17,
+    "node": 19,
+    "sites": 4,
+    "build": "pass"
+  },
+  "revisit": {
+    "poolSize": 283,
+    "reachableIndicesForMonthDays": 31,
+    "unreachableWithStablePool": 252
+  },
+  "browser": {
+    "surface": "Codex In-app Browser",
+    "viewport": "default 1280x720; fullPage images where noted",
+    "onlineSteps": [
+      "learning",
+      "search",
+      "detail",
+      "export_validation"
+    ],
+    "localSteps": [
+      "built_home"
+    ],
+    "loggedErrorsAndWarnings": [],
+    "cleanup": "both task-created tabs closed; tab inventory empty",
+    "previewPort4178Released": true
+  },
+  "screenshots": [
+    {
+      "file": "01-learning.png",
+      "sha256": "1d5017a91009e3f1de7d35492d79822c65ed0f8fb7af24431f71cf1c590a92e8"
+    },
+    {
+      "file": "02-search.png",
+      "sha256": "b51bae0631fa5f4b04e594215cecaa7e427d5bc029300164e276bf2cb86eb45d"
+    },
+    {
+      "file": "03-detail.png",
+      "sha256": "a7495379b0baad8c54752bca011269e925e9acb6b9100ae80bb1a253972060f6"
+    },
+    {
+      "file": "04-export-validation.png",
+      "sha256": "638bee7d48af0fdea3bd7b3d3e90c00fb0ed61883568340934b27bef3df8f44d"
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+[
+  {
+    "repo_id": 1148744000,
+    "name": "MengTo/Skills",
+    "url": "https://github.com/MengTo/Skills/blob/main/README.md",
+    "sha": "5be5973aa26017e361aa3df4a15113ac2e3372ec",
+    "bytes": 13232
+  },
+  {
+    "repo_id": 36836475,
+    "name": "tmux/tmux",
+    "url": "https://github.com/tmux/tmux/blob/master/.github/README.md",
+    "sha": "38a296fc8c1ab4731c2aa58dad81d0677ece8edb",
+    "bytes": 2707,
+    "additional_sources": [
+      {
+        "url": "https://github.com/tmux/tmux/blob/master/tmux.1",
+        "bytes": 226900,
+        "kind": "git-blob",
+        "sha": "14c2e578b7adb27ba0c30f481ed3498fd3e4804c"
+      }
+    ]
+  },
+  {
+    "repo_id": 1301135370,
+    "name": "0xsline/OpenChatCut",
+    "url": "https://github.com/0xsline/OpenChatCut/blob/main/README.md",
+    "sha": "d5c8f502ce6a613ae0ca2af94679f35c5b6ae2dc",
+    "bytes": 28265
+  },
+  {
+    "repo_id": 1330468709,
+    "name": "boyang-hu/website-rebuild-skill",
+    "url": "https://github.com/boyang-hu/website-rebuild-skill/blob/main/README.md",
+    "sha": "71bf389fb00eda6b8ddb0c64a6ad0c9d0a41da1d",
+    "bytes": 32385
+  },
+  {
+    "repo_id": 1266797999,
+    "name": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
+    "sha": "1f05a43af5737eb41ffb8bef921304c8b431f2d2",
+    "bytes": 21610
+  },
+  {
+    "repo_id": 1350587124,
+    "name": "Sac-Y/MiniMax-H3-Cloud",
+    "url": "https://github.com/Sac-Y/MiniMax-H3-Cloud/blob/main/README.md",
+    "sha": "1353a99f6609e8b1e0c2f7b8c2c87641b5bbfa24",
+    "bytes": 3157
+  },
+  {
+    "repo_id": 494305627,
+    "name": "hwdsl2/wireguard-install",
+    "url": "https://github.com/hwdsl2/wireguard-install/blob/master/README.md",
+    "sha": "853d1565e123f6128c27103dd229dd479023a4db",
+    "bytes": 7985
+  },
+  {
+    "repo_id": 1176129893,
+    "name": "tanweai/pua",
+    "url": "https://github.com/tanweai/pua/blob/main/README.md",
+    "sha": "fadec68610539f48c1b4473350c9d57268500125",
+    "bytes": 35603
+  },
+  {
+    "repo_id": 1204804583,
+    "name": "OpenMOSS/MOSS-VL",
+    "url": "https://github.com/OpenMOSS/MOSS-VL/blob/main/README.md",
+    "sha": "bcce5b7af551520ce9a47a0616a31781c8783f25",
+    "bytes": 18766
+  },
+  {
+    "repo_id": 1128267392,
+    "name": "chatfire-AI/huobao-drama",
+    "url": "https://github.com/chatfire-AI/huobao-drama/blob/master/README.md",
+    "sha": "283cf8405ff3af7d026a38062b3cc3ff1b067f2c",
+    "bytes": 16696
+  },
+  {
+    "repo_id": 1193909050,
+    "name": "herdrdev/herdr",
+    "url": "https://github.com/herdrdev/herdr/blob/master/README.md",
+    "sha": "d731bf03336d72b7f196dd01b4779626db0d4b92",
+    "bytes": 4431
+  },
+  {
+    "repo_id": 1183888342,
+    "name": "stablyai/orca",
+    "url": "https://github.com/stablyai/orca/blob/main/README.md",
+    "sha": "7e3540c80f14b533a6eb696779ae23fe85a7aea3",
+    "bytes": 17030
+  },
+  {
+    "repo_id": 1137711311,
+    "name": "Hmbown/Codewhale",
+    "url": "https://github.com/Hmbown/Codewhale/blob/main/README.md",
+    "sha": "59a8b339606b5d361fa82fdb9e7b36592421a814",
+    "bytes": 5422
+  },
+  {
+    "repo_id": 934527631,
+    "name": "ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+    "url": "https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/main/README.md",
+    "sha": "16f69d8471fac5784f5a9fb9fa6a5580c2de9159",
+    "bytes": 32547
+  },
+  {
+    "repo_id": 1140843380,
+    "name": "mvanhorn/last30days-skill",
+    "url": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
+    "sha": "b832dac6b7897a95b8c23f6ebe52a19e3ae923b1",
+    "bytes": 32737
+  },
+  {
+    "repo_id": 770153867,
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
+    "sha": "3f2335df757a1e78cdffa0e696c8c36d2c31dcb1",
+    "bytes": 33220
+  },
+  {
+    "repo_id": 858262444,
+    "name": "PatrickJS/awesome-cursorrules",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/README.md",
+    "sha": "8204dac5cf335416e138c1059d73b578f6c776ea",
+    "bytes": 51862
+  },
+  {
+    "repo_id": 1208450620,
+    "name": "leookun/cursor-byok",
+    "url": "https://github.com/leookun/cursor-byok/blob/main/README.md",
+    "sha": "dcfb74fa68e2897bd5536ab39b82a8f3e2ca15a5",
+    "bytes": 5640
+  },
+  {
+    "repo_id": 1237819660,
+    "name": "zhaoxuya520/reverse-skill",
+    "url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md",
+    "sha": "2237ae04e1a41e1208f8d03a4255a2f1d93c266e",
+    "bytes": 16111
+  },
+  {
+    "repo_id": 1101924225,
+    "name": "dembrandt/dembrandt",
+    "url": "https://github.com/dembrandt/dembrandt/blob/main/README.md",
+    "sha": "d3d9c90c722689febabb5d3ff1442dd062ce1dc0",
+    "bytes": 8845
+  },
+  {
+    "repo_id": 1220744720,
+    "name": "freestylefly/awesome-gpt-image-2",
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/README.md",
+    "sha": "db6500406a6eb0fb09b1ca7e9c07fb75db802a2e",
+    "bytes": 33104
+  },
+  {
+    "repo_id": 237523442,
+    "name": "tailscale/tailscale",
+    "url": "https://github.com/tailscale/tailscale/blob/main/README.md",
+    "sha": "c3fa62bba295a69eae9a988393bc8d696c537ee1",
+    "bytes": 2977,
+    "additional_sources": [
+      {
+        "url": "https://tailscale.com/kb/1017/install",
+        "bytes": 252824,
+        "kind": "html",
+        "sha256": "3a71461551708893404a8047f9110d9a0d3fe4dbc48656c3747a9ad5b5f40615"
+      }
+    ]
+  },
+  {
+    "repo_id": 1179074781,
+    "name": "deepcoldy/botmux",
+    "url": "https://github.com/deepcoldy/botmux/blob/master/README.md",
+    "sha": "e003fd24b6760fc9de7f1aeb7bd31b0da8f6e506",
+    "bytes": 14564
+  },
+  {
+    "repo_id": 1297316519,
+    "name": "MDX-Tom/gpt-instruct",
+    "url": "https://github.com/MDX-Tom/gpt-instruct/blob/main/README.md",
+    "sha": "176e63fb71278c74b743180efe1f5b627c3b2d0a",
+    "bytes": 10206
+  },
+  {
+    "repo_id": 1053118194,
+    "name": "bojieli/ai-agent-book",
+    "url": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
+    "sha": "7972a2403e41c57ef9aab23050cdaea3847206f5",
+    "bytes": 24582
+  },
+  {
+    "repo_id": 1207091162,
+    "name": "yizhiyanhua-ai/fireworks-tech-graph",
+    "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph/blob/main/README.md",
+    "sha": "eb8f2c7a18b206c715f57b826d9e70a9abf3bc40",
+    "bytes": 41289
+  },
+  {
+    "repo_id": 1314048518,
+    "name": "geeklee/srt-whiteboard-animation",
+    "url": "https://github.com/geeklee/srt-whiteboard-animation/blob/main/README.md",
+    "sha": "c0e9989a5acc23137163c175b5b386a0044b88b5",
+    "bytes": 6376
+  },
+  {
+    "repo_id": 1212562200,
+    "name": "YouMind-OpenLab/awesome-gpt-image-2",
+    "url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2/blob/main/README.md",
+    "sha": "8b9a980c8416872ac628dacda2a97dc48f713914",
+    "bytes": 385064
+  },
+  {
+    "repo_id": 1097346685,
+    "name": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable/blob/main/README.md",
+    "sha": "75200ec27a245295d65af6da5deb2eb6c5e06b9a",
+    "bytes": 26365
+  },
+  {
+    "repo_id": 1104535633,
+    "name": "lbjlaq/Antigravity-Manager",
+    "url": "https://github.com/lbjlaq/Antigravity-Manager/blob/main/README.md",
+    "sha": "a888fc8aab1576fae4fe4124043f54127c0e82a4",
+    "bytes": 29035
+  },
+  {
+    "repo_id": 1212503250,
+    "name": "citrolabs/ego-lite",
+    "url": "https://github.com/citrolabs/ego-lite/blob/main/README.md",
+    "sha": "36347cc5540db1f6071641eea92b36c9128d10b8",
+    "bytes": 9413
+  },
+  {
+    "repo_id": 1329629252,
+    "name": "SMNETSTUDIO/WeChat-AI",
+    "url": "https://github.com/SMNETSTUDIO/WeChat-AI/blob/master/README.md",
+    "sha": "817b2f3ce39d2cd21bc9d60b616af494a93213b8",
+    "bytes": 8227
+  },
+  {
+    "repo_id": 161886347,
+    "name": "xxlllq/system_architect",
+    "url": "https://github.com/xxlllq/system_architect/blob/master/README.md",
+    "sha": "846a9e07fb47bb0f0ea81c3666a0b10b6cefe57c",
+    "bytes": 18810
+  },
+  {
+    "repo_id": 1190072018,
+    "name": "james-6-23/codex2api",
+    "url": "https://github.com/james-6-23/codex2api/blob/main/README.md",
+    "sha": "be143aff4354f8bb0b784c941a2b1ff74da1df45",
+    "bytes": 29890
+  },
+  {
+    "repo_id": 881723326,
+    "name": "Ebullioscopic/Atoll",
+    "url": "https://github.com/Ebullioscopic/Atoll/blob/dev/ReadMe.md",
+    "sha": "1af3d19ea3796a43bd9771fa9ca303bdbf9c1769",
+    "bytes": 8269
+  },
+  {
+    "repo_id": 1145374818,
+    "name": "thaw-app/Thaw",
+    "url": "https://github.com/thaw-app/Thaw/blob/development/README.md",
+    "sha": "4a108cd26d199df6090f5fced2249a5db9efcbdd",
+    "bytes": 16048
+  },
+  {
+    "repo_id": 1187709537,
+    "name": "DingTalk-Real-AI/dingtalk-workspace-cli",
+    "url": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/blob/main/README.md",
+    "sha": "b714a5402c0060b7f9335e935fa10b52f7c6533b",
+    "bytes": 45264
+  },
+  {
+    "repo_id": 1174789082,
+    "name": "block/buzz",
+    "url": "https://github.com/block/buzz/blob/main/README.md",
+    "sha": "56439f00bc1565ce7aca273a886eecdc12df5c1d",
+    "bytes": 15945
+  },
+  {
+    "repo_id": 1111357457,
+    "name": "binaricat/Netcatty",
+    "url": "https://github.com/binaricat/Netcatty/blob/main/README.md",
+    "sha": "ac80e1c8a5129c6ece33ad4a7f4bd2f00d085a61",
+    "bytes": 12852
+  },
+  {
+    "repo_id": 1184892122,
+    "name": "hasaneyldrm/exercises-dataset",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset/blob/main/README.md",
+    "sha": "55b1f0b8fa58fc3645b0334f854aa49107c3818c",
+    "bytes": 21331
+  },
+  {
+    "repo_id": 1197515131,
+    "name": "VoltAgent/awesome-design-md",
+    "url": "https://github.com/VoltAgent/awesome-design-md/blob/main/README.md",
+    "sha": "3e989b4971ae2692190ae25119e7f8e0d63a558e",
+    "bytes": 16023
+  },
+  {
+    "repo_id": 1118601518,
+    "name": "Wei-Shaw/sub2api",
+    "url": "https://github.com/Wei-Shaw/sub2api/blob/main/README.md",
+    "sha": "62ab42721437174a5b0609e311cd97deed031056",
+    "bytes": 50095
+  },
+  {
+    "repo_id": 1243011353,
+    "name": "rosemarycox5334-debug/PA_Agent",
+    "url": "https://github.com/rosemarycox5334-debug/PA_Agent/blob/main/README.md",
+    "sha": "fca1f7fd906dbf3427c977ad5376d6c5e254f43f",
+    "bytes": 6171
+  },
+  {
+    "repo_id": 1211139949,
+    "name": "tt-a1i/archify",
+    "url": "https://github.com/tt-a1i/archify/blob/main/README.md",
+    "sha": "5983178b956d2d31ec3229510cfe315108c8bafd",
+    "bytes": 18724
+  },
+  {
+    "repo_id": 1012625755,
+    "name": "git-ai-project/git-ai",
+    "url": "https://github.com/git-ai-project/git-ai/blob/main/README.md",
+    "sha": "13e7d4cb7b87a139f133b82d2044935821b47e45",
+    "bytes": 19829
+  },
+  {
+    "repo_id": 1264811161,
+    "name": "chuspeeism/dashi-ppt-skill",
+    "url": "https://github.com/chuspeeism/dashi-ppt-skill/blob/main/README.md",
+    "sha": "a20879e6c3ff7ac71d2382a08c94c38a6f435edd",
+    "bytes": 13414
+  },
+  {
+    "repo_id": 708312415,
+    "name": "yonggekkk/sing-box-yg",
+    "url": "https://github.com/yonggekkk/sing-box-yg/blob/main/README.md",
+    "sha": "761717a796f82946d7b198386f5234c70933d55c",
+    "bytes": 6943
+  },
+  {
+    "repo_id": 1097695258,
+    "name": "steipete/CodexBar",
+    "url": "https://github.com/steipete/CodexBar/blob/main/README.md",
+    "sha": "1bcd33ced058ed8ce60d83a1851a76d6068c0155",
+    "bytes": 20622
+  },
+  {
+    "repo_id": 890668799,
+    "name": "modelcontextprotocol/servers",
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/README.md",
+    "sha": "9c388c80a43c12db37f25049d031c98e1d26b5e0",
+    "bytes": 8707
+  },
+  {
+    "repo_id": 1251775733,
+    "name": "helloianneo/ian-xiaohei-illustrations",
+    "url": "https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/README.md",
+    "sha": "227eb6ff4d3be98ac19a6f08811849542f5ecf93",
+    "bytes": 8417
+  },
+  {
+    "repo_id": 941043461,
+    "name": "itgoyo/TelegramGroup",
+    "url": "https://github.com/itgoyo/TelegramGroup/blob/master/README.md",
+    "sha": "43346351891658c3149c238654122c6f81f3e3fd",
+    "bytes": 215701
+  },
+  {
+    "repo_id": 1063641074,
+    "name": "a2ui-project/a2ui",
+    "url": "https://github.com/a2ui-project/a2ui/blob/main/README.md",
+    "sha": "710704ace62e64d1aaf53bbdd6127b677dae6bfc",
+    "bytes": 9044
+  },
+  {
+    "repo_id": 1163112839,
+    "name": "LearnPrompt/ai-news-radar",
+    "url": "https://github.com/LearnPrompt/ai-news-radar/blob/master/README.md",
+    "sha": "6963e26947a886a2a2dd1d3b8e6f2a9252cd5668",
+    "bytes": 27068
+  },
+  {
+    "repo_id": 1212241202,
+    "name": "wbh604/UZI-Skill",
+    "url": "https://github.com/wbh604/UZI-Skill/blob/main/README.md",
+    "sha": "89c72c31c9b8eba0415e06a0cd9171bb9717a6a9",
+    "bytes": 79398
+  },
+  {
+    "repo_id": 1035029907,
+    "name": "earendil-works/pi",
+    "url": "https://github.com/earendil-works/pi/blob/main/README.md",
+    "sha": "730033651bd95551b5e0c34189ec823d07a174b1",
+    "bytes": 6789,
+    "additional_sources": [
+      {
+        "url": "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/README.md",
+        "bytes": 32915,
+        "kind": "git-blob",
+        "sha": "50861f2a5c20634b9a019692c6694621f87b9073"
+      }
+    ]
+  },
+  {
+    "repo_id": 1180745961,
+    "name": "JCodesMore/ai-website-cloner-template",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/README.md",
+    "sha": "2aa0acadd651df08a6548928cd726065aaf9047f",
+    "bytes": 11140
+  },
+  {
+    "repo_id": 1164005541,
+    "name": "foryourhealth111-pixel/Vibe-Skills",
+    "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills/blob/main/README.md",
+    "sha": "3d9a8dddfcacbce0a4ab1a2c3aa5ae12aec73f04",
+    "bytes": 26937
+  },
+  {
+    "repo_id": 1277836173,
+    "name": "dama-cyber/Casting-Workflow",
+    "url": "https://github.com/dama-cyber/Casting-Workflow/blob/main/README.md",
+    "sha": "085fce926f24f5662a9665cdf2aab9c3611064f5",
+    "bytes": 9599
+  },
+  {
+    "repo_id": 1086122599,
+    "name": "xiamuceer-j/MuMuAINovel",
+    "url": "https://github.com/xiamuceer-j/MuMuAINovel/blob/main/README.md",
+    "sha": "b8680fb7f63df1ae3e1dbe8f54f229f83012b0d7",
+    "bytes": 20881
+  },
+  {
+    "repo_id": 1127793756,
+    "name": "fengshao1227/ccg-workflow",
+    "url": "https://github.com/fengshao1227/ccg-workflow/blob/main/README.md",
+    "sha": "6e5aa7e07ba50c1a799768a5e15a861441352ee4",
+    "bytes": 17678
+  },
+  {
+    "repo_id": 1205523418,
+    "name": "QLHazyCoder/FlowPilot",
+    "url": "https://github.com/QLHazyCoder/FlowPilot/blob/master/README.md",
+    "sha": "14b07bf7f303157aaa96574ffb1c5a64b2090234",
+    "bytes": 6572
+  },
+  {
+    "repo_id": 1243496690,
+    "name": "FoundZiGu/GuJumpgate",
+    "url": "https://github.com/FoundZiGu/GuJumpgate/blob/main/README.md",
+    "sha": "30ce4b05507735b4811ca71e5f93d5e09bd7006f",
+    "bytes": 8338
+  },
+  {
+    "repo_id": 1087192965,
+    "name": "shanraisshan/claude-code-best-practice",
+    "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/main/README.md",
+    "sha": "3be72ece7287e5d3af363400521226e077525d75",
+    "bytes": 74511
+  },
+  {
+    "repo_id": 1100776768,
+    "name": "anthropics/claude-plugins-official",
+    "url": "https://github.com/anthropics/claude-plugins-official/blob/main/README.md",
+    "sha": "43104e240ff500c762adebb0c31dc4b7ff7b50dd",
+    "bytes": 3859
+  },
+  {
+    "repo_id": 1130564872,
+    "name": "koala73/worldmonitor",
+    "url": "https://github.com/koala73/worldmonitor/blob/main/README.md",
+    "sha": "820c2f8060a0dbe15ea47e7f91eb0420a694642d",
+    "bytes": 13314
+  },
+  {
+    "repo_id": 1131513930,
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/README.md",
+    "sha": "d54a3d60d27edc527da10217d128fc8d6e0f7bc1",
+    "bytes": 15573
+  },
+  {
+    "repo_id": 1203777920,
+    "name": "xbtlin/ai-berkshire",
+    "url": "https://github.com/xbtlin/ai-berkshire/blob/main/README.md",
+    "sha": "112b7d92c8ce477574b82daa844aa6de13e2f71a",
+    "bytes": 35080
+  },
+  {
+    "repo_id": 1175231820,
+    "name": "voocel/ainovel-cli",
+    "url": "https://github.com/voocel/ainovel-cli/blob/main/README.md",
+    "sha": "099ec6e754c4eb87aeabcbf277de7e6b04475d8e",
+    "bytes": 44103
+  },
+  {
+    "repo_id": 1073224795,
+    "name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers/blob/main/README.md",
+    "sha": "09a91c6d03cfa3d874c5c33b6f8cc3d0b2d89645",
+    "bytes": 12137
+  },
+  {
+    "repo_id": 1113573066,
+    "name": "hugohe3/ppt-master",
+    "url": "https://github.com/hugohe3/ppt-master/blob/main/README.md",
+    "sha": "2b5071a114a08e19ab4b884f21bbeaa746b71e00",
+    "bytes": 31584
+  },
+  {
+    "repo_id": 1269395331,
+    "name": "Waishnav/devspace",
+    "url": "https://github.com/Waishnav/devspace/blob/main/README.md",
+    "sha": "fed1d204945533b71b8820b36be0913b62f138a9",
+    "bytes": 9524
+  },
+  {
+    "repo_id": 1158722119,
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills/blob/main/README.md",
+    "sha": "0d3b2a3821e57b51de9c2764f2dc90b429a03c0f",
+    "bytes": 25560
+  },
+  {
+    "repo_id": 865326415,
+    "name": "serafimcloud/21st",
+    "url": "https://github.com/serafimcloud/21st/blob/main/README.md",
+    "sha": "62f6c9b52e45b9fc4fff3d0b7f9f1f0ac69681a0",
+    "bytes": 10847
+  },
+  {
+    "repo_id": 1106996539,
+    "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md",
+    "sha": "a9368937a85b780d0fbd6b77e189d084d710400d",
+    "bytes": 34719
+  },
+  {
+    "repo_id": 1112540808,
+    "name": "vercel-labs/agent-skills",
+    "url": "https://github.com/vercel-labs/agent-skills/blob/main/README.md",
+    "sha": "04a1a5a46a22cfd430e2877b7c145e34fc2653ab",
+    "bytes": 7838
+  },
+  {
+    "repo_id": 1135179558,
+    "name": "alvinunreal/oh-my-opencode-slim",
+    "url": "https://github.com/alvinunreal/oh-my-opencode-slim/blob/master/README.md",
+    "sha": "1d812146e4566ecc33924d9a956dd1f81db6f980",
+    "bytes": 70039
+  },
+  {
+    "repo_id": 1108837393,
+    "name": "code-yeongyu/oh-my-openagent",
+    "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/README.md",
+    "sha": "712fbab118968fb90b862a8782a8d30b4c8edfe1",
+    "bytes": 36616
+  },
+  {
+    "repo_id": 1086756757,
+    "name": "nimbalyst/nimbalyst",
+    "url": "https://github.com/nimbalyst/nimbalyst/blob/main/README.md",
+    "sha": "b6920acef0ea943e42e44aeef0c46cf57cf4f4e1",
+    "bytes": 10076
+  },
+  {
+    "repo_id": 306829688,
+    "name": "nocobase/nocobase",
+    "url": "https://github.com/nocobase/nocobase/blob/main/README.md",
+    "sha": "cb8167d2b263c292bacaead8099b47f06e9b7b84",
+    "bytes": 6714
+  },
+  {
+    "repo_id": 1075372545,
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents/blob/main/README.md",
+    "sha": "06b03b7032dd8e36efc0329666f9a629df93067b",
+    "bytes": 82556
+  },
+  {
+    "repo_id": 806879762,
+    "name": "nolly-studio/cult-ui",
+    "url": "https://github.com/nolly-studio/cult-ui/blob/main/README.md",
+    "sha": "3280bd4289ffd62d8bca288ef05e1273f74de26d",
+    "bytes": 9860
+  },
+  {
+    "repo_id": 1126473386,
+    "name": "jarrodwatts/claude-hud",
+    "url": "https://github.com/jarrodwatts/claude-hud/blob/main/README.md",
+    "sha": "03ba415c6ac60051010283677ad5461a4fbde39f",
+    "bytes": 37326
+  },
+  {
+    "repo_id": 1219042200,
+    "name": "op7418/guizang-ppt-skill",
+    "url": "https://github.com/op7418/guizang-ppt-skill/blob/main/README.md",
+    "sha": "15fef041bb0f32783123f32bb189e9544e8d06f7",
+    "bytes": 24832
+  },
+  {
+    "repo_id": 1142423471,
+    "name": "mindfold-ai/Trellis",
+    "url": "https://github.com/mindfold-ai/Trellis/blob/main/README.md",
+    "sha": "caa0d13ddfdd99c69893c750cacb259844f7a7fe",
+    "bytes": 9362
+  },
+  {
+    "repo_id": 1134543109,
+    "name": "vercel-labs/skills",
+    "url": "https://github.com/vercel-labs/skills/blob/main/README.md",
+    "sha": "2246383e993f161fd909122d01769059adfb9eab",
+    "bytes": 26148
+  }
+]

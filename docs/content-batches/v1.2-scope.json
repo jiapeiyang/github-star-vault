@@ -1,0 +1,1168 @@
+{
+  "date": "2026-09-07",
+  "checked_at": "2026-09-07T06:45:57Z",
+  "scope": [
+    {
+      "repo_id": 578822531,
+      "name": "localsend/localsend"
+    },
+    {
+      "repo_id": 1184901356,
+      "name": "humanlayer/skills"
+    },
+    {
+      "repo_id": 1122242121,
+      "name": "tiann/hapi"
+    },
+    {
+      "repo_id": 1325096132,
+      "name": "eternityspring/shuohao-skills"
+    },
+    {
+      "repo_id": 1142983825,
+      "name": "multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "repo_id": 1119232564,
+      "name": "yzfly/awesome-skills-zh"
+    },
+    {
+      "repo_id": 1120540348,
+      "name": "libukai/awesome-agent-skills"
+    },
+    {
+      "repo_id": 1226123343,
+      "name": "virgiliojr94/book-to-skill"
+    },
+    {
+      "repo_id": 1182353280,
+      "name": "deusyu/translate-book"
+    },
+    {
+      "repo_id": 1241257629,
+      "name": "datawhalechina/Agent-Learning-Hub"
+    },
+    {
+      "repo_id": 1052050442,
+      "name": "datawhalechina/hello-agents"
+    },
+    {
+      "repo_id": 1212163658,
+      "name": "kangarooking/cangjie-skill"
+    },
+    {
+      "repo_id": 1266884317,
+      "name": "kunchenguid/firstmate"
+    },
+    {
+      "repo_id": 1135791677,
+      "name": "lsdefine/GenericAgent"
+    },
+    {
+      "repo_id": 1062356571,
+      "name": "tw93/Mole"
+    },
+    {
+      "repo_id": 1305545535,
+      "name": "HalfAI1102/anthropic-art"
+    },
+    {
+      "repo_id": 1312807575,
+      "name": "miuuyy/codex-chatgpt-web"
+    },
+    {
+      "repo_id": 1166119443,
+      "name": "get-bb/bb"
+    },
+    {
+      "repo_id": 1283138527,
+      "name": "threerocks/hand-drawn-styles"
+    },
+    {
+      "repo_id": 1339161831,
+      "name": "yanliudesign/mono-color-skill"
+    },
+    {
+      "repo_id": 1183325896,
+      "name": "emilkowalski/skills"
+    },
+    {
+      "repo_id": 1148744000,
+      "name": "MengTo/Skills"
+    },
+    {
+      "repo_id": 36836475,
+      "name": "tmux/tmux"
+    },
+    {
+      "repo_id": 1301135370,
+      "name": "0xsline/OpenChatCut"
+    },
+    {
+      "repo_id": 1330468709,
+      "name": "boyang-hu/website-rebuild-skill"
+    },
+    {
+      "repo_id": 1266797999,
+      "name": "DietrichGebert/ponytail"
+    },
+    {
+      "repo_id": 1350587124,
+      "name": "Sac-Y/MiniMax-H3-Cloud"
+    },
+    {
+      "repo_id": 494305627,
+      "name": "hwdsl2/wireguard-install"
+    },
+    {
+      "repo_id": 1176129893,
+      "name": "tanweai/pua"
+    },
+    {
+      "repo_id": 1204804583,
+      "name": "OpenMOSS/MOSS-VL"
+    },
+    {
+      "repo_id": 1128267392,
+      "name": "chatfire-AI/huobao-drama"
+    },
+    {
+      "repo_id": 1193909050,
+      "name": "herdrdev/herdr"
+    },
+    {
+      "repo_id": 1183888342,
+      "name": "stablyai/orca"
+    },
+    {
+      "repo_id": 1137711311,
+      "name": "Hmbown/Codewhale"
+    },
+    {
+      "repo_id": 934527631,
+      "name": "ExplosiveCoderflome/AI-Novel-Writing-Assistant"
+    },
+    {
+      "repo_id": 1140843380,
+      "name": "mvanhorn/last30days-skill"
+    },
+    {
+      "repo_id": 770153867,
+      "name": "harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "repo_id": 1061953414,
+      "name": "anthropics/skills"
+    },
+    {
+      "repo_id": 858262444,
+      "name": "PatrickJS/awesome-cursorrules"
+    },
+    {
+      "repo_id": 1208450620,
+      "name": "leookun/cursor-byok"
+    },
+    {
+      "repo_id": 1237819660,
+      "name": "zhaoxuya520/reverse-skill"
+    },
+    {
+      "repo_id": 1101924225,
+      "name": "dembrandt/dembrandt"
+    },
+    {
+      "repo_id": 1220744720,
+      "name": "freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "repo_id": 237523442,
+      "name": "tailscale/tailscale"
+    },
+    {
+      "repo_id": 1179074781,
+      "name": "deepcoldy/botmux"
+    },
+    {
+      "repo_id": 1297316519,
+      "name": "MDX-Tom/gpt-instruct"
+    },
+    {
+      "repo_id": 1053118194,
+      "name": "bojieli/ai-agent-book"
+    },
+    {
+      "repo_id": 1207091162,
+      "name": "yizhiyanhua-ai/fireworks-tech-graph"
+    },
+    {
+      "repo_id": 1314048518,
+      "name": "geeklee/srt-whiteboard-animation"
+    },
+    {
+      "repo_id": 1212562200,
+      "name": "YouMind-OpenLab/awesome-gpt-image-2"
+    },
+    {
+      "repo_id": 1097346685,
+      "name": "pbakaus/impeccable"
+    },
+    {
+      "repo_id": 1104535633,
+      "name": "lbjlaq/Antigravity-Manager"
+    },
+    {
+      "repo_id": 1212503250,
+      "name": "citrolabs/ego-lite"
+    },
+    {
+      "repo_id": 1329629252,
+      "name": "SMNETSTUDIO/WeChat-AI"
+    },
+    {
+      "repo_id": 161886347,
+      "name": "xxlllq/system_architect"
+    },
+    {
+      "repo_id": 1190072018,
+      "name": "james-6-23/codex2api"
+    },
+    {
+      "repo_id": 881723326,
+      "name": "Ebullioscopic/Atoll"
+    },
+    {
+      "repo_id": 1145374818,
+      "name": "thaw-app/Thaw"
+    },
+    {
+      "repo_id": 1187709537,
+      "name": "DingTalk-Real-AI/dingtalk-workspace-cli"
+    },
+    {
+      "repo_id": 1174789082,
+      "name": "block/buzz"
+    },
+    {
+      "repo_id": 1111357457,
+      "name": "binaricat/Netcatty"
+    },
+    {
+      "repo_id": 1184892122,
+      "name": "hasaneyldrm/exercises-dataset"
+    },
+    {
+      "repo_id": 1197515131,
+      "name": "VoltAgent/awesome-design-md"
+    },
+    {
+      "repo_id": 1118601518,
+      "name": "Wei-Shaw/sub2api"
+    },
+    {
+      "repo_id": 1243011353,
+      "name": "rosemarycox5334-debug/PA_Agent"
+    },
+    {
+      "repo_id": 1211139949,
+      "name": "tt-a1i/archify"
+    },
+    {
+      "repo_id": 1012625755,
+      "name": "git-ai-project/git-ai"
+    },
+    {
+      "repo_id": 1264811161,
+      "name": "chuspeeism/dashi-ppt-skill"
+    },
+    {
+      "repo_id": 708312415,
+      "name": "yonggekkk/sing-box-yg"
+    },
+    {
+      "repo_id": 1097695258,
+      "name": "steipete/CodexBar"
+    },
+    {
+      "repo_id": 890668799,
+      "name": "modelcontextprotocol/servers"
+    },
+    {
+      "repo_id": 1251775733,
+      "name": "helloianneo/ian-xiaohei-illustrations"
+    },
+    {
+      "repo_id": 941043461,
+      "name": "itgoyo/TelegramGroup"
+    },
+    {
+      "repo_id": 1063641074,
+      "name": "a2ui-project/a2ui"
+    },
+    {
+      "repo_id": 1163112839,
+      "name": "LearnPrompt/ai-news-radar"
+    },
+    {
+      "repo_id": 1212241202,
+      "name": "wbh604/UZI-Skill"
+    },
+    {
+      "repo_id": 1035029907,
+      "name": "earendil-works/pi"
+    },
+    {
+      "repo_id": 1180745961,
+      "name": "JCodesMore/ai-website-cloner-template"
+    },
+    {
+      "repo_id": 1164005541,
+      "name": "foryourhealth111-pixel/Vibe-Skills"
+    },
+    {
+      "repo_id": 1277836173,
+      "name": "dama-cyber/Casting-Workflow"
+    },
+    {
+      "repo_id": 1086122599,
+      "name": "xiamuceer-j/MuMuAINovel"
+    },
+    {
+      "repo_id": 1127793756,
+      "name": "fengshao1227/ccg-workflow"
+    },
+    {
+      "repo_id": 1205523418,
+      "name": "QLHazyCoder/FlowPilot"
+    },
+    {
+      "repo_id": 1243496690,
+      "name": "FoundZiGu/GuJumpgate"
+    },
+    {
+      "repo_id": 1087192965,
+      "name": "shanraisshan/claude-code-best-practice"
+    },
+    {
+      "repo_id": 1100776768,
+      "name": "anthropics/claude-plugins-official"
+    },
+    {
+      "repo_id": 1130564872,
+      "name": "koala73/worldmonitor"
+    },
+    {
+      "repo_id": 1131513930,
+      "name": "ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "repo_id": 1203777920,
+      "name": "xbtlin/ai-berkshire"
+    },
+    {
+      "repo_id": 1175231820,
+      "name": "voocel/ainovel-cli"
+    },
+    {
+      "repo_id": 1073224795,
+      "name": "obra/superpowers"
+    },
+    {
+      "repo_id": 1113573066,
+      "name": "hugohe3/ppt-master"
+    },
+    {
+      "repo_id": 1269395331,
+      "name": "Waishnav/devspace"
+    },
+    {
+      "repo_id": 1158722119,
+      "name": "addyosmani/agent-skills"
+    },
+    {
+      "repo_id": 865326415,
+      "name": "serafimcloud/21st"
+    },
+    {
+      "repo_id": 1106996539,
+      "name": "nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "repo_id": 1112540808,
+      "name": "vercel-labs/agent-skills"
+    },
+    {
+      "repo_id": 1135179558,
+      "name": "alvinunreal/oh-my-opencode-slim"
+    },
+    {
+      "repo_id": 1108837393,
+      "name": "code-yeongyu/oh-my-openagent"
+    },
+    {
+      "repo_id": 1086756757,
+      "name": "nimbalyst/nimbalyst"
+    },
+    {
+      "repo_id": 306829688,
+      "name": "nocobase/nocobase"
+    },
+    {
+      "repo_id": 1075372545,
+      "name": "msitarzewski/agency-agents"
+    },
+    {
+      "repo_id": 806879762,
+      "name": "nolly-studio/cult-ui"
+    },
+    {
+      "repo_id": 1126473386,
+      "name": "jarrodwatts/claude-hud"
+    },
+    {
+      "repo_id": 1219042200,
+      "name": "op7418/guizang-ppt-skill"
+    },
+    {
+      "repo_id": 1142423471,
+      "name": "mindfold-ai/Trellis"
+    },
+    {
+      "repo_id": 1134543109,
+      "name": "vercel-labs/skills"
+    },
+    {
+      "repo_id": 1146413571,
+      "name": "epiral/bb-browser"
+    },
+    {
+      "repo_id": 1137212306,
+      "name": "op7418/Humanizer-zh"
+    },
+    {
+      "repo_id": 1136666433,
+      "name": "blader/humanizer"
+    },
+    {
+      "repo_id": 1143767804,
+      "name": "zarazhangrui/frontend-slides"
+    },
+    {
+      "repo_id": 479451389,
+      "name": "subframe7536/maple-font"
+    },
+    {
+      "repo_id": 106867604,
+      "name": "cloudflare/cloudflared"
+    },
+    {
+      "repo_id": 1055481168,
+      "name": "fawney19/Aether"
+    },
+    {
+      "repo_id": 1179264259,
+      "name": "garrytan/gstack"
+    },
+    {
+      "repo_id": 1246625636,
+      "name": "open-gsd/gsd-core"
+    },
+    {
+      "repo_id": 1116260703,
+      "name": "gsd-build/get-shit-done"
+    },
+    {
+      "repo_id": 1162099055,
+      "name": "Leonxlnx/taste-skill"
+    },
+    {
+      "repo_id": 1163979872,
+      "name": "qingchencloud/cftunnel"
+    },
+    {
+      "repo_id": 1133707766,
+      "name": "multica-ai/multica"
+    },
+    {
+      "repo_id": 1223170290,
+      "name": "nexu-io/open-design"
+    },
+    {
+      "repo_id": 663900193,
+      "name": "sxyazi/yazi"
+    },
+    {
+      "repo_id": 1201730379,
+      "name": "alchaincyf/nuwa-skill"
+    },
+    {
+      "repo_id": 1215145625,
+      "name": "alchaincyf/huashu-design"
+    },
+    {
+      "repo_id": 1051566067,
+      "name": "router-for-me/Cli-Proxy-API-Management-Center"
+    },
+    {
+      "repo_id": 1135492298,
+      "name": "jlcodes99/cockpit-tools"
+    },
+    {
+      "repo_id": 1262434101,
+      "name": "Regert888/gpt-auto-register"
+    },
+    {
+      "repo_id": 1222110548,
+      "name": "DanOps-1/Gpt-Agreement-Payment"
+    },
+    {
+      "repo_id": 1112002090,
+      "name": "jlcodes99/vscode-antigravity-cockpit"
+    },
+    {
+      "repo_id": 1148788086,
+      "name": "mattpocock/skills"
+    },
+    {
+      "repo_id": 1092047360,
+      "name": "luongnv89/claude-howto"
+    },
+    {
+      "repo_id": 1214290850,
+      "name": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
+    },
+    {
+      "repo_id": 1073224021,
+      "name": "EveryInc/compound-engineering-plugin"
+    },
+    {
+      "repo_id": 1231170332,
+      "name": "TokenRhythm/opensquilla"
+    },
+    {
+      "repo_id": 1006496207,
+      "name": "SuperClaude-Org/SuperClaude_Framework"
+    },
+    {
+      "repo_id": 1025856648,
+      "name": "wshobson/agents"
+    },
+    {
+      "repo_id": 1148052330,
+      "name": "Yeachan-Heo/oh-my-codex"
+    },
+    {
+      "repo_id": 965615190,
+      "name": "bmad-code-org/BMAD-METHOD"
+    },
+    {
+      "repo_id": 1185965712,
+      "name": "Dailin521/codex-provider-sync"
+    },
+    {
+      "repo_id": 1201173969,
+      "name": "JuliusBrussee/caveman"
+    },
+    {
+      "repo_id": 765083837,
+      "name": "opendatalab/MinerU"
+    },
+    {
+      "repo_id": 1182081931,
+      "name": "Egonex-AI/Understand-Anything"
+    },
+    {
+      "repo_id": 717197250,
+      "name": "QuantumNous/new-api"
+    },
+    {
+      "repo_id": 1181795380,
+      "name": "zarazhangrui/follow-builders"
+    },
+    {
+      "repo_id": 1165277268,
+      "name": "Panniantong/Agent-Reach"
+    },
+    {
+      "repo_id": 1174369519,
+      "name": "jnMetaCode/agency-agents-zh"
+    },
+    {
+      "repo_id": 1012087571,
+      "name": "router-for-me/CLIProxyAPI"
+    },
+    {
+      "repo_id": 1202599845,
+      "name": "KKKKhazix/khazix-skills"
+    },
+    {
+      "repo_id": 1031059905,
+      "name": "abhigyanpatwari/GitNexus"
+    },
+    {
+      "repo_id": 1024554267,
+      "name": "NousResearch/hermes-agent"
+    },
+    {
+      "repo_id": 1216954187,
+      "name": "ConardLi/garden-skills"
+    },
+    {
+      "repo_id": 1010681419,
+      "name": "shareAI-lab/learn-claude-code"
+    },
+    {
+      "repo_id": 1136590548,
+      "name": "affaan-m/ECC"
+    },
+    {
+      "repo_id": 204777333,
+      "name": "sudhakar3697/awesome-electron-alternatives"
+    },
+    {
+      "repo_id": 718741813,
+      "name": "abi/screenshot-to-code"
+    },
+    {
+      "repo_id": 99401299,
+      "name": "ai/nanoid"
+    },
+    {
+      "repo_id": 561730219,
+      "name": "krahets/hello-algo"
+    },
+    {
+      "repo_id": 541245403,
+      "name": "PlayCover/keymaps"
+    },
+    {
+      "repo_id": 115110181,
+      "name": "swc-project/swc"
+    },
+    {
+      "repo_id": 472374655,
+      "name": "BetaSu/fe-hunter"
+    },
+    {
+      "repo_id": 352276219,
+      "name": "ineo6/hosts"
+    },
+    {
+      "repo_id": 63539055,
+      "name": "jaywcjlove/awesome-mac"
+    },
+    {
+      "repo_id": 77912349,
+      "name": "qianguyihao/Web"
+    },
+    {
+      "repo_id": 232981344,
+      "name": "BetaSu/big-react"
+    },
+    {
+      "repo_id": 130884470,
+      "name": "solidjs/solid"
+    },
+    {
+      "repo_id": 74293321,
+      "name": "sveltejs/svelte"
+    },
+    {
+      "repo_id": 196664765,
+      "name": "pwstrick/daily"
+    },
+    {
+      "repo_id": 35810174,
+      "name": "electron-react-boilerplate/electron-react-boilerplate"
+    },
+    {
+      "repo_id": 268195786,
+      "name": "BetaSu/just-react"
+    },
+    {
+      "repo_id": 139662221,
+      "name": "a597873885/webfunny_monitor"
+    },
+    {
+      "repo_id": 123883497,
+      "name": "chinanf-boy/didact-explain"
+    },
+    {
+      "repo_id": 85077558,
+      "name": "nilbuild/developer-roadmap"
+    },
+    {
+      "repo_id": 132750724,
+      "name": "codecrafters-io/build-your-own-x"
+    },
+    {
+      "repo_id": 126577260,
+      "name": "trekhleb/javascript-algorithms"
+    },
+    {
+      "repo_id": 146239863,
+      "name": "awesome-vpn/awesome-vpn"
+    },
+    {
+      "repo_id": 62892221,
+      "name": "react-love/react-latest-framework"
+    },
+    {
+      "repo_id": 73999402,
+      "name": "HerbertKarajan/Fe-Interview-questions"
+    },
+    {
+      "repo_id": 134211662,
+      "name": "BingKui/javascript-zh"
+    },
+    {
+      "repo_id": 137582912,
+      "name": "ljianshu/Blog"
+    },
+    {
+      "repo_id": 81963142,
+      "name": "poetries/FE-Interview-Questions"
+    },
+    {
+      "repo_id": 47445046,
+      "name": "youngwind/blog"
+    },
+    {
+      "repo_id": 19141383,
+      "name": "fouber/blog"
+    },
+    {
+      "repo_id": 101625394,
+      "name": "ustbhuangyi/vue-analysis"
+    },
+    {
+      "repo_id": 82329147,
+      "name": "jawil/blog"
+    },
+    {
+      "repo_id": 166535974,
+      "name": "Advanced-Frontend/Daily-Interview-Question"
+    },
+    {
+      "repo_id": 153208883,
+      "name": "stephentian/33-js-concepts"
+    },
+    {
+      "repo_id": 139383414,
+      "name": "lihongxun945/myblog"
+    },
+    {
+      "repo_id": 128706827,
+      "name": "lihongxun945/diving-into-webpack"
+    },
+    {
+      "repo_id": 17655907,
+      "name": "fex-team/interview-questions"
+    },
+    {
+      "repo_id": 121125679,
+      "name": "LeetCode-OpenSource/vscode-leetcode"
+    },
+    {
+      "repo_id": 58509963,
+      "name": "xcatliu/typescript-tutorial"
+    },
+    {
+      "repo_id": 129860458,
+      "name": "phobal/ivideo"
+    },
+    {
+      "repo_id": 82682940,
+      "name": "chenshenhai/koa2-note"
+    },
+    {
+      "repo_id": 124361555,
+      "name": "ProtoTeam/blog"
+    },
+    {
+      "repo_id": 135614069,
+      "name": "sudheerj/reactjs-interview-questions"
+    },
+    {
+      "repo_id": 41167393,
+      "name": "icepy/Front-End-Develop-Guide"
+    },
+    {
+      "repo_id": 78076226,
+      "name": "webpack-china/awesome-webpack-cn"
+    },
+    {
+      "repo_id": 63418718,
+      "name": "521xueweihan/git-tips"
+    },
+    {
+      "repo_id": 65395768,
+      "name": "DMQ/mvvm"
+    },
+    {
+      "repo_id": 62879525,
+      "name": "Louiszhai/tool"
+    },
+    {
+      "repo_id": 58032138,
+      "name": "yjhjstz/deep-into-node"
+    },
+    {
+      "repo_id": 173675448,
+      "name": "EtherDream/jsproxy"
+    },
+    {
+      "repo_id": 152870372,
+      "name": "ruanyf/weekly"
+    },
+    {
+      "repo_id": 169529567,
+      "name": "zhaoolee/ChromeAppHeroes"
+    },
+    {
+      "repo_id": 127407957,
+      "name": "azl397985856/leetcode"
+    },
+    {
+      "repo_id": 128624453,
+      "name": "NervJS/taro"
+    },
+    {
+      "repo_id": 181200364,
+      "name": "jaywcjlove/github-rank"
+    },
+    {
+      "repo_id": 54978788,
+      "name": "jaywcjlove/FED"
+    },
+    {
+      "repo_id": 13431235,
+      "name": "soulmachine/leetcode"
+    },
+    {
+      "repo_id": 150058902,
+      "name": "wangzheng0822/algo"
+    },
+    {
+      "repo_id": 56392153,
+      "name": "hk029/leetbook"
+    },
+    {
+      "repo_id": 78425501,
+      "name": "javaswing/NeteaseCloudWebApp"
+    },
+    {
+      "repo_id": 84811466,
+      "name": "mqyqingfeng/Blog"
+    },
+    {
+      "repo_id": 104079562,
+      "name": "trazyn/ieaseMusic"
+    },
+    {
+      "repo_id": 42352603,
+      "name": "jimuyouyou/node-interview-questions"
+    },
+    {
+      "repo_id": 58836534,
+      "name": "algorithm-visualizer/algorithm-visualizer"
+    },
+    {
+      "repo_id": 118610450,
+      "name": "stone0090/alibaba-interview"
+    },
+    {
+      "repo_id": 6256729,
+      "name": "JacksonTian/fks"
+    },
+    {
+      "repo_id": 63568049,
+      "name": "DDFE/DDFE-blog"
+    },
+    {
+      "repo_id": 89577951,
+      "name": "answershuto/learnVue"
+    },
+    {
+      "repo_id": 72754314,
+      "name": "chyingp/nodejs-learning-guide"
+    },
+    {
+      "repo_id": 178124673,
+      "name": "ygs-code/vue"
+    },
+    {
+      "repo_id": 181807583,
+      "name": "haizlin/fe-interview"
+    },
+    {
+      "repo_id": 19453715,
+      "name": "nonstriater/Learn-Algorithms"
+    },
+    {
+      "repo_id": 196664359,
+      "name": "xiaolai/regular-investing-in-box"
+    },
+    {
+      "repo_id": 203130239,
+      "name": "ruanyf/free-books"
+    },
+    {
+      "repo_id": 40422990,
+      "name": "lessfish/leetcode"
+    },
+    {
+      "repo_id": 177272363,
+      "name": "ConardLi/awesome-coding-js"
+    },
+    {
+      "repo_id": 196552074,
+      "name": "azl397985856/fe-interview"
+    },
+    {
+      "repo_id": 207837082,
+      "name": "perkfly/reverse-interview-zh"
+    },
+    {
+      "repo_id": 237403566,
+      "name": "biaochenxuying/awesome-books"
+    },
+    {
+      "repo_id": 90796663,
+      "name": "puppeteer/puppeteer"
+    },
+    {
+      "repo_id": 54346799,
+      "name": "public-apis/public-apis"
+    },
+    {
+      "repo_id": 307106512,
+      "name": "FrontEndGitHub/FrontEndGitHub"
+    },
+    {
+      "repo_id": 244779423,
+      "name": "SocialSisterYi/bilibili-API-collect"
+    },
+    {
+      "repo_id": 354498261,
+      "name": "biaochenxuying/preferential-courses"
+    },
+    {
+      "repo_id": 63938423,
+      "name": "shfshanyue/blog"
+    },
+    {
+      "repo_id": 172234286,
+      "name": "ruochuan12/blog"
+    },
+    {
+      "repo_id": 218952250,
+      "name": "shfshanyue/Daily-Question"
+    },
+    {
+      "repo_id": 337237194,
+      "name": "mechaniac/Map-of-Javascript"
+    },
+    {
+      "repo_id": 3402537,
+      "name": "h5bp/Front-end-Developer-Interview-Questions"
+    },
+    {
+      "repo_id": 61715431,
+      "name": "Binaryify/NeteaseCloudMusicApi"
+    },
+    {
+      "repo_id": 227978903,
+      "name": "vueuse/vueuse"
+    },
+    {
+      "repo_id": 61137153,
+      "name": "evanw/esbuild"
+    },
+    {
+      "repo_id": 358508682,
+      "name": "juicecube/mshared"
+    },
+    {
+      "repo_id": 37066088,
+      "name": "jorangreef/sudo-prompt"
+    },
+    {
+      "repo_id": 120278854,
+      "name": "yygmind/blog"
+    },
+    {
+      "repo_id": 85541218,
+      "name": "ascoders/weekly"
+    },
+    {
+      "repo_id": 58520024,
+      "name": "FrankFang/best-chinese-front-end-blogs"
+    },
+    {
+      "repo_id": 72103891,
+      "name": "ruanyf/jstraining"
+    },
+    {
+      "repo_id": 140561004,
+      "name": "kawhiGuo/kawhiGuo.github.io"
+    },
+    {
+      "repo_id": 45512989,
+      "name": "xitu/gold-miner"
+    },
+    {
+      "repo_id": 72188885,
+      "name": "Brooooooklyn/learning-rxjs"
+    },
+    {
+      "repo_id": 22046023,
+      "name": "facebookarchive/flux"
+    },
+    {
+      "repo_id": 29785166,
+      "name": "voronianski/flux-comparison"
+    },
+    {
+      "repo_id": 41526025,
+      "name": "mzlogin/chinese-copywriting-guidelines"
+    },
+    {
+      "repo_id": 137583435,
+      "name": "adam-golab/react-developer-roadmap"
+    },
+    {
+      "repo_id": 35998691,
+      "name": "electron-userland/electron-builder"
+    },
+    {
+      "repo_id": 29375063,
+      "name": "decaffeinate/decaffeinate"
+    },
+    {
+      "repo_id": 74791366,
+      "name": "ryanmcdermott/clean-code-javascript"
+    },
+    {
+      "repo_id": 125791597,
+      "name": "InterviewMap/CS-Interview-Knowledge-Map"
+    },
+    {
+      "repo_id": 50502690,
+      "name": "sequelize/sequelize-typescript"
+    },
+    {
+      "repo_id": 90786593,
+      "name": "microsoft/TypeScript-Vue-Starter"
+    },
+    {
+      "repo_id": 112285264,
+      "name": "oe/mac-env"
+    },
+    {
+      "repo_id": 16229580,
+      "name": "livoras/blog"
+    },
+    {
+      "repo_id": 112507086,
+      "name": "Chalarangelo/30-seconds-of-code"
+    },
+    {
+      "repo_id": 115748714,
+      "name": "wotermelon/toJump"
+    },
+    {
+      "repo_id": 15308499,
+      "name": "SortableJS/Sortable"
+    },
+    {
+      "repo_id": 62104779,
+      "name": "SortableJS/Vue.Draggable"
+    },
+    {
+      "repo_id": 55619351,
+      "name": "sagalbot/vue-sortable"
+    },
+    {
+      "repo_id": 23689830,
+      "name": "yeasy/docker_practice"
+    },
+    {
+      "repo_id": 50559652,
+      "name": "hilongjw/vue-progressbar"
+    },
+    {
+      "repo_id": 61421257,
+      "name": "eggjs/egg"
+    },
+    {
+      "repo_id": 16346957,
+      "name": "koajs/jwt"
+    },
+    {
+      "repo_id": 4297695,
+      "name": "zemirco/json2csv"
+    },
+    {
+      "repo_id": 56642714,
+      "name": "dominhhai/koa-log4js"
+    },
+    {
+      "repo_id": 14741526,
+      "name": "STRML/node-xlsx-writestream"
+    },
+    {
+      "repo_id": 9207396,
+      "name": "functionscope/Node-Excel-Export"
+    },
+    {
+      "repo_id": 8467117,
+      "name": "mgcrea/node-xlsx"
+    },
+    {
+      "repo_id": 48212104,
+      "name": "ustbhuangyi/better-scroll"
+    },
+    {
+      "repo_id": 790359,
+      "name": "sequelize/sequelize"
+    },
+    {
+      "repo_id": 1283503,
+      "name": "request/request"
+    },
+    {
+      "repo_id": 44008404,
+      "name": "i5ting/vsc"
+    },
+    {
+      "repo_id": 79780572,
+      "name": "ElemeFE/node-interview"
+    },
+    {
+      "repo_id": 11551538,
+      "name": "koajs/koa"
+    },
+    {
+      "repo_id": 68908781,
+      "name": "xwartz/wechat-app-demo"
+    },
+    {
+      "repo_id": 55888708,
+      "name": "lessfish/underscore-analysis"
+    }
+  ],
+  "pilot": [
+    578822531,
+    663900193,
+    227978903,
+    99401299,
+    35810174,
+    90786593,
+    561730219,
+    58509963,
+    1061953414,
+    63539055,
+    65395768,
+    29785166
+  ]
+}

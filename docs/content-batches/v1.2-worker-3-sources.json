@@ -1,0 +1,874 @@
+[
+  {
+    "repo_id": 62879525,
+    "name": "Louiszhai/tool",
+    "url": "https://github.com/Louiszhai/tool/blob/master/README.md",
+    "sha": "0ba05edc186060e0335e387b4f9d9d03680bf8a7",
+    "bytes": 15771,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 58032138,
+    "name": "yjhjstz/deep-into-node",
+    "url": "https://github.com/yjhjstz/deep-into-node/blob/master/README.md",
+    "sha": "81c3ce200d32575a981ccd86f66c3d833e9a6c4c",
+    "bytes": 2594,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 173675448,
+    "name": "EtherDream/jsproxy",
+    "url": "https://github.com/EtherDream/jsproxy/blob/master/README.md",
+    "sha": "18afc46c27eb9556e88730441e38440bc1534984",
+    "bytes": 5412,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 152870372,
+    "name": "ruanyf/weekly",
+    "url": "https://github.com/ruanyf/weekly/blob/master/README.md",
+    "sha": "763783a0f281cabe882fe50e197e8ae7af3418ae",
+    "bytes": 29063,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 169529567,
+    "name": "zhaoolee/ChromeAppHeroes",
+    "url": "https://github.com/zhaoolee/ChromeAppHeroes/blob/master/README.md",
+    "sha": "088b2761ac3af043157a79ca2ea422f875d70d24",
+    "bytes": 92199,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 127407957,
+    "name": "azl397985856/leetcode",
+    "url": "https://github.com/azl397985856/leetcode/blob/master/README.md",
+    "sha": "784f6b9ae950c0f36d6781f0d68d9ec19bfb4c4f",
+    "bytes": 42329,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 128624453,
+    "name": "NervJS/taro",
+    "url": "https://github.com/NervJS/taro/blob/main/README.md",
+    "sha": "dc4d67ffe43c9a4fb18c0c0e231e0b020eb823db",
+    "bytes": 10048,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 181200364,
+    "name": "jaywcjlove/github-rank",
+    "url": "https://github.com/jaywcjlove/github-rank/blob/master/README.md",
+    "sha": "006bed42d79766d1ce72fd0112204d9befca0380",
+    "bytes": 14738,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 54978788,
+    "name": "jaywcjlove/FED",
+    "url": "https://github.com/jaywcjlove/FED/blob/gh-pages/README.md",
+    "sha": "4da4ddf68957783217e2ad56649ece52526a7960",
+    "bytes": 9375,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 13431235,
+    "name": "soulmachine/leetcode",
+    "url": "https://github.com/soulmachine/leetcode/blob/master/README.md",
+    "sha": "9af9ce21be68cad352be5b2c16f549f72ecb448e",
+    "bytes": 1699,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 150058902,
+    "name": "wangzheng0822/algo",
+    "url": "https://github.com/wangzheng0822/algo/blob/master/README.md",
+    "sha": "107cb375ed9a64b0674528478bf3dfab56993fc1",
+    "bytes": 2732,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 56392153,
+    "name": "hk029/leetbook",
+    "url": "https://github.com/hk029/leetbook/blob/master/README.md",
+    "sha": "fe3f12c752464920e4a4141d22212ece25e0c895",
+    "bytes": 6937,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 78425501,
+    "name": "javaswing/NeteaseCloudWebApp",
+    "url": "https://github.com/javaswing/NeteaseCloudWebApp/blob/master/README.md",
+    "sha": "bf463ab767afbe2ef278320b80cbf54baa2f32b1",
+    "bytes": 1535,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 84811466,
+    "name": "mqyqingfeng/Blog",
+    "url": "https://github.com/mqyqingfeng/Blog/blob/master/README.md",
+    "sha": "39e2287d6d3424de390f89cc2e1f8d9c68e8c262",
+    "bytes": 28095,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 104079562,
+    "name": "trazyn/ieaseMusic",
+    "url": "https://github.com/trazyn/ieaseMusic/blob/master/README.md",
+    "sha": "bb94e3f0ac6da760f8a593011bb3b8a2949e5a60",
+    "bytes": 7352,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 42352603,
+    "name": "jimuyouyou/node-interview-questions",
+    "url": "https://github.com/jimuyouyou/node-interview-questions/blob/master/README.md",
+    "sha": "527126017c0bf98ae865008aa97d28a5f828e881",
+    "bytes": 28459,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 58836534,
+    "name": "algorithm-visualizer/algorithm-visualizer",
+    "url": "https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/README.md",
+    "sha": "b0d311411b252107007bd5c84094ce9cb390e95a",
+    "bytes": 3280,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 118610450,
+    "name": "stone0090/alibaba-interview",
+    "url": "https://github.com/stone0090/alibaba-interview/blob/master/README.md",
+    "sha": "ff8249ea16b51b1d530eb2c901f807d0bc7c99b3",
+    "bytes": 3343,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 6256729,
+    "name": "JacksonTian/fks",
+    "url": "https://github.com/JacksonTian/fks/blob/master/README.md",
+    "sha": "9021281699ffc7eb54d2b356e36fe4ee6173cb4f",
+    "bytes": 20399,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 63568049,
+    "name": "DDFE/DDFE-blog",
+    "url": "https://github.com/DDFE/DDFE-blog/blob/master/README.md",
+    "sha": "75a08494d5a06c687b0f201a5ad00aeda844ded2",
+    "bytes": 5201,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 89577951,
+    "name": "answershuto/learnVue",
+    "url": "https://github.com/answershuto/learnVue/blob/master/README.md",
+    "sha": "a0dc92cf2d5eae26537f31704bcd5cc1e2d14162",
+    "bytes": 2623,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 72754314,
+    "name": "chyingp/nodejs-learning-guide",
+    "url": "https://github.com/chyingp/nodejs-learning-guide/blob/master/README.md",
+    "sha": "a5e61b5a8859734e798f7011b40155a6e3982fca",
+    "bytes": 3652,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 178124673,
+    "name": "ygs-code/vue",
+    "url": "https://github.com/ygs-code/vue/blob/master/README.md",
+    "sha": "a2dc62527901af479c31d3c012a6d403f00c3c45",
+    "bytes": 59805,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 181807583,
+    "name": "haizlin/fe-interview",
+    "url": "https://github.com/haizlin/fe-interview/blob/master/README.md",
+    "sha": "8ea308207edcf37548417270e5359623a0ed1adb",
+    "bytes": 9297,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 19453715,
+    "name": "nonstriater/Learn-Algorithms",
+    "url": "https://github.com/nonstriater/Learn-Algorithms/blob/master/README.md",
+    "sha": "ee2e848fcb29ca2aa99c32e5ae4cb7ae25f4fd27",
+    "bytes": 8849,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 196664359,
+    "name": "xiaolai/regular-investing-in-box",
+    "url": "https://github.com/xiaolai/regular-investing-in-box/blob/master/README.md",
+    "sha": "717ff8458ddecd48f2621a0e77fa5f50ead6db67",
+    "bytes": 8247,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 203130239,
+    "name": "ruanyf/free-books",
+    "url": "https://github.com/ruanyf/free-books/blob/master/README.md",
+    "sha": "4fc68d25828c140dd8986675c004cfd722e49669",
+    "bytes": 20206,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 40422990,
+    "name": "lessfish/leetcode",
+    "url": "https://github.com/lessfish/leetcode/blob/master/readme.md",
+    "sha": "82a34cf693f6567c57856f79bab6ced25922601a",
+    "bytes": 128791,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 177272363,
+    "name": "ConardLi/awesome-coding-js",
+    "url": "https://github.com/ConardLi/awesome-coding-js/blob/master/README.md",
+    "sha": "9e21bc8bd876a0202ffd0cef014e67d1f4da0ab9",
+    "bytes": 14495,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 196552074,
+    "name": "azl397985856/fe-interview",
+    "url": "https://github.com/azl397985856/fe-interview/blob/master/README.md",
+    "sha": "df6ab144c2331069c25998469e3ec8a05aa78b6e",
+    "bytes": 5882,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 207837082,
+    "name": "perkfly/reverse-interview-zh",
+    "url": "https://github.com/perkfly/reverse-interview-zh/blob/master/README.md",
+    "sha": "8d233b9232c41cf1bafc9455b150e1c3d1c5ea26",
+    "bytes": 11758,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 237403566,
+    "name": "biaochenxuying/awesome-books",
+    "url": "https://github.com/biaochenxuying/awesome-books/blob/master/README.md",
+    "sha": "c474ddec6855689bee6647db963cb4daad049b6a",
+    "bytes": 57764,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 90796663,
+    "name": "puppeteer/puppeteer",
+    "url": "https://github.com/puppeteer/puppeteer/blob/main/README.md",
+    "sha": "2424293b5688dbec4f2407a3326fb54d086b6527",
+    "bytes": 3013,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 54346799,
+    "name": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis/blob/master/README.md",
+    "sha": "e8fb410a114f5f4bd1d91544f6bd16d2aa85ae02",
+    "bytes": 247314,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 307106512,
+    "name": "FrontEndGitHub/FrontEndGitHub",
+    "url": "https://github.com/FrontEndGitHub/FrontEndGitHub/blob/main/README.md",
+    "sha": "e8bd5f5abe3a68aee357d24e85a6e11653011700",
+    "bytes": 63821,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 244779423,
+    "name": "SocialSisterYi/bilibili-API-collect",
+    "url": "https://github.com/SocialSisterYi/bilibili-API-collect/blob/deprecated/README.md",
+    "sha": "8f5f9bc17976452eb5bc905bab52f8ee7738b174",
+    "bytes": 588,
+    "reviewed_at": "2026-09-07",
+    "result": "source_limited",
+    "limitation": "上游永久关停并删除原 API 文档，仅能核查公告。"
+  },
+  {
+    "repo_id": 354498261,
+    "name": "biaochenxuying/preferential-courses",
+    "url": "https://github.com/biaochenxuying/preferential-courses/blob/main/README.md",
+    "sha": "3230295f4195d349d462d992eba8f256c56a61ab",
+    "bytes": 30565,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 63938423,
+    "name": "shfshanyue/blog",
+    "url": "https://github.com/shfshanyue/blog/blob/master/Readme.md",
+    "sha": "661cafcf47ce0f12282a3a73f502658293be4d3e",
+    "bytes": 1984,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 172234286,
+    "name": "ruochuan12/blog",
+    "url": "https://github.com/ruochuan12/blog/blob/main/README.md",
+    "sha": "728a7c7948e3f69732bb52ed5809564d5ea9a6f3",
+    "bytes": 13990,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 218952250,
+    "name": "shfshanyue/Daily-Question",
+    "url": "https://github.com/shfshanyue/Daily-Question/blob/next/README.md",
+    "sha": "14a1b76b9b3590e0e4fd7dcdddb31be1009c8026",
+    "bytes": 8404,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 337237194,
+    "name": "mechaniac/Map-of-Javascript",
+    "url": "https://github.com/mechaniac/Map-of-Javascript/blob/main/README.md",
+    "sha": "a99f64f12dcd768fdf3e92a9eada92ab817dbb7a",
+    "bytes": 753,
+    "supplemental_sources": [
+      {
+        "url": "https://github.com/mechaniac/Map-of-Javascript/blob/main/Javascript_01.jpg",
+        "bytes": 1286000,
+        "sha256": "0679ca8739b0f148b202ad7d620cfc7aac9d0a30bf18964f4c84483ccb47e913"
+      }
+    ],
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 3402537,
+    "name": "h5bp/Front-end-Developer-Interview-Questions",
+    "url": "https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/main/README.md",
+    "sha": "e9e54b4dc8abb0c844e7326375b79e9da2634ddb",
+    "bytes": 49134,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 61715431,
+    "name": "Binaryify/NeteaseCloudMusicApi",
+    "url": "https://github.com/Binaryify/NeteaseCloudMusicApi/blob/master/README.MD",
+    "sha": "ffa1843ad0a55d6a7f33eb400bc6c0026850c23f",
+    "bytes": 149,
+    "reviewed_at": "2026-09-07",
+    "result": "source_limited",
+    "limitation": "上游停止维护且当前 README 无使用契约。"
+  },
+  {
+    "repo_id": 61137153,
+    "name": "evanw/esbuild",
+    "url": "https://github.com/evanw/esbuild/blob/main/README.md",
+    "sha": "08272e6b3db3f5068e876e2c2b13b4e138d5694d",
+    "bytes": 2104,
+    "supplemental_sources": [
+      {
+        "url": "https://esbuild.github.io/getting-started/",
+        "bytes": 55761,
+        "sha256": "c2564ade50f52ffe3b8f52edf8006b0074110d62d28b653275f90811e33e4c95"
+      }
+    ],
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 358508682,
+    "name": "juicecube/mshared",
+    "url": "https://github.com/juicecube/mshared/blob/main/README.md",
+    "sha": "784a4d94a3cb8583d8b781164fff752bb80ad9e7",
+    "bytes": 3828,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 37066088,
+    "name": "jorangreef/sudo-prompt",
+    "url": "https://github.com/jorangreef/sudo-prompt/blob/master/README.md",
+    "sha": "2ae7536ebb8b632c1e1e31a6e00933ca4dbe9590",
+    "bytes": 4190,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 120278854,
+    "name": "yygmind/blog",
+    "url": "https://github.com/yygmind/blog/blob/master/README.md",
+    "sha": "606b949577ce396ae3578c3acacc389160f2d493",
+    "bytes": 5861,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 85541218,
+    "name": "ascoders/weekly",
+    "url": "https://github.com/ascoders/weekly/blob/master/readme.md",
+    "sha": "72137e775deb4f7deb8abc1f1b3a08f4736e1a6d",
+    "bytes": 52842,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 58520024,
+    "name": "FrankFang/best-chinese-front-end-blogs",
+    "url": "https://github.com/FrankFang/best-chinese-front-end-blogs/blob/master/README.md",
+    "sha": "6e27b4c8c6206da7bea0ebb08f06e126d931b0f3",
+    "bytes": 2608,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 72103891,
+    "name": "ruanyf/jstraining",
+    "url": "https://github.com/ruanyf/jstraining/blob/master/README.md",
+    "sha": "1489b155095f1ba8b1c28ccc1dd2b4954f2c97fa",
+    "bytes": 1172,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 140561004,
+    "name": "kawhiGuo/kawhiGuo.github.io",
+    "url": "https://github.com/kawhiGuo/kawhiGuo.github.io/blob/master/README.md",
+    "sha": "bd1d29624730bbc575ef6a5076cc42fbefaf1aab",
+    "bytes": 6700,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 45512989,
+    "name": "xitu/gold-miner",
+    "url": "https://github.com/xitu/gold-miner/blob/master/README.md",
+    "sha": "72ace35a8b9ed310e07bdb5f281154cc9eceae86",
+    "bytes": 13399,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 72188885,
+    "name": "Brooooooklyn/learning-rxjs",
+    "url": "https://github.com/Brooooooklyn/learning-rxjs/blob/master/README.md",
+    "sha": "c1e21f248657e26532203dd609356503d7e90052",
+    "bytes": 3462,
+    "supplemental_sources": [
+      {
+        "url": "https://github.com/Brooooooklyn/learning-rxjs/blob/master/package.json",
+        "bytes": 2172,
+        "sha256": "9de302aceeb309d603c273649f8fa849816b12078a8c38596affa060ce4f81b4",
+        "sha": "191b0562592770e35ff3f4a288175ad55c600b1f"
+      }
+    ],
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 22046023,
+    "name": "facebookarchive/flux",
+    "url": "https://github.com/facebookarchive/flux/blob/main/README.md",
+    "sha": "5ac15ec82e976fd98f09b457a98399584d2af38b",
+    "bytes": 3980,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 41526025,
+    "name": "mzlogin/chinese-copywriting-guidelines",
+    "url": "https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.md",
+    "sha": "a379944d68d4b59505fff689d5e024e76a3b9615",
+    "bytes": 11759,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 137583435,
+    "name": "adam-golab/react-developer-roadmap",
+    "url": "https://github.com/adam-golab/react-developer-roadmap/blob/master/README.md",
+    "sha": "bf0fdc8e59699b3edefdc1e6bec1556574d4da4b",
+    "bytes": 8488,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 35998691,
+    "name": "electron-userland/electron-builder",
+    "url": "https://github.com/electron-userland/electron-builder/blob/master/README.md",
+    "sha": "1b78192b333f8abb3d930c163cf56d65d4c98617",
+    "bytes": 11487,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 29375063,
+    "name": "decaffeinate/decaffeinate",
+    "url": "https://github.com/decaffeinate/decaffeinate/blob/main/README.md",
+    "sha": "dd90a14dc52a7fb69887c33d81afad481a80f259",
+    "bytes": 12504,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 74791366,
+    "name": "ryanmcdermott/clean-code-javascript",
+    "url": "https://github.com/ryanmcdermott/clean-code-javascript/blob/master/README.md",
+    "sha": "f1159781a14931d4e24c19a37cc5ab4d62780d7c",
+    "bytes": 58545,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 125791597,
+    "name": "InterviewMap/CS-Interview-Knowledge-Map",
+    "url": "https://github.com/InterviewMap/CS-Interview-Knowledge-Map/blob/master/README.md",
+    "sha": "fe8b3a5212b73939fc334c06f74f30ec3e3f90a2",
+    "bytes": 3375,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 50502690,
+    "name": "sequelize/sequelize-typescript",
+    "url": "https://github.com/sequelize/sequelize-typescript/blob/master/README.md",
+    "sha": "be9411d9ac30687c8343fd94d1dfd8994e4284e0",
+    "bytes": 35642,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 112285264,
+    "name": "oe/mac-env",
+    "url": "https://github.com/oe/mac-env/blob/master/readme.md",
+    "sha": "cbfea34c3eabbf73c166f12b2708762daaec5243",
+    "bytes": 409,
+    "supplemental_sources": [
+      {
+        "url": "https://github.com/oe/mac-env/blob/master/src/index.sh",
+        "bytes": 2931,
+        "sha256": "e0ff7ac9ca16c7716fb70455054a6beda29b0e15915f215985231d28db7a8a45",
+        "sha": "41d996840709b581b145164534c84ec43cd42415"
+      }
+    ],
+    "reviewed_at": "2026-09-07",
+    "result": "source_limited",
+    "limitation": "README 所指根级安装脚本不存在；源码仅执行选项回显，未形成可核查安装流程。"
+  },
+  {
+    "repo_id": 16229580,
+    "name": "livoras/blog",
+    "url": "https://github.com/livoras/blog/blob/home/README.md",
+    "sha": "2a89487d585a6ffbdddeba061470b1794327d39d",
+    "bytes": 312,
+    "supplemental_sources": [
+      {
+        "url": "https://github.com/livoras/blog/issues/13",
+        "bytes": 18358,
+        "sha256": "e6ac59e16c1bd08157462e6f1044e72ebc31f8bb9d56814b9e870d5b9bb5cce7",
+        "updated_at": "2018-08-21T03:16:36Z"
+      },
+      {
+        "url": "https://github.com/livoras/blog/issues/25",
+        "bytes": 8969,
+        "sha256": "2b592236176816d20223da9e0999c0d29ed67e7ce67cf25b1cd91bdb3bfbac5a",
+        "updated_at": "2025-06-21T17:52:11Z"
+      }
+    ],
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 112507086,
+    "name": "Chalarangelo/30-seconds-of-code",
+    "url": "https://github.com/Chalarangelo/30-seconds-of-code/blob/master/README.md",
+    "sha": "ee297cc3bdced7bb73ee3ee24bc90a4a2b4d1a5a",
+    "bytes": 1540,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 115748714,
+    "name": "wotermelon/toJump",
+    "url": "https://github.com/wotermelon/toJump/blob/master/README.md",
+    "sha": "937867ddb64325b9ab39e8c9e83d5908e247370a",
+    "bytes": 1340,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 15308499,
+    "name": "SortableJS/Sortable",
+    "url": "https://github.com/SortableJS/Sortable/blob/master/README.md",
+    "sha": "c95740711a406371f7cfdce728a5ce0eca187133",
+    "bytes": 27298,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 62104779,
+    "name": "SortableJS/Vue.Draggable",
+    "url": "https://github.com/SortableJS/Vue.Draggable/blob/master/README.md",
+    "sha": "cdc4e5441d4c627a24b5e4c39729b8e49238b895",
+    "bytes": 13451,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 55619351,
+    "name": "sagalbot/vue-sortable",
+    "url": "https://github.com/sagalbot/vue-sortable/blob/master/README.md",
+    "sha": "cad00c20ad3cfc2dfbc1f3d1eb860563264aa110",
+    "bytes": 2794,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 23689830,
+    "name": "yeasy/docker_practice",
+    "url": "https://github.com/yeasy/docker_practice/blob/master/README.md",
+    "sha": "91fce072471c36fc49df160954f65d84f18588b8",
+    "bytes": 6821,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 50559652,
+    "name": "hilongjw/vue-progressbar",
+    "url": "https://github.com/hilongjw/vue-progressbar/blob/master/README.md",
+    "sha": "74685c7487f5e83c76bbee262674b6130d48017c",
+    "bytes": 7749,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 61421257,
+    "name": "eggjs/egg",
+    "url": "https://github.com/eggjs/egg/blob/next/README.md",
+    "sha": "030f0d1ac9e55913fc798eef8f4f492741fc75f2",
+    "bytes": 5991,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 16346957,
+    "name": "koajs/jwt",
+    "url": "https://github.com/koajs/jwt/blob/master/README.md",
+    "sha": "9b7d2258b7b0dc9c912fc0c9e93f3e176957160f",
+    "bytes": 10621,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 4297695,
+    "name": "zemirco/json2csv",
+    "url": "https://github.com/zemirco/json2csv/blob/master/README.md",
+    "sha": "f575327d50aa34030b8cb24c81bc3f269cee4cd1",
+    "bytes": 1315,
+    "supplemental_sources": [
+      {
+        "url": "https://github.com/juanjoDiaz/json2csv/blob/main/README.md",
+        "bytes": 4171,
+        "sha256": "8300c5c7f44e21ee31f0705abe6978d4c778f7ecf8d50f5fcc98fb8e0bc2e4e0"
+      },
+      {
+        "url": "https://github.com/juanjoDiaz/json2csv/blob/main/packages/plainjs/README.md",
+        "bytes": 11058,
+        "sha256": "861a4b36b84c4c6c9eae3415c2ab2c3feca85359f1be1e4227040394893545ac"
+      }
+    ],
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 56642714,
+    "name": "dominhhai/koa-log4js",
+    "url": "https://github.com/dominhhai/koa-log4js/blob/v2.x/README.md",
+    "sha": "a611508466e4facacb5bcaf3c361b48ee8f2afeb",
+    "bytes": 2402,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 14741526,
+    "name": "STRML/node-xlsx-writestream",
+    "url": "https://github.com/STRML/node-xlsx-writestream/blob/master/README.md",
+    "sha": "dd6755a783b49e72eb8f846659954469daf4a76e",
+    "bytes": 6652,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 9207396,
+    "name": "functionscope/Node-Excel-Export",
+    "url": "https://github.com/functionscope/Node-Excel-Export/blob/master/Readme.md",
+    "sha": "089a6d846b7d47225bdf37fcbe7998d00f09d546",
+    "bytes": 3419,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 8467117,
+    "name": "mgcrea/node-xlsx",
+    "url": "https://github.com/mgcrea/node-xlsx/blob/master/README.md",
+    "sha": "08c063acb1221e8f41d2dee4a51916c91cdf5db0",
+    "bytes": 6093,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 48212104,
+    "name": "ustbhuangyi/better-scroll",
+    "url": "https://github.com/ustbhuangyi/better-scroll/blob/dev/README.md",
+    "sha": "279da682a140512ccd51d6d33d5019c6950eb28a",
+    "bytes": 7398,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 790359,
+    "name": "sequelize/sequelize",
+    "url": "https://github.com/sequelize/sequelize/blob/main/README.md",
+    "sha": "e011b37e803db67101e6ca5b9552756f19f99b61",
+    "bytes": 4838,
+    "supplemental_sources": [
+      {
+        "url": "https://github.com/sequelize/website/blob/main/versioned_docs/version-6.x.x/getting-started.md",
+        "bytes": 5256,
+        "sha256": "c5e0dc7247bad1a17b61329d6dc2753b0cc44d4fafb09ef70120a26149cb394e",
+        "sha": "0dbe00148db0e70f2425fc0600c3a579747efd30"
+      }
+    ],
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 1283503,
+    "name": "request/request",
+    "url": "https://github.com/request/request/blob/master/README.md",
+    "sha": "42290d5cea4d858158f12122e403df04165aaa2a",
+    "bytes": 46386,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 44008404,
+    "name": "i5ting/vsc",
+    "url": "https://github.com/i5ting/vsc/blob/master/README.md",
+    "sha": "fc8f350551be44f5debced870cca2f0ddec7e591",
+    "bytes": 48858,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 79780572,
+    "name": "ElemeFE/node-interview",
+    "url": "https://github.com/ElemeFE/node-interview/blob/master/README.md",
+    "sha": "642306f03e67257d48795c0b5d414ba3081dac40",
+    "bytes": 1049,
+    "supplemental_sources": [
+      {
+        "url": "https://github.com/ElemeFE/node-interview/blob/master/sections/zh-cn/README.md",
+        "bytes": 14469,
+        "sha256": "154571b3c90e62959329af9d7f4abcd49f07740b427f03dd673d9610619333fa",
+        "sha": "a564c04a520486d2231d393feaf121ac3717da4c"
+      },
+      {
+        "url": "https://github.com/ElemeFE/node-interview/blob/master/sections/zh-cn/event-async.md",
+        "bytes": 10242,
+        "sha256": "f56368609c146fa29f9d23264096b148b9010682bac230256ebcc23e2d76dca7",
+        "sha": "4a5b2727d4a14454bf022f34f20559ab988b6e9b"
+      }
+    ],
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 11551538,
+    "name": "koajs/koa",
+    "url": "https://github.com/koajs/koa/blob/master/Readme.md",
+    "sha": "689d4abebf329e90e6eae566b8d03ea8fbed1e28",
+    "bytes": 16969,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 68908781,
+    "name": "xwartz/wechat-app-demo",
+    "url": "https://github.com/xwartz/wechat-app-demo/blob/master/README.md",
+    "sha": "34be5ca0496436f6229074f5b586538bad191d81",
+    "bytes": 441,
+    "supplemental_sources": [
+      {
+        "url": "https://github.com/xwartz/wechat-app-demo/blob/master/app.json",
+        "bytes": 3753,
+        "sha256": "1ad390c0c239940223f75da851db02039f899c1005aa45da49215a763923f0f7",
+        "sha": "fccc41ef8578b9a8cf4a8ca5c81933ee8b591b38"
+      },
+      {
+        "url": "https://github.com/xwartz/wechat-app-demo/blob/master/app.js",
+        "bytes": 224,
+        "sha256": "eeefeb7192eb7d925f95dffbc789075fd88829d2ac142ca040665e91a34f4818",
+        "sha": "0da74a293ada699738509f5b281c9013e6641c8d"
+      },
+      {
+        "url": "https://github.com/xwartz/wechat-app-demo/blob/master/fix.md",
+        "bytes": 7664,
+        "sha256": "399b3f5b66e6af883c5ccd7b182e81a3ae0955c7b20e2d843d65b3822b853187",
+        "sha": "9d3bd3bc1b5b450125cddbaf68c1212d7e41e770"
+      },
+      {
+        "url": "https://github.com/xwartz/wechat-app-demo/blob/master/page/API/storage/storage.js",
+        "bytes": 1133,
+        "sha256": "809289efba9706ef614ac7d1e4bb6a757a191bea6732b7f23dbbd284636739ed",
+        "sha": "67822050e0ec2fe3d6f18bb3f27fa5268386dc70"
+      }
+    ],
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  },
+  {
+    "repo_id": 55888708,
+    "name": "lessfish/underscore-analysis",
+    "url": "https://github.com/lessfish/underscore-analysis/blob/master/README.md",
+    "sha": "be3338c51e77cb6fbfb56c1de2d8f8b757401bbb",
+    "bytes": 3623,
+    "reviewed_at": "2026-09-07",
+    "result": "guide_written"
+  }
+]

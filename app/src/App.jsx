@@ -9,7 +9,7 @@ import { AboutView } from "./views/AboutView.jsx";
 import { DetailView } from "./views/DetailView.jsx";
 import { HomeView } from "./views/HomeView.jsx";
 import { InboxView } from "./views/InboxView.jsx";
-import { LearningView } from "./views/LearningView.jsx";
+import { HistoryView } from "./views/HistoryView.jsx";
 import { LibraryView } from "./views/LibraryView.jsx";
 import { NotFoundView } from "./views/NotFoundView.jsx";
 
@@ -17,7 +17,7 @@ export function App() {
   const [catalog, setCatalog] = useState(null);
   const [loadError, setLoadError] = useState("");
   const [loadAttempt, setLoadAttempt] = useState(0);
-  const { route, updateRoute, onDirtyChange } = useNavigation((next) => catalog && next.view === "inbox" ? getInboxState(catalog.repositories, next).route : next);
+  const { route, updateRoute, onDirtyChange, returnToBrowse } = useNavigation((next) => catalog && next.view === "inbox" ? getInboxState(catalog.repositories, next).route : next);
 
   useEffect(() => {
     let active = true;
@@ -34,6 +34,13 @@ export function App() {
   }, [catalog, route, updateRoute]);
 
   useEffect(() => {
+    if (!catalog || !window.location.hash) return;
+    let id;
+    try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+    document.getElementById(id)?.scrollIntoView();
+  }, [catalog, route.repo]);
+
+  useEffect(() => {
     const focusSearch = (event) => {
       if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
         event.preventDefault();
@@ -44,26 +51,25 @@ export function App() {
     return () => window.removeEventListener("keydown", focusSearch);
   }, []);
 
-  const navigate = (view, patch = {}) => updateRoute({ view, ...patch });
+  const navigate = (view, patch = {}) => updateRoute({ ...defaultRoute, view, ...(view === "history" ? { source: "all" } : {}), ...patch });
   const openRepo = (repoOrId) => {
     const repoId = typeof repoOrId === "object" ? repoOrId.repoId : repoOrId;
-    navigate("detail", { repo: String(repoId) });
+    updateRoute({ view: "detail", repo: String(repoId) });
   };
-  const openCuration = (repo) => navigate("curation", { repo: String(repo.repoId) });
+  const openCuration = (repo) => updateRoute({ view: "curation", repo: String(repo.repoId) });
   const openLibrary = (patch = {}) => navigate("library", { ...defaultRoute, view: "library", ...patch });
 
   const repositories = catalog?.repositories || [];
-  const inboxCount = repositories.filter((repo) => repo.stage === "inbox" && repo.sourceStatus === "starred").length;
   const selectedRepo = repositories.find((repo) => String(repo.repoId) === route.repo || repo.name === route.repo);
 
   let content = null;
   if (catalog) {
     if (route.view === "home") content = <HomeView catalog={catalog} onOpenRepo={openRepo} onOpenLibrary={openLibrary} onNavigate={navigate} />;
     else if (route.view === "inbox") content = <InboxView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} onDirtyChange={onDirtyChange} />;
-    else if (route.view === "learning") content = <LearningView catalog={catalog} onOpenRepo={openRepo} onOpenLibrary={openLibrary} onOpenCuration={openCuration} />;
-    else if (route.view === "detail") content = selectedRepo ? <DetailView repo={selectedRepo} repositories={repositories} onBack={() => navigate("library")} onOpenRepo={openRepo} onOpenCuration={openCuration} /> : <NotFoundView onBack={() => navigate("library")} />;
+    else if (route.view === "history") content = <HistoryView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} />;
+    else if (route.view === "detail") content = selectedRepo ? <DetailView repo={selectedRepo} repositories={repositories} onBack={returnToBrowse} onOpenRepo={openRepo} onOpenCuration={openCuration} /> : <NotFoundView onBack={() => navigate("library")} />;
     else if (route.view === "curation") content = selectedRepo ? <CurationView repo={selectedRepo} catalog={catalog} onOpenRepo={openRepo} onDirtyChange={onDirtyChange} /> : <NotFoundView onBack={() => navigate("library")} />;
-    else if (route.view === "about") content = <AboutView catalog={catalog} />;
+    else if (route.view === "about") content = <AboutView catalog={catalog} onNavigate={navigate} />;
     else content = <LibraryView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} />;
   }
 
@@ -71,13 +77,12 @@ export function App() {
     <div className="app-shell">
       <Header
         view={route.view}
-        inboxCount={inboxCount}
         onNavigate={(view) => navigate(view)}
         query={route.q}
         onQueryChange={(q) => updateRoute({ q }, "replace")}
         onSearch={(event) => {
           event.preventDefault();
-          navigate("library", { category: "all", stage: "all", type: "all", language: "all", tag: "all", source: "starred", archive: "active" });
+          if (!["library", "history"].includes(route.view)) navigate("library", { q: route.q });
         }}
       />
       {!catalog && !loadError && <main className="loading-layout" role="status" aria-label="正在装订项目特刊"><div className="loading-title" /><div className="loading-columns"><span /><span /><span /></div></main>}

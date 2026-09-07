@@ -25,21 +25,16 @@ def render(catalog: dict) -> str:
         START,
         "## 自动生成的项目索引",
         "",
-        f"> 最近成功检查：`{catalog['checkedAt']}` · 当前公开 Stars：**{catalog['stats']['active']}** · 已人工整理：**{catalog['stats']['curated']}**",
-        "",
-        "### 学习阶段",
+        f"> 最近成功检查：`{catalog['checkedAt']}` · 当前公开 Stars：**{catalog['stats']['active']}** · 已分类：**{catalog['stats']['curated']}**",
         "",
     ]
-    for stage in catalog["stages"]:
-        count = sum(repo["stage"] == stage["id"] and repo["sourceStatus"] == "starred" for repo in catalog["repositories"])
-        lines.append(f"- {stage['label']}：{count}")
     for category in catalog["categories"]:
         repos = [repo for repo in active if repo["category"] == category["id"]]
         if not repos:
             continue
         lines.extend(["", f"### {category['label']}（{len(repos)}）", ""])
         for repo in repos:
-            description = clean_text(repo["note"] or repo["description"])
+            description = clean_text(repo["summary"] or repo["description"])
             lines.append(f"- [{repo['name']}]({repo['url']}) — {description}")
     lines.extend(["", END])
     return "\n".join(lines)

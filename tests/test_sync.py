@@ -136,5 +136,28 @@ class SyncTests(unittest.TestCase):
         self.assertTrue(any("必须是 public" in error for error in validate_snapshot(snapshot)))
 
 
+
+class SyncBaselineCliTests(unittest.TestCase):
+    def test_explicit_previous_preserves_first_seen(self):
+        import subprocess
+        from star_vault import stable_json, read_json
+        fetched = load_fixture_pages(ROOT / 'tests/fixtures/github/stable')
+        baseline, _ = reconcile_snapshot(None, fetched.items, username='jiapeiyang', api_version='2022-11-28', checked_at='2026-09-01T00:00:00Z', pages=fetched.pages)
+        with tempfile.TemporaryDirectory() as directory:
+            previous = Path(directory) / 'previous.json'
+            output = Path(directory) / 'current.json'
+            previous.write_text(stable_json(baseline))
+            subprocess.run([sys.executable, str(ROOT/'scripts/sync_stars.py'), '--previous', str(previous), '--output', str(output), '--fixture-dir', str(ROOT/'tests/fixtures/github/stable'), '--now', '2026-09-07T00:00:00Z'], check=True, capture_output=True)
+            current = read_json(output)
+            self.assertEqual([r['first_seen_at'] for r in current['repositories']], [r['first_seen_at'] for r in baseline['repositories']])
+
+    def test_missing_explicit_previous_does_not_write_output(self):
+        import subprocess
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / 'current.json'
+            result = subprocess.run([sys.executable, str(ROOT/'scripts/sync_stars.py'), '--previous', str(Path(directory)/'missing.json'), '--output', str(output)], capture_output=True)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertFalse(output.exists())
+
 if __name__ == "__main__":
     unittest.main()
