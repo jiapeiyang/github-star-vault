@@ -57,7 +57,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-07T08:57:18Z` · 当前公开 Stars：**287** · 已分类：**287**
+> 最近成功检查：`2026-09-07T12:27:24Z` · 当前公开 Stars：**288** · 已分类：**287**
 
 
 ### AI 与 Agent（31）
@@ -370,5 +370,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — 将价值投资的商业、财务、风险与长期判断组织成多种研究技能和公开报告的框架。
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
+
+### 待分类（1）
+
+- [Rion-Wu-tech/wechat-intelligence-hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) — Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity track…
 
 <!-- STAR_VAULT:CATALOG:END -->
