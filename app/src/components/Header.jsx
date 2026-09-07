@@ -11,7 +11,7 @@ export function Header({ view, onNavigate, query, onQueryChange, onSearch }) {
     return () => window.removeEventListener("keydown", closeOnEscape);
   }, [menuOpen]);
   const navigate = (next) => { setMenuOpen(false); onNavigate(next); };
-  const items = [["home", "首页"], ["library", "项目库"], ["history", "收藏回顾"], ["about", "关于"]];
+  const items = [["home", "首页"], ["library", "项目库"], ["history", "收藏回顾"], ["topics", "用途专题"], ["about", "关于"]];
 
   return (
     <header className="magazine-header">

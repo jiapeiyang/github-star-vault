@@ -7,7 +7,8 @@ export function InboxView({ catalog, route, onRouteChange, onOpenRepo, onDirtyCh
   const state = getInboxState(catalog.repositories, route);
   const move = (patch) => onRouteChange({ repo: "", ...patch });
   return <main className="workspace-page"><header className="workspace-hero"><div><p>仓库资料 · 内容维护</p><h1>补充仓库资料</h1></div><div className="workspace-summary"><strong>{state.queues.unclassified.length}</strong><span>个项目待分类<br />另有 {state.queues.undescribed.length} 个待补充解读</span></div></header>
-    <div className="inbox-mode-tabs">{[["unclassified", "待分类"], ["undescribed", "待补介绍"], ["all", "全部资料"]].map(([queue, label]) => <button key={queue} className={state.queue === queue ? "is-active" : ""} type="button" onClick={() => move({ queue, queuePage: "1", queueQuery: "" })}>{label} {state.queues[queue].length}</button>)}</div>
+    <div className="inbox-mode-tabs">{[["unclassified", "待分类"], ["undescribed", "待补介绍"], ["review", "来源待核查"], ["limited", "资料受限"], ["all", "全部资料"]].map(([queue, label]) => <button key={queue} className={state.queue === queue ? "is-active" : ""} type="button" onClick={() => move({ queue, queuePage: "1", queueQuery: "" })}>{label} {state.queues[queue].length}</button>)}</div>
+    <p className="maintenance-explanation">{catalog.sourcesCheckedAt?`最近来源检查：${formatDate(catalog.sourcesCheckedAt,{hour:"2-digit",minute:"2-digit"})}。`:"尚无来源检查记录。"} README 变化只是复核线索；核对前不修改介绍，也不因普通代码更新判定资料过期。</p>
     <a className="mobile-queue-link" href="#queue-list">选择其他项目 <ArrowDown size={16} /></a>
     <div className="inbox-layout"><aside className="queue-column" id="queue-list"><div className="section-label"><Tray size={19} /><span>{"项目列表"}</span></div>
       <label className="queue-search"><span>搜索当前队列</span><input type="search" value={route.queueQuery} onChange={(event) => move({ queueQuery: event.target.value, queuePage: "1" })} placeholder="仓库名称、描述或标签" /></label>

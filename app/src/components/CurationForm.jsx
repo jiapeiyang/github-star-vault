@@ -1,3 +1,5 @@
+import { SourceNotice } from "./SourceNotice.jsx";
+import { RepoLink } from "./RepoLink.jsx";
 import { useEffect, useState } from "react";
 import { ArrowUpRight, ClipboardText, DownloadSimple, Plus, X } from "@phosphor-icons/react";
 import { buildCurationTemplate, formChanged, initialCurationForm, validateCuration } from "../domain/curation.js";
@@ -46,7 +48,8 @@ export function CurationForm({ repo, catalog, onOpenRepo, onDirtyChange }) {
   };
 
   return <form className="curation-form" noValidate onSubmit={(event) => { event.preventDefault(); exportFile("download"); }}>
-    <div className="curation-heading"><div><span>{repo.curation ? "修改资料文件" : "新建资料文件"}</span><h2>{repo.name}</h2><p>{repo.description}</p></div><button className="text-link" type="button" onClick={() => onOpenRepo(repo.repoId)}>查看详情 <ArrowUpRight size={16} /></button></div>
+    <div className="curation-heading"><div><span>{repo.curation ? "修改资料文件" : "新建资料文件"}</span><h2>{repo.name}</h2><p>{repo.description}</p></div><RepoLink className="text-link" repoId={repo.repoId} onOpen={onOpenRepo}>查看详情 <ArrowUpRight size={16} /></RepoLink></div>
+    <SourceNotice repo={repo}/>
     {error("file")}
     <div className="curation-grid">
       <label><span>主分类</span><select value={form.category} onChange={(event) => change({ category: event.target.value })} {...fieldProps("category")}>{catalog.categories.map((item) => <option value={item.id} key={item.id}>{item.label}</option>)}</select>{error("category")}</label>

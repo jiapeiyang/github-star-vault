@@ -8,8 +8,9 @@ const catalog = { categories: [{ id: "ai-agent" }], resourceTypes: [{ id: "colle
 const repo = { repoId: 101, name: "example/alpha", category: "ai-agent", resourceTypeId: "collection", personalArchived: true, tags: ["规范,结构", "原样标签"], summary: ' 原始 "内容" \\ 路径\n第二行\t\u0001\u007f\u0085 ', relatedRepoIds: [103], language: "Python", contentMarkdown: "## 仓库介绍\n\n- 清理副作用并保留资料正文。\n\n```js\nconst x = '<safe>';\n```\n", contentUpdatedAt: "2026-09-01", sources: ["https://example.com/docs"], curation: { unsupportedFields: [] } };
 
 test("unchanged export preserves summary, all tags, body, relations and original date in real Python parser", () => {
-  const form = initialCurationForm(repo);
-  const output = buildCurationTemplate(repo, form, "2026-09-05");
+  const item={...repo,relatedNotes:{"103":'用 "不同" 的方式\\读取'},guideStatus:"limited",guideLimitation:"上游资料不可访问",reviewedReadmeSha:"a".repeat(40),reviewedAt:"2026-09-05",contentMarkdown:["它是什么","适合什么场景","如何开始","一个使用示例","注意事项与相关项目","资料来源"].map(t=>`## ${t}\n说明。\n`).join("\n")};
+  const form = initialCurationForm(item);
+  const output = buildCurationTemplate(item, form, "2026-09-05");
   const root = fileURLToPath(new URL("../../", import.meta.url));
   const result = execFileSync("python3", ["-c", `
 import json,sys,tempfile
@@ -28,7 +29,11 @@ with tempfile.TemporaryDirectory() as directory:
   const parsed = JSON.parse(result);
   assert.equal(parsed.summary, repo.summary);
   assert.deepEqual(parsed.tags, repo.tags);
-  assert.equal(parsed.contentMarkdown, repo.contentMarkdown);
+  assert.equal(parsed.contentMarkdown, item.contentMarkdown);
+  assert.deepEqual(parsed.relatedNotes,item.relatedNotes);
+  assert.equal(parsed.guideStatus,"limited");
+  assert.equal(parsed.guideLimitation,item.guideLimitation);
+  assert.equal(parsed.reviewedReadmeSha,item.reviewedReadmeSha);
   assert.deepEqual(parsed.relatedRepoIds, [103]);
   assert.equal(parsed.contentUpdatedAt, "2026-09-01");
   assert.equal(parsed.personalArchived, true);

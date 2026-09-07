@@ -1,0 +1,350 @@
+{
+  "baseline": "c5a1c43",
+  "method": "v1.2原始资料与默认收藏排序，对比v1.3当前资料与默认相关性排序；人工冻结20个已收录目标。",
+  "items": [
+    {
+      "query": "koa",
+      "expected": "koajs/koa",
+      "maxRank": 1,
+      "beforeRank": 8,
+      "afterRank": 1,
+      "beforeTop5": [
+        "koala73/worldmonitor",
+        "chenshenhai/koa2-note",
+        "ruochuan12/blog",
+        "Brooooooklyn/learning-rxjs",
+        "eggjs/egg"
+      ],
+      "afterTop5": [
+        "koajs/koa",
+        "chenshenhai/koa2-note",
+        "dominhhai/koa-log4js",
+        "koala73/worldmonitor",
+        "koajs/jwt"
+      ],
+      "pass": true
+    },
+    {
+      "query": "nanoid",
+      "expected": "ai/nanoid",
+      "maxRank": 1,
+      "beforeRank": 1,
+      "afterRank": 1,
+      "beforeTop5": [
+        "ai/nanoid"
+      ],
+      "afterTop5": [
+        "ai/nanoid"
+      ],
+      "pass": true
+    },
+    {
+      "query": "json2csv",
+      "expected": "zemirco/json2csv",
+      "maxRank": 1,
+      "beforeRank": 1,
+      "afterRank": 1,
+      "beforeTop5": [
+        "zemirco/json2csv"
+      ],
+      "afterTop5": [
+        "zemirco/json2csv"
+      ],
+      "pass": true
+    },
+    {
+      "query": "swc",
+      "expected": "swc-project/swc",
+      "maxRank": 1,
+      "beforeRank": 1,
+      "afterRank": 1,
+      "beforeTop5": [
+        "swc-project/swc",
+        "webpack-china/awesome-webpack-cn"
+      ],
+      "afterTop5": [
+        "swc-project/swc",
+        "webpack-china/awesome-webpack-cn"
+      ],
+      "pass": true
+    },
+    {
+      "query": "vueuse",
+      "expected": "vueuse/vueuse",
+      "maxRank": 1,
+      "beforeRank": 1,
+      "afterRank": 1,
+      "beforeTop5": [
+        "vueuse/vueuse"
+      ],
+      "afterTop5": [
+        "vueuse/vueuse"
+      ],
+      "pass": true
+    },
+    {
+      "query": "solid",
+      "expected": "solidjs/solid",
+      "maxRank": 1,
+      "beforeRank": 1,
+      "afterRank": 1,
+      "beforeTop5": [
+        "solidjs/solid",
+        "sveltejs/svelte",
+        "ryanmcdermott/clean-code-javascript"
+      ],
+      "afterTop5": [
+        "solidjs/solid",
+        "sveltejs/svelte",
+        "ryanmcdermott/clean-code-javascript"
+      ],
+      "pass": true
+    },
+    {
+      "query": "svelte",
+      "expected": "sveltejs/svelte",
+      "maxRank": 1,
+      "beforeRank": 2,
+      "afterRank": 1,
+      "beforeTop5": [
+        "solidjs/solid",
+        "sveltejs/svelte",
+        "mqyqingfeng/Blog"
+      ],
+      "afterTop5": [
+        "sveltejs/svelte",
+        "solidjs/solid",
+        "mqyqingfeng/Blog"
+      ],
+      "pass": true
+    },
+    {
+      "query": "mshared",
+      "expected": "juicecube/mshared",
+      "maxRank": 1,
+      "beforeRank": 1,
+      "afterRank": 1,
+      "beforeTop5": [
+        "juicecube/mshared"
+      ],
+      "afterTop5": [
+        "juicecube/mshared"
+      ],
+      "pass": true
+    },
+    {
+      "query": "herdr",
+      "expected": "herdrdev/herdr",
+      "maxRank": 1,
+      "beforeRank": 3,
+      "afterRank": 1,
+      "beforeTop5": [
+        "kunchenguid/firstmate",
+        "tmux/tmux",
+        "herdrdev/herdr",
+        "stablyai/orca",
+        "Hmbown/Codewhale"
+      ],
+      "afterTop5": [
+        "herdrdev/herdr",
+        "EtherDream/jsproxy",
+        "alvinunreal/oh-my-opencode-slim",
+        "kunchenguid/firstmate",
+        "tmux/tmux"
+      ],
+      "pass": true
+    },
+    {
+      "query": "impeccable",
+      "expected": "pbakaus/impeccable",
+      "maxRank": 1,
+      "beforeRank": 1,
+      "afterRank": 1,
+      "beforeTop5": [
+        "pbakaus/impeccable",
+        "nextlevelbuilder/ui-ux-pro-max-skill"
+      ],
+      "afterTop5": [
+        "pbakaus/impeccable",
+        "nextlevelbuilder/ui-ux-pro-max-skill"
+      ],
+      "pass": true
+    },
+    {
+      "query": "archify",
+      "expected": "tt-a1i/archify",
+      "maxRank": 1,
+      "beforeRank": 3,
+      "afterRank": 1,
+      "beforeTop5": [
+        "yzfly/awesome-skills-zh",
+        "yizhiyanhua-ai/fireworks-tech-graph",
+        "tt-a1i/archify"
+      ],
+      "afterTop5": [
+        "tt-a1i/archify",
+        "yzfly/awesome-skills-zh",
+        "yizhiyanhua-ai/fireworks-tech-graph"
+      ],
+      "pass": true
+    },
+    {
+      "query": "文字识别",
+      "expected": "opendatalab/MinerU",
+      "maxRank": 3,
+      "beforeRank": null,
+      "afterRank": 1,
+      "beforeTop5": [],
+      "afterTop5": [
+        "opendatalab/MinerU",
+        "virgiliojr94/book-to-skill"
+      ],
+      "pass": true
+    },
+    {
+      "query": "字体 终端",
+      "expected": "subframe7536/maple-font",
+      "maxRank": 3,
+      "beforeRank": 2,
+      "afterRank": 1,
+      "beforeTop5": [
+        "dembrandt/dembrandt",
+        "subframe7536/maple-font"
+      ],
+      "afterTop5": [
+        "subframe7536/maple-font",
+        "dembrandt/dembrandt"
+      ],
+      "pass": true
+    },
+    {
+      "query": "截图 前端",
+      "expected": "abi/screenshot-to-code",
+      "maxRank": 3,
+      "beforeRank": 6,
+      "afterRank": 1,
+      "beforeTop5": [
+        "boyang-hu/website-rebuild-skill",
+        "pbakaus/impeccable",
+        "code-yeongyu/oh-my-openagent",
+        "msitarzewski/agency-agents",
+        "Leonxlnx/taste-skill"
+      ],
+      "afterTop5": [
+        "abi/screenshot-to-code",
+        "pbakaus/impeccable",
+        "Leonxlnx/taste-skill",
+        "boyang-hu/website-rebuild-skill",
+        "youngwind/blog"
+      ],
+      "pass": true
+    },
+    {
+      "query": "钉钉 命令行",
+      "expected": "DingTalk-Real-AI/dingtalk-workspace-cli",
+      "maxRank": 3,
+      "beforeRank": 1,
+      "afterRank": 1,
+      "beforeTop5": [
+        "DingTalk-Real-AI/dingtalk-workspace-cli"
+      ],
+      "afterTop5": [
+        "DingTalk-Real-AI/dingtalk-workspace-cli"
+      ],
+      "pass": true
+    },
+    {
+      "query": "小说 cli",
+      "expected": "voocel/ainovel-cli",
+      "maxRank": 3,
+      "beforeRank": 1,
+      "afterRank": 1,
+      "beforeTop5": [
+        "voocel/ainovel-cli"
+      ],
+      "afterTop5": [
+        "voocel/ainovel-cli"
+      ],
+      "pass": true
+    },
+    {
+      "query": "ppt 可编辑",
+      "expected": "hugohe3/ppt-master",
+      "maxRank": 5,
+      "beforeRank": 3,
+      "afterRank": 2,
+      "beforeTop5": [
+        "chuspeeism/dashi-ppt-skill",
+        "helloianneo/ian-xiaohei-illustrations",
+        "hugohe3/ppt-master",
+        "op7418/guizang-ppt-skill",
+        "alchaincyf/huashu-design"
+      ],
+      "afterTop5": [
+        "chuspeeism/dashi-ppt-skill",
+        "hugohe3/ppt-master",
+        "op7418/guizang-ppt-skill",
+        "alchaincyf/huashu-design",
+        "helloianneo/ian-xiaohei-illustrations"
+      ],
+      "pass": true
+    },
+    {
+      "query": "智能体 教程",
+      "expected": "datawhalechina/hello-agents",
+      "maxRank": 5,
+      "beforeRank": 1,
+      "afterRank": 2,
+      "beforeTop5": [
+        "datawhalechina/hello-agents"
+      ],
+      "afterTop5": [
+        "bojieli/ai-agent-book",
+        "datawhalechina/hello-agents",
+        "libukai/awesome-agent-skills",
+        "shareAI-lab/learn-claude-code",
+        "shanraisshan/claude-code-best-practice"
+      ],
+      "pass": true
+    },
+    {
+      "query": "Mac 清理",
+      "expected": "tw93/Mole",
+      "maxRank": 3,
+      "beforeRank": 1,
+      "afterRank": 1,
+      "beforeTop5": [
+        "tw93/Mole",
+        "qingchencloud/cftunnel"
+      ],
+      "afterTop5": [
+        "tw93/Mole",
+        "qingchencloud/cftunnel",
+        "juicecube/mshared"
+      ],
+      "pass": true
+    },
+    {
+      "query": "工作流 审查",
+      "expected": "fengshao1227/ccg-workflow",
+      "maxRank": 5,
+      "beforeRank": 5,
+      "afterRank": 1,
+      "beforeTop5": [
+        "ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+        "block/buzz",
+        "tt-a1i/archify",
+        "git-ai-project/git-ai",
+        "fengshao1227/ccg-workflow"
+      ],
+      "afterTop5": [
+        "fengshao1227/ccg-workflow",
+        "obra/superpowers",
+        "ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+        "shanraisshan/claude-code-best-practice",
+        "mindfold-ai/Trellis"
+      ],
+      "pass": true
+    }
+  ]
+}

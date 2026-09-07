@@ -31,3 +31,11 @@ test("switch, search, invalid pages and missing selections resolve consistently"
   assert.equal(empty.route.repo, "");
   assert.equal(getInboxState(repos, { ...route, queue: "all" }).total, 65);
 });
+
+test("maintenance queues distinguish missing guides, changed sources and limited materials", () => {
+ const items=repos.slice(0,4).map((r,i)=>({...r,hasGuide:i!==0,guideStatus:i===3?"limited":"ready",sourceCheck:i===1?{status:"changed"}:i===2?{status:"unavailable"}:{status:"unchanged"}}));
+ const queues=getInboxState(items,route).queues;
+ assert.deepEqual(queues.undescribed.map(r=>r.repoId),[1]);
+ assert.deepEqual(queues.review.map(r=>r.repoId),[2,3]);
+ assert.deepEqual(queues.limited.map(r=>r.repoId),[4]);
+});

@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "nanoid",
+    "url": "https://github.com/ai/nanoid/blob/main/README.md",
+    "sha": "28211a08552c3fb47b8bafacdaa23a981fd7570d",
+    "bytes": 13612
+  },
+  {
+    "slug": "json2csv",
+    "url": "https://github.com/juanjoDiaz/json2csv/blob/main/packages/plainjs/README.md",
+    "sha": "d2ceddf3e09cadd6086a942147c529198c45cd33",
+    "bytes": 11058
+  },
+  {
+    "slug": "koa",
+    "url": "https://github.com/koajs/koa/blob/master/Readme.md",
+    "sha": "689d4abebf329e90e6eae566b8d03ea8fbed1e28",
+    "bytes": 16969
+  },
+  {
+    "slug": "sequelize",
+    "url": "https://github.com/sequelize/website/blob/main/versioned_docs/version-6.x.x/core-concepts/model-instances.md",
+    "sha": "ac11e48cbaa49b4a4119f1711dcb0c26abfa4d8d",
+    "bytes": 7869
+  },
+  {
+    "slug": "node-xlsx",
+    "url": "https://github.com/mgcrea/node-xlsx/blob/master/README.md",
+    "sha": "08c063acb1221e8f41d2dee4a51916c91cdf5db0",
+    "bytes": 6093
+  },
+  {
+    "slug": "vueuse",
+    "url": "https://github.com/vueuse/vueuse/blob/main/packages/shared/useCounter/index.md",
+    "sha": "325483e472d3f379af89b6a7da6da2d009ab4dd3",
+    "bytes": 356
+  },
+  {
+    "slug": "solid",
+    "url": "https://github.com/solidjs/solid/blob/main/README.md",
+    "sha": "df3be7fe50e0638f2bf3443c16bf2c2d53481c87",
+    "bytes": 14297
+  },
+  {
+    "slug": "svelte",
+    "url": "https://github.com/sveltejs/svelte/blob/main/README.md",
+    "sha": "7ea71647521ae850fd0933665f94760806ac5b29",
+    "bytes": 1730
+  },
+  {
+    "slug": "mshared",
+    "url": "https://github.com/juicecube/mshared/blob/main/README.md",
+    "sha": "784a4d94a3cb8583d8b781164fff752bb80ad9e7",
+    "bytes": 3828
+  },
+  {
+    "slug": "swc",
+    "url": "https://swc.rs/docs/usage/core",
+    "bytes": 181278,
+    "sha256": "2497b47ebf50dd910f70704aeaf0e86157aebaac168785ac71dd54bbd49ca42c"
+  },
+  {
+    "slug": "svelte-compiler",
+    "url": "https://svelte.dev/docs/svelte/svelte-compiler",
+    "bytes": 486658,
+    "sha256": "1483c3bb6bfc698776e4e3aa9c4132a995cd22c91d11793abad96aaea4d21730"
+  },
+  {
+    "slug": "svelte-server",
+    "url": "https://svelte.dev/docs/svelte/svelte-server",
+    "bytes": 133830,
+    "sha256": "c9b5413fffad0d9cbdf0707bbf347a66c8c50ef940ba843724caa59fe84625c2"
+  },
+  {
+    "slug": "vueuse-counter-source",
+    "url": "https://github.com/vueuse/vueuse/blob/main/packages/shared/useCounter/index.ts",
+    "sha": "b4604bf40a5c0609a164afa38fd42329cf8cc968",
+    "bytes": 1793
+  },
+  {
+    "slug": "koa-context",
+    "url": "https://github.com/koajs/koa/blob/master/docs/api/context.md",
+    "sha": "0e12ad9a69461ebd42e388e76abb48b0f2921dc8",
+    "bytes": 7582
+  },
+  {
+    "slug": "mshared-source",
+    "url": "https://github.com/juicecube/mshared/blob/main/src/shared.ts",
+    "sha": "23f094c3e218fed6a525da9c80f6477c84d367bd",
+    "bytes": 2802
+  },
+  {
+    "slug": "solid-memo-source",
+    "url": "https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/signal.ts",
+    "sha": "ccce841785f31ca0e74875528807693c06c2a82b",
+    "bytes": 60103
+  }
+]

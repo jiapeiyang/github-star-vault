@@ -1,23 +1,16 @@
 const calendar = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" });
 export function collectionDate(value) { return calendar.format(new Date(value)); }
-export function queryWords(query = "") { return [...new Set(query.trim().toLocaleLowerCase("zh-CN").split(/\s+/).filter(Boolean))]; }
-export function searchText(repo) {
-  return [repo.name, repo.owner, repo.description, repo.summary, repo.language, repo.categoryLabel, repo.resourceType, repo.contentMarkdown, ...(repo.topics || []), ...(repo.tags || [])].join(" ").toLocaleLowerCase("zh-CN");
-}
-export function matchExcerpt(repo, query) {
-  const words = queryWords(query);
-  const summary = repo.summary || repo.description || "";
-  if (!words.length || words.some(word => summary.toLowerCase().includes(word))) return summary;
-  const body = (repo.contentMarkdown || "").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/[#*`>]/g, "").replace(/\s+/g, " ").trim();
-  const index = body.toLowerCase().search(new RegExp(words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|"), "i"));
-  if (index < 0) return summary;
-  const start = Math.max(0, index - 35);
-  return `${start ? "…" : ""}${body.slice(start, start + 170)}${body.length > start + 170 ? "…" : ""}`;
-}
+export { queryWords } from "./search.js";
+import { queryGroups, scoreRepository, searchMatch } from "./search.js";
+export function matchExcerpt(repo, query) { return searchMatch(repo, query).text; }
 export function filterRepositories(repositories, route) {
-  const words = queryWords(route.q);
+  const groups = queryGroups(route.q);
+  const scores = new Map();
+  const sort = route.sort === "auto" || !route.sort ? (groups.length ? "relevance" : "starred") : route.sort;
   return repositories.filter(repo => {
     const date = collectionDate(repo.starredAt);
+    const score = scoreRepository(repo, groups, route.q);
+    scores.set(repo.repoId, score);
     return (route.source === "all" || repo.sourceStatus === route.source)
       && (route.archive === "all" || (route.archive === "active" && !repo.personalArchived) || (route.archive === "github" && repo.archived) || (route.archive === "personal" && repo.personalArchived))
       && (route.category === "all" || repo.category === route.category)
@@ -28,9 +21,11 @@ export function filterRepositories(repositories, route) {
       && (!route.from || date >= route.from) && (!route.to || date <= route.to)
       && (!route.coverage || route.coverage === "all" || (route.coverage === "ready" ? repo.hasGuide : !repo.hasGuide))
       && (!route.origin || route.origin === "all" || !repo.initialImport)
-      && (!words.length || words.every(word => searchText(repo).includes(word)));
+      && score >= 0;
   }).sort((a, b) => {
-    const diff = route.sort === "stars" ? b.stars - a.stars : route.sort === "updated" ? new Date(b.pushedAt) - new Date(a.pushedAt) : new Date(b.starredAt) - new Date(a.starredAt);
+    const relevance = sort === "relevance" && groups.length ? scores.get(b.repoId) - scores.get(a.repoId) : 0;
+    if (relevance) return relevance;
+    const diff = sort === "stars" ? b.stars - a.stars : sort === "updated" ? new Date(b.pushedAt) - new Date(a.pushedAt) : new Date(b.starredAt) - new Date(a.starredAt);
     return diff || a.repoId - b.repoId;
   });
 }

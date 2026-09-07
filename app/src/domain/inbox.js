@@ -3,7 +3,7 @@ import { defaultRoute } from "./routing.js";
 export const QUEUE_PAGE_SIZE = 30;
 export function getInboxState(repositories, route) {
   const active = repositories.filter(r => r.sourceStatus === "starred" && !r.personalArchived);
-  const queues = { unclassified: active.filter(r => r.category === "unclassified"), undescribed: active.filter(r => !r.hasGuide), all: active };
+  const queues = { unclassified: active.filter(r => r.category === "unclassified"), undescribed: active.filter(r => !r.hasGuide), review: active.filter(r => ["changed","unavailable"].includes(r.sourceCheck?.status)), limited: active.filter(r => r.guideStatus === "limited"), all: active };
   const queue = Object.hasOwn(queues, route.queue) ? route.queue : "unclassified";
   const candidates = filterRepositories(queues[queue], { ...defaultRoute, q: route.queueQuery || "" });
   const pages = Math.max(1, Math.ceil(candidates.length / QUEUE_PAGE_SIZE));

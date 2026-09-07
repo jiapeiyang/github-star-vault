@@ -60,6 +60,11 @@ export function buildCurationTemplate(repo, form, today = localDate()) {
     `tags = [${form.tags.map(tomlString).join(", ")}]`, `summary = ${tomlString(form.summary)}`,
     `related = [${(repo.relatedRepoIds || []).join(", ")}]`,
   ];
+  if (Object.keys(repo.relatedNotes || {}).length) header.push(`related_notes = { ${Object.entries(repo.relatedNotes).map(([id,note])=>`${tomlString(id)} = ${tomlString(note)}`).join(", ")} }`);
+  if (repo.guideStatus === "limited") {
+    header.push(`guide_status = "limited"`, `guide_limitation = ${tomlString(repo.guideLimitation)}`);
+  }
+  if (repo.reviewedReadmeSha) header.push(`reviewed_readme_sha = ${tomlString(repo.reviewedReadmeSha)}`);
   if (date !== null && date !== undefined) header.push(`content_updated_at = ${tomlString(date)}`);
   if (repo.reviewedAt) header.push(`reviewed_at = ${tomlString(repo.reviewedAt)}`);
   if (repo.sources?.length) header.push(`sources = [${repo.sources.map(tomlString).join(", ")}]`);

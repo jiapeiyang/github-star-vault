@@ -1,0 +1,21 @@
+{
+  "name": "star-vault-v13-public-examples",
+  "private": true,
+  "type": "module",
+  "description": "只复制到临时目录复验，不作为 Star Vault 应用依赖。",
+  "dependencies": {
+    "nanoid": "6.0.1",
+    "@json2csv/plainjs": "7.0.8",
+    "koa": "3.2.1",
+    "sequelize": "6.37.8",
+    "mysql2": "3.24.3",
+    "node-xlsx": "0.21.2",
+    "@swc/core": "1.16.2",
+    "@vueuse/core": "14.4.0",
+    "vue": "3.5.42",
+    "solid-js": "1.9.15",
+    "svelte": "5.57.0",
+    "mshared": "0.0.4",
+    "react": "16.14.0"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {"query":"koa","expected":"koajs/koa","maxRank":1},
+  {"query":"nanoid","expected":"ai/nanoid","maxRank":1},
+  {"query":"json2csv","expected":"zemirco/json2csv","maxRank":1},
+  {"query":"swc","expected":"swc-project/swc","maxRank":1},
+  {"query":"vueuse","expected":"vueuse/vueuse","maxRank":1},
+  {"query":"solid","expected":"solidjs/solid","maxRank":1},
+  {"query":"svelte","expected":"sveltejs/svelte","maxRank":1},
+  {"query":"mshared","expected":"juicecube/mshared","maxRank":1},
+  {"query":"herdr","expected":"herdrdev/herdr","maxRank":1},
+  {"query":"impeccable","expected":"pbakaus/impeccable","maxRank":1},
+  {"query":"archify","expected":"tt-a1i/archify","maxRank":1},
+  {"query":"文字识别","expected":"opendatalab/MinerU","maxRank":3},
+  {"query":"字体 终端","expected":"subframe7536/maple-font","maxRank":3},
+  {"query":"截图 前端","expected":"abi/screenshot-to-code","maxRank":3},
+  {"query":"钉钉 命令行","expected":"DingTalk-Real-AI/dingtalk-workspace-cli","maxRank":3},
+  {"query":"小说 cli","expected":"voocel/ainovel-cli","maxRank":3},
+  {"query":"ppt 可编辑","expected":"hugohe3/ppt-master","maxRank":5},
+  {"query":"智能体 教程","expected":"datawhalechina/hello-agents","maxRank":5},
+  {"query":"Mac 清理","expected":"tw93/Mole","maxRank":3},
+  {"query":"工作流 审查","expected":"fengshao1227/ccg-workflow","maxRank":5}
+]

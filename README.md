@@ -4,19 +4,23 @@
 
 ## 当前版本
 
-v1.2A、v1.2B 与冻结范围的 v1.2C 已在本地实现和验收：删除学习系统，加入仓库解读、收藏回顾与检索改进。通过现有 GitHub Pages 流水线发布；部署状态见 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml)。
+v1.3 在 v1.2 的收藏资料库基础上，加入相关性搜索、用途专题、关联说明和来源复核。通过现有 GitHub Pages 流水线发布；线上版本以 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml) 的成功部署记录为准。
 
 - 自动同步公开 Stars，以 repo_id 处理更名、退出公开列表和重新 Star。
-- 项目库支持多词检索、领域/类型/语言/标签/年份/日期组合筛选、命中片段及单项清除。
+- 项目库支持多词检索、人工同义词、相关性排序、组合筛选与命中章节定位；名称和用途优先于正文偶然提及。
 - 收藏回顾按北京时间的年/月浏览已收录记录；详情返回能恢复浏览上下文。
 - 仓库解读包含用途、使用路径、示例、限制与资料来源，提供目录和代码复制。
 - 学习阶段、学习笔记与完成统计已从当前源内容、页面、导出和目录结构中移除。
-- 已整理全部 287 个当前收藏：284 篇用途、使用或资料导航解读，3 篇资料受限的现状说明；所有运行示例均注明未执行。
+- 已整理全部 287 个当前收藏：284 篇用途、使用或资料导航解读，3 篇资料受限的现状说明；10 个仓库新增注明版本的本地验证示例，原示例仍标明未执行。
+- 视频创作、前端设计、Agent 工作流共 3 个专题，各 8 个项目；24 份解读维护关联用途与差异说明。
+- 仓库链接可独立打开并保留查询及章节，详情有独立标题。来源检查区分 README 变化与资料受限，不自动改写解读。
 
 ## 数据职责
 
 - `data/repositories.json`：GitHub 事实，仅同步脚本写入。
 - `content/repos/<repo_id>.md`：人工维护分类、摘要、仓库解读及来源；不包含用户学习阶段。
+- `config/topics.json`：人工维护专题顺序、项目与适用理由。
+- `data/guide-source-check.json`：手动检查命令生成的 README 版本观察，独立于 GitHub Stars 事实与人工解读。
 - `app/public/data/*.json`：构建产物，不手改、不提交。当前 catalog 使用 schemaVersion 2。
 
 网站不新增账号、数据库、在线编辑或后台自动分类服务。资料维护表单只生成文件，导出成功不代表已提交或发布。
@@ -37,6 +41,9 @@ GITHUB_PAGES=true npm --prefix app run build
 
 ## 文档
 
+- [v1.3 计划与验收](DEVELOPMENT_PLAN_V1.3.md)
+- [v1.3 交付与验证](docs/10-v1.3-delivery.md)
+- [10 个公开示例的复验说明](docs/examples/v1.3/README.md)
 - [v1.2 计划与阶段状态](DEVELOPMENT_PLAN_V1.2.md)
 - [仓库资料维护指南](docs/07-curation-guide.md)
 - [v1.2 交付与验证](docs/09-v1.2-delivery.md)

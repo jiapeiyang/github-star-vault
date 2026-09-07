@@ -11,6 +11,7 @@ import { HomeView } from "./views/HomeView.jsx";
 import { InboxView } from "./views/InboxView.jsx";
 import { HistoryView } from "./views/HistoryView.jsx";
 import { LibraryView } from "./views/LibraryView.jsx";
+import { TopicsView } from "./views/TopicsView.jsx";
 import { NotFoundView } from "./views/NotFoundView.jsx";
 
 export function App() {
@@ -34,11 +35,8 @@ export function App() {
   }, [catalog, route, updateRoute]);
 
   useEffect(() => {
-    if (!catalog || !window.location.hash) return;
-    let id;
-    try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
-    document.getElementById(id)?.scrollIntoView();
-  }, [catalog, route.repo]);
+    if (catalog && route.anchor) document.getElementById(route.anchor)?.scrollIntoView({behavior:"instant"});
+  }, [catalog, route]);
 
   useEffect(() => {
     const focusSearch = (event) => {
@@ -52,9 +50,9 @@ export function App() {
   }, []);
 
   const navigate = (view, patch = {}) => updateRoute({ ...defaultRoute, view, ...(view === "history" ? { source: "all" } : {}), ...patch });
-  const openRepo = (repoOrId) => {
+  const openRepo = (repoOrId, anchor = "") => {
     const repoId = typeof repoOrId === "object" ? repoOrId.repoId : repoOrId;
-    updateRoute({ view: "detail", repo: String(repoId) });
+    updateRoute({ view: "detail", repo: String(repoId), anchor });
   };
   const openCuration = (repo) => updateRoute({ view: "curation", repo: String(repo.repoId) });
   const openLibrary = (patch = {}) => navigate("library", { ...defaultRoute, view: "library", ...patch });
@@ -62,12 +60,19 @@ export function App() {
   const repositories = catalog?.repositories || [];
   const selectedRepo = repositories.find((repo) => String(repo.repoId) === route.repo || repo.name === route.repo);
 
+  useEffect(() => {
+    const pageTitles={home:"收藏资料库",library:route.q?`搜索：${route.q}`:"项目库",history:"收藏回顾",topics:catalog?.topics?.find(t=>t.id===route.topic)?.title||"用途专题",about:"关于",inbox:"资料维护"};
+    const title=["detail","curation"].includes(route.view) ? selectedRepo?.name||"仓库详情" : pageTitles[route.view];
+    document.title=`${title || "收藏资料库"} · Star Vault`;
+  },[catalog,route.view,route.repo,route.q,route.topic,selectedRepo?.name]);
+
   let content = null;
   if (catalog) {
     if (route.view === "home") content = <HomeView catalog={catalog} onOpenRepo={openRepo} onOpenLibrary={openLibrary} onNavigate={navigate} />;
     else if (route.view === "inbox") content = <InboxView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} onDirtyChange={onDirtyChange} />;
+    else if (route.view === "topics") content = <TopicsView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo}/>;
     else if (route.view === "history") content = <HistoryView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} />;
-    else if (route.view === "detail") content = selectedRepo ? <DetailView repo={selectedRepo} repositories={repositories} onBack={returnToBrowse} onOpenRepo={openRepo} onOpenCuration={openCuration} /> : <NotFoundView onBack={() => navigate("library")} />;
+    else if (route.view === "detail") content = selectedRepo ? <DetailView repo={selectedRepo} query={route.q} repositories={repositories} onBack={returnToBrowse} onOpenRepo={openRepo} onOpenCuration={openCuration} /> : <NotFoundView onBack={() => navigate("library")} />;
     else if (route.view === "curation") content = selectedRepo ? <CurationView repo={selectedRepo} catalog={catalog} onOpenRepo={openRepo} onDirtyChange={onDirtyChange} /> : <NotFoundView onBack={() => navigate("library")} />;
     else if (route.view === "about") content = <AboutView catalog={catalog} onNavigate={navigate} />;
     else content = <LibraryView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} />;

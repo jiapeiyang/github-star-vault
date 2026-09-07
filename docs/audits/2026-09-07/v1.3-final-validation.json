@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-07",
+  "baseline": "c5a1c43",
+  "branch": "codex/star-vault-v1.3",
+  "pythonTests": 28,
+  "frontendTests": 32,
+  "sitesTests": 4,
+  "searchCases": 20,
+  "topics": 3,
+  "topicRepositories": 24,
+  "relatedNotes": 73,
+  "executedExamples": 10,
+  "sourceChecks": {
+    "unchanged": 284,
+    "changed": 3,
+    "unavailable": 0,
+    "withoutBaseline": 0
+  },
+  "build": "GITHUB_PAGES=true npm --prefix app run build passed",
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "errorWarnCount": 0,
+    "desktopFeedScrollBefore": 985,
+    "afterReturnButton": 985,
+    "afterBrowserBack": 985,
+    "afterNewSearch": 0,
+    "directDetailUrl": true,
+    "nativeModifiedClick": "IAB did not create a tab; not claimed as passed"
+  },
+  "cleanup": {
+    "iabTabs": 0,
+    "ports4180And4181": "closed",
+    "koaPort53002": "closed",
+    "viewportOverride": "reset"
+  },
+  "originalUserImage": "unchanged",
+  "factsAndAppDependencies": "unchanged",
+  "published": false,
+  "committed": false
+}

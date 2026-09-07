@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { contentHighlights } from "../domain/highlight.js";
 import Markdown from "react-markdown";
 import { safeContentUrl, contentHeadings } from "../domain/markdown.js";
 function CodeBlock({children}) {
@@ -12,6 +13,6 @@ const components = {
   img: ({ alt }) => <span className="content-image-placeholder">图片：{alt || "此处不加载远程图片"}</span>,
   pre: CodeBlock,
 };
-export function MarkdownContent({children}) {
-  return <div className="markdown-content"><Markdown skipHtml urlTransform={safeContentUrl} remarkPlugins={[contentHeadings]} components={components}>{children}</Markdown></div>;
+export function MarkdownContent({children, query=""}) {
+  return <div className="markdown-content"><Markdown skipHtml urlTransform={safeContentUrl} remarkPlugins={[contentHeadings, [contentHighlights,{query}]]} components={components}>{children}</Markdown></div>;
 }

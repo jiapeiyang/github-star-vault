@@ -390,7 +390,7 @@ def load_curations(content_dir: Path, snapshot: dict[str, Any], config_dir: Path
     repository_by_id = {repo["repo_id"]: repo for repo in snapshot["repositories"]}
     category_ids = {item["id"] for item in load_enum_config("categories", config_dir)}
     resource_ids = {item["id"] for item in load_enum_config("resource-types", config_dir)}
-    supported = {"repo_id", "category", "resource_type", "tags", "summary", "related", "content_updated_at", "reviewed_at", "sources", "personal_archived"}
+    supported = {"repo_id", "category", "resource_type", "tags", "summary", "related", "content_updated_at", "reviewed_at", "sources", "personal_archived", "related_notes", "guide_status", "guide_limitation", "reviewed_readme_sha"}
     result = {}
     for path in sorted(content_dir.glob("*.md")):
         metadata, body = parse_curation_file(path)
@@ -418,6 +418,21 @@ def load_curations(content_dir: Path, snapshot: dict[str, Any], config_dir: Path
         related = metadata.get("related", [])
         if not isinstance(related, list) or not all(type(v) is int and v in repository_by_id for v in related):
             raise ValidationError(f"{path}: related 必须是存在的 repo_id 数组")
+        notes = metadata.get("related_notes", {})
+        if not isinstance(notes, dict):
+            raise ValidationError(f"{path}: related_notes 必须是关联说明表")
+        if any(k not in {str(v) for v in related} or not isinstance(v, str) or not v.strip() for k, v in notes.items()):
+            raise ValidationError(f"{path}: related_notes 的键必须来自 related，说明不能为空")
+        if repo_id in related or len(related) != len(set(related)):
+            raise ValidationError(f"{path}: related 不能包含自身或重复仓库")
+        if metadata.get("guide_status", "ready") not in {"ready", "limited"}:
+            raise ValidationError(f"{path}: guide_status 必须是 ready 或 limited")
+        limitation = metadata.get("guide_limitation", "")
+        if not isinstance(limitation, str) or (metadata.get("guide_status") == "limited" and not limitation.strip()):
+            raise ValidationError(f"{path}: 资料受限必须说明 guide_limitation")
+        revision = metadata.get("reviewed_readme_sha")
+        if revision is not None and (not isinstance(revision, str) or not re.fullmatch(r"[0-9a-f]{40}", revision)):
+            raise ValidationError(f"{path}: reviewed_readme_sha 必须是 Git blob SHA")
         if type(metadata.get("personal_archived", False)) is not bool:
             raise ValidationError(f"{path}: personal_archived 必须为布尔值")
         content_date(metadata.get("content_updated_at"), str(path))
@@ -435,17 +450,25 @@ def load_curations(content_dir: Path, snapshot: dict[str, Any], config_dir: Path
     return result
 
 
-def make_catalog(snapshot: dict[str, Any], curations: dict[int, dict[str, Any]], config_dir: Path) -> dict[str, Any]:
+def make_catalog(snapshot: dict[str, Any], curations: dict[int, dict[str, Any]], config_dir: Path, *, topics=None, source_checks=None) -> dict[str, Any]:
     categories = load_enum_config("categories", config_dir)
     resources = load_enum_config("resource-types", config_dir)
     category_labels = {item["id"]: item["label"] for item in categories}
     resource_labels = {item["id"]: item["label"] for item in resources}
     repositories = []
+    checks = (source_checks or {}).get("items", {})
     for fact in snapshot["repositories"]:
         c = curations.get(fact["repo_id"], {})
         category = c.get("category", "unclassified")
         resource_type = c.get("resource_type", "unclassified")
         body = c.get("body", "")
+        check = checks.get(fact["repo_id"])
+        if check and (not c.get("sources") or check["source_url"] != c["sources"][0]):
+            check = None
+        if check and c.get("reviewed_readme_sha"):
+            check = {**check, "baseline_sha": c["reviewed_readme_sha"]}
+            if check.get("observed_sha"):
+                check["status"] = "unchanged" if check["observed_sha"] == c["reviewed_readme_sha"] else "changed"
         description = fact.get("description") or "暂无 GitHub 描述。"
         repositories.append({
             "repoId": fact["repo_id"], "name": fact["full_name"], "owner": fact["owner"],
@@ -463,13 +486,17 @@ def make_catalog(snapshot: dict[str, Any], curations: dict[int, dict[str, Any]],
             "contentMarkdown": body, "contentUpdatedAt": c.get("content_updated_at"),
             "reviewedAt": c.get("reviewed_at"), "sources": c.get("sources", []),
             "hasGuide": bool(c.get("reviewed_at")), "relatedRepoIds": c.get("related", []),
+            "relatedNotes": c.get("related_notes", {}), "guideStatus": c.get("guide_status", "ready") if c.get("reviewed_at") else "pending",
+            "guideLimitation": c.get("guide_limitation", ""), "reviewedReadmeSha": c.get("reviewed_readme_sha"),
+            "sourceCheck": check,
             "curation": {"unsupportedFields": c["_unsupported_fields"]} if c else None,
             "suggestion": None,
         })
     active = [r for r in repositories if r["sourceStatus"] == "starred"]
     return {
         "schemaVersion": 2, "githubUsername": snapshot["github_username"], "checkedAt": snapshot["sync"]["checked_at"],
-        "categories": categories, "resourceTypes": resources,
+        "categories": categories, "resourceTypes": resources, "topics": topics or [],
+        "sourcesCheckedAt": (source_checks or {}).get("checked_at"),
         "stats": {"active": len(active), "total": len(repositories),
                   "curated": sum(r["category"] != "unclassified" for r in active),
                   "guides": sum(r["hasGuide"] for r in active),

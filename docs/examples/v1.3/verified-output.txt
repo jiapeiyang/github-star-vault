@@ -1,0 +1,163 @@
+
+=== nanoid ===
+{
+  "bookmark": {
+    "id": "fOgvC9ps6yiv8PDoBIgPY",
+    "title": "HTTP cache guide"
+  },
+  "length": 21,
+  "idPreserved": true,
+  "shortId": "b91de94a7d"
+}
+
+=== json2csv ===
+"name","count"
+"Ada, ""A""",2
+"Lin",0
+
+=== koa ===
+{
+  "input": "/?name=Ada&count=2",
+  "response": {
+    "status": 200,
+    "type": "application/json; charset=utf-8",
+    "example": "local-only",
+    "body": {
+      "greeting": "Hello Ada",
+      "total": 24
+    }
+  },
+  "order": [
+    "before",
+    "handler",
+    "after"
+  ]
+}
+{"port":53002,"listeningAfterClose":false}
+
+=== sequelize ===
+{
+  "initial": {
+    "favoriteColor": "green",
+    "id": null,
+    "name": "Ada"
+  },
+  "edited": {
+    "favoriteColor": "blue",
+    "id": null,
+    "name": "Ada"
+  },
+  "isNewRecord": true
+}
+
+=== node-xlsx ===
+{
+  "isBuffer": true,
+  "sheets": [
+    {
+      "name": "Report",
+      "data": [
+        [
+          "Name",
+          "Count",
+          "Enabled"
+        ],
+        [
+          "Ada",
+          2,
+          true
+        ],
+        [
+          "Lin",
+          0,
+          false
+        ]
+      ]
+    }
+  ]
+}
+
+=== swc ===
+{
+  "input": "const price: number = 12; console.log(price * 2);",
+  "compiled": "const price = 12;\nconsole.log(price * 2);",
+  "output": [
+    24
+  ]
+}
+
+=== vueuse ===
+{
+  "initial": 1,
+  "min": 0,
+  "max": 3,
+  "actions": [
+    "initial",
+    "inc(5)",
+    "dec(10)",
+    "set(2)",
+    "reset()"
+  ],
+  "values": [
+    1,
+    3,
+    0,
+    2,
+    1
+  ]
+}
+
+=== solid ===
+{
+  "inputs": [
+    0,
+    2,
+    2,
+    3
+  ],
+  "doubled": [
+    0,
+    4,
+    4,
+    6
+  ],
+  "memoEvaluations": 3
+}
+
+=== svelte ===
+{
+  "input": {
+    "name": "<Ada>",
+    "count": 2
+  },
+  "html": "<!--[--><p>Hello &lt;Ada>; total: 24</p><!--]-->",
+  "warnings": 0
+}
+
+=== mshared ===
+{
+  "afterUpdate": {
+    "main": {
+      "count": 2
+    },
+    "panel": {
+      "open": false
+    }
+  },
+  "notifications": [
+    {
+      "before": 0,
+      "after": 2
+    }
+  ],
+  "afterUnsubscribe": {
+    "main": {
+      "count": 3
+    },
+    "panel": {
+      "open": false
+    }
+  }
+}
+
+PASS: 10 public examples
