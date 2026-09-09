@@ -57,7 +57,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-09T11:19:06Z` · 当前公开 Stars：**289** · 已分类：**287**
+> 最近成功检查：`2026-09-09T16:36:18Z` · 当前公开 Stars：**290** · 已分类：**287**
 
 
 ### AI 与 Agent（31）
@@ -371,8 +371,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（2）
+### 待分类（3）
 
+- [SpaceZephyr/creator-buddy](https://github.com/SpaceZephyr/creator-buddy) — Creator Buddy: orchestrated Agent Skills for cross-platform content search, creator analysis, and viral trend research
 - [oil-oil/oil-motion](https://github.com/oil-oil/oil-motion) — Create smooth, responsive interactive web animations.
 - [Rion-Wu-tech/wechat-intelligence-hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) — Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity track…
 
