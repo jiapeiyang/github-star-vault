@@ -57,7 +57,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-10T11:15:49Z` · 当前公开 Stars：**290** · 已分类：**287**
+> 最近成功检查：`2026-09-10T16:22:00Z` · 当前公开 Stars：**290** · 已分类：**287**
 
 
 ### AI 与 Agent（31）
@@ -374,7 +374,7 @@ GITHUB_PAGES=true npm --prefix app run build
 ### 待分类（3）
 
 - [SpaceZephyr/creator-buddy](https://github.com/SpaceZephyr/creator-buddy) — Creator Buddy: orchestrated Agent Skills for cross-platform content search, creator analysis, and viral trend research
-- [oil-oil/oil-motion](https://github.com/oil-oil/oil-motion) — Create smooth, responsive interactive web animations.
+- [oil-oil/oil-motion](https://github.com/oil-oil/oil-motion) — 设计并实现随滚动、拖动、指针或状态变化响应的网页动画，覆盖素材、时间轴和运行时。
 - [Rion-Wu-tech/wechat-intelligence-hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) — Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity track…
 
 <!-- STAR_VAULT:CATALOG:END -->
