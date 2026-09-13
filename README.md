@@ -57,7 +57,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-13T04:43:41Z` · 当前公开 Stars：**293** · 已分类：**287**
+> 最近成功检查：`2026-09-13T11:48:02Z` · 当前公开 Stars：**294** · 已分类：**287**
 
 
 ### AI 与 Agent（31）
@@ -371,8 +371,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（6）
+### 待分类（7）
 
+- [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) — A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents
 - [oil-oil/draw-ui](https://github.com/oil-oil/draw-ui) — 设计 App、后台、游戏界面和完整网站落地页，生成 UI 设计稿，并按需还原成可运行页面或小程序。
 - [DreambigOu/ELI5](https://github.com/DreambigOu/ELI5) — ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents. Adapts tone, vocabulary, and analogies to match the…
 - [liqiang-xxfy/fly-cursor-free](https://github.com/liqiang-xxfy/fly-cursor-free) — 轻松一键续杯 Cursor Pro，保持14天试用不掉。【支持 Claude 4】
