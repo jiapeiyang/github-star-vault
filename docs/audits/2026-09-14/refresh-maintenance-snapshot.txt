@@ -1,0 +1,108 @@
+[p1 "资料维护 · Star Vault" | space "Star Vault 资料更新验收"(1): 1 managed, 0 untracked — p1* "资料维护 · Star Vault"]
+root
+  container
+    container
+      container
+        button "返回 Star Vault 首页" [ref=48, loc=css:button[aria-label="返回 Star Vault 首页"]]
+          text "STAR VAULT"
+          svg_root
+        container "主导航"
+          button [ref=49]
+            text "首页"
+          button [ref=50]
+            text "项目库"
+          button [ref=51]
+            text "收藏回顾"
+          button [ref=52]
+            text "用途专题"
+          button [ref=53]
+            text "关于"
+        form
+          svg_root
+          text "搜索项目"
+          searchbox [ref=54, loc=css:input[placeholder="搜索名称、用途或技术词"]]
+            text "搜索名称、用途或技术词"
+          text "⌘ K"
+        container
+          image
+          container
+            text "jiapeiyang"
+            text "个人开源年鉴"
+      container
+        container
+          container
+            paragraph
+              text "仓库资料 · 内容维护"
+            heading
+              text "补充仓库资料"
+          container
+            text "0"
+            container
+              text "个项目待分类"
+              text "另有"
+              text "0"
+              text "个待补充解读"
+        container
+          button [ref=55]
+            text "待分类"
+            text "0"
+          button [ref=56]
+            text "待补介绍"
+            text "0"
+          button [ref=57]
+            text "来源待核查"
+            text "0"
+          button [ref=58]
+            text "资料受限"
+            text "4"
+          button [ref=59]
+            text "全部资料"
+            text "296"
+        paragraph
+          text "最近来源检查：2026/09/14 20:08。"
+          text "README 变化只是复核线索；核对前不修改介绍，也不因普通代码更新判定资料过期。"
+        container
+          container
+            container
+              svg_root
+              text "项目列表"
+            container
+              text "搜索当前队列"
+              searchbox [ref=60, loc=css:input[placeholder="仓库名称、描述或标签"]]
+                text "仓库名称、描述或标签"
+            container "资料列表分页"
+              button "上一页" [ref=61, loc=css:button[aria-label="上一页"]]
+                svg_root
+              container
+                text "第"
+                text "1"
+                text "/"
+                text "1"
+                text "页 ·"
+                text "0"
+                text "个"
+              button "下一页" [ref=62, loc=css:button[aria-label="下一页"]]
+                svg_root
+            container
+              text "当前队列已整理完成"
+              text "新的 Star 会在下一次成功同步后进入这里。"
+          container
+            heading
+              text "当前列表是空的"
+            paragraph
+              text "切换队列，或调整搜索条件。"
+    iframe
+      root
+        switch [ref=63]
+        container "icon: setting"
+          svg_root
+        button [ref=64]
+          svg_root
+  container
+    button
+      image
+      container [ref=65]
+        svg_root
+    container [ref=66]
+      button [ref=67]
+        svg_root

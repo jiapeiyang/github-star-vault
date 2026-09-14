@@ -57,11 +57,12 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-07T08:57:18Z` · 当前公开 Stars：**287** · 已分类：**287**
+> 最近成功检查：`2026-09-14T11:46:08Z` · 当前公开 Stars：**296** · 已分类：**296**
 
 
-### AI 与 Agent（31）
+### AI 与 Agent（32）
 
+- [DreambigOu/ELI5](https://github.com/DreambigOu/ELI5) — 根据年龄、职业或关系调整术语、类比和解释深度，帮助代理向不同受众讲清概念与代码。
 - [yzfly/awesome-skills-zh](https://github.com/yzfly/awesome-skills-zh) — 中文 Agent Skills 与工具资源目录。
 - [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) — Agent Skills 入门与资源推荐合集。
 - [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — 把技术书籍 PDF 转为可供智能体使用的 Skill。
@@ -94,8 +95,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — 支持终端和消息渠道的代理运行时，包含工具、会话检索、技能与定时任务。
 - [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — 通过独立 Python 章节演示工具循环、权限、上下文和多任务代理运行机制。
 
-### Web、前端与跨端（75）
+### Web、前端与跨端（77）
 
+- [oil-oil/draw-ui](https://github.com/oil-oil/draw-ui) — 先确定页面目标与视觉方向，再生成 UI 设计稿，并按需要还原为网页或小程序界面。
+- [oil-oil/oil-motion](https://github.com/oil-oil/oil-motion) — 把生成视频整理为可控的动画资源，并接入网页滚动、拖动、指针或状态变化。
 - [boyang-hu/website-rebuild-skill](https://github.com/boyang-hu/website-rebuild-skill) — 以源站快照、代码溯源和多层比对为依据，把网页重建成可运行工程的 Agent Skill。
 - [a2ui-project/a2ui](https://github.com/a2ui-project/a2ui) — 用声明式 JSON 描述可更新界面，再由客户端可信组件渲染的 Agent UI 标准与实现。
 - [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) — 以模板仓库和 clone-website 技能把参考网址重建为 Next.js 项目的起点。
@@ -205,12 +208,15 @@ GITHUB_PAGES=true npm --prefix app run build
 - [qingchencloud/cftunnel](https://github.com/qingchencloud/cftunnel) — 统一管理 Cloudflare Web 隧道和基于 frp 的自建 TCP/UDP 中继。
 - [DanOps-1/Gpt-Agreement-Payment](https://github.com/DanOps-1/Gpt-Agreement-Payment) — 研究订阅支付、授权回调和认证状态衔接的协议重放项目。
 - [ineo6/hosts](https://github.com/ineo6/hosts) — 提供 GitHub 域名映射与本地探测服务，辅助排查特定网络下的访问问题。
-- [awesome-vpn/awesome-vpn](https://github.com/awesome-vpn/awesome-vpn) — 整理多种客户端格式的公开代理订阅与候选节点列表。
+- [awesome-vpn/awesome-vpn](https://github.com/awesome-vpn/awesome-vpn) — 整理多种客户端格式的公开代理订阅列表。
 - [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) — 基于 ServiceWorker 实现的浏览器在线代理。
 - [yeasy/docker_practice](https://github.com/yeasy/docker_practice) — Docker 与容器技术的实践学习资料。
 
-### 开发者工具与自动化（77）
+### 开发者工具与自动化（80）
 
+- [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) — 把现有编码 CLI 组织成带终端、消息、记忆和任务调度的本地多 Agent 桌面工作区。
+- [liqiang-xxfy/fly-cursor-free](https://github.com/liqiang-xxfy/fly-cursor-free) — 围绕 Cursor 账号切换与试用管理的第三方桌面工具；公开说明不足以验证完整实现和当前兼容性。
+- [Rion-Wu-tech/wechat-intelligence-hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) — 通过只读 Reader 和本地引擎，把获授权的微信记录整理成可检索资料、日报与跟进线索。
 - [localsend/localsend](https://github.com/localsend/localsend) — 通过局域网在电脑与手机间传送文件和文字，无需聊天软件账号。
 - [humanlayer/skills](https://github.com/humanlayer/skills) — HumanLayer 提供的编码规则、React 类型与智能体工作流 Skills 集合。
 - [tiann/hapi](https://github.com/tiann/hapi) — 通过 Web、PWA 等入口远程查看与控制工作机上的编码智能体会话。
@@ -236,7 +242,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [block/buzz](https://github.com/block/buzz) — 以自托管 Nostr relay 和签名事件组织人与代理共同协作的工作空间。
 - [binaricat/Netcatty](https://github.com/binaricat/Netcatty) — 整合 SSH 分屏、双栏 SFTP、主机管理和 AI 运维助手的跨平台桌面客户端。
 - [git-ai-project/git-ai](https://github.com/git-ai-project/git-ai) — 将代码行关联到生成它的代理、模型和提示上下文的 Git 归因扩展。
-- [steipete/CodexBar](https://github.com/steipete/CodexBar) — 在 macOS 菜单栏集中显示编码服务配额、重置时间、余额与状态的工具。
+- [steipete/CodexBar](https://github.com/steipete/CodexBar) — 在 macOS 菜单栏及 Linux 桌面集中显示编码服务配额、重置时间、余额与状态的工具。
 - [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup) — 按话题汇总 Telegram 频道、群组、机器人与外部导航入口的资源清单。
 - [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) — 先拆解任务与验收目标，再从本地技能库挑选相关方法并记录执行结果的编排方案。
 - [fengshao1227/ccg-workflow](https://github.com/fengshao1227/ccg-workflow) — 以 Claude Code 为主控，通过外部 CLI 桥接多模型分析、实现与审查的工作流引擎。
@@ -270,7 +276,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [wshobson/agents](https://github.com/wshobson/agents) — 按领域拆分插件、代理、技能和命令的可组合市场。
 - [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) — 为 Codex CLI 增加提示、规划、团队协作和验证工作流的运行层。
 - [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) — 用按任务规模调整的技能流程，连接需求澄清、方案设计与验证交付。
-- [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync) — 对齐 Codex 会话与 SQLite 的 Provider 元数据，恢复切换供应商后的历史可见性。
+- [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync) — 对齐 Codex 会话与 SQLite 的 Provider 元数据，帮助恢复切换供应商后的历史可见性。
 - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — 用技能压缩代理说明文字，并可选以本地代理压缩发送给模型的输入。
 - [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) — 结合语法解析与代理归纳，将代码结构和业务关系变成交互知识图。
 - [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) — 将代码索引为调用与依赖图，并通过 MCP 向代理提供结构化上下文。
@@ -289,8 +295,11 @@ GITHUB_PAGES=true npm --prefix app run build
 - [wotermelon/toJump](https://github.com/wotermelon/toJump) — 用 Node.js 演示微信跳一跳小游戏的自动化操作。
 - [i5ting/vsc](https://github.com/i5ting/vsc) — 介绍 Visual Studio Code 的中文使用指南。
 
-### 设计、图像与内容创作（40）
+### 设计、图像与内容创作（43）
 
+- [coleam00/excalidraw-diagram-skill](https://github.com/coleam00/excalidraw-diagram-skill) — 把自然语言与技术证据整理为可编辑的 Excalidraw 图，并通过渲染检查布局。
+- [yang0/handraw-style](https://github.com/yang0/handraw-style) — 通过编号画廊选择手绘风格，把主题转换成带风格名称的中英文生图提示词。
+- [SpaceZephyr/creator-buddy](https://github.com/SpaceZephyr/creator-buddy) — 按公众号、小红书和视频工作流组织 Skills，连接公开内容研究、文稿、配图与视频制作。
 - [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) — 短剧创作流程的 Skills 集合，覆盖角色、剧本与分镜。
 - [deusyu/translate-book](https://github.com/deusyu/translate-book) — 针对整本 PDF、DOCX、EPUB 的翻译 Skill。
 - [HalfAI1102/anthropic-art](https://github.com/HalfAI1102/anthropic-art) — 按 Anthropic 风格和配色规则生成编辑插画。

@@ -1,0 +1,793 @@
+[
+  {
+    "repo_id": 54346799,
+    "name": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis/blob/master/README.md",
+    "sha": "61b6131b15a02b00c5f200958648dc5e02b53799",
+    "previous_sha": "e8fb410a114f5f4bd1d91544f6bd16d2aa85ae02",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "新增 API 条目、修改 1inch 认证与推广链接；两个 Cat Facts 导航仍在，未实测各 API。"
+  },
+  {
+    "repo_id": 63539055,
+    "name": "jaywcjlove/awesome-mac",
+    "url": "https://github.com/jaywcjlove/awesome-mac/blob/master/README.md",
+    "sha": "761cc80571a496c57ae7099a0ae92ab297d224de",
+    "previous_sha": "4a47b470b0f8f26eb69c50f950cd8eb4e694f2ef",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "软件目录增删及描述更新；Keka、iTerm2 示例和分类导航仍在，未逐个安装或验证新增外链。"
+  },
+  {
+    "repo_id": 85077558,
+    "name": "nilbuild/developer-roadmap",
+    "url": "https://github.com/nilbuild/developer-roadmap/blob/master/readme.md",
+    "sha": "2827ba8c7e4cec1c5586aaa1afa6129f944f3862",
+    "previous_sha": "3964b576fffbdb6a68569e1c8fc66baf15251660",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "新增 AI Product Builder 与 R Programming 路线链接，既有导航不受影响。"
+  },
+  {
+    "repo_id": 99401299,
+    "name": "ai/nanoid",
+    "url": "https://github.com/ai/nanoid/blob/main/README.md",
+    "sha": "9a91f0705ba49e8e299977ea267eb33aa3051d17",
+    "previous_sha": "28211a08552c3fb47b8bafacdaa23a981fd7570d",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "包体积自述变化及示例代码格式化，API/长度契约不变；保留 6.0.1 历史实测。"
+  },
+  {
+    "repo_id": 106867604,
+    "name": "cloudflare/cloudflared",
+    "url": "https://github.com/cloudflare/cloudflared/blob/master/README.md",
+    "sha": "8665dd80555a9149a6359d220d16c4f0de89e829",
+    "previous_sha": "74d00eea51896dea9d489cb0c6bdd96ef68bee86",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "增加破坏性变更公告政策，现有命令未改变。"
+  },
+  {
+    "repo_id": 115110181,
+    "name": "swc-project/swc",
+    "url": "https://github.com/swc-project/swc/blob/main/README.md",
+    "sha": "6109dfe6be959af4b2508a5d93c6e33bec1b54c2",
+    "previous_sha": "297707cd429f35313276c295c02c1064ce23a802",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "增加原生 addon 压缩载体和首次加载物化说明，API 名称不变。"
+  },
+  {
+    "repo_id": 139662221,
+    "name": "a597873885/webfunny_monitor",
+    "url": "https://github.com/a597873885/webfunny_monitor/blob/main/README.md",
+    "sha": "0e715264a6e28df30fdb92ffb3d5afe5cbc092cb",
+    "previous_sha": "4f04879a7f6a35c03bf0530936b4b64371606fb4",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "删去旧 Demo 直链、企业试用保证及本地安装命令，统一官网与部署文档入口。"
+  },
+  {
+    "repo_id": 146239863,
+    "name": "awesome-vpn/awesome-vpn",
+    "url": "https://github.com/awesome-vpn/awesome-vpn/blob/master/README.md",
+    "sha": "3952166b4616b40a46694c6ba49ddb4c7527cf69",
+    "previous_sha": "0c34caf4faace811b64770cffad5dd11bbdd7af9",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "删原始池/特定协议入口、调整客户端表和 CDN 镜像。"
+  },
+  {
+    "repo_id": 152870372,
+    "name": "ruanyf/weekly",
+    "url": "https://github.com/ruanyf/weekly/blob/master/README.md",
+    "sha": "e101a1485c70fb09a1fb04a4b8b5316f6314ae0f",
+    "previous_sha": "763783a0f281cabe882fe50e197e8ae7af3418ae",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "新增第 412 期目录；既有导航示例与用途仍有效。"
+  },
+  {
+    "repo_id": 181200364,
+    "name": "jaywcjlove/github-rank",
+    "url": "https://github.com/jaywcjlove/github-rank/blob/master/README.md",
+    "sha": "6568d4a8fbbde6226829c9de9a18aebb4ea6d072",
+    "previous_sha": "006bed42d79766d1ce72fd0112204d9befca0380",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "榜单数据日期更新；既有包快照和每周更新边界仍适用。"
+  },
+  {
+    "repo_id": 494305627,
+    "name": "hwdsl2/wireguard-install",
+    "url": "https://github.com/hwdsl2/wireguard-install/blob/master/README.md",
+    "sha": "da65efe25fd88d358a880a339758a9d95f05eafa",
+    "previous_sha": "853d1565e123f6128c27103dd229dd479023a4db",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "书籍推广和订阅链接措辞更新，WireGuard 安装入口未变。"
+  },
+  {
+    "repo_id": 770153867,
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
+    "sha": "acd89e6f2c341bf356c65859af660ae96e598096",
+    "previous_sha": "3f2335df757a1e78cdffa0e696c8c36d2c31dcb1",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "扩展配音/视频服务，明确 Windows 需下载 Assets 的启动包。"
+  },
+  {
+    "repo_id": 934527631,
+    "name": "ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+    "url": "https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/main/README.md",
+    "sha": "278154b5ab8c6b64b5fd682fae3c5f4d6b241f7a",
+    "previous_sha": "16f69d8471fac5784f5a9fb9fa6a5580c2de9159",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "最新日志改为 9 月 13 日结构化返回、索引与章节目标修复，入门步骤仍有效。"
+  },
+  {
+    "repo_id": 941043461,
+    "name": "itgoyo/TelegramGroup",
+    "url": "https://github.com/itgoyo/TelegramGroup/blob/master/README.md",
+    "sha": "2725dc52d5f2f8efc1a080e54fe0d1e6390ae84e",
+    "previous_sha": "43346351891658c3149c238654122c6f81f3e3fd",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "搜索机器人与推广区重排、少量链接更换及大批符号清理；Claude Code 社区示例仍在，未登录 Telegram。"
+  },
+  {
+    "repo_id": 1006812866,
+    "name": "liqiang-xxfy/fly-cursor-free",
+    "url": "https://github.com/liqiang-xxfy/fly-cursor-free/blob/main/README.md",
+    "sha": "a706852e070ba21551f46a6daa08d7d94f3506a6",
+    "bytes": 3645,
+    "checked_at": "2026-09-14",
+    "reviewed_at": "2026-09-14",
+    "review_note": "新增收藏：依据上游 README 人工编写分类、标签、用途与未执行示例。"
+  },
+  {
+    "repo_id": 1012087571,
+    "name": "router-for-me/CLIProxyAPI",
+    "url": "https://github.com/router-for-me/CLIProxyAPI/blob/main/README.md",
+    "sha": "38fd3c16543dc2334f103c9349f68f2acd39ae3e",
+    "previous_sha": "d4ecdef6f99991eda8fa6cae09578a5603b95aec",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "赞助区和推广链接变化；主 README 的接口与管理流程未变，补充管理文档本轮未重查。"
+  },
+  {
+    "repo_id": 1025856648,
+    "name": "wshobson/agents",
+    "url": "https://github.com/wshobson/agents/blob/main/README.md",
+    "sha": "2bb1ca4409c1804566cb93a7db67f95c60a79c56",
+    "previous_sha": "ad23a0c942ec9422ea087f14afb206c06e2c2e5e",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增 Pi 的生成和安装适配，原有单技能/Claude 入口仍有效。"
+  },
+  {
+    "repo_id": 1031059905,
+    "name": "abhigyanpatwari/GitNexus",
+    "url": "https://github.com/abhigyanpatwari/GitNexus/blob/main/README.md",
+    "sha": "0d8ae457c69baf98cec098cb9ec0045cf2b46d20",
+    "previous_sha": "f2714bf89b032f9fa5f48c7acd7f0d5005fdb4b1",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增外部索引位置、源码保留策略、跳过全文检索和 Objective-C；补当前使用边界。"
+  },
+  {
+    "repo_id": 1053118194,
+    "name": "bojieli/ai-agent-book",
+    "url": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
+    "sha": "05b36cea34651abdfe52670bd09f74fd6c98b3af",
+    "previous_sha": "7972a2403e41c57ef9aab23050cdaea3847206f5",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "在线阅读迁移到 /astro/，新增姊妹书、提供商与贡献者；章节实验入口未变。"
+  },
+  {
+    "repo_id": 1055481168,
+    "name": "fawney19/Aether",
+    "url": "https://github.com/fawney19/Aether/blob/main/README.md",
+    "sha": "6aa33eb106c4a17ea69fde2b08ad49f85b772ce6",
+    "previous_sha": "d595398422a7c15da8e8a0e2ccfbf13b13092652",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "简化 Docker 文档、限制新二进制为 Linux，增加连接/超时与诊断预算说明。"
+  },
+  {
+    "repo_id": 1062356571,
+    "name": "tw93/Mole",
+    "url": "https://github.com/tw93/Mole/blob/main/README.md",
+    "sha": "bebdf107ce3cf86c1f6c8577e82aaec323a07203",
+    "previous_sha": "ccc1e63e5dd55f65801ba3e823c0728e12f54229",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "明确 macOS 12+、CLI/商业应用分离，补 purge 路径保护和估算语义。"
+  },
+  {
+    "repo_id": 1073224021,
+    "name": "EveryInc/compound-engineering-plugin",
+    "url": "https://github.com/EveryInc/compound-engineering-plugin/blob/main/README.md",
+    "sha": "a199dcaf3b3d9306f5ae5838eeb6ab234c8eaa91",
+    "previous_sha": "126c489dac1db88e2b104bce2aa4e9c970e17e8a",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增技能、实验性 Compound Packs，以及 /lfg 的调试路线与发布边界。"
+  },
+  {
+    "repo_id": 1075372545,
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents/blob/main/README.md",
+    "sha": "ef21203aee8915e54bed99ca090e50a3def79cac",
+    "previous_sha": "06b03b7032dd8e36efc0329666f9a629df93067b",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "新增网络、平台、文档和音乐等角色索引，已有角色用途与安装示例仍有效。"
+  },
+  {
+    "repo_id": 1087192965,
+    "name": "shanraisshan/claude-code-best-practice",
+    "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/main/README.md",
+    "sha": "158894d36c5dfd01f3ba90f1db29a11227a8eee9",
+    "previous_sha": "3be72ece7287e5d3af363400521226e077525d75",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "工作流对照表、技能数量与 Star 数更新；本站天气编排示例和概念入口未变。"
+  },
+  {
+    "repo_id": 1097346685,
+    "name": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable/blob/main/README.md",
+    "sha": "c4b9831a5cd45fdd02a0215f376bbb9f6e6217ff",
+    "previous_sha": "75200ec27a245295d65af6da5deb2eb6c5e06b9a",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增 Copilot/VS Code 扩展安装入口；现有入口仍有效。"
+  },
+  {
+    "repo_id": 1097695258,
+    "name": "steipete/CodexBar",
+    "url": "https://github.com/steipete/CodexBar/blob/main/README.md",
+    "sha": "425a5e1eaaf735aa6e4a3799c7595690c8002ab2",
+    "previous_sha": "1bcd33ced058ed8ce60d83a1851a76d6068c0155",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增 Linux Qt 6 桌面应用和 Omarchy 集成。"
+  },
+  {
+    "repo_id": 1101924225,
+    "name": "dembrandt/dembrandt",
+    "url": "https://github.com/dembrandt/dembrandt/blob/main/README.md",
+    "sha": "a7938466c5264fb4669424a433124941babea0cc",
+    "previous_sha": "d3d9c90c722689febabb5d3ff1442dd062ce1dc0",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "GitHub Action 示例从 v0.31.1 更新为 v0.33.0，本站未固定该 Action 版本。"
+  },
+  {
+    "repo_id": 1104535633,
+    "name": "lbjlaq/Antigravity-Manager",
+    "url": "https://github.com/lbjlaq/Antigravity-Manager/blob/main/README.md",
+    "sha": "f1ace05780d43919a7df84f072d0c1abeb1693da",
+    "previous_sha": "a888fc8aab1576fae4fe4124043f54127c0e82a4",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "升级为 v4.7.1，补日志轮转与多项兼容修复；基础接入和鉴权入口仍有效。"
+  },
+  {
+    "repo_id": 1106996539,
+    "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md",
+    "sha": "da6fb6cfba4e619b7de096d047ede3f3acfa4e92",
+    "previous_sha": "a9368937a85b780d0fbd6b77e189d084d710400d",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "新增另一个 3D Skill 的推广区，不属于本项目既有设计流程变更。"
+  },
+  {
+    "repo_id": 1108837393,
+    "name": "code-yeongyu/oh-my-openagent",
+    "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/README.md",
+    "sha": "03ce68480c10ca43d4e25048f72c9ea163362e78",
+    "previous_sha": "712fbab118968fb90b862a8782a8d30b4c8edfe1",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "主代理和规划器命名及流程调整，AST-Grep 改共用 skill；现有版本选择仍有效。"
+  },
+  {
+    "repo_id": 1111357457,
+    "name": "binaricat/Netcatty",
+    "url": "https://github.com/binaricat/Netcatty/blob/main/README.md",
+    "sha": "746aa6a4ae3db7713a9750e748446c53ca3c6517",
+    "previous_sha": "ac80e1c8a5129c6ece33ad4a7f4bd2f00d085a61",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增保存终端当前画面和 Windows 社区 Scoop 安装。"
+  },
+  {
+    "repo_id": 1113573066,
+    "name": "hugohe3/ppt-master",
+    "url": "https://github.com/hugohe3/ppt-master/blob/main/README.md",
+    "sha": "f640ff6438be3d04f43e69573e0e5154be371c24",
+    "previous_sha": "2b5071a114a08e19ab4b884f21bbeaa746b71e00",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "赞助和徽章变化，明确可选 PDF 转换器采用 AGPL-3.0 的 PyMuPDF。"
+  },
+  {
+    "repo_id": 1118601518,
+    "name": "Wei-Shaw/sub2api",
+    "url": "https://github.com/Wei-Shaw/sub2api/blob/main/README.md",
+    "sha": "4ae1590ab226eef7cdc23f679a85b1f7aa80eb71",
+    "previous_sha": "62ab42721437174a5b0609e311cd97deed031056",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "赞助区变化，Grok 媒体资格对不完整账单观察的处理更新。"
+  },
+  {
+    "repo_id": 1119232564,
+    "name": "yzfly/awesome-skills-zh",
+    "url": "https://github.com/yzfly/awesome-skills-zh/blob/main/README.md",
+    "sha": "bf9dbbe43f718ec0d2011063fea3b25cd609c094",
+    "previous_sha": "085cf69709efad97b97ec2a3d8a1146de495c5e2",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增设计与教育专题及部分工具条目；核对导航和 archify 示例，未逐个审计合集目标。"
+  },
+  {
+    "repo_id": 1122242121,
+    "name": "tiann/hapi",
+    "url": "https://github.com/tiann/hapi/blob/main/README.md",
+    "sha": "e7adadb42f7295c94df2dddac9f2847f9f295e63",
+    "previous_sha": "3efac8d31d93e97fd89864b82407b60a29d6db7d",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "原生客户端能力、双二维码和默认启动选择行为更新，并新增 Codex 共享会话。"
+  },
+  {
+    "repo_id": 1128267392,
+    "name": "chatfire-AI/huobao-drama",
+    "url": "https://github.com/chatfire-AI/huobao-drama/blob/master/README.md",
+    "sha": "2c4118e2a563929fa9e516e1b24894874d326475",
+    "previous_sha": "283cf8405ff3af7d026a38062b3cc3ff1b067f2c",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "数据库从 MySQL 改 SQLite，新增桌面发行、旧数据导入及 Watchtower 更新边界。"
+  },
+  {
+    "repo_id": 1131513930,
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/README.md",
+    "sha": "ed27852037b06f341dee81f93810e310a86f7d17",
+    "previous_sha": "d54a3d60d27edc527da10217d128fc8d6e0f7bc1",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "SerpAPI 推广链接更新，配置键和使用流程未变。"
+  },
+  {
+    "repo_id": 1134543109,
+    "name": "vercel-labs/skills",
+    "url": "https://github.com/vercel-labs/skills/blob/main/README.md",
+    "sha": "518ff9cf9eb25f6ec173678208107fdc769fb621",
+    "previous_sha": "2246383e993f161fd909122d01769059adfb9eab",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增宿主并调整 Droid/Kilo 的技能目录，现有通用安装示例仍有效。"
+  },
+  {
+    "repo_id": 1135179558,
+    "name": "alvinunreal/oh-my-opencode-slim",
+    "url": "https://github.com/alvinunreal/oh-my-opencode-slim/blob/master/README.md",
+    "sha": "617d658a86b4fbfc9ee88fe16b0e08ce64fa907a",
+    "previous_sha": "1d812146e4566ecc33924d9a956dd1f81db6f980",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "V3 Beta 展示、删旧 v2 承诺和预设，新增预设可能过期说明。"
+  },
+  {
+    "repo_id": 1135492298,
+    "name": "jlcodes99/cockpit-tools",
+    "url": "https://github.com/jlcodes99/cockpit-tools/blob/main/README.md",
+    "sha": "5b5e82337afe289d9a398ee5b35ccd08d119d34c",
+    "previous_sha": "c5cc9a75532cf52c82710f8eae69961026a1696e",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "致谢与协议兼容来源调整，账号/实例用法未变。"
+  },
+  {
+    "repo_id": 1136590548,
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC/blob/main/README.md",
+    "sha": "86dba51207907b2e5de07d6b0579a681522cdc13",
+    "previous_sha": "00d3a8ca7e6a9d602085fe9f9eebaa37e23513af",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "发布入口固定到 2.2.1，明确多宿主向导、Hooks 同意与独立扫描器前提；大部分长差异为章节迁移。"
+  },
+  {
+    "repo_id": 1137711311,
+    "name": "Hmbown/Codewhale",
+    "url": "https://github.com/Hmbown/Codewhale/blob/main/README.md",
+    "sha": "be7636a266d559aa763868571e09bda088d95a88",
+    "previous_sha": "59a8b339606b5d361fa82fdb9e7b36592421a814",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "明确发布版与开发候选，提供方/模型命令拆分，增加 Runtime 与 Computer Use 说明。"
+  },
+  {
+    "repo_id": 1140843380,
+    "name": "mvanhorn/last30days-skill",
+    "url": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
+    "sha": "9fdba8967fae78f2a0da86fd05cb7469c074b527",
+    "previous_sha": "b832dac6b7897a95b8c23f6ebe52a19e3ae923b1",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增官方 X API 后端及近一周/全档案权限边界。"
+  },
+  {
+    "repo_id": 1145374818,
+    "name": "thaw-app/Thaw",
+    "url": "https://github.com/thaw-app/Thaw/blob/development/README.md",
+    "sha": "96b6a19ac9a35589618a59bdbe4152f568f77291",
+    "previous_sha": "4a108cd26d199df6090f5fced2249a5db9efcbdd",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "徽章、文案和 Transparency 章节重排；权限、最低系统版本及核心操作未变。"
+  },
+  {
+    "repo_id": 1148052330,
+    "name": "Yeachan-Heo/oh-my-codex",
+    "url": "https://github.com/Yeachan-Heo/oh-my-codex/blob/main/README.md",
+    "sha": "bb4cd950494d04f436544f66d6f68db8f0a56539",
+    "previous_sha": "eaa293d8567dcfe1564afb2708b23d2c756a760c",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "HUD 新增当前会话团队成员状态与窗口高度处理。"
+  },
+  {
+    "repo_id": 1158722119,
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills/blob/main/README.md",
+    "sha": "aa6872d677ef7c8eab7d00a6fdca106ffa9502b0",
+    "previous_sha": "0d3b2a3821e57b51de9c2764f2dc90b429a03c0f",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "目录树改为宿主适配表，技能仍为 25 个。"
+  },
+  {
+    "repo_id": 1163112839,
+    "name": "LearnPrompt/ai-news-radar",
+    "url": "https://github.com/LearnPrompt/ai-news-radar/blob/master/README.md",
+    "sha": "e8abd1c4a95e5edb5e3734aab54769c6ba98973c",
+    "previous_sha": "6963e26947a886a2a2dd1d3b8e6f2a9252cd5668",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "邮件摘要新增 QQ Agent Mail CLI 模式与可选公开链接读取。"
+  },
+  {
+    "repo_id": 1169920711,
+    "name": "coleam00/excalidraw-diagram-skill",
+    "url": "https://github.com/coleam00/excalidraw-diagram-skill/blob/main/README.md",
+    "sha": "129290cd9d7d200d719aa237768cb1c27b1c97c1",
+    "bytes": 2872,
+    "checked_at": "2026-09-14",
+    "reviewed_at": "2026-09-14",
+    "review_note": "新增收藏：依据上游 README 人工编写分类、标签、用途与未执行示例。"
+  },
+  {
+    "repo_id": 1174369519,
+    "name": "jnMetaCode/agency-agents-zh",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh/blob/main/README.md",
+    "sha": "02573ab64e25e17db040ba128740868a450e88e9",
+    "previous_sha": "413293a41b9e995a80af1dcfa7de7bf85d4a7c42",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增搜索增长角色和 ZCode/QwenPaw 安装，调整索引与推广。 收尾检查又发现赞助文案更新，二次对照后正文无需追加。",
+    "intermediate_sha": "841b8df28006b9e54f1ff57084bb67f46fd8b3d8"
+  },
+  {
+    "repo_id": 1176129893,
+    "name": "tanweai/pua",
+    "url": "https://github.com/tanweai/pua/blob/main/README.md",
+    "sha": "be6d0517828131a0b2e86e414e4aa20e82f610a4",
+    "previous_sha": "fadec68610539f48c1b4473350c9d57268500125",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "3.5.1 明确兼容性与生产率评估限制，并改为自愿反馈。"
+  },
+  {
+    "repo_id": 1179074781,
+    "name": "deepcoldy/botmux",
+    "url": "https://github.com/deepcoldy/botmux/blob/master/README.md",
+    "sha": "acc3d1af1a14d9ae918a1411a90122967298f154",
+    "previous_sha": "e003fd24b6760fc9de7f1aeb7bd31b0da8f6e506",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增 macOS 正式版签名、MiniMax 适配及会话级 Codex 实例说明。"
+  },
+  {
+    "repo_id": 1179264259,
+    "name": "garrytan/gstack",
+    "url": "https://github.com/garrytan/gstack/blob/main/README.md",
+    "sha": "d9c21229e99bb6da1c128ca6d210a7f15f4c8266",
+    "previous_sha": "31f4137060b84b36dd4204d6a49c3d4009b14ada",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增可选 Impeccable 设计检查、第三方记忆桥，并区分行为配置与运行模型。"
+  },
+  {
+    "repo_id": 1183845721,
+    "name": "DreambigOu/ELI5",
+    "url": "https://github.com/DreambigOu/ELI5/blob/main/README.md",
+    "sha": "041914a3c611ae2869637c413a442c5c4dd5a1c3",
+    "bytes": 5180,
+    "checked_at": "2026-09-14",
+    "reviewed_at": "2026-09-14",
+    "review_note": "新增收藏：依据上游 README 人工编写分类、标签、用途与未执行示例。"
+  },
+  {
+    "repo_id": 1183888342,
+    "name": "stablyai/orca",
+    "url": "https://github.com/stablyai/orca/blob/main/README.md",
+    "sha": "aeb8f35545071363ab30d50e4e08cadadb58374f",
+    "previous_sha": "7e3540c80f14b533a6eb696779ae23fe85a7aea3",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "功能演示 GIF/海报路径迁移，文字能力和现有操作流程不变。"
+  },
+  {
+    "repo_id": 1185965712,
+    "name": "Dailin521/codex-provider-sync",
+    "url": "https://github.com/Dailin521/codex-provider-sync/blob/main/README.md",
+    "sha": "920934ff27bdf4f508d2200d5cd0edce3740221f",
+    "previous_sha": "7e78d4cb5a8af2b6f379ac9148d473d274958887",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增 Windows Electron 桌面版、预览与备份保留规则；明确 CLI 直接写入和跨 Provider 能力边界。"
+  },
+  {
+    "repo_id": 1187709537,
+    "name": "DingTalk-Real-AI/dingtalk-workspace-cli",
+    "url": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/blob/main/README.md",
+    "sha": "02b9a9800c3b18cdd634c01a0b87629e4d559b97",
+    "previous_sha": "b714a5402c0060b7f9335e935fa10b52f7c6533b",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增通用 Skills 安装，明确 glibc/CGO 依赖及事件回调契约。"
+  },
+  {
+    "repo_id": 1190072018,
+    "name": "james-6-23/codex2api",
+    "url": "https://github.com/james-6-23/codex2api/blob/main/README.md",
+    "sha": "b1c3248d8a5a61ec3d39eca73c981b06b08960af",
+    "previous_sha": "be143aff4354f8bb0b784c941a2b1ff74da1df45",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "赞助删除、使用指南入口和模型列表示例更新；核心端点未变。"
+  },
+  {
+    "repo_id": 1193909050,
+    "name": "herdrdev/herdr",
+    "url": "https://github.com/herdrdev/herdr/blob/master/README.md",
+    "sha": "5fe58ac91a0364b5e20388114c30dd36d208b679",
+    "previous_sha": "d731bf03336d72b7f196dd01b4779626db0d4b92",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "纠正机器重启后进程不存活，并补多机窗口。"
+  },
+  {
+    "repo_id": 1203777920,
+    "name": "xbtlin/ai-berkshire",
+    "url": "https://github.com/xbtlin/ai-berkshire/blob/main/README.md",
+    "sha": "3a9cd42478f1b459356c618c775b80325ac99ed1",
+    "previous_sha": "112b7d92c8ce477574b82daa844aa6de13e2f71a",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "研究报告索引、数量和日期变化，未逐篇审计新报告；现有研究入口仍有效。"
+  },
+  {
+    "repo_id": 1211139949,
+    "name": "tt-a1i/archify",
+    "url": "https://github.com/tt-a1i/archify/blob/main/README.md",
+    "sha": "30100bc6d3724f04e0ee33d56b6f4caa2c8a9ddf",
+    "previous_sha": "5983178b956d2d31ec3229510cfe315108c8bafd",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "赞助区替换，无绘图接口变化。"
+  },
+  {
+    "repo_id": 1212163658,
+    "name": "kangarooking/cangjie-skill",
+    "url": "https://github.com/kangarooking/cangjie-skill/blob/main/README.md",
+    "sha": "2e262e48e7863f7b700849fa17644126551a7c0b",
+    "previous_sha": "7752770dab032c94b9d69d1dccecd8515eee1847",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "v2.5.0 在 9 月 13 日刷新安装包，原标签不变；验证规则调整。"
+  },
+  {
+    "repo_id": 1212503250,
+    "name": "citrolabs/ego-lite",
+    "url": "https://github.com/citrolabs/ego-lite/blob/main/README.md",
+    "sha": "d487beb2deeaec7efdc365cb1437d020e219f139",
+    "previous_sha": "36347cc5540db1f6071641eea92b36c9128d10b8",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "仅文件末尾换行变化，无语义变化。"
+  },
+  {
+    "repo_id": 1212562200,
+    "name": "YouMind-OpenLab/awesome-gpt-image-2",
+    "url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2/blob/main/README.md",
+    "sha": "908fad76450634c4adb9ed19796b8351951bd8f1",
+    "previous_sha": "8b9a980c8416872ac628dacda2a97dc48f713914",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "自动图库轮换 100 个标题并更新总数/日期；复核栏目、来源格式及 Illustrated City Food Map 示例仍有效，仅做导航级复核，未逐条运行提示词或验证全部图片来源。"
+  },
+  {
+    "repo_id": 1219690829,
+    "name": "oil-oil/draw-ui",
+    "url": "https://github.com/oil-oil/draw-ui/blob/main/README.md",
+    "sha": "701369a19d34b6172c58462f9fadd7cca29b4fa6",
+    "bytes": 9310,
+    "checked_at": "2026-09-14",
+    "reviewed_at": "2026-09-14",
+    "review_note": "新增收藏：依据上游 README 人工编写分类、标签、用途与未执行示例。"
+  },
+  {
+    "repo_id": 1220744720,
+    "name": "freestylefly/awesome-gpt-image-2",
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/README.md",
+    "sha": "17de22997c982d14bfd19dc3dce642cd04d21bc3",
+    "previous_sha": "db6500406a6eb0fb09b1ca7e9c07fb75db802a2e",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增独立 2.5 展示专题与赞助；不等于新增实时生图入口。"
+  },
+  {
+    "repo_id": 1223170290,
+    "name": "nexu-io/open-design",
+    "url": "https://github.com/nexu-io/open-design/blob/main/README.md",
+    "sha": "9dabc687826d69101df69dccdf115fa3b7671efa",
+    "previous_sha": "d9b11d89e20b50fbfcfb4fe5fcc6b1b9aad9f8ba",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "纠正 Linux 已有安装包的描述，当前仅源码运行。"
+  },
+  {
+    "repo_id": 1226123343,
+    "name": "virgiliojr94/book-to-skill",
+    "url": "https://github.com/virgiliojr94/book-to-skill/blob/master/README.md",
+    "sha": "d25326e74199922b7cb5d4e2e01635fa8926ee98",
+    "previous_sha": "21725824d3f9161f61b7e4f60e01925854bc32f3",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "默认输出统一到跨宿主技能目录，并明确 Claude 链接验证和 Hermes 例外。"
+  },
+  {
+    "repo_id": 1231170332,
+    "name": "TokenRhythm/opensquilla",
+    "url": "https://github.com/TokenRhythm/opensquilla/blob/main/README.md",
+    "sha": "2df042d26bf6659ff0507bb0f48f38dbbcc97faf",
+    "previous_sha": "e450d816731554bd1a1e1cdc7dca0f217be1a672",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "遥测改为两个独立同意开关，移除旧自动安装/用量端点；新 Windows 构建签名。"
+  },
+  {
+    "repo_id": 1255237198,
+    "name": "chaitanyagiri/munder-difflin",
+    "url": "https://github.com/chaitanyagiri/munder-difflin/blob/main/README.md",
+    "sha": "a717a50dbfb0172136e664b6284587d647111b72",
+    "bytes": 26323,
+    "checked_at": "2026-09-14",
+    "reviewed_at": "2026-09-14",
+    "review_note": "新增收藏：依据上游 README 人工编写分类、标签、用途与未执行示例。"
+  },
+  {
+    "repo_id": 1265654867,
+    "name": "SpaceZephyr/creator-buddy",
+    "url": "https://github.com/SpaceZephyr/creator-buddy/blob/main/README.md",
+    "sha": "11d5ec450a0d6a54a57f1d9d52d254c87d575ff0",
+    "bytes": 12210,
+    "checked_at": "2026-09-14",
+    "reviewed_at": "2026-09-14",
+    "review_note": "新增收藏：依据上游 README 人工编写分类、标签、用途与未执行示例。"
+  },
+  {
+    "repo_id": 1266797999,
+    "name": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
+    "sha": "50b33a736986b43a8d1f666a6e3389fcab99997c",
+    "previous_sha": "1f05a43af5737eb41ffb8bef921304c8b431f2d2",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "新增 Retriever 展示案例，规则与安装流程未改变。"
+  },
+  {
+    "repo_id": 1266884317,
+    "name": "kunchenguid/firstmate",
+    "url": "https://github.com/kunchenguid/firstmate/blob/main/README.md",
+    "sha": "ec6c92e4e36aa7deb8ff24ba205606eb828cceb9",
+    "previous_sha": "40441e999bc5044164c63556f81b270e5a668538",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "新增 /quiet 安静监督模式，现有 ship/scout 和后端流程不变。"
+  },
+  {
+    "repo_id": 1269395331,
+    "name": "Waishnav/devspace",
+    "url": "https://github.com/Waishnav/devspace/blob/main/README.md",
+    "sha": "d307e707fca8d940f16999093bd937ce423ec56d",
+    "previous_sha": "fed1d204945533b71b8820b36be0913b62f138a9",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "澄清使用入口与可委派的子代理是独立选择。"
+  },
+  {
+    "repo_id": 1301135370,
+    "name": "0xsline/OpenChatCut",
+    "url": "https://github.com/0xsline/OpenChatCut/blob/main/README.md",
+    "sha": "83c9c9cb936cf9455294202929b885cd2041350a",
+    "previous_sha": "d5c8f502ce6a613ae0ca2af94679f35c5b6ae2dc",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "桌面代理本地目录访问默认扩大，新增媒体浏览和批量导入。"
+  },
+  {
+    "repo_id": 1325096132,
+    "name": "eternityspring/shuohao-skills",
+    "url": "https://github.com/eternityspring/shuohao-skills/blob/main/README.md",
+    "sha": "b4ab7a4720e66899e3bde52895c1e2a73bad02ac",
+    "previous_sha": "d214ef56c6ea76d15316ab508ff07411ed12e83e",
+    "reviewed_at": "2026-09-14",
+    "body_changed": false,
+    "review_note": "语言徽章、作者链接、社群措辞与 Star 图更新，五阶段制作流程未变。"
+  },
+  {
+    "repo_id": 1326654671,
+    "name": "oil-oil/oil-motion",
+    "url": "https://github.com/oil-oil/oil-motion/blob/main/README.md",
+    "sha": "adfd550ffbe1851c0a6ea605bee83e925b45ece6",
+    "bytes": 10450,
+    "checked_at": "2026-09-14",
+    "reviewed_at": "2026-09-14",
+    "review_note": "新增收藏：依据上游 README 人工编写分类、标签、用途与未执行示例。"
+  },
+  {
+    "repo_id": 1330468709,
+    "name": "boyang-hu/website-rebuild-skill",
+    "url": "https://github.com/boyang-hu/website-rebuild-skill/blob/main/README.md",
+    "sha": "ee41ff4a81499c3e4676665013d103845ac516fd",
+    "previous_sha": "71bf389fb00eda6b8ddb0c64a6ad0c9d0a41da1d",
+    "reviewed_at": "2026-09-14",
+    "body_changed": true,
+    "review_note": "新增 Lama Lama 案例及 v0.3.23 媒体就绪、协议指纹和端点桩说明。"
+  },
+  {
+    "repo_id": 1357272370,
+    "name": "Rion-Wu-tech/wechat-intelligence-hub",
+    "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/main/README.md",
+    "sha": "65c2b6b1da67961a3b65be8bf45ef390acf9efac",
+    "bytes": 16117,
+    "checked_at": "2026-09-14",
+    "reviewed_at": "2026-09-14",
+    "review_note": "新增收藏：依据上游 README 人工编写分类、标签、用途与未执行示例。"
+  },
+  {
+    "repo_id": 1358588929,
+    "name": "yang0/handraw-style",
+    "url": "https://github.com/yang0/handraw-style/blob/master/README.md",
+    "sha": "f4d8d4f28047e3576db1e64241a3f939440f58ae",
+    "bytes": 3430,
+    "checked_at": "2026-09-14",
+    "reviewed_at": "2026-09-14",
+    "review_note": "新增收藏：依据上游 README 人工编写分类、标签、用途与未执行示例。"
+  }
+]
