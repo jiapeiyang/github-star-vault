@@ -57,7 +57,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-16T04:46:31Z` · 当前公开 Stars：**299** · 已分类：**296**
+> 最近成功检查：`2026-09-16T11:28:11Z` · 当前公开 Stars：**300** · 已分类：**296**
 
 
 ### AI 与 Agent（32）
@@ -380,8 +380,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（3）
+### 待分类（4）
 
+- [YishenTu/claudian](https://github.com/YishenTu/claudian) — An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault
 - [yyjeqhc/webcodex](https://github.com/yyjeqhc/webcodex) — Give cloud AI agents a real development environment on your own machines.
 - [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) — A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.
 - [greensock/gsap-skills](https://github.com/greensock/gsap-skills) — Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices,…
