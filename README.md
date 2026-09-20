@@ -57,7 +57,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-20T04:51:15Z` · 当前公开 Stars：**301** · 已分类：**296**
+> 最近成功检查：`2026-09-20T11:19:12Z` · 当前公开 Stars：**302** · 已分类：**296**
 
 
 ### AI 与 Agent（32）
@@ -380,8 +380,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（5）
+### 待分类（6）
 
+- [xai-org/grok-build](https://github.com/xai-org/grok-build) — SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
 - [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — A skill to stop your coding agent from burying the answer. ADHD-friendly output.
 - [YishenTu/claudian](https://github.com/YishenTu/claudian) — An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault
 - [yyjeqhc/webcodex](https://github.com/yyjeqhc/webcodex) — Give cloud AI agents a real development environment on your own machines.
