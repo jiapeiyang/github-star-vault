@@ -57,7 +57,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-20T20:46:44Z` · 当前公开 Stars：**302** · 已分类：**296**
+> 最近成功检查：`2026-09-21T04:52:04Z` · 当前公开 Stars：**311** · 已分类：**296**
 
 
 ### AI 与 Agent（32）
@@ -380,8 +380,17 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（6）
+### 待分类（15）
 
+- [panxunying/ai-coding-welfare](https://github.com/panxunying/ai-coding-welfare) — AI Coding 福利站导航：免费白嫖 Claude Code / Codex 的中转站与公益站合集，含额度、模型、价格自动更新与一键配置脚本
+- [HenryChiao/MIHOMO_YAMLS](https://github.com/HenryChiao/MIHOMO_YAMLS) — 一个精心整理的 Mihomo (Clash Meta) 配置文件仓库，通过 GitHub Actions 每日自动同步上游优质规则，提供从入门到进阶的完整解决方案。
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) — A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
+- [DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) — 🚁🚀 2026机场推荐 \| 熊猫VPN（PandaVPNPro）已确定跑路！快连VPN ，小牛加速器（小牛VPN）体验不佳且价格贵。低价机场，便宜机场，平价机场，性价比机场，高速机场，稳定机场，一元机场，翻墙机场，付费机场，收费机场，冷门机场，优质机场，廉价机场。机场评测，中国翻墙，科学上网，梯子…
+- [YoulianBoshi/vpn](https://github.com/YoulianBoshi/vpn) — 破解VPN，电脑VPN，白嫖VPN，加入油脸博士电报频道获取更多破解VPN
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) — 🚀 免费订阅地址，🚀 免费节点，🚀 6小时更新一次，共享节点，节点质量高可用，完全免费。免费clash订阅地址，免费翻墙、免费科学上网、免费梯子、免费ss/v2ray/trojan节点、谷歌商店、翻墙梯子。🚀 Free subscription address, 🚀 Free node, 🚀 Up…
+- [hoochanlon/hamuleite](https://github.com/hoochanlon/hamuleite) — 🌊深度整合全球顶尖学术、金融与教育资源：学术板块汇聚 JSTOR、Taylor &amp; Francis、剑桥大学出版社等权威平台的论文，并接入 Z-Library 影子图书馆的海量电子书；教育板块收录香港、新加坡从小学到高中以及大学学科教科书；金融板块则聚合香橼、摩根、野村等顶级机构的深度研报，只为打…
+- [hoochanlon/fq-book](https://github.com/hoochanlon/fq-book) — 📖《这本书能让你连接互联网》 详细阐述代理、隧道、VPN运作过程，并对GFW策略如：地址端口封锁、服务器缓存投毒、数字验证攻击、SSL连接阻断做相关的原理说明
+- [fmhy/edit](https://github.com/fmhy/edit) — Make changes to FMHY
 - [xai-org/grok-build](https://github.com/xai-org/grok-build) — SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
 - [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — A skill to stop your coding agent from burying the answer. ADHD-friendly output.
 - [YishenTu/claudian](https://github.com/YishenTu/claudian) — An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault
