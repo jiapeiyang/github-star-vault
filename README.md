@@ -57,7 +57,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-02T05:32:54Z` · 当前公开 Stars：**312** · 已分类：**296**
+> 最近成功检查：`2026-10-02T12:29:35Z` · 当前公开 Stars：**312** · 已分类：**296**
 
 
 ### AI 与 Agent（32）
@@ -214,7 +214,7 @@ GITHUB_PAGES=true npm --prefix app run build
 
 ### 开发者工具与自动化（80）
 
-- [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) — 把现有编码 CLI 组织成带终端、消息、记忆和任务调度的本地多 Agent 桌面工作区。
+- [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin) — 把现有编码 CLI 组织成带终端、消息、记忆和任务调度的本地多 Agent 桌面工作区。
 - [liqiang-xxfy/fly-cursor-free](https://github.com/liqiang-xxfy/fly-cursor-free) — 围绕 Cursor 账号切换与试用管理的第三方桌面工具；公开说明不足以验证完整实现和当前兼容性。
 - [Rion-Wu-tech/wechat-intelligence-hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) — 通过只读 Reader 和本地引擎，把获授权的微信记录整理成可检索资料、日报与跟进线索。
 - [localsend/localsend](https://github.com/localsend/localsend) — 通过局域网在电脑与手机间传送文件和文字，无需聊天软件账号。
