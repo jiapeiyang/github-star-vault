@@ -57,7 +57,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-02T12:29:35Z` · 当前公开 Stars：**312** · 已分类：**296**
+> 最近成功检查：`2026-10-02T22:11:12Z` · 当前公开 Stars：**312** · 已分类：**296**
 
 
 ### AI 与 Agent（32）
@@ -383,7 +383,7 @@ GITHUB_PAGES=true npm --prefix app run build
 ### 待分类（16）
 
 - [hypit-ai/hypit](https://github.com/hypit-ai/hypit) — Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command,…
-- [LearnPrompt/awesome-seedance](https://github.com/LearnPrompt/awesome-seedance) — 🎬 Evidence-led Seedance 2.5 / 2.0 prompt library: 463 cases traced to original posts, 264 cross-model retest runs with public verdicts, 25 copy-ready…
+- [LearnPrompt/awesome-seedance](https://github.com/LearnPrompt/awesome-seedance) — 🎬 Evidence-led Seedance 2.5 / 2.0 prompt library: 600+ cases traced to original posts, 260+ cross-model retest runs with public verdicts, 25 copy-rea…
 - [panxunying/ai-coding-welfare](https://github.com/panxunying/ai-coding-welfare) — AI Coding 福利站导航：免费白嫖 Claude Code / Codex 的中转站与公益站合集，含额度、模型、价格自动更新与一键配置脚本
 - [HenryChiao/MIHOMO_YAMLS](https://github.com/HenryChiao/MIHOMO_YAMLS) — 一个精心整理的 Mihomo (Clash Meta) 配置文件仓库，通过 GitHub Actions 每日自动同步上游优质规则，提供从入门到进阶的完整解决方案。
 - [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) — A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
