@@ -1,0 +1,271 @@
+{
+  "measuredAt": "2026-10-04T20:55:58.012Z",
+  "node": "v24.14.0",
+  "platform": "darwin",
+  "arch": "arm64",
+  "method": "本机 Node 单进程，10 次预热后各测 50 次；过滤包含实际相关性排序。非浏览器渲染、非真实用户或移动设备数据。gzip 为本地压缩估算，不代表托管传输。",
+  "samples": 50,
+  "warmups": 10,
+  "repositories": 315,
+  "stats": {
+    "active": 313,
+    "total": 315,
+    "curated": 313,
+    "guides": 313,
+    "new": 29,
+    "githubArchived": 12,
+    "missing": 2
+  },
+  "bytes": 1332167,
+  "gzipBytes": 365555,
+  "parse": {
+    "medianMs": 1.005,
+    "p95Ms": 1.218,
+    "maxMs": 1.308
+  },
+  "defaultList": {
+    "matches": 313,
+    "medianMs": 0.252,
+    "p95Ms": 0.307,
+    "maxMs": 0.324
+  },
+  "emptyRecovery": {
+    "query": "canvas-ui",
+    "category": "ai-agent",
+    "options": [
+      {
+        "key": "category",
+        "label": "领域分类",
+        "patch": {
+          "category": "all"
+        },
+        "count": 1
+      }
+    ],
+    "medianMs": 5.999,
+    "p95Ms": 6.541,
+    "maxMs": 6.677
+  },
+  "queries": [
+    {
+      "query": "koa",
+      "expected": "koajs/koa",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 8,
+      "pass": true,
+      "medianMs": 2.967,
+      "p95Ms": 3.311,
+      "maxMs": 3.339
+    },
+    {
+      "query": "nanoid",
+      "expected": "ai/nanoid",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 2.948,
+      "p95Ms": 3.253,
+      "maxMs": 3.47
+    },
+    {
+      "query": "json2csv",
+      "expected": "zemirco/json2csv",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 2.899,
+      "p95Ms": 3.207,
+      "maxMs": 3.519
+    },
+    {
+      "query": "swc",
+      "expected": "swc-project/swc",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 2,
+      "pass": true,
+      "medianMs": 3.003,
+      "p95Ms": 3.316,
+      "maxMs": 3.424
+    },
+    {
+      "query": "vueuse",
+      "expected": "vueuse/vueuse",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.006,
+      "p95Ms": 3.323,
+      "maxMs": 3.462
+    },
+    {
+      "query": "solid",
+      "expected": "solidjs/solid",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 3,
+      "pass": true,
+      "medianMs": 2.952,
+      "p95Ms": 3.248,
+      "maxMs": 3.387
+    },
+    {
+      "query": "svelte",
+      "expected": "sveltejs/svelte",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 4,
+      "pass": true,
+      "medianMs": 3.056,
+      "p95Ms": 3.608,
+      "maxMs": 3.689
+    },
+    {
+      "query": "mshared",
+      "expected": "juicecube/mshared",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.1,
+      "p95Ms": 3.712,
+      "maxMs": 3.808
+    },
+    {
+      "query": "herdr",
+      "expected": "herdrdev/herdr",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 8,
+      "pass": true,
+      "medianMs": 2.914,
+      "p95Ms": 3.283,
+      "maxMs": 3.529
+    },
+    {
+      "query": "impeccable",
+      "expected": "pbakaus/impeccable",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 3,
+      "pass": true,
+      "medianMs": 2.925,
+      "p95Ms": 3.304,
+      "maxMs": 3.507
+    },
+    {
+      "query": "archify",
+      "expected": "tt-a1i/archify",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 3,
+      "pass": true,
+      "medianMs": 2.983,
+      "p95Ms": 3.375,
+      "maxMs": 3.49
+    },
+    {
+      "query": "文字识别",
+      "expected": "opendatalab/MinerU",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 2,
+      "pass": true,
+      "medianMs": 3.637,
+      "p95Ms": 3.936,
+      "maxMs": 4.054
+    },
+    {
+      "query": "字体 终端",
+      "expected": "subframe7536/maple-font",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 2,
+      "pass": true,
+      "medianMs": 4.121,
+      "p95Ms": 4.527,
+      "maxMs": 4.745
+    },
+    {
+      "query": "截图 前端",
+      "expected": "abi/screenshot-to-code",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 13,
+      "pass": true,
+      "medianMs": 3.637,
+      "p95Ms": 3.846,
+      "maxMs": 4.771
+    },
+    {
+      "query": "钉钉 命令行",
+      "expected": "DingTalk-Real-AI/dingtalk-workspace-cli",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 2.888,
+      "p95Ms": 3.1,
+      "maxMs": 3.118
+    },
+    {
+      "query": "小说 cli",
+      "expected": "voocel/ainovel-cli",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 2.841,
+      "p95Ms": 3.169,
+      "maxMs": 3.245
+    },
+    {
+      "query": "ppt 可编辑",
+      "expected": "hugohe3/ppt-master",
+      "maxRank": 5,
+      "rank": 2,
+      "matches": 5,
+      "pass": true,
+      "medianMs": 3.105,
+      "p95Ms": 3.383,
+      "maxMs": 3.612
+    },
+    {
+      "query": "智能体 教程",
+      "expected": "datawhalechina/hello-agents",
+      "maxRank": 5,
+      "rank": 2,
+      "matches": 8,
+      "pass": true,
+      "medianMs": 3.479,
+      "p95Ms": 3.767,
+      "maxMs": 3.782
+    },
+    {
+      "query": "Mac 清理",
+      "expected": "tw93/Mole",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 3,
+      "pass": true,
+      "medianMs": 2.969,
+      "p95Ms": 3.301,
+      "maxMs": 3.465
+    },
+    {
+      "query": "工作流 审查",
+      "expected": "fengshao1227/ccg-workflow",
+      "maxRank": 5,
+      "rank": 1,
+      "matches": 14,
+      "pass": true,
+      "medianMs": 3.4,
+      "p95Ms": 3.698,
+      "maxMs": 3.777
+    }
+  ]
+}

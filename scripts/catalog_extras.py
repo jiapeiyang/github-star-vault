@@ -1,6 +1,6 @@
 """专题与来源核查记录：构建只读取现有文件，不访问网络。"""
 from pathlib import Path
-from star_vault import ValidationError, read_json, parse_iso, web_url
+from star_vault import ValidationError, read_json, parse_iso, content_date, web_url
 import re
 
 
@@ -29,8 +29,36 @@ def load_topics(path: Path, snapshot: dict) -> list:
             seen.add(entry["repo_id"])
             if not isinstance(entry.get("reason"), str) or not entry["reason"].strip():
                 raise ValidationError("专题条目必须说明适用场景")
-        result.append({"id":topic["id"],"title":topic["title"],"description":topic["description"],"entries":[{"repoId":e["repo_id"],"reason":e["reason"]} for e in entries]})
+        item = {"id":topic["id"],"title":topic["title"],"description":topic["description"],"entries":[{"repoId":e["repo_id"],"reason":e["reason"]} for e in entries]}
+        if "comparison" in topic:
+            item["comparison"] = load_comparison(topic["comparison"], seen)
+        result.append(item)
     return result
+
+
+def load_comparison(value: dict, topic_repo_ids: set) -> dict:
+    if not isinstance(value, dict) or any(not isinstance(value.get(key), str) or not value[key].strip() for key in ["title", "description"]):
+        raise ValidationError("项目对照必须有标题和说明")
+    reviewed = content_date(value.get("reviewed_at"), "项目对照核查日期")
+    if not reviewed:
+        raise ValidationError("项目对照必须有核查日期")
+    entries = value.get("entries")
+    if not isinstance(entries, list) or not 2 <= len(entries) <= 3:
+        raise ValidationError("项目对照必须包含 2 至 3 个项目")
+    fields = ["task", "input", "output", "start", "requirements", "limitations"]
+    seen = set()
+    result = []
+    for entry in entries:
+        if not isinstance(entry, dict) or type(entry.get("repo_id")) is not int or entry["repo_id"] not in topic_repo_ids or entry["repo_id"] in seen:
+            raise ValidationError("对照仓库必须属于当前专题且不能重复")
+        seen.add(entry["repo_id"])
+        if any(not isinstance(entry.get(key), str) or not entry[key].strip() for key in fields):
+            raise ValidationError("项目对照须完整说明任务、输入输出、入口、前提与限制")
+        sources = entry.get("sources")
+        if not isinstance(sources, list) or not sources or not all(web_url(source) for source in sources):
+            raise ValidationError("项目对照必须有 HTTP/HTTPS 来源")
+        result.append({"repoId": entry["repo_id"], **{key: entry[key] for key in fields}, "sources": sources})
+    return {"title": value["title"], "description": value["description"], "reviewedAt": reviewed, "entries": result}
 
 
 def load_source_checks(path: Path, snapshot: dict) -> dict:

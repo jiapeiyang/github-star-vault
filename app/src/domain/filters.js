@@ -36,6 +36,19 @@ export function chooseRevisit(repositories, random = Math.random, previousId) {
   const candidates = pool.length > 1 ? pool.filter(r => r.repoId !== previousId) : pool;
   return candidates[Math.min(candidates.length - 1, Math.floor(random() * candidates.length))];
 }
+
+export function filterRecoveryOptions(repositories, route) {
+  if (filterRepositories(repositories, route).length) return [];
+  const labels = { category: "领域分类", type: "资源类型", language: "语言", tag: "策展标签", year: "收藏年份", from: "起始日期", to: "截止日期", coverage: "解读状态", origin: "收录时间", source: "收录范围", archive: "归档状态" };
+  return Object.entries(labels).filter(([key]) =>
+    route[key] && route[key] !== "all"
+    && !(key === "source" && route[key] === "starred")
+    && !(key === "archive" && route[key] === "active")
+  ).map(([key, label]) => {
+    const patch = { [key]: key === "from" || key === "to" ? "" : "all" };
+    return { key, label, patch, count: filterRepositories(repositories, { ...route, ...patch }).length };
+  }).filter(option => option.count > 0).sort((left, right) => right.count - left.count);
+}
 export function groupByMonth(repositories) {
   const groups = new Map();
   for (const repo of repositories) {

@@ -1,0 +1,286 @@
+{
+  "measuredAt": "2026-10-04T21:16:01.119Z",
+  "method": "本机 Chromium、生产产物、回环网络；禁用 HTTP 缓存，首页各 3 次、完整列表各 1 次。窄屏使用 390×844 和 CPU 4 倍降速，不是真实手机或线上网络。uiMountedMs 为目录载入后的 DOM 挂载观察，不是 LCP；外部头像完成不属于此就绪标准。",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+  "samples": [
+    {
+      "mode": "desktop",
+      "cpuRate": 1,
+      "view": "home",
+      "sample": 1,
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 48
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 68
+        }
+      ],
+      "longTasks": [],
+      "uiMountedMs": 39.40000009536743,
+      "afterNextFrameMs": 77.90000009536743,
+      "catalog": {
+        "durationMs": 16.59999990463257,
+        "transferBytes": 365855,
+        "decodedBytes": 1332167
+      },
+      "articles": 1,
+      "viewport": 1280,
+      "pageWidth": 1280
+    },
+    {
+      "mode": "desktop",
+      "cpuRate": 1,
+      "view": "home",
+      "sample": 2,
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 36
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 52
+        }
+      ],
+      "longTasks": [],
+      "uiMountedMs": 38.09999990463257,
+      "afterNextFrameMs": 78.59999990463257,
+      "catalog": {
+        "durationMs": 16.09999990463257,
+        "transferBytes": 365855,
+        "decodedBytes": 1332167
+      },
+      "articles": 1,
+      "viewport": 1280,
+      "pageWidth": 1280
+    },
+    {
+      "mode": "desktop",
+      "cpuRate": 1,
+      "view": "home",
+      "sample": 3,
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 40
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 56
+        }
+      ],
+      "longTasks": [],
+      "uiMountedMs": 38.59999990463257,
+      "afterNextFrameMs": 80.70000004768372,
+      "catalog": {
+        "durationMs": 16.699999809265137,
+        "transferBytes": 365855,
+        "decodedBytes": 1332167
+      },
+      "articles": 1,
+      "viewport": 1280,
+      "pageWidth": 1280
+    },
+    {
+      "mode": "desktop",
+      "cpuRate": 1,
+      "view": "library",
+      "sample": 1,
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 40
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 56
+        }
+      ],
+      "longTasks": [],
+      "uiMountedMs": 57.10000014305115,
+      "afterNextFrameMs": 115.29999995231628,
+      "catalog": {
+        "durationMs": 16.09999990463257,
+        "transferBytes": 365855,
+        "decodedBytes": 1332167
+      },
+      "articles": 313,
+      "viewport": 1280,
+      "pageWidth": 1280
+    },
+    {
+      "mode": "narrow-cpu4",
+      "cpuRate": 4,
+      "view": "home",
+      "sample": 1,
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 68
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 100
+        }
+      ],
+      "longTasks": [],
+      "uiMountedMs": 112.20000004768372,
+      "afterNextFrameMs": 210.79999995231628,
+      "catalog": {
+        "durationMs": 15.799999952316284,
+        "transferBytes": 365855,
+        "decodedBytes": 1332167
+      },
+      "articles": 1,
+      "viewport": 390,
+      "pageWidth": 390
+    },
+    {
+      "mode": "narrow-cpu4",
+      "cpuRate": 4,
+      "view": "home",
+      "sample": 2,
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 56
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 72
+        }
+      ],
+      "longTasks": [],
+      "uiMountedMs": 89.29999995231628,
+      "afterNextFrameMs": 180.09999990463257,
+      "catalog": {
+        "durationMs": 15.900000095367432,
+        "transferBytes": 365855,
+        "decodedBytes": 1332167
+      },
+      "articles": 1,
+      "viewport": 390,
+      "pageWidth": 390
+    },
+    {
+      "mode": "narrow-cpu4",
+      "cpuRate": 4,
+      "view": "home",
+      "sample": 3,
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 56
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 72
+        }
+      ],
+      "longTasks": [],
+      "uiMountedMs": 86.70000004768372,
+      "afterNextFrameMs": 167.60000014305115,
+      "catalog": {
+        "durationMs": 15.599999904632568,
+        "transferBytes": 365855,
+        "decodedBytes": 1332167
+      },
+      "articles": 1,
+      "viewport": 390,
+      "pageWidth": 390
+    },
+    {
+      "mode": "narrow-cpu4",
+      "cpuRate": 4,
+      "view": "library",
+      "sample": 1,
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 52
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 88
+        }
+      ],
+      "longTasks": [
+        {
+          "startTime": 81.20000004768372,
+          "duration": 91
+        },
+        {
+          "startTime": 172.90000009536743,
+          "duration": 54
+        }
+      ],
+      "uiMountedMs": 168.29999995231628,
+      "afterNextFrameMs": 296,
+      "catalog": {
+        "durationMs": 15.399999856948853,
+        "transferBytes": 365855,
+        "decodedBytes": 1332167
+      },
+      "articles": 313,
+      "viewport": 390,
+      "pageWidth": 390
+    }
+  ],
+  "guides": [
+    {
+      "repoId": 1383809012,
+      "name": "yetone/magpie",
+      "heading": "yetone/magpie",
+      "sections": [
+        "它是什么",
+        "适合什么场景",
+        "如何开始",
+        "一个使用示例",
+        "注意事项与相关项目",
+        "资料来源"
+      ],
+      "hasUnexecutedDisclaimer": true,
+      "hasReviewDate": true,
+      "pageWidth": 390,
+      "viewport": 390
+    },
+    {
+      "repoId": 1302826522,
+      "name": "DavidHDev/canvas-ui",
+      "heading": "DavidHDev/canvas-ui",
+      "sections": [
+        "它是什么",
+        "适合什么场景",
+        "如何开始",
+        "一个使用示例",
+        "注意事项与相关项目",
+        "资料来源"
+      ],
+      "hasUnexecutedDisclaimer": true,
+      "hasReviewDate": true,
+      "pageWidth": 390,
+      "viewport": 390
+    },
+    {
+      "repoId": 625069454,
+      "name": "DiningFactory/panda-vpn-pro",
+      "heading": "DiningFactory/panda-vpn-pro",
+      "sections": [
+        "它是什么",
+        "适合什么场景",
+        "如何开始",
+        "一个使用示例",
+        "注意事项与相关项目",
+        "资料来源"
+      ],
+      "hasUnexecutedDisclaimer": true,
+      "hasReviewDate": true,
+      "pageWidth": 390,
+      "viewport": 390
+    }
+  ],
+  "appErrors": []
+}

@@ -2,12 +2,11 @@ import { RepoLink } from "../components/RepoLink.jsx";
 import { TopicLink } from "../components/TopicLink.jsx";
 import { useState } from "react";
 import { ArrowRight, ArrowUpRight, Shuffle } from "@phosphor-icons/react";
-import { formatDate } from "../domain/catalog.js";
+import { formatDate, latestUpdatedGuide } from "../domain/catalog.js";
 import { chooseRevisit, collectionDate } from "../domain/filters.js";
 export function HomeView({catalog,onOpenRepo,onOpenLibrary,onNavigate}) {
   const repos=catalog.repositories.filter(r=>r.sourceStatus==="starred"&&!r.personalArchived);
-  const described=repos.filter(r=>r.hasGuide).sort((a,b)=>b.reviewedAt.localeCompare(a.reviewedAt)||new Date(b.starredAt)-new Date(a.starredAt)||a.repoId-b.repoId);
-  const featured=described[0]||repos[0];
+  const featured=latestUpdatedGuide(repos)||repos[0];
   const [revisit,setRevisit]=useState(()=>chooseRevisit(repos));
   const years=Object.entries(repos.reduce((acc,r)=>{const y=collectionDate(r.starredAt).slice(0,4);acc[y]=(acc[y]||0)+1;return acc;},{})).sort(([a],[b])=>b.localeCompare(a));
   if(!featured)return <main className="empty-state"><h1>暂时没有收藏</h1><p>下一次成功同步后，公开 Stars 会出现在这里。</p></main>;

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-14T12:08:10Z",
+  "checked_at": "2026-10-04T20:51:25Z",
   "items": [
     {
       "repo_id": 790359,
@@ -7,7 +7,7 @@
       "baseline_sha": "e011b37e803db67101e6ca5b9552756f19f99b61",
       "observed_sha": "e011b37e803db67101e6ca5b9552756f19f99b61",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1283503,
@@ -15,7 +15,7 @@
       "baseline_sha": "42290d5cea4d858158f12122e403df04165aaa2a",
       "observed_sha": "42290d5cea4d858158f12122e403df04165aaa2a",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 3402537,
@@ -23,7 +23,7 @@
       "baseline_sha": "e9e54b4dc8abb0c844e7326375b79e9da2634ddb",
       "observed_sha": "e9e54b4dc8abb0c844e7326375b79e9da2634ddb",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 4297695,
@@ -31,7 +31,7 @@
       "baseline_sha": "f575327d50aa34030b8cb24c81bc3f269cee4cd1",
       "observed_sha": "f575327d50aa34030b8cb24c81bc3f269cee4cd1",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 6256729,
@@ -39,7 +39,7 @@
       "baseline_sha": "9021281699ffc7eb54d2b356e36fe4ee6173cb4f",
       "observed_sha": "9021281699ffc7eb54d2b356e36fe4ee6173cb4f",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 8467117,
@@ -47,7 +47,7 @@
       "baseline_sha": "08c063acb1221e8f41d2dee4a51916c91cdf5db0",
       "observed_sha": "08c063acb1221e8f41d2dee4a51916c91cdf5db0",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 9207396,
@@ -55,7 +55,7 @@
       "baseline_sha": "089a6d846b7d47225bdf37fcbe7998d00f09d546",
       "observed_sha": "089a6d846b7d47225bdf37fcbe7998d00f09d546",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 11551538,
@@ -63,7 +63,7 @@
       "baseline_sha": "689d4abebf329e90e6eae566b8d03ea8fbed1e28",
       "observed_sha": "689d4abebf329e90e6eae566b8d03ea8fbed1e28",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 13431235,
@@ -71,7 +71,7 @@
       "baseline_sha": "9af9ce21be68cad352be5b2c16f549f72ecb448e",
       "observed_sha": "9af9ce21be68cad352be5b2c16f549f72ecb448e",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 14741526,
@@ -79,7 +79,7 @@
       "baseline_sha": "dd6755a783b49e72eb8f846659954469daf4a76e",
       "observed_sha": "dd6755a783b49e72eb8f846659954469daf4a76e",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 15308499,
@@ -87,7 +87,7 @@
       "baseline_sha": "c95740711a406371f7cfdce728a5ce0eca187133",
       "observed_sha": "c95740711a406371f7cfdce728a5ce0eca187133",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 16229580,
@@ -95,7 +95,7 @@
       "baseline_sha": "2a89487d585a6ffbdddeba061470b1794327d39d",
       "observed_sha": "2a89487d585a6ffbdddeba061470b1794327d39d",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 16346957,
@@ -103,7 +103,7 @@
       "baseline_sha": "9b7d2258b7b0dc9c912fc0c9e93f3e176957160f",
       "observed_sha": "9b7d2258b7b0dc9c912fc0c9e93f3e176957160f",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 17655907,
@@ -111,15 +111,16 @@
       "baseline_sha": "ab378b515679e09fffdf0cc41a2c9a7360143474",
       "observed_sha": "ab378b515679e09fffdf0cc41a2c9a7360143474",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 19141383,
       "source_url": "https://github.com/fouber/blog/blob/master/README.md",
       "baseline_sha": "3a56578c88936d4a5b0aa95d2c10de1e4dff202a",
-      "observed_sha": "3a56578c88936d4a5b0aa95d2c10de1e4dff202a",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 19453715,
@@ -127,7 +128,7 @@
       "baseline_sha": "ee2e848fcb29ca2aa99c32e5ae4cb7ae25f4fd27",
       "observed_sha": "ee2e848fcb29ca2aa99c32e5ae4cb7ae25f4fd27",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 22046023,
@@ -135,7 +136,7 @@
       "baseline_sha": "5ac15ec82e976fd98f09b457a98399584d2af38b",
       "observed_sha": "5ac15ec82e976fd98f09b457a98399584d2af38b",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 23689830,
@@ -143,7 +144,7 @@
       "baseline_sha": "91fce072471c36fc49df160954f65d84f18588b8",
       "observed_sha": "91fce072471c36fc49df160954f65d84f18588b8",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 29375063,
@@ -151,7 +152,7 @@
       "baseline_sha": "dd90a14dc52a7fb69887c33d81afad481a80f259",
       "observed_sha": "dd90a14dc52a7fb69887c33d81afad481a80f259",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 29785166,
@@ -159,15 +160,16 @@
       "baseline_sha": "fcc4cc435acda8074934916791a4f1c74c0f85fe",
       "observed_sha": "fcc4cc435acda8074934916791a4f1c74c0f85fe",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 35810174,
       "source_url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/blob/main/README.md",
       "baseline_sha": "116921db8108eb2adcffec29d6d1e3bd16d1043e",
-      "observed_sha": "116921db8108eb2adcffec29d6d1e3bd16d1043e",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 35998691,
@@ -175,7 +177,7 @@
       "baseline_sha": "1b78192b333f8abb3d930c163cf56d65d4c98617",
       "observed_sha": "1b78192b333f8abb3d930c163cf56d65d4c98617",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 36836475,
@@ -183,7 +185,7 @@
       "baseline_sha": "38a296fc8c1ab4731c2aa58dad81d0677ece8edb",
       "observed_sha": "38a296fc8c1ab4731c2aa58dad81d0677ece8edb",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 37066088,
@@ -191,7 +193,7 @@
       "baseline_sha": "2ae7536ebb8b632c1e1e31a6e00933ca4dbe9590",
       "observed_sha": "2ae7536ebb8b632c1e1e31a6e00933ca4dbe9590",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 40422990,
@@ -199,7 +201,7 @@
       "baseline_sha": "82a34cf693f6567c57856f79bab6ced25922601a",
       "observed_sha": "82a34cf693f6567c57856f79bab6ced25922601a",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 41167393,
@@ -207,7 +209,7 @@
       "baseline_sha": "f1b483eda54c0d892a3472475b5a43507a85feac",
       "observed_sha": "f1b483eda54c0d892a3472475b5a43507a85feac",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 41526025,
@@ -215,7 +217,7 @@
       "baseline_sha": "a379944d68d4b59505fff689d5e024e76a3b9615",
       "observed_sha": "a379944d68d4b59505fff689d5e024e76a3b9615",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 42352603,
@@ -223,7 +225,7 @@
       "baseline_sha": "527126017c0bf98ae865008aa97d28a5f828e881",
       "observed_sha": "527126017c0bf98ae865008aa97d28a5f828e881",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 44008404,
@@ -231,7 +233,7 @@
       "baseline_sha": "fc8f350551be44f5debced870cca2f0ddec7e591",
       "observed_sha": "fc8f350551be44f5debced870cca2f0ddec7e591",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 45512989,
@@ -239,7 +241,7 @@
       "baseline_sha": "72ace35a8b9ed310e07bdb5f281154cc9eceae86",
       "observed_sha": "72ace35a8b9ed310e07bdb5f281154cc9eceae86",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 47445046,
@@ -247,7 +249,7 @@
       "baseline_sha": "1463bf89ade85932642ecbd1560602367d679db7",
       "observed_sha": "1463bf89ade85932642ecbd1560602367d679db7",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 48212104,
@@ -255,7 +257,7 @@
       "baseline_sha": "279da682a140512ccd51d6d33d5019c6950eb28a",
       "observed_sha": "279da682a140512ccd51d6d33d5019c6950eb28a",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 50502690,
@@ -263,7 +265,7 @@
       "baseline_sha": "be9411d9ac30687c8343fd94d1dfd8994e4284e0",
       "observed_sha": "be9411d9ac30687c8343fd94d1dfd8994e4284e0",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 50559652,
@@ -271,15 +273,15 @@
       "baseline_sha": "74685c7487f5e83c76bbee262674b6130d48017c",
       "observed_sha": "74685c7487f5e83c76bbee262674b6130d48017c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 54346799,
       "source_url": "https://github.com/public-apis/public-apis/blob/master/README.md",
       "baseline_sha": "61b6131b15a02b00c5f200958648dc5e02b53799",
-      "observed_sha": "61b6131b15a02b00c5f200958648dc5e02b53799",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "f1e0cd665d4aa4022bd36bc487e6f2056c4f2b53",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 54978788,
@@ -287,7 +289,7 @@
       "baseline_sha": "4da4ddf68957783217e2ad56649ece52526a7960",
       "observed_sha": "4da4ddf68957783217e2ad56649ece52526a7960",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 55619351,
@@ -295,7 +297,7 @@
       "baseline_sha": "cad00c20ad3cfc2dfbc1f3d1eb860563264aa110",
       "observed_sha": "cad00c20ad3cfc2dfbc1f3d1eb860563264aa110",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 55888708,
@@ -303,15 +305,16 @@
       "baseline_sha": "be3338c51e77cb6fbfb56c1de2d8f8b757401bbb",
       "observed_sha": "be3338c51e77cb6fbfb56c1de2d8f8b757401bbb",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 56392153,
       "source_url": "https://github.com/hk029/leetbook/blob/master/README.md",
       "baseline_sha": "fe3f12c752464920e4a4141d22212ece25e0c895",
-      "observed_sha": "fe3f12c752464920e4a4141d22212ece25e0c895",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 56642714,
@@ -319,7 +322,7 @@
       "baseline_sha": "a611508466e4facacb5bcaf3c361b48ee8f2afeb",
       "observed_sha": "a611508466e4facacb5bcaf3c361b48ee8f2afeb",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 58032138,
@@ -327,15 +330,16 @@
       "baseline_sha": "81c3ce200d32575a981ccd86f66c3d833e9a6c4c",
       "observed_sha": "81c3ce200d32575a981ccd86f66c3d833e9a6c4c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 58509963,
       "source_url": "https://github.com/xcatliu/typescript-tutorial/blob/master/README.md",
       "baseline_sha": "7d45971a3ff2d84edc642a1af81ef67f279e512c",
-      "observed_sha": "7d45971a3ff2d84edc642a1af81ef67f279e512c",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 58520024,
@@ -343,7 +347,7 @@
       "baseline_sha": "6e27b4c8c6206da7bea0ebb08f06e126d931b0f3",
       "observed_sha": "6e27b4c8c6206da7bea0ebb08f06e126d931b0f3",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 58836534,
@@ -351,7 +355,7 @@
       "baseline_sha": "b0d311411b252107007bd5c84094ce9cb390e95a",
       "observed_sha": "b0d311411b252107007bd5c84094ce9cb390e95a",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 61137153,
@@ -359,7 +363,7 @@
       "baseline_sha": "08272e6b3db3f5068e876e2c2b13b4e138d5694d",
       "observed_sha": "08272e6b3db3f5068e876e2c2b13b4e138d5694d",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 61421257,
@@ -367,7 +371,7 @@
       "baseline_sha": "030f0d1ac9e55913fc798eef8f4f492741fc75f2",
       "observed_sha": "030f0d1ac9e55913fc798eef8f4f492741fc75f2",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 61715431,
@@ -375,7 +379,7 @@
       "baseline_sha": "ffa1843ad0a55d6a7f33eb400bc6c0026850c23f",
       "observed_sha": "ffa1843ad0a55d6a7f33eb400bc6c0026850c23f",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 62104779,
@@ -383,7 +387,7 @@
       "baseline_sha": "cdc4e5441d4c627a24b5e4c39729b8e49238b895",
       "observed_sha": "cdc4e5441d4c627a24b5e4c39729b8e49238b895",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 62879525,
@@ -391,7 +395,7 @@
       "baseline_sha": "0ba05edc186060e0335e387b4f9d9d03680bf8a7",
       "observed_sha": "0ba05edc186060e0335e387b4f9d9d03680bf8a7",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 62892221,
@@ -399,7 +403,7 @@
       "baseline_sha": "7f8d246441d7786b4aaaa9d23b978929cb582478",
       "observed_sha": "7f8d246441d7786b4aaaa9d23b978929cb582478",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 63418718,
@@ -407,15 +411,15 @@
       "baseline_sha": "e85b7d34d9746647b20f10fa73f7b3be03cc7d62",
       "observed_sha": "e85b7d34d9746647b20f10fa73f7b3be03cc7d62",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 63539055,
       "source_url": "https://github.com/jaywcjlove/awesome-mac/blob/master/README.md",
       "baseline_sha": "761cc80571a496c57ae7099a0ae92ab297d224de",
-      "observed_sha": "761cc80571a496c57ae7099a0ae92ab297d224de",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "f26392cc6881c020875a50c30764a884f4205c52",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 63568049,
@@ -423,7 +427,7 @@
       "baseline_sha": "75a08494d5a06c687b0f201a5ad00aeda844ded2",
       "observed_sha": "75a08494d5a06c687b0f201a5ad00aeda844ded2",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 63938423,
@@ -431,7 +435,7 @@
       "baseline_sha": "661cafcf47ce0f12282a3a73f502658293be4d3e",
       "observed_sha": "661cafcf47ce0f12282a3a73f502658293be4d3e",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 65395768,
@@ -439,7 +443,7 @@
       "baseline_sha": "82be30c9850aedcb0e71c2d92b95ed1a86e9f788",
       "observed_sha": "82be30c9850aedcb0e71c2d92b95ed1a86e9f788",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 68908781,
@@ -447,7 +451,7 @@
       "baseline_sha": "34be5ca0496436f6229074f5b586538bad191d81",
       "observed_sha": "34be5ca0496436f6229074f5b586538bad191d81",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 72103891,
@@ -455,7 +459,7 @@
       "baseline_sha": "1489b155095f1ba8b1c28ccc1dd2b4954f2c97fa",
       "observed_sha": "1489b155095f1ba8b1c28ccc1dd2b4954f2c97fa",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 72188885,
@@ -463,7 +467,7 @@
       "baseline_sha": "c1e21f248657e26532203dd609356503d7e90052",
       "observed_sha": "c1e21f248657e26532203dd609356503d7e90052",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 72754314,
@@ -471,7 +475,7 @@
       "baseline_sha": "a5e61b5a8859734e798f7011b40155a6e3982fca",
       "observed_sha": "a5e61b5a8859734e798f7011b40155a6e3982fca",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 73999402,
@@ -479,7 +483,7 @@
       "baseline_sha": "256deff0695d588ec7528dcb9fa6f7b47b8b3d56",
       "observed_sha": "256deff0695d588ec7528dcb9fa6f7b47b8b3d56",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 74293321,
@@ -487,7 +491,7 @@
       "baseline_sha": "7ea71647521ae850fd0933665f94760806ac5b29",
       "observed_sha": "7ea71647521ae850fd0933665f94760806ac5b29",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 74791366,
@@ -495,7 +499,7 @@
       "baseline_sha": "f1159781a14931d4e24c19a37cc5ab4d62780d7c",
       "observed_sha": "f1159781a14931d4e24c19a37cc5ab4d62780d7c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 77912349,
@@ -503,15 +507,16 @@
       "baseline_sha": "6c9194a2b877c5807913011e9a46c5ea819174c7",
       "observed_sha": "6c9194a2b877c5807913011e9a46c5ea819174c7",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 78076226,
       "source_url": "https://github.com/webpack-china/awesome-webpack-cn/blob/master/README.md",
       "baseline_sha": "6ee3d7882601a93c7311b18c3e820104a4b45d19",
-      "observed_sha": "6ee3d7882601a93c7311b18c3e820104a4b45d19",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 78425501,
@@ -519,7 +524,7 @@
       "baseline_sha": "bf463ab767afbe2ef278320b80cbf54baa2f32b1",
       "observed_sha": "bf463ab767afbe2ef278320b80cbf54baa2f32b1",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 79780572,
@@ -527,7 +532,7 @@
       "baseline_sha": "642306f03e67257d48795c0b5d414ba3081dac40",
       "observed_sha": "642306f03e67257d48795c0b5d414ba3081dac40",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 81963142,
@@ -535,7 +540,7 @@
       "baseline_sha": "1ce0e12c25d5627ef178265cb8473895dd8ba9ed",
       "observed_sha": "1ce0e12c25d5627ef178265cb8473895dd8ba9ed",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 82329147,
@@ -543,7 +548,7 @@
       "baseline_sha": "9b11bcb5b239a6349c3f2ea34ae0d4344ecd55ac",
       "observed_sha": "9b11bcb5b239a6349c3f2ea34ae0d4344ecd55ac",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 82682940,
@@ -551,7 +556,7 @@
       "baseline_sha": "427a42ab3d238e1983bac639148ebca571cb0de3",
       "observed_sha": "427a42ab3d238e1983bac639148ebca571cb0de3",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 84811466,
@@ -559,15 +564,15 @@
       "baseline_sha": "39e2287d6d3424de390f89cc2e1f8d9c68e8c262",
       "observed_sha": "39e2287d6d3424de390f89cc2e1f8d9c68e8c262",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 85077558,
       "source_url": "https://github.com/nilbuild/developer-roadmap/blob/master/readme.md",
       "baseline_sha": "2827ba8c7e4cec1c5586aaa1afa6129f944f3862",
-      "observed_sha": "2827ba8c7e4cec1c5586aaa1afa6129f944f3862",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "388c6870839345c370cf63d811bed79e48c29e35",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 85541218,
@@ -575,7 +580,7 @@
       "baseline_sha": "72137e775deb4f7deb8abc1f1b3a08f4736e1a6d",
       "observed_sha": "72137e775deb4f7deb8abc1f1b3a08f4736e1a6d",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 89577951,
@@ -583,7 +588,7 @@
       "baseline_sha": "a0dc92cf2d5eae26537f31704bcd5cc1e2d14162",
       "observed_sha": "a0dc92cf2d5eae26537f31704bcd5cc1e2d14162",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 90786593,
@@ -591,7 +596,7 @@
       "baseline_sha": "638f0686fefc9f13c1ae355a244bcb5a54c71717",
       "observed_sha": "638f0686fefc9f13c1ae355a244bcb5a54c71717",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 90796663,
@@ -599,7 +604,7 @@
       "baseline_sha": "2424293b5688dbec4f2407a3326fb54d086b6527",
       "observed_sha": "2424293b5688dbec4f2407a3326fb54d086b6527",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 99401299,
@@ -607,7 +612,7 @@
       "baseline_sha": "9a91f0705ba49e8e299977ea267eb33aa3051d17",
       "observed_sha": "9a91f0705ba49e8e299977ea267eb33aa3051d17",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 101625394,
@@ -615,7 +620,7 @@
       "baseline_sha": "eb5aba03df7a7c542ce26c93be5bc9476c2699d9",
       "observed_sha": "eb5aba03df7a7c542ce26c93be5bc9476c2699d9",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 104079562,
@@ -623,15 +628,16 @@
       "baseline_sha": "bb94e3f0ac6da760f8a593011bb3b8a2949e5a60",
       "observed_sha": "bb94e3f0ac6da760f8a593011bb3b8a2949e5a60",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 106867604,
       "source_url": "https://github.com/cloudflare/cloudflared/blob/master/README.md",
       "baseline_sha": "8665dd80555a9149a6359d220d16c4f0de89e829",
-      "observed_sha": "8665dd80555a9149a6359d220d16c4f0de89e829",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 112285264,
@@ -639,7 +645,7 @@
       "baseline_sha": "cbfea34c3eabbf73c166f12b2708762daaec5243",
       "observed_sha": "cbfea34c3eabbf73c166f12b2708762daaec5243",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 112507086,
@@ -647,7 +653,7 @@
       "baseline_sha": "ee297cc3bdced7bb73ee3ee24bc90a4a2b4d1a5a",
       "observed_sha": "ee297cc3bdced7bb73ee3ee24bc90a4a2b4d1a5a",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 115110181,
@@ -655,7 +661,7 @@
       "baseline_sha": "6109dfe6be959af4b2508a5d93c6e33bec1b54c2",
       "observed_sha": "6109dfe6be959af4b2508a5d93c6e33bec1b54c2",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 115748714,
@@ -663,7 +669,7 @@
       "baseline_sha": "937867ddb64325b9ab39e8c9e83d5908e247370a",
       "observed_sha": "937867ddb64325b9ab39e8c9e83d5908e247370a",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 118610450,
@@ -671,7 +677,7 @@
       "baseline_sha": "ff8249ea16b51b1d530eb2c901f807d0bc7c99b3",
       "observed_sha": "ff8249ea16b51b1d530eb2c901f807d0bc7c99b3",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 120278854,
@@ -679,7 +685,7 @@
       "baseline_sha": "606b949577ce396ae3578c3acacc389160f2d493",
       "observed_sha": "606b949577ce396ae3578c3acacc389160f2d493",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 121125679,
@@ -687,7 +693,15 @@
       "baseline_sha": "623e95f2016421c505a38a20300074028c456d97",
       "observed_sha": "623e95f2016421c505a38a20300074028c456d97",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 121637551,
+      "source_url": "https://github.com/hoochanlon/hamuleite/blob/master/README.md",
+      "baseline_sha": "d0fe5036201095539cc4d5c111470d1b376e9a5b",
+      "observed_sha": "d0fe5036201095539cc4d5c111470d1b376e9a5b",
+      "status": "unchanged",
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 123883497,
@@ -695,7 +709,7 @@
       "baseline_sha": "b6a7b80cc331692f830e0e8410639333e7bb317a",
       "observed_sha": "b6a7b80cc331692f830e0e8410639333e7bb317a",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 124361555,
@@ -703,7 +717,7 @@
       "baseline_sha": "0c19b81eeeea94840a0243a03fa5e5a3b499ba4b",
       "observed_sha": "0c19b81eeeea94840a0243a03fa5e5a3b499ba4b",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 125791597,
@@ -711,15 +725,16 @@
       "baseline_sha": "fe8b3a5212b73939fc334c06f74f30ec3e3f90a2",
       "observed_sha": "fe8b3a5212b73939fc334c06f74f30ec3e3f90a2",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 126577260,
       "source_url": "https://github.com/trekhleb/javascript-algorithms/blob/master/README.md",
       "baseline_sha": "0eef20119a77bd3c9f533908409be8b4d57fd409",
-      "observed_sha": "0eef20119a77bd3c9f533908409be8b4d57fd409",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 127407957,
@@ -727,7 +742,7 @@
       "baseline_sha": "784f6b9ae950c0f36d6781f0d68d9ec19bfb4c4f",
       "observed_sha": "784f6b9ae950c0f36d6781f0d68d9ec19bfb4c4f",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 128624453,
@@ -735,7 +750,7 @@
       "baseline_sha": "dc4d67ffe43c9a4fb18c0c0e231e0b020eb823db",
       "observed_sha": "dc4d67ffe43c9a4fb18c0c0e231e0b020eb823db",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 128706827,
@@ -743,7 +758,7 @@
       "baseline_sha": "54c9d475bf58fe573e0d6cc8054e60ae74336acc",
       "observed_sha": "54c9d475bf58fe573e0d6cc8054e60ae74336acc",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 129860458,
@@ -751,7 +766,7 @@
       "baseline_sha": "e486e25b3eaa518bfbca714a843fd74d3f8af88d",
       "observed_sha": "e486e25b3eaa518bfbca714a843fd74d3f8af88d",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 130884470,
@@ -759,7 +774,7 @@
       "baseline_sha": "df3be7fe50e0638f2bf3443c16bf2c2d53481c87",
       "observed_sha": "df3be7fe50e0638f2bf3443c16bf2c2d53481c87",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 132750724,
@@ -767,7 +782,7 @@
       "baseline_sha": "9a553c729b29bc69296d7092fc1c314c2c811bad",
       "observed_sha": "9a553c729b29bc69296d7092fc1c314c2c811bad",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 134211662,
@@ -775,7 +790,15 @@
       "baseline_sha": "0a9b5f723678d3df0ab14525a354831d2f2ae670",
       "observed_sha": "0a9b5f723678d3df0ab14525a354831d2f2ae670",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 134949638,
+      "source_url": "https://github.com/hoochanlon/fq-book/blob/master/README.md",
+      "baseline_sha": "be5e5dee72bd8479c9db3f0ec25944ffd14778f6",
+      "observed_sha": "be5e5dee72bd8479c9db3f0ec25944ffd14778f6",
+      "status": "unchanged",
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 135614069,
@@ -783,7 +806,7 @@
       "baseline_sha": "7b538b2fce53b8e37928fccd507fb6054bec674c",
       "observed_sha": "7b538b2fce53b8e37928fccd507fb6054bec674c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 137582912,
@@ -791,7 +814,7 @@
       "baseline_sha": "52ab883783669f4d2ace2214a5eadde1e7b00a58",
       "observed_sha": "52ab883783669f4d2ace2214a5eadde1e7b00a58",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 137583435,
@@ -799,7 +822,7 @@
       "baseline_sha": "bf0fdc8e59699b3edefdc1e6bec1556574d4da4b",
       "observed_sha": "bf0fdc8e59699b3edefdc1e6bec1556574d4da4b",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 139383414,
@@ -807,7 +830,7 @@
       "baseline_sha": "b636a72eaa57384563398691aaf572e7b96ac2e6",
       "observed_sha": "b636a72eaa57384563398691aaf572e7b96ac2e6",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 139662221,
@@ -815,7 +838,7 @@
       "baseline_sha": "0e715264a6e28df30fdb92ffb3d5afe5cbc092cb",
       "observed_sha": "0e715264a6e28df30fdb92ffb3d5afe5cbc092cb",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 140561004,
@@ -823,31 +846,33 @@
       "baseline_sha": "bd1d29624730bbc575ef6a5076cc42fbefaf1aab",
       "observed_sha": "bd1d29624730bbc575ef6a5076cc42fbefaf1aab",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 146239863,
       "source_url": "https://github.com/awesome-vpn/awesome-vpn/blob/master/README.md",
       "baseline_sha": "3952166b4616b40a46694c6ba49ddb4c7527cf69",
-      "observed_sha": "3952166b4616b40a46694c6ba49ddb4c7527cf69",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 150058902,
       "source_url": "https://github.com/wangzheng0822/algo/blob/master/README.md",
       "baseline_sha": "107cb375ed9a64b0674528478bf3dfab56993fc1",
-      "observed_sha": "107cb375ed9a64b0674528478bf3dfab56993fc1",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 152870372,
       "source_url": "https://github.com/ruanyf/weekly/blob/master/README.md",
       "baseline_sha": "e101a1485c70fb09a1fb04a4b8b5316f6314ae0f",
-      "observed_sha": "e101a1485c70fb09a1fb04a4b8b5316f6314ae0f",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "2187a57a07f2a0854b7c10c66549a190dc2143fc",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 153208883,
@@ -855,7 +880,7 @@
       "baseline_sha": "186c2e21bedb5ceef77b2d0596a1753370ac2712",
       "observed_sha": "186c2e21bedb5ceef77b2d0596a1753370ac2712",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 161886347,
@@ -863,7 +888,7 @@
       "baseline_sha": "846a9e07fb47bb0f0ea81c3666a0b10b6cefe57c",
       "observed_sha": "846a9e07fb47bb0f0ea81c3666a0b10b6cefe57c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 166535974,
@@ -871,7 +896,7 @@
       "baseline_sha": "c8ce9123f1a76e40ddf5da05f79d2b5c825f161c",
       "observed_sha": "c8ce9123f1a76e40ddf5da05f79d2b5c825f161c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 169529567,
@@ -879,7 +904,7 @@
       "baseline_sha": "088b2761ac3af043157a79ca2ea422f875d70d24",
       "observed_sha": "088b2761ac3af043157a79ca2ea422f875d70d24",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 172234286,
@@ -887,7 +912,7 @@
       "baseline_sha": "728a7c7948e3f69732bb52ed5809564d5ea9a6f3",
       "observed_sha": "728a7c7948e3f69732bb52ed5809564d5ea9a6f3",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 173675448,
@@ -895,7 +920,7 @@
       "baseline_sha": "18afc46c27eb9556e88730441e38440bc1534984",
       "observed_sha": "18afc46c27eb9556e88730441e38440bc1534984",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 177272363,
@@ -903,7 +928,7 @@
       "baseline_sha": "9e21bc8bd876a0202ffd0cef014e67d1f4da0ab9",
       "observed_sha": "9e21bc8bd876a0202ffd0cef014e67d1f4da0ab9",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 178124673,
@@ -911,15 +936,15 @@
       "baseline_sha": "a2dc62527901af479c31d3c012a6d403f00c3c45",
       "observed_sha": "a2dc62527901af479c31d3c012a6d403f00c3c45",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 181200364,
       "source_url": "https://github.com/jaywcjlove/github-rank/blob/master/README.md",
       "baseline_sha": "6568d4a8fbbde6226829c9de9a18aebb4ea6d072",
-      "observed_sha": "6568d4a8fbbde6226829c9de9a18aebb4ea6d072",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "15c7a416e30f1963649dd753c351a4e0412d9371",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 181807583,
@@ -927,7 +952,7 @@
       "baseline_sha": "8ea308207edcf37548417270e5359623a0ed1adb",
       "observed_sha": "8ea308207edcf37548417270e5359623a0ed1adb",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 196552074,
@@ -935,7 +960,7 @@
       "baseline_sha": "df6ab144c2331069c25998469e3ec8a05aa78b6e",
       "observed_sha": "df6ab144c2331069c25998469e3ec8a05aa78b6e",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 196664359,
@@ -943,7 +968,7 @@
       "baseline_sha": "717ff8458ddecd48f2621a0e77fa5f50ead6db67",
       "observed_sha": "717ff8458ddecd48f2621a0e77fa5f50ead6db67",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 196664765,
@@ -951,7 +976,7 @@
       "baseline_sha": "9c313bb91e91838af098d06582d9512cadb34456",
       "observed_sha": "9c313bb91e91838af098d06582d9512cadb34456",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 203130239,
@@ -959,15 +984,15 @@
       "baseline_sha": "4fc68d25828c140dd8986675c004cfd722e49669",
       "observed_sha": "4fc68d25828c140dd8986675c004cfd722e49669",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 204777333,
       "source_url": "https://github.com/sudhakar3697/awesome-electron-alternatives/blob/main/README.md",
       "baseline_sha": "a272e30a0f2c4df02c3bd04f9754fe79f85861bf",
-      "observed_sha": "a272e30a0f2c4df02c3bd04f9754fe79f85861bf",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "f4c1f3bf369c2dbfbb8caeb99d9cf33461c4df85",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 207837082,
@@ -975,7 +1000,7 @@
       "baseline_sha": "8d233b9232c41cf1bafc9455b150e1c3d1c5ea26",
       "observed_sha": "8d233b9232c41cf1bafc9455b150e1c3d1c5ea26",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 218952250,
@@ -983,7 +1008,7 @@
       "baseline_sha": "14a1b76b9b3590e0e4fd7dcdddb31be1009c8026",
       "observed_sha": "14a1b76b9b3590e0e4fd7dcdddb31be1009c8026",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 227978903,
@@ -991,7 +1016,7 @@
       "baseline_sha": "e2bc528978e4dc0877ac530c1e8464d139743551",
       "observed_sha": "e2bc528978e4dc0877ac530c1e8464d139743551",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 232981344,
@@ -999,7 +1024,7 @@
       "baseline_sha": "c4e7ba5863e4d3238108fed1cca91891de78545c",
       "observed_sha": "c4e7ba5863e4d3238108fed1cca91891de78545c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 237403566,
@@ -1007,7 +1032,7 @@
       "baseline_sha": "c474ddec6855689bee6647db963cb4daad049b6a",
       "observed_sha": "c474ddec6855689bee6647db963cb4daad049b6a",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 237523442,
@@ -1015,7 +1040,7 @@
       "baseline_sha": "c3fa62bba295a69eae9a988393bc8d696c537ee1",
       "observed_sha": "c3fa62bba295a69eae9a988393bc8d696c537ee1",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 244779423,
@@ -1023,7 +1048,7 @@
       "baseline_sha": "8f5f9bc17976452eb5bc905bab52f8ee7738b174",
       "observed_sha": "8f5f9bc17976452eb5bc905bab52f8ee7738b174",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 268195786,
@@ -1031,7 +1056,7 @@
       "baseline_sha": "5bd5213e678533646d11a7c559390558f6ab2484",
       "observed_sha": "5bd5213e678533646d11a7c559390558f6ab2484",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 306829688,
@@ -1039,7 +1064,7 @@
       "baseline_sha": "cb8167d2b263c292bacaead8099b47f06e9b7b84",
       "observed_sha": "cb8167d2b263c292bacaead8099b47f06e9b7b84",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 307106512,
@@ -1047,7 +1072,7 @@
       "baseline_sha": "e8bd5f5abe3a68aee357d24e85a6e11653011700",
       "observed_sha": "e8bd5f5abe3a68aee357d24e85a6e11653011700",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 337237194,
@@ -1055,15 +1080,16 @@
       "baseline_sha": "a99f64f12dcd768fdf3e92a9eada92ab817dbb7a",
       "observed_sha": "a99f64f12dcd768fdf3e92a9eada92ab817dbb7a",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 352276219,
       "source_url": "https://github.com/ineo6/hosts/blob/master/README.md",
       "baseline_sha": "0e299293b0490181c11981a465ee99e5b36ffcb1",
-      "observed_sha": "0e299293b0490181c11981a465ee99e5b36ffcb1",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 354498261,
@@ -1071,7 +1097,7 @@
       "baseline_sha": "3230295f4195d349d462d992eba8f256c56a61ab",
       "observed_sha": "3230295f4195d349d462d992eba8f256c56a61ab",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 358508682,
@@ -1079,7 +1105,23 @@
       "baseline_sha": "784a4d94a3cb8583d8b781164fff752bb80ad9e7",
       "observed_sha": "784a4d94a3cb8583d8b781164fff752bb80ad9e7",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 394102612,
+      "source_url": "https://github.com/fmhy/edit/blob/main/.github/README.md",
+      "baseline_sha": "5c1adfca5020112a6665c4c3565eeec0242f43ad",
+      "observed_sha": "5c1adfca5020112a6665c4c3565eeec0242f43ad",
+      "status": "unchanged",
+      "checked_at": "2026-10-04T20:51:25Z"
+    },
+    {
+      "repo_id": 450143450,
+      "source_url": "https://github.com/Pawdroid/Free-servers/blob/main/README.md",
+      "baseline_sha": "a78ea64b960900af454ebd0b131174fa4a6a8caf",
+      "observed_sha": "a78ea64b960900af454ebd0b131174fa4a6a8caf",
+      "status": "unchanged",
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 472374655,
@@ -1087,7 +1129,7 @@
       "baseline_sha": "5e1c8f7d4455da9b9c5fef277a6e98aed44b98ec",
       "observed_sha": "5e1c8f7d4455da9b9c5fef277a6e98aed44b98ec",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 479451389,
@@ -1095,15 +1137,15 @@
       "baseline_sha": "a2205bc592b386d0320f2b1b529d22c3679eb36e",
       "observed_sha": "a2205bc592b386d0320f2b1b529d22c3679eb36e",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 494305627,
       "source_url": "https://github.com/hwdsl2/wireguard-install/blob/master/README.md",
       "baseline_sha": "da65efe25fd88d358a880a339758a9d95f05eafa",
-      "observed_sha": "da65efe25fd88d358a880a339758a9d95f05eafa",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "6d2af92f20d9babe96be2eee879d201c06adfc72",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 541245403,
@@ -1111,7 +1153,7 @@
       "baseline_sha": "fa649246d65707183dfbc1c39893435246ff156e",
       "observed_sha": "fa649246d65707183dfbc1c39893435246ff156e",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 561730219,
@@ -1119,23 +1161,31 @@
       "baseline_sha": "0f56398cef39c1c66f2e86dbbc10d5a298640f36",
       "observed_sha": "0f56398cef39c1c66f2e86dbbc10d5a298640f36",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 578822531,
       "source_url": "https://github.com/localsend/localsend/blob/main/README.md",
       "baseline_sha": "44ec4792bfc2cd5b0831e323d47ae321b4994936",
-      "observed_sha": "44ec4792bfc2cd5b0831e323d47ae321b4994936",
+      "observed_sha": "3f427a26b5ebe4c1f5c92fe86abaedf07e664e4a",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 625069454,
+      "source_url": "https://github.com/DiningFactory/panda-vpn-pro/blob/main/README.md",
+      "baseline_sha": "46afd82ea985741612a8bcd2b6b30167124e303c",
+      "observed_sha": "46afd82ea985741612a8bcd2b6b30167124e303c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 663900193,
       "source_url": "https://github.com/sxyazi/yazi/blob/main/README.md",
       "baseline_sha": "2cdde77ea6d95292841e9d99ab1060c6062d11d0",
-      "observed_sha": "2cdde77ea6d95292841e9d99ab1060c6062d11d0",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "c54e432027c5728a8017842226e249f51fec3415",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 708312415,
@@ -1143,47 +1193,56 @@
       "baseline_sha": "761717a796f82946d7b198386f5234c70933d55c",
       "observed_sha": "761717a796f82946d7b198386f5234c70933d55c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 717197250,
       "source_url": "https://github.com/QuantumNous/new-api/blob/main/README.md",
       "baseline_sha": "06924e547f45dc543f69b14b3cae4abf1e477e5c",
-      "observed_sha": "06924e547f45dc543f69b14b3cae4abf1e477e5c",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "f79718fa68e6cdf354af80433d55907ce7e4fe20",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 718741813,
       "source_url": "https://github.com/abi/screenshot-to-code/blob/main/README.md",
       "baseline_sha": "735c5780a7998f767664b8fd6ed99d53f875223a",
-      "observed_sha": "735c5780a7998f767664b8fd6ed99d53f875223a",
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 721767116,
+      "source_url": "https://github.com/clash-verge-rev/clash-verge-rev/blob/dev/README.md",
+      "baseline_sha": "f76d4138c0a65eba38efe52435f5f543d8b8eb86",
+      "observed_sha": "f76d4138c0a65eba38efe52435f5f543d8b8eb86",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 765083837,
       "source_url": "https://github.com/opendatalab/MinerU/blob/master/README.md",
       "baseline_sha": "d056e5ca21a9f45504cbdecf74e6d25c3bb750b8",
-      "observed_sha": "d056e5ca21a9f45504cbdecf74e6d25c3bb750b8",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "db3088e7e0d945083c57a050aa16e35839a5c834",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 770153867,
       "source_url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
       "baseline_sha": "acd89e6f2c341bf356c65859af660ae96e598096",
-      "observed_sha": "acd89e6f2c341bf356c65859af660ae96e598096",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "1091c0b38f62f409680bc9a36ba7189a532b907c",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 806879762,
       "source_url": "https://github.com/nolly-studio/cult-ui/blob/main/README.md",
       "baseline_sha": "3280bd4289ffd62d8bca288ef05e1273f74de26d",
-      "observed_sha": "3280bd4289ffd62d8bca288ef05e1273f74de26d",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "40f5e15c389f0db2506fc57b78d15866eec88527",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 858262444,
@@ -1191,7 +1250,7 @@
       "baseline_sha": "8204dac5cf335416e138c1059d73b578f6c776ea",
       "observed_sha": "8204dac5cf335416e138c1059d73b578f6c776ea",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 865326415,
@@ -1199,7 +1258,7 @@
       "baseline_sha": "62f6c9b52e45b9fc4fff3d0b7f9f1f0ac69681a0",
       "observed_sha": "62f6c9b52e45b9fc4fff3d0b7f9f1f0ac69681a0",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 881723326,
@@ -1207,7 +1266,7 @@
       "baseline_sha": "1af3d19ea3796a43bd9771fa9ca303bdbf9c1769",
       "observed_sha": "1af3d19ea3796a43bd9771fa9ca303bdbf9c1769",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 890668799,
@@ -1215,31 +1274,31 @@
       "baseline_sha": "9c388c80a43c12db37f25049d031c98e1d26b5e0",
       "observed_sha": "9c388c80a43c12db37f25049d031c98e1d26b5e0",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 934527631,
       "source_url": "https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant/blob/main/README.md",
       "baseline_sha": "278154b5ab8c6b64b5fd682fae3c5f4d6b241f7a",
-      "observed_sha": "278154b5ab8c6b64b5fd682fae3c5f4d6b241f7a",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "3b99fb277df30e9e2e9fb161724635d7ae48ac2f",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 941043461,
       "source_url": "https://github.com/itgoyo/TelegramGroup/blob/master/README.md",
       "baseline_sha": "2725dc52d5f2f8efc1a080e54fe0d1e6390ae84e",
-      "observed_sha": "2725dc52d5f2f8efc1a080e54fe0d1e6390ae84e",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "b578e60d201c1663c89c2ab96f2f330255cc3541",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 965615190,
       "source_url": "https://github.com/bmad-code-org/BMAD-METHOD/blob/main/README.md",
       "baseline_sha": "d8f1d23e26b974d62b1f83348a8adb6d8cf96c4d",
-      "observed_sha": "d8f1d23e26b974d62b1f83348a8adb6d8cf96c4d",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "b19b2861261e21782fa13d887b6303fc0472d07a",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1006496207,
@@ -1247,7 +1306,7 @@
       "baseline_sha": "85f357dd8c17cfb8e2ba8ca3417aa673d9c9cc8d",
       "observed_sha": "85f357dd8c17cfb8e2ba8ca3417aa673d9c9cc8d",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1006812866,
@@ -1255,7 +1314,7 @@
       "baseline_sha": "a706852e070ba21551f46a6daa08d7d94f3506a6",
       "observed_sha": "a706852e070ba21551f46a6daa08d7d94f3506a6",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1010681419,
@@ -1263,15 +1322,15 @@
       "baseline_sha": "cd068f31eb579f5ab7c4288f134358135408ec5a",
       "observed_sha": "cd068f31eb579f5ab7c4288f134358135408ec5a",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1012087571,
       "source_url": "https://github.com/router-for-me/CLIProxyAPI/blob/main/README.md",
       "baseline_sha": "38fd3c16543dc2334f103c9349f68f2acd39ae3e",
-      "observed_sha": "38fd3c16543dc2334f103c9349f68f2acd39ae3e",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "53fbeb421cb0a560278c6193673b52386e996522",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1012625755,
@@ -1279,63 +1338,63 @@
       "baseline_sha": "13e7d4cb7b87a139f133b82d2044935821b47e45",
       "observed_sha": "13e7d4cb7b87a139f133b82d2044935821b47e45",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1024554267,
       "source_url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
       "baseline_sha": "c05112266746ff99a3326a62c38c33fbc08ecd23",
-      "observed_sha": "c05112266746ff99a3326a62c38c33fbc08ecd23",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "93bab974fd07608879e36a2e7ef833ffdd3b7555",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1025856648,
       "source_url": "https://github.com/wshobson/agents/blob/main/README.md",
       "baseline_sha": "2bb1ca4409c1804566cb93a7db67f95c60a79c56",
-      "observed_sha": "2bb1ca4409c1804566cb93a7db67f95c60a79c56",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "beaf69d7beba13c2d1ebcb35f3b8a1289378c9db",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1031059905,
       "source_url": "https://github.com/abhigyanpatwari/GitNexus/blob/main/README.md",
       "baseline_sha": "0d8ae457c69baf98cec098cb9ec0045cf2b46d20",
-      "observed_sha": "0d8ae457c69baf98cec098cb9ec0045cf2b46d20",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "a761716e7db11599597faa69ad40305247bc576c",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1035029907,
       "source_url": "https://github.com/earendil-works/pi/blob/main/README.md",
       "baseline_sha": "730033651bd95551b5e0c34189ec823d07a174b1",
-      "observed_sha": "730033651bd95551b5e0c34189ec823d07a174b1",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "799d9fea58308e5e15c44e9fd7e9d9b576d9d114",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1051566067,
       "source_url": "https://github.com/router-for-me/Cli-Proxy-API-Management-Center/blob/main/README.md",
       "baseline_sha": "2f8dfccdad55823783e2f2840ae7d702b08c5d72",
-      "observed_sha": "2f8dfccdad55823783e2f2840ae7d702b08c5d72",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "4ffd5e15a4cd15605da53ae5121712511cbd3cae",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1052050442,
       "source_url": "https://github.com/datawhalechina/hello-agents/blob/main/README.md",
       "baseline_sha": "1df6b3f27c5f675bcabd5ba330e31c380f007e53",
-      "observed_sha": "1df6b3f27c5f675bcabd5ba330e31c380f007e53",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "c9644b3cd7cc6327749553cbf3c70ee51e8999e5",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1053118194,
       "source_url": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
       "baseline_sha": "05b36cea34651abdfe52670bd09f74fd6c98b3af",
-      "observed_sha": "05b36cea34651abdfe52670bd09f74fd6c98b3af",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "f85fe7082c7a4a4c792f2338a261ccd9cbaefd42",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1055481168,
@@ -1343,7 +1402,7 @@
       "baseline_sha": "6aa33eb106c4a17ea69fde2b08ad49f85b772ce6",
       "observed_sha": "6aa33eb106c4a17ea69fde2b08ad49f85b772ce6",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1061953414,
@@ -1351,15 +1410,15 @@
       "baseline_sha": "eb54ee8b92f2d40b4b26569be0772be3c1e23156",
       "observed_sha": "eb54ee8b92f2d40b4b26569be0772be3c1e23156",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1062356571,
       "source_url": "https://github.com/tw93/Mole/blob/main/README.md",
       "baseline_sha": "bebdf107ce3cf86c1f6c8577e82aaec323a07203",
-      "observed_sha": "bebdf107ce3cf86c1f6c8577e82aaec323a07203",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "bb4ba3ccea8ef3ca01a4c53d9a1b223c4400c20f",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1063641074,
@@ -1367,39 +1426,39 @@
       "baseline_sha": "710704ace62e64d1aaf53bbdd6127b677dae6bfc",
       "observed_sha": "710704ace62e64d1aaf53bbdd6127b677dae6bfc",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1073224021,
       "source_url": "https://github.com/EveryInc/compound-engineering-plugin/blob/main/README.md",
       "baseline_sha": "a199dcaf3b3d9306f5ae5838eeb6ab234c8eaa91",
-      "observed_sha": "a199dcaf3b3d9306f5ae5838eeb6ab234c8eaa91",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "ad163e26d19bbaa3396160ba2f2501be9ef8ed1a",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1073224795,
       "source_url": "https://github.com/obra/superpowers/blob/main/README.md",
       "baseline_sha": "09a91c6d03cfa3d874c5c33b6f8cc3d0b2d89645",
-      "observed_sha": "09a91c6d03cfa3d874c5c33b6f8cc3d0b2d89645",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "cf80400690849b37861f39d396d231ea89ac693b",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1075372545,
       "source_url": "https://github.com/msitarzewski/agency-agents/blob/main/README.md",
       "baseline_sha": "ef21203aee8915e54bed99ca090e50a3def79cac",
-      "observed_sha": "ef21203aee8915e54bed99ca090e50a3def79cac",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "89f77d994487257faa0f6066ee68af2d4a596fe6",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1086122599,
       "source_url": "https://github.com/xiamuceer-j/MuMuAINovel/blob/main/README.md",
       "baseline_sha": "b8680fb7f63df1ae3e1dbe8f54f229f83012b0d7",
-      "observed_sha": "b8680fb7f63df1ae3e1dbe8f54f229f83012b0d7",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "fcc4209387e689a529bba47f1094eb1ba7e54ced",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1086756757,
@@ -1407,39 +1466,39 @@
       "baseline_sha": "b6920acef0ea943e42e44aeef0c46cf57cf4f4e1",
       "observed_sha": "b6920acef0ea943e42e44aeef0c46cf57cf4f4e1",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1087192965,
       "source_url": "https://github.com/shanraisshan/claude-code-best-practice/blob/main/README.md",
       "baseline_sha": "158894d36c5dfd01f3ba90f1db29a11227a8eee9",
-      "observed_sha": "158894d36c5dfd01f3ba90f1db29a11227a8eee9",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "172583932f5bf89de065b99b81aeab8accb4a6d8",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1092047360,
       "source_url": "https://github.com/luongnv89/claude-howto/blob/main/README.md",
       "baseline_sha": "999a98e09b187f7fae5da5e0222a8b3d0cd17786",
-      "observed_sha": "999a98e09b187f7fae5da5e0222a8b3d0cd17786",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "74b3106823c343fe42b8cd327cdb208358136ddc",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1097346685,
       "source_url": "https://github.com/pbakaus/impeccable/blob/main/README.md",
       "baseline_sha": "c4b9831a5cd45fdd02a0215f376bbb9f6e6217ff",
-      "observed_sha": "c4b9831a5cd45fdd02a0215f376bbb9f6e6217ff",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "2c52ab4374c914513fc1e3ad4857f63e8c56e468",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1097695258,
       "source_url": "https://github.com/steipete/CodexBar/blob/main/README.md",
       "baseline_sha": "425a5e1eaaf735aa6e4a3799c7595690c8002ab2",
-      "observed_sha": "425a5e1eaaf735aa6e4a3799c7595690c8002ab2",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "5521d97b6b0b604b20d8c2472fba71fc27459e79",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1100776768,
@@ -1447,39 +1506,55 @@
       "baseline_sha": "43104e240ff500c762adebb0c31dc4b7ff7b50dd",
       "observed_sha": "43104e240ff500c762adebb0c31dc4b7ff7b50dd",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1101924225,
       "source_url": "https://github.com/dembrandt/dembrandt/blob/main/README.md",
-      "baseline_sha": "a7938466c5264fb4669424a433124941babea0cc",
-      "observed_sha": "a7938466c5264fb4669424a433124941babea0cc",
+      "baseline_sha": "8e2db63e47e1755d326625bb5967bd2bd6ff909c",
+      "observed_sha": "8e2db63e47e1755d326625bb5967bd2bd6ff909c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:51:25Z"
+    },
+    {
+      "repo_id": 1103199983,
+      "source_url": "https://github.com/HenryChiao/MIHOMO_YAMLS/blob/main/README.md",
+      "baseline_sha": "47a3b65b6c153329e59b51b3b140d099b3b5f75e",
+      "observed_sha": "47a3b65b6c153329e59b51b3b140d099b3b5f75e",
+      "status": "unchanged",
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1104535633,
       "source_url": "https://github.com/lbjlaq/Antigravity-Manager/blob/main/README.md",
       "baseline_sha": "f1ace05780d43919a7df84f072d0c1abeb1693da",
-      "observed_sha": "f1ace05780d43919a7df84f072d0c1abeb1693da",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "8b2b01330b210f400a2ece3200a88f34706b4a70",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1106996539,
       "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md",
-      "baseline_sha": "da6fb6cfba4e619b7de096d047ede3f3acfa4e92",
-      "observed_sha": "da6fb6cfba4e619b7de096d047ede3f3acfa4e92",
+      "baseline_sha": "8c4918afb508556ff45c5514798d3d671a4525ac",
+      "observed_sha": "8c4918afb508556ff45c5514798d3d671a4525ac",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1108837393,
       "source_url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/README.md",
       "baseline_sha": "03ce68480c10ca43d4e25048f72c9ea163362e78",
-      "observed_sha": "03ce68480c10ca43d4e25048f72c9ea163362e78",
+      "observed_sha": "dcfa722c733b0c04f057f35120ae7b6bb9a4c20f",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 1110782890,
+      "source_url": "https://github.com/YishenTu/claudian/blob/main/README.md",
+      "baseline_sha": "c9f6cace1a317d1c49d7c9180dd23d9bd253fb18",
+      "observed_sha": "c9f6cace1a317d1c49d7c9180dd23d9bd253fb18",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1111357457,
@@ -1487,7 +1562,7 @@
       "baseline_sha": "746aa6a4ae3db7713a9750e748446c53ca3c6517",
       "observed_sha": "746aa6a4ae3db7713a9750e748446c53ca3c6517",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1112002090,
@@ -1495,7 +1570,7 @@
       "baseline_sha": "b1d63b68e963267c65b75b7ca375be71c238ba13",
       "observed_sha": "b1d63b68e963267c65b75b7ca375be71c238ba13",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1112540808,
@@ -1503,15 +1578,15 @@
       "baseline_sha": "04a1a5a46a22cfd430e2877b7c145e34fc2653ab",
       "observed_sha": "04a1a5a46a22cfd430e2877b7c145e34fc2653ab",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1113573066,
       "source_url": "https://github.com/hugohe3/ppt-master/blob/main/README.md",
       "baseline_sha": "f640ff6438be3d04f43e69573e0e5154be371c24",
-      "observed_sha": "f640ff6438be3d04f43e69573e0e5154be371c24",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "78f7b0295ad9c56e663316c9ad80f70a1940a498",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1116260703,
@@ -1519,23 +1594,23 @@
       "baseline_sha": "6232a8c42bbdcd0ad5f290c41806c2728c68d194",
       "observed_sha": "6232a8c42bbdcd0ad5f290c41806c2728c68d194",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1118601518,
       "source_url": "https://github.com/Wei-Shaw/sub2api/blob/main/README.md",
       "baseline_sha": "4ae1590ab226eef7cdc23f679a85b1f7aa80eb71",
-      "observed_sha": "4ae1590ab226eef7cdc23f679a85b1f7aa80eb71",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "8ec0b7f59c50215b7b19e868328e3d07e7a64849",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1119232564,
       "source_url": "https://github.com/yzfly/awesome-skills-zh/blob/main/README.md",
       "baseline_sha": "bf9dbbe43f718ec0d2011063fea3b25cd609c094",
-      "observed_sha": "bf9dbbe43f718ec0d2011063fea3b25cd609c094",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "9e0a1769a678ae14d3ddf01814a29b053c362bae",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1120540348,
@@ -1543,7 +1618,7 @@
       "baseline_sha": "549ff976b78e92b6220cd2ff537a8321263c81c5",
       "observed_sha": "549ff976b78e92b6220cd2ff537a8321263c81c5",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1122242121,
@@ -1551,127 +1626,128 @@
       "baseline_sha": "e7adadb42f7295c94df2dddac9f2847f9f295e63",
       "observed_sha": "e7adadb42f7295c94df2dddac9f2847f9f295e63",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1126473386,
       "source_url": "https://github.com/jarrodwatts/claude-hud/blob/main/README.md",
       "baseline_sha": "03ba415c6ac60051010283677ad5461a4fbde39f",
-      "observed_sha": "03ba415c6ac60051010283677ad5461a4fbde39f",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "bd2a81db4140d992ff80ed2c715ab4ceef2cb392",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1127793756,
       "source_url": "https://github.com/fengshao1227/ccg-workflow/blob/main/README.md",
       "baseline_sha": "6e5aa7e07ba50c1a799768a5e15a861441352ee4",
-      "observed_sha": "6e5aa7e07ba50c1a799768a5e15a861441352ee4",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "3696564ac9a59668ef75531217eafd791ba8dffc",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1128267392,
       "source_url": "https://github.com/chatfire-AI/huobao-drama/blob/master/README.md",
       "baseline_sha": "2c4118e2a563929fa9e516e1b24894874d326475",
-      "observed_sha": "2c4118e2a563929fa9e516e1b24894874d326475",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "7ada160d8f07e0e1e5347893ec7ab6f9fa72ecab",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1130564872,
       "source_url": "https://github.com/koala73/worldmonitor/blob/main/README.md",
       "baseline_sha": "820c2f8060a0dbe15ea47e7f91eb0420a694642d",
-      "observed_sha": "820c2f8060a0dbe15ea47e7f91eb0420a694642d",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "19b54783b955f095862608d7e97aac2a36fcb89a",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1131513930,
       "source_url": "https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/README.md",
       "baseline_sha": "ed27852037b06f341dee81f93810e310a86f7d17",
-      "observed_sha": "ed27852037b06f341dee81f93810e310a86f7d17",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "230d26a7858ad28550d047f915f1cb3bb063b4aa",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1133707766,
       "source_url": "https://github.com/multica-ai/multica/blob/main/README.md",
       "baseline_sha": "4dbb6e0e3ecab1ed97e986bb217914cbfbc0d02f",
-      "observed_sha": "4dbb6e0e3ecab1ed97e986bb217914cbfbc0d02f",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "7aa8c9d37dce8a474767b0e5e80cc8afcda0d37a",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1134543109,
       "source_url": "https://github.com/vercel-labs/skills/blob/main/README.md",
       "baseline_sha": "518ff9cf9eb25f6ec173678208107fdc769fb621",
-      "observed_sha": "518ff9cf9eb25f6ec173678208107fdc769fb621",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "7d6431288f6134f3c4f8c82040cd66704457acc4",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1135179558,
       "source_url": "https://github.com/alvinunreal/oh-my-opencode-slim/blob/master/README.md",
       "baseline_sha": "617d658a86b4fbfc9ee88fe16b0e08ce64fa907a",
-      "observed_sha": "617d658a86b4fbfc9ee88fe16b0e08ce64fa907a",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "21f4998804471f5b0a71260f2497409baf83a7b3",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1135492298,
       "source_url": "https://github.com/jlcodes99/cockpit-tools/blob/main/README.md",
       "baseline_sha": "5b5e82337afe289d9a398ee5b35ccd08d119d34c",
-      "observed_sha": "5b5e82337afe289d9a398ee5b35ccd08d119d34c",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "bd38c6f2bea58446877f5e464b2f7a7cd3524a68",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1135791677,
       "source_url": "https://github.com/lsdefine/GenericAgent/blob/main/README.md",
       "baseline_sha": "afb47923b537fd328e704a2562230f95aabfe2a6",
-      "observed_sha": "afb47923b537fd328e704a2562230f95aabfe2a6",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "a5cbd09f9985b5724d5f066ca161d909b8c8900f",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1136590548,
       "source_url": "https://github.com/affaan-m/ECC/blob/main/README.md",
       "baseline_sha": "86dba51207907b2e5de07d6b0579a681522cdc13",
-      "observed_sha": "86dba51207907b2e5de07d6b0579a681522cdc13",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1136666433,
       "source_url": "https://github.com/blader/humanizer/blob/main/README.md",
       "baseline_sha": "6ffe91a6ddcdaae4667f4a2195ff5f389593e935",
-      "observed_sha": "6ffe91a6ddcdaae4667f4a2195ff5f389593e935",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "22594fa2688ebb53dde0a54719a943721d31e9a7",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1137212306,
       "source_url": "https://github.com/op7418/Humanizer-zh/blob/main/README.md",
       "baseline_sha": "318f7ba6381029309babf1df328b77a7a07bdaf5",
-      "observed_sha": "318f7ba6381029309babf1df328b77a7a07bdaf5",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "fc4d0389efd586e4c468bcee1793d060c4ece28c",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1137711311,
       "source_url": "https://github.com/Hmbown/Codewhale/blob/main/README.md",
       "baseline_sha": "be7636a266d559aa763868571e09bda088d95a88",
-      "observed_sha": "be7636a266d559aa763868571e09bda088d95a88",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "057af2e2633958d6b2ce6fac289aeffbb766d17d",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1140843380,
       "source_url": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
       "baseline_sha": "9fdba8967fae78f2a0da86fd05cb7469c074b527",
-      "observed_sha": "9fdba8967fae78f2a0da86fd05cb7469c074b527",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "68b566b9f1f752cab8bf4323f1c437c3ea9f261a",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1142423471,
@@ -1679,7 +1755,7 @@
       "baseline_sha": "caa0d13ddfdd99c69893c750cacb259844f7a7fe",
       "observed_sha": "caa0d13ddfdd99c69893c750cacb259844f7a7fe",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1142983825,
@@ -1687,7 +1763,7 @@
       "baseline_sha": "7cf07a786532bebe01c65179c8e2c3a98cc0a09b",
       "observed_sha": "7cf07a786532bebe01c65179c8e2c3a98cc0a09b",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1143767804,
@@ -1695,15 +1771,15 @@
       "baseline_sha": "bd4bd929069d569e7dfbe3e8d6be77431bb50e43",
       "observed_sha": "bd4bd929069d569e7dfbe3e8d6be77431bb50e43",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1145374818,
       "source_url": "https://github.com/thaw-app/Thaw/blob/development/README.md",
       "baseline_sha": "96b6a19ac9a35589618a59bdbe4152f568f77291",
-      "observed_sha": "96b6a19ac9a35589618a59bdbe4152f568f77291",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "bac9123be22d941266247325fa486b3c6086856d",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1146413571,
@@ -1711,47 +1787,47 @@
       "baseline_sha": "3706f8137508f4c20a153dddbc2becf799c66fcb",
       "observed_sha": "3706f8137508f4c20a153dddbc2becf799c66fcb",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1148052330,
       "source_url": "https://github.com/Yeachan-Heo/oh-my-codex/blob/main/README.md",
       "baseline_sha": "bb4cd950494d04f436544f66d6f68db8f0a56539",
-      "observed_sha": "bb4cd950494d04f436544f66d6f68db8f0a56539",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "d46d872f577b0169b4ec67192b188fcac8dab244",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1148744000,
       "source_url": "https://github.com/MengTo/Skills/blob/main/README.md",
       "baseline_sha": "5be5973aa26017e361aa3df4a15113ac2e3372ec",
-      "observed_sha": "5be5973aa26017e361aa3df4a15113ac2e3372ec",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "8c50fcd707869db663d40e310862285d9fba27b6",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1148788086,
       "source_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "baseline_sha": "ff9b797a342d3a64b52f9f5a83d9fc4ce28709dc",
-      "observed_sha": "ff9b797a342d3a64b52f9f5a83d9fc4ce28709dc",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "8932fc553ee7ed5759ff8164c8908a78c1b4f0f8",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1158722119,
       "source_url": "https://github.com/addyosmani/agent-skills/blob/main/README.md",
       "baseline_sha": "aa6872d677ef7c8eab7d00a6fdca106ffa9502b0",
-      "observed_sha": "aa6872d677ef7c8eab7d00a6fdca106ffa9502b0",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "c6039f4d64f900f75303ecfa8d67a527eebad851",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1162099055,
       "source_url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md",
       "baseline_sha": "5577b99d193716cb26467b0b0f1cfc506deb26a8",
-      "observed_sha": "5577b99d193716cb26467b0b0f1cfc506deb26a8",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "0dcd0321c950dc75501db375c731a054beeeaabd",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1163112839,
@@ -1759,15 +1835,15 @@
       "baseline_sha": "e8abd1c4a95e5edb5e3734aab54769c6ba98973c",
       "observed_sha": "e8abd1c4a95e5edb5e3734aab54769c6ba98973c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1163979872,
       "source_url": "https://github.com/qingchencloud/cftunnel/blob/main/README.md",
       "baseline_sha": "227edc5fb282d250e4ceaabcca983056d5bbc74e",
-      "observed_sha": "227edc5fb282d250e4ceaabcca983056d5bbc74e",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "d4fe4da026649e1cd6e8cfb98017f6f9d4c5a9d8",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1164005541,
@@ -1775,23 +1851,23 @@
       "baseline_sha": "3d9a8dddfcacbce0a4ab1a2c3aa5ae12aec73f04",
       "observed_sha": "3d9a8dddfcacbce0a4ab1a2c3aa5ae12aec73f04",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1165277268,
       "source_url": "https://github.com/Panniantong/Agent-Reach/blob/main/README.md",
       "baseline_sha": "311bbe1828068c93731f81365f9f79228d40d7fc",
-      "observed_sha": "311bbe1828068c93731f81365f9f79228d40d7fc",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "5ef5446b64ae5a5c9931691e63566f0b3403ad2f",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1166119443,
       "source_url": "https://github.com/get-bb/bb/blob/main/README.md",
       "baseline_sha": "437e5bee7c3ee42d4dff84cfd0abb28d6fbc4e72",
-      "observed_sha": "437e5bee7c3ee42d4dff84cfd0abb28d6fbc4e72",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "1e2612cb0272aa5e9b1dd964561f58d40ce4703c",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1169920711,
@@ -1799,15 +1875,23 @@
       "baseline_sha": "129290cd9d7d200d719aa237768cb1c27b1c97c1",
       "observed_sha": "129290cd9d7d200d719aa237768cb1c27b1c97c1",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 1172781277,
+      "source_url": "https://github.com/greensock/gsap-skills/blob/main/README.md",
+      "baseline_sha": "5b7def98e5c1ad79d49c01d133f9370ebd65a2c5",
+      "observed_sha": "5b7def98e5c1ad79d49c01d133f9370ebd65a2c5",
+      "status": "unchanged",
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1174369519,
       "source_url": "https://github.com/jnMetaCode/agency-agents-zh/blob/main/README.md",
       "baseline_sha": "02573ab64e25e17db040ba128740868a450e88e9",
-      "observed_sha": "02573ab64e25e17db040ba128740868a450e88e9",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:08:10Z"
+      "observed_sha": "da643cde6d18b7138715d84205910b6f03a7c831",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1174789082,
@@ -1815,7 +1899,7 @@
       "baseline_sha": "56439f00bc1565ce7aca273a886eecdc12df5c1d",
       "observed_sha": "56439f00bc1565ce7aca273a886eecdc12df5c1d",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1175231820,
@@ -1823,7 +1907,7 @@
       "baseline_sha": "099ec6e754c4eb87aeabcbf277de7e6b04475d8e",
       "observed_sha": "099ec6e754c4eb87aeabcbf277de7e6b04475d8e",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1176129893,
@@ -1831,31 +1915,31 @@
       "baseline_sha": "be6d0517828131a0b2e86e414e4aa20e82f610a4",
       "observed_sha": "be6d0517828131a0b2e86e414e4aa20e82f610a4",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1179074781,
       "source_url": "https://github.com/deepcoldy/botmux/blob/master/README.md",
       "baseline_sha": "acc3d1af1a14d9ae918a1411a90122967298f154",
-      "observed_sha": "acc3d1af1a14d9ae918a1411a90122967298f154",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "e7a0fd17a9381f824973cc389931c591fd37b1e4",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1179264259,
       "source_url": "https://github.com/garrytan/gstack/blob/main/README.md",
       "baseline_sha": "d9c21229e99bb6da1c128ca6d210a7f15f4c8266",
-      "observed_sha": "d9c21229e99bb6da1c128ca6d210a7f15f4c8266",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "0ad7765c5a2e5e7590af74e52244dad35449123e",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1180745961,
       "source_url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/README.md",
       "baseline_sha": "2aa0acadd651df08a6548928cd726065aaf9047f",
-      "observed_sha": "2aa0acadd651df08a6548928cd726065aaf9047f",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "53af98d1c82c188fb29eb4ea710c834afba115b2",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1181795380,
@@ -1863,31 +1947,31 @@
       "baseline_sha": "553608b060f69fa24c130d03e7156d5fcd4626b7",
       "observed_sha": "553608b060f69fa24c130d03e7156d5fcd4626b7",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1182081931,
       "source_url": "https://github.com/Egonex-AI/Understand-Anything/blob/main/README.md",
       "baseline_sha": "066f7888b619fc142c3f025536b6e25cad94c24e",
-      "observed_sha": "066f7888b619fc142c3f025536b6e25cad94c24e",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "5474b0e4d3cd944d13605ff33688efba8dba1f68",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1182353280,
       "source_url": "https://github.com/deusyu/translate-book/blob/main/README.md",
       "baseline_sha": "2a2632be43ddce5b3c16aed5532b0b1660f4c1c3",
-      "observed_sha": "2a2632be43ddce5b3c16aed5532b0b1660f4c1c3",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "af66a1738b339e9ce946a96f68b6e562201886fb",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1183325896,
       "source_url": "https://github.com/emilkowalski/skills/blob/main/README.md",
       "baseline_sha": "6a12aa2f798144d7931511ae5ae16cfb85fb1933",
-      "observed_sha": "6a12aa2f798144d7931511ae5ae16cfb85fb1933",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "36cb8432a388998658b16f11b26a2bfbf94166a3",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1183845721,
@@ -1895,15 +1979,15 @@
       "baseline_sha": "041914a3c611ae2869637c413a442c5c4dd5a1c3",
       "observed_sha": "041914a3c611ae2869637c413a442c5c4dd5a1c3",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1183888342,
       "source_url": "https://github.com/stablyai/orca/blob/main/README.md",
       "baseline_sha": "aeb8f35545071363ab30d50e4e08cadadb58374f",
-      "observed_sha": "aeb8f35545071363ab30d50e4e08cadadb58374f",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "4c215157da99fb40bcd36551523648c098490eac",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1184892122,
@@ -1911,63 +1995,63 @@
       "baseline_sha": "55b1f0b8fa58fc3645b0334f854aa49107c3818c",
       "observed_sha": "55b1f0b8fa58fc3645b0334f854aa49107c3818c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1184901356,
       "source_url": "https://github.com/humanlayer/skills/blob/main/README.md",
       "baseline_sha": "09de722cc34687354845241da1f702409ae6e1a3",
-      "observed_sha": "09de722cc34687354845241da1f702409ae6e1a3",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "a76f216d50d31989bf741d0b456114ff9e5d1e78",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1185965712,
       "source_url": "https://github.com/Dailin521/codex-provider-sync/blob/main/README.md",
       "baseline_sha": "920934ff27bdf4f508d2200d5cd0edce3740221f",
-      "observed_sha": "920934ff27bdf4f508d2200d5cd0edce3740221f",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "3badaf80d50b4348d4035ca62961ad5d33ebc08f",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1187709537,
       "source_url": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/blob/main/README.md",
       "baseline_sha": "02b9a9800c3b18cdd634c01a0b87629e4d559b97",
-      "observed_sha": "02b9a9800c3b18cdd634c01a0b87629e4d559b97",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "af1c1a432d6ccc60fd2eb3fc2b901df440d58ef6",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1190072018,
       "source_url": "https://github.com/james-6-23/codex2api/blob/main/README.md",
       "baseline_sha": "b1c3248d8a5a61ec3d39eca73c981b06b08960af",
-      "observed_sha": "b1c3248d8a5a61ec3d39eca73c981b06b08960af",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "5b1e1805acafcbbab165a06f0bf810472d66aeb2",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1193909050,
       "source_url": "https://github.com/herdrdev/herdr/blob/master/README.md",
       "baseline_sha": "5fe58ac91a0364b5e20388114c30dd36d208b679",
-      "observed_sha": "5fe58ac91a0364b5e20388114c30dd36d208b679",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "55ea278919613ffcd4840c42f343c5fd2ed1aa02",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1197515131,
       "source_url": "https://github.com/VoltAgent/awesome-design-md/blob/main/README.md",
-      "baseline_sha": "3e989b4971ae2692190ae25119e7f8e0d63a558e",
-      "observed_sha": "3e989b4971ae2692190ae25119e7f8e0d63a558e",
+      "baseline_sha": "31e3ee62e4e0bb0f25c64592c7d191b2a7d5d631",
+      "observed_sha": "31e3ee62e4e0bb0f25c64592c7d191b2a7d5d631",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1201173969,
       "source_url": "https://github.com/JuliusBrussee/caveman/blob/main/README.md",
       "baseline_sha": "ad4722fe28ddc5106941c4d633c4311dde8fa60a",
-      "observed_sha": "ad4722fe28ddc5106941c4d633c4311dde8fa60a",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "0bad417f256df95a9949f4d59d9e578ddac9d121",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1201730379,
@@ -1975,31 +2059,31 @@
       "baseline_sha": "4928a666b42aa08d384270b31c27399103b7e46e",
       "observed_sha": "4928a666b42aa08d384270b31c27399103b7e46e",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1202599845,
       "source_url": "https://github.com/KKKKhazix/khazix-skills/blob/main/README.md",
       "baseline_sha": "284a59852fc4a8a1b8703e5567fff4e238edc694",
-      "observed_sha": "284a59852fc4a8a1b8703e5567fff4e238edc694",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "c951125541d9536ef0ae8c03020055c206fda624",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1203777920,
       "source_url": "https://github.com/xbtlin/ai-berkshire/blob/main/README.md",
       "baseline_sha": "3a9cd42478f1b459356c618c775b80325ac99ed1",
-      "observed_sha": "3a9cd42478f1b459356c618c775b80325ac99ed1",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "e4d393e0623744ae17e3d633a0bf03cfd3d22295",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1204804583,
       "source_url": "https://github.com/OpenMOSS/MOSS-VL/blob/main/README.md",
       "baseline_sha": "bcce5b7af551520ce9a47a0616a31781c8783f25",
-      "observed_sha": "bcce5b7af551520ce9a47a0616a31781c8783f25",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "8649fdae887011e56a6cc635c8fca9499d453ced",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1205523418,
@@ -2007,7 +2091,7 @@
       "baseline_sha": "14b07bf7f303157aaa96574ffb1c5a64b2090234",
       "observed_sha": "14b07bf7f303157aaa96574ffb1c5a64b2090234",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1207091162,
@@ -2015,7 +2099,7 @@
       "baseline_sha": "eb8f2c7a18b206c715f57b826d9e70a9abf3bc40",
       "observed_sha": "eb8f2c7a18b206c715f57b826d9e70a9abf3bc40",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1208450620,
@@ -2023,23 +2107,23 @@
       "baseline_sha": "dcfb74fa68e2897bd5536ab39b82a8f3e2ca15a5",
       "observed_sha": "dcfb74fa68e2897bd5536ab39b82a8f3e2ca15a5",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1211139949,
       "source_url": "https://github.com/tt-a1i/archify/blob/main/README.md",
       "baseline_sha": "30100bc6d3724f04e0ee33d56b6f4caa2c8a9ddf",
-      "observed_sha": "30100bc6d3724f04e0ee33d56b6f4caa2c8a9ddf",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "35cacef8e1f06fc4b41f99b829f62c74b0607787",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1212163658,
       "source_url": "https://github.com/kangarooking/cangjie-skill/blob/main/README.md",
       "baseline_sha": "2e262e48e7863f7b700849fa17644126551a7c0b",
-      "observed_sha": "2e262e48e7863f7b700849fa17644126551a7c0b",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "f5ccbc3987271be3c00bf0548208aaf1a65ecd00",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1212241202,
@@ -2047,23 +2131,23 @@
       "baseline_sha": "89c72c31c9b8eba0415e06a0cd9171bb9717a6a9",
       "observed_sha": "89c72c31c9b8eba0415e06a0cd9171bb9717a6a9",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1212503250,
       "source_url": "https://github.com/citrolabs/ego-lite/blob/main/README.md",
       "baseline_sha": "d487beb2deeaec7efdc365cb1437d020e219f139",
-      "observed_sha": "d487beb2deeaec7efdc365cb1437d020e219f139",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "5e45d79af94c4cfb01b65790b2b0345f22f3eb8e",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1212562200,
       "source_url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2/blob/main/README.md",
       "baseline_sha": "908fad76450634c4adb9ed19796b8351951bd8f1",
-      "observed_sha": "908fad76450634c4adb9ed19796b8351951bd8f1",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "b1d0fa53db3dbaafa97ec5890903f2d73c81d0ac",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1214290850,
@@ -2071,7 +2155,7 @@
       "baseline_sha": "8ebb964e3fceb751cb0de4de2a33c6e9b4d36acf",
       "observed_sha": "8ebb964e3fceb751cb0de4de2a33c6e9b4d36acf",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1215145625,
@@ -2079,7 +2163,7 @@
       "baseline_sha": "4b79e8757052ea617c15f14c2991e78f719d013c",
       "observed_sha": "4b79e8757052ea617c15f14c2991e78f719d013c",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1216954187,
@@ -2087,7 +2171,7 @@
       "baseline_sha": "12746356543404694ea6f72389b79ce3dee3962f",
       "observed_sha": "12746356543404694ea6f72389b79ce3dee3962f",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1219042200,
@@ -2095,23 +2179,23 @@
       "baseline_sha": "15fef041bb0f32783123f32bb189e9544e8d06f7",
       "observed_sha": "15fef041bb0f32783123f32bb189e9544e8d06f7",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1219690829,
       "source_url": "https://github.com/oil-oil/draw-ui/blob/main/README.md",
       "baseline_sha": "701369a19d34b6172c58462f9fadd7cca29b4fa6",
-      "observed_sha": "701369a19d34b6172c58462f9fadd7cca29b4fa6",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "048a290252bb1ca4f5bf8032778ed410e141921c",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1220744720,
       "source_url": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/README.md",
       "baseline_sha": "17de22997c982d14bfd19dc3dce642cd04d21bc3",
-      "observed_sha": "17de22997c982d14bfd19dc3dce642cd04d21bc3",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "76ff77eac9157e539f6926bc2fa0de54317d919a",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1222110548,
@@ -2119,31 +2203,32 @@
       "baseline_sha": "2ab00ba0ffc0df4558b6175d0a88226b14049b03",
       "observed_sha": "2ab00ba0ffc0df4558b6175d0a88226b14049b03",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1223170290,
       "source_url": "https://github.com/nexu-io/open-design/blob/main/README.md",
       "baseline_sha": "9dabc687826d69101df69dccdf115fa3b7671efa",
-      "observed_sha": "9dabc687826d69101df69dccdf115fa3b7671efa",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1226123343,
       "source_url": "https://github.com/virgiliojr94/book-to-skill/blob/master/README.md",
       "baseline_sha": "d25326e74199922b7cb5d4e2e01635fa8926ee98",
-      "observed_sha": "d25326e74199922b7cb5d4e2e01635fa8926ee98",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "78f0a80bddb38c1b4b93058750a44f4aa642fa28",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1231170332,
       "source_url": "https://github.com/TokenRhythm/opensquilla/blob/main/README.md",
       "baseline_sha": "2df042d26bf6659ff0507bb0f48f38dbbcc97faf",
-      "observed_sha": "2df042d26bf6659ff0507bb0f48f38dbbcc97faf",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "adb13d1a52d5f35e48d753171b5c95f285800882",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1237819660,
@@ -2151,7 +2236,15 @@
       "baseline_sha": "2237ae04e1a41e1208f8d03a4255a2f1d93c266e",
       "observed_sha": "2237ae04e1a41e1208f8d03a4255a2f1d93c266e",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 1238120057,
+      "source_url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md",
+      "baseline_sha": "6acecf9600640c93503df0ed178a220d476e1197",
+      "observed_sha": "6acecf9600640c93503df0ed178a220d476e1197",
+      "status": "unchanged",
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1241257629,
@@ -2159,15 +2252,15 @@
       "baseline_sha": "987ea54da4b5f33b4af4859c919c2c3385a3cd27",
       "observed_sha": "987ea54da4b5f33b4af4859c919c2c3385a3cd27",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1243011353,
       "source_url": "https://github.com/rosemarycox5334-debug/PA_Agent/blob/main/README.md",
       "baseline_sha": "fca1f7fd906dbf3427c977ad5376d6c5e254f43f",
-      "observed_sha": "fca1f7fd906dbf3427c977ad5376d6c5e254f43f",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "bba08e3689024ae39dc19711438c90d443189e91",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1243496690,
@@ -2175,7 +2268,7 @@
       "baseline_sha": "30ce4b05507735b4811ca71e5f93d5e09bd7006f",
       "observed_sha": "30ce4b05507735b4811ca71e5f93d5e09bd7006f",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1246625636,
@@ -2183,31 +2276,40 @@
       "baseline_sha": "82770333164cd599dfa2f1ee44cc66997913cc40",
       "observed_sha": "82770333164cd599dfa2f1ee44cc66997913cc40",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1251775733,
       "source_url": "https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/README.md",
       "baseline_sha": "227eb6ff4d3be98ac19a6f08811849542f5ecf93",
-      "observed_sha": "227eb6ff4d3be98ac19a6f08811849542f5ecf93",
+      "observed_sha": "0bc01096e159488e892e17e17f25341f0162e83a",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 1252306996,
+      "source_url": "https://github.com/yyjeqhc/webcodex/blob/main/README.md",
+      "baseline_sha": "30c42ef581278c383a6c427a50ea09047be62be1",
+      "observed_sha": "30c42ef581278c383a6c427a50ea09047be62be1",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1255237198,
       "source_url": "https://github.com/chaitanyagiri/munder-difflin/blob/main/README.md",
       "baseline_sha": "a717a50dbfb0172136e664b6284587d647111b72",
-      "observed_sha": "a717a50dbfb0172136e664b6284587d647111b72",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "fc1e934b7ece17e52d3a8fc9db5b2323eff44a79",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1262434101,
       "source_url": "https://github.com/Regert888/gpt-auto-register/blob/main/README.md",
       "baseline_sha": "c5da62fb14f334d4520bb1da7f21a704725ad6ba",
-      "observed_sha": "c5da62fb14f334d4520bb1da7f21a704725ad6ba",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": null,
+      "status": "unavailable",
+      "reason": "未取得 README 版本，需重新核对",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1264811161,
@@ -2215,7 +2317,7 @@
       "baseline_sha": "a20879e6c3ff7ac71d2382a08c94c38a6f435edd",
       "observed_sha": "a20879e6c3ff7ac71d2382a08c94c38a6f435edd",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1265654867,
@@ -2223,23 +2325,23 @@
       "baseline_sha": "11d5ec450a0d6a54a57f1d9d52d254c87d575ff0",
       "observed_sha": "11d5ec450a0d6a54a57f1d9d52d254c87d575ff0",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1266797999,
       "source_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "baseline_sha": "50b33a736986b43a8d1f666a6e3389fcab99997c",
-      "observed_sha": "50b33a736986b43a8d1f666a6e3389fcab99997c",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "abe585224b33bdd253f2012336e4c16b84402e49",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1266884317,
       "source_url": "https://github.com/kunchenguid/firstmate/blob/main/README.md",
       "baseline_sha": "ec6c92e4e36aa7deb8ff24ba205606eb828cceb9",
-      "observed_sha": "ec6c92e4e36aa7deb8ff24ba205606eb828cceb9",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "85e9afbc1fde4ac7c3e3e96d2f4c20ffff517ae4",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1269395331,
@@ -2247,7 +2349,7 @@
       "baseline_sha": "d307e707fca8d940f16999093bd937ce423ec56d",
       "observed_sha": "d307e707fca8d940f16999093bd937ce423ec56d",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1277836173,
@@ -2255,7 +2357,7 @@
       "baseline_sha": "085fce926f24f5662a9665cdf2aab9c3611064f5",
       "observed_sha": "085fce926f24f5662a9665cdf2aab9c3611064f5",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1283138527,
@@ -2263,23 +2365,39 @@
       "baseline_sha": "fb082bcede5b07c1fd8570fefa9d9060a7312481",
       "observed_sha": "fb082bcede5b07c1fd8570fefa9d9060a7312481",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1297316519,
       "source_url": "https://github.com/MDX-Tom/gpt-instruct/blob/main/README.md",
       "baseline_sha": "176e63fb71278c74b743180efe1f5b627c3b2d0a",
-      "observed_sha": "176e63fb71278c74b743180efe1f5b627c3b2d0a",
+      "observed_sha": "ca5f0fcce2b0ba46af4aeb3a3914de498d7c9746",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 1300902838,
+      "source_url": "https://github.com/xai-org/grok-build/blob/main/README.md",
+      "baseline_sha": "4569db83fe4fee02ba656f8eaa52db22e43e8e63",
+      "observed_sha": "4569db83fe4fee02ba656f8eaa52db22e43e8e63",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1301135370,
       "source_url": "https://github.com/0xsline/OpenChatCut/blob/main/README.md",
       "baseline_sha": "83c9c9cb936cf9455294202929b885cd2041350a",
-      "observed_sha": "83c9c9cb936cf9455294202929b885cd2041350a",
+      "observed_sha": "e678a9d34393ad81359b51d8067e08bb7f790050",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 1302826522,
+      "source_url": "https://github.com/DavidHDev/canvas-ui/blob/main/README.md",
+      "baseline_sha": "236fa5531e9bb898a9a14fbfaeefcd6f6c8cc514",
+      "observed_sha": "236fa5531e9bb898a9a14fbfaeefcd6f6c8cc514",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1305545535,
@@ -2287,15 +2405,15 @@
       "baseline_sha": "bac235cf9204af5daff1ae8558a80e3d01f380d0",
       "observed_sha": "bac235cf9204af5daff1ae8558a80e3d01f380d0",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1312807575,
       "source_url": "https://github.com/miuuyy/codex-chatgpt-web/blob/main/README.md",
       "baseline_sha": "0fcb85d950cb97c506c14dcfd3dbc1ff62ab63ea",
-      "observed_sha": "0fcb85d950cb97c506c14dcfd3dbc1ff62ab63ea",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "c9883dd79aa2c3a3c8736567330a8737166b3f5a",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1314048518,
@@ -2303,23 +2421,31 @@
       "baseline_sha": "c0e9989a5acc23137163c175b5b386a0044b88b5",
       "observed_sha": "c0e9989a5acc23137163c175b5b386a0044b88b5",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 1316470719,
+      "source_url": "https://github.com/hypit-ai/hypit/blob/main/README.md",
+      "baseline_sha": "668e62b1ad738476bb0b4558ce4f0e7bb98c27d6",
+      "observed_sha": "668e62b1ad738476bb0b4558ce4f0e7bb98c27d6",
+      "status": "unchanged",
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1325096132,
       "source_url": "https://github.com/eternityspring/shuohao-skills/blob/main/README.md",
       "baseline_sha": "b4ab7a4720e66899e3bde52895c1e2a73bad02ac",
-      "observed_sha": "b4ab7a4720e66899e3bde52895c1e2a73bad02ac",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "080fdf41554285802a0b199294d4eca12dc9590e",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1326654671,
       "source_url": "https://github.com/oil-oil/oil-motion/blob/main/README.md",
       "baseline_sha": "adfd550ffbe1851c0a6ea605bee83e925b45ece6",
-      "observed_sha": "adfd550ffbe1851c0a6ea605bee83e925b45ece6",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "4af391f2e23870730f2a594f9c8d46dacaf3da71",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1329629252,
@@ -2327,7 +2453,7 @@
       "baseline_sha": "817b2f3ce39d2cd21bc9d60b616af494a93213b8",
       "observed_sha": "817b2f3ce39d2cd21bc9d60b616af494a93213b8",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1330468709,
@@ -2335,7 +2461,7 @@
       "baseline_sha": "ee41ff4a81499c3e4676665013d103845ac516fd",
       "observed_sha": "ee41ff4a81499c3e4676665013d103845ac516fd",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1339161831,
@@ -2343,31 +2469,55 @@
       "baseline_sha": "da66467275ed8e9d987a9f5e5570dbd7e494ed15",
       "observed_sha": "da66467275ed8e9d987a9f5e5570dbd7e494ed15",
       "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 1341603085,
+      "source_url": "https://github.com/panxunying/ai-coding-welfare/blob/main/README.md",
+      "baseline_sha": "1052fac945ebc32e818180ca3d02d2998e16faaa",
+      "observed_sha": "1052fac945ebc32e818180ca3d02d2998e16faaa",
+      "status": "unchanged",
+      "checked_at": "2026-10-04T20:51:25Z"
+    },
+    {
+      "repo_id": 1347550908,
+      "source_url": "https://github.com/LearnPrompt/awesome-seedance/blob/main/README.md",
+      "baseline_sha": "713b6d65307290c7634f3ac6edb35b851cdd79e0",
+      "observed_sha": "713b6d65307290c7634f3ac6edb35b851cdd79e0",
+      "status": "unchanged",
+      "checked_at": "2026-10-04T20:51:25Z"
     },
     {
       "repo_id": 1350587124,
       "source_url": "https://github.com/Sac-Y/MiniMax-H3-Cloud/blob/main/README.md",
       "baseline_sha": "1353a99f6609e8b1e0c2f7b8c2c87641b5bbfa24",
-      "observed_sha": "1353a99f6609e8b1e0c2f7b8c2c87641b5bbfa24",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T11:48:23Z"
+      "observed_sha": "222d233a285c7bf776e20277288c7e594dca51e2",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1357272370,
       "source_url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub/blob/main/README.md",
       "baseline_sha": "65c2b6b1da67961a3b65be8bf45ef390acf9efac",
-      "observed_sha": "65c2b6b1da67961a3b65be8bf45ef390acf9efac",
-      "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "observed_sha": "de0f3fa3ad206bd962fa77b229ce1c0ce336b9d4",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
     },
     {
       "repo_id": 1358588929,
       "source_url": "https://github.com/yang0/handraw-style/blob/master/README.md",
       "baseline_sha": "f4d8d4f28047e3576db1e64241a3f939440f58ae",
-      "observed_sha": "f4d8d4f28047e3576db1e64241a3f939440f58ae",
+      "observed_sha": "5a5f073e93c5607d78b53fda4ac07e04f1d18c21",
+      "status": "changed",
+      "checked_at": "2026-10-04T20:37:14Z"
+    },
+    {
+      "repo_id": 1383809012,
+      "source_url": "https://github.com/yetone/magpie/blob/main/README.md",
+      "baseline_sha": "6f5189e04194f6da9d1f9044cb8915a3d9961d0f",
+      "observed_sha": "6f5189e04194f6da9d1f9044cb8915a3d9961d0f",
       "status": "unchanged",
-      "checked_at": "2026-09-14T12:06:32Z"
+      "checked_at": "2026-10-04T20:51:25Z"
     }
   ],
   "without_baseline": []

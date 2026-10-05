@@ -4,22 +4,25 @@
 
 ## 当前版本
 
-v1.3 在 v1.2 的收藏资料库基础上，加入相关性搜索、用途专题、关联说明和来源复核。通过现有 GitHub Pages 流水线发布；线上版本以 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml) 的成功部署记录为准。
+v1.4 在 v1.3 的相关性搜索、用途专题和来源复核基础上，补齐新收藏资料，加入项目轻量对照与无结果筛选引导，并修正首页解读更新日期口径。本地实施与验收已完成，用户于 2026-10-05 追加授权提交、推送和部署；发布沿用既有 GitHub Pages 流程，线上版本以 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml) 的成功部署记录为准。
 
 - 自动同步公开 Stars，以 repo_id 处理更名、退出公开列表和重新 Star。
 - 项目库支持多词检索、人工同义词、相关性排序、组合筛选与命中章节定位；名称和用途优先于正文偶然提及。
 - 收藏回顾按北京时间的年/月浏览已收录记录；详情返回能恢复浏览上下文。
 - 仓库解读包含用途、使用路径、示例、限制与资料来源，提供目录和代码复制。
 - 学习阶段、学习笔记与完成统计已从当前源内容、页面、导出和目录结构中移除。
-- 已整理全部 287 个当前收藏：284 篇用途、使用或资料导航解读，3 篇资料受限的现状说明；10 个仓库新增注明版本的本地验证示例，原示例仍标明未执行。
+- 2026-10-04 UTC 冻结快照含 313 个当前收藏：309 篇用途、使用或资料导航解读，4 篇资料受限说明；本轮新增 17 篇。v1.3 的 10 个本地验证示例保留原版本记录，本轮没有重跑；新增例子均注明未执行。
 - 视频创作、前端设计、Agent 工作流共 3 个专题，各 8 个项目；24 份解读维护关联用途与差异说明。
+- 前端设计专题对照 DESIGN.md 参考、网页样式提取与需求驱动设计三个项目，区分输入、输出、入口、前提与限制，不提供虚构评分。
+- 项目库与收藏回顾无结果时，显示逐项移除筛选后的实际结果数；只有用户选择才改条件，保留查询与其他筛选，不自动展开隐藏记录。
+- 首页最近补充解读按正文实际更新时间选择，来源重新核查不冒充正文更新。来源检查仍保留 99 项 README 变化与 14 项未取得版本的提示；覆盖资料不等于全部来源已重新核查。
 - 仓库链接可独立打开并保留查询及章节，详情有独立标题。来源检查区分 README 变化与资料受限，不自动改写解读。
 
 ## 数据职责
 
 - `data/repositories.json`：GitHub 事实，仅同步脚本写入。
 - `content/repos/<repo_id>.md`：人工维护分类、摘要、仓库解读及来源；不包含用户学习阶段。
-- `config/topics.json`：人工维护专题顺序、项目与适用理由。
+- `config/topics.json`：人工维护专题顺序、项目、适用理由与有来源的轻量对照。
 - `data/guide-source-check.json`：手动检查命令生成的 README 版本观察，独立于 GitHub Stars 事实与人工解读。
 - `app/public/data/*.json`：构建产物，不手改、不提交。当前 catalog 使用 schemaVersion 2。
 
@@ -41,6 +44,9 @@ GITHUB_PAGES=true npm --prefix app run build
 
 ## 文档
 
+- [v1.4 计划与验收](DEVELOPMENT_PLAN_V1.4.md)
+- [v1.4 本地交付、浏览器验收与性能边界](docs/11-v1.4-delivery.md)
+- [v1.4 冻结范围](docs/content-batches/v1.4-scope.json)与[README 版本证据](docs/content-batches/v1.4-sources.json)
 - [v1.3 计划与验收](DEVELOPMENT_PLAN_V1.3.md)
 - [v1.3 交付与验证](docs/10-v1.3-delivery.md)
 - [10 个公开示例的复验说明](docs/examples/v1.3/README.md)
@@ -57,11 +63,13 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-09-14T11:46:08Z` · 当前公开 Stars：**296** · 已分类：**296**
+> 最近成功检查：`2026-10-05T00:36:37Z` · 当前公开 Stars：**313** · 已分类：**313**
 
 
-### AI 与 Agent（32）
+### AI 与 Agent（34）
 
+- [xai-org/grok-build](https://github.com/xai-org/grok-build) — 提供读写代码、工具执行、长任务与编辑器接入的 Rust 终端编码代理。
+- [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — 通过技能规则让编码代理先给行动、分步说明，并减少偏题和冗余输出。
 - [DreambigOu/ELI5](https://github.com/DreambigOu/ELI5) — 根据年龄、职业或关系调整术语、类比和解释深度，帮助代理向不同受众讲清概念与代码。
 - [yzfly/awesome-skills-zh](https://github.com/yzfly/awesome-skills-zh) — 中文 Agent Skills 与工具资源目录。
 - [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) — Agent Skills 入门与资源推荐合集。
@@ -95,8 +103,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — 支持终端和消息渠道的代理运行时，包含工具、会话检索、技能与定时任务。
 - [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — 通过独立 Python 章节演示工具循环、权限、上下文和多任务代理运行机制。
 
-### Web、前端与跨端（77）
+### Web、前端与跨端（79）
 
+- [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) — 将 Canvas 与 GPU 视觉效果覆盖到可交互 HTML 上的跨框架组件源码。
+- [greensock/gsap-skills](https://github.com/greensock/gsap-skills) — 为编码代理整理 GSAP 核心 API、时间线、滚动动画、框架接入与性能规则。
 - [oil-oil/draw-ui](https://github.com/oil-oil/draw-ui) — 先确定页面目标与视觉方向，再生成 UI 设计稿，并按需要还原为网页或小程序界面。
 - [oil-oil/oil-motion](https://github.com/oil-oil/oil-motion) — 把生成视频整理为可控的动画资源，并接入网页滚动、拖动、指针或状态变化。
 - [boyang-hu/website-rebuild-skill](https://github.com/boyang-hu/website-rebuild-skill) — 以源站快照、代码溯源和多层比对为依据，把网页重建成可运行工程的 Agent Skill。
@@ -198,8 +208,13 @@ GITHUB_PAGES=true npm --prefix app run build
 - [ElemeFE/node-interview](https://github.com/ElemeFE/node-interview) — 整理 Node.js 岗位面试相关问题与知识。
 - [koajs/koa](https://github.com/koajs/koa) — 以中间件组合方式构建 Node.js Web 服务的框架。
 
-### 基础设施、网络与安全（11）
+### 基础设施、网络与安全（16）
 
+- [HenryChiao/MIHOMO_YAMLS](https://github.com/HenryChiao/MIHOMO_YAMLS) — 整理 Mihomo 配置模板、规则说明、客户端入口和相关上游资料。
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) — 基于 Tauri 的跨平台 Mihomo 桌面客户端，管理配置、代理组与网络模式。
+- [DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) — 整理第三方商业代理服务、套餐与相关网络使用资料的导航页面。
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) — 汇集公开节点、订阅链接及不同平台客户端资料的维护页面。
+- [hoochanlon/fq-book](https://github.com/hoochanlon/fq-book) — 通过在线章节介绍代理、隧道、VPN 与网络连接方式的中文资料。
 - [hwdsl2/wireguard-install](https://github.com/hwdsl2/wireguard-install) — 在 Linux 服务器自动部署 WireGuard 并生成客户端配置的安装与管理脚本。
 - [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) — 根据 APK、二进制、JavaScript 等对象选择分析方法与工具的安全研究技能路由包。
 - [tailscale/tailscale](https://github.com/tailscale/tailscale) — 以 WireGuard 连接设备并结合身份、DNS 与访问规则管理私有网络的软件。
@@ -212,9 +227,14 @@ GITHUB_PAGES=true npm --prefix app run build
 - [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) — 基于 ServiceWorker 实现的浏览器在线代理。
 - [yeasy/docker_practice](https://github.com/yeasy/docker_practice) — Docker 与容器技术的实践学习资料。
 
-### 开发者工具与自动化（80）
+### 开发者工具与自动化（85）
 
-- [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) — 把现有编码 CLI 组织成带终端、消息、记忆和任务调度的本地多 Agent 桌面工作区。
+- [yetone/magpie](https://github.com/yetone/magpie) — 集中管理多个编码代理的模型配置，并通过本地网关连接模型提供方。
+- [panxunying/ai-coding-welfare](https://github.com/panxunying/ai-coding-welfare) — 汇集第三方 AI 编码与模型服务的公开接入、价格、额度和状态资料。
+- [fmhy/edit](https://github.com/fmhy/edit) — FMHY 资源导航的编辑与贡献入口，连接网站、更新记录和备份资料。
+- [YishenTu/claudian](https://github.com/YishenTu/claudian) — 将多个编码代理接入 Obsidian 笔记库，提供对话、文件操作和内联修改预览。
+- [yyjeqhc/webcodex](https://github.com/yyjeqhc/webcodex) — 让支持 MCP 的云端助手访问指定机器上的仓库、Git 与开发工具。
+- [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin) — 把现有编码 CLI 组织成带终端、消息、记忆和任务调度的本地多 Agent 桌面工作区。
 - [liqiang-xxfy/fly-cursor-free](https://github.com/liqiang-xxfy/fly-cursor-free) — 围绕 Cursor 账号切换与试用管理的第三方桌面工具；公开说明不足以验证完整实现和当前兼容性。
 - [Rion-Wu-tech/wechat-intelligence-hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) — 通过只读 Reader 和本地引擎，把获授权的微信记录整理成可检索资料、日报与跟进线索。
 - [localsend/localsend](https://github.com/localsend/localsend) — 通过局域网在电脑与手机间传送文件和文字，无需聊天软件账号。
@@ -230,7 +250,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [tanweai/pua](https://github.com/tanweai/pua) — 通过排障清单、主动调查和多种提示策略，约束编码代理遇错后继续寻找证据。
 - [herdrdev/herdr](https://github.com/herdrdev/herdr) — 在后台持有终端会话并显示编码代理状态的终端工作空间，支持分屏、CLI 与远程接入。
 - [stablyai/orca](https://github.com/stablyai/orca) — 把多种编码代理、隔离 worktree、终端和浏览器集中到同一桌面工作区。
-- [Hmbown/Codewhale](https://github.com/Hmbown/Codewhale) — 基于 Rust 的终端编码代理，可连接不同模型并执行读取、修改与验证任务。
+- [codewhale-hq/Codewhale](https://github.com/codewhale-hq/Codewhale) — 基于 Rust 的终端编码代理，可连接不同模型并执行读取、修改与验证任务。
 - [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — 按技术栈分类的 Cursor 项目规则合集，可选择并调整为仓库自己的编码约定。
 - [leookun/cursor-byok](https://github.com/leookun/cursor-byok) — 在本机连接 Cursor 与自有模型 API 的网关，提供模型配置、转发和连接测试。
 - [deepcoldy/botmux](https://github.com/deepcoldy/botmux) — 把飞书消息接到本机编码 CLI，并以流式卡片和 Web 终端回传会话的桥接工具。
@@ -295,8 +315,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [wotermelon/toJump](https://github.com/wotermelon/toJump) — 用 Node.js 演示微信跳一跳小游戏的自动化操作。
 - [i5ting/vsc](https://github.com/i5ting/vsc) — 介绍 Visual Studio Code 的中文使用指南。
 
-### 设计、图像与内容创作（43）
+### 设计、图像与内容创作（45）
 
+- [hypit-ai/hypit](https://github.com/hypit-ai/hypit) — 通过编码代理组织参考视频、生成素材与视频合成，并制作内容变体。
+- [LearnPrompt/awesome-seedance](https://github.com/LearnPrompt/awesome-seedance) — 按视频形式整理 Seedance 提示词、模板、原始案例与跨模型复测记录。
 - [coleam00/excalidraw-diagram-skill](https://github.com/coleam00/excalidraw-diagram-skill) — 把自然语言与技术证据整理为可编辑的 Excalidraw 图，并通过渲染检查布局。
 - [yang0/handraw-style](https://github.com/yang0/handraw-style) — 通过编号画廊选择手绘风格，把主题转换成带风格名称的中英文生图提示词。
 - [SpaceZephyr/creator-buddy](https://github.com/SpaceZephyr/creator-buddy) — 按公众号、小红书和视频工作流组织 Skills，连接公开内容研究、文稿、配图与视频制作。
@@ -369,8 +391,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [InterviewMap/CS-Interview-Knowledge-Map](https://github.com/InterviewMap/CS-Interview-Knowledge-Map) — 汇集语言、浏览器、网络和算法等面试知识。
 - [Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) — 通过短篇文章和代码片段讲解开发知识。
 
-### 商业与行业应用（8）
+### 商业与行业应用（9）
 
+- [hoochanlon/hamuleite](https://github.com/hoochanlon/hamuleite) — 按社会科学、教育、金融研究与生活议题组织资料和外部资源入口。
 - [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) — 包含动作分类、器械、目标肌群、多语言步骤及配套媒体的健身动作数据集。
 - [rosemarycox5334-debug/PA_Agent](https://github.com/rosemarycox5334-debug/PA_Agent) — 读取结构化 K 线并分阶段生成价格行为诊断与决策参考的桌面分析工具。
 - [wbh604/UZI-Skill](https://github.com/wbh604/UZI-Skill) — 把公开行情和财务资料组织成多维个股分析、估值及角色视角报告的技能。

@@ -4,6 +4,14 @@ export function formatCount(value) {
   return String(value ?? 0);
 }
 
+export function latestUpdatedGuide(repositories) {
+  return repositories.filter(repo => repo.hasGuide && repo.contentUpdatedAt).sort((left, right) =>
+    right.contentUpdatedAt.localeCompare(left.contentUpdatedAt)
+    || new Date(right.starredAt) - new Date(left.starredAt)
+    || left.repoId - right.repoId
+  )[0];
+}
+
 export function assetUrl(path) {
   return `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
 }

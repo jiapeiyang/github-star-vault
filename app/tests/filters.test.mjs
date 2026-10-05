@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { filterRepositories, chooseRevisit, groupByMonth, matchExcerpt } from "../src/domain/filters.js";
+import { filterRepositories, filterRecoveryOptions, chooseRevisit, groupByMonth, matchExcerpt } from "../src/domain/filters.js";
 import { defaultRoute } from "../src/domain/routing.js";
 import { highlightParts, queryGroups, searchMatch } from "../src/domain/search.js";
 
@@ -9,6 +9,26 @@ const repositories = [
   { repoId: 2, name: "two/web", owner: "two", description: "Web library", editorialSummary: "", language: "TypeScript", category: "web-client", categoryLabel: "Web、前端与跨端", resourceTypeId: "library", resourceType: "库或框架", tags: [], topics: ["web"], summary: "", contentMarkdown: "", sourceStatus: "starred", personalArchived: false, archived: true, stars: 100, starredAt: "2026-08-01T00:00:00Z", pushedAt: "2026-09-03T00:00:00Z" },
   { repoId: 3, name: "three/old", owner: "three", description: "Old", editorialSummary: "", language: "JavaScript", category: "web-client", categoryLabel: "Web、前端与跨端", resourceTypeId: "app", resourceType: "应用或工具", tags: [], topics: [], summary: "", contentMarkdown: "", sourceStatus: "missing", personalArchived: true, archived: false, stars: 1, starredAt: "2021-01-01T00:00:00Z", pushedAt: "2021-01-01T00:00:00Z" },
 ];
+
+test("empty search suggests one explicit filter at a time and preserves query and hidden-record boundaries", () => {
+  const route = { ...defaultRoute, q: "agent", category: "web-client", year: "2026" };
+  const before = { ...route };
+  const options = filterRecoveryOptions(repositories, route);
+  assert.deepEqual(options.map(option => [option.key, option.count]), [["category", 1]]);
+  assert.deepEqual(options[0].patch, { category: "all" });
+  assert.equal({ ...route, ...options[0].patch }.q, "agent");
+  assert.deepEqual(route, before);
+  assert.deepEqual(filterRecoveryOptions(repositories, { ...defaultRoute, q: "old", category: "ai-agent" }), []);
+  assert.deepEqual(filterRecoveryOptions(repositories, defaultRoute), []);
+});
+
+test("recovery handles dates, explicit missing scope and cases needing multiple changes", () => {
+  const dateRoute = { ...defaultRoute, q: "agent", from: "2026-09-10" };
+  assert.deepEqual(filterRecoveryOptions(repositories, dateRoute)[0].patch, { from: "" });
+  const missingRoute = { ...defaultRoute, q: "agent", source: "missing" };
+  assert.deepEqual(filterRecoveryOptions(repositories, missingRoute)[0].patch, { source: "all" });
+  assert.deepEqual(filterRecoveryOptions(repositories, { ...defaultRoute, q: "agent", category: "web-client", language: "Rust" }), []);
+});
 
 test("searches repository summaries and combines filters", () => {
   const route = { ...defaultRoute, q: "写作规范", category: "ai-agent", language: "Python" };

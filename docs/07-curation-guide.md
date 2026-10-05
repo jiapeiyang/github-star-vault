@@ -1,4 +1,4 @@
-# 仓库资料维护指南（v1.3）
+# 仓库资料维护指南（v1.4）
 
 网站用于浏览、找回和理解仓库；日常浏览不需要编辑任何资料。
 
@@ -9,6 +9,16 @@
 输入查询时默认按相关性排序，无查询时按收藏时间；手动选择的 Stars/收藏时间/上游更新时间继续生效。仓库精确名称优先，其次是名称、标签、摘要与正文。少量人工同义词维护在 `app/src/domain/search.js`，例如“文字识别”会匹配 OCR；同一概念内任选一个词，多个概念仍须同时匹配。输入英文短词本身保留子串查找，扩展出的英文别名要求词边界。
 
 搜索结果可直接打开命中章节并高亮正文；代码保持原样。仓库入口是标准链接，可复制地址或在新标签页打开。用途专题的项目顺序和理由在 `config/topics.json` 中人工维护。
+
+无结果时，项目库与收藏回顾会计算逐项移除当前明确筛选后的实际结果数。点击建议只修改该项，保留查询与其他条件；默认当前 Stars 和个人归档边界不会被自动放宽。没有单项可恢复结果时，说明需要改关键词或组合条件，不显示虚假的可用建议。
+
+首页“最近补充解读”使用 `content_updated_at`，而不是 `reviewed_at`。仅重新检查来源时保留正文更新时间；确实修改正文、摘要等资料时才更新内容日期。
+
+## 专题轻量对照
+
+`config/topics.json` 的专题可选 `comparison`，包含非空 `title`、`description`、真实 `reviewed_at`（YYYY-MM-DD）以及 2～3 个 `entries`。每项 `repo_id` 必须属于该专题且不能重复，并填写 `task`、`input`、`output`、`start`、`requirements`、`limitations` 六个非空文本字段，以及非空 HTTP/HTTPS `sources` 数组。构建会校验引用、日期、数量与来源 URL。
+
+只比较公开资料支持的任务、输入输出、使用前提和限制；未核实的信息直接说明未知，不编造评分、速度或效果结论。核查日期不证明示例已执行，也不证明付费服务或第三方合集始终可用。窄屏表格在自身区域横向滚动，项目名称仍可打开原有解读。
 
 ## 资料文件
 
@@ -58,10 +68,13 @@ python3 -m unittest discover -s tests
 npm --prefix app test
 npm --prefix app run test:sites
 GITHUB_PAGES=true npm --prefix app run build
+node app/scripts/measure-catalog.mjs docs/audits/v1.4/catalog-performance.json
 git diff --check
 ```
 
 人工解读只写入 `content/repos/`；来源检查报告由专用命令写入 `data/guide-source-check.json`。禁止手改事实快照和 `app/public/data/` 构建文件。发布仍按当前授权的目标和范围执行。
+
+性能测量命令使用刚构建的真实目录，输出体积、本地 gzip 估算、JSON 解析、列表过滤、20 个冻结查询和无结果建议开销。每项预热 10 次后测 50 次；它不测 DOM 渲染或真实移动设备，也不代表线上 Pages 的传输压缩和网络表现。浏览器验收与是否优化的依据见 v1.4 交付记录。
 
 ## 来源复核
 

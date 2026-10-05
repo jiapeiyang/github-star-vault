@@ -1,0 +1,121 @@
+{
+  "measuredAt": "2026-10-04T21:16:01.119Z",
+  "environment": "本地 Pages 模式生产产物；Chromium 154，1280×900 与 390×844",
+  "homepage": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "featured": "yetone/magpie",
+    "active": 313,
+    "guides": 313,
+    "pageTitle": "收藏资料库 · Star Vault"
+  },
+  "comparison": {
+    "viewport": 390,
+    "pageWidth": 390,
+    "regionWidth": 358,
+    "tableWidth": 780,
+    "columns": 4,
+    "bodyRows": 7,
+    "keyboardFocus": true,
+    "arrowRightScrollLeft": 40,
+    "detailAndBackPreservedTopic": true
+  },
+  "libraryRecovery": {
+    "initial": {
+      "q": "canvas-ui",
+      "category": "ai-agent",
+      "language": "TypeScript",
+      "matches": 0
+    },
+    "suggestionCount": 1,
+    "after": {
+      "q": "canvas-ui",
+      "category": "all",
+      "language": "TypeScript",
+      "matches": 1
+    },
+    "keptImplicitSourceAndArchiveBoundary": true
+  },
+  "historyRecovery": {
+    "initial": {
+      "q": "canvas-ui",
+      "year": "2021",
+      "matches": 0
+    },
+    "suggestionCount": 1,
+    "after": {
+      "q": "canvas-ui",
+      "year": "all",
+      "matches": 1
+    },
+    "measuredInteraction": {
+      "paintObservedMs": 31.40000009536743,
+      "url": "http://127.0.0.1:4184/github-star-vault/?view=history&q=canvas-ui",
+      "count": 1,
+      "query": "canvas-ui"
+    },
+    "timingBoundary": "真实点击事件至结果 DOM 后两次 requestAnimationFrame；单次本机观察，不是 INP。"
+  },
+  "guides": [
+    {
+      "repoId": 1383809012,
+      "name": "yetone/magpie",
+      "heading": "yetone/magpie",
+      "sections": [
+        "它是什么",
+        "适合什么场景",
+        "如何开始",
+        "一个使用示例",
+        "注意事项与相关项目",
+        "资料来源"
+      ],
+      "hasUnexecutedDisclaimer": true,
+      "hasReviewDate": true,
+      "pageWidth": 390,
+      "viewport": 390
+    },
+    {
+      "repoId": 1302826522,
+      "name": "DavidHDev/canvas-ui",
+      "heading": "DavidHDev/canvas-ui",
+      "sections": [
+        "它是什么",
+        "适合什么场景",
+        "如何开始",
+        "一个使用示例",
+        "注意事项与相关项目",
+        "资料来源"
+      ],
+      "hasUnexecutedDisclaimer": true,
+      "hasReviewDate": true,
+      "pageWidth": 390,
+      "viewport": 390
+    },
+    {
+      "repoId": 625069454,
+      "name": "DiningFactory/panda-vpn-pro",
+      "heading": "DiningFactory/panda-vpn-pro",
+      "sections": [
+        "它是什么",
+        "适合什么场景",
+        "如何开始",
+        "一个使用示例",
+        "注意事项与相关项目",
+        "资料来源"
+      ],
+      "hasUnexecutedDisclaimer": true,
+      "hasReviewDate": true,
+      "pageWidth": 390,
+      "viewport": 390
+    }
+  ],
+  "limitations": [
+    "未在真实手机或线上慢网络测量",
+    "没有执行第三方项目安装或新增文章示例",
+    "不是完整无障碍、截图差分或安全审计",
+    "仅首次 DOM 内容就绪，不代表外部头像等全部资源完成"
+  ],
+  "temporaryScreenshots": "本轮临时截图仅用于本地验收，结束时删除；未更改用户原有截图。"
+}

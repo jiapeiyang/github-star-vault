@@ -1,0 +1,202 @@
+[
+  {
+    "repo_id": 1383809012,
+    "name": "yetone/magpie",
+    "url": "https://github.com/yetone/magpie/blob/main/README.md",
+    "sha": "6f5189e04194f6da9d1f9044cb8915a3d9961d0f",
+    "readme_path": "README.md",
+    "bytes": 75736,
+    "checked_at": "2026-10-04T20:24:02Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1316470719,
+    "name": "hypit-ai/hypit",
+    "url": "https://github.com/hypit-ai/hypit/blob/main/README.md",
+    "sha": "668e62b1ad738476bb0b4558ce4f0e7bb98c27d6",
+    "readme_path": "README.md",
+    "bytes": 19264,
+    "checked_at": "2026-10-04T20:24:02Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1347550908,
+    "name": "LearnPrompt/awesome-seedance",
+    "url": "https://github.com/LearnPrompt/awesome-seedance/blob/main/README.md",
+    "sha": "713b6d65307290c7634f3ac6edb35b851cdd79e0",
+    "readme_path": "README.md",
+    "bytes": 108296,
+    "checked_at": "2026-10-04T20:24:02Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1341603085,
+    "name": "panxunying/ai-coding-welfare",
+    "url": "https://github.com/panxunying/ai-coding-welfare/blob/main/README.md",
+    "sha": "1052fac945ebc32e818180ca3d02d2998e16faaa",
+    "readme_path": "README.md",
+    "bytes": 69792,
+    "checked_at": "2026-10-04T20:24:02Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1103199983,
+    "name": "HenryChiao/MIHOMO_YAMLS",
+    "url": "https://github.com/HenryChiao/MIHOMO_YAMLS/blob/main/README.md",
+    "sha": "47a3b65b6c153329e59b51b3b140d099b3b5f75e",
+    "readme_path": "README.md",
+    "bytes": 5103,
+    "checked_at": "2026-10-04T20:24:03Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 721767116,
+    "name": "clash-verge-rev/clash-verge-rev",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev/blob/dev/README.md",
+    "sha": "f76d4138c0a65eba38efe52435f5f543d8b8eb86",
+    "readme_path": "README.md",
+    "bytes": 6222,
+    "checked_at": "2026-10-04T20:24:03Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 625069454,
+    "name": "DiningFactory/panda-vpn-pro",
+    "url": "https://github.com/DiningFactory/panda-vpn-pro/blob/main/README.md",
+    "sha": "46afd82ea985741612a8bcd2b6b30167124e303c",
+    "readme_path": "README.md",
+    "bytes": 101322,
+    "checked_at": "2026-10-04T20:24:03Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 450143450,
+    "name": "Pawdroid/Free-servers",
+    "url": "https://github.com/Pawdroid/Free-servers/blob/main/README.md",
+    "sha": "a78ea64b960900af454ebd0b131174fa4a6a8caf",
+    "readme_path": "README.md",
+    "bytes": 13693,
+    "checked_at": "2026-10-04T20:24:03Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 121637551,
+    "name": "hoochanlon/hamuleite",
+    "url": "https://github.com/hoochanlon/hamuleite/blob/master/README.md",
+    "sha": "d0fe5036201095539cc4d5c111470d1b376e9a5b",
+    "readme_path": "README.md",
+    "bytes": 6131,
+    "checked_at": "2026-10-04T20:24:04Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 134949638,
+    "name": "hoochanlon/fq-book",
+    "url": "https://github.com/hoochanlon/fq-book/blob/master/README.md",
+    "sha": "be5e5dee72bd8479c9db3f0ec25944ffd14778f6",
+    "readme_path": "README.md",
+    "bytes": 9948,
+    "checked_at": "2026-10-04T20:24:04Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 394102612,
+    "name": "fmhy/edit",
+    "url": "https://github.com/fmhy/edit/blob/main/.github/README.md",
+    "sha": "5c1adfca5020112a6665c4c3565eeec0242f43ad",
+    "readme_path": ".github/README.md",
+    "bytes": 1701,
+    "checked_at": "2026-10-04T20:24:04Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1300902838,
+    "name": "xai-org/grok-build",
+    "url": "https://github.com/xai-org/grok-build/blob/main/README.md",
+    "sha": "4569db83fe4fee02ba656f8eaa52db22e43e8e63",
+    "readme_path": "README.md",
+    "bytes": 5757,
+    "checked_at": "2026-10-04T20:24:04Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1238120057,
+    "name": "ayghri/i-have-adhd",
+    "url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md",
+    "sha": "6acecf9600640c93503df0ed178a220d476e1197",
+    "readme_path": "README.md",
+    "bytes": 3911,
+    "checked_at": "2026-10-04T20:24:05Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1110782890,
+    "name": "YishenTu/claudian",
+    "url": "https://github.com/YishenTu/claudian/blob/main/README.md",
+    "sha": "c9f6cace1a317d1c49d7c9180dd23d9bd253fb18",
+    "readme_path": "README.md",
+    "bytes": 12290,
+    "checked_at": "2026-10-04T20:24:05Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1252306996,
+    "name": "yyjeqhc/webcodex",
+    "url": "https://github.com/yyjeqhc/webcodex/blob/main/README.md",
+    "sha": "30c42ef581278c383a6c427a50ea09047be62be1",
+    "readme_path": "README.md",
+    "bytes": 11072,
+    "checked_at": "2026-10-04T20:24:05Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1302826522,
+    "name": "DavidHDev/canvas-ui",
+    "url": "https://github.com/DavidHDev/canvas-ui/blob/main/README.md",
+    "sha": "236fa5531e9bb898a9a14fbfaeefcd6f6c8cc514",
+    "readme_path": "README.md",
+    "bytes": 18068,
+    "checked_at": "2026-10-04T20:24:05Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1172781277,
+    "name": "greensock/gsap-skills",
+    "url": "https://github.com/greensock/gsap-skills/blob/main/README.md",
+    "sha": "5b7def98e5c1ad79d49c01d133f9370ebd65a2c5",
+    "readme_path": "README.md",
+    "bytes": 8508,
+    "checked_at": "2026-10-04T20:24:06Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1101924225,
+    "name": "dembrandt/dembrandt",
+    "url": "https://github.com/dembrandt/dembrandt/blob/main/README.md",
+    "sha": "8e2db63e47e1755d326625bb5967bd2bd6ff909c",
+    "readme_path": "README.md",
+    "bytes": 10135,
+    "checked_at": "2026-10-04T20:24:06Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1197515131,
+    "name": "VoltAgent/awesome-design-md",
+    "url": "https://github.com/VoltAgent/awesome-design-md/blob/main/README.md",
+    "sha": "31e3ee62e4e0bb0f25c64592c7d191b2a7d5d631",
+    "readme_path": "README.md",
+    "bytes": 16015,
+    "checked_at": "2026-10-04T20:24:06Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  },
+  {
+    "repo_id": 1106996539,
+    "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md",
+    "sha": "8c4918afb508556ff45c5514798d3d671a4525ac",
+    "readme_path": "README.md",
+    "bytes": 37133,
+    "checked_at": "2026-10-04T20:24:07Z",
+    "review_scope": "README 的用途、开始入口、示例和限制；未运行第三方项目，不代表逐项验证合集或全部补充文档"
+  }
+]

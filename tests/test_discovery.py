@@ -57,6 +57,30 @@ class DiscoveryTests(unittest.TestCase):
             for values in [[valid,valid],[{**valid,'entries':[{'repo_id':99999,'reason':'理由'}]}],[{**valid,'entries':[{'repo_id':101,'reason':''}]}]]:
                 with self.assertRaises(ValidationError): load(values)
 
+    def test_comparison_requires_sourced_unique_projects_in_current_topic(self):
+        repo_ids = [repo['repo_id'] for repo in self.snapshot()['repositories']][:2]
+        entry = {'task': '任务', 'input': '输入', 'output': '输出', 'start': '入口', 'requirements': '前提', 'limitations': '未执行', 'sources': ['https://example.test/readme']}
+        comparison = {'title': '项目对照', 'description': '公开资料归纳', 'reviewed_at': '2026-10-04', 'entries': [{**entry, 'repo_id': repo_id} for repo_id in repo_ids]}
+        topic = {'id': 'tools', 'title': '工具', 'description': '专题', 'entries': [{'repo_id': repo_id, 'reason': '用途'} for repo_id in repo_ids]}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'topics.json'
+            def load(value):
+                path.write_text(json.dumps({'items': [{**topic, 'comparison': value}]}))
+                return load_topics(path, self.snapshot())
+            self.assertEqual(load(comparison)[0]['comparison']['reviewedAt'], '2026-10-04')
+            invalid = [
+                {**comparison, 'reviewed_at': '2026-02-30'},
+                {**comparison, 'entries': comparison['entries'][:1]},
+                {**comparison, 'entries': comparison['entries'] * 2},
+                {**comparison, 'entries': [comparison['entries'][0]] * 2},
+                {**comparison, 'entries': [{**entry, 'repo_id': 99999}, comparison['entries'][1]]},
+                {**comparison, 'entries': [{**comparison['entries'][0], 'sources': ['javascript:alert(1)']}, comparison['entries'][1]]},
+                {**comparison, 'entries': [{**comparison['entries'][0], 'limitations': ''}, comparison['entries'][1]]},
+            ]
+            for value in invalid:
+                with self.assertRaises(ValidationError):
+                    load(value)
+
     def test_source_check_success_change_and_failure(self):
         repo = {'repo_id':101,'full_name':'example/alpha'}
         for observed,expected in [('a'*40,'unchanged'),('b'*40,'changed')]:

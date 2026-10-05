@@ -43,6 +43,43 @@
       "id": "frontend-design",
       "title": "前端设计",
       "description": "从设计参考到实现可以走不同入口：找现成视觉规范、从真实页面提取样式、按需求选择设计系统、取用组件，或者重建已有网站。已有页面需要改善时，再用有明确检查范围的评审与精修流程。",
+      "comparison": {
+        "title": "设计参考、样式提取与方案生成",
+        "description": "先判断手里有什么：已有风格参照可读现成文档；已有目标页面可提取计算样式；只有产品需求则先生成候选设计方案。以下是公开资料归纳，不评价生成质量。",
+        "reviewed_at": "2026-10-04",
+        "entries": [
+          {
+            "repo_id": 1197515131,
+            "task": "寻找成熟网站的设计语言，建立项目的视觉参考。",
+            "input": "目标产品类型、参考风格与项目已有品牌约束。",
+            "output": "已整理的 DESIGN.md 文档，可选择规则后交给代理阅读。",
+            "start": "从 README 的 Collection 选择文档，阅读后补充自身约束；不要覆盖已有设计规范。",
+            "requirements": "浏览和阅读不需要 CLI；要生成页面，还需让自己的代理明确读取文档。",
+            "limitations": "不是原站完整源码或实时样式采样；整理文档也可能缺少交互状态，本文未验证生成效果。",
+            "sources": ["https://github.com/VoltAgent/awesome-design-md/blob/main/README.md"]
+          },
+          {
+            "repo_id": 1101924225,
+            "task": "从已有目标网页观察并提取设计 token，或比较设计漂移。",
+            "input": "获授权且可访问的网址；视口、主题与登录状态会影响观察。",
+            "output": "颜色、字体、间距等观察结果，可按参数导出 DTCG、DESIGN.md 或报告。",
+            "start": "安装 dembrandt 后先执行 dembrandt install-browser，再采样一页并人工检查结果。",
+            "requirements": "Node.js 18+ 与匹配的 Chromium；浏览器安装是独立步骤，playwright-core 不附带二进制。",
+            "limitations": "不能恢复设计稿全部语义或网页交互源码；字体、图标和品牌素材的使用许可要独立核对，本文未运行采样。",
+            "sources": ["https://github.com/dembrandt/dembrandt/blob/main/README.md"]
+          },
+          {
+            "repo_id": 1106996539,
+            "task": "没有固定参考站，按产品需求检索规则并生成候选设计系统。",
+            "input": "产品类型、受众、页面目标与实际技术栈。",
+            "output": "风格、配色、字体、布局及交互建议；可保存设计系统和页面覆盖规则。",
+            "start": "采用 ui-ux-pro-max-cli 的 uipro 命令，先用 dry-run 查看范围，再按实际宿主初始化。",
+            "requirements": "CLI 安装使用 Node.js/npm，资料搜索需要 Python 3.x；搜索脚本只用标准库。",
+            "limitations": "建议不能覆盖已有品牌与工程约束；旧 uipro-cli 不是当前资产入口，Premium 范围需另查，本文未运行生成。",
+            "sources": ["https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md"]
+          }
+        ]
+      },
       "entries": [
         {
           "repo_id": 1197515131,
