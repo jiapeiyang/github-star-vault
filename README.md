@@ -63,7 +63,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-06T13:21:30Z` · 当前公开 Stars：**313** · 已分类：**313**
+> 最近成功检查：`2026-10-06T22:38:18Z` · 当前公开 Stars：**314** · 已分类：**313**
 
 
 ### AI 与 Agent（34）
@@ -402,5 +402,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — 将价值投资的商业、财务、风险与长期判断组织成多种研究技能和公开报告的框架。
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
+
+### 待分类（1）
+
+- [mizorewww/x_gift_bot](https://github.com/mizorewww/x_gift_bot) — X Premium gift CLI and redemption site
 
 <!-- STAR_VAULT:CATALOG:END -->
