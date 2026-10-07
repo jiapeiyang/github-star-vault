@@ -63,7 +63,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-07T05:55:18Z` · 当前公开 Stars：**314** · 已分类：**313**
+> 最近成功检查：`2026-10-07T13:18:11Z` · 当前公开 Stars：**316** · 已分类：**313**
 
 
 ### AI 与 Agent（34）
@@ -403,8 +403,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（1）
+### 待分类（3）
 
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) — 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。
+- [sunreview/GetClaudePro](https://github.com/sunreview/GetClaudePro) — 2026 最新 Claude/ChatGPT 会员订阅指南（iPhone 用户）
 - [mizorewww/x_gift_bot](https://github.com/mizorewww/x_gift_bot) — X Premium gift CLI and redemption site
 
 <!-- STAR_VAULT:CATALOG:END -->
