@@ -63,7 +63,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-09T13:12:29Z` · 当前公开 Stars：**319** · 已分类：**313**
+> 最近成功检查：`2026-10-09T22:35:47Z` · 当前公开 Stars：**321** · 已分类：**313**
 
 
 ### AI 与 Agent（34）
@@ -403,13 +403,15 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（6）
+### 待分类（8）
 
+- [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
+- [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) — 让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。
 - [monid-ai/monid](https://github.com/monid-ai/monid) — Monid - OpenRouter for agent tools. Join our community at https://discord.gg/rQzztcgJV8
 - [ShadowHackrs/gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) — 🚀 Advanced automated Gmail account creation tool with anti-detection, phone verification bypass, 5sim integration, and beautiful modern interface. Cr…
 - [233boy/Xray](https://github.com/233boy/Xray) — 最好用的 Xray 一键安装脚本 &amp; 管理脚本
 - [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) — 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。
-- [sunreview/GetClaudePro](https://github.com/sunreview/GetClaudePro) — 2026 最新 Claude/ChatGPT 会员订阅指南（iPhone 用户）
+- [sunreview/GetClaudePro](https://github.com/sunreview/GetClaudePro) — 🚀 2026年国内用户如何充值 订阅 Claude Pro？保姆级图文教程（新手可用）
 - [mizorewww/x_gift_bot](https://github.com/mizorewww/x_gift_bot) — X Premium gift CLI and redemption site
 
 <!-- STAR_VAULT:CATALOG:END -->
