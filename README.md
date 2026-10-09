@@ -63,7 +63,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-08T23:19:27Z` · 当前公开 Stars：**318** · 已分类：**313**
+> 最近成功检查：`2026-10-09T06:04:38Z` · 当前公开 Stars：**319** · 已分类：**313**
 
 
 ### AI 与 Agent（34）
@@ -403,8 +403,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（5）
+### 待分类（6）
 
+- [monid-ai/monid](https://github.com/monid-ai/monid) — Monid - OpenRouter for agent tools. Join our community at https://discord.gg/rQzztcgJV8
 - [ShadowHackrs/gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) — 🚀 Advanced automated Gmail account creation tool with anti-detection, phone verification bypass, 5sim integration, and beautiful modern interface. Cr…
 - [233boy/Xray](https://github.com/233boy/Xray) — 最好用的 Xray 一键安装脚本 &amp; 管理脚本
 - [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) — 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。
