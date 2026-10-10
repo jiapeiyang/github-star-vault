@@ -63,7 +63,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-10T12:27:36Z` · 当前公开 Stars：**321** · 已分类：**313**
+> 最近成功检查：`2026-10-10T21:40:32Z` · 当前公开 Stars：**322** · 已分类：**313**
 
 
 ### AI 与 Agent（34）
@@ -403,8 +403,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（8）
+### 待分类（9）
 
+- [kejilion/sh](https://github.com/kejilion/sh) — KEJILION.SH 一款全功能的Linux管理脚本！An all-in-one Linux management script!
 - [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
 - [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) — 让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。
 - [monid-ai/monid](https://github.com/monid-ai/monid) — Monid - OpenRouter for agent tools. Join our community at https://discord.gg/rQzztcgJV8
