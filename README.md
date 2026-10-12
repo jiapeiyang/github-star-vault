@@ -63,7 +63,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-12T05:52:21Z` · 当前公开 Stars：**323** · 已分类：**313**
+> 最近成功检查：`2026-10-12T15:17:38Z` · 当前公开 Stars：**325** · 已分类：**313**
 
 
 ### AI 与 Agent（34）
@@ -403,8 +403,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（10）
+### 待分类（12）
 
+- [nezhahq/nezha](https://github.com/nezhahq/nezha) — :trollface: Self-hosted, lightweight server and website monitoring and O&amp;M tool
+- [2dust/v2rayN](https://github.com/2dust/v2rayN) — A GUI client for Windows, Linux and macOS, support Xray and sing-box and others
 - [morluto/rea](https://github.com/morluto/rea) — Reverse engineer anything with agents, from app behavior down to native binaries.
 - [kejilion/sh](https://github.com/kejilion/sh) — KEJILION.SH 一款全功能的Linux管理脚本！An all-in-one Linux management script!
 - [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
