@@ -63,7 +63,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-11T21:55:02Z` · 当前公开 Stars：**323** · 已分类：**313**
+> 最近成功检查：`2026-10-12T05:52:21Z` · 当前公开 Stars：**323** · 已分类：**313**
 
 
 ### AI 与 Agent（34）
@@ -413,7 +413,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [ShadowHackrs/gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) — 🚀 Advanced automated Gmail account creation tool with anti-detection, phone verification bypass, 5sim integration, and beautiful modern interface. Cr…
 - [233boy/Xray](https://github.com/233boy/Xray) — 最好用的 Xray 一键安装脚本 &amp; 管理脚本
 - [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) — 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。
-- [sunreview/GetClaudePro](https://github.com/sunreview/GetClaudePro) — 🚀 2026年国内用户如何充值 订阅 Claude Pro？保姆级图文教程（新手可用）
+- [sunreview/GetClaudePro](https://github.com/sunreview/GetClaudePro) — 2026 国内如何充值 / 订阅 Claude Pro 会员的保姆级教程：无需国际信用卡，用卡密自助充值给自己的 Claude 账号开通 Pro，只需 Organization ID、无需密码，含完整图文+视频步骤。
 - [mizorewww/x_gift_bot](https://github.com/mizorewww/x_gift_bot) — X Premium gift CLI and redemption site
 
 <!-- STAR_VAULT:CATALOG:END -->
