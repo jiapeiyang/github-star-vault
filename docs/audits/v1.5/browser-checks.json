@@ -1,0 +1,79 @@
+{
+  "verifiedAt": "2026-10-13T06:54:16.678839+00:00",
+  "browser": "Chromium 155.0.8059.40",
+  "environment": "local Pages production build, isolated Playwright CLI session, no production write",
+  "desktopViewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "mobileViewports": [
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 320,
+      "height": 844
+    }
+  ],
+  "checks": [
+    {
+      "name": "homepage coverage and source status",
+      "result": "321 complete, 5 limited, 0 missing, 115 review, 0 unavailable; 320 and 390 CSS pixels without document overflow"
+    },
+    {
+      "name": "purpose search and return",
+      "result": "服务器监控 returns Komari and Nezha; Nezha detail returns to same query; 网页回答 finds answer-me-with-html; mobile 代理客户端 Windows returns v2rayN first"
+    },
+    {
+      "name": "coverage filters",
+      "result": "limited=5 including Gmail project; complete=321"
+    },
+    {
+      "name": "maintenance filters",
+      "result": "changed queue=115; all+agent topic=8; checked before Oct12=0, through Oct13=8; sort checked and URL survive reload; unavailable=0; clear returns all=326"
+    },
+    {
+      "name": "draft protection",
+      "result": "cancelling a filter that changes selected project preserves original URL and edited summary; temporary text restored before export"
+    },
+    {
+      "name": "download round trip",
+      "result": "1142423471.md parsed by real Python parser; body, dates, sources, tags and related metadata unchanged; personal_archived=false explicitly serialized as existing default"
+    },
+    {
+      "name": "mobile topic comparisons",
+      "result": "video and agent tables each contain 3 sourced projects; video region clientWidth=358, scrollWidth=780; horizontal scroll works; detail and return retain topic; documentWidth=390"
+    },
+    {
+      "name": "mobile navigation",
+      "result": "open menu, navigate library, menu closes; search remains usable"
+    },
+    {
+      "name": "console and final loading",
+      "result": "0 warnings, 0 errors in final session; preload experiment removed; final catalog requests=1"
+    }
+  ],
+  "preservation": {
+    "historicalIdsRetained": 315,
+    "firstSeenNotMovedLater": true,
+    "preexistingScreenshotSha256": "3b22e04f312dfeb14561ed49a55776581c1124f5b285e8c634fed449b28650c6",
+    "remoteBaselineIdsRetained": 327
+  },
+  "limits": [
+    "Simulated viewports and CDP network/CPU do not establish real phone behavior",
+    "New upstream examples were not executed",
+    "Remaining 115 source changes deliberately stay visible",
+    "No deployment, commit, push or Issue write"
+  ],
+  "screenshots": "Inspected locally; temporary screenshots, logs, downloads and isolated browser data removed at cleanup; evidence retained as this structured record",
+  "cleanup": {
+    "completedAt": "2026-10-13T06:57:26.787928+00:00",
+    "browserSession": "star-vault-v15 closed; no persistent user data found",
+    "previewPortsStopped": [
+      4185,
+      4186
+    ],
+    "temporaryDirectoryRemoved": true
+  }
+}

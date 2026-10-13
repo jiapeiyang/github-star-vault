@@ -4,19 +4,17 @@
 
 ## 当前版本
 
-v1.4 在 v1.3 的相关性搜索、用途专题和来源复核基础上，补齐新收藏资料，加入项目轻量对照与无结果筛选引导，并修正首页解读更新日期口径。本地实施与验收已完成，用户于 2026-10-05 追加授权提交、推送和部署；发布沿用既有 GitHub Pages 流程，线上版本以 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml) 的成功部署记录为准。
+v1.5 已完成资料、检索和维护功能及相关验证，浏览器和性能证据见 [交付记录](docs/12-v1.5-delivery.md)。用户已授权提交、推送至 main 并部署 GitHub Pages；线上版本以 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml) 中对应提交的成功部署记录为准。
 
-- 自动同步公开 Stars，以 repo_id 处理更名、退出公开列表和重新 Star。
-- 项目库支持多词检索、人工同义词、相关性排序、组合筛选与命中章节定位；名称和用途优先于正文偶然提及。
-- 收藏回顾按北京时间的年/月浏览已收录记录；详情返回能恢复浏览上下文。
-- 仓库解读包含用途、使用路径、示例、限制与资料来源，提供目录和代码复制。
-- 学习阶段、学习笔记与完成统计已从当前源内容、页面、导出和目录结构中移除。
-- 2026-10-04 UTC 冻结快照含 313 个当前收藏：309 篇用途、使用或资料导航解读，4 篇资料受限说明；本轮新增 17 篇。v1.3 的 10 个本地验证示例保留原版本记录，本轮没有重跑；新增例子均注明未执行。
-- 视频创作、前端设计、Agent 工作流共 3 个专题，各 8 个项目；24 份解读维护关联用途与差异说明。
-- 前端设计专题对照 DESIGN.md 参考、网页样式提取与需求驱动设计三个项目，区分输入、输出、入口、前提与限制，不提供虚构评分。
-- 项目库与收藏回顾无结果时，显示逐项移除筛选后的实际结果数；只有用户选择才改条件，保留查询与其他筛选，不自动展开隐藏记录。
-- 首页最近补充解读按正文实际更新时间选择，来源重新核查不冒充正文更新。来源检查仍保留 99 项 README 变化与 14 项未取得版本的提示；覆盖资料不等于全部来源已重新核查。
-- 仓库链接可独立打开并保留查询及章节，详情有独立标题。来源检查区分 README 变化与资料受限，不自动改写解读。
+- 自动同步公开 Stars，以 repo_id 保留更名、退出公开列表和重新 Star 的历史。
+- 项目库支持多词用途检索、相关性排序、组合筛选与命中章节定位；收藏回顾按北京时间年月浏览历史。
+- 2026-10-13 本地快照：326 个当前收藏、328 条历史记录；321 篇完整解读、5 篇资料受限、0 项待补。本轮新增 13 份资料并人工复核 14 个专题项目。
+- 首页、项目列表与筛选区分完整解读、资料受限和待补。完整度表示资料结构，示例是否实际执行在正文单独说明。
+- 视频创作、前端设计、Agent 工作流共 3 个专题，各 8 个项目和一组 3 项轻量对照；比较任务、输入、输出、入口、前提及限制。
+- 资料维护可按 README 变化、读取失败、检查日期及专题筛选，状态保留在 URL；手动差异报告帮助查看上游 README 变更。
+- 当前来源检查保留 115 项 README 变化提示，211 项版本相同，0 项读取失败。全文覆盖不等于所有来源已人工重读。
+- 仓库解读与公开示例注明来源、核查日期及执行边界。v1.3 的 10 个本地验证示例保留当时版本记录，本轮没有重跑；新增例子均未执行。
+- 学习阶段、笔记和完成统计已移除。表单只生成文件，不提供在线保存；观察 Issue 的修订稿仅保存在本地。
 
 ## 数据职责
 
@@ -44,6 +42,10 @@ GITHUB_PAGES=true npm --prefix app run build
 
 ## 文档
 
+- [v1.5 计划](DEVELOPMENT_PLAN_V1.5.md)与[本地交付、浏览器验收及性能边界](docs/12-v1.5-delivery.md)
+- [v1.5 冻结范围](docs/content-batches/v1.5-scope.json)与[README 版本证据](docs/content-batches/v1.5-sources.json)
+- [观察 Issue 修订草稿（未发送）](docs/v1.5-observation-issue-draft.md)
+
 - [v1.4 计划与验收](DEVELOPMENT_PLAN_V1.4.md)
 - [v1.4 本地交付、浏览器验收与性能边界](docs/11-v1.4-delivery.md)
 - [v1.4 冻结范围](docs/content-batches/v1.4-scope.json)与[README 版本证据](docs/content-batches/v1.4-sources.json)
@@ -63,11 +65,12 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-05T00:41:54Z` · 当前公开 Stars：**313** · 已分类：**313**
+> 最近成功检查：`2026-10-13T06:21:51Z` · 当前公开 Stars：**326** · 已分类：**326**
 
 
-### AI 与 Agent（34）
+### AI 与 Agent（35）
 
+- [monid-ai/monid](https://github.com/monid-ai/monid) — 用声明式连接器描述工具 API 的认证、输入输出和用量，供本地执行、回放测试及 Monid 平台使用。
 - [xai-org/grok-build](https://github.com/xai-org/grok-build) — 提供读写代码、工具执行、长任务与编辑器接入的 Rust 终端编码代理。
 - [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — 通过技能规则让编码代理先给行动、分步说明，并减少偏题和冗余输出。
 - [DreambigOu/ELI5](https://github.com/DreambigOu/ELI5) — 根据年龄、职业或关系调整术语、类比和解释深度，帮助代理向不同受众讲清概念与代码。
@@ -208,8 +211,14 @@ GITHUB_PAGES=true npm --prefix app run build
 - [ElemeFE/node-interview](https://github.com/ElemeFE/node-interview) — 整理 Node.js 岗位面试相关问题与知识。
 - [koajs/koa](https://github.com/koajs/koa) — 以中间件组合方式构建 Node.js Web 服务的框架。
 
-### 基础设施、网络与安全（16）
+### 基础设施、网络与安全（22）
 
+- [komari-monitor/komari](https://github.com/komari-monitor/komari) — 用轻量 Agent 采集服务器指标，在自托管 Web 面板查看状态，并支持主题与插件扩展。
+- [nezhahq/nezha](https://github.com/nezhahq/nezha) — 通过自托管面板监控服务器状态、网站和端口，配置告警、定时任务与 Web 终端。
+- [2dust/v2rayN](https://github.com/2dust/v2rayN) — 在 Windows、Linux 和 macOS 上用图形界面管理 Xray、sing-box 等核心与代理连接。
+- [kejilion/sh](https://github.com/kejilion/sh) — 用交互式 Shell 菜单管理 Linux 系统、Docker、网站环境、网络测试和备份迁移。
+- [233boy/Xray](https://github.com/233boy/Xray) — 围绕 Xray 的安装、多配置管理及添加、修改、查看、删除操作提供 Shell 工具入口。
+- [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) — 为 Shadowrocket 提供按直连、代理和广告过滤需求组合的规则文件与导入说明。
 - [HenryChiao/MIHOMO_YAMLS](https://github.com/HenryChiao/MIHOMO_YAMLS) — 整理 Mihomo 配置模板、规则说明、客户端入口和相关上游资料。
 - [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) — 基于 Tauri 的跨平台 Mihomo 桌面客户端，管理配置、代理组与网络模式。
 - [DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro) — 整理第三方商业代理服务、套餐与相关网络使用资料的导航页面。
@@ -227,8 +236,12 @@ GITHUB_PAGES=true npm --prefix app run build
 - [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) — 基于 ServiceWorker 实现的浏览器在线代理。
 - [yeasy/docker_practice](https://github.com/yeasy/docker_practice) — Docker 与容器技术的实践学习资料。
 
-### 开发者工具与自动化（85）
+### 开发者工具与自动化（89）
 
+- [morluto/rea](https://github.com/morluto/rea) — 通过 MCP 与 CLI 分析获授权的软件、二进制和运行行为，并返回代码位置与证据。
+- [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) — 让代理把复杂问题写成 Markdown 草稿，再由内置 CLI 生成含图表、代码与文字的单页 HTML 回答。
+- [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) — 通过本地 MCP 和 WebDriverAgent，让 Codex 经 USB 读取、操作真实 iPhone 并展示屏幕。
+- [ShadowHackrs/gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) — 以 Python 和 Selenium 实现批量 Gmail 账户注册的第三方项目；此处仅整理用途与资料边界。
 - [yetone/magpie](https://github.com/yetone/magpie) — 集中管理多个编码代理的模型配置，并通过本地网关连接模型提供方。
 - [panxunying/ai-coding-welfare](https://github.com/panxunying/ai-coding-welfare) — 汇集第三方 AI 编码与模型服务的公开接入、价格、额度和状态资料。
 - [fmhy/edit](https://github.com/fmhy/edit) — FMHY 资源导航的编辑与贡献入口，连接网站、更新记录和备份资料。
@@ -391,8 +404,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [InterviewMap/CS-Interview-Knowledge-Map](https://github.com/InterviewMap/CS-Interview-Knowledge-Map) — 汇集语言、浏览器、网络和算法等面试知识。
 - [Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) — 通过短篇文章和代码片段讲解开发知识。
 
-### 商业与行业应用（9）
+### 商业与行业应用（11）
 
+- [sunreview/GetClaudePro](https://github.com/sunreview/GetClaudePro) — 介绍第三方卡密充值 Claude Pro 的图文教程，需将商家承诺与官方订阅规则分开核实。
+- [mizorewww/x_gift_bot](https://github.com/mizorewww/x_gift_bot) — 围绕 X Premium 礼品提供兑换页、管理后台与订单处理，并带有不连接真实服务的示例预览。
 - [hoochanlon/hamuleite](https://github.com/hoochanlon/hamuleite) — 按社会科学、教育、金融研究与生活议题组织资料和外部资源入口。
 - [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) — 包含动作分类、器械、目标肌群、多语言步骤及配套媒体的健身动作数据集。
 - [rosemarycox5334-debug/PA_Agent](https://github.com/rosemarycox5334-debug/PA_Agent) — 读取结构化 K 线并分阶段生成价格行为诊断与决策参考的桌面分析工具。

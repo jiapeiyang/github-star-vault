@@ -8,7 +8,7 @@ export function CatalogControls({ catalog, route, onChange, history = false }) {
   const years = [...new Set(repos.map(r => collectionDate(r.starredAt).slice(0,4)))].sort().reverse();
   const effectiveSort=route.sort === "auto" ? (route.q.trim()?"relevance":"starred") : route.sort;
   const select = (key, label, options) => <label><span>{label}</span><select value={key==="sort"?effectiveSort:route[key]} onChange={e => onChange({[key]: e.target.value})}>{options.map(([id, title]) => <option value={id} key={id}>{title}</option>)}</select></label>;
-  const labels = {q:`搜索：${route.q}`,category:catalog.categories.find(c=>c.id===route.category)?.label,type:catalog.resourceTypes.find(c=>c.id===route.type)?.label,language:route.language,tag:`标签：${route.tag}`,year:`${route.year} 年收藏`,from:`从 ${route.from}`,to:`至 ${route.to}`,coverage:route.coverage==="ready"?"有解读":"待补解读",origin:"建库后新收藏",source:route.source==="missing"?"已退出公开 Stars":route.source==="all"?"全部已收录":"当前 Stars",archive:({all:"包含个人归档",github:"上游已归档",personal:"个人归档"})[route.archive]};
+  const labels = {q:`搜索：${route.q}`,category:catalog.categories.find(c=>c.id===route.category)?.label,type:catalog.resourceTypes.find(c=>c.id===route.type)?.label,language:route.language,tag:`标签：${route.tag}`,year:`${route.year} 年收藏`,from:`从 ${route.from}`,to:`至 ${route.to}`,coverage:({ready:"已有资料",complete:"完整解读",limited:"资料受限",missing:"待补解读"})[route.coverage],origin:"建库后新收藏",source:route.source==="missing"?"已退出公开 Stars":route.source==="all"?"全部已收录":"当前 Stars",archive:({all:"包含个人归档",github:"上游已归档",personal:"个人归档"})[route.archive]};
   const base = {...defaultRoute,source:history?"all":"starred"};
   const keys=Object.keys(labels).filter(k=>route[k]&&route[k]!==base[k]);
   const clear=()=>onChange(Object.fromEntries(Object.keys(labels).map(k=>[k,base[k]])));
@@ -26,7 +26,7 @@ export function CatalogControls({ catalog, route, onChange, history = false }) {
       <label><span>收藏截止日期</span><input type="date" aria-label="收藏截止日期" value={route.to} onChange={e=>onChange({to:e.target.value})}/></label>
       {select("source","收录范围",[["starred","当前 Stars"],["all","全部已收录记录"],["missing","已退出公开 Stars"]])}
       {select("archive","归档状态",[["active","默认视图"],["all","包含个人归档"],["github","上游已归档"],["personal","个人归档"]])}
-      {select("coverage","仓库解读",[["all","全部资料"],["ready","已有解读"],["missing","尚未补充解读"]])}
+      {select("coverage","仓库解读",[["all","全部资料"],["ready","全部已有资料"],["complete","完整解读"],["limited","资料受限"],["missing","尚未补充解读"]])}
       {select("origin","收录时间",[["all","全部收藏"],["new","建库后新收藏"]])}
     </div></details>
     <div className="active-filters"><span><Funnel size={15}/>{keys.length?`${keys.length} 个条件`:history?"全部已收录记录":"全部当前公开项目"}</span>{keys.map(k=><button type="button" className="filter-chip" aria-label={`移除${labels[k]||route[k]}`} key={k} onClick={()=>onChange({[k]:base[k]})}>{labels[k]||route[k]}<X size={12}/></button>)}{keys.length>0&&<button type="button" onClick={clear}>清除全部</button>}</div>

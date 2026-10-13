@@ -18,7 +18,7 @@ export function App() {
   const [catalog, setCatalog] = useState(null);
   const [loadError, setLoadError] = useState("");
   const [loadAttempt, setLoadAttempt] = useState(0);
-  const { route, updateRoute, onDirtyChange, returnToBrowse } = useNavigation((next) => catalog && next.view === "inbox" ? getInboxState(catalog.repositories, next).route : next);
+  const { route, updateRoute, onDirtyChange, returnToBrowse } = useNavigation((next) => catalog && next.view === "inbox" ? getInboxState(catalog.repositories, next, catalog.topics).route : next);
 
   useEffect(() => {
     let active = true;
@@ -29,7 +29,7 @@ export function App() {
 
   useEffect(() => {
     if (catalog && route.view === "inbox") {
-      const normalized = getInboxState(catalog.repositories, route).route;
+      const normalized = getInboxState(catalog.repositories, route, catalog.topics).route;
       if (JSON.stringify(normalized) !== JSON.stringify(route)) updateRoute(normalized, "replace");
     }
   }, [catalog, route, updateRoute]);

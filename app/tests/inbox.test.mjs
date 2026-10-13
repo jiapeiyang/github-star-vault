@@ -39,3 +39,22 @@ test("maintenance queues distinguish missing guides, changed sources and limited
  assert.deepEqual(queues.review.map(r=>r.repoId),[2,3]);
  assert.deepEqual(queues.limited.map(r=>r.repoId),[4]);
 });
+
+test("review filters compose with topics and local check dates and survive URL restoration", () => {
+ const items = repos.slice(0, 5).map((r, i) => ({ ...r, sourceCheck: i === 4 ? null : { status: i === 2 ? "unavailable" : "changed", checked_at: i === 0 ? "2026-10-04T16:30:00Z" : "2026-10-04T12:00:00Z" } }));
+ items[3].personalArchived = true;
+ const topics = [{ id: "agents", entries: [1, 2, 3, 4].map(repoId => ({ repoId })) }];
+ const selected = getInboxState(items, { ...route, queue: "review", queueTopic: "agents", queueStatus: "changed", queueCheckedBefore: "2026-10-04", queueSort: "checked", repo: "1", queuePage: "3" }, topics);
+ assert.deepEqual(selected.items.map(r => r.repoId), [2]);
+ assert.equal(selected.selected.repoId, 2);
+ assert.equal(selected.page, 1);
+ const restored = routeFromUrl(`https://example.test${urlForRoute(selected.route, "https://example.test/")}`);
+ assert.deepEqual(getInboxState(items, restored, topics).route, selected.route);
+ assert.deepEqual(getInboxState(items, { ...route, queue: "all", queueStatus: "unavailable", queueTopic: "agents" }, topics).items.map(r => r.repoId), [3]);
+ assert.deepEqual(getInboxState(items, { ...route, queue: "all", queueStatus: "unchecked" }, topics).items.map(r => r.repoId), [5]);
+ assert.equal(getInboxState(items, { ...route, queue: "all", queueSort: "checked" }, topics).items[0].repoId, 5);
+ const invalid = getInboxState(items, { ...route, queueStatus: "bad", queueTopic: "bad", queueSort: "bad", queueCheckedBefore: "bad" }, topics);
+ assert.equal(invalid.route.queueStatus, "all");
+ assert.equal(invalid.route.queueTopic, "all");
+ assert.equal(invalid.route.queueCheckedBefore, "");
+});

@@ -32,6 +32,23 @@ class DiscoveryTests(unittest.TestCase):
         loaded = self.load(curation(), snapshot)
         self.assertTrue(all(r['sourceCheck'] is None for r in make_catalog(snapshot, loaded, ROOT/'config')['repositories']))
 
+    def test_guide_counts_separate_limited_from_complete_and_pending(self):
+        loaded = self.load(curation())
+        # 覆盖 make_catalog 的三种资料状态；无 reviewed_at 的旧分类文件仍是待补解读。
+        catalog = make_catalog(self.snapshot(), loaded, ROOT/'config')
+        self.assertEqual(catalog['stats']['missingGuides'], catalog['stats']['active'])
+        loaded[101]['reviewed_at'] = '2026-10-13'
+        catalog = make_catalog(self.snapshot(), loaded, ROOT/'config')
+        self.assertEqual(catalog['stats']['readyGuides'], 1)
+        self.assertEqual(catalog['stats']['limitedGuides'], 0)
+        self.assertEqual(catalog['stats']['readyGuides'] + catalog['stats']['limitedGuides'] + catalog['stats']['missingGuides'], catalog['stats']['active'])
+        loaded[101]['guide_status'] = 'limited'
+        loaded[101]['guide_limitation'] = '资料受限说明'
+        catalog = make_catalog(self.snapshot(), loaded, ROOT/'config')
+        self.assertEqual(catalog['stats']['readyGuides'], 0)
+        self.assertEqual(catalog['stats']['limitedGuides'], 1)
+        self.assertEqual(catalog['stats']['guides'], 1)
+
     def test_changed_source_url_invalidates_report_and_reviewed_sha_resolves_it(self):
         source = 'https://github.com/example/alpha/blob/main/README.md'
         text = curation().replace('related = []', f'related = []\nsources = ["{source}"]')

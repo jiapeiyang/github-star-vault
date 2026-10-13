@@ -1,0 +1,334 @@
+{
+  "measuredAt": "2026-10-13T06:50:55.446Z",
+  "browser": "155.0.8059.40",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "cpuSlowdown": 4,
+  "latencyMs": 150,
+  "downloadBytesPerSecond": 200000,
+  "uploadBytesPerSecond": 93750,
+  "cache": "disabled and cleared each navigation",
+  "transport": "local Python standard-library server with gzip over Pages production build; not real phone or public Pages timing",
+  "readyDefinition": "main h1 rendered after catalog load plus two animation frames; does not wait for every avatar",
+  "searchDefinition": "search input event to two animation frames, query 服务器监控 with 2 results",
+  "results": [
+    {
+      "route": "home",
+      "sample": 1,
+      "appReadyMs": 3038.2999999523163,
+      "fcpMs": 1724,
+      "longTasks": [],
+      "firstPartyResources": [
+        {
+          "path": "/github-star-vault/assets/index-CioSLJFv.js",
+          "encodedBytes": 131401,
+          "decodedBytes": 434076,
+          "transferBytes": 131701,
+          "durationMs": 1513.5
+        },
+        {
+          "path": "/github-star-vault/data/catalog.json",
+          "encodedBytes": 377769,
+          "decodedBytes": 1396258,
+          "transferBytes": 378069,
+          "durationMs": 2818.7000000476837
+        },
+        {
+          "path": "/github-star-vault/assets/index-Cbkgor9J.css",
+          "encodedBytes": 9808,
+          "decodedBytes": 54574,
+          "transferBytes": 10108,
+          "durationMs": 290.7000000476837
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 206.10000002384186
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 220.20000004768372
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 229.69999992847443
+        }
+      ]
+    },
+    {
+      "route": "home",
+      "sample": 2,
+      "appReadyMs": 3044.600000023842,
+      "fcpMs": 1732,
+      "longTasks": [],
+      "firstPartyResources": [
+        {
+          "path": "/github-star-vault/data/catalog.json",
+          "encodedBytes": 377769,
+          "decodedBytes": 1396258,
+          "transferBytes": 378069,
+          "durationMs": 2823.600000023842
+        },
+        {
+          "path": "/github-star-vault/assets/index-Cbkgor9J.css",
+          "encodedBytes": 9808,
+          "decodedBytes": 54574,
+          "transferBytes": 10108,
+          "durationMs": 295.60000002384186
+        },
+        {
+          "path": "/github-star-vault/assets/index-CioSLJFv.js",
+          "encodedBytes": 131401,
+          "decodedBytes": 434076,
+          "transferBytes": 131701,
+          "durationMs": 1517.2999999523163
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 209.10000002384186
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 224.59999990463257
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 227
+        }
+      ]
+    },
+    {
+      "route": "home",
+      "sample": 3,
+      "appReadyMs": 3045.100000023842,
+      "fcpMs": 1736,
+      "longTasks": [],
+      "firstPartyResources": [
+        {
+          "path": "/github-star-vault/data/catalog.json",
+          "encodedBytes": 377769,
+          "decodedBytes": 1396258,
+          "transferBytes": 378069,
+          "durationMs": 2821.5999999046326
+        },
+        {
+          "path": "/github-star-vault/assets/index-CioSLJFv.js",
+          "encodedBytes": 131401,
+          "decodedBytes": 434076,
+          "transferBytes": 131701,
+          "durationMs": 1516.5
+        },
+        {
+          "path": "/github-star-vault/assets/index-Cbkgor9J.css",
+          "encodedBytes": 9808,
+          "decodedBytes": 54574,
+          "transferBytes": 10108,
+          "durationMs": 293.3000000715256
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 208
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 224
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 228.5
+        }
+      ]
+    },
+    {
+      "route": "library",
+      "sample": 1,
+      "appReadyMs": 3278.4000000953674,
+      "fcpMs": 1724,
+      "longTasks": [
+        {
+          "startMs": 2985.5,
+          "durationMs": 151
+        },
+        {
+          "startMs": 3137.100000023842,
+          "durationMs": 119
+        }
+      ],
+      "firstPartyResources": [
+        {
+          "path": "/github-star-vault/data/catalog.json",
+          "encodedBytes": 377769,
+          "decodedBytes": 1396258,
+          "transferBytes": 378069,
+          "durationMs": 2796.399999976158
+        },
+        {
+          "path": "/github-star-vault/assets/index-Cbkgor9J.css",
+          "encodedBytes": 9808,
+          "decodedBytes": 54574,
+          "transferBytes": 10108,
+          "durationMs": 292
+        },
+        {
+          "path": "/github-star-vault/assets/index-CioSLJFv.js",
+          "encodedBytes": 131401,
+          "decodedBytes": 434076,
+          "transferBytes": 131701,
+          "durationMs": 1513.2000000476837
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 199.39999997615814
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 208.39999997615814
+        }
+      ],
+      "searchPaintMs": 67.79999995231628
+    },
+    {
+      "route": "library",
+      "sample": 2,
+      "appReadyMs": 3219.399999976158,
+      "fcpMs": 1764,
+      "longTasks": [
+        {
+          "startMs": 3024.899999976158,
+          "durationMs": 99
+        },
+        {
+          "startMs": 3124.7000000476837,
+          "durationMs": 65
+        }
+      ],
+      "firstPartyResources": [
+        {
+          "path": "/github-star-vault/assets/index-Cbkgor9J.css",
+          "encodedBytes": 9808,
+          "decodedBytes": 54574,
+          "transferBytes": 10108,
+          "durationMs": 297.10000002384186
+        },
+        {
+          "path": "/github-star-vault/assets/index-CioSLJFv.js",
+          "encodedBytes": 131401,
+          "decodedBytes": 434076,
+          "transferBytes": 131701,
+          "durationMs": 1518.8999999761581
+        },
+        {
+          "path": "/github-star-vault/data/catalog.json",
+          "encodedBytes": 377769,
+          "decodedBytes": 1396258,
+          "transferBytes": 378069,
+          "durationMs": 2801.7999999523163
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 198.70000004768372
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 204.89999997615814
+        }
+      ],
+      "searchPaintMs": 45.39999997615814
+    },
+    {
+      "route": "library",
+      "sample": 3,
+      "appReadyMs": 3247.2999999523163,
+      "fcpMs": 1780,
+      "longTasks": [
+        {
+          "startMs": 3026.6999999284744,
+          "durationMs": 107
+        },
+        {
+          "startMs": 3134.2999999523163,
+          "durationMs": 102
+        }
+      ],
+      "firstPartyResources": [
+        {
+          "path": "/github-star-vault/data/catalog.json",
+          "encodedBytes": 377769,
+          "decodedBytes": 1396258,
+          "transferBytes": 378069,
+          "durationMs": 2796.9000000953674
+        },
+        {
+          "path": "/github-star-vault/assets/index-CioSLJFv.js",
+          "encodedBytes": 131401,
+          "decodedBytes": 434076,
+          "transferBytes": 131701,
+          "durationMs": 1514.8000000715256
+        },
+        {
+          "path": "/github-star-vault/assets/index-Cbkgor9J.css",
+          "encodedBytes": 9808,
+          "decodedBytes": 54574,
+          "transferBytes": 10108,
+          "durationMs": 290.8000000715256
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 201.80000007152557
+        },
+        {
+          "path": "/github-star-vault/assets/avatars/jiapeiyang.webp",
+          "encodedBytes": 4098,
+          "decodedBytes": 4098,
+          "transferBytes": 4398,
+          "durationMs": 210.40000009536743
+        }
+      ],
+      "searchPaintMs": 48.39999997615814
+    }
+  ],
+  "decision": "预加载只减少少量可用时间，同时延迟首屏，未保留该实验。最终代码保留原始按需请求。"
+}

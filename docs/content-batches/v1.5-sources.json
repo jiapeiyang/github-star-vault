@@ -1,0 +1,282 @@
+[
+  {
+    "repo_id": 199570071,
+    "name": "2dust/v2rayN",
+    "url": "https://github.com/2dust/v2rayN/blob/master/README.md",
+    "sha": "859167410b1dbedb1c46a24d596a9270221c806e",
+    "path": "README.md",
+    "bytes": 2924,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 220588935,
+    "name": "nezhahq/nezha",
+    "url": "https://github.com/nezhahq/nezha/blob/master/README.md",
+    "sha": "105364067392b6b6916191ce74bade839a432f3d",
+    "path": "README.md",
+    "bytes": 14240,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 435427730,
+    "name": "Johnshall/Shadowrocket-ADBlock-Rules-Forever",
+    "url": "https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/blob/release/readme.md",
+    "sha": "719c133eb0f71c602bc47300b53fa4aaa48fb9f8",
+    "path": "readme.md",
+    "bytes": 16602,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 637368516,
+    "name": "233boy/Xray",
+    "url": "https://github.com/233boy/Xray/blob/main/README.md",
+    "sha": "8f6982bba2a24fa7dcb30cd4e8ad0c895a20791c",
+    "path": "README.md",
+    "bytes": 5263,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 637866942,
+    "name": "kejilion/sh",
+    "url": "https://github.com/kejilion/sh/blob/main/README.md",
+    "sha": "9e8d66dfcbb4ab789c9025e46d25c1d2c12ca60e",
+    "path": "README.md",
+    "bytes": 8304,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 770153867,
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
+    "sha": "a1a0b0b33a1a9c43bd37f3740f348c20769a0208",
+    "path": "README.md",
+    "bytes": 36671,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 806879762,
+    "name": "nolly-studio/cult-ui",
+    "url": "https://github.com/nolly-studio/cult-ui/blob/main/README.md",
+    "sha": "40f5e15c389f0db2506fc57b78d15866eec88527",
+    "path": "README.md",
+    "bytes": 12513,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 969211164,
+    "name": "komari-monitor/komari",
+    "url": "https://github.com/komari-monitor/komari/blob/main/README.md",
+    "sha": "fc85c81437929935e0068741863e99a4f252db0d",
+    "path": "README.md",
+    "bytes": 8472,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1035029907,
+    "name": "earendil-works/pi",
+    "url": "https://github.com/earendil-works/pi/blob/main/README.md",
+    "sha": "93184c10ff45b8b4ecc8c2e0f8e239501f3880e6",
+    "path": "README.md",
+    "bytes": 10635,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1073224795,
+    "name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers/blob/main/README.md",
+    "sha": "e40ddfa8f87a374e1b9a3663b80c1aa954cf8eec",
+    "path": "README.md",
+    "bytes": 14589,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1097346685,
+    "name": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable/blob/main/README.md",
+    "sha": "0d6c0ec686eaaafc3c1917ecbbd5bb5107771564",
+    "path": "README.md",
+    "bytes": 29582,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1127793756,
+    "name": "fengshao1227/ccg-workflow",
+    "url": "https://github.com/fengshao1227/ccg-workflow/blob/main/README.md",
+    "sha": "13a9621c7040f8389f60577394fd29c1e6a89654",
+    "path": "README.md",
+    "bytes": 21494,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1128267392,
+    "name": "chatfire-AI/huobao-drama",
+    "url": "https://github.com/chatfire-AI/huobao-drama/blob/master/README.md",
+    "sha": "7ada160d8f07e0e1e5347893ec7ab6f9fa72ecab",
+    "path": "README.md",
+    "bytes": 27672,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1134458275,
+    "name": "ShadowHackrs/gmail-account-creator",
+    "url": "https://github.com/ShadowHackrs/gmail-account-creator/blob/main/README.md",
+    "sha": "ec0a577cdb27a6581c3093b49c03e59287acf7ff",
+    "path": "README.md",
+    "bytes": 12312,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1137711311,
+    "name": "codewhale-hq/Codewhale",
+    "url": "https://github.com/codewhale-hq/Codewhale/blob/main/README.md",
+    "sha": "44ef3071cf937984103b46c49db8251edb184a62",
+    "path": "README.md",
+    "bytes": 8940,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1180745961,
+    "name": "JCodesMore/ai-website-cloner-template",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/README.md",
+    "sha": "4ed16fd46744c8939f1f70045824f31511daae1c",
+    "path": "README.md",
+    "bytes": 7738,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1183888342,
+    "name": "stablyai/orca",
+    "url": "https://github.com/stablyai/orca/blob/main/README.md",
+    "sha": "6def418704885203c18f0df1c3c6cdc002a30a90",
+    "path": "README.md",
+    "bytes": 17448,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1193909050,
+    "name": "herdrdev/herdr",
+    "url": "https://github.com/herdrdev/herdr/blob/master/README.md",
+    "sha": "55ea278919613ffcd4840c42f343c5fd2ed1aa02",
+    "path": "README.md",
+    "bytes": 5003,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1208305920,
+    "name": "sunreview/GetClaudePro",
+    "url": "https://github.com/sunreview/GetClaudePro/blob/main/README.md",
+    "sha": "74d05c94e5f27522741557688e072055e70b3c1c",
+    "path": "README.md",
+    "bytes": 11490,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1209966933,
+    "name": "morluto/rea",
+    "url": "https://github.com/morluto/rea/blob/main/README.md",
+    "sha": "c4a89bceee4b0f0bde03bc7719088f4a7fc6b632",
+    "path": "README.md",
+    "bytes": 20692,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1301135370,
+    "name": "0xsline/OpenChatCut",
+    "url": "https://github.com/0xsline/OpenChatCut/blob/main/README.md",
+    "sha": "7261d2f1837befb206fbce202ae60f7305092050",
+    "path": "README.md",
+    "bytes": 32331,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1325096132,
+    "name": "eternityspring/shuohao-skills",
+    "url": "https://github.com/eternityspring/shuohao-skills/blob/main/README.md",
+    "sha": "6632efec6744a505312626d9f3b131426bf615c1",
+    "path": "README.md",
+    "bytes": 10809,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1346870728,
+    "name": "monid-ai/monid",
+    "url": "https://github.com/monid-ai/monid/blob/main/README.md",
+    "sha": "5c759d5747302f442f99a22eff2408b836cc5750",
+    "path": "README.md",
+    "bytes": 11060,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1350587124,
+    "name": "Sac-Y/MiniMax-H3-Cloud",
+    "url": "https://github.com/Sac-Y/MiniMax-H3-Cloud/blob/main/README.md",
+    "sha": "222d233a285c7bf776e20277288c7e594dca51e2",
+    "path": "README.md",
+    "bytes": 4406,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1401476500,
+    "name": "QingYunA/answer-me-with-html",
+    "url": "https://github.com/QingYunA/answer-me-with-html/blob/main/README.md",
+    "sha": "1c251e7c6f55c421b28e3a806c6881757d5afdc6",
+    "path": "README.md",
+    "bytes": 18828,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1401506630,
+    "name": "mizorewww/x_gift_bot",
+    "url": "https://github.com/mizorewww/x_gift_bot/blob/main/README.md",
+    "sha": "a74a33632d1122e1c02be14f08de11ad2b123c36",
+    "path": "README.md",
+    "bytes": 12982,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1407504032,
+    "name": "zhongerxin/iPhone-use",
+    "url": "https://github.com/zhongerxin/iPhone-use/blob/main/README.md",
+    "sha": "ac321f4bb674ddc0f22c81ccd9b8ac6c97e9bcea",
+    "path": "README.md",
+    "bytes": 12433,
+    "checked_at": "2026-10-13T06:22:41Z",
+    "scope": "人工阅读用途、安装入口、示例及限制相关段落；blob 完整性已验证，未执行上游命令"
+  },
+  {
+    "repo_id": 1035029907,
+    "name": "earendil-works/pi",
+    "url": "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/README.md",
+    "sha": "db40c5e12c00d7a068a9642744dc6a9af528a099",
+    "path": "packages/coding-agent/README.md",
+    "bytes": 4080,
+    "checked_at": "2026-10-13T06:37:14Z",
+    "scope": "安装入口与使用模式；该次辅助来源不替代根 README 基线"
+  }
+]

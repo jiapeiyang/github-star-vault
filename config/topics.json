@@ -7,7 +7,7 @@
       "entries": [
         {
           "repo_id": 1325096132,
-          "reason": "已有小说、需要先统一大纲、角色和分镜时使用；主要产出制作资料与提示词，成片生成和剪辑需另选工具。"
+          "reason": "已有小说、需要统一大纲、角色和分镜时使用；可产出制作资料、参考图和分镜工作包，实际生图依赖提供商，成片剪辑需另选工具。"
         },
         {
           "repo_id": 1128267392,
@@ -37,7 +37,50 @@
           "repo_id": 1215145625,
           "reason": "想用 HTML 时间轴制作产品发布或概念动画时使用；可先比较视觉方向再导出 MP4/GIF，适合版式与动画共同设计。"
         }
-      ]
+      ],
+      "comparison": {
+        "title": "从故事规划、主题成片到时间线精修",
+        "description": "按已有输入选择下一步：小说先做制作资料，文案可组织素材成片，已有视频则进入可编辑时间线。以下依据公开 README 归纳，示例和生成效果未实测。",
+        "reviewed_at": "2026-10-13",
+        "entries": [
+          {
+            "repo_id": 1325096132,
+            "task": "把小说或大纲拆成角色、场景、剧本和分镜。",
+            "input": "有权使用的故事文本、改编约束和已有角色设定。",
+            "output": "JSON、Markdown、HTML 制作资料；配置生图后可产出角色参考图和分镜图，也可组织视频工作包。",
+            "start": "先选对应阶段 Skill，准备独立输出目录；无需为了人物设定跑完全部阶段。",
+            "requirements": "Node.js 18+、支持 Skill 的宿主；确定性脚本使用标准库，实际生图另需提供商与凭证。",
+            "limitations": "工作包和报告不是已生成成片；角色一致性及视频质量仍需检查，本站未运行生成。",
+            "sources": [
+              "https://github.com/eternityspring/shuohao-skills/blob/main/README.md"
+            ]
+          },
+          {
+            "repo_id": 770153867,
+            "task": "从主题或脚本合成配音、素材、字幕和音乐短视频。",
+            "input": "主题或自定义文案、本地或库存素材、画幅与语音设置。",
+            "output": "合成视频及制作中间结果；支持 WebUI、API、CLI 与 Agent Skill 入口。",
+            "start": "先选择发行包、源码或 Docker，在基础设置填写实际需要的服务 Key，再做一个短片。",
+            "requirements": "源码 Python 3.11+，macOS/Linux 推荐 uv；模型、语音及素材服务按选择配置和计费。",
+            "limitations": "素材匹配、字幕断句和音量需人工验收；参考音频复刻需对应配置和音频使用权，本站未试听或生成。",
+            "sources": [
+              "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md"
+            ]
+          },
+          {
+            "repo_id": 1301135370,
+            "task": "让代理修改已有视频工程，再在真实时间线上手动精修。",
+            "input": "本地视频、音频、字幕、项目文件及明确的剪辑目标。",
+            "output": "可继续编辑和撤销的多轨工程，以及视频、音频、字幕或 FCPXML 等导出。",
+            "start": "安装桌面版或用 Node.js 24.x 启动源码；通过 localhost 或 HTTPS 打开编辑器，先导入一段自有素材。",
+            "requirements": "本地时间线不要求云模型；代理、转录及生成分别需要对应配置，MCP 编辑还需开启目标项目。",
+            "limitations": "MCP manual 与 auto 审批行为不同；本地目录访问默认较宽，需按任务设置范围，本站未运行剪辑或导出。",
+            "sources": [
+              "https://github.com/0xsline/OpenChatCut/blob/main/README.md"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "frontend-design",
@@ -56,7 +99,9 @@
             "start": "从 README 的 Collection 选择文档，阅读后补充自身约束；不要覆盖已有设计规范。",
             "requirements": "浏览和阅读不需要 CLI；要生成页面，还需让自己的代理明确读取文档。",
             "limitations": "不是原站完整源码或实时样式采样；整理文档也可能缺少交互状态，本文未验证生成效果。",
-            "sources": ["https://github.com/VoltAgent/awesome-design-md/blob/main/README.md"]
+            "sources": [
+              "https://github.com/VoltAgent/awesome-design-md/blob/main/README.md"
+            ]
           },
           {
             "repo_id": 1101924225,
@@ -66,7 +111,9 @@
             "start": "安装 dembrandt 后先执行 dembrandt install-browser，再采样一页并人工检查结果。",
             "requirements": "Node.js 18+ 与匹配的 Chromium；浏览器安装是独立步骤，playwright-core 不附带二进制。",
             "limitations": "不能恢复设计稿全部语义或网页交互源码；字体、图标和品牌素材的使用许可要独立核对，本文未运行采样。",
-            "sources": ["https://github.com/dembrandt/dembrandt/blob/main/README.md"]
+            "sources": [
+              "https://github.com/dembrandt/dembrandt/blob/main/README.md"
+            ]
           },
           {
             "repo_id": 1106996539,
@@ -76,7 +123,9 @@
             "start": "采用 ui-ux-pro-max-cli 的 uipro 命令，先用 dry-run 查看范围，再按实际宿主初始化。",
             "requirements": "CLI 安装使用 Node.js/npm，资料搜索需要 Python 3.x；搜索脚本只用标准库。",
             "limitations": "建议不能覆盖已有品牌与工程约束；旧 uipro-cli 不是当前资产入口，Premium 范围需另查，本文未运行生成。",
-            "sources": ["https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md"]
+            "sources": [
+              "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md"
+            ]
           }
         ]
       },
@@ -99,7 +148,7 @@
         },
         {
           "repo_id": 806879762,
-          "reason": "需要源码组件或 AI 界面的交互模式时使用；基础组件、关联模式站和商业模板需分别核对获取方式。"
+          "reason": "需要可修改的 React 组件与动效时使用；按 shadcn registry 取用，开源组件与关联商业模板分别核对。"
         },
         {
           "repo_id": 1180745961,
@@ -152,7 +201,50 @@
           "repo_id": 1164005541,
           "reason": "本地技能很多，一个任务又跨多个领域时使用；先拆任务、筛选相关技能并绑定交付物，再汇总验收结果。"
         }
-      ]
+      ],
+      "comparison": {
+        "title": "执行编码任务与组织终端会话",
+        "description": "Codewhale 和 Pi 是可执行任务的代理，Herdr 承载已有 CLI。选择时先看缺少执行入口、扩展运行时，还是多终端组织能力；这里不比较模型质量。",
+        "reviewed_at": "2026-10-13",
+        "entries": [
+          {
+            "repo_id": 1137711311,
+            "task": "用终端代理读取、修改仓库并运行验证。",
+            "input": "当前代码目录、任务目标、模型连接与允许的操作范围。",
+            "output": "代码 diff、命令结果与可继续的会话；执行结果需要检查。",
+            "start": "安装官方发行程序，配置模型后先用 Plan 探索，再按授权选择工作模式和权限姿态。",
+            "requirements": "匹配平台的程序与可用模型；本地模型不要求 Codewhale 云账号，仍要核对端点和权限。",
+            "limitations": "headless exec 默认 Auto，可写文件和执行 shell；快照无法撤回外部操作，本站未执行编码任务。",
+            "sources": [
+              "https://github.com/codewhale-hq/Codewhale/blob/main/README.md"
+            ]
+          },
+          {
+            "repo_id": 1035029907,
+            "task": "使用精简编码代理，或为应用嵌入可扩展的 Agent 运行时。",
+            "input": "项目目录、模型认证，以及按需添加的扩展、技能与提示模板。",
+            "output": "交互会话、工具执行结果，或 print/JSON、RPC、TypeScript SDK 集成。",
+            "start": "按 README 选择固定依赖的安装器或 npm 入口；运行 pi 后用 /login 连接提供商，先做小范围只读任务。",
+            "requirements": "Node.js 22.19+ 和可用模型；默认不提供计划模式或子代理编排，需自行扩展。",
+            "limitations": "默认继承进程的文件、命令、网络和凭证权限；更强隔离需另配容器或沙箱，本站未运行代理。",
+            "sources": [
+              "https://github.com/earendil-works/pi/blob/main/README.md"
+            ]
+          },
+          {
+            "repo_id": 1193909050,
+            "task": "集中分屏、脱离重连，并观察已有编码代理状态。",
+            "input": "已有终端 CLI、工作目录与会话组织需求。",
+            "output": "持续终端会话、面板布局和 working/blocked/idle 等调度线索。",
+            "start": "按平台安装后在项目目录运行 herdr，再在面板启动已有 CLI；先验证脱离和重新连接。",
+            "requirements": "匹配平台的 Herdr 二进制；代理、模型订阅和认证仍由各 CLI 管理。",
+            "limitations": "不提供替代编码模型；主机或服务重启不保留原进程，状态灯不是任务验收，本站未运行会话。",
+            "sources": [
+              "https://github.com/herdrdev/herdr/blob/master/README.md"
+            ]
+          }
+        ]
+      }
     }
   ]
 }

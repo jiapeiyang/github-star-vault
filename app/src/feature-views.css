@@ -1,6 +1,8 @@
 .cover-stats { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 22px; }
 .cover-stats span { color: var(--muted); font-size: 10px; }
 .cover-stats strong { margin-right: 6px; color: var(--ink); font-size: 18px; }
+.home-source-status { display: grid; gap: 10px; margin-top: 16px; font-size: 11px; line-height: 1.6; color: var(--muted); }
+.home-source-status .text-link { font-size: 12px; text-align: left; }
 
 .home-action-strip { grid-column: 1 / 3; display: grid; grid-template-columns: 92px repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--ink); }
 .action-strip-title { display: flex; align-items: center; justify-content: center; gap: 14px; padding: 18px 0; border-right: 1px solid var(--line-strong); writing-mode: vertical-rl; }

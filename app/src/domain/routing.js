@@ -3,6 +3,7 @@ export const defaultRoute = {
   source: "starred", archive: "active", sort: "auto", layout: "list", repo: "",
   year: "all", from: "", to: "", coverage: "all", origin: "all",
   topic: "", anchor: "", queue: "unclassified", queuePage: "1", queueQuery: "",
+  queueStatus: "all", queueTopic: "all", queueCheckedBefore: "", queueSort: "starred",
 };
 const views = new Set(["home", "library", "history", "inbox", "detail", "about", "curation", "topics"]);
 export function routeFromUrl(href) {
@@ -10,7 +11,7 @@ export function routeFromUrl(href) {
   const route = Object.fromEntries(Object.entries(defaultRoute).map(([key, fallback]) => [key, params.get(key) || fallback]));
   if (!views.has(route.view)) route.view = "library";
   if (route.view === "history" && !params.get("source")) route.source = "all";
-  for (const key of ["from", "to"]) if (!/^\d{4}-\d{2}-\d{2}$/.test(route[key])) route[key] = "";
+  for (const key of ["from", "to", "queueCheckedBefore"]) if (!/^\d{4}-\d{2}-\d{2}$/.test(route[key])) route[key] = "";
   try { route.anchor = decodeURIComponent(new URL(href).hash.slice(1)); } catch { route.anchor = ""; }
   if (!route.anchor.startsWith("content-") && !["queue-list","curation-sheet"].includes(route.anchor)) route.anchor = "";
   return route;

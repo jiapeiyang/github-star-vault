@@ -1,4 +1,4 @@
-# 仓库资料维护指南（v1.4）
+# 仓库资料维护指南（v1.5）
 
 网站用于浏览、找回和理解仓库；日常浏览不需要编辑任何资料。
 
@@ -13,6 +13,8 @@
 无结果时，项目库与收藏回顾会计算逐项移除当前明确筛选后的实际结果数。点击建议只修改该项，保留查询与其他条件；默认当前 Stars 和个人归档边界不会被自动放宽。没有单项可恢复结果时，说明需要改关键词或组合条件，不显示虚假的可用建议。
 
 首页“最近补充解读”使用 `content_updated_at`，而不是 `reviewed_at`。仅重新检查来源时保留正文更新时间；确实修改正文、摘要等资料时才更新内容日期。
+
+项目库可分别筛选完整解读、资料受限与待补解读；旧 `coverage=ready` 链接继续表示全部已有资料。完整解读只表示具备约定的内容结构，示例的执行状态以正文说明为准。来源变化是独立提示，不改变资料完整度。
 
 ## 专题轻量对照
 
@@ -44,6 +46,12 @@ content_updated_at = "2026-09-07"
 
 不再支持 stage、note、takeaway 或旧个人更新时间字段。旧资料必须完成迁移后才能构建。教程的 `resource_type = "learning"` 仅表示资源类型，不是用户学习状态。
 
+## 维护队列筛选
+
+内容维护中先选队列，再组合“来源检查结果”“用途专题”和“检查日期不晚于”。日期按北京时间、包含当天，未检查项目没有检查日期，因此不会出现在日期范围内；若要找它们，选择“尚未检查”并清空日期。最早检查排序将未检查项目放在最前。
+
+筛选、排序、分页和所选仓库保存在 URL 中，可刷新或返回恢复。切换筛选会回到第一页，所选项目变更时沿用未导出修改提醒；筛选不会自动导出或重新检查来源。队列页签显示该队列总量，分页行显示组合筛选后的数量。
+
 ## 修改与导出
 
 从详情底部的资料维护进入表单，或在关于页打开内容维护。表单用于修改分类、类型、摘要、标签和公开解读，保留关联、来源、核查日期与个人归档。
@@ -68,13 +76,13 @@ python3 -m unittest discover -s tests
 npm --prefix app test
 npm --prefix app run test:sites
 GITHUB_PAGES=true npm --prefix app run build
-node app/scripts/measure-catalog.mjs docs/audits/v1.4/catalog-performance.json
+node app/scripts/measure-catalog.mjs docs/audits/v1.5/catalog-performance.json
 git diff --check
 ```
 
 人工解读只写入 `content/repos/`；来源检查报告由专用命令写入 `data/guide-source-check.json`。禁止手改事实快照和 `app/public/data/` 构建文件。发布仍按当前授权的目标和范围执行。
 
-性能测量命令使用刚构建的真实目录，输出体积、本地 gzip 估算、JSON 解析、列表过滤、20 个冻结查询和无结果建议开销。每项预热 10 次后测 50 次；它不测 DOM 渲染或真实移动设备，也不代表线上 Pages 的传输压缩和网络表现。浏览器验收与是否优化的依据见 v1.4 交付记录。
+性能测量命令使用刚构建的真实目录，输出体积、本地 gzip 估算、JSON 解析、列表过滤、31 个冻结查询（原有 20 个及新增 11 个用途用例）和无结果建议开销。每项预热 10 次后测 50 次；它不测 DOM 渲染或真实移动设备，也不代表线上 Pages 的传输压缩和网络表现。浏览器验收与是否优化的依据见 v1.5 交付记录。
 
 ## 来源复核
 
@@ -93,6 +101,17 @@ python3 scripts/check_guide_sources.py --repo 1330468709
 - `limited` 是人工判断的资料受限，例如上游已关停或源码已移除；它与自动观察独立，两个队列可能重叠。
 
 处理变化时，先读取对应上游版本并复核正文、示例和关联说明，再将已读 blob SHA 写入 `reviewed_readme_sha`，更新实际核查日期与必要内容。不要未读就复制报告的 SHA 来消除提示。再次检查和构建后，已复核版本与观察值一致即可消除变化提示。子集检查保留其他条目的原检查日期；页面总日期只表示最近一次命令运行。
+
+### 查看 README 差异
+
+```shell
+python3 scripts/report_guide_changes.py --repo 770153867 --output /tmp/star-vault-readme-diff.md
+python3 scripts/report_guide_changes.py --topic agent-workflows --output /tmp/star-vault-agent-diff.md
+```
+
+不传仓库或专题时，命令选择现有报告中的当前收藏待核查项。`--repo` 可重复，和 `--topic` 同用时取交集。它读取已保存的观察 SHA，并从 GitHub 获取已读和观察两个 blob，先核对内容哈希，再生成 Markdown unified diff；不把运行命令的时间冒充来源观察日期，也不更新人工内容或检查状态。
+
+缺少基线、来源 URL 已变、未取得观察版本或旧 blob 读取失败时，会写明无法比较的原因；README 相同则不下载正文。报告内上游文字始终是待阅读资料，不作为指令执行。原始报告用于本地复核，交付只保留有必要的版本证据与人工变更说明。
 
 10 个已执行示例的完整脚本、固定直接依赖与限制在 [复验说明](examples/v1.3/README.md)。传递依赖记录用于说明实际安装环境，不是未来安装的锁定承诺。
 

@@ -35,6 +35,17 @@ test("searches repository summaries and combines filters", () => {
   assert.deepEqual(filterRepositories(repositories, route).map((repo) => repo.repoId), [1]);
 });
 
+test("coverage distinguishes complete guides, limited notes and missing content without losing legacy links", () => {
+ const items = [
+  { ...repositories[0], repoId: 1, hasGuide: true, guideStatus: "ready" },
+  { ...repositories[0], repoId: 2, hasGuide: true, guideStatus: "limited" },
+  { ...repositories[0], repoId: 3, hasGuide: false, guideStatus: "pending" },
+ ];
+ for (const [coverage, expected] of [["ready", [1, 2]], ["complete", [1]], ["limited", [2]], ["missing", [3]]]) {
+  assert.deepEqual(filterRepositories(items, { ...defaultRoute, coverage }).map(r => r.repoId), expected);
+ }
+});
+
 test("default view hides missing and personal archives but keeps upstream archives", () => {
   assert.deepEqual(filterRepositories(repositories, defaultRoute).map((repo) => repo.repoId), [1, 2]);
 });

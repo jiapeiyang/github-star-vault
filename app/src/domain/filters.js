@@ -19,7 +19,11 @@ export function filterRepositories(repositories, route) {
       && (route.tag === "all" || repo.tags.includes(route.tag))
       && (!route.year || route.year === "all" || date.startsWith(`${route.year}-`))
       && (!route.from || date >= route.from) && (!route.to || date <= route.to)
-      && (!route.coverage || route.coverage === "all" || (route.coverage === "ready" ? repo.hasGuide : !repo.hasGuide))
+      && (!route.coverage || route.coverage === "all"
+        || (route.coverage === "ready" && repo.hasGuide)
+        || (route.coverage === "complete" && repo.hasGuide && repo.guideStatus === "ready")
+        || (route.coverage === "limited" && repo.hasGuide && repo.guideStatus === "limited")
+        || (route.coverage === "missing" && !repo.hasGuide))
       && (!route.origin || route.origin === "all" || !repo.initialImport)
       && score >= 0;
   }).sort((a, b) => {

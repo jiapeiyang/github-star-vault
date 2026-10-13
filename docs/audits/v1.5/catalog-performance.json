@@ -1,0 +1,395 @@
+{
+  "measuredAt": "2026-10-13T06:51:04.670Z",
+  "node": "v24.14.0",
+  "platform": "darwin",
+  "arch": "arm64",
+  "method": "本机 Node 单进程，10 次预热后各测 50 次；过滤包含实际相关性排序。非浏览器渲染、非真实用户或移动设备数据。gzip 为本地压缩估算，不代表托管传输。",
+  "samples": 50,
+  "warmups": 10,
+  "repositories": 328,
+  "stats": {
+    "active": 326,
+    "total": 328,
+    "curated": 326,
+    "guides": 326,
+    "readyGuides": 321,
+    "limitedGuides": 5,
+    "missingGuides": 0,
+    "new": 42,
+    "githubArchived": 12,
+    "missing": 2
+  },
+  "bytes": 1396258,
+  "gzipBytes": 384329,
+  "parse": {
+    "medianMs": 1.102,
+    "p95Ms": 1.314,
+    "maxMs": 1.689
+  },
+  "defaultList": {
+    "matches": 326,
+    "medianMs": 0.275,
+    "p95Ms": 0.301,
+    "maxMs": 0.343
+  },
+  "emptyRecovery": {
+    "query": "canvas-ui",
+    "category": "ai-agent",
+    "options": [
+      {
+        "key": "category",
+        "label": "领域分类",
+        "patch": {
+          "category": "all"
+        },
+        "count": 1
+      }
+    ],
+    "medianMs": 6.521,
+    "p95Ms": 7.866,
+    "maxMs": 8.346
+  },
+  "queries": [
+    {
+      "query": "koa",
+      "expected": "koajs/koa",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 8,
+      "pass": true,
+      "medianMs": 3.946,
+      "p95Ms": 11.669,
+      "maxMs": 26.674
+    },
+    {
+      "query": "nanoid",
+      "expected": "ai/nanoid",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.293,
+      "p95Ms": 3.544,
+      "maxMs": 4.235
+    },
+    {
+      "query": "json2csv",
+      "expected": "zemirco/json2csv",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.097,
+      "p95Ms": 3.298,
+      "maxMs": 3.404
+    },
+    {
+      "query": "swc",
+      "expected": "swc-project/swc",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 2,
+      "pass": true,
+      "medianMs": 3.181,
+      "p95Ms": 3.389,
+      "maxMs": 3.465
+    },
+    {
+      "query": "vueuse",
+      "expected": "vueuse/vueuse",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.134,
+      "p95Ms": 3.343,
+      "maxMs": 3.726
+    },
+    {
+      "query": "solid",
+      "expected": "solidjs/solid",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 3,
+      "pass": true,
+      "medianMs": 3.168,
+      "p95Ms": 3.255,
+      "maxMs": 3.311
+    },
+    {
+      "query": "svelte",
+      "expected": "sveltejs/svelte",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 4,
+      "pass": true,
+      "medianMs": 3.161,
+      "p95Ms": 3.454,
+      "maxMs": 3.717
+    },
+    {
+      "query": "mshared",
+      "expected": "juicecube/mshared",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.084,
+      "p95Ms": 3.276,
+      "maxMs": 3.348
+    },
+    {
+      "query": "herdr",
+      "expected": "herdrdev/herdr",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 8,
+      "pass": true,
+      "medianMs": 3.132,
+      "p95Ms": 3.294,
+      "maxMs": 3.302
+    },
+    {
+      "query": "impeccable",
+      "expected": "pbakaus/impeccable",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 3,
+      "pass": true,
+      "medianMs": 3.16,
+      "p95Ms": 3.41,
+      "maxMs": 3.474
+    },
+    {
+      "query": "archify",
+      "expected": "tt-a1i/archify",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 4,
+      "pass": true,
+      "medianMs": 3.14,
+      "p95Ms": 3.265,
+      "maxMs": 3.303
+    },
+    {
+      "query": "文字识别",
+      "expected": "opendatalab/MinerU",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 2,
+      "pass": true,
+      "medianMs": 3.875,
+      "p95Ms": 4.099,
+      "maxMs": 4.198
+    },
+    {
+      "query": "字体 终端",
+      "expected": "subframe7536/maple-font",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 2,
+      "pass": true,
+      "medianMs": 4.261,
+      "p95Ms": 4.587,
+      "maxMs": 4.612
+    },
+    {
+      "query": "截图 前端",
+      "expected": "abi/screenshot-to-code",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 13,
+      "pass": true,
+      "medianMs": 3.759,
+      "p95Ms": 3.927,
+      "maxMs": 4.01
+    },
+    {
+      "query": "钉钉 命令行",
+      "expected": "DingTalk-Real-AI/dingtalk-workspace-cli",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.082,
+      "p95Ms": 3.322,
+      "maxMs": 3.484
+    },
+    {
+      "query": "小说 cli",
+      "expected": "voocel/ainovel-cli",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.043,
+      "p95Ms": 3.192,
+      "maxMs": 3.263
+    },
+    {
+      "query": "ppt 可编辑",
+      "expected": "hugohe3/ppt-master",
+      "maxRank": 5,
+      "rank": 2,
+      "matches": 5,
+      "pass": true,
+      "medianMs": 3.342,
+      "p95Ms": 3.533,
+      "maxMs": 3.602
+    },
+    {
+      "query": "智能体 教程",
+      "expected": "datawhalechina/hello-agents",
+      "maxRank": 5,
+      "rank": 2,
+      "matches": 8,
+      "pass": true,
+      "medianMs": 3.612,
+      "p95Ms": 3.74,
+      "maxMs": 3.806
+    },
+    {
+      "query": "Mac 清理",
+      "expected": "tw93/Mole",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 3,
+      "pass": true,
+      "medianMs": 3.15,
+      "p95Ms": 3.304,
+      "maxMs": 3.899
+    },
+    {
+      "query": "工作流 审查",
+      "expected": "fengshao1227/ccg-workflow",
+      "maxRank": 5,
+      "rank": 1,
+      "matches": 14,
+      "pass": true,
+      "medianMs": 3.627,
+      "p95Ms": 3.848,
+      "maxMs": 3.898
+    },
+    {
+      "query": "服务器监控",
+      "expected": "nezhahq/nezha",
+      "maxRank": 3,
+      "rank": 2,
+      "matches": 2,
+      "pass": true,
+      "medianMs": 3.166,
+      "p95Ms": 3.307,
+      "maxMs": 3.571
+    },
+    {
+      "query": "服务器监控",
+      "expected": "komari-monitor/komari",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 2,
+      "pass": true,
+      "medianMs": 3.154,
+      "p95Ms": 3.279,
+      "maxMs": 3.376
+    },
+    {
+      "query": "代理客户端 Windows",
+      "expected": "2dust/v2rayN",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 2,
+      "pass": true,
+      "medianMs": 3.206,
+      "p95Ms": 3.574,
+      "maxMs": 3.785
+    },
+    {
+      "query": "网页回答",
+      "expected": "QingYunA/answer-me-with-html",
+      "maxRank": 1,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.101,
+      "p95Ms": 3.578,
+      "maxMs": 3.611
+    },
+    {
+      "query": "iPhone 自动化",
+      "expected": "zhongerxin/iPhone-use",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.124,
+      "p95Ms": 3.431,
+      "maxMs": 3.531
+    },
+    {
+      "query": "Linux 备份",
+      "expected": "kejilion/sh",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 4,
+      "pass": true,
+      "medianMs": 3.121,
+      "p95Ms": 3.508,
+      "maxMs": 3.863
+    },
+    {
+      "query": "Xray 安装脚本",
+      "expected": "233boy/Xray",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 2,
+      "pass": true,
+      "medianMs": 3.017,
+      "p95Ms": 3.11,
+      "maxMs": 3.276
+    },
+    {
+      "query": "Shadowrocket 去广告",
+      "expected": "Johnshall/Shadowrocket-ADBlock-Rules-Forever",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.16,
+      "p95Ms": 3.544,
+      "maxMs": 3.584
+    },
+    {
+      "query": "Electron 逆向分析",
+      "expected": "morluto/rea",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.284,
+      "p95Ms": 3.433,
+      "maxMs": 3.513
+    },
+    {
+      "query": "工具连接器 Deno",
+      "expected": "monid-ai/monid",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.045,
+      "p95Ms": 3.224,
+      "maxMs": 4.777
+    },
+    {
+      "query": "兑换平台 本地预览",
+      "expected": "mizorewww/x_gift_bot",
+      "maxRank": 3,
+      "rank": 1,
+      "matches": 1,
+      "pass": true,
+      "medianMs": 3.07,
+      "p95Ms": 3.321,
+      "maxMs": 3.803
+    }
+  ]
+}

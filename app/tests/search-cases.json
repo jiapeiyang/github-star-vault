@@ -18,5 +18,16 @@
   {"query":"ppt 可编辑","expected":"hugohe3/ppt-master","maxRank":5},
   {"query":"智能体 教程","expected":"datawhalechina/hello-agents","maxRank":5},
   {"query":"Mac 清理","expected":"tw93/Mole","maxRank":3},
-  {"query":"工作流 审查","expected":"fengshao1227/ccg-workflow","maxRank":5}
+  {"query":"工作流 审查","expected":"fengshao1227/ccg-workflow","maxRank":5},
+  {"query":"服务器监控","expected":"nezhahq/nezha","maxRank":3},
+  {"query":"服务器监控","expected":"komari-monitor/komari","maxRank":3},
+  {"query":"代理客户端 Windows","expected":"2dust/v2rayN","maxRank":3},
+  {"query":"网页回答","expected":"QingYunA/answer-me-with-html","maxRank":1},
+  {"query":"iPhone 自动化","expected":"zhongerxin/iPhone-use","maxRank":3},
+  {"query":"Linux 备份","expected":"kejilion/sh","maxRank":3},
+  {"query":"Xray 安装脚本","expected":"233boy/Xray","maxRank":3},
+  {"query":"Shadowrocket 去广告","expected":"Johnshall/Shadowrocket-ADBlock-Rules-Forever","maxRank":3},
+  {"query":"Electron 逆向分析","expected":"morluto/rea","maxRank":3},
+  {"query":"工具连接器 Deno","expected":"monid-ai/monid","maxRank":3},
+  {"query":"兑换平台 本地预览","expected":"mizorewww/x_gift_bot","maxRank":3}
 ]
