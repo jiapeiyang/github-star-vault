@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-13T14:07:23Z` · 当前公开 Stars：**326** · 已分类：**326**
+> 最近成功检查：`2026-10-13T22:42:02Z` · 当前公开 Stars：**328** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -417,5 +417,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — 将价值投资的商业、财务、风险与长期判断组织成多种研究技能和公开报告的框架。
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
+
+### 待分类（2）
+
+- [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shado…
+- [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) — An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with op…
 
 <!-- STAR_VAULT:CATALOG:END -->
