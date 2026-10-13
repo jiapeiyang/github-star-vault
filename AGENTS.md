@@ -3,6 +3,7 @@
 - 默认使用中文沟通和交付。
 - `data/repositories.json` 只允许同步脚本写入；`content/repos/*.md` 只允许人工维护。
 - `app/public/data/*.json` 是构建产物，禁止手改和提交。
+- `data/weekly-issues.json` 仅由 `scripts/generate_weekly.py` 生成；固定已生成期刊的名单和编选依据，不回填虚构往期。主题文案在 `config/weekly.json` 人工维护。
 - 同步、校验、目录生成脚本使用 Python 标准库；前端沿用 React、Vite 和 Phosphor。
 - GitHub 事实、自动建议、个人内容必须在数据字段和界面中明确分离。
 - 方案 E“开发者杂志”是长期视觉基线：纸白、近黑、单一洋红、编辑分栏、等宽仓库名、真实头像。

@@ -7,6 +7,7 @@ import "./curation.css";
 import "./reading.css";
 import "./discovery.css";
 import "./task-recipes.css";
+import "./weekly.css";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>

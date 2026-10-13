@@ -31,13 +31,15 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -p 'test_*.py'
           python3 scripts/verify_data.py
+          python3 scripts/generate_weekly.py
+          python3 scripts/verify_data.py
           python3 scripts/generate_readme.py
 
       - name: Commit generated source data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/repositories.json README.md
+          git add data/repositories.json data/weekly-issues.json README.md
           if ! git diff --cached --quiet; then
             git commit -m "chore: sync GitHub Stars"
             git push

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "issues": [
+    {
+      "id": "2026-10-12",
+      "number": 1,
+      "week_end": "2026-10-18",
+      "generated_at": "2026-10-13T13:47:12+00:00",
+      "facts_checked_at": "2026-10-13T07:33:24Z",
+      "selection_version": 1,
+      "editorial": {
+        "id": "web-client",
+        "title": "重新翻开，前端的那一页",
+        "intro": "从知识地图到具体交互，重新连接那些曾让你点下 Star 的前端项目。",
+        "question": "它补上了前端工作中的哪一块？今天再用，还需要确认哪些版本与环境前提？"
+      },
+      "entries": [
+        {
+          "repo_id": 337237194,
+          "slot": "lead",
+          "selection": {
+            "name": "mechaniac/Map-of-Javascript",
+            "category": "web-client",
+            "category_label": "Web、前端与跨端",
+            "starred_at": "2021-07-01T03:59:12Z",
+            "age_days": 1930,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 196552074,
+          "slot": "theme",
+          "selection": {
+            "name": "azl397985856/fe-interview",
+            "category": "web-client",
+            "category_label": "Web、前端与跨端",
+            "starred_at": "2021-07-01T04:06:41Z",
+            "age_days": 1930,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 48212104,
+          "slot": "theme",
+          "selection": {
+            "name": "ustbhuangyi/better-scroll",
+            "category": "web-client",
+            "category_label": "Web、前端与跨端",
+            "starred_at": "2017-06-25T09:30:10Z",
+            "age_days": 3397,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 1148052330,
+          "slot": "discovery",
+          "selection": {
+            "name": "Yeachan-Heo/oh-my-codex",
+            "category": "devtools-automation",
+            "category_label": "开发者工具与自动化",
+            "starred_at": "2026-06-06T17:54:23Z",
+            "age_days": 128,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 1143767804,
+          "slot": "discovery",
+          "selection": {
+            "name": "zarazhangrui/frontend-slides",
+            "category": "design-content",
+            "category_label": "设计、图像与内容创作",
+            "starred_at": "2026-06-12T12:11:55Z",
+            "age_days": 123,
+            "last_featured_week": null
+          }
+        }
+      ]
+    }
+  ]
+}

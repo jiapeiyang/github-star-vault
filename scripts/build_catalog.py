@@ -8,6 +8,7 @@ from pathlib import Path
 
 from catalog_extras import load_topics, load_source_checks
 from recipe_catalog import load_recipes
+from weekly_catalog import load_weekly_archive, load_weekly_config, weekly_for_catalog
 from star_vault import ROOT, atomic_write, file_sha256, load_curations, make_catalog, read_json, stable_json, validate_snapshot
 
 
@@ -34,6 +35,8 @@ def main() -> int:
     topics = load_topics(ROOT / "config/topics.json", snapshot)
     recipes = load_recipes(ROOT / "config/recipes.json", snapshot, topics)
     catalog = make_catalog(snapshot, curations, ROOT / "config", topics=topics, recipes=recipes, source_checks=load_source_checks(ROOT / "data/guide-source-check.json", snapshot))
+    load_weekly_config(ROOT / "config/weekly.json", catalog["categories"])
+    catalog["weeklyIssues"] = weekly_for_catalog(load_weekly_archive(ROOT / "data/weekly-issues.json"))
     meta = {
         "schemaVersion": 1,
         "checkedAt": snapshot["sync"]["checked_at"],

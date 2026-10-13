@@ -5,7 +5,8 @@ import { useState } from "react";
 import { ArrowRight, ArrowUpRight, Shuffle } from "@phosphor-icons/react";
 import { formatDate, latestUpdatedGuide } from "../domain/catalog.js";
 import { chooseRevisit, collectionDate } from "../domain/filters.js";
-export function HomeView({catalog,recipes,onOpenRepo,onOpenLibrary,onNavigate}) {
+import { WeeklyCover } from "../components/WeeklyCover.jsx";
+export function HomeView({catalog,recipes,weeklyIssues,onOpenRepo,onOpenLibrary,onNavigate}) {
   const repos=catalog.repositories.filter(r=>r.sourceStatus==="starred"&&!r.personalArchived);
   const reviewCount=repos.filter(r=>["changed","unavailable"].includes(r.sourceCheck?.status)).length;
   const unavailableCount=repos.filter(r=>r.sourceCheck?.status==="unavailable").length;
@@ -13,9 +14,10 @@ export function HomeView({catalog,recipes,onOpenRepo,onOpenLibrary,onNavigate}) 
   const [revisit,setRevisit]=useState(()=>chooseRevisit(repos));
   const years=Object.entries(repos.reduce((acc,r)=>{const y=collectionDate(r.starredAt).slice(0,4);acc[y]=(acc[y]||0)+1;return acc;},{})).sort(([a],[b])=>b.localeCompare(a));
   if(!featured)return <main className="empty-state"><h1>暂时没有收藏</h1><p>下一次成功同步后，公开 Stars 会出现在这里。</p></main>;
-  return <main className="home-page"><div className="home-magazine-grid">
+  return <main className="home-page"><div className={`home-magazine-grid${weeklyIssues.length ? " has-weekly" : ""}`}>
     <section className="cover-intro"><p className="issue-label">你的 GitHub 收藏资料库</p><h1>回顾收藏<br/>找到所需</h1><div className="cover-stats"><span><strong>{catalog.stats.active}</strong>当前 Stars</span><span><strong>{catalog.stats.readyGuides}</strong>完整解读</span><span><strong>{catalog.stats.limitedGuides}</strong>资料受限</span><span><strong>{catalog.stats.missingGuides}</strong>待补解读</span></div></section>
     <aside className="cover-manifesto"><p>想起一个用途，<br/>找回一个项目。</p><button className="text-link" type="button" onClick={()=>onOpenLibrary()}>浏览项目库 <ArrowRight size={17}/></button><small>最近成功检查 · {formatDate(catalog.checkedAt,{hour:"2-digit",minute:"2-digit"})}</small><div className="home-source-status"><span>完整解读按资料结构统计，示例验证情况见正文。</span><button className="text-link" type="button" onClick={()=>onNavigate("inbox",{repo:"",queue:"review"})}>{reviewCount} 项来源待复核 · {unavailableCount} 项读取失败 <ArrowRight size={15}/></button></div></aside>
+    <WeeklyCover issue={weeklyIssues[0]} repositories={catalog.repositories} onChange={route=>onNavigate("weekly",route)}/>
     <aside className="home-category-rail"><div className="rail-heading"><h2>领域分类</h2><ArrowRight size={23}/></div><div className="rail-categories">{catalog.categories.filter(c=>c.id!=="unclassified").map(c=><button type="button" key={c.id} onClick={()=>onOpenLibrary({category:c.id})}><span>{c.label}</span><ArrowRight size={16}/></button>)}</div><div className="timeline-mini"><h3>按年份回顾</h3>{years.map(([year,count])=><button className="year-link" type="button" key={year} onClick={()=>onNavigate("history",{year,source:"all"})}><strong>{year}</strong><span>{count} 个当前收藏 <ArrowUpRight size={14}/></span></button>)}</div></aside>
     <article className="featured-copy"><span className="section-kicker">{featured.hasGuide?"最近补充解读":"最近收藏"}</span><h2>{featured.name}</h2><p>{featured.summary||featured.description}</p><div className="repo-meta-line"><span>{featured.categoryLabel}</span><span>{featured.resourceType}</span></div><RepoLink className="editor-note" repoId={featured.repoId} onOpen={onOpenRepo}><span><strong>它能做什么，如何开始</strong>查看仓库介绍、使用方式与资料来源</span><ArrowUpRight size={19}/></RepoLink></article>
     <RepoLink className="featured-visual repository-portrait" aria-label={`查看 ${featured.name}`} repoId={featured.repoId} onOpen={onOpenRepo}><img src={featured.avatar} alt=""/><span>{featured.owner}</span></RepoLink>

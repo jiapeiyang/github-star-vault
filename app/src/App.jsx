@@ -3,6 +3,7 @@ import { Header } from "./components/Header.jsx";
 import { loadCatalog } from "./domain/catalog.js";
 import { activeNavigationView, defaultRoute, detailReturnRoute } from "./domain/routing.js";
 import { getRecipeCatalog } from "./domain/recipes.js";
+import { getWeeklyCatalog } from "./domain/weekly.js";
 import { getInboxState } from "./domain/inbox.js";
 import { useNavigation } from "./hooks/useNavigation.js";
 import { useCandidateBasket } from "./hooks/useCandidateBasket.js";
@@ -14,6 +15,7 @@ import { DetailView } from "./views/DetailView.jsx";
 import { HomeView } from "./views/HomeView.jsx";
 import { InboxView } from "./views/InboxView.jsx";
 import { HistoryView } from "./views/HistoryView.jsx";
+import { WeeklyView } from "./views/WeeklyView.jsx";
 import { LibraryView } from "./views/LibraryView.jsx";
 import { TopicsView } from "./views/TopicsView.jsx";
 import { NotFoundView } from "./views/NotFoundView.jsx";
@@ -24,6 +26,7 @@ export function App() {
   const [loadAttempt, setLoadAttempt] = useState(0);
   const basket = useCandidateBasket();
   const recipeCatalog = useMemo(() => getRecipeCatalog(catalog), [catalog]);
+  const weeklyCatalog = useMemo(() => getWeeklyCatalog(catalog), [catalog]);
   const { route, updateRoute, onDirtyChange, returnToBrowse } = useNavigation((next) => catalog && next.view === "inbox" ? getInboxState(catalog.repositories, next, catalog.topics).route : next);
 
   useEffect(() => {
@@ -68,20 +71,21 @@ export function App() {
   const selectedRepo = repositories.find((repo) => String(repo.repoId) === route.repo || repo.name === route.repo);
 
   useEffect(() => {
-    const pageTitles={home:"收藏资料库",library:route.q?`搜索：${route.q}`:"项目库",history:"收藏回顾",topics:catalog?.topics?.find(t=>t.id===route.topic)?.title||"用途专题",recipes:recipeCatalog.recipes.find(r=>r.id===route.recipe)?.title||"任务配方",basket:"候选工具篮",about:"关于",inbox:"资料维护"};
+    const pageTitles={home:"收藏资料库",library:route.q?`搜索：${route.q}`:"项目库",history:"收藏回顾",weekly:"每周收藏特刊",topics:catalog?.topics?.find(t=>t.id===route.topic)?.title||"用途专题",recipes:recipeCatalog.recipes.find(r=>r.id===route.recipe)?.title||"任务配方",basket:"候选工具篮",about:"关于",inbox:"资料维护"};
     const title=["detail","curation"].includes(route.view) ? selectedRepo?.name||"仓库详情" : pageTitles[route.view];
     document.title=`${title || "收藏资料库"} · Star Vault`;
   },[catalog,recipeCatalog,route.view,route.repo,route.q,route.topic,route.recipe,selectedRepo?.name]);
 
   let content = null;
   if (catalog) {
-    if (route.view === "home") content = <HomeView catalog={catalog} recipes={recipeCatalog.recipes} onOpenRepo={openRepo} onOpenLibrary={openLibrary} onNavigate={navigate} />;
+    if (route.view === "home") content = <HomeView catalog={catalog} recipes={recipeCatalog.recipes} weeklyIssues={weeklyCatalog.issues} onOpenRepo={openRepo} onOpenLibrary={openLibrary} onNavigate={navigate} />;
     else if (route.view === "inbox") content = <InboxView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} onDirtyChange={onDirtyChange} />;
     else if (route.view === "topics") content = <TopicsView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} basket={basket}/>;
     else if (route.view === "recipes") content = <RecipesView catalog={catalog} {...recipeCatalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} basket={basket}/>;
     else if (route.view === "basket") content = <CandidateBasketView catalog={catalog} basket={basket} onRouteChange={updateRoute} onOpenRepo={openCandidateRepo}/>;
     else if (route.view === "history") content = <HistoryView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} basket={basket}/>;
-    else if (route.view === "detail") content = selectedRepo ? <DetailView repo={selectedRepo} query={route.q} repositories={repositories} onBack={() => returnToBrowse(detailReturnRoute(route, recipeCatalog.recipes))} onOpenRepo={openRepo} onOpenCuration={openCuration} basket={basket}/> : <NotFoundView onBack={() => navigate("library")} />;
+    else if (route.view === "weekly") content = <WeeklyView catalog={catalog} {...weeklyCatalog} route={route} onRouteChange={updateRoute} basket={basket}/>;
+    else if (route.view === "detail") content = selectedRepo ? <DetailView repo={selectedRepo} query={route.q} repositories={repositories} weeklyIssue={weeklyCatalog.issues.find(issue => issue.id === route.issue)} onBack={() => returnToBrowse(detailReturnRoute(route, recipeCatalog.recipes, weeklyCatalog.issues))} onOpenRepo={openRepo} onOpenCuration={openCuration} basket={basket}/> : <NotFoundView onBack={() => navigate("library")} />;
     else if (route.view === "curation") content = selectedRepo ? <CurationView repo={selectedRepo} catalog={catalog} onOpenRepo={openRepo} onDirtyChange={onDirtyChange} /> : <NotFoundView onBack={() => navigate("library")} />;
     else if (route.view === "about") content = <AboutView catalog={catalog} onNavigate={navigate} />;
     else content = <LibraryView catalog={catalog} route={route} onRouteChange={updateRoute} onOpenRepo={openRepo} basket={basket}/>;
@@ -90,7 +94,7 @@ export function App() {
   return (
     <div className="app-shell">
       <Header
-        view={activeNavigationView(route, window.history.state?.starVaultReturn?.route, recipeCatalog.recipes)}
+        view={activeNavigationView(route, window.history.state?.starVaultReturn?.route, recipeCatalog.recipes, weeklyCatalog.issues)}
         basket={basket}
         onNavigate={(view) => navigate(view)}
         query={route.q}

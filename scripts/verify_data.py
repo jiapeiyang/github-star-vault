@@ -6,7 +6,8 @@ from pathlib import Path
 
 from catalog_extras import load_topics, load_source_checks
 from recipe_catalog import load_recipes
-from star_vault import ROOT, ValidationError, load_curations, read_json, validate_snapshot
+from weekly_catalog import load_weekly_archive, load_weekly_config
+from star_vault import ROOT, ValidationError, load_curations, load_enum_config, read_json, validate_snapshot
 
 
 def main() -> int:
@@ -23,11 +24,13 @@ def main() -> int:
         topics = load_topics(ROOT / "config/topics.json", snapshot)
         recipes = load_recipes(ROOT / "config/recipes.json", snapshot, topics)
         load_source_checks(ROOT / "data/guide-source-check.json", snapshot)
+        load_weekly_config(ROOT / "config/weekly.json", load_enum_config("categories"))
+        weekly = load_weekly_archive(ROOT / "data/weekly-issues.json")
     except ValidationError as exc:
         raise SystemExit(f"人工内容校验失败:\n- {exc}") from exc
     print(
         f"verify ok: active={snapshot['sync']['active_count']} total={snapshot['sync']['total_count']} "
-        f"curations={len(curations)} recipes={len(recipes)}"
+        f"curations={len(curations)} recipes={len(recipes)} weekly={len(weekly['issues'])}"
     )
     return 0
 

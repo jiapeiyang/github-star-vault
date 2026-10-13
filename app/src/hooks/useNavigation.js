@@ -8,7 +8,7 @@ export function useNavigation(normalize) {
  normalizer.current=normalize;
  const onDirtyChange=useCallback(value=>{dirty.current=value;},[]);
  const updateRoute=useCallback((patch,mode="push",scroll)=>{
-   const resetsAnchor=["view","repo","q","topic","recipe"].some(key=>Object.hasOwn(patch,key));
+   const resetsAnchor=["view","repo","q","topic","recipe","issue"].some(key=>Object.hasOwn(patch,key));
    const next=normalizer.current({...current.current,...(resetsAnchor?{anchor:""}:{}),...patch});
    const leaving=leavesDraft(current.current,next);
    if(leaving&&dirty.current&&!window.confirm(LEAVE_MESSAGE))return false;
