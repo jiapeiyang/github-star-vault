@@ -5,6 +5,7 @@ import argparse
 from pathlib import Path
 
 from catalog_extras import load_topics, load_source_checks
+from recipe_catalog import load_recipes
 from star_vault import ROOT, ValidationError, load_curations, read_json, validate_snapshot
 
 
@@ -19,13 +20,14 @@ def main() -> int:
         raise SystemExit("事实数据校验失败:\n- " + "\n- ".join(errors))
     try:
         curations = load_curations(args.content, snapshot, ROOT / "config")
-        load_topics(ROOT / "config/topics.json", snapshot)
+        topics = load_topics(ROOT / "config/topics.json", snapshot)
+        recipes = load_recipes(ROOT / "config/recipes.json", snapshot, topics)
         load_source_checks(ROOT / "data/guide-source-check.json", snapshot)
     except ValidationError as exc:
         raise SystemExit(f"人工内容校验失败:\n- {exc}") from exc
     print(
         f"verify ok: active={snapshot['sync']['active_count']} total={snapshot['sync']['total_count']} "
-        f"curations={len(curations)}"
+        f"curations={len(curations)} recipes={len(recipes)}"
     )
     return 0
 

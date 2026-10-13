@@ -2,10 +2,10 @@ export const defaultRoute = {
   view: "home", q: "", category: "all", type: "all", language: "all", tag: "all",
   source: "starred", archive: "active", sort: "auto", layout: "list", repo: "",
   year: "all", from: "", to: "", coverage: "all", origin: "all",
-  topic: "", anchor: "", queue: "unclassified", queuePage: "1", queueQuery: "",
+  topic: "", recipe: "", anchor: "", queue: "unclassified", queuePage: "1", queueQuery: "",
   queueStatus: "all", queueTopic: "all", queueCheckedBefore: "", queueSort: "starred",
 };
-const views = new Set(["home", "library", "history", "inbox", "detail", "about", "curation", "topics"]);
+const views = new Set(["home", "library", "history", "inbox", "detail", "about", "curation", "topics", "recipes", "basket"]);
 export function routeFromUrl(href) {
   const params = new URL(href).searchParams;
   const route = Object.fromEntries(Object.entries(defaultRoute).map(([key, fallback]) => [key, params.get(key) || fallback]));
@@ -13,7 +13,7 @@ export function routeFromUrl(href) {
   if (route.view === "history" && !params.get("source")) route.source = "all";
   for (const key of ["from", "to", "queueCheckedBefore"]) if (!/^\d{4}-\d{2}-\d{2}$/.test(route[key])) route[key] = "";
   try { route.anchor = decodeURIComponent(new URL(href).hash.slice(1)); } catch { route.anchor = ""; }
-  if (!route.anchor.startsWith("content-") && !["queue-list","curation-sheet"].includes(route.anchor)) route.anchor = "";
+  if (!route.anchor.startsWith("content-") && !["queue-list","curation-sheet"].includes(route.anchor) && !/^recipe-step-[a-z0-9]+(?:-[a-z0-9]+)*$/.test(route.anchor)) route.anchor = "";
   return route;
 }
 export function urlForRoute(route, href) {
@@ -28,4 +28,19 @@ export function urlForRoute(route, href) {
 
 export function shouldHandleLink(event) {
   return !event.defaultPrevented && event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey;
+}
+
+export function detailReturnRoute(route, recipes) {
+  if (recipes.some(recipe => recipe.id === route.recipe)) return { ...defaultRoute, view: "recipes", recipe: route.recipe };
+  return { ...route, view: route.topic ? "topics" : "library", repo: "", recipe: "", anchor: "" };
+}
+
+export function activeNavigationView(route, returnRoute, recipes) {
+  if (route.view === "recipes") return "topics";
+  if (["detail", "curation"].includes(route.view)) {
+    if (recipes.some(recipe => recipe.id === route.recipe)) return "topics";
+    if (returnRoute?.view === "basket") return "basket";
+    return "library";
+  }
+  return route.view;
 }

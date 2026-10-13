@@ -7,6 +7,7 @@ import subprocess
 from pathlib import Path
 
 from catalog_extras import load_topics, load_source_checks
+from recipe_catalog import load_recipes
 from star_vault import ROOT, atomic_write, file_sha256, load_curations, make_catalog, read_json, stable_json, validate_snapshot
 
 
@@ -30,7 +31,9 @@ def main() -> int:
     if errors:
         raise SystemExit("目录生成失败:\n- " + "\n- ".join(errors))
     curations = load_curations(args.content, snapshot, ROOT / "config")
-    catalog = make_catalog(snapshot, curations, ROOT / "config", topics=load_topics(ROOT / "config/topics.json", snapshot), source_checks=load_source_checks(ROOT / "data/guide-source-check.json", snapshot))
+    topics = load_topics(ROOT / "config/topics.json", snapshot)
+    recipes = load_recipes(ROOT / "config/recipes.json", snapshot, topics)
+    catalog = make_catalog(snapshot, curations, ROOT / "config", topics=topics, recipes=recipes, source_checks=load_source_checks(ROOT / "data/guide-source-check.json", snapshot))
     meta = {
         "schemaVersion": 1,
         "checkedAt": snapshot["sync"]["checked_at"],

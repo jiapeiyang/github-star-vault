@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { defaultRoute, routeFromUrl, urlForRoute, shouldHandleLink } from "../src/domain/routing.js";
+import { activeNavigationView, defaultRoute, detailReturnRoute, routeFromUrl, urlForRoute, shouldHandleLink } from "../src/domain/routing.js";
 
 test("restores filter state from URL", () => {
   const route = routeFromUrl("https://example.test/github-star-vault/?view=library&category=ai-agent&stage=queued&q=skills");
@@ -49,4 +49,25 @@ test("only unmodified main-button links use in-app navigation", () => {
  assert.equal(shouldHandleLink(click),true);
  for(const key of ["metaKey","ctrlKey","shiftKey","altKey","defaultPrevented"]) assert.equal(shouldHandleLink({...click,[key]:true}),false);
  for(const button of [1,2]) assert.equal(shouldHandleLink({...click,button}),false);
+});
+
+test("recipe deep links preserve the base and allow only scoped step anchors", () => {
+  const base = "https://example.test/github-star-vault/";
+  const route = { ...defaultRoute, view: "recipes", recipe: "product-demo-web", anchor: "recipe-step-motion" };
+  const href = urlForRoute(route, base);
+  assert.deepEqual(routeFromUrl(new URL(href, base).href), route);
+  assert.ok(href.startsWith("/github-star-vault/"));
+  for (const anchor of ["recipe-step-", "recipe-step-<script>", "recipe-step-one two"]) assert.equal(routeFromUrl(`${base}#${encodeURIComponent(anchor)}`).anchor, "");
+  assert.equal(routeFromUrl(`${base}?view=basket`).view, "basket");
+});
+
+test("detail fallback uses valid recipes and navigation keeps basket context separate", () => {
+  const recipes = [{ id: "monitor" }];
+  const route = { ...defaultRoute, view: "detail", repo: "1", recipe: "monitor", topic: "tools" };
+  assert.equal(detailReturnRoute(route, recipes).view, "recipes");
+  assert.equal(detailReturnRoute({ ...route, recipe: "missing" }, recipes).view, "topics");
+  assert.equal(detailReturnRoute({ ...route, topic: "", recipe: "missing" }, recipes).view, "library");
+  assert.equal(activeNavigationView(route, null, recipes), "topics");
+  assert.equal(activeNavigationView({ ...route, recipe: "" }, { view: "basket" }, recipes), "basket");
+  assert.equal(activeNavigationView({ ...route, recipe: "" }, null, recipes), "library");
 });

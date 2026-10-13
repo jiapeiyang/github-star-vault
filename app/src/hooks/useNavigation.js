@@ -8,7 +8,7 @@ export function useNavigation(normalize) {
  normalizer.current=normalize;
  const onDirtyChange=useCallback(value=>{dirty.current=value;},[]);
  const updateRoute=useCallback((patch,mode="push",scroll)=>{
-   const resetsAnchor=["view","repo","q","topic"].some(key=>Object.hasOwn(patch,key));
+   const resetsAnchor=["view","repo","q","topic","recipe"].some(key=>Object.hasOwn(patch,key));
    const next=normalizer.current({...current.current,...(resetsAnchor?{anchor:""}:{}),...patch});
    const leaving=leavesDraft(current.current,next);
    if(leaving&&dirty.current&&!window.confirm(LEAVE_MESSAGE))return false;
@@ -22,7 +22,7 @@ export function useNavigation(normalize) {
    window.history[mode==="replace"?"replaceState":"pushState"]({starVaultIndex:index.current,starVaultScroll:scroll?.window??(resetScroll?0:window.scrollY),starVaultFeedScroll:scroll?.feed??(resetScroll?0:feedScroll),starVaultReturn:origin},"",urlForRoute(next,window.location.href));
    current.current=next;setRoute(next);return true;
  },[]);
- const returnToBrowse=useCallback(()=>{const saved=window.history.state?.starVaultReturn;updateRoute(saved?.route||{...current.current,view:current.current.topic?"topics":"library",repo:"",anchor:""},"push",{window:saved?.scroll||0,feed:saved?.feedScroll||0});},[updateRoute]);
+ const returnToBrowse=useCallback((fallback)=>{const saved=window.history.state?.starVaultReturn;updateRoute(saved?.route||fallback||{...current.current,view:current.current.topic?"topics":"library",repo:"",anchor:""},"push",{window:saved?.scroll||0,feed:saved?.feedScroll||0});},[updateRoute]);
  useLayoutEffect(()=>{
    if (!route.anchor) {
      window.scrollTo({top:window.history.state?.starVaultScroll||0,behavior:"instant"});

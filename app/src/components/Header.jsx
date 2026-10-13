@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { Asterisk, List, MagnifyingGlass, X } from "@phosphor-icons/react";
+import { Asterisk, Basket, List, MagnifyingGlass, X } from "@phosphor-icons/react";
 import { assetUrl } from "../domain/catalog.js";
+import { RouteLink } from "./RouteLink.jsx";
 
-export function Header({ view, onNavigate, query, onQueryChange, onSearch }) {
+export function Header({ view, onNavigate, query, onQueryChange, onSearch, basket }) {
   const [menuOpen, setMenuOpen] = useState(false);
   useEffect(() => {
     if (!menuOpen) return undefined;
@@ -17,14 +18,16 @@ export function Header({ view, onNavigate, query, onQueryChange, onSearch }) {
     <header className="magazine-header">
       <button className="wordmark" type="button" onClick={() => navigate("home")} aria-label="返回 Star Vault 首页"><span>STAR VAULT</span><Asterisk weight="bold" aria-hidden="true" /></button>
       <nav className={menuOpen ? "header-nav is-open" : "header-nav"} aria-label="主导航">
-        {items.map(([id, label]) => <button className={view === id || (id === "library" && ["detail", "curation"].includes(view)) ? "is-current" : ""} type="button" aria-current={view === id ? "page" : undefined} onClick={() => navigate(id)} key={id}>{label}</button>)}
+        {items.map(([id, label]) => <button className={view === id ? "is-current" : ""} type="button" aria-current={view === id ? "page" : undefined} onClick={() => navigate(id)} key={id}>{label}</button>)}
       </nav>
       <form className="masthead-search" onSubmit={onSearch}>
         <MagnifyingGlass size={20} aria-hidden="true" /><label className="sr-only" htmlFor="masthead-query">搜索项目</label>
         <input id="masthead-query" type="search" value={query} onChange={(event) => onQueryChange(event.target.value)} placeholder="搜索名称、用途或技术词" /><kbd>⌘ K</kbd>
       </form>
       <div className="profile-lockup"><img src={assetUrl("assets/avatars/jiapeiyang.webp")} alt="jiapeiyang 的 GitHub 头像" /><div><strong>jiapeiyang</strong><span>个人开源年鉴</span></div></div>
+      <RouteLink className="candidate-header-link" route={{ view: "basket" }} onChange={() => navigate("basket")} aria-current={view === "basket" ? "page" : undefined} aria-label={`候选工具篮，${basket.repoIds.length} 个候选`}><Basket size={20} aria-hidden="true" /><span className="candidate-header-label">候选</span><strong>{basket.repoIds.length}</strong></RouteLink>
       <button className="menu-toggle" type="button" onClick={() => setMenuOpen((current) => !current)} aria-expanded={menuOpen} aria-label={menuOpen ? "关闭导航" : "打开导航"}>{menuOpen ? <X size={22} aria-hidden="true" /> : <List size={23} aria-hidden="true" />}</button>
+      {(basket.warning || basket.error) && <div className="candidate-header-notice" role="alert">{basket.warning && <span>{basket.warning}</span>}{basket.error && <span>{basket.error}</span>}</div>}
     </header>
   );
 }

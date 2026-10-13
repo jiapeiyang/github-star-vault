@@ -450,7 +450,7 @@ def load_curations(content_dir: Path, snapshot: dict[str, Any], config_dir: Path
     return result
 
 
-def make_catalog(snapshot: dict[str, Any], curations: dict[int, dict[str, Any]], config_dir: Path, *, topics=None, source_checks=None) -> dict[str, Any]:
+def make_catalog(snapshot: dict[str, Any], curations: dict[int, dict[str, Any]], config_dir: Path, *, topics=None, source_checks=None, recipes=None) -> dict[str, Any]:
     categories = load_enum_config("categories", config_dir)
     resources = load_enum_config("resource-types", config_dir)
     category_labels = {item["id"]: item["label"] for item in categories}
@@ -495,7 +495,7 @@ def make_catalog(snapshot: dict[str, Any], curations: dict[int, dict[str, Any]],
     active = [r for r in repositories if r["sourceStatus"] == "starred"]
     return {
         "schemaVersion": 2, "githubUsername": snapshot["github_username"], "checkedAt": snapshot["sync"]["checked_at"],
-        "categories": categories, "resourceTypes": resources, "topics": topics or [],
+        "categories": categories, "resourceTypes": resources, "topics": topics or [], "recipes": recipes or [],
         "sourcesCheckedAt": (source_checks or {}).get("checked_at"),
         "stats": {"active": len(active), "total": len(repositories),
                   "curated": sum(r["category"] != "unclassified" for r in active),

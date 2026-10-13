@@ -1,10 +1,11 @@
 import { RepoLink } from "../components/RepoLink.jsx";
 import { TopicLink } from "../components/TopicLink.jsx";
+import { RouteLink } from "../components/RouteLink.jsx";
 import { useState } from "react";
 import { ArrowRight, ArrowUpRight, Shuffle } from "@phosphor-icons/react";
 import { formatDate, latestUpdatedGuide } from "../domain/catalog.js";
 import { chooseRevisit, collectionDate } from "../domain/filters.js";
-export function HomeView({catalog,onOpenRepo,onOpenLibrary,onNavigate}) {
+export function HomeView({catalog,recipes,onOpenRepo,onOpenLibrary,onNavigate}) {
   const repos=catalog.repositories.filter(r=>r.sourceStatus==="starred"&&!r.personalArchived);
   const reviewCount=repos.filter(r=>["changed","unavailable"].includes(r.sourceCheck?.status)).length;
   const unavailableCount=repos.filter(r=>r.sourceCheck?.status==="unavailable").length;
@@ -21,5 +22,6 @@ export function HomeView({catalog,onOpenRepo,onOpenLibrary,onNavigate}) {
     <section className="current-interest"><div className="interest-title"><span>最近收藏</span><small>RECENT STARS</small></div>{repos.slice(0,3).map(repo=><RepoLink className="interest-story" key={repo.repoId} repoId={repo.repoId} onOpen={onOpenRepo}><div className="interest-story-title"><img src={repo.avatar} alt=""/><div><h3>{repo.name}</h3><span>{repo.categoryLabel}</span></div></div><p>{repo.summary||repo.description}</p><time>{formatDate(repo.starredAt)}</time><span className="story-action">查看项目 <ArrowUpRight size={16}/></span></RepoLink>)}</section>
     <section className="home-action-strip"><div className="action-strip-title"><span>再次发现</span><small>FIND · READ · RETURN</small></div><button type="button" onClick={()=>onNavigate("history",{source:"all"})}><small>收藏回顾</small><strong>沿时间翻阅</strong><span>回到某一年，看看当时关注过什么</span><ArrowRight size={18}/></button><button type="button" onClick={()=>onOpenLibrary({coverage:"complete"})}><small>仓库解读</small><strong>{catalog.stats.readyGuides} 篇完整解读</strong><span>用途、使用步骤与有来源的示例</span><ArrowRight size={18}/></button><button type="button" onClick={()=>onOpenLibrary({origin:"new"})}><small>建库后新收藏</small><strong>{catalog.stats.new} 个项目</strong><span>最近加入资料库的仓库</span><ArrowRight size={18}/></button><div className="revisit-action"><small>随机重访旧收藏</small>{revisit&&<RepoLink repoId={revisit.repoId} onOpen={onOpenRepo}><strong>{revisit.name}</strong><span>{revisit.summary||revisit.description}</span></RepoLink>}<button type="button" className="shuffle-button" onClick={()=>setRevisit(chooseRevisit(repos,Math.random,revisit?.repoId))}><Shuffle size={18}/>换一个</button></div></section>
     {(catalog.topics||[]).length>0&&<section className="home-topics"><h2>按用途看项目</h2>{catalog.topics.map(topic=><TopicLink key={topic.id} topic={topic.id} onChange={route=>onNavigate("topics",route)}><strong>{topic.title}</strong><span>{topic.description}</span><ArrowUpRight size={18}/></TopicLink>)}</section>}
+    {recipes.length > 0 && <section className="home-recipes"><header><span className="section-kicker">从目标到步骤</span><h2>带着任务翻收藏</h2><p>读一条路线，挑几个候选，把资料带走。</p></header><div>{recipes.map((recipe, index) => <RouteLink key={recipe.id} route={{ view: "recipes", recipe: recipe.id }} onChange={route => onNavigate("recipes", route)}><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{recipe.title}</h3><p>{recipe.summary}</p><small>产出：{recipe.outputs.join("；")}</small></div><ArrowUpRight size={20}/></RouteLink>)}</div></section>}
   </div></main>;
 }

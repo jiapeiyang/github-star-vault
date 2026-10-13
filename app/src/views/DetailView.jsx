@@ -4,11 +4,12 @@ import { RepoLink } from "../components/RepoLink.jsx";
 import { MarkdownContent } from "../components/MarkdownContent.jsx";
 import { contentOutline } from "../domain/markdown.js";
 import { formatCount, formatDate } from "../domain/catalog.js";
-export function DetailView({repo,query="",repositories,onBack,onOpenRepo,onOpenCuration}) {
+import { CandidateButton } from "../components/CandidateButton.jsx";
+export function DetailView({repo,query="",repositories,onBack,onOpenRepo,onOpenCuration,basket}) {
   const related=repo.relatedRepoIds.map(id=>repositories.find(r=>r.repoId===id)).filter(Boolean);
   const outline=repo.hasGuide?contentOutline(repo.contentMarkdown):[];
   return <main className="detail-page"><button className="back-link" type="button" onClick={onBack}><ArrowLeft size={17}/>返回浏览</button>
-    <header className="detail-cover"><div className="detail-identity"><img src={repo.avatar} alt=""/><div><p>{repo.categoryLabel} · {repo.resourceType}</p><h1>{repo.name}</h1><span>{repo.summary||repo.description}</span></div></div><div className="detail-actions"><a href={repo.url} target="_blank" rel="noreferrer"><GithubLogo size={19}/>GitHub <ArrowUpRight size={15}/></a>{repo.homepage&&<a href={repo.homepage} target="_blank" rel="noreferrer">上游主页 <ArrowUpRight size={15}/></a>}</div></header>
+    <header className="detail-cover"><div className="detail-identity"><img src={repo.avatar} alt=""/><div><p>{repo.categoryLabel} · {repo.resourceType}</p><h1>{repo.name}</h1><span>{repo.summary||repo.description}</span></div></div><div className="detail-actions"><CandidateButton repo={repo} basket={basket}/><a href={repo.url} target="_blank" rel="noreferrer"><GithubLogo size={19}/>GitHub <ArrowUpRight size={15}/></a>{repo.homepage&&<a href={repo.homepage} target="_blank" rel="noreferrer">上游主页 <ArrowUpRight size={15}/></a>}</div></header>
     <section className="fact-ribbon" aria-label="GitHub 仓库事实"><div><small>语言</small><strong>{repo.language}</strong></div><div><small>Stars</small><strong><Star size={18}/>{formatCount(repo.stars)}</strong></div><div><small>License</small><strong>{repo.license}</strong></div><div><small>上游归档状态</small><strong>{repo.archived?"已归档":"未归档"}</strong></div><div><small>收藏日期</small><strong>{formatDate(repo.starredAt)}</strong></div><div><small>公开 Stars 状态</small><strong>{repo.sourceStatus==="starred"?"当前已 Star":"已退出公开 Stars"}</strong></div></section>
     <div className="guide-layout"><article className="guide-story"><header className="guide-heading"><span>仓库解读</span>{repo.hasGuide&&<small>公开资料整理 · 核查于 {repo.reviewedAt}</small>}</header>
       <SourceNotice repo={repo}/>

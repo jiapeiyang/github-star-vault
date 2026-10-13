@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "vps-monitoring",
+      "title": "为自己的 VPS 建立监控",
+      "summary": "从面板选型，到准备一台测试机器的接入；分开检查面板、指标与通知。",
+      "topic_ids": [],
+      "inputs": ["需要观察的自有服务器与网站", "更关心主机指标、可用性还是通知提醒"],
+      "outputs": ["一至两个监控候选及选择理由", "所选方案的官方部署入口和单机验收清单"],
+      "requirements": ["具备测试机器的管理授权，并确认面板运行环境", "能维护访问控制、Agent 凭据及持久化数据；本站不会连接服务器"],
+      "reviewed_at": "2026-10-13",
+      "evidence": "public-sources",
+      "sources": ["https://www.komari.wiki/en/install/quick-start", "https://nezha.wiki/guide/dashboard.html", "https://nezha.wiki/guide/agent.html", "https://nezha.wiki/guide/version-compatibility.html"],
+      "tools": [
+        {
+          "repo_id": 969211164,
+          "role": "面板与 Agent 方案候选",
+          "reason": "想集中查看服务器指标时，可先核对它的面板与采集链路。与 Nezha 为替代候选，正式部署时选一种。",
+          "entry_url": "https://www.komari.wiki/en/install/quick-start",
+          "requirements": ["选择适合当前系统的面板安装方式", "面板建立后，从管理界面添加配套 Agent，先接入一台测试机器"],
+          "limitations": ["轻量与秒级刷新是上游描述，本配方没有测量资源占用或刷新表现", "主题和插件放在基本采集链路正常后考虑"],
+          "sources": ["https://github.com/komari-monitor/komari/blob/main/README.md", "https://www.komari.wiki/en/install/quick-start"]
+        },
+        {
+          "repo_id": 220588935,
+          "role": "面板、可用性与通知方案候选",
+          "reason": "需要同时考虑主机状态、网站检测和通知时，阅读这套方案的对应能力与配置。与 Komari 为替代候选。",
+          "entry_url": "https://nezha.wiki/guide/dashboard.html",
+          "requirements": ["当前官方文档面向 V2，分别核对 Dashboard 和 Agent 的 Release", "先配置面板通信入口，再使用管理界面提供的对应系统 Agent 安装说明"],
+          "limitations": ["两个组件独立发布，版本号不必完全相同；任意版本组合是否兼容仍需核对", "面板可访问、Agent 上报和通知送达须分别检查；未在真实机器执行"],
+          "sources": ["https://nezha.wiki/guide/dashboard.html", "https://nezha.wiki/guide/agent.html", "https://nezha.wiki/guide/version-compatibility.html"]
+        }
+      ],
+      "steps": [
+        {
+          "id": "scope", "title": "明确监控范围", "optional": false, "tool_ids": [],
+          "inputs": ["服务器、网站及通知需求"],
+          "actions": ["列出这次必须观察的主机指标或服务状态", "确认测试机器权限、面板环境和由谁维护数据"],
+          "outputs": ["一份明确的监控目标与部署约束"],
+          "checks": ["能说明需要主机指标、网站检测、通知中的哪些能力"]
+        },
+        {
+          "id": "choose", "title": "选择一种面板与配套 Agent", "optional": false, "tool_ids": [969211164, 220588935],
+          "inputs": ["上一步的监控目标与部署约束"],
+          "actions": ["阅读两个候选的解读和官方入口，核对目标能力与运行条件", "将有意继续比较的项目加入工具篮；正式部署前选择一种方案"],
+          "outputs": ["一至两个候选、各自适用理由和待确认项"],
+          "checks": ["清楚两者是替代方案，不混接不同项目的面板与 Agent"]
+        },
+        {
+          "id": "connect", "title": "准备一台机器的接入", "optional": false, "tool_ids": [],
+          "inputs": ["所选方案对应版本的 Dashboard 与 Agent 文档"],
+          "actions": ["先按官方文档准备面板、管理访问和持久化目录", "核对 Agent 通信入口与凭据，仅在获授权的测试机器上验证接入"],
+          "outputs": ["所选方案的安装入口、准备项和预期接入结果"],
+          "checks": ["知道面板与 Agent 各部署在哪里，哪些权限与网络条件尚未确认", "不要直接沿用旧版命令；本站未执行部署"]
+        },
+        {
+          "id": "verify", "title": "分开检查面板、上报与通知", "optional": false, "tool_ids": [],
+          "inputs": ["测试环境的实际观察结果；未部署时保留待执行清单"],
+          "actions": ["分别检查面板登录、Agent 出现和指标持续更新", "若启用告警，再在可控条件下验证通知送达；不影响真实服务"],
+          "outputs": ["能区分已观察结果与尚未执行项的检查清单"],
+          "checks": ["没有把面板能打开当作整个监控链路成功", "未知与失败原因保留在后续讨论资料中"]
+        }
+      ]
+    },
+    {
+      "id": "product-demo-web",
+      "title": "制作一个 React 产品演示网页",
+      "summary": "先确定内容和视觉规则，再挑组件、按需增加动效，最后检查实际页面。",
+      "topic_ids": ["frontend-design"],
+      "inputs": ["产品受众、核心文案和展示素材", "已有或准备新建的 React 工程及其样式约束"],
+      "outputs": ["一套从设计到检查的制作顺序", "视觉参考、组件与评审工具的候选资料"],
+      "requirements": ["本配方面向你另一个网页工程，不会给 Star Vault 安装这些工具", "采用组件前检查依赖、源码、样式与许可；示例工具组合未实测"],
+      "reviewed_at": "2026-10-13",
+      "evidence": "public-sources",
+      "sources": ["https://github.com/VoltAgent/awesome-design-md", "https://github.com/nolly-studio/cult-ui", "https://github.com/serafimcloud/21st", "https://github.com/greensock/gsap-skills", "https://github.com/pbakaus/impeccable"],
+      "tools": [
+        {
+          "repo_id": 1197515131,
+          "role": "视觉规则参考",
+          "reason": "先把颜色、字级与布局选择写成自己的设计说明，再寻找组件。",
+          "entry_url": "https://github.com/VoltAgent/awesome-design-md",
+          "requirements": ["有自己的产品内容与品牌约束", "从 Collection 挑选合适规则，并明确让所用工具读取设计说明"],
+          "limitations": ["参考文档不是页面生成器，也不构成原品牌视觉身份的使用授权", "已有 DESIGN.md 不应被参考文件直接覆盖"],
+          "sources": ["https://github.com/VoltAgent/awesome-design-md/blob/main/README.md"]
+        },
+        {
+          "repo_id": 806879762,
+          "role": "React 组件来源候选",
+          "reason": "需要可修改的源码组件时，按页面内容选用局部组件；与 21st 是这一步的替代入口。",
+          "entry_url": "https://github.com/nolly-studio/cult-ui",
+          "requirements": ["从 README 进入组件文档，逐项核对 shadcn、Tailwind 和 Motion 依赖", "接入后检查主题变量、全局样式与新增文件"],
+          "limitations": ["组件、关联模式站和商业模板不是同一获取范围", "已有 Motion 满足目标时，无需再采用 GSAP"],
+          "sources": ["https://github.com/nolly-studio/cult-ui/blob/main/README.md"]
+        },
+        {
+          "repo_id": 865326415,
+          "role": "社区 React 组件来源候选",
+          "reason": "想比较多作者的组件与演示时，从 registry 挑选源码；与 cult-ui 为替代候选，不要求同时安装。",
+          "entry_url": "https://github.com/serafimcloud/21st",
+          "requirements": ["逐项阅读组件源码、依赖和演示，再按条目入口接入自己的 React 工程"],
+          "limitations": ["使用一个组件与自建整个 registry 平台是两种不同任务", "社区收录不等于组件可访问性或版本兼容性已经验证"],
+          "sources": ["https://github.com/serafimcloud/21st/blob/main/README.md"]
+        },
+        {
+          "repo_id": 1172781277,
+          "role": "可选的动画实现指导",
+          "reason": "确定要采用 GSAP 后，再按对应主题查阅时间线、React 接入和清理规则。",
+          "entry_url": "https://github.com/greensock/gsap-skills",
+          "requirements": ["确认有具体动效目标；实际 GSAP 运行依赖与插件注册需要单独处理"],
+          "limitations": ["技能只是实现指导，不是运行时动画库", "不让两套动画控制同一元素属性；已有方案满足目标时跳过本步"],
+          "sources": ["https://github.com/greensock/gsap-skills/blob/main/README.md"]
+        },
+        {
+          "repo_id": 1097346685,
+          "role": "页面评审与精修辅助",
+          "reason": "页面主体完成后，用有范围的 audit 或 polish 辅助发现层级与交互问题。",
+          "entry_url": "https://github.com/pbakaus/impeccable",
+          "requirements": ["根据当前 README 核对宿主、安装范围和 hook 信任", "准备可检查的页面以及明确的评审范围"],
+          "limitations": ["审美与任务适配仍需判断，检测结果不替代浏览器验收", "live 迭代用于本地开发环境，不能把注入方式直接用于生产站点"],
+          "sources": ["https://github.com/pbakaus/impeccable/blob/main/README.md"]
+        }
+      ],
+      "steps": [
+        {
+          "id": "design", "title": "确定内容与视觉规则", "optional": false, "tool_ids": [1197515131],
+          "inputs": ["受众、核心卖点、页面结构与现有品牌约束"],
+          "actions": ["先写页面必须回答的问题与内容顺序", "阅读设计参考，选取合适规则并改成自己的设计说明"],
+          "outputs": ["一份属于当前产品的设计说明"],
+          "checks": ["能说明字级、留白和强调色分别服务什么内容，而不只是复制品牌"]
+        },
+        {
+          "id": "components", "title": "实现内容与组件", "optional": false, "tool_ids": [806879762, 865326415],
+          "inputs": ["设计说明、产品文案和已选 React 工程"],
+          "actions": ["在两个来源中挑选需要的组件，先核对依赖与源码再接入", "替换演示内容，检查新增样式是否符合项目约束"],
+          "outputs": ["能展示自有内容的页面主体"],
+          "checks": ["没有把两个来源当作必装依赖，也没有为取一个组件而部署整个平台"]
+        },
+        {
+          "id": "motion", "title": "添加有明确目的的动效", "optional": true, "tool_ids": [1172781277],
+          "inputs": ["已经可读可用的页面及具体动效目标"],
+          "actions": ["已有动画方案能满足目标时沿用；确需 GSAP 才阅读对应技能", "处理卸载清理、重复挂载和减少动态效果偏好"],
+          "outputs": ["有目的的交互反馈，或明确保持静态的页面"],
+          "checks": ["不让动效阻碍阅读和操作，不重复控制同一元素属性"]
+        },
+        {
+          "id": "review", "title": "检查并精修实际页面", "optional": false, "tool_ids": [1097346685],
+          "inputs": ["可在浏览器打开的页面与本次评审范围"],
+          "actions": ["先检查内容层级、链接、键盘、窄屏和动效降级", "依据实际问题做局部修改，再复查对应场景"],
+          "outputs": ["可审阅页面及有实际观察依据的检查结果"],
+          "checks": ["区分工具建议、实际修改和浏览器验证；未运行的工具不记为已验证"]
+        }
+      ]
+    }
+  ]
+}
