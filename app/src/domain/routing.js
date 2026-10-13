@@ -13,7 +13,7 @@ export function routeFromUrl(href) {
   if (route.view === "history" && !params.get("source")) route.source = "all";
   for (const key of ["from", "to", "queueCheckedBefore"]) if (!/^\d{4}-\d{2}-\d{2}$/.test(route[key])) route[key] = "";
   try { route.anchor = decodeURIComponent(new URL(href).hash.slice(1)); } catch { route.anchor = ""; }
-  if (!route.anchor.startsWith("content-") && !["queue-list","curation-sheet", "weekly-archive"].includes(route.anchor) && !/^weekly-item-[1-9]\d*$/.test(route.anchor) && !/^recipe-step-[a-z0-9]+(?:-[a-z0-9]+)*$/.test(route.anchor)) route.anchor = "";
+  if (!route.anchor.startsWith("content-") && !["queue-list","curation-sheet", "weekly-archive", "weekly-reminder"].includes(route.anchor) && !/^weekly-item-[1-9]\d*$/.test(route.anchor) && !/^recipe-step-[a-z0-9]+(?:-[a-z0-9]+)*$/.test(route.anchor)) route.anchor = "";
   return route;
 }
 export function urlForRoute(route, href) {

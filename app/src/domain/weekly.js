@@ -56,6 +56,29 @@ export function issueIsPast(issue, now = new Date()) {
   return today > issue.weekEnd;
 }
 
+// 编辑导读可独立失效；保留原有期刊和仓库解读入口。
+export function getWeeklyReading(issue) {
+  if (issue.reading === undefined) return { reading: null, error: "" };
+  const reading = issue.reading;
+  const invalid = { reading: null, error: "本期导读暂不可用，可继续阅读原仓库解读。" };
+  const webUrl = value => {
+    try { return text(value) && /^https?:\/\//i.test(value) && ["https:", "http:"].includes(new URL(value).protocol); }
+    catch { return false; }
+  };
+  if (!reading || reading.leadRepoId !== issue.entries[0].repoId || !text(reading.title)
+    || !date(reading.reviewedAt) || !text(reading.contentMarkdown)
+    || !Array.isArray(reading.sources) || !reading.sources.length
+    || !reading.sources.every(source => source && text(source.label) && webUrl(source.url))
+    || !Array.isArray(reading.connections) || reading.connections.length > 2) return invalid;
+  const seen = new Set();
+  for (const connection of reading.connections) {
+    if (!connection || !issue.entries.some(entry => entry.slot === "theme" && entry.repoId === connection.repoId)
+      || seen.has(connection.repoId) || !text(connection.title) || !text(connection.note)) return invalid;
+    seen.add(connection.repoId);
+  }
+  return { reading, error: "" };
+}
+
 const readingPrompts = {
   "它是什么": "先回想：你会在什么情况下想起它？",
   "适合什么场景": "再判断：它适合解决什么，又有哪些边界？",

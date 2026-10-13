@@ -61,6 +61,7 @@ jobs:
           npm test
           npm run build
           npm run test:sites
+          python3 ../scripts/verify_weekly_build.py
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5

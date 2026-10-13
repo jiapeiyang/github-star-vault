@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { getWeeklyCatalog, issueEntries, issueIsPast, guideReadingSections, selectionReason } from "../src/domain/weekly.js";
+import { getWeeklyCatalog, getWeeklyReading, issueEntries, issueIsPast, guideReadingSections, selectionReason } from "../src/domain/weekly.js";
 import { validateCatalog } from "../src/domain/catalog.js";
 import { activeNavigationView, defaultRoute, detailReturnRoute, routeFromUrl, urlForRoute } from "../src/domain/routing.js";
 
@@ -16,6 +16,31 @@ test("optional weekly data can fail locally without breaking the repository cata
     assert.equal(validateCatalog(catalog), catalog);
     assert.ok(getWeeklyCatalog(catalog).error);
   }
+});
+
+test("editorial readings are optional and malformed extras preserve the base issue", () => {
+  const current = issue();
+  current.entries.push({ ...current.entries[0], repoId: 2, slot: "theme" });
+  assert.deepEqual(getWeeklyReading(current), { reading: null, error: "" });
+  const reading = { leadRepoId: 1, title: "一条具体阅读路线", reviewedAt: "2026-10-13", contentMarkdown: "#### 问题\n示例未执行。",
+    sources: [{ label: "公开资料", url: "https://example.com/docs" }], connections: [{ repoId: 2, title: "继续", note: "从概念进入场景" }] };
+  assert.equal(getWeeklyReading({ ...current, reading }).reading, reading);
+  const invalid = [null, "broken", { ...reading, leadRepoId: 99 }, { ...reading, contentMarkdown: " " },
+    { ...reading, reviewedAt: "2026-02-30" }, { ...reading, sources: [{ label: "危险链接", url: "javascript:alert(1)" }] },
+    { ...reading, connections: [{ ...reading.connections[0], repoId: 3 }] }, { ...reading, connections: [...reading.connections, ...reading.connections] }];
+  for (const value of invalid) {
+    const broken = { ...current, reading: value };
+    assert.ok(getWeeklyReading(broken).error);
+    assert.equal(getWeeklyReading(broken).reading, null);
+    assert.equal(getWeeklyCatalog({ weeklyIssues: [broken] }).issues.length, 1);
+  }
+});
+
+test("weekly reminder anchors survive refresh with the Pages base", () => {
+  const url = "https://example.com/github-star-vault/?view=weekly&issue=2026-10-12#weekly-reminder";
+  const route = routeFromUrl(url);
+  assert.equal(route.anchor, "weekly-reminder");
+  assert.equal(new URL(urlForRoute(route, url), url).hash, "#weekly-reminder");
 });
 
 test("bad issue dates, duplicate IDs, wrong slots and unsafe basis cannot render", () => {

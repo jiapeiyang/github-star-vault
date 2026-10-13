@@ -8,7 +8,8 @@ from pathlib import Path
 
 from catalog_extras import load_topics, load_source_checks
 from recipe_catalog import load_recipes
-from weekly_catalog import load_weekly_archive, load_weekly_config, weekly_for_catalog
+from weekly_catalog import load_weekly_archive, load_weekly_config
+from weekly_reading import weekly_with_readings
 from star_vault import ROOT, atomic_write, file_sha256, load_curations, make_catalog, read_json, stable_json, validate_snapshot
 
 
@@ -26,6 +27,8 @@ def main() -> int:
     parser.add_argument("--content", type=Path, default=ROOT / "content" / "repos")
     parser.add_argument("--output-dir", type=Path, default=ROOT / "app" / "public" / "data")
     parser.add_argument("--data-commit", default=None)
+    parser.add_argument("--weekly-archive", type=Path, default=ROOT / "data/weekly-issues.json")
+    parser.add_argument("--weekly-content", type=Path, default=ROOT / "content/weekly")
     args = parser.parse_args()
     snapshot = read_json(args.data)
     errors = validate_snapshot(snapshot)
@@ -36,7 +39,7 @@ def main() -> int:
     recipes = load_recipes(ROOT / "config/recipes.json", snapshot, topics)
     catalog = make_catalog(snapshot, curations, ROOT / "config", topics=topics, recipes=recipes, source_checks=load_source_checks(ROOT / "data/guide-source-check.json", snapshot))
     load_weekly_config(ROOT / "config/weekly.json", catalog["categories"])
-    catalog["weeklyIssues"] = weekly_for_catalog(load_weekly_archive(ROOT / "data/weekly-issues.json"))
+    catalog["weeklyIssues"] = weekly_with_readings(load_weekly_archive(args.weekly_archive), args.weekly_content)
     meta = {
         "schemaVersion": 1,
         "checkedAt": snapshot["sync"]["checked_at"],
@@ -44,6 +47,8 @@ def main() -> int:
         "dataSha256": file_sha256(args.data),
         "activeCount": snapshot["sync"]["active_count"],
         "totalCount": snapshot["sync"]["total_count"],
+        "weeklyIssueId": catalog["weeklyIssues"][-1]["id"] if catalog["weeklyIssues"] else None,
+        "weeklyIssueCount": len(catalog["weeklyIssues"]),
     }
     atomic_write(args.output_dir / "catalog.json", stable_json(catalog))
     atomic_write(args.output_dir / "build-meta.json", stable_json(meta))

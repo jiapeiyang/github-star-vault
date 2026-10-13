@@ -93,6 +93,29 @@
 .weekly-empty > a { margin: 16px 24px 0 0; }
 .weekly-detail-context { font-size: 13px; line-height: 1.8; color: var(--muted); margin: 0 0 24px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
 .weekly-page :is(summary, select):focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.weekly-cover-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 24px; }
+.weekly-deep-reading { margin: 30px 0; padding-top: 24px; border-top: 1px solid var(--line); }
+.weekly-deep-reading .weekly-reading-heading { align-items: flex-start; }
+.weekly-deep-reading .weekly-reading-heading h3 { margin-top: 10px; line-height: 1.5; }
+.weekly-deep-reading .markdown-content { font-size: 15px; line-height: 1.9; }
+.weekly-deep-reading .markdown-content h4 { margin: 30px 0 12px; font-size: 18px; line-height: 1.6; scroll-margin-top: 150px; }
+.weekly-connections { margin-top: 32px; border-top: 1px solid var(--ink); }
+.weekly-connections > h4 { margin: 22px 0 10px; font-size: 18px; }
+.weekly-connection { padding: 18px 0; border-bottom: 1px solid var(--line); }
+.weekly-connection h5 { margin: 0; font-size: 15px; }
+.weekly-connection p { font-size: 14px; line-height: 1.9; }
+.weekly-connection a { overflow-wrap: anywhere; }
+.weekly-reading-sources { margin-top: 24px; font-size: 13px; line-height: 1.9; }
+.weekly-reading-sources summary { cursor: pointer; font-weight: 700; padding: 10px 0; }
+.weekly-reading-sources ul { padding-left: 20px; }
+.weekly-reading-sources li { margin-bottom: 10px; }
+.weekly-reading-sources a { color: var(--accent); overflow-wrap: anywhere; }
+.weekly-reminder { margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--ink); scroll-margin-top: 150px; }
+.weekly-reminder h3 { margin: 0 0 12px; font-size: 21px; }
+.weekly-reminder p { max-width: 48em; }
+.weekly-reminder button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; max-width: 100%; }
+.weekly-reminder .weekly-reminder-help { font-size: 12px; }
+.weekly-reminder .weekly-reminder-status { min-height: 1.6em; font-size: 13px; color: var(--ink); }
 @media (max-width: 1100px) {
   .weekly-layout { grid-template-columns: minmax(0, 1fr) 240px; gap: 30px; }
   .weekly-home-cover { grid-template-columns: 90px minmax(0, 1fr); gap: 22px; }
