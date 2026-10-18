@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-18T15:49:23Z` · 当前公开 Stars：**332** · 已分类：**326**
+> 最近成功检查：`2026-10-18T20:38:17Z` · 当前公开 Stars：**332** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -423,7 +423,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [openwrt/openwrt](https://github.com/openwrt/openwrt) — This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue…
 - [Thysrael/Horizon](https://github.com/Thysrael/Horizon) — 📡 Your own AI-powered news radar. Generates daily briefings in English &amp; Chinese. \| 用 AI 构建你专属的新闻雷达
 - [XTLS/Xray-core](https://github.com/XTLS/Xray-core) — Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
-- [XTLS/Xray-install](https://github.com/XTLS/Xray-install) — Easiest way to install &amp; upgrade Xray
+- [XTLS/Xray-install](https://github.com/XTLS/Xray-install) — Easiest way to install &amp; upgrade Xray.
 - [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shado…
 - [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) — An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with op…
 
