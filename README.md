@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-18T04:27:15Z` · 当前公开 Stars：**331** · 已分类：**326**
+> 最近成功检查：`2026-10-18T10:59:50Z` · 当前公开 Stars：**332** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -370,7 +370,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — 以排版、布局、动效和密度规则指导代理制作前端，并提供参考图与改版技能。
 - [nexu-io/open-design](https://github.com/nexu-io/open-design) — 将本地编码代理、设计系统、生成文件和实时预览整合为桌面设计工作台。
 - [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) — 以先选方向、再迭代的流程生成 HTML 原型、幻灯片、动画和可视化交付物。
-- [EvoLinkAI/awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) — 按电商、海报、人物和 UI 等用途整理带出处与示例图的生图提示词。
+- [Evolink-AI/awesome-gpt-image-2-API-Prompts](https://github.com/Evolink-AI/awesome-gpt-image-2-API-Prompts) — 按电商、海报、人物和 UI 等用途整理带出处与示例图的生图提示词。
 - [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) — 将网页设计、可录制演示、生图、文章编排和资料检索拆成独立技能。
 - [phobal/ivideo](https://github.com/phobal/ivideo) — 基于 Electron、React 和 Redux 的历史多站点视频播放器原型。
 - [trazyn/ieaseMusic](https://github.com/trazyn/ieaseMusic) — 网易云音乐的第三方桌面客户端项目。
@@ -418,8 +418,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（5）
+### 待分类（6）
 
+- [openwrt/openwrt](https://github.com/openwrt/openwrt) — This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue…
 - [Thysrael/Horizon](https://github.com/Thysrael/Horizon) — 📡 Your own AI-powered news radar. Generates daily briefings in English &amp; Chinese. \| 用 AI 构建你专属的新闻雷达
 - [XTLS/Xray-core](https://github.com/XTLS/Xray-core) — Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
 - [XTLS/Xray-install](https://github.com/XTLS/Xray-install) — Easiest way to install &amp; upgrade Xray
