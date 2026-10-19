@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-19T13:07:16Z` · 当前公开 Stars：**336** · 已分类：**326**
+> 最近成功检查：`2026-10-19T22:19:10Z` · 当前公开 Stars：**338** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -418,8 +418,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（10）
+### 待分类（12）
 
+- [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) — 翻墙-科学上网
+- [joeseesun/lexfridman-cn](https://github.com/joeseesun/lexfridman-cn) — Lex Fridman 播客中文导航站:506 期全目录、AI 中文精读、官方音频/文稿与全文 RSS \| Chinese companion to the Lex Fridman Podcast: AI deep-reads, official audio &amp; transcripts for a…
 - [chen08209/FlClash](https://github.com/chen08209/FlClash) — A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.
 - [yding-git/personal-edge-proxy](https://github.com/yding-git/personal-edge-proxy) — A practical multi-inbound, multi-outbound personal proxy setup with Xray, Hysteria2, REALITY Vision, WARP and optional static SOCKS5 routing.
 - [jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest) — 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。
