@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-20T11:31:36Z` · 当前公开 Stars：**347** · 已分类：**326**
+> 最近成功检查：`2026-10-20T16:59:43Z` · 当前公开 Stars：**346** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -418,7 +418,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（21）
+### 待分类（20）
 
 - [byoungd/up](https://github.com/byoungd/up) — 韩先凯的人生进阶指南 人生进阶指南 AI时代生存指南 英语学习指南 离谱的人生 AI AI时代终身学习：AI、学习、创业与成长。
 - [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — Awesome UI for Claude Code ✨ https://baocode.dev
@@ -428,7 +428,6 @@ GITHUB_PAGES=true npm --prefix app run build
 - [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) — Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 - [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) — One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.
 - [VictorTran1023/tcl-tv-adb-proxy](https://github.com/VictorTran1023/tcl-tv-adb-proxy) — TCL 电视调试与优化手册：ADB 授权 · 侧载 · 代理 · 去广告 · 低负载 · HUD · 回归测试
-- [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) — DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
 - [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) — 翻墙-科学上网
 - [joeseesun/lexfridman-cn](https://github.com/joeseesun/lexfridman-cn) — Lex Fridman 播客中文导航站:506 期全目录、AI 中文精读、官方音频/文稿与全文 RSS \| Chinese companion to the Lex Fridman Podcast: AI deep-reads, official audio &amp; transcripts for a…
 - [chen08209/FlClash](https://github.com/chen08209/FlClash) — A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.
