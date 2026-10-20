@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-20T16:59:43Z` · 当前公开 Stars：**346** · 已分类：**326**
+> 最近成功检查：`2026-10-20T21:34:44Z` · 当前公开 Stars：**349** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -418,8 +418,11 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（20）
+### 待分类（23）
 
+- [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) — Purge Community：给 DeepSeek Harness 拆闸的插件 —— 83 条宿主补丁 · 27 层破甲自检 · 提示词/规则/技能管理 · 原生右侧面板
+- [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) — 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断
+- [Azure12355/weilanx-claude-videos](https://github.com/Azure12355/weilanx-claude-videos) — Hand-drawn and pixel-art explainer videos written entirely in code — Remotion + React + SVG, procedural music &amp; SFX, subtitle-driven timing
 - [byoungd/up](https://github.com/byoungd/up) — 韩先凯的人生进阶指南 人生进阶指南 AI时代生存指南 英语学习指南 离谱的人生 AI AI时代终身学习：AI、学习、创业与成长。
 - [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — Awesome UI for Claude Code ✨ https://baocode.dev
 - [andyhuo520/aetherviz-master](https://github.com/andyhuo520/aetherviz-master) — AetherViz Master - 互动教育可视化建筑师，将任意教学主题转化为沉浸式3D交互网页
