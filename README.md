@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-20T04:45:13Z` · 当前公开 Stars：**345** · 已分类：**326**
+> 最近成功检查：`2026-10-20T11:31:36Z` · 当前公开 Stars：**347** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -418,8 +418,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（19）
+### 待分类（21）
 
+- [byoungd/up](https://github.com/byoungd/up) — 韩先凯的人生进阶指南 人生进阶指南 AI时代生存指南 英语学习指南 离谱的人生 AI AI时代终身学习：AI、学习、创业与成长。
+- [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — Awesome UI for Claude Code ✨ https://baocode.dev
 - [andyhuo520/aetherviz-master](https://github.com/andyhuo520/aetherviz-master) — AetherViz Master - 互动教育可视化建筑师，将任意教学主题转化为沉浸式3D交互网页
 - [OJZen/totk-mobile](https://github.com/OJZen/totk-mobile) — Experimental native Tears of the Kingdom port for macOS and iOS.
 - [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5…
