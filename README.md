@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-19T22:19:10Z` · 当前公开 Stars：**338** · 已分类：**326**
+> 最近成功检查：`2026-10-20T04:45:13Z` · 当前公开 Stars：**345** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -418,14 +418,21 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（12）
+### 待分类（19）
 
+- [andyhuo520/aetherviz-master](https://github.com/andyhuo520/aetherviz-master) — AetherViz Master - 互动教育可视化建筑师，将任意教学主题转化为沉浸式3D交互网页
+- [OJZen/totk-mobile](https://github.com/OJZen/totk-mobile) — Experimental native Tears of the Kingdom port for macOS and iOS.
+- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5…
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) — Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
+- [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) — One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.
+- [VictorTran1023/tcl-tv-adb-proxy](https://github.com/VictorTran1023/tcl-tv-adb-proxy) — TCL 电视调试与优化手册：ADB 授权 · 侧载 · 代理 · 去广告 · 低负载 · HUD · 回归测试
+- [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) — DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
 - [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) — 翻墙-科学上网
 - [joeseesun/lexfridman-cn](https://github.com/joeseesun/lexfridman-cn) — Lex Fridman 播客中文导航站:506 期全目录、AI 中文精读、官方音频/文稿与全文 RSS \| Chinese companion to the Lex Fridman Podcast: AI deep-reads, official audio &amp; transcripts for a…
 - [chen08209/FlClash](https://github.com/chen08209/FlClash) — A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.
 - [yding-git/personal-edge-proxy](https://github.com/yding-git/personal-edge-proxy) — A practical multi-inbound, multi-outbound personal proxy setup with Xray, Hysteria2, REALITY Vision, WARP and optional static SOCKS5 routing.
 - [jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest) — 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。
-- [xerj-org/xerj](https://github.com/xerj-org/xerj) — XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). O…
+- [xerj-org/xerj](https://github.com/xerj-org/xerj) — Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and h…
 - [openwrt/openwrt](https://github.com/openwrt/openwrt) — This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue…
 - [Thysrael/Horizon](https://github.com/Thysrael/Horizon) — 📡 Your own AI-powered news radar. Generates daily briefings in English &amp; Chinese. \| 用 AI 构建你专属的新闻雷达
 - [XTLS/Xray-core](https://github.com/XTLS/Xray-core) — Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
