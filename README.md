@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-20T21:34:44Z` · 当前公开 Stars：**349** · 已分类：**326**
+> 最近成功检查：`2026-10-21T04:41:23Z` · 当前公开 Stars：**349** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -420,8 +420,8 @@ GITHUB_PAGES=true npm --prefix app run build
 
 ### 待分类（23）
 
-- [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) — Purge Community：给 DeepSeek Harness 拆闸的插件 —— 83 条宿主补丁 · 27 层破甲自检 · 提示词/规则/技能管理 · 原生右侧面板
-- [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) — 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断
+- [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) — 让 AI 更专注地辅助学习与动手实验 —— DeepSeek Harness 附加组件（状态自检 / 提示词管理 / 本机备份与回滚）
+- [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) — 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中），课标对齐、人教版，1244 知识点、5123 题、自适应诊断
 - [Azure12355/weilanx-claude-videos](https://github.com/Azure12355/weilanx-claude-videos) — Hand-drawn and pixel-art explainer videos written entirely in code — Remotion + React + SVG, procedural music &amp; SFX, subtitle-driven timing
 - [byoungd/up](https://github.com/byoungd/up) — 韩先凯的人生进阶指南 人生进阶指南 AI时代生存指南 英语学习指南 离谱的人生 AI AI时代终身学习：AI、学习、创业与成长。
 - [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — Awesome UI for Claude Code ✨ https://baocode.dev
