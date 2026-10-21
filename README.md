@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-21T04:41:23Z` · 当前公开 Stars：**349** · 已分类：**326**
+> 最近成功检查：`2026-10-21T11:44:11Z` · 当前公开 Stars：**352** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -418,10 +418,13 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（23）
+### 待分类（26）
 
+- [mcncarl/yichen-skills](https://github.com/mcncarl/yichen-skills) — 暂无 GitHub 描述。
+- [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) — Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.
+- [SagerNet/sing-box](https://github.com/SagerNet/sing-box) — The universal proxy platform
 - [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) — 让 AI 更专注地辅助学习与动手实验 —— DeepSeek Harness 附加组件（状态自检 / 提示词管理 / 本机备份与回滚）
-- [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) — 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中），课标对齐、人教版，1244 知识点、5123 题、自适应诊断
+- [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) — 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1503 知识点、6159 题、自适应诊断
 - [Azure12355/weilanx-claude-videos](https://github.com/Azure12355/weilanx-claude-videos) — Hand-drawn and pixel-art explainer videos written entirely in code — Remotion + React + SVG, procedural music &amp; SFX, subtitle-driven timing
 - [byoungd/up](https://github.com/byoungd/up) — 韩先凯的人生进阶指南 人生进阶指南 AI时代生存指南 英语学习指南 离谱的人生 AI AI时代终身学习：AI、学习、创业与成长。
 - [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — Awesome UI for Claude Code ✨ https://baocode.dev
@@ -430,7 +433,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5…
 - [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) — Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 - [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) — One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.
-- [VictorTran1023/tcl-tv-adb-proxy](https://github.com/VictorTran1023/tcl-tv-adb-proxy) — TCL 电视调试与优化手册：ADB 授权 · 侧载 · 代理 · 去广告 · 低负载 · HUD · 回归测试
+- [VictorTran1023/tcl-tv-toolkit](https://github.com/VictorTran1023/tcl-tv-toolkit) — 国行 Android TV 调试与调优工具箱：ADB 授权、侧载、代理、去广告、状态 HUD \| China-market Android TV toolkit: ADB auth, sideload, proxy, debloat, status HUD
 - [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) — 翻墙-科学上网
 - [joeseesun/lexfridman-cn](https://github.com/joeseesun/lexfridman-cn) — Lex Fridman 播客中文导航站:506 期全目录、AI 中文精读、官方音频/文稿与全文 RSS \| Chinese companion to the Lex Fridman Podcast: AI deep-reads, official audio &amp; transcripts for a…
 - [chen08209/FlClash](https://github.com/chen08209/FlClash) — A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.
