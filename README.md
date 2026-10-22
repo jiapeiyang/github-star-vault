@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-22T11:47:09Z` · 当前公开 Stars：**355** · 已分类：**326**
+> 最近成功检查：`2026-10-22T17:07:43Z` · 当前公开 Stars：**356** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -418,8 +418,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（29）
+### 待分类（30）
 
+- [dimthink/PriceAI](https://github.com/dimthink/PriceAI) — AI 订阅卡网渠道比价工具：聚合100+卡网渠道包含 ChatGPT、Claude、Gemini、Grok 等多渠道报价，展示有货最低价、库存状态和原站购买链接。
 - [a9gent/mindfs](https://github.com/a9gent/mindfs) — Access your personal AI agents and workstation data anywhere, anytime through MindFS.
 - [appshubcc/Bettbox](https://github.com/appshubcc/Bettbox) — Another Better Network Toolbox
 - [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design s…
