@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-22T04:39:22Z` · 当前公开 Stars：**355** · 已分类：**326**
+> 最近成功检查：`2026-10-22T11:47:09Z` · 当前公开 Stars：**355** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -427,13 +427,13 @@ GITHUB_PAGES=true npm --prefix app run build
 - [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) — Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.
 - [SagerNet/sing-box](https://github.com/SagerNet/sing-box) — The universal proxy platform
 - [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) — 让 AI 更专注地辅助学习与动手实验 —— DeepSeek Harness 附加组件（状态自检 / 提示词管理 / 本机备份与回滚）
-- [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) — 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1503 知识点、6159 题、自适应诊断
+- [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) — 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。
 - [Azure12355/weilanx-claude-videos](https://github.com/Azure12355/weilanx-claude-videos) — Hand-drawn and pixel-art explainer videos written entirely in code — Remotion + React + SVG, procedural music &amp; SFX, subtitle-driven timing
-- [byoungd/up](https://github.com/byoungd/up) — 韩先凯的人生进阶指南 人生进阶指南 AI时代生存指南 英语学习指南 离谱的人生 AI AI时代终身学习：AI、学习、创业与成长。
-- [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — Awesome UI for Claude Code ✨ https://baocode.dev
+- [byoungd/up](https://github.com/byoungd/up) — 中英双语终身学习指南：英语学习、AI 协作、真实项目与成长证据。
+- [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — Awesome GUI for Claude Code CLI✨ https://baocode.dev
 - [andyhuo520/aetherviz-master](https://github.com/andyhuo520/aetherviz-master) — AetherViz Master - 互动教育可视化建筑师，将任意教学主题转化为沉浸式3D交互网页
 - [OJZen/totk-mobile](https://github.com/OJZen/totk-mobile) — Experimental native Tears of the Kingdom port for macOS and iOS.
-- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5…
+- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in…
 - [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) — Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
 - [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) — One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.
 - [VictorTran1023/android-tv-toolkit](https://github.com/VictorTran1023/android-tv-toolkit) — 品牌无关的 Android TV 调试与调优工具箱：ADB 授权、分品牌侧载、去广告、状态 HUD、回归测试 \| Brand-agnostic Android TV toolkit: ADB auth, per-brand sideloading, debloat, status HUD, reg…
