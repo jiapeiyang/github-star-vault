@@ -65,7 +65,24 @@
 
 ## 本地与线上状态
 
-本轮人工资料与事实快照已在本地更新；用户已授权提交、合并到 `main` 并发布到现有 GitHub Pages。只有对应 Actions 的部署成功且线上产物核对通过后，才记录为已发布。具体提交与运行结果在发布后补记。
+本轮更新已提交、合并到 `main` 并发布到现有 GitHub Pages：
+
+- 内容提交：[`20c30f6`](https://github.com/jiapeiyang/github-star-vault/commit/20c30f6)。合并远端定时同步记录时，README 索引和事实快照出现生成数据冲突；通过同步与索引脚本重新生成解决，没有手工改写事实字段。
+- 发布提交：[`843cd2ce7ce27c96031bb7e410795fc789eb603c`](https://github.com/jiapeiyang/github-star-vault/commit/843cd2ce7ce27c96031bb7e410795fc789eb603c)，已原子推送到 `main` 与 `codex/stars-refresh-20261023`。
+- [发布流水线 39952743336](https://github.com/jiapeiyang/github-star-vault/actions/runs/39952743336) 的数据校验、Python 测试、前端测试、Sites 测试、生产构建、特刊产物校验与 Pages 部署均成功；部署于 **2026-10-23 20:22:24（北京时间）**完成。
+- 合并后重新读取 4 页 Stars，仍为 360 个当前收藏和 363 条历史记录；逐项核对远端所有 repo_id、first_seen_at，以及两期特刊档案均保留。最终快照时间为 `2026-10-23T12:20:33Z`。
+- 线上 `data/build-meta.json` 的 `dataCommit` 对应发布提交，`activeCount=360`、`totalCount=363`、`weeklyIssueId=2026-10-19`、`weeklyIssueCount=2`，事实 SHA-256 为 `89325a5f2c435b89acf327cd0239da70ccef1e26a47e36ed11b0c837f64dc7ca`。
+- 公开首页、目录、JS、CSS 和头像均返回 HTTP 200，内容与本地发布构建逐字节相同。目录包含本轮 35 份更新资料，统计为 355 篇完整、5 篇受限、0 项待补。
+- 真实线上浏览器走通 NodeQuality 搜索 → 详情，确认六个正文章节、2026-10-23 核查日期、未执行说明和 GitHub 来源均显示；未捕获应用 warning/error。测试标签页已关闭，没有保留测试截图、下载或原始日志。
+
+| 线上产物 | 字节数 | SHA-256 |
+| --- | ---: | --- |
+| `index.html` | 742 | `6afe11227d762c549edd1f47469be38546560ad07c5195d406945c9261de52cb` |
+| `data/catalog.json` | 1555255 | `0abbef9bbde23062b7bcfee4301d4f5d4c6f947f9b4b8b1ccc129e2bcaeb6bb3` |
+| `assets/index-CDXy9uuW.js` | 488111 | `4b882593183a4624d249e715d99c6e524a42262d01db7a6ace2e9d1c4603d9f5` |
+| `assets/index-CHSKqESj.css` | 78950 | `17b71cf75cdd385b7ed84eb14222de2b6ab76c726e45b56ab8cb7d13bb4ff8a0` |
+
+以上记录对应内容发布提交；后续仅补交付证据的提交不改变目录正文，线上最新提交以实际 `data/build-meta.json` 为准。
 
 `app/public/data/*.json` 仅由构建生成，未手改、未加入提交。用户既有 `app/qa/production-learning.png` 改动保留。
 
