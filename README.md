@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-23T04:44:57Z` · 当前公开 Stars：**357** · 已分类：**326**
+> 最近成功检查：`2026-10-23T11:34:07Z` · 当前公开 Stars：**360** · 已分类：**326**
 
 
 ### AI 与 Agent（35）
@@ -418,8 +418,11 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（31）
+### 待分类（34）
 
+- [masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script) — YABS - a simple bash script to estimate Linux server performance using fio, iperf3, &amp; Geekbench
+- [LloydAsp/NodeQuality](https://github.com/LloydAsp/NodeQuality) — 在沙箱环境中运行vps测试脚本，并排版测试结果
+- [oneclickvirt/ecs](https://github.com/oneclickvirt/ecs) — VPS Fusion Monster — Server Benchmark (Go Edition) Aims to be the most comprehensive and fastest server benchmarking project, built in Go with zero e…
 - [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) — MCP for xiaohongshu.com
 - [dimthink/PriceAI](https://github.com/dimthink/PriceAI) — AI 订阅卡网渠道比价工具：聚合100+卡网渠道包含 ChatGPT、Claude、Gemini、Grok 等多渠道报价，展示有货最低价、库存状态和原站购买链接。
 - [a9gent/mindfs](https://github.com/a9gent/mindfs) — Access your personal AI agents and workstation data anywhere, anytime through MindFS.
@@ -430,7 +433,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) — 让 AI 更专注地辅助学习与动手实验 —— DeepSeek Harness 附加组件（状态自检 / 提示词管理 / 本机备份与回滚）
 - [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) — 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。
 - [Azure12355/weilanx-claude-videos](https://github.com/Azure12355/weilanx-claude-videos) — Hand-drawn and pixel-art explainer videos written entirely in code — Remotion + React + SVG, procedural music &amp; SFX, subtitle-driven timing
-- [byoungd/up](https://github.com/byoungd/up) — 中英双语终身学习指南：英语学习、AI 协作、真实项目与成长证据。
+- [byoungd/up](https://github.com/byoungd/up) — 韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：英语学习、AI 协作、真实项目与成长证据。
 - [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — Awesome GUI for Claude Code CLI✨ https://baocode.dev
 - [andyhuo520/aetherviz-master](https://github.com/andyhuo520/aetherviz-master) — AetherViz Master - 互动教育可视化建筑师，将任意教学主题转化为沉浸式3D交互网页
 - [OJZen/totk-mobile](https://github.com/OJZen/totk-mobile) — Experimental native Tears of the Kingdom port for macOS and iOS.
