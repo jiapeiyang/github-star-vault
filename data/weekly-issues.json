@@ -76,6 +76,82 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-10-19",
+      "number": 2,
+      "week_end": "2026-10-25",
+      "generated_at": "2026-10-18T20:38:24+00:00",
+      "facts_checked_at": "2026-10-18T20:38:17Z",
+      "selection_version": 1,
+      "editorial": {
+        "id": "devtools-automation",
+        "title": "让重复的事，少做一次",
+        "intro": "翻回收藏过的开发工具，看看哪一步重复操作值得交给工具。",
+        "question": "它接收什么输入、交付什么结果？哪些步骤仍然需要人来确认？"
+      },
+      "entries": [
+        {
+          "repo_id": 1133707766,
+          "slot": "lead",
+          "selection": {
+            "name": "multica-ai/multica",
+            "category": "devtools-automation",
+            "category_label": "开发者工具与自动化",
+            "starred_at": "2026-06-09T18:26:43Z",
+            "age_days": 131,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 1012625755,
+          "slot": "theme",
+          "selection": {
+            "name": "git-ai-project/git-ai",
+            "category": "devtools-automation",
+            "category_label": "开发者工具与自动化",
+            "starred_at": "2026-07-16T02:57:35Z",
+            "age_days": 95,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 63418718,
+          "slot": "theme",
+          "selection": {
+            "name": "521xueweihan/git-tips",
+            "category": "devtools-automation",
+            "category_label": "开发者工具与自动化",
+            "starred_at": "2021-07-01T04:10:57Z",
+            "age_days": 1936,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 17655907,
+          "slot": "discovery",
+          "selection": {
+            "name": "fex-team/interview-questions",
+            "category": "web-client",
+            "category_label": "Web、前端与跨端",
+            "starred_at": "2021-07-01T04:12:12Z",
+            "age_days": 1936,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 125791597,
+          "slot": "discovery",
+          "selection": {
+            "name": "InterviewMap/CS-Interview-Knowledge-Map",
+            "category": "cs-engineering",
+            "category_label": "计算机基础与工程实践",
+            "starred_at": "2018-09-07T01:52:19Z",
+            "age_days": 2964,
+            "last_featured_week": null
+          }
+        }
+      ]
     }
   ]
 }

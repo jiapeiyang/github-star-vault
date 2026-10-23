@@ -4,15 +4,15 @@
 
 ## 当前版本
 
-v1.5 已完成资料、检索和维护功能及相关验证，浏览器和性能证据见 [交付记录](docs/12-v1.5-delivery.md)。用户已授权提交、推送至 main 并部署 GitHub Pages；线上版本以 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml) 中对应提交的成功部署记录为准。
+v1.8 已发布特刊导读与重访功能，见 [交付记录](docs/15-v1.8-delivery.md)。2026-10-23 收藏资料更新及发布状态见 [刷新记录](docs/content-batches/2026-10-23-refresh-report.md)；线上版本以 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml) 中对应提交的成功部署记录为准。
 
 - 自动同步公开 Stars，以 repo_id 保留更名、退出公开列表和重新 Star 的历史。
 - 项目库支持多词用途检索、相关性排序、组合筛选与命中章节定位；收藏回顾按北京时间年月浏览历史。
-- 2026-10-13 本地快照：326 个当前收藏、328 条历史记录；321 篇完整解读、5 篇资料受限、0 项待补。本轮新增 13 份资料并人工复核 14 个专题项目。
+- 2026-10-23 本地快照：360 个当前收藏、363 条历史记录；355 篇完整解读、5 篇资料受限、0 项待补。本轮为新增的 34 个收藏补齐分类与解读，更新 1 个更名仓库的来源入口，并保留远端已生成的 2 期特刊。
 - 首页、项目列表与筛选区分完整解读、资料受限和待补。完整度表示资料结构，示例是否实际执行在正文单独说明。
 - 视频创作、前端设计、Agent 工作流共 3 个专题，各 8 个项目和一组 3 项轻量对照；比较任务、输入、输出、入口、前提及限制。
 - 资料维护可按 README 变化、读取失败、检查日期及专题筛选，状态保留在 URL；手动差异报告帮助查看上游 README 变更。
-- 当前来源检查保留 115 项 README 变化提示，211 项版本相同，0 项读取失败。全文覆盖不等于所有来源已人工重读。
+- 本轮保存新增仓库及更名仓库的 README 版本证据；其余资料沿用各自的核查时间，全文覆盖不等于所有来源已人工重读。
 - 仓库解读与公开示例注明来源、核查日期及执行边界。v1.3 的 10 个本地验证示例保留当时版本记录，本轮没有重跑；新增例子均未执行。
 - 学习阶段、笔记和完成统计已移除。表单只生成文件，不提供在线保存；观察 Issue 的修订稿仅保存在本地。
 
@@ -65,11 +65,13 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-13T14:07:23Z` · 当前公开 Stars：**326** · 已分类：**326**
+> 最近成功检查：`2026-10-23T11:57:43Z` · 当前公开 Stars：**360** · 已分类：**360**
 
 
-### AI 与 Agent（35）
+### AI 与 Agent（37）
 
+- [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) — 以 Markdown 为持久来源、结合本地索引和可选模型服务的 Agent 记忆运行时。
+- [Thysrael/Horizon](https://github.com/Thysrael/Horizon) — 按兴趣读取多来源资讯，经筛选和模型处理生成中英简报，并支持可选发布与通知。
 - [monid-ai/monid](https://github.com/monid-ai/monid) — 用声明式连接器描述工具 API 的认证、输入输出和用量，供本地执行、回放测试及 Monid 平台使用。
 - [xai-org/grok-build](https://github.com/xai-org/grok-build) — 提供读写代码、工具执行、长任务与编辑器接入的 Rust 终端编码代理。
 - [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — 通过技能规则让编码代理先给行动、分步说明，并减少偏题和冗余输出。
@@ -106,8 +108,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — 支持终端和消息渠道的代理运行时，包含工具、会话检索、技能与定时任务。
 - [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — 通过独立 Python 章节演示工具循环、权限、上下文和多任务代理运行机制。
 
-### Web、前端与跨端（79）
+### Web、前端与跨端（80）
 
+- [OJZen/totk-mobile](https://github.com/OJZen/totk-mobile) — 研究在 Apple Silicon 与 iOS 上运行特定游戏版本的原生代码及图形转换。
 - [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) — 将 Canvas 与 GPU 视觉效果覆盖到可交互 HTML 上的跨框架组件源码。
 - [greensock/gsap-skills](https://github.com/greensock/gsap-skills) — 为编码代理整理 GSAP 核心 API、时间线、滚动动画、框架接入与性能规则。
 - [oil-oil/draw-ui](https://github.com/oil-oil/draw-ui) — 先确定页面目标与视觉方向，再生成 UI 设计稿，并按需要还原为网页或小程序界面。
@@ -188,8 +191,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [xwartz/wechat-app-demo](https://github.com/xwartz/wechat-app-demo) — 用于学习微信小程序结构与功能的示例项目。
 - [lessfish/underscore-analysis](https://github.com/lessfish/underscore-analysis) — 按系列分析 Underscore 工具库源码。
 
-### 后端与数据（20）
+### 后端与数据（21）
 
+- [xerj-org/xerj](https://github.com/xerj-org/xerj) — 用单个 Rust 程序索引代码与文档，提供全文、向量、混合检索及 MCP 接口。
 - [opendatalab/MinerU](https://github.com/opendatalab/MinerU) — 将 PDF、图片和 Office 文档解析为有阅读顺序的 Markdown 与 JSON。
 - [chenshenhai/koa2-note](https://github.com/chenshenhai/koa2-note) — 覆盖 Koa 2 中间件、路由、请求数据、会话与项目组织的中文电子书。
 - [yjhjstz/deep-into-node](https://github.com/yjhjstz/deep-into-node) — 深入分析 Node.js 的核心思想与源码实现。
@@ -211,8 +215,19 @@ GITHUB_PAGES=true npm --prefix app run build
 - [ElemeFE/node-interview](https://github.com/ElemeFE/node-interview) — 整理 Node.js 岗位面试相关问题与知识。
 - [koajs/koa](https://github.com/koajs/koa) — 以中间件组合方式构建 Node.js Web 服务的框架。
 
-### 基础设施、网络与安全（22）
+### 基础设施、网络与安全（33）
 
+- [masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script) — 组合 fio、iperf3 与 Geekbench，检查 Linux 服务器的磁盘、网络及 CPU 性能。
+- [LloydAsp/NodeQuality](https://github.com/LloydAsp/NodeQuality) — 在临时 chroot 环境中整合 VPS 测试，并整理 Markdown、截图与分享结果。
+- [oneclickvirt/ecs](https://github.com/oneclickvirt/ecs) — 用 Go 工具整合服务器性能、IP 信息、线路、延迟及带宽测评。
+- [appshubcc/Bettbox](https://github.com/appshubcc/Bettbox) — 基于 Mihomo 的网络分流与 DNS 调试客户端，提供桌面、移动端及电视适配。
+- [SagerNet/sing-box](https://github.com/SagerNet/sing-box) — 提供可配置入站、出站与路由规则的通用代理平台。
+- [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) — 按 Windows、macOS、Linux、移动端和路由器组织网络工具与教程入口。
+- [chen08209/FlClash](https://github.com/chen08209/FlClash) — 基于 Mihomo 的跨平台代理客户端，提供订阅管理、规则分流、TUN 与连接观察。
+- [yding-git/personal-edge-proxy](https://github.com/yding-git/personal-edge-proxy) — 通过示例与文档说明 HY2、REALITY、WARP 和固定 SOCKS5 的入口、出口分工。
+- [openwrt/openwrt](https://github.com/openwrt/openwrt) — 为嵌入式设备提供可安装软件包、可定制的 Linux 系统与固件构建体系。
+- [XTLS/Xray-core](https://github.com/XTLS/Xray-core) — 实现 Xray 网络代理核心，并提供 VLESS、XTLS、REALITY 等相关配置与生态入口。
+- [XTLS/Xray-install](https://github.com/XTLS/Xray-install) — 安装、升级和移除 Xray-core，并管理 Linux 服务及可选规则数据。
 - [komari-monitor/komari](https://github.com/komari-monitor/komari) — 用轻量 Agent 采集服务器指标，在自托管 Web 面板查看状态，并支持主题与插件扩展。
 - [nezhahq/nezha](https://github.com/nezhahq/nezha) — 通过自托管面板监控服务器状态、网站和端口，配置告警、定时任务与 Web 终端。
 - [2dust/v2rayN](https://github.com/2dust/v2rayN) — 在 Windows、Linux 和 macOS 上用图形界面管理 Xray、sing-box 等核心与代理连接。
@@ -236,8 +251,16 @@ GITHUB_PAGES=true npm --prefix app run build
 - [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) — 基于 ServiceWorker 实现的浏览器在线代理。
 - [yeasy/docker_practice](https://github.com/yeasy/docker_practice) — Docker 与容器技术的实践学习资料。
 
-### 开发者工具与自动化（89）
+### 开发者工具与自动化（97）
 
+- [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) — 通过本地登录与浏览器自动化，将小红书搜索、内容读取及发布操作接入 MCP。
+- [a9gent/mindfs](https://github.com/a9gent/mindfs) — 在浏览器和手机上访问本机编码代理、项目文件与运行结果的自托管工作台。
+- [mcncarl/yichen-skills](https://github.com/mcncarl/yichen-skills) — 汇集内容草稿、平台资料研究、授权数据归档、转写及 Agent 记忆等独立技能。
+- [kingcharleslzy-ai/dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) — 为 DeepSeek Harness 集中管理提示词、宿主补丁状态、本机备份和回滚的社区插件。
+- [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — 为已有 Claude Code 提供会话阅读、文件审阅、编辑器、终端与远程项目界面。
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) — 通过 ADB 识别和停用电视预装组件，安装简洁启动器，并记录可恢复的改动。
+- [VictorTran1023/android-tv-toolkit](https://github.com/VictorTran1023/android-tv-toolkit) — 按设备与品牌组织 Android TV 的 ADB、侧载、状态观察、快照和恢复流程。
+- [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) — 在本机 DeepSeek Harness 中管理提示词、宿主策略补丁与恢复的实验插件。
 - [morluto/rea](https://github.com/morluto/rea) — 通过 MCP 与 CLI 分析获授权的软件、二进制和运行行为，并返回代码位置与证据。
 - [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) — 让代理把复杂问题写成 Markdown 草稿，再由内置 CLI 生成含图表、代码与文字的单页 HTML 回答。
 - [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) — 通过本地 MCP 和 WebDriverAgent，让 Codex 经 USB 读取、操作真实 iPhone 并展示屏幕。
@@ -328,8 +351,15 @@ GITHUB_PAGES=true npm --prefix app run build
 - [wotermelon/toJump](https://github.com/wotermelon/toJump) — 用 Node.js 演示微信跳一跳小游戏的自动化操作。
 - [i5ting/vsc](https://github.com/i5ting/vsc) — 介绍 Visual Studio Code 的中文使用指南。
 
-### 设计、图像与内容创作（45）
+### 设计、图像与内容创作（52）
 
+- [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — 用 Markdown 说明设计理由、用 YAML 记录精确设计值，并提供校验与差异工具。
+- [Azure12355/weilanx-claude-videos](https://github.com/Azure12355/weilanx-claude-videos) — 用 React、SVG 与 Remotion 编写解说视频，并提供风格提炼和单集制作技能。
+- [andyhuo520/aetherviz-master](https://github.com/andyhuo520/aetherviz-master) — 用技能与网页模板将教学主题组织成 Three.js、SVG 或混合模式的交互演示。
+- [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) — 提供风格提示、代码短片与制作工具，帮助编码代理按指定视觉语言制作影片。
+- [joeseesun/lexfridman-cn](https://github.com/joeseesun/lexfridman-cn) — 为 Lex Fridman 访谈提供非官方中文导读、单集搜索与官方媒体入口的静态站。
+- [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — 依据品牌与图示语义生成单文件 HTML／SVG，并提供导入和图像导出流程。
+- [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) — 把机器与系统机制做成可交互的等距 SVG 图示，并提供可选 WebGL 与三维效果。
 - [hypit-ai/hypit](https://github.com/hypit-ai/hypit) — 通过编码代理组织参考视频、生成素材与视频合成，并制作内容变体。
 - [LearnPrompt/awesome-seedance](https://github.com/LearnPrompt/awesome-seedance) — 按视频形式整理 Seedance 提示词、模板、原始案例与跨模型复测记录。
 - [coleam00/excalidraw-diagram-skill](https://github.com/coleam00/excalidraw-diagram-skill) — 把自然语言与技术证据整理为可编辑的 Excalidraw 图，并通过渲染检查布局。
@@ -370,14 +400,16 @@ GITHUB_PAGES=true npm --prefix app run build
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — 以排版、布局、动效和密度规则指导代理制作前端，并提供参考图与改版技能。
 - [nexu-io/open-design](https://github.com/nexu-io/open-design) — 将本地编码代理、设计系统、生成文件和实时预览整合为桌面设计工作台。
 - [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) — 以先选方向、再迭代的流程生成 HTML 原型、幻灯片、动画和可视化交付物。
-- [EvoLinkAI/awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) — 按电商、海报、人物和 UI 等用途整理带出处与示例图的生图提示词。
+- [Evolink-AI/awesome-gpt-image-2-API-Prompts](https://github.com/Evolink-AI/awesome-gpt-image-2-API-Prompts) — 按电商、海报、人物和 UI 等用途整理带出处与示例图的生图提示词。
 - [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) — 将网页设计、可录制演示、生图、文章编排和资料检索拆成独立技能。
 - [phobal/ivideo](https://github.com/phobal/ivideo) — 基于 Electron、React 和 Redux 的历史多站点视频播放器原型。
 - [trazyn/ieaseMusic](https://github.com/trazyn/ieaseMusic) — 网易云音乐的第三方桌面客户端项目。
 - [mzlogin/chinese-copywriting-guidelines](https://github.com/mzlogin/chinese-copywriting-guidelines) — 整理中文文案中的标点、空格与排版规范。
 
-### 计算机基础与工程实践（25）
+### 计算机基础与工程实践（27）
 
+- [byoungd/up](https://github.com/byoungd/up) — 围绕英语、AI 协作、真实项目、创业和生活恢复组织的中英双语开放书稿。
+- [jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest) — 按书名、作者和主题汇集电子书外部链接，并提供静态搜索入口。
 - [xxlllq/system_architect](https://github.com/xxlllq/system_architect) — 按年份汇总系统架构设计师考试资料、真题解析、论文参考与报名入口的资源仓库。
 - [krahets/hello-algo](https://github.com/krahets/hello-algo) — 结合动画图解与多语言源码解释数据结构和算法。
 - [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) — 提供 roadmap.sh 技术路线与主题资源入口的社区路线图仓库。
@@ -404,8 +436,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [InterviewMap/CS-Interview-Knowledge-Map](https://github.com/InterviewMap/CS-Interview-Knowledge-Map) — 汇集语言、浏览器、网络和算法等面试知识。
 - [Chalarangelo/30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) — 通过短篇文章和代码片段讲解开发知识。
 
-### 商业与行业应用（11）
+### 商业与行业应用（13）
 
+- [dimthink/PriceAI](https://github.com/dimthink/PriceAI) — 分别整理官方订阅、第三方卡网与 API 渠道的价格、库存、倍率和来源信息。
+- [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) — 整理中小学数学、英语与物理知识点、先修关系及题库，并提供关系浏览和诊断演示。
 - [sunreview/GetClaudePro](https://github.com/sunreview/GetClaudePro) — 介绍第三方卡密充值 Claude Pro 的图文教程，需将商家承诺与官方订阅规则分开核实。
 - [mizorewww/x_gift_bot](https://github.com/mizorewww/x_gift_bot) — 围绕 X Premium 礼品提供兑换页、管理后台与订单处理，并带有不连接真实服务的示例预览。
 - [hoochanlon/hamuleite](https://github.com/hoochanlon/hamuleite) — 按社会科学、教育、金融研究与生活议题组织资料和外部资源入口。

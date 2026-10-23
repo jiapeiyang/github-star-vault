@@ -1,0 +1,352 @@
+[
+  {
+    "repo_id": 212455684,
+    "name": "masonr/yet-another-bench-script",
+    "url": "https://github.com/masonr/yet-another-bench-script/blob/master/README.md",
+    "sha": "e818145d04837ce368ebc3fce0dd966e8ca86f86",
+    "path": "README.md",
+    "bytes": 12329,
+    "checked_at": "2026-10-23T11:57:58Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 953446996,
+    "name": "LloydAsp/NodeQuality",
+    "url": "https://github.com/LloydAsp/NodeQuality/blob/main/README.md",
+    "sha": "4f81433cd253c3ea4b918158510aa42850d8bfc2",
+    "path": "README.md",
+    "bytes": 2730,
+    "checked_at": "2026-10-23T11:57:58Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 819808844,
+    "name": "oneclickvirt/ecs",
+    "url": "https://github.com/oneclickvirt/ecs/blob/master/README.md",
+    "sha": "f534ca2c10c22bd17f4d0c7f1d49ddc55b95cfe0",
+    "path": "README.md",
+    "bytes": 21748,
+    "checked_at": "2026-10-23T11:57:58Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1031215137,
+    "name": "xpzouying/xiaohongshu-mcp",
+    "url": "https://github.com/xpzouying/xiaohongshu-mcp/blob/main/README.md",
+    "sha": "e4dad62f126a999d21065a3d8294d8ee7f1c2449",
+    "path": "README.md",
+    "bytes": 47842,
+    "checked_at": "2026-10-23T11:57:58Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1233142602,
+    "name": "dimthink/PriceAI",
+    "url": "https://github.com/dimthink/PriceAI/blob/main/README.md",
+    "sha": "9c740e9238eb5ffbde758a52cb0f4d4227bb1ade",
+    "path": "README.md",
+    "bytes": 16999,
+    "checked_at": "2026-10-23T11:57:59Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1196881191,
+    "name": "a9gent/mindfs",
+    "url": "https://github.com/a9gent/mindfs/blob/main/README.md",
+    "sha": "8685332940c6a081644eb1048f8180991a0ce47a",
+    "path": "README.md",
+    "bytes": 17519,
+    "checked_at": "2026-10-23T11:57:59Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1088809592,
+    "name": "appshubcc/Bettbox",
+    "url": "https://github.com/appshubcc/Bettbox/blob/main/README.md",
+    "sha": "b52eff2d770ac9f25abeb70ff24eafbe0bb5122e",
+    "path": "README.md",
+    "bytes": 10007,
+    "checked_at": "2026-10-23T11:57:59Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1207222725,
+    "name": "google-labs-code/design.md",
+    "url": "https://github.com/google-labs-code/design.md/blob/main/README.md",
+    "sha": "d6d0c65d067c70887bd215f8f3c7ae98aed6851c",
+    "path": "README.md",
+    "bytes": 13313,
+    "checked_at": "2026-10-23T11:57:59Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1155113456,
+    "name": "mcncarl/yichen-skills",
+    "url": "https://github.com/mcncarl/yichen-skills/blob/main/README.md",
+    "sha": "31e53d70ac27608dd37d1442c7e5ddda15f9279d",
+    "path": "README.md",
+    "bytes": 43930,
+    "checked_at": "2026-10-23T11:58:00Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 509091576,
+    "name": "SagerNet/sing-box",
+    "url": "https://github.com/SagerNet/sing-box/blob/testing/README.md",
+    "sha": "7b1c833a42a363a87cc3767fabfbbb5bab2a0d98",
+    "path": "README.md",
+    "bytes": 1032,
+    "checked_at": "2026-10-23T11:58:00Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1421822085,
+    "name": "kingcharleslzy-ai/dsh-purge",
+    "url": "https://github.com/kingcharleslzy-ai/dsh-purge/blob/master/README.md",
+    "sha": "cdd63a59cd34dd910eb88871446f17d06d01dbea",
+    "path": "README.md",
+    "bytes": 19481,
+    "checked_at": "2026-10-23T11:58:00Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1424183124,
+    "name": "xiaoyang111222/cn-math-taxonomy",
+    "url": "https://github.com/xiaoyang111222/cn-math-taxonomy/blob/main/README.md",
+    "sha": "76db74d1394e8e2084ae21753d03a73fc937e79c",
+    "path": "README.md",
+    "bytes": 81169,
+    "checked_at": "2026-10-23T11:58:00Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1413227603,
+    "name": "Azure12355/weilanx-claude-videos",
+    "url": "https://github.com/Azure12355/weilanx-claude-videos/blob/main/README.md",
+    "sha": "b05c51e9099857712d8b882182d0a09086f985da",
+    "path": "README.md",
+    "bytes": 22366,
+    "checked_at": "2026-10-23T11:58:01Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 92807616,
+    "name": "byoungd/up",
+    "url": "https://github.com/byoungd/up/blob/main/README.md",
+    "sha": "ff74468fc7b7c913bc73ea0737c15613ad9e573b",
+    "path": "README.md",
+    "bytes": 27976,
+    "checked_at": "2026-10-23T11:58:01Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1383677612,
+    "name": "baocode-dev/baocode",
+    "url": "https://github.com/baocode-dev/baocode/blob/main/README.md",
+    "sha": "9996e35d38d7fd578c3e65fff00592e8b3f43591",
+    "path": "README.md",
+    "bytes": 6243,
+    "checked_at": "2026-10-23T11:58:01Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1164025244,
+    "name": "andyhuo520/aetherviz-master",
+    "url": "https://github.com/andyhuo520/aetherviz-master/blob/master/README.md",
+    "sha": "86c99c732bef89f5fc8954ca2327d902748ef1de",
+    "path": "README.md",
+    "bytes": 7326,
+    "checked_at": "2026-10-23T11:58:01Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1425384851,
+    "name": "OJZen/totk-mobile",
+    "url": "https://github.com/OJZen/totk-mobile/blob/main/README.md",
+    "sha": "0d4c9c157f209189b8aea5b1b3588428c383643a",
+    "path": "README.md",
+    "bytes": 5877,
+    "checked_at": "2026-10-23T11:58:02Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1389011744,
+    "name": "lemomo-ai/lemo-opuscar",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md",
+    "sha": "1b1a4ccb38cc0073a37491f476ffd695f5550ec2",
+    "path": "README.md",
+    "bytes": 34017,
+    "checked_at": "2026-10-23T11:58:02Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1423101235,
+    "name": "Gathin23/cleanyourtv",
+    "url": "https://github.com/Gathin23/cleanyourtv/blob/main/README.md",
+    "sha": "3ef99872c74518e0c3ffc312f16faba307876ea3",
+    "path": "README.md",
+    "bytes": 59559,
+    "checked_at": "2026-10-23T11:58:03Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1085086903,
+    "name": "EverMind-AI/EverOS",
+    "url": "https://github.com/EverMind-AI/EverOS/blob/main/README.md",
+    "sha": "24072dbc227bb1f269c4c6963a0bece18e38dfe9",
+    "path": "README.md",
+    "bytes": 28262,
+    "checked_at": "2026-10-23T11:58:02Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1425037321,
+    "name": "VictorTran1023/android-tv-toolkit",
+    "url": "https://github.com/VictorTran1023/android-tv-toolkit/blob/main/README.md",
+    "sha": "cd026112dbb02bfde0f725c60a31cfb08a9f919d",
+    "path": "README.md",
+    "bytes": 11757,
+    "checked_at": "2026-10-23T11:58:03Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1339256252,
+    "name": "YuJunZhiXue/dsh-purge",
+    "url": "https://github.com/YuJunZhiXue/dsh-purge/blob/master/README.md",
+    "sha": "20691ee8acfb8b09221e1c3e2aac5aefecf2b9e7",
+    "path": "README.md",
+    "bytes": 29119,
+    "checked_at": "2026-10-23T11:58:03Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 29219243,
+    "name": "bannedbook/fanqiang",
+    "url": "https://github.com/bannedbook/fanqiang/blob/master/README.md",
+    "sha": "bd31abab48144c388f3b985e4e94e390e5ece324",
+    "path": "README.md",
+    "bytes": 9594,
+    "checked_at": "2026-10-23T11:58:03Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1424548693,
+    "name": "joeseesun/lexfridman-cn",
+    "url": "https://github.com/joeseesun/lexfridman-cn/blob/main/README.md",
+    "sha": "ad461b08c578d68e7360cdd7d6b951add6445b9a",
+    "path": "README.md",
+    "bytes": 11932,
+    "checked_at": "2026-10-23T11:58:04Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 678716433,
+    "name": "chen08209/FlClash",
+    "url": "https://github.com/chen08209/FlClash/blob/main/README.md",
+    "sha": "963879f561a64a3d1c15ceabd198b566df942cf0",
+    "path": "README.md",
+    "bytes": 5882,
+    "checked_at": "2026-10-23T11:58:04Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1345177309,
+    "name": "yding-git/personal-edge-proxy",
+    "url": "https://github.com/yding-git/personal-edge-proxy/blob/main/README.md",
+    "sha": "6c311fb3279b189d2b799a93027cd459819e75c8",
+    "path": "README.md",
+    "bytes": 11959,
+    "checked_at": "2026-10-23T11:58:04Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 691058691,
+    "name": "jbiaojerry/ebook-treasure-chest",
+    "url": "https://github.com/jbiaojerry/ebook-treasure-chest/blob/main/README.md",
+    "sha": "c3b265479e8a6dbd1da59dddc76f21956b842946",
+    "path": "README.md",
+    "bytes": 35406,
+    "checked_at": "2026-10-23T11:58:04Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1284653133,
+    "name": "xerj-org/xerj",
+    "url": "https://github.com/xerj-org/xerj/blob/main/README.md",
+    "sha": "2e55993469eb19cdfef8f96bb2eaadd1b5a52090",
+    "path": "README.md",
+    "bytes": 37825,
+    "checked_at": "2026-10-23T11:58:05Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 45821540,
+    "name": "openwrt/openwrt",
+    "url": "https://github.com/openwrt/openwrt/blob/main/README.md",
+    "sha": "dd9f4433e703b689afda88cdd7a0e2e751054498",
+    "path": "README.md",
+    "bytes": 4295,
+    "checked_at": "2026-10-23T11:58:05Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1162410458,
+    "name": "Thysrael/Horizon",
+    "url": "https://github.com/Thysrael/Horizon/blob/main/README.md",
+    "sha": "b1f20390fb323696cf33e2c967ae7baf726ab901",
+    "path": "README.md",
+    "bytes": 24238,
+    "checked_at": "2026-10-23T11:58:05Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 311315731,
+    "name": "XTLS/Xray-core",
+    "url": "https://github.com/XTLS/Xray-core/blob/main/README.md",
+    "sha": "d52ca9bb34716dcbb39f0e656758fd98ab9c15ef",
+    "path": "README.md",
+    "bytes": 12666,
+    "checked_at": "2026-10-23T11:58:05Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 311922658,
+    "name": "XTLS/Xray-install",
+    "url": "https://github.com/XTLS/Xray-install/blob/main/README.md",
+    "sha": "a24421c4836ea1f4c75102ffc72214e4a85d9724",
+    "path": "README.md",
+    "bytes": 4322,
+    "checked_at": "2026-10-23T11:58:06Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1212769188,
+    "name": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
+    "sha": "8e96c9204ac8ab77bfb364de1cf2336ac18eeb40",
+    "path": "README.md",
+    "bytes": 53859,
+    "checked_at": "2026-10-23T11:58:06Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1410124849,
+    "name": "wheresryan22/anatomy",
+    "url": "https://github.com/wheresryan22/anatomy/blob/main/README.md",
+    "sha": "fa98bff1a617aa8e5edf1b7b87c866815b6fa1bc",
+    "path": "README.md",
+    "bytes": 26199,
+    "checked_at": "2026-10-23T11:58:06Z",
+    "scope": "核对 README 中与用途、开始步骤、示例、依赖和限制相关的段落；验证完整 blob 哈希，未执行上游命令。不是逐条验证全部案例、外链或产品能力。"
+  },
+  {
+    "repo_id": 1214290850,
+    "name": "Evolink-AI/awesome-gpt-image-2-API-Prompts",
+    "url": "https://github.com/Evolink-AI/awesome-gpt-image-2-API-Prompts/blob/main/README.md",
+    "sha": "8ebb964e3fceb751cb0de4de2a33c6e9b4d36acf",
+    "path": "README.md",
+    "bytes": 1121931,
+    "checked_at": "2026-10-23T11:57:58Z",
+    "scope": "核对更名后的介绍、Quick Start 与所引护肤品微缩广告案例，修正来源入口；未验证全部 462 例、图片或 API。"
+  }
+]

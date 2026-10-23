@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-13T06:37:29Z",
+  "checked_at": "2026-10-23T12:12:11Z",
   "items": [
     {
       "repo_id": 790359,
@@ -146,6 +146,14 @@
       "checked_at": "2026-10-13T06:24:11Z"
     },
     {
+      "repo_id": 29219243,
+      "source_url": "https://github.com/bannedbook/fanqiang/blob/master/README.md",
+      "baseline_sha": "bd31abab48144c388f3b985e4e94e390e5ece324",
+      "observed_sha": "bd31abab48144c388f3b985e4e94e390e5ece324",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 29375063,
       "source_url": "https://github.com/decaffeinate/decaffeinate/blob/main/README.md",
       "baseline_sha": "dd90a14dc52a7fb69887c33d81afad481a80f259",
@@ -240,6 +248,14 @@
       "observed_sha": "72ace35a8b9ed310e07bdb5f281154cc9eceae86",
       "status": "unchanged",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 45821540,
+      "source_url": "https://github.com/openwrt/openwrt/blob/main/README.md",
+      "baseline_sha": "dd9f4433e703b689afda88cdd7a0e2e751054498",
+      "observed_sha": "dd9f4433e703b689afda88cdd7a0e2e751054498",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 47445046,
@@ -600,6 +616,14 @@
       "observed_sha": "2424293b5688dbec4f2407a3326fb54d086b6527",
       "status": "unchanged",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 92807616,
+      "source_url": "https://github.com/byoungd/up/blob/main/README.md",
+      "baseline_sha": "ff74468fc7b7c913bc73ea0737c15613ad9e573b",
+      "observed_sha": "ff74468fc7b7c913bc73ea0737c15613ad9e573b",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 99401299,
@@ -1002,6 +1026,14 @@
       "checked_at": "2026-10-13T06:24:11Z"
     },
     {
+      "repo_id": 212455684,
+      "source_url": "https://github.com/masonr/yet-another-bench-script/blob/master/README.md",
+      "baseline_sha": "e818145d04837ce368ebc3fce0dd966e8ca86f86",
+      "observed_sha": "e818145d04837ce368ebc3fce0dd966e8ca86f86",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 218952250,
       "source_url": "https://github.com/shfshanyue/Daily-Question/blob/next/README.md",
       "baseline_sha": "14a1b76b9b3590e0e4fd7dcdddb31be1009c8026",
@@ -1080,6 +1112,22 @@
       "observed_sha": "e8bd5f5abe3a68aee357d24e85a6e11653011700",
       "status": "unchanged",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 311315731,
+      "source_url": "https://github.com/XTLS/Xray-core/blob/main/README.md",
+      "baseline_sha": "d52ca9bb34716dcbb39f0e656758fd98ab9c15ef",
+      "observed_sha": "d52ca9bb34716dcbb39f0e656758fd98ab9c15ef",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
+      "repo_id": 311922658,
+      "source_url": "https://github.com/XTLS/Xray-install/blob/main/README.md",
+      "baseline_sha": "a24421c4836ea1f4c75102ffc72214e4a85d9724",
+      "observed_sha": "a24421c4836ea1f4c75102ffc72214e4a85d9724",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 337237194,
@@ -1162,6 +1210,14 @@
       "checked_at": "2026-10-13T06:24:11Z"
     },
     {
+      "repo_id": 509091576,
+      "source_url": "https://github.com/SagerNet/sing-box/blob/testing/README.md",
+      "baseline_sha": "7b1c833a42a363a87cc3767fabfbbb5bab2a0d98",
+      "observed_sha": "7b1c833a42a363a87cc3767fabfbbb5bab2a0d98",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 541245403,
       "source_url": "https://github.com/PlayCover/keymaps/blob/master/README.md",
       "baseline_sha": "fa649246d65707183dfbc1c39893435246ff156e",
@@ -1216,6 +1272,22 @@
       "observed_sha": "ac727137b508af371a1e7dec142747af886f13d3",
       "status": "changed",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 678716433,
+      "source_url": "https://github.com/chen08209/FlClash/blob/main/README.md",
+      "baseline_sha": "963879f561a64a3d1c15ceabd198b566df942cf0",
+      "observed_sha": "963879f561a64a3d1c15ceabd198b566df942cf0",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
+      "repo_id": 691058691,
+      "source_url": "https://github.com/jbiaojerry/ebook-treasure-chest/blob/main/README.md",
+      "baseline_sha": "c3b265479e8a6dbd1da59dddc76f21956b842946",
+      "observed_sha": "c3b265479e8a6dbd1da59dddc76f21956b842946",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 708312415,
@@ -1274,6 +1346,14 @@
       "checked_at": "2026-10-13T06:37:29Z"
     },
     {
+      "repo_id": 819808844,
+      "source_url": "https://github.com/oneclickvirt/ecs/blob/master/README.md",
+      "baseline_sha": "f534ca2c10c22bd17f4d0c7f1d49ddc55b95cfe0",
+      "observed_sha": "f534ca2c10c22bd17f4d0c7f1d49ddc55b95cfe0",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 858262444,
       "source_url": "https://github.com/PatrickJS/awesome-cursorrules/blob/main/README.md",
       "baseline_sha": "8204dac5cf335416e138c1059d73b578f6c776ea",
@@ -1320,6 +1400,14 @@
       "observed_sha": "b578e60d201c1663c89c2ab96f2f330255cc3541",
       "status": "changed",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 953446996,
+      "source_url": "https://github.com/LloydAsp/NodeQuality/blob/main/README.md",
+      "baseline_sha": "4f81433cd253c3ea4b918158510aa42850d8bfc2",
+      "observed_sha": "4f81433cd253c3ea4b918158510aa42850d8bfc2",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 965615190,
@@ -1400,6 +1488,14 @@
       "observed_sha": "00b0aa634e32fdfef3bdd32958997f4ababeb29b",
       "status": "changed",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 1031215137,
+      "source_url": "https://github.com/xpzouying/xiaohongshu-mcp/blob/main/README.md",
+      "baseline_sha": "e4dad62f126a999d21065a3d8294d8ee7f1c2449",
+      "observed_sha": "e4dad62f126a999d21065a3d8294d8ee7f1c2449",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 1035029907,
@@ -1490,6 +1586,14 @@
       "checked_at": "2026-10-13T06:24:11Z"
     },
     {
+      "repo_id": 1085086903,
+      "source_url": "https://github.com/EverMind-AI/EverOS/blob/main/README.md",
+      "baseline_sha": "24072dbc227bb1f269c4c6963a0bece18e38dfe9",
+      "observed_sha": "24072dbc227bb1f269c4c6963a0bece18e38dfe9",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 1086122599,
       "source_url": "https://github.com/xiamuceer-j/MuMuAINovel/blob/main/README.md",
       "baseline_sha": "b8680fb7f63df1ae3e1dbe8f54f229f83012b0d7",
@@ -1512,6 +1616,14 @@
       "observed_sha": "db9120d87d916a249765ff749c584ebf6ad83554",
       "status": "changed",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 1088809592,
+      "source_url": "https://github.com/appshubcc/Bettbox/blob/main/README.md",
+      "baseline_sha": "b52eff2d770ac9f25abeb70ff24eafbe0bb5122e",
+      "observed_sha": "b52eff2d770ac9f25abeb70ff24eafbe0bb5122e",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 1092047360,
@@ -1858,6 +1970,14 @@
       "checked_at": "2026-10-13T06:24:11Z"
     },
     {
+      "repo_id": 1155113456,
+      "source_url": "https://github.com/mcncarl/yichen-skills/blob/main/README.md",
+      "baseline_sha": "31e53d70ac27608dd37d1442c7e5ddda15f9279d",
+      "observed_sha": "31e53d70ac27608dd37d1442c7e5ddda15f9279d",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 1158722119,
       "source_url": "https://github.com/addyosmani/agent-skills/blob/main/README.md",
       "baseline_sha": "aa6872d677ef7c8eab7d00a6fdca106ffa9502b0",
@@ -1872,6 +1992,14 @@
       "observed_sha": "9f92d7a99b8e83791e8a94e0e2af1e0648e00b3a",
       "status": "changed",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 1162410458,
+      "source_url": "https://github.com/Thysrael/Horizon/blob/main/README.md",
+      "baseline_sha": "b1f20390fb323696cf33e2c967ae7baf726ab901",
+      "observed_sha": "b1f20390fb323696cf33e2c967ae7baf726ab901",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 1163112839,
@@ -1896,6 +2024,14 @@
       "observed_sha": "3d9a8dddfcacbce0a4ab1a2c3aa5ae12aec73f04",
       "status": "unchanged",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 1164025244,
+      "source_url": "https://github.com/andyhuo520/aetherviz-master/blob/master/README.md",
+      "baseline_sha": "86c99c732bef89f5fc8954ca2327d902748ef1de",
+      "observed_sha": "86c99c732bef89f5fc8954ca2327d902748ef1de",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 1165277268,
@@ -2082,6 +2218,14 @@
       "checked_at": "2026-10-13T06:37:29Z"
     },
     {
+      "repo_id": 1196881191,
+      "source_url": "https://github.com/a9gent/mindfs/blob/main/README.md",
+      "baseline_sha": "8685332940c6a081644eb1048f8180991a0ce47a",
+      "observed_sha": "8685332940c6a081644eb1048f8180991a0ce47a",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 1197515131,
       "source_url": "https://github.com/VoltAgent/awesome-design-md/blob/main/README.md",
       "baseline_sha": "31e3ee62e4e0bb0f25c64592c7d191b2a7d5d631",
@@ -2144,6 +2288,14 @@
       "observed_sha": "eb8f2c7a18b206c715f57b826d9e70a9abf3bc40",
       "status": "unchanged",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 1207222725,
+      "source_url": "https://github.com/google-labs-code/design.md/blob/main/README.md",
+      "baseline_sha": "d6d0c65d067c70887bd215f8f3c7ae98aed6851c",
+      "observed_sha": "d6d0c65d067c70887bd215f8f3c7ae98aed6851c",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 1208305920,
@@ -2210,12 +2362,20 @@
       "checked_at": "2026-10-13T06:24:11Z"
     },
     {
+      "repo_id": 1212769188,
+      "source_url": "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
+      "baseline_sha": "8e96c9204ac8ab77bfb364de1cf2336ac18eeb40",
+      "observed_sha": "8e96c9204ac8ab77bfb364de1cf2336ac18eeb40",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 1214290850,
-      "source_url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/blob/main/README.md",
+      "source_url": "https://github.com/Evolink-AI/awesome-gpt-image-2-API-Prompts/blob/main/README.md",
       "baseline_sha": "8ebb964e3fceb751cb0de4de2a33c6e9b4d36acf",
       "observed_sha": "8ebb964e3fceb751cb0de4de2a33c6e9b4d36acf",
       "status": "unchanged",
-      "checked_at": "2026-10-13T06:24:11Z"
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 1215145625,
@@ -2288,6 +2448,14 @@
       "observed_sha": "81e9dfef0c1ccb89745669783a93054ccbecfd84",
       "status": "changed",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 1233142602,
+      "source_url": "https://github.com/dimthink/PriceAI/blob/main/README.md",
+      "baseline_sha": "9c740e9238eb5ffbde758a52cb0f4d4227bb1ade",
+      "observed_sha": "9c740e9238eb5ffbde758a52cb0f4d4227bb1ade",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 1237819660,
@@ -2426,6 +2594,14 @@
       "checked_at": "2026-10-13T06:24:11Z"
     },
     {
+      "repo_id": 1284653133,
+      "source_url": "https://github.com/xerj-org/xerj/blob/main/README.md",
+      "baseline_sha": "2e55993469eb19cdfef8f96bb2eaadd1b5a52090",
+      "observed_sha": "2e55993469eb19cdfef8f96bb2eaadd1b5a52090",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 1297316519,
       "source_url": "https://github.com/MDX-Tom/gpt-instruct/blob/main/README.md",
       "baseline_sha": "176e63fb71278c74b743180efe1f5b627c3b2d0a",
@@ -2530,12 +2706,28 @@
       "checked_at": "2026-10-13T06:24:11Z"
     },
     {
+      "repo_id": 1339256252,
+      "source_url": "https://github.com/YuJunZhiXue/dsh-purge/blob/master/README.md",
+      "baseline_sha": "20691ee8acfb8b09221e1c3e2aac5aefecf2b9e7",
+      "observed_sha": "20691ee8acfb8b09221e1c3e2aac5aefecf2b9e7",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 1341603085,
       "source_url": "https://github.com/panxunying/ai-coding-welfare/blob/main/README.md",
       "baseline_sha": "1052fac945ebc32e818180ca3d02d2998e16faaa",
       "observed_sha": "6d10759623fd6f8387d14d71d27fa404a3d2d32c",
       "status": "changed",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 1345177309,
+      "source_url": "https://github.com/yding-git/personal-edge-proxy/blob/main/README.md",
+      "baseline_sha": "6c311fb3279b189d2b799a93027cd459819e75c8",
+      "observed_sha": "6c311fb3279b189d2b799a93027cd459819e75c8",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 1346870728,
@@ -2578,12 +2770,28 @@
       "checked_at": "2026-10-13T06:24:11Z"
     },
     {
+      "repo_id": 1383677612,
+      "source_url": "https://github.com/baocode-dev/baocode/blob/main/README.md",
+      "baseline_sha": "9996e35d38d7fd578c3e65fff00592e8b3f43591",
+      "observed_sha": "9996e35d38d7fd578c3e65fff00592e8b3f43591",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
       "repo_id": 1383809012,
       "source_url": "https://github.com/yetone/magpie/blob/main/README.md",
       "baseline_sha": "6f5189e04194f6da9d1f9044cb8915a3d9961d0f",
       "observed_sha": "215425d46baf5fab37d0672db0389c7b164a6382",
       "status": "changed",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 1389011744,
+      "source_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md",
+      "baseline_sha": "1b1a4ccb38cc0073a37491f476ffd695f5550ec2",
+      "observed_sha": "1b1a4ccb38cc0073a37491f476ffd695f5550ec2",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     },
     {
       "repo_id": 1401476500,
@@ -2608,6 +2816,70 @@
       "observed_sha": "ac321f4bb674ddc0f22c81ccd9b8ac6c97e9bcea",
       "status": "unchanged",
       "checked_at": "2026-10-13T06:37:29Z"
+    },
+    {
+      "repo_id": 1410124849,
+      "source_url": "https://github.com/wheresryan22/anatomy/blob/main/README.md",
+      "baseline_sha": "fa98bff1a617aa8e5edf1b7b87c866815b6fa1bc",
+      "observed_sha": "fa98bff1a617aa8e5edf1b7b87c866815b6fa1bc",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
+      "repo_id": 1413227603,
+      "source_url": "https://github.com/Azure12355/weilanx-claude-videos/blob/main/README.md",
+      "baseline_sha": "b05c51e9099857712d8b882182d0a09086f985da",
+      "observed_sha": "b05c51e9099857712d8b882182d0a09086f985da",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
+      "repo_id": 1421822085,
+      "source_url": "https://github.com/kingcharleslzy-ai/dsh-purge/blob/master/README.md",
+      "baseline_sha": "cdd63a59cd34dd910eb88871446f17d06d01dbea",
+      "observed_sha": "cdd63a59cd34dd910eb88871446f17d06d01dbea",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
+      "repo_id": 1423101235,
+      "source_url": "https://github.com/Gathin23/cleanyourtv/blob/main/README.md",
+      "baseline_sha": "3ef99872c74518e0c3ffc312f16faba307876ea3",
+      "observed_sha": "3ef99872c74518e0c3ffc312f16faba307876ea3",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
+      "repo_id": 1424183124,
+      "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy/blob/main/README.md",
+      "baseline_sha": "76db74d1394e8e2084ae21753d03a73fc937e79c",
+      "observed_sha": "76db74d1394e8e2084ae21753d03a73fc937e79c",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
+      "repo_id": 1424548693,
+      "source_url": "https://github.com/joeseesun/lexfridman-cn/blob/main/README.md",
+      "baseline_sha": "ad461b08c578d68e7360cdd7d6b951add6445b9a",
+      "observed_sha": "ad461b08c578d68e7360cdd7d6b951add6445b9a",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
+      "repo_id": 1425037321,
+      "source_url": "https://github.com/VictorTran1023/android-tv-toolkit/blob/main/README.md",
+      "baseline_sha": "cd026112dbb02bfde0f725c60a31cfb08a9f919d",
+      "observed_sha": "cd026112dbb02bfde0f725c60a31cfb08a9f919d",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
+      "repo_id": 1425384851,
+      "source_url": "https://github.com/OJZen/totk-mobile/blob/main/README.md",
+      "baseline_sha": "0d4c9c157f209189b8aea5b1b3588428c383643a",
+      "observed_sha": "0d4c9c157f209189b8aea5b1b3588428c383643a",
+      "status": "unchanged",
+      "checked_at": "2026-10-23T12:12:11Z"
     }
   ],
   "without_baseline": []
