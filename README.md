@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-23T17:03:29Z` · 当前公开 Stars：**360** · 已分类：**360**
+> 最近成功检查：`2026-10-23T21:21:50Z` · 当前公开 Stars：**361** · 已分类：**360**
 
 
 ### AI 与 Agent（37）
@@ -451,5 +451,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — 将价值投资的商业、财务、风险与长期判断组织成多种研究技能和公开报告的框架。
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
+
+### 待分类（1）
+
+- [YOURSJEYO/claude-switcher](https://github.com/YOURSJEYO/claude-switcher) — Fail-Closed 账号环境管理器:11项环境指纹审计(Block-on-Fail)、手写STUN协议栈的WebRTC泄漏探针、Kill-Switch断网急停、多账号快照隔离、配置漂移自愈 —— 让真实IP在物理上无法泄漏
 
 <!-- STAR_VAULT:CATALOG:END -->
