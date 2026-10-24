@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-24T15:54:13Z` · 当前公开 Stars：**361** · 已分类：**360**
+> 最近成功检查：`2026-10-24T20:45:07Z` · 当前公开 Stars：**363** · 已分类：**360**
 
 
 ### AI 与 Agent（37）
@@ -452,8 +452,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（1）
+### 待分类（3）
 
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) — Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) — A fancy self-hosted monitoring tool
 - [YOURSJEYO/claude-switcher](https://github.com/YOURSJEYO/claude-switcher) — Fail-Closed 账号环境管理器:11项环境指纹审计(Block-on-Fail)、手写STUN协议栈的WebRTC泄漏探针、Kill-Switch断网急停、多账号快照隔离、配置漂移自愈 —— 让真实IP在物理上无法泄漏
 
 <!-- STAR_VAULT:CATALOG:END -->
