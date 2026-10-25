@@ -1,0 +1,42 @@
+[
+  {
+    "repo_id": 1281033762,
+    "name": "tianma-if/edgeever",
+    "url": "https://github.com/tianma-if/edgeever/blob/main/README.md",
+    "sha": "6d6b9b007bc2c39fdd683cc265418bcfc3ac4787",
+    "path": "README.md",
+    "bytes": 31226,
+    "checked_at": "2026-10-25T05:56:25Z",
+    "scope": "核对用途、开始步骤、示例、依赖与限制相关段落；已验证 README blob 哈希，未执行上游命令或全量验证外链。"
+  },
+  {
+    "repo_id": 29207621,
+    "name": "caddyserver/caddy",
+    "url": "https://github.com/caddyserver/caddy/blob/master/README.md",
+    "sha": "24b466d8c42d1b198ac13e49d81ad53df8b6328d",
+    "path": "README.md",
+    "bytes": 12661,
+    "checked_at": "2026-10-25T05:56:25Z",
+    "scope": "核对用途、开始步骤、示例、依赖与限制相关段落；已验证 README blob 哈希，未执行上游命令或全量验证外链。"
+  },
+  {
+    "repo_id": 382496361,
+    "name": "louislam/uptime-kuma",
+    "url": "https://github.com/louislam/uptime-kuma/blob/master/README.md",
+    "sha": "54c3f51fa4586f97a843c98f9d0b647be866f3f0",
+    "path": "README.md",
+    "bytes": 8246,
+    "checked_at": "2026-10-25T05:56:25Z",
+    "scope": "核对用途、开始步骤、示例、依赖与限制相关段落；已验证 README blob 哈希，未执行上游命令或全量验证外链。"
+  },
+  {
+    "repo_id": 1418421680,
+    "name": "YOURSJEYO/claude-switcher",
+    "url": "https://github.com/YOURSJEYO/claude-switcher/blob/main/README.md",
+    "sha": "d976b5e875700599d287d8c58d6980ccd434a427",
+    "path": "README.md",
+    "bytes": 17885,
+    "checked_at": "2026-10-25T05:56:25Z",
+    "scope": "核对用途、开始步骤、示例、依赖与限制相关段落；已验证 README blob 哈希，未执行上游命令或全量验证外链。"
+  }
+]

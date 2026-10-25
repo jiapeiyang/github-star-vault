@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-23T12:12:11Z",
+  "checked_at": "2026-10-25T05:58:57Z",
   "items": [
     {
       "repo_id": 790359,
@@ -144,6 +144,14 @@
       "observed_sha": "91fce072471c36fc49df160954f65d84f18588b8",
       "status": "unchanged",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 29207621,
+      "source_url": "https://github.com/caddyserver/caddy/blob/master/README.md",
+      "baseline_sha": "24b466d8c42d1b198ac13e49d81ad53df8b6328d",
+      "observed_sha": "24b466d8c42d1b198ac13e49d81ad53df8b6328d",
+      "status": "unchanged",
+      "checked_at": "2026-10-25T05:58:57Z"
     },
     {
       "repo_id": 29219243,
@@ -1160,6 +1168,14 @@
       "observed_sha": "784a4d94a3cb8583d8b781164fff752bb80ad9e7",
       "status": "unchanged",
       "checked_at": "2026-10-13T06:24:11Z"
+    },
+    {
+      "repo_id": 382496361,
+      "source_url": "https://github.com/louislam/uptime-kuma/blob/master/README.md",
+      "baseline_sha": "54c3f51fa4586f97a843c98f9d0b647be866f3f0",
+      "observed_sha": "54c3f51fa4586f97a843c98f9d0b647be866f3f0",
+      "status": "unchanged",
+      "checked_at": "2026-10-25T05:58:57Z"
     },
     {
       "repo_id": 394102612,
@@ -2586,6 +2602,14 @@
       "checked_at": "2026-10-13T06:24:11Z"
     },
     {
+      "repo_id": 1281033762,
+      "source_url": "https://github.com/tianma-if/edgeever/blob/main/README.md",
+      "baseline_sha": "6d6b9b007bc2c39fdd683cc265418bcfc3ac4787",
+      "observed_sha": "6d6b9b007bc2c39fdd683cc265418bcfc3ac4787",
+      "status": "unchanged",
+      "checked_at": "2026-10-25T05:58:57Z"
+    },
+    {
       "repo_id": 1283138527,
       "source_url": "https://github.com/threerocks/hand-drawn-styles/blob/main/README.md",
       "baseline_sha": "fb082bcede5b07c1fd8570fefa9d9060a7312481",
@@ -2832,6 +2856,14 @@
       "observed_sha": "b05c51e9099857712d8b882182d0a09086f985da",
       "status": "unchanged",
       "checked_at": "2026-10-23T12:12:11Z"
+    },
+    {
+      "repo_id": 1418421680,
+      "source_url": "https://github.com/YOURSJEYO/claude-switcher/blob/main/README.md",
+      "baseline_sha": "d976b5e875700599d287d8c58d6980ccd434a427",
+      "observed_sha": "d976b5e875700599d287d8c58d6980ccd434a427",
+      "status": "unchanged",
+      "checked_at": "2026-10-25T05:58:57Z"
     },
     {
       "repo_id": 1421822085,

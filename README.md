@@ -4,15 +4,15 @@
 
 ## 当前版本
 
-v1.8 已发布特刊导读与重访功能，见 [交付记录](docs/15-v1.8-delivery.md)。2026-10-23 收藏资料更新及发布状态见 [刷新记录](docs/content-batches/2026-10-23-refresh-report.md)；线上版本以 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml) 中对应提交的成功部署记录为准。
+v1.8 已发布特刊导读与重访功能，见 [交付记录](docs/15-v1.8-delivery.md)。最近收藏资料更新及发布状态见 [2026-10-25 刷新记录](docs/content-batches/2026-10-25-refresh-report.md)；线上版本以 [Actions](https://github.com/jiapeiyang/github-star-vault/actions/workflows/site.yml) 中对应提交的成功部署记录为准。
 
 - 自动同步公开 Stars，以 repo_id 保留更名、退出公开列表和重新 Star 的历史。
 - 项目库支持多词用途检索、相关性排序、组合筛选与命中章节定位；收藏回顾按北京时间年月浏览历史。
-- 2026-10-23 本地快照：360 个当前收藏、363 条历史记录；355 篇完整解读、5 篇资料受限、0 项待补。本轮为新增的 34 个收藏补齐分类与解读，更新 1 个更名仓库的来源入口，并保留远端已生成的 2 期特刊。
+- 2026-10-25 快照：364 个当前收藏、367 条历史记录；359 篇完整解读、5 篇资料受限、0 项待补。本轮为新增的 4 个收藏补齐分类与解读，保留既有首次收录时间及 2 期特刊。
 - 首页、项目列表与筛选区分完整解读、资料受限和待补。完整度表示资料结构，示例是否实际执行在正文单独说明。
 - 视频创作、前端设计、Agent 工作流共 3 个专题，各 8 个项目和一组 3 项轻量对照；比较任务、输入、输出、入口、前提及限制。
 - 资料维护可按 README 变化、读取失败、检查日期及专题筛选，状态保留在 URL；手动差异报告帮助查看上游 README 变更。
-- 本轮保存新增仓库及更名仓库的 README 版本证据；其余资料沿用各自的核查时间，全文覆盖不等于所有来源已人工重读。
+- 本轮保存 4 个新增仓库的 README 版本证据；合并历史检查后为 249 项版本相同、115 项有变化、0 项读取失败。其余资料沿用各自核查时间，全文覆盖不等于所有来源已人工重读。
 - 仓库解读与公开示例注明来源、核查日期及执行边界。v1.3 的 10 个本地验证示例保留当时版本记录，本轮没有重跑；新增例子均未执行。
 - 学习阶段、笔记和完成统计已移除。表单只生成文件，不提供在线保存；观察 Issue 的修订稿仅保存在本地。
 
@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-25T04:37:07Z` · 当前公开 Stars：**364** · 已分类：**360**
+> 最近成功检查：`2026-10-25T05:56:06Z` · 当前公开 Stars：**364** · 已分类：**364**
 
 
 ### AI 与 Agent（37）
@@ -215,8 +215,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [ElemeFE/node-interview](https://github.com/ElemeFE/node-interview) — 整理 Node.js 岗位面试相关问题与知识。
 - [koajs/koa](https://github.com/koajs/koa) — 以中间件组合方式构建 Node.js Web 服务的框架。
 
-### 基础设施、网络与安全（33）
+### 基础设施、网络与安全（35）
 
+- [caddyserver/caddy](https://github.com/caddyserver/caddy) — 默认自动管理 HTTPS 的模块化 Web 服务器，支持反向代理、静态文件和动态配置。
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) — 通过 HTTP、TCP、Ping、DNS 等探测观察服务可用性，并提供通知和公开状态页。
 - [masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script) — 组合 fio、iperf3 与 Geekbench，检查 Linux 服务器的磁盘、网络及 CPU 性能。
 - [LloydAsp/NodeQuality](https://github.com/LloydAsp/NodeQuality) — 在临时 chroot 环境中整合 VPS 测试，并整理 Markdown、截图与分享结果。
 - [oneclickvirt/ecs](https://github.com/oneclickvirt/ecs) — 用 Go 工具整合服务器性能、IP 信息、线路、延迟及带宽测评。
@@ -251,8 +253,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) — 基于 ServiceWorker 实现的浏览器在线代理。
 - [yeasy/docker_practice](https://github.com/yeasy/docker_practice) — Docker 与容器技术的实践学习资料。
 
-### 开发者工具与自动化（97）
+### 开发者工具与自动化（99）
 
+- [tianma-if/edgeever](https://github.com/tianma-if/edgeever) — 结合三栏笔记、网页剪藏、多端同步与 Remote MCP 的自托管知识库。
+- [YOURSJEYO/claude-switcher](https://github.com/YOURSJEYO/claude-switcher) — 为 Claude 桌面环境提供启动检查、会话快照切换、代理诊断及进程守护的社区工具。
 - [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) — 通过本地登录与浏览器自动化，将小红书搜索、内容读取及发布操作接入 MCP。
 - [a9gent/mindfs](https://github.com/a9gent/mindfs) — 在浏览器和手机上访问本机编码代理、项目文件与运行结果的自托管工作台。
 - [mcncarl/yichen-skills](https://github.com/mcncarl/yichen-skills) — 汇集内容草稿、平台资料研究、授权数据归档、转写及 Agent 记忆等独立技能。
@@ -451,12 +455,5 @@ GITHUB_PAGES=true npm --prefix app run build
 - [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — 将价值投资的商业、财务、风险与长期判断组织成多种研究技能和公开报告的框架。
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
-
-### 待分类（4）
-
-- [tianma-if/edgeever](https://github.com/tianma-if/edgeever) — AI-native knowledge base &amp; Evernote/Obsidian alternative with instant sync &amp; native MCP. Free on Cloudflare or self-hosted via Docker.
-- [caddyserver/caddy](https://github.com/caddyserver/caddy) — Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
-- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) — A fancy self-hosted monitoring tool
-- [YOURSJEYO/claude-switcher](https://github.com/YOURSJEYO/claude-switcher) — Fail-Closed 账号环境管理器:11项环境指纹审计(Block-on-Fail)、手写STUN协议栈的WebRTC泄漏探针、Kill-Switch断网急停、多账号快照隔离、配置漂移自愈 —— 让真实IP在物理上无法泄漏
 
 <!-- STAR_VAULT:CATALOG:END -->
