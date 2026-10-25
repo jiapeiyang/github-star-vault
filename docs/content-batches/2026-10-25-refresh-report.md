@@ -23,7 +23,13 @@
 - GitHub Pages 生产构建成功；特刊产物校验为 `week=2026-10-19 latest=2026-10-19 issues=2 status=current`。
 - 发布前核对首次收录时间、期刊档案与用户既有截图改动；生成目录不手改、不提交。
 - 本地浏览器验证 EdgeEver、自动 HTTPS、可用性监控、会话快照均命中相应新仓库；Claude 切换器详情显示核查日期、未执行示例、时间窗口与 SECURITY.md 来源，未捕获应用 warning/error。本次本地测试标签页与服务已关闭。
-- 用户已授权本轮提交、推送并部署到现有 GitHub Pages；部署结果与线上验证在完成后补记。
+- 用户已授权本轮提交、推送并部署到现有 GitHub Pages。内容提交 [`7b6a116ec3b298a9c232ca08e333210014d80aa7`](https://github.com/jiapeiyang/github-star-vault/commit/7b6a116ec3b298a9c232ca08e333210014d80aa7) 已快进合并到 `main`，原子推送 `main` 与 `codex/stars-refresh-20261025`。
+- [流水线 40167521566](https://github.com/jiapeiyang/github-star-vault/actions/runs/40167521566) 的数据验证、测试、生产构建、特刊产物校验和 Pages 部署全部成功，部署于北京时间 **2026-10-25 14:00:47** 完成。
+- 线上构建元数据指向该提交，`activeCount=364`、`totalCount=367`、`weeklyIssueCount=2`。事实快照 SHA-256 为 `1689084704af9ca6b6af87fc5329b4cef7128d4c6f5fce9e0437507ca7794296`。
+- 实际线上目录返回 HTTP 200，与本地验收目录逐字节相同，1574443 字节、SHA-256 `dad63bd023314baadba32d5c15a981b3087f83e2149e37a3b7d7ab9b8b13b4c6`。四篇新增正文、核查日期及 359 篇完整／5 篇受限／0 项待补统计均核对通过。
+- 浏览器真实走通线上 EdgeEver 搜索 → 详情，确认资料来源、2026-10-25 核查日期和未执行示例说明；未捕获应用 warning/error。本次本地与线上测试标签页、服务及下载的临时 README 均已清理。
+
+本记录对应内容发布提交；补充交付证据的后续提交不改变目录正文，最新线上提交以 `data/build-meta.json` 为准。用户原有 `app/qa/production-learning.png` 改动保留、未提交；构建生成的 `app/public/data/*.json` 未提交。
 
 ## 我没有防什么
 
