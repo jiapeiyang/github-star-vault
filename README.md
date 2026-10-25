@@ -65,10 +65,10 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-25T11:21:18Z` · 当前公开 Stars：**366** · 已分类：**364**
+> 最近成功检查：`2026-10-25T16:12:30Z` · 当前公开 Stars：**366** · 已分类：**363**
 
 
-### AI 与 Agent（37）
+### AI 与 Agent（36）
 
 - [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) — 以 Markdown 为持久来源、结合本地索引和可选模型服务的 Agent 记忆运行时。
 - [Thysrael/Horizon](https://github.com/Thysrael/Horizon) — 按兴趣读取多来源资讯，经筛选和模型处理生成中英简报，并支持可选发布与通知。
@@ -77,7 +77,6 @@ GITHUB_PAGES=true npm --prefix app run build
 - [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — 通过技能规则让编码代理先给行动、分步说明，并减少偏题和冗余输出。
 - [DreambigOu/ELI5](https://github.com/DreambigOu/ELI5) — 根据年龄、职业或关系调整术语、类比和解释深度，帮助代理向不同受众讲清概念与代码。
 - [yzfly/awesome-skills-zh](https://github.com/yzfly/awesome-skills-zh) — 中文 Agent Skills 与工具资源目录。
-- [libukai/awesome-agent-skills](https://github.com/libukai/awesome-agent-skills) — Agent Skills 入门与资源推荐合集。
 - [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — 把技术书籍 PDF 转为可供智能体使用的 Skill。
 - [datawhalechina/Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub) — 汇集 Agent 学习路线和资料。
 - [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) — 从零构建智能体的原理与实践教程。
@@ -456,8 +455,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（2）
+### 待分类（3）
 
+- [DUNHKpcc/Claude-Guardian](https://github.com/DUNHKpcc/Claude-Guardian) — Claude Guardian is an all-in-one Claude account safety and risk prevention skill. It intelligently assesses your device, account history, network env…
 - [everett7623/airport-recommendations-2026](https://github.com/everett7623/airport-recommendations-2026) — 2026 机场推荐清单 \| 免费试用/性价比/专线/按量计费 \| 60+机场实测 \| 每日更新
 - [OpenMili/aimili-vpngate](https://github.com/OpenMili/aimili-vpngate) — aimili-vpngate是一个借助vpngate.net让Linux用干净ip出站的代理工具。
 
