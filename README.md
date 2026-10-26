@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-26T04:42:00Z` · 当前公开 Stars：**367** · 已分类：**363**
+> 最近成功检查：`2026-10-26T12:55:39Z` · 当前公开 Stars：**374** · 已分类：**363**
 
 
 ### AI 与 Agent（36）
@@ -455,8 +455,15 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（4）
+### 待分类（11）
 
+- [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) — A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Upd…
+- [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) — A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
+- [Vincentwei1021/mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) — 15 motion design styles, each made by Claude Opus 5.5 writing code from one prompt: watch the films, copy the prompts, read the full source.
+- [mexicat/pdoom-video](https://github.com/mexicat/pdoom-video) — Code-rendered music video for "I'm Upping My P(doom)"
+- [XiaomingX/ai-money-maker-handbook](https://github.com/XiaomingX/ai-money-maker-handbook) — ai副业赚钱大集合，教你如何利用ai做一些副业项目，赚取更多额外收益。The Ultimate Guide to Making Money with AI Side Hustles: Learn how to leverage AI for some cool side gigs and rake…
+- [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) — 暂无 GitHub 描述。
+- [seedds/nxnative](https://github.com/seedds/nxnative) — Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)
 - [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) — Programmer's guide about how to cook at home.
 - [DUNHKpcc/Claude-Guardian](https://github.com/DUNHKpcc/Claude-Guardian) — Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses your device, account history, n…
 - [everett7623/airport-recommendations-2026](https://github.com/everett7623/airport-recommendations-2026) — 2026 机场推荐清单 \| 免费试用/性价比/专线/按量计费 \| 60+机场实测 \| 每日更新
