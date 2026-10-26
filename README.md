@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-25T20:47:49Z` · 当前公开 Stars：**367** · 已分类：**363**
+> 最近成功检查：`2026-10-26T04:42:00Z` · 当前公开 Stars：**367** · 已分类：**363**
 
 
 ### AI 与 Agent（36）
@@ -458,7 +458,7 @@ GITHUB_PAGES=true npm --prefix app run build
 ### 待分类（4）
 
 - [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) — Programmer's guide about how to cook at home.
-- [DUNHKpcc/Claude-Guardian](https://github.com/DUNHKpcc/Claude-Guardian) — Claude Guardian is an all-in-one Claude account safety and risk prevention skill. It intelligently assesses your device, account history, network env…
+- [DUNHKpcc/Claude-Guardian](https://github.com/DUNHKpcc/Claude-Guardian) — Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses your device, account history, n…
 - [everett7623/airport-recommendations-2026](https://github.com/everett7623/airport-recommendations-2026) — 2026 机场推荐清单 \| 免费试用/性价比/专线/按量计费 \| 60+机场实测 \| 每日更新
 - [OpenMili/aimili-vpngate](https://github.com/OpenMili/aimili-vpngate) — aimili-vpngate是一个借助vpngate.net让Linux用干净ip出站的代理工具。
 
