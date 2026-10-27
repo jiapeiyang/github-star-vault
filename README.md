@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-27T17:58:10Z` · 当前公开 Stars：**379** · 已分类：**363**
+> 最近成功检查：`2026-10-27T22:10:24Z` · 当前公开 Stars：**381** · 已分类：**363**
 
 
 ### AI 与 Agent（36）
@@ -455,8 +455,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（16）
+### 待分类（18）
 
+- [amontlabs/lcu](https://github.com/amontlabs/lcu) — Codex computer use, decoupled from the app, for usage inside any harness.
+- [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — Use Codex from Claude Code to review code or delegate tasks.
 - [konlu/story-studio](https://github.com/konlu/story-studio) — 从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill
 - [ChenLiu-1996/figures4papers](https://github.com/ChenLiu-1996/figures4papers) — My Python scripts to make high-quality figures for publications in top AI conferences and journals.
 - [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) — 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。
