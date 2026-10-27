@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-27T04:59:07Z` · 当前公开 Stars：**376** · 已分类：**363**
+> 最近成功检查：`2026-10-27T12:06:27Z` · 当前公开 Stars：**378** · 已分类：**363**
 
 
 ### AI 与 Agent（36）
@@ -455,8 +455,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（13）
+### 待分类（15）
 
+- [ChenLiu-1996/figures4papers](https://github.com/ChenLiu-1996/figures4papers) — My Python scripts to make high-quality figures for publications in top AI conferences and journals.
+- [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) — 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。
 - [designfuchen/word-atlas](https://github.com/designfuchen/word-atlas) — 词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.
 - [heydeer/pngdeer](https://github.com/heydeer/pngdeer) — Smaller PNGs, same picture. Lossy PNG compression that picks the quality for you: 8–12% smaller than TinyPNG at the same quality. Command line and in…
 - [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) — A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Upd…
