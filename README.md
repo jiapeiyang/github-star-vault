@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-29T12:55:44Z` · 当前公开 Stars：**382** · 已分类：**363**
+> 最近成功检查：`2026-10-29T22:42:59Z` · 当前公开 Stars：**383** · 已分类：**363**
 
 
 ### AI 与 Agent（36）
@@ -455,8 +455,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（19）
+### 待分类（20）
 
+- [Sac-Y/match-cut](https://github.com/Sac-Y/match-cut) — 让 Agent 做卡点转场剪辑，一键制作高级产品宣传片
 - [smithjohn78390/tongjiang-lab](https://github.com/smithjohn78390/tongjiang-lab) — Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app
 - [amontlabs/lcu](https://github.com/amontlabs/lcu) — Codex computer use, decoupled from the app, for usage inside any harness.
 - [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — Use Codex from Claude Code to review code or delegate tasks.
