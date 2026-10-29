@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-10-28T22:31:48Z` · 当前公开 Stars：**381** · 已分类：**363**
+> 最近成功检查：`2026-10-29T05:43:29Z` · 当前公开 Stars：**381** · 已分类：**363**
 
 
 ### AI 与 Agent（36）
@@ -463,7 +463,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [ChenLiu-1996/figures4papers](https://github.com/ChenLiu-1996/figures4papers) — My Python scripts to make high-quality figures for publications in top AI conferences and journals.
 - [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) — 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。
 - [designfuchen/word-atlas](https://github.com/designfuchen/word-atlas) — 词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.
-- [heydeer/pngdeer](https://github.com/heydeer/pngdeer) — Smaller PNGs, same picture. Lossy PNG compression that picks the quality for you: 8–12% smaller than TinyPNG at the same quality. Command line and in…
+- [heydeer/pngdeer](https://github.com/heydeer/pngdeer) — Smaller images, same picture. Compress PNGs to PNG or WebP with automatic quality. PNG output is 8–12% smaller than TinyPNG at equal quality on the m…
 - [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) — A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Upd…
 - [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) — A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
 - [Vincentwei1021/mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) — 15 motion design styles, each made by Claude Opus 5.5 writing code from one prompt: watch the films, copy the prompts, read the full source.
