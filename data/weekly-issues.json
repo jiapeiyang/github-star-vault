@@ -228,6 +228,82 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-02",
+      "number": 4,
+      "week_end": "2026-11-08",
+      "generated_at": "2026-11-01T21:58:52+00:00",
+      "facts_checked_at": "2026-11-01T21:58:45Z",
+      "selection_version": 1,
+      "editorial": {
+        "id": "backend-data",
+        "title": "顺着数据，读懂系统",
+        "intro": "从数据怎样进入、保存到被使用，重看收藏中的后端与数据项目。",
+        "question": "数据流经哪些环节？部署、权限和持久化分别由谁负责？"
+      },
+      "entries": [
+        {
+          "repo_id": 1283503,
+          "slot": "lead",
+          "selection": {
+            "name": "request/request",
+            "category": "backend-data",
+            "category_label": "后端与数据",
+            "starred_at": "2017-03-26T08:12:28Z",
+            "age_days": 3508,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 61421257,
+          "slot": "theme",
+          "selection": {
+            "name": "eggjs/egg",
+            "category": "backend-data",
+            "category_label": "后端与数据",
+            "starred_at": "2017-09-05T08:03:56Z",
+            "age_days": 3345,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 82682940,
+          "slot": "theme",
+          "selection": {
+            "name": "chenshenhai/koa2-note",
+            "category": "backend-data",
+            "category_label": "后端与数据",
+            "starred_at": "2021-07-01T04:11:44Z",
+            "age_days": 1950,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 218952250,
+          "slot": "discovery",
+          "selection": {
+            "name": "shfshanyue/Daily-Question",
+            "category": "web-client",
+            "category_label": "Web、前端与跨端",
+            "starred_at": "2021-07-01T04:00:49Z",
+            "age_days": 1950,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 1197515131,
+          "slot": "discovery",
+          "selection": {
+            "name": "VoltAgent/awesome-design-md",
+            "category": "design-content",
+            "category_label": "设计、图像与内容创作",
+            "starred_at": "2026-07-19T14:34:04Z",
+            "age_days": 106,
+            "last_featured_week": null
+          }
+        }
+      ]
     }
   ]
 }
