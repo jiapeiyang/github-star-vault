@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-02T05:57:15Z` · 当前公开 Stars：**384** · 已分类：**363**
+> 最近成功检查：`2026-11-02T15:43:21Z` · 当前公开 Stars：**385** · 已分类：**363**
 
 
 ### AI 与 Agent（36）
@@ -443,7 +443,7 @@ GITHUB_PAGES=true npm --prefix app run build
 
 - [dimthink/PriceAI](https://github.com/dimthink/PriceAI) — 分别整理官方订阅、第三方卡网与 API 渠道的价格、库存、倍率和来源信息。
 - [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) — 整理中小学数学、英语与物理知识点、先修关系及题库，并提供关系浏览和诊断演示。
-- [sunreview/Claude-Pro-Recharge-Guide](https://github.com/sunreview/Claude-Pro-Recharge-Guide) — 介绍第三方卡密充值 Claude Pro 的图文教程，需将商家承诺与官方订阅规则分开核实。
+- [sunreview/Claude-Pro-Subscription-Guide](https://github.com/sunreview/Claude-Pro-Subscription-Guide) — 介绍第三方卡密充值 Claude Pro 的图文教程，需将商家承诺与官方订阅规则分开核实。
 - [mizorewww/x_gift_bot](https://github.com/mizorewww/x_gift_bot) — 围绕 X Premium 礼品提供兑换页、管理后台与订单处理，并带有不连接真实服务的示例预览。
 - [hoochanlon/hamuleite](https://github.com/hoochanlon/hamuleite) — 按社会科学、教育、金融研究与生活议题组织资料和外部资源入口。
 - [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) — 包含动作分类、器械、目标肌群、多语言步骤及配套媒体的健身动作数据集。
@@ -455,8 +455,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（21）
+### 待分类（22）
 
+- [freestylefly/WeChatBridge](https://github.com/freestylefly/WeChatBridge) — 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具
 - [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/E…
 - [Sac-Y/match-cut](https://github.com/Sac-Y/match-cut) — 让 Agent 做卡点转场剪辑，一键制作高级产品宣传片
 - [smithjohn78390/tongjiang-lab](https://github.com/smithjohn78390/tongjiang-lab) — Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app
