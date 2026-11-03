@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-03T14:06:55Z` · 当前公开 Stars：**386** · 已分类：**364**
+> 最近成功检查：`2026-11-03T23:18:09Z` · 当前公开 Stars：**386** · 已分类：**364**
 
 
 ### AI 与 Agent（37）
@@ -264,7 +264,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — 为已有 Claude Code 提供会话阅读、文件审阅、编辑器、终端与远程项目界面。
 - [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) — 通过 ADB 识别和停用电视预装组件，安装简洁启动器，并记录可恢复的改动。
 - [VictorTran1023/android-tv-toolkit](https://github.com/VictorTran1023/android-tv-toolkit) — 按设备与品牌组织 Android TV 的 ADB、侧载、状态观察、快照和恢复流程。
-- [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) — 在本机 DeepSeek Harness 中管理提示词、宿主策略补丁与恢复的实验插件。
+- [HunYiSage/dsh-purge](https://github.com/HunYiSage/dsh-purge) — 在本机 DeepSeek Harness 中管理提示词、宿主策略补丁与恢复的实验插件。
 - [morluto/rea](https://github.com/morluto/rea) — 通过 MCP 与 CLI 分析获授权的软件、二进制和运行行为，并返回代码位置与证据。
 - [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) — 让代理把复杂问题写成 Markdown 草稿，再由内置 CLI 生成含图表、代码与文字的单页 HTML 回答。
 - [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) — 通过本地 MCP 和 WebDriverAgent，让 Codex 经 USB 读取、操作真实 iPhone 并展示屏幕。
