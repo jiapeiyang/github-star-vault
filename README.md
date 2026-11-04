@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-04T14:28:19Z` · 当前公开 Stars：**387** · 已分类：**364**
+> 最近成功检查：`2026-11-04T23:38:11Z` · 当前公开 Stars：**389** · 已分类：**364**
 
 
 ### AI 与 Agent（37）
@@ -456,8 +456,10 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（23）
+### 待分类（25）
 
+- [starship/starship](https://github.com/starship/starship) — ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+- [zed-industries/zed](https://github.com/zed-industries/zed) — Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 - [huilang-me/CF-Server-Monitor](https://github.com/huilang-me/CF-Server-Monitor) — 一个基于 Cloudflare Workers + D1 + Durable Objects 的免费多服务器监控探针系统，支持实时监控、离线告警，到期通知，历史数据查看、延迟追踪、地图展示等功能。兼容主流Linux系统，Alpine Linux，OpenWrt，macOS，群晖 DSM、飞牛 fn…
 - [freestylefly/WeChatBridge](https://github.com/freestylefly/WeChatBridge) — 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具
 - [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/E…
