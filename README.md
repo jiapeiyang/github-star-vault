@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-03T23:18:09Z` · 当前公开 Stars：**386** · 已分类：**364**
+> 最近成功检查：`2026-11-04T06:12:32Z` · 当前公开 Stars：**387** · 已分类：**364**
 
 
 ### AI 与 Agent（37）
@@ -456,8 +456,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（22）
+### 待分类（23）
 
+- [huilang-me/CF-Server-Monitor](https://github.com/huilang-me/CF-Server-Monitor) — 一个基于 Cloudflare Workers + D1 + Durable Objects 的免费多服务器监控探针系统，支持实时监控、离线告警，到期通知，历史数据查看、延迟追踪、地图展示等功能。兼容主流Linux系统，Alpine Linux，OpenWrt，macOS，群晖 DSM、飞牛 fn…
 - [freestylefly/WeChatBridge](https://github.com/freestylefly/WeChatBridge) — 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具
 - [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/E…
 - [Sac-Y/match-cut](https://github.com/Sac-Y/match-cut) — 让 Agent 做卡点转场剪辑，一键制作高级产品宣传片
@@ -468,7 +469,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [ChenLiu-1996/figures4papers](https://github.com/ChenLiu-1996/figures4papers) — My Python scripts to make high-quality figures for publications in top AI conferences and journals.
 - [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) — 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。
 - [designfuchen/word-atlas](https://github.com/designfuchen/word-atlas) — 词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.
-- [heydeer/pngdeer](https://github.com/heydeer/pngdeer) — Smaller images, same picture. Compress PNGs to PNG or WebP with automatic quality. PNG output is 8–12% smaller than TinyPNG at equal quality on the m…
+- [heydeer/slimdeer](https://github.com/heydeer/slimdeer) — Smaller images, same picture. Compress PNGs to PNG or WebP with automatic quality. PNG output is 8–12% smaller than TinyPNG at equal quality on the m…
 - [yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) — A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Upd…
 - [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) — A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
 - [Vincentwei1021/mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) — 15 motion design styles, each made by Claude Opus 5.5 writing code from one prompt: watch the films, copy the prompts, read the full source.
