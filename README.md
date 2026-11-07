@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-07T12:55:47Z` · 当前公开 Stars：**390** · 已分类：**364**
+> 最近成功检查：`2026-11-07T21:46:32Z` · 当前公开 Stars：**390** · 已分类：**363**
 
 
 ### AI 与 Agent（37）
@@ -253,7 +253,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) — 基于 ServiceWorker 实现的浏览器在线代理。
 - [yeasy/docker_practice](https://github.com/yeasy/docker_practice) — Docker 与容器技术的实践学习资料。
 
-### 开发者工具与自动化（99）
+### 开发者工具与自动化（98）
 
 - [tianma-if/edgeever](https://github.com/tianma-if/edgeever) — 结合三栏笔记、网页剪藏、多端同步与 Remote MCP 的自托管知识库。
 - [YOURSJEYO/claude-switcher](https://github.com/YOURSJEYO/claude-switcher) — 为 Claude 桌面环境提供启动检查、会话快照切换、代理诊断及进程守护的社区工具。
@@ -264,7 +264,6 @@ GITHUB_PAGES=true npm --prefix app run build
 - [baocode-dev/baocode](https://github.com/baocode-dev/baocode) — 为已有 Claude Code 提供会话阅读、文件审阅、编辑器、终端与远程项目界面。
 - [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) — 通过 ADB 识别和停用电视预装组件，安装简洁启动器，并记录可恢复的改动。
 - [VictorTran1023/android-tv-toolkit](https://github.com/VictorTran1023/android-tv-toolkit) — 按设备与品牌组织 Android TV 的 ADB、侧载、状态观察、快照和恢复流程。
-- [HunYiSage/dsh-purge](https://github.com/HunYiSage/dsh-purge) — 在本机 DeepSeek Harness 中管理提示词、宿主策略补丁与恢复的实验插件。
 - [morluto/rea](https://github.com/morluto/rea) — 通过 MCP 与 CLI 分析获授权的软件、二进制和运行行为，并返回代码位置与证据。
 - [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) — 让代理把复杂问题写成 Markdown 草稿，再由内置 CLI 生成含图表、代码与文字的单页 HTML 回答。
 - [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) — 通过本地 MCP 和 WebDriverAgent，让 Codex 经 USB 读取、操作真实 iPhone 并展示屏幕。
@@ -456,8 +455,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（26）
+### 待分类（27）
 
+- [KKKKhazix/agent-autoloop](https://github.com/KKKKhazix/agent-autoloop) — 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
 - [fqscfqj/Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto) — YouTube到AcFun和bilibili自动化搬运工具，支持AI翻译、字幕生成、内容审核、智能监控
 - [starship/starship](https://github.com/starship/starship) — ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 - [zed-industries/zed](https://github.com/zed-industries/zed) — Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
