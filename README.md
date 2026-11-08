@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-07T21:46:32Z` · 当前公开 Stars：**390** · 已分类：**363**
+> 最近成功检查：`2026-11-08T05:56:26Z` · 当前公开 Stars：**390** · 已分类：**363**
 
 
 ### AI 与 Agent（37）
