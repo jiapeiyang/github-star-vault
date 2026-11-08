@@ -304,6 +304,82 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-09",
+      "number": 5,
+      "week_end": "2026-11-15",
+      "generated_at": "2026-11-08T21:59:41+00:00",
+      "facts_checked_at": "2026-11-08T21:59:35Z",
+      "selection_version": 1,
+      "editorial": {
+        "id": "ai-agent",
+        "title": "看清 Agent 的工作边界",
+        "intro": "重新辨认模型、工具与工作流的职责，找到收藏项目各自的位置。",
+        "question": "模型负责判断什么，程序负责执行什么？接入前要确认哪些权限、服务与费用？"
+      },
+      "entries": [
+        {
+          "repo_id": 1051566067,
+          "slot": "lead",
+          "selection": {
+            "name": "router-for-me/Cli-Proxy-API-Management-Center",
+            "category": "ai-agent",
+            "category_label": "AI 与 Agent",
+            "starred_at": "2026-06-08T16:32:26Z",
+            "age_days": 153,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 1174369519,
+          "slot": "theme",
+          "selection": {
+            "name": "jnMetaCode/agency-agents-zh",
+            "category": "ai-agent",
+            "category_label": "AI 与 Agent",
+            "starred_at": "2026-05-24T15:47:52Z",
+            "age_days": 169,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 1202599845,
+          "slot": "theme",
+          "selection": {
+            "name": "KKKKhazix/khazix-skills",
+            "category": "ai-agent",
+            "category_label": "AI 与 Agent",
+            "starred_at": "2026-05-22T07:41:05Z",
+            "age_days": 171,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 79780572,
+          "slot": "discovery",
+          "selection": {
+            "name": "ElemeFE/node-interview",
+            "category": "backend-data",
+            "category_label": "后端与数据",
+            "starred_at": "2017-03-13T05:18:04Z",
+            "age_days": 3528,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 55619351,
+          "slot": "discovery",
+          "selection": {
+            "name": "sagalbot/vue-sortable",
+            "category": "web-client",
+            "category_label": "Web、前端与跨端",
+            "starred_at": "2017-09-19T11:25:50Z",
+            "age_days": 3338,
+            "last_featured_week": null
+          }
+        }
+      ]
     }
   ]
 }

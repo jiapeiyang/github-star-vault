@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-08T13:18:36Z` · 当前公开 Stars：**390** · 已分类：**363**
+> 最近成功检查：`2026-11-08T21:59:35Z` · 当前公开 Stars：**389** · 已分类：**363**
 
 
 ### AI 与 Agent（37）
@@ -455,7 +455,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（27）
+### 待分类（26）
 
 - [KKKKhazix/agent-autoloop](https://github.com/KKKKhazix/agent-autoloop) — 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
 - [fqscfqj/Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto) — YouTube到AcFun和bilibili自动化搬运工具，支持AI翻译、字幕生成、内容审核、智能监控
@@ -465,7 +465,6 @@ GITHUB_PAGES=true npm --prefix app run build
 - [freestylefly/WeChatBridge](https://github.com/freestylefly/WeChatBridge) — 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具
 - [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/E…
 - [Sac-Y/match-cut](https://github.com/Sac-Y/match-cut) — 让 Agent 做卡点转场剪辑，一键制作高级产品宣传片
-- [smithjohn78390/tongjiang-lab](https://github.com/smithjohn78390/tongjiang-lab) — Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app
 - [amontlabs/lcu](https://github.com/amontlabs/lcu) — Codex computer use, decoupled from the app, for usage inside any harness.
 - [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — Use Codex from Claude Code to review code or delegate tasks.
 - [konlu/story-studio](https://github.com/konlu/story-studio) — 从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill
