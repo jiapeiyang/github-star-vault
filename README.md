@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-15T06:23:24Z` · 当前公开 Stars：**391** · 已分类：**363**
+> 最近成功检查：`2026-11-15T18:48:03Z` · 当前公开 Stars：**391** · 已分类：**363**
 
 
 ### AI 与 Agent（37）
@@ -458,7 +458,7 @@ GITHUB_PAGES=true npm --prefix app run build
 ### 待分类（28）
 
 - [joeseesun/xnews](https://github.com/joeseesun/xnews) — X News — overseas founder posts &amp; AI videos, rewritten in Qiaomu Chinese
-- [Minireel/HGhub](https://github.com/Minireel/HGhub) — YellowFruit third-party client
+- [Minireel/HGhub](https://github.com/Minireel/HGhub) — Plug-in media player
 - [KKKKhazix/agent-autoloop](https://github.com/KKKKhazix/agent-autoloop) — 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
 - [fqscfqj/Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto) — YouTube到AcFun和bilibili自动化搬运工具，支持AI翻译、字幕生成、内容审核、智能监控
 - [starship/starship](https://github.com/starship/starship) — ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
