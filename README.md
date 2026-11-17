@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-17T07:50:44Z` · 当前公开 Stars：**391** · 已分类：**363**
+> 最近成功检查：`2026-11-17T20:51:27Z` · 当前公开 Stars：**391** · 已分类：**362**
 
 
 ### AI 与 Agent（37）
@@ -253,7 +253,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) — 基于 ServiceWorker 实现的浏览器在线代理。
 - [yeasy/docker_practice](https://github.com/yeasy/docker_practice) — Docker 与容器技术的实践学习资料。
 
-### 开发者工具与自动化（98）
+### 开发者工具与自动化（97）
 
 - [tianma-if/edgeever](https://github.com/tianma-if/edgeever) — 结合三栏笔记、网页剪藏、多端同步与 Remote MCP 的自托管知识库。
 - [YOURSJEYO/claude-switcher](https://github.com/YOURSJEYO/claude-switcher) — 为 Claude 桌面环境提供启动检查、会话快照切换、代理诊断及进程守护的社区工具。
@@ -267,7 +267,6 @@ GITHUB_PAGES=true npm --prefix app run build
 - [morluto/rea](https://github.com/morluto/rea) — 通过 MCP 与 CLI 分析获授权的软件、二进制和运行行为，并返回代码位置与证据。
 - [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) — 让代理把复杂问题写成 Markdown 草稿，再由内置 CLI 生成含图表、代码与文字的单页 HTML 回答。
 - [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) — 通过本地 MCP 和 WebDriverAgent，让 Codex 经 USB 读取、操作真实 iPhone 并展示屏幕。
-- [ShadowHackrs/gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) — 以 Python 和 Selenium 实现批量 Gmail 账户注册的第三方项目；此处仅整理用途与资料边界。
 - [yetone/magpie](https://github.com/yetone/magpie) — 集中管理多个编码代理的模型配置，并通过本地网关连接模型提供方。
 - [panxunying/ai-coding-welfare](https://github.com/panxunying/ai-coding-welfare) — 汇集第三方 AI 编码与模型服务的公开接入、价格、额度和状态资料。
 - [fmhy/edit](https://github.com/fmhy/edit) — FMHY 资源导航的编辑与贡献入口，连接网站、更新记录和备份资料。
@@ -455,8 +454,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（28）
+### 待分类（29）
 
+- [jackotom/hongguo-drama](https://github.com/jackotom/hongguo-drama) — 红果短剧桌面版 · 支持 M 系列 Mac、Intel Mac 和 Windows · 三来源搜索、播放、下载与追剧 · GPL-3.0 开源
 - [joeseesun/xnews](https://github.com/joeseesun/xnews) — X News — overseas founder posts &amp; AI videos, rewritten in Qiaomu Chinese
 - [Minireel/HGhub](https://github.com/Minireel/HGhub) — Plug-in media player
 - [KKKKhazix/agent-autoloop](https://github.com/KKKKhazix/agent-autoloop) — 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
