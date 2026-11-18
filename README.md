@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-18T07:22:00Z` · 当前公开 Stars：**391** · 已分类：**362**
+> 最近成功检查：`2026-11-18T20:27:51Z` · 当前公开 Stars：**391** · 已分类：**361**
 
 
 ### AI 与 Agent（37）
@@ -215,7 +215,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [ElemeFE/node-interview](https://github.com/ElemeFE/node-interview) — 整理 Node.js 岗位面试相关问题与知识。
 - [koajs/koa](https://github.com/koajs/koa) — 以中间件组合方式构建 Node.js Web 服务的框架。
 
-### 基础设施、网络与安全（35）
+### 基础设施、网络与安全（34）
 
 - [caddyserver/caddy](https://github.com/caddyserver/caddy) — 默认自动管理 HTTPS 的模块化 Web 服务器，支持反向代理、静态文件和动态配置。
 - [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) — 通过 HTTP、TCP、Ping、DNS 等探测观察服务可用性，并提供通知和公开状态页。
@@ -247,7 +247,6 @@ GITHUB_PAGES=true npm --prefix app run build
 - [yonggekkk/sing-box-yg](https://github.com/yonggekkk/sing-box-yg) — 面向 VPS 与特定托管平台管理 sing-box 多协议配置及本地订阅的脚本合集。
 - [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) — 连接本地或私有源站与 Cloudflare 网络的 Tunnel 命令行客户端。
 - [qingchencloud/cftunnel](https://github.com/qingchencloud/cftunnel) — 统一管理 Cloudflare Web 隧道和基于 frp 的自建 TCP/UDP 中继。
-- [DanOps-1/Gpt-Agreement-Payment](https://github.com/DanOps-1/Gpt-Agreement-Payment) — 研究订阅支付、授权回调和认证状态衔接的协议重放项目。
 - [ineo6/hosts](https://github.com/ineo6/hosts) — 提供 GitHub 域名映射与本地探测服务，辅助排查特定网络下的访问问题。
 - [awesome-vpn/awesome-vpn](https://github.com/awesome-vpn/awesome-vpn) — 整理多种客户端格式的公开代理订阅列表。
 - [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) — 基于 ServiceWorker 实现的浏览器在线代理。
@@ -454,8 +453,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（29）
+### 待分类（30）
 
+- [lemomo-ai/lemo-animi](https://github.com/lemomo-ai/lemo-animi) — Stop-motion shorts from one line, made with Codex: eight material styles, puppets drawn by an image model and moved frame by frame in code. 一句话，用 Cod…
 - [jackotom/hongguo-drama](https://github.com/jackotom/hongguo-drama) — 红果短剧桌面版 · 支持 M 系列 Mac、Intel Mac 和 Windows · 三来源搜索、播放、下载与追剧 · GPL-3.0 开源
 - [joeseesun/xnews](https://github.com/joeseesun/xnews) — X News — overseas founder posts &amp; AI videos, rewritten in Qiaomu Chinese
 - [Minireel/HGhub](https://github.com/Minireel/HGhub) — Plug-in media player
