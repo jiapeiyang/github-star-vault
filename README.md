@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-21T07:00:07Z` · 当前公开 Stars：**392** · 已分类：**361**
+> 最近成功检查：`2026-11-21T19:10:48Z` · 当前公开 Stars：**393** · 已分类：**361**
 
 
 ### AI 与 Agent（37）
@@ -453,8 +453,9 @@ GITHUB_PAGES=true npm --prefix app run build
 - [nocobase/nocobase](https://github.com/nocobase/nocobase) — 以数据模型、权限、工作流和插件为基础，通过可视化与代理共同搭建业务系统的平台。
 - [xiaolai/regular-investing-in-box](https://github.com/xiaolai/regular-investing-in-box) — 介绍定投理念与长期投资方法的公开读物。
 
-### 待分类（31）
+### 待分类（32）
 
+- [havenicec/google-qr-sms-helper](https://github.com/havenicec/google-qr-sms-helper) — Chrome Extension (MV3) to switch Google's mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile &amp; [3,null,4]…
 - [guanmo-ai/design-style](https://github.com/guanmo-ai/design-style) — 每天一个设计风格：动效短片、风格图与制作指南，完整源码全部开放。 Design styles, motion films, visual guides &amp; editable source code.
 - [lemomo-ai/lemo-animi](https://github.com/lemomo-ai/lemo-animi) — Stop-motion shorts from one line, made with Codex: eight material styles, puppets drawn by an image model and moved frame by frame in code. 一句话，用 Cod…
 - [jackotom/hongguo-drama](https://github.com/jackotom/hongguo-drama) — 红果短剧桌面版 · 支持 M 系列 Mac、Intel Mac 和 Windows · 三来源搜索、播放、下载与追剧 · GPL-3.0 开源
