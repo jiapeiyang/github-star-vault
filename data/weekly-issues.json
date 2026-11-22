@@ -456,6 +456,82 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-23",
+      "number": 7,
+      "week_end": "2026-11-29",
+      "generated_at": "2026-11-22T19:33:10+00:00",
+      "facts_checked_at": "2026-11-22T19:33:03Z",
+      "selection_version": 1,
+      "editorial": {
+        "id": "infra-security",
+        "title": "重新看见，系统的底座",
+        "intro": "从网络、运行环境到可观测性，重访支撑应用运行的收藏。",
+        "question": "它部署在哪一层，触及哪些权限？出现故障时可以观察什么、怎样退出？"
+      },
+      "entries": [
+        {
+          "repo_id": 352276219,
+          "slot": "lead",
+          "selection": {
+            "name": "ineo6/hosts",
+            "category": "infra-security",
+            "category_label": "基础设施、网络与安全",
+            "starred_at": "2022-07-10T18:16:14Z",
+            "age_days": 1596,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 146239863,
+          "slot": "theme",
+          "selection": {
+            "name": "awesome-vpn/awesome-vpn",
+            "category": "infra-security",
+            "category_label": "基础设施、网络与安全",
+            "starred_at": "2021-07-01T05:52:43Z",
+            "age_days": 1971,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 23689830,
+          "slot": "theme",
+          "selection": {
+            "name": "yeasy/docker_practice",
+            "category": "infra-security",
+            "category_label": "基础设施、网络与安全",
+            "starred_at": "2017-09-10T16:24:26Z",
+            "age_days": 3360,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 19141383,
+          "slot": "discovery",
+          "selection": {
+            "name": "fouber/blog",
+            "category": "web-client",
+            "category_label": "Web、前端与跨端",
+            "starred_at": "2021-07-01T04:13:16Z",
+            "age_days": 1971,
+            "last_featured_week": null
+          }
+        },
+        {
+          "repo_id": 1174789082,
+          "slot": "discovery",
+          "selection": {
+            "name": "block/buzz",
+            "category": "devtools-automation",
+            "category_label": "开发者工具与自动化",
+            "starred_at": "2026-07-27T02:42:33Z",
+            "age_days": 119,
+            "last_featured_week": null
+          }
+        }
+      ]
     }
   ]
 }
