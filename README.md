@@ -65,7 +65,7 @@ GITHUB_PAGES=true npm --prefix app run build
 <!-- STAR_VAULT:CATALOG:START -->
 ## 自动生成的项目索引
 
-> 最近成功检查：`2026-11-27T08:21:57Z` · 当前公开 Stars：**396** · 已分类：**361**
+> 最近成功检查：`2026-11-27T21:12:31Z` · 当前公开 Stars：**396** · 已分类：**361**
 
 
 ### AI 与 Agent（37）
@@ -225,7 +225,7 @@ GITHUB_PAGES=true npm --prefix app run build
 - [appshubcc/Bettbox](https://github.com/appshubcc/Bettbox) — 基于 Mihomo 的网络分流与 DNS 调试客户端，提供桌面、移动端及电视适配。
 - [SagerNet/sing-box](https://github.com/SagerNet/sing-box) — 提供可配置入站、出站与路由规则的通用代理平台。
 - [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) — 按 Windows、macOS、Linux、移动端和路由器组织网络工具与教程入口。
-- [chen08209/FlClash](https://github.com/chen08209/FlClash) — 基于 Mihomo 的跨平台代理客户端，提供订阅管理、规则分流、TUN 与连接观察。
+- [Vialibrex/FlClash](https://github.com/Vialibrex/FlClash) — 基于 Mihomo 的跨平台代理客户端，提供订阅管理、规则分流、TUN 与连接观察。
 - [yding-git/personal-edge-proxy](https://github.com/yding-git/personal-edge-proxy) — 通过示例与文档说明 HY2、REALITY、WARP 和固定 SOCKS5 的入口、出口分工。
 - [openwrt/openwrt](https://github.com/openwrt/openwrt) — 为嵌入式设备提供可安装软件包、可定制的 Linux 系统与固件构建体系。
 - [XTLS/Xray-core](https://github.com/XTLS/Xray-core) — 实现 Xray 网络代理核心，并提供 VLESS、XTLS、REALITY 等相关配置与生态入口。
